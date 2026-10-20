@@ -10,7 +10,14 @@ import json
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
-from src.config import LEAGUES, SLATE_DAYS, TOURNAMENTS, season_label, season_start_year
+from src.config import (
+    LEAGUES,
+    SLATE_DAYS,
+    TOURNAMENTS,
+    season_label,
+    season_start_year,
+    tournament_filter_label,
+)
 from src.data.catalog import clubelo_report, load_catalog
 from src.model.elo import replay
 from src.model.predict import predict_match
@@ -138,6 +145,13 @@ def build(today: date | None = None) -> dict:
             },
         )
 
+    data_through: dict[str, date] = {}
+    for match in catalog:
+        if match.finished and match.day <= today:
+            current = data_through.get(match.competition_id)
+            if current is None or match.day > current:
+                data_through[match.competition_id] = match.day
+
     window_end = today + timedelta(days=SLATE_DAYS)
     slate = []
     for match in catalog:
@@ -160,7 +174,9 @@ def build(today: date | None = None) -> dict:
             table,
             finished,
             match.neutral,
+            data_through.get(match.competition_id),
         )
+        through = data_through.get(match.competition_id)
         slate.append(
             {
                 "id": match.id,
@@ -169,6 +185,7 @@ def build(today: date | None = None) -> dict:
                 "kickoff_ct": format_kickoff(match.kickoff_utc) if match.kickoff_utc else None,
                 "competition": match.competition,
                 "competition_id": match.competition_id,
+                "data_through": through.isoformat() if through else None,
                 "kind": match.kind,
                 "neutral": match.neutral,
                 "home_id": slugify(match.home),
@@ -212,18 +229,34 @@ def build(today: date | None = None) -> dict:
     comparison = clubelo_report(cache, {row["key"]: row["rating"] for row in rows}, today)
     generated = datetime.now(timezone.utc).replace(microsecond=0).isoformat()
     public_rows = [{key: value for key, value in row.items() if key != "key"} for row in rows]
+    meta_season = season_label(season_start_year(today))
     meta = {
         "generated_at": generated,
         "timezone": "America/Chicago",
         "through": today.isoformat(),
-        "season": season_label(season_start_year(today)),
+        "season": meta_season,
         "matches_played": len(finished),
         "clubs": len(public_rows),
         "upcoming": len(slate),
         "xg_matches_in_strength_window": book.xg_matches,
         "tournament_seasons": table.tournament_season,
-        "leagues": [{"id": league["id"], "name": league["name"], "country": league["country"]} for league in LEAGUES],
-        "tournaments": [{"id": key, "name": value} for key, value in TOURNAMENTS.items()],
+        "leagues": [
+            {
+                "id": league["id"],
+                "name": league["name"],
+                "country": league["country"],
+                "data_through": data_through[league["id"]].isoformat() if league["id"] in data_through else None,
+            }
+            for league in LEAGUES
+        ],
+        "tournaments": [
+            {
+                "id": key,
+                "name": tournament_filter_label(value, table.tournament_season.get(key), meta_season),
+                "season": table.tournament_season.get(key),
+            }
+            for key, value in TOURNAMENTS.items()
+        ],
         "clubelo": comparison,
         "calibration": calib,
     }

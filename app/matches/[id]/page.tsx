@@ -26,7 +26,10 @@ export default async function MatchPage({ params }: { params: Promise<{ id: stri
     <main>
       <article className="report">
         <header className="report-head">
-          <div className="kicker">{match.competition} · {match.kickoff_ct || match.date}</div>
+          <div className="kicker">
+            {match.competition} · {match.kickoff_ct || match.date}
+            {match.data_through ? ` · data through ${match.data_through}` : ""}
+          </div>
           <h1>
             <Link href={`/teams/${match.home_id}`}>{match.home_name}</Link>
             {" vs "}

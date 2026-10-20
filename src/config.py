@@ -132,6 +132,10 @@ ODDS_SPORTS = [
 
 SLATE_DAYS = 16
 
+# If the last result on file is older than this before the match, form and rest
+# describe the file gap rather than the team. An international break is shorter.
+STALE_RESULT_DAYS = 14
+
 
 def season_start_year(day: date) -> int:
     """European season labelled by the year it starts. July is the boundary."""
@@ -140,6 +144,13 @@ def season_start_year(day: date) -> int:
 
 def season_label(start_year: int) -> str:
     return f"{start_year}-{str(start_year + 1)[-2:]}"
+
+
+def tournament_filter_label(name: str, season: str | None, current: str) -> str:
+    """Name a cup filter by the last season on file until the current one loads."""
+    if season and season < current:
+        return f"{name} {season} entrants"
+    return name
 
 
 def league_seed(league_id: str) -> float:

@@ -7,7 +7,7 @@ from __future__ import annotations
 
 from datetime import date, timedelta
 
-from src.config import DIXON_COLES_RHO, FIRST_HALF_SHARE, XG_BLEND
+from src.config import DIXON_COLES_RHO, FIRST_HALF_SHARE, STALE_RESULT_DAYS, XG_BLEND
 from src.model.dixon_coles import score_grid, summarize
 from src.model.elo import EloMatch, EloTable
 from src.model.ratings import StrengthBook, blend_chance
@@ -209,6 +209,7 @@ def predict_match(
     table: EloTable,
     history: list[EloMatch],
     neutral: bool = False,
+    data_through: date | None = None,
 ) -> dict:
     elo_home = table.rating(home)
     elo_away = table.rating(away)
@@ -241,10 +242,26 @@ def predict_match(
             sentence += f", {bits[1]}, {bits[2]}"
         return sentence + "."
 
+    stale = (
+        data_through is not None and (day - data_through).days > STALE_RESULT_DAYS
+    )
+    if stale and data_through is not None:
+        form_body = (
+            f"Results on file for this competition stop on {data_through.isoformat()}, "
+            "so form and the chance trend are not shown."
+        )
+        rest_body = (
+            f"Rest is not shown. The file stops on {data_through.isoformat()}, "
+            "so a long gap can be missing results rather than a real break."
+        )
+    else:
+        form_body = _trend_sentence(home_name, home_ctx) + " " + _trend_sentence(away_name, away_ctx)
+        rest_body = rest_sentence(home_name, home_ctx) + " " + rest_sentence(away_name, away_ctx)
+
     sections = [
         {
             "title": "Form and chance trend",
-            "body": _trend_sentence(home_name, home_ctx) + " " + _trend_sentence(away_name, away_ctx),
+            "body": form_body,
         },
         {
             "title": "Goals minus xG",
@@ -253,7 +270,7 @@ def predict_match(
         {"title": "Attack against defense", "body": attack_note},
         {
             "title": "Rest and travel",
-            "body": rest_sentence(home_name, home_ctx) + " " + rest_sentence(away_name, away_ctx),
+            "body": rest_body,
         },
         {
             "title": "Game script",

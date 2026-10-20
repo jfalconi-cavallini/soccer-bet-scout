@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useMemo, useState } from "react";
 import type { TeamRow } from "../lib/data";
 
-type League = { id: string; name: string };
+type League = { id: string; name: string; data_through?: string | null };
 type Tournament = { id: string; name: string };
 
 export function RankingsView({
@@ -28,6 +28,10 @@ export function RankingsView({
       return team.name.toLowerCase().includes(needle) || (team.league || "").toLowerCase().includes(needle);
     });
   }, [teams, filter, query]);
+
+  const selectedLeague = filter.startsWith("league:")
+    ? leagues.find((league) => league.id === filter.slice(7))
+    : undefined;
 
   return (
     <>
@@ -70,6 +74,7 @@ export function RankingsView({
           <table>
             <caption className="sub" style={{ textAlign: "left", padding: "12px 14px 0" }}>
               {visible.length} clubs
+              {selectedLeague?.data_through ? ` · data through ${selectedLeague.data_through}` : ""}
             </caption>
             <thead>
               <tr>

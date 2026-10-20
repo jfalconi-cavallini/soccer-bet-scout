@@ -78,3 +78,54 @@ def test_elo_gap_shifts_share_of_goals_not_just_the_label():
     assert even["elo_gap_used"] == even["elo_gap"] + 80
     assert neutral["elo_gap_used"] == 0
     assert even["lambda_home"] > neutral["lambda_home"]
+
+
+def test_stale_file_hides_form_and_rest():
+    matches = [_played(date(2026, 9, 19), "alpha", "beta", 1, 0)]
+    table = replay(matches)
+    book = build_strengths(matches, date(2026, 10, 21))
+    pred = predict_match(
+        "alpha",
+        "beta",
+        "Alpha",
+        "Beta",
+        date(2026, 10, 21),
+        None,
+        "E0",
+        "Premier League",
+        "league",
+        book,
+        table,
+        matches,
+        data_through=date(2026, 9, 19),
+    )
+    form = next(section for section in pred["narrative"] if section["title"] == "Form and chance trend")
+    rest = next(section for section in pred["narrative"] if section["title"] == "Rest and travel")
+    assert "2026-09-19" in form["body"]
+    assert "days ago" not in rest["body"]
+    assert any(section["title"] == "Goals minus xG" for section in pred["narrative"])
+    fresh = predict_match(
+        "alpha",
+        "beta",
+        "Alpha",
+        "Beta",
+        date(2026, 10, 21),
+        None,
+        "E0",
+        "Premier League",
+        "league",
+        book,
+        table,
+        matches,
+        data_through=date(2026, 10, 18),
+    )
+    fresh_rest = next(section["body"] for section in fresh["narrative"] if section["title"] == "Rest and travel")
+    assert "days ago" in fresh_rest
+
+
+def test_tournament_filter_names_the_loaded_season_until_the_current_one():
+    from src.config import tournament_filter_label
+
+    assert tournament_filter_label("Champions League", "2025-26", "2026-27") == "Champions League 2025-26 entrants"
+    assert tournament_filter_label("Europa League", "2026-27", "2026-27") == "Europa League"
+    assert tournament_filter_label("Conference League", None, "2026-27") == "Conference League"

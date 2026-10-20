@@ -46,6 +46,7 @@ export type SlateMatch = {
   kickoff_ct: string | null;
   competition: string;
   competition_id: string;
+  data_through?: string | null;
   kind: string;
   home_id: string;
   away_id: string;
@@ -70,8 +71,8 @@ export type Meta = {
   clubs?: number;
   upcoming?: number;
   tournament_seasons?: Record<string, string>;
-  leagues?: { id: string; name: string; country: string }[];
-  tournaments?: { id: string; name: string }[];
+  leagues?: { id: string; name: string; country: string; data_through?: string | null }[];
+  tournaments?: { id: string; name: string; season?: string | null }[];
   clubelo?: {
     available?: boolean;
     spearman?: number | null;
