@@ -22,6 +22,10 @@ def test_bookmaker_and_openfootball_spellings_match():
         ("rennes", ["Stade Rennais", "Stade Rennais FC 1901"]),
         ("sint truiden", ["St Truiden", "Sint-Truidense VV"]),
         ("ofi crete", ["OFI Crete", "OFI Heraklion"]),
+        ("olympiacos", ["Olympiakos Piraeus", "PAE Olympiakos SFP"]),
+        ("pafos", ["Pafos FC", "Paphos FC"]),
+        ("ferencvaros", ["Ferencvárosi TC", "Ferencvaros"]),
+        ("basel", ["FC Basel 1893", "FC Basel"]),
     ]
     for expected, spellings in groups:
         for spelling in spellings:

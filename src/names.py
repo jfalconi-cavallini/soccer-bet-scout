@@ -401,6 +401,14 @@ _ALIASES = {
     "ofi": "ofi crete",
     "ae kifisias": "kifisia",
     "ae kifisia": "kifisia",
+    "pae olympiakos sfp": "olympiacos",
+    "olympiakos sfp": "olympiacos",
+    "paphos": "pafos",
+    "paphos fc": "pafos",
+    "pafos fc": "pafos",
+    "ferencvarosi tc": "ferencvaros",
+    "basel 1893": "basel",
+    "fc basel 1893": "basel",
 }
 
 

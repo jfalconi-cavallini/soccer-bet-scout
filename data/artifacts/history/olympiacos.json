@@ -2,7 +2,7 @@
   "id": "olympiacos",
   "name": "Olympiakos Piraeus",
   "league": "Super League Greece",
-  "rating": 1582.5,
+  "rating": 1574.1,
   "points": [
     {
       "date": "2021-09-12",
@@ -1307,253 +1307,323 @@
       "event": "match"
     },
     {
+      "date": "2025-09-17",
+      "rating": 1607.96,
+      "opponent": "Paphos FC",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
       "date": "2025-09-21",
-      "rating": 1612.63,
+      "rating": 1607.96,
       "opponent": "Panathinaikos",
       "competition_id": "G1",
       "event": "match"
     },
     {
       "date": "2025-09-27",
-      "rating": 1611.47,
+      "rating": 1606.91,
       "opponent": "Levadeiakos",
       "competition_id": "G1",
       "event": "match"
     },
     {
+      "date": "2025-10-01",
+      "rating": 1602.4,
+      "opponent": "Arsenal FC",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
       "date": "2025-10-05",
-      "rating": 1607.98,
+      "rating": 1599.2,
       "opponent": "PAOK Saloniki",
       "competition_id": "G1",
       "event": "match"
     },
     {
       "date": "2025-10-18",
-      "rating": 1613.45,
+      "rating": 1605.04,
       "opponent": "AE L\u00e1rissa",
       "competition_id": "G1",
       "event": "match"
     },
     {
+      "date": "2025-10-21",
+      "rating": 1591.36,
+      "opponent": "FC Barcelona",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
       "date": "2025-10-26",
-      "rating": 1618.21,
+      "rating": 1597.02,
       "opponent": "AEK Athen",
       "competition_id": "G1",
       "event": "match"
     },
     {
       "date": "2025-11-01",
-      "rating": 1616.7,
+      "rating": 1596.01,
       "opponent": "Aris Saloniki",
       "competition_id": "G1",
       "event": "match"
     },
     {
+      "date": "2025-11-04",
+      "rating": 1595.08,
+      "opponent": "PSV Eindhoven",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
       "date": "2025-11-09",
-      "rating": 1623.41,
+      "rating": 1602.75,
       "opponent": "AE Kifisias",
       "competition_id": "G1",
       "event": "match"
     },
     {
       "date": "2025-11-22",
-      "rating": 1629.1,
+      "rating": 1609.27,
       "opponent": "Atromitos",
       "competition_id": "G1",
       "event": "match"
     },
     {
+      "date": "2025-11-26",
+      "rating": 1603.9,
+      "opponent": "Real Madrid CF",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
       "date": "2025-11-30",
-      "rating": 1630.87,
+      "rating": 1606.44,
       "opponent": "Panetolikos",
       "competition_id": "G1",
       "event": "match"
     },
     {
       "date": "2025-12-06",
-      "rating": 1634.01,
+      "rating": 1610.32,
       "opponent": "OFI Heraklion",
       "competition_id": "G1",
       "event": "match"
     },
     {
+      "date": "2025-12-09",
+      "rating": 1613.47,
+      "opponent": "FK Kairat",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
       "date": "2025-12-14",
-      "rating": 1631.89,
+      "rating": 1611.97,
       "opponent": "Aris Saloniki",
       "competition_id": "G1",
       "event": "match"
     },
     {
       "date": "2025-12-20",
-      "rating": 1624.67,
+      "rating": 1605.1,
       "opponent": "AE Kifisias",
       "competition_id": "G1",
       "event": "match"
     },
     {
       "date": "2026-01-10",
-      "rating": 1632.87,
+      "rating": 1614.18,
       "opponent": "Atromitos",
       "competition_id": "G1",
       "event": "match"
     },
     {
+      "date": "2026-01-20",
+      "rating": 1620.61,
+      "opponent": "Bayer 04 Leverkusen",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
       "date": "2026-01-24",
-      "rating": 1630.12,
+      "rating": 1618.09,
       "opponent": "Volos NFC",
       "competition_id": "G1",
       "event": "match"
     },
     {
+      "date": "2026-01-28",
+      "rating": 1622.76,
+      "opponent": "AFC Ajax",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
       "date": "2026-02-01",
-      "rating": 1631.51,
+      "rating": 1624.35,
       "opponent": "AEK Athen",
       "competition_id": "G1",
       "event": "match"
     },
     {
       "date": "2026-02-04",
-      "rating": 1641.78,
+      "rating": 1634.98,
       "opponent": "Asteras Tripolis",
       "competition_id": "G1",
       "event": "match"
     },
     {
       "date": "2026-02-08",
-      "rating": 1632.08,
+      "rating": 1625.43,
       "opponent": "Panathinaikos",
       "competition_id": "G1",
       "event": "match"
     },
     {
       "date": "2026-02-14",
-      "rating": 1632.22,
+      "rating": 1625.78,
       "opponent": "Levadeiakos",
       "competition_id": "G1",
       "event": "match"
     },
     {
+      "date": "2026-02-18",
+      "rating": 1610.08,
+      "opponent": "Bayer 04 Leverkusen",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
       "date": "2026-02-21",
-      "rating": 1632.85,
+      "rating": 1611.33,
       "opponent": "Panetolikos",
       "competition_id": "G1",
       "event": "match"
     },
     {
+      "date": "2026-02-24",
+      "rating": 1614.05,
+      "opponent": "Bayer 04 Leverkusen",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
       "date": "2026-03-01",
-      "rating": 1631.35,
+      "rating": 1612.98,
       "opponent": "Panserraikos",
       "competition_id": "G1",
       "event": "match"
     },
     {
       "date": "2026-03-08",
-      "rating": 1628.55,
+      "rating": 1610.72,
       "opponent": "PAOK Saloniki",
       "competition_id": "G1",
       "event": "match"
     },
     {
       "date": "2026-03-14",
-      "rating": 1639.53,
+      "rating": 1622.59,
       "opponent": "OFI Heraklion",
       "competition_id": "G1",
       "event": "match"
     },
     {
       "date": "2026-03-22",
-      "rating": 1631.45,
+      "rating": 1614.76,
       "opponent": "AE L\u00e1rissa",
       "competition_id": "G1",
       "event": "match"
     },
     {
       "date": "2026-04-05",
-      "rating": 1624.1,
+      "rating": 1607.87,
       "opponent": "AEK Athen",
       "competition_id": "G1",
       "event": "match"
     },
     {
       "date": "2026-04-19",
-      "rating": 1637.14,
+      "rating": 1621.65,
       "opponent": "Panathinaikos",
       "competition_id": "G1",
       "event": "match"
     },
     {
       "date": "2026-05-03",
-      "rating": 1628.21,
+      "rating": 1613.4,
       "opponent": "PAOK Saloniki",
       "competition_id": "G1",
       "event": "match"
     },
     {
       "date": "2026-05-10",
-      "rating": 1625.35,
+      "rating": 1610.92,
       "opponent": "PAOK Saloniki",
       "competition_id": "G1",
       "event": "match"
     },
     {
       "date": "2026-05-13",
-      "rating": 1625.55,
+      "rating": 1611.49,
       "opponent": "Panathinaikos",
       "competition_id": "G1",
       "event": "match"
     },
     {
       "date": "2026-05-17",
-      "rating": 1628.33,
+      "rating": 1614.64,
       "opponent": "AEK Athen",
       "competition_id": "G1",
       "event": "match"
     },
     {
       "date": "2026-07-01",
-      "rating": 1581.81,
+      "rating": 1572.02,
       "opponent": null,
       "competition_id": null,
       "event": "season"
     },
     {
       "date": "2026-08-22",
-      "rating": 1583.79,
+      "rating": 1574.21,
       "opponent": "Atromitos",
       "competition_id": "G1",
       "event": "match"
     },
     {
       "date": "2026-08-30",
-      "rating": 1586.42,
+      "rating": 1577.1,
       "opponent": "Asteras Tripolis",
       "competition_id": "G1",
       "event": "match"
     },
     {
       "date": "2026-09-05",
-      "rating": 1586.25,
+      "rating": 1577.19,
       "opponent": "Volos NFC",
       "competition_id": "G1",
       "event": "match"
     },
     {
       "date": "2026-09-12",
-      "rating": 1579.51,
+      "rating": 1570.62,
       "opponent": "OFI Heraklion",
       "competition_id": "G1",
       "event": "match"
     },
     {
       "date": "2026-09-20",
-      "rating": 1582.67,
+      "rating": 1574.03,
       "opponent": "Levadeiakos",
       "competition_id": "G1",
       "event": "match"
     },
     {
       "date": "2026-10-11",
-      "rating": 1582.53,
+      "rating": 1574.09,
       "opponent": "Panathinaikos",
       "competition_id": "G1",
       "event": "match"

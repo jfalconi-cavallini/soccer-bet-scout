@@ -26,18 +26,18 @@ python -m pytest -q
 
 `build` is safe to re-run. Past seasons are cached on disk under `data/cache/` (gitignored). The current season expires after 12 hours. football-data.org calls, when a key is present, wait 6.5 seconds between requests so the free tier stays under 10 per minute.
 
-The files in `data/artifacts/` are a snapshot from 20 Oct 2026 (21,900 played matches, 395 clubs, 143 upcoming). Top of the pool:
+The files in `data/artifacts/` are a snapshot from 20 Oct 2026 (21,900 played matches, 393 clubs, 143 upcoming). Top of the pool:
 
 ```
   #      Elo  League                  Club
-    1   1711.9  Bundesliga              FC Bayern München
-    2   1697.8  La Liga                 FC Barcelona
-    3   1675.6  Premier League          Arsenal FC
-    4   1662.2  Ligue 1                 Paris Saint-Germain FC
-    5   1660.0  Premier League          Manchester City FC
-    6   1649.6  Serie A                 FC Internazionale Milano
-    7   1641.7  Eredivisie              PSV Eindhoven
-    8   1640.5  La Liga                 Real Madrid CF
+    1   1712.6  Bundesliga              FC Bayern München
+    2   1698.7  La Liga                 FC Barcelona
+    3   1676.5  Premier League          Arsenal FC
+    4   1662.4  Ligue 1                 Paris Saint-Germain FC
+    5   1660.2  Premier League          Manchester City FC
+    6   1649.7  Serie A                 FC Internazionale Milano
+    7   1642.6  Eredivisie              PSV Eindhoven
+    8   1641.5  La Liga                 Real Madrid CF
 ```
 
 `python -m src.cli match "Arsenal" "Everton"` on that snapshot:
@@ -50,7 +50,7 @@ The files in `data/artifacts/` are a snapshot from 20 Oct 2026 (21,900 played ma
   Win %     Everton FC                    20.4%
   xG        1.54  –  0.88     1H  0.69  –  0.40
   Over 2.5   43.6%     BTTS   47.3%
-  Elo       1676  –  1559   gap +116
+  Elo       1676  –  1559   gap +117
 ```
 
 Kickoffs are America/Chicago. 24 Oct 2026 is still on daylight time; the London source clock is 15:00 BST.
