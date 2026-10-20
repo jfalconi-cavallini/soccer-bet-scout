@@ -2,7 +2,7 @@
   "id": "sabah",
   "name": "Sabah FK",
   "league": null,
-  "rating": 1332.7,
+  "rating": 1328.6,
   "points": [
     {
       "date": "2024-07-25",
@@ -99,6 +99,13 @@
       "date": "2026-10-13",
       "rating": 1332.75,
       "opponent": "SK Slavia Praha",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-20",
+      "rating": 1328.63,
+      "opponent": "Borussia Dortmund",
       "competition_id": "UCL",
       "event": "match"
     }

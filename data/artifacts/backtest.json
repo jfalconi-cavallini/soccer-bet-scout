@@ -6,7 +6,7 @@
     "2025-26",
     "2026-27"
   ],
-  "rule": "Each match uses Elo and attack/defense from earlier dates only. The match, later matches, and other matches on the same day are left out. League-average rates are that league's results before the date. Bookmaker figures are closing prices from football-data.co.uk, with the overround removed, on the matches that have them.",
+  "rule": "Each match uses Elo and attack/defense from earlier dates only. The match, later matches, and other matches on the same day are left out. League-average rates are that competition's results before the date. Bookmaker figures are closing prices from football-data.co.uk, with the overround removed, on the matches that have them. The overall table is domestic leagues. Champions League, Europa League, and Conference League are scored separately. A cup mismatch is an Elo gap above 200 or a closing price above 75% on one side.",
   "overall": {
     "matches": 7929,
     "model_brier": 0.6012,
@@ -676,7 +676,7 @@
           "count": 517,
           "predicted": 0.482,
           "actual": 0.484,
-          "brier": 0.2522
+          "brier": 0.2523
         },
         {
           "market": "btts",
@@ -708,7 +708,7 @@
           "count": 517,
           "predicted": 0.392,
           "actual": 0.358,
-          "brier": 0.2361
+          "brier": 0.236
         }
       ]
     },
@@ -899,8 +899,8 @@
     {
       "season": "2026-27",
       "matches": 744,
-      "model_brier": 0.6011,
-      "model_log_loss": 1.006,
+      "model_brier": 0.601,
+      "model_log_loss": 1.0059,
       "model_rps": 0.2113,
       "model_accuracy": 0.5188,
       "rates_brier": 0.6476,
@@ -911,8 +911,8 @@
       "odds_books": {
         "bet365": 744
       },
-      "model_on_odds_brier": 0.6011,
-      "model_on_odds_log_loss": 1.006,
+      "model_on_odds_brier": 0.601,
+      "model_on_odds_log_loss": 1.0059,
       "model_on_odds_rps": 0.2113,
       "model_on_odds_accuracy": 0.5188,
       "book_brier": 0.5646,
@@ -1082,14 +1082,14 @@
         {
           "from": 0.4,
           "to": 0.6,
-          "count": 5202,
+          "count": 5203,
           "predicted": 0.506,
           "actual": 0.524
         },
         {
           "from": 0.6,
           "to": 0.8,
-          "count": 1823,
+          "count": 1822,
           "predicted": 0.656,
           "actual": 0.628
         },
@@ -1750,5 +1750,118 @@
     "Home -1.5 in the 40% to 60% band averages 45.1%, and the results landed 56.7%. The price is lower than the results.",
     "Home -1 in the 40% to 60% band averages 45.1%, and the results landed 56.7%. The price is lower than the results."
   ],
-  "generated_at": "2026-10-20T15:39:28+00:00"
+  "cups": {
+    "matches": 1614,
+    "model_brier": 0.5879,
+    "model_log_loss": 0.9877,
+    "model_rps": 0.2119,
+    "model_accuracy": 0.5378,
+    "rates_brier": 0.6248,
+    "rates_log_loss": 1.036,
+    "rates_rps": 0.2314,
+    "rates_accuracy": 0.4913,
+    "odds_matches": 0,
+    "odds_books": {},
+    "model_on_odds_brier": null,
+    "model_on_odds_log_loss": null,
+    "model_on_odds_rps": null,
+    "model_on_odds_accuracy": null,
+    "book_brier": null,
+    "book_log_loss": null,
+    "book_rps": null,
+    "book_accuracy": null
+  },
+  "cup_competitions": [
+    {
+      "id": "UCL",
+      "name": "Champions League",
+      "matches": 598,
+      "model_brier": 0.565,
+      "model_log_loss": 0.956,
+      "model_rps": 0.2089,
+      "model_accuracy": 0.5686,
+      "rates_brier": 0.6144,
+      "rates_log_loss": 1.0182,
+      "rates_rps": 0.2355,
+      "rates_accuracy": 0.5017,
+      "odds_matches": 0,
+      "odds_books": {},
+      "model_on_odds_brier": null,
+      "model_on_odds_log_loss": null,
+      "model_on_odds_rps": null,
+      "model_on_odds_accuracy": null,
+      "book_brier": null,
+      "book_log_loss": null,
+      "book_rps": null,
+      "book_accuracy": null
+    },
+    {
+      "id": "UEL",
+      "name": "Europa League",
+      "matches": 351,
+      "model_brier": 0.5934,
+      "model_log_loss": 0.9947,
+      "model_rps": 0.2068,
+      "model_accuracy": 0.5328,
+      "rates_brier": 0.6355,
+      "rates_log_loss": 1.0535,
+      "rates_rps": 0.2288,
+      "rates_accuracy": 0.4758,
+      "odds_matches": 0,
+      "odds_books": {},
+      "model_on_odds_brier": null,
+      "model_on_odds_log_loss": null,
+      "model_on_odds_rps": null,
+      "model_on_odds_accuracy": null,
+      "book_brier": null,
+      "book_log_loss": null,
+      "book_rps": null,
+      "book_accuracy": null
+    },
+    {
+      "id": "UECL",
+      "name": "Conference League",
+      "matches": 665,
+      "model_brier": 0.6056,
+      "model_log_loss": 1.0125,
+      "model_rps": 0.2173,
+      "model_accuracy": 0.5128,
+      "rates_brier": 0.6284,
+      "rates_log_loss": 1.0428,
+      "rates_rps": 0.2292,
+      "rates_accuracy": 0.4902,
+      "odds_matches": 0,
+      "odds_books": {},
+      "model_on_odds_brier": null,
+      "model_on_odds_log_loss": null,
+      "model_on_odds_rps": null,
+      "model_on_odds_accuracy": null,
+      "book_brier": null,
+      "book_log_loss": null,
+      "book_rps": null,
+      "book_accuracy": null
+    }
+  ],
+  "cup_mismatches": {
+    "matches": 273,
+    "model_brier": 0.4577,
+    "model_log_loss": 0.7998,
+    "model_rps": 0.1588,
+    "model_accuracy": 0.6996,
+    "rates_brier": 0.6208,
+    "rates_log_loss": 1.0269,
+    "rates_rps": 0.2401,
+    "rates_accuracy": 0.4835,
+    "odds_matches": 0,
+    "odds_books": {},
+    "model_on_odds_brier": null,
+    "model_on_odds_log_loss": null,
+    "model_on_odds_rps": null,
+    "model_on_odds_accuracy": null,
+    "book_brier": null,
+    "book_log_loss": null,
+    "book_rps": null,
+    "book_accuracy": null
+  },
+  "generated_at": "2026-10-20T19:15:49+00:00"
 }

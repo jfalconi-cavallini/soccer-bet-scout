@@ -27,18 +27,18 @@ python -m pytest -q
 
 `build` is safe to re-run. Past seasons are cached on disk under `data/cache/` (gitignored). The current season expires after 12 hours. football-data.org calls, when a key is present, wait 6.5 seconds between requests so the free tier stays under 10 per minute.
 
-The files in `data/artifacts/` are a snapshot from 20 Oct 2026 (21,946 played matches, 394 clubs, 191 upcoming). Top of the pool:
+The files in `data/artifacts/` are a snapshot from 20 Oct 2026 (22,017 played matches, 393 clubs, 189 upcoming). Top of the pool:
 
 ```
   #      Elo  League                  Club
-    1   1838.5  La Liga                 FC Barcelona
-    2   1830.2  Premier League          Arsenal FC
-    3   1795.6  Bundesliga              FC Bayern München
-    4   1769.6  La Liga                 Real Madrid CF
-    5   1768.0  Premier League          Manchester City FC
-    6   1753.2  Ligue 1                 Paris Saint-Germain FC
-    7   1706.8  La Liga                 Club Atlético de Madrid
-    8   1704.0  Premier League          Liverpool FC
+    1   1835.2  La Liga                 FC Barcelona
+    2   1832.8  Premier League          Arsenal FC
+    3   1801.6  Bundesliga              FC Bayern München
+    4   1769.5  Premier League          Manchester City FC
+    5   1765.4  La Liga                 Real Madrid CF
+    6   1759.8  Ligue 1                 Paris Saint-Germain FC
+    7   1713.7  Serie A                 FC Internazionale Milano
+    8   1712.9  Premier League          Liverpool FC
 ```
 
 `python -m src.cli match "Arsenal" "Everton"` on that snapshot:
@@ -46,33 +46,33 @@ The files in `data/artifacts/` are a snapshot from 20 Oct 2026 (21,946 played ma
 ```
   Arsenal FC  vs  Everton FC
   Premier League  ·  Sat, Oct 24, 2026, 9:00 AM CDT
-  Win %     Arsenal FC                    56.4%
-  Draw                                    27.0%
-  Win %     Everton FC                    16.5%
-  xG        1.62  –  0.77     1H  0.75  –  0.33
-  Over 2.5   42.6%     BTTS   44.2%
-  Elo       1830  –  1636   gap +194
+  Win %     Arsenal FC                    56.7%
+  Draw                                    26.9%
+  Win %     Everton FC                    16.4%
+  xG        1.63  –  0.77     1H  0.76  –  0.33
+  Over 2.5   42.9%     BTTS   44.2%
+  Elo       1833  –  1621   gap +212
 
   First half
     xG  0.75  –  0.33
-    W/D/L   41.4 /  44.4 /  14.2
-    BTTS  15.9%    Over 0.5  65.5%    Over 1.5  30.5%
+    W/D/L   41.5 /  44.3 /  14.1
+    BTTS  15.9%    Over 0.5  65.6%    Over 1.5  30.6%
 
   Most likely
     Everton FC under 4.5                          99.9%
     Everton FC under 3.5                          99.2%
-    Arsenal FC under 4.5                          97.7%
+    Arsenal FC under 4.5                          97.6%
     Everton FC under 2.5                          95.7%
-    Arsenal FC +1.5                               94.8%
+    Arsenal FC +1.5                               94.9%
 ```
 
 Kickoffs are America/Chicago. 24 Oct 2026 is still on daylight time; the Premier League source clock is 15:00 BST.
 
 ## How a match is scored
 
-**Attack and defense.** Each club's recent matches are time-decayed (half-life about 140 days, window of 18 months) and adjusted for the opponent: a goal against a strong defense counts for more. When a file includes `HxG` / `AxG`, those values are blended with the actual goals (65% xG, 35% goals). A short sample is shrunk toward average. After the fit, each league's scoring baseline is rescaled so the matches in that window predict the goals that were actually scored. An attack above 1.00 creates more than a typical side. A defense above 1.00 allows more.
+**Attack and defense.** Each club's recent matches are time-decayed (half-life about 140 days, window of 18 months) and adjusted for the opponent: a goal against a strong defense counts for more. When a file includes `HxG` / `AxG`, those values are blended with the actual goals (65% xG, 35% goals). A short sample is shrunk toward average. After the fit, each league's scoring baseline is rescaled so the matches in that window predict the goals that were actually scored. An attack above 1.00 creates more than a typical side. A defense above 1.00 allows more. Those indexes are centered inside each league, so an average side in Greece and an average side in England both sit near 1.00. Inside one league, Elo only moves how the attack/defense total is shared (30% of the gap, one goal of difference per 400 points). In a European cup between clubs from different leagues, or against a club with no covered league, that total stays and the Elo gap sets the whole goal difference, at two goals per 400 points. Two clubs from the same league keep the domestic split even when they meet in Europe.
 
-**Elo.** The result that moves a rating is a win, draw, or loss (1 / 0.5 / 0). A margin multiplier still makes a 4-0 move more than a 1-0, and xG is blended in when the file has it. The multiplier is not applied on top of a second goal-difference curve. Home teams get 80 Elo points of advantage, except in a one-off final, and that same 80 is added back into the goal model for non-neutral matches. Opening ratings in 2021-22 follow the UEFA association coefficients from the end of 2020/21, centered on 1500, so England starts above Greece. Clubs that only appear in Europe are seeded 175 points below the covered-league average and regress there between seasons. A club inside a domestic league regresses a third of the way back to its league mean. A club entering a league takes the average rating of the clubs that left. Domestic leagues in the pool: Premier League, La Liga, Serie A, Bundesliga, Ligue 1, Eredivisie, Primeira Liga, Belgian Pro League, Super Lig, Greek Super League, Scottish Premiership, and the Austrian Bundesliga.
+**Elo.** The result that moves a rating is a win, draw, or loss (1 / 0.5 / 0). A margin multiplier still makes a 4-0 move more than a 1-0, and xG is blended in when the file has it. The multiplier is not applied on top of a second goal-difference curve. Home teams get 80 Elo points of advantage, except in a one-off final, and that same 80 is added back into the goal model for non-neutral matches. Opening ratings in 2021-22 follow the UEFA association coefficients from the end of 2020/21, centered on 1500, so England starts above Greece. Clubs that only appear in Europe are seeded 175 points below the covered-league average and regress there between seasons. That anchor stays put: those clubs are already below the covered leagues, and the cup goal model uses the gap. Lowering the seed would also move every domestic rating. A club inside a domestic league regresses a third of the way back to its league mean. A club entering a league takes the average rating of the clubs that left. Domestic leagues in the pool: Premier League, La Liga, Serie A, Bundesliga, Ligue 1, Eredivisie, Primeira Liga, Belgian Pro League, Super Lig, Greek Super League, Scottish Premiership, and the Austrian Bundesliga.
 
 **Score grid.** The two expected-goal figures become a Dixon-Coles grid from 0-0 through 6-6. The low-score correction (rho = -0.10) raises the chance of 0-0 and 1-1 versus two independent Poissons. The grid is scaled so the cells sum to 1. First-half xG is each team's fitted share of its full-match figure, taken from historical half-time scores in that league and shrunk toward the league when the club has a long enough sample. A league needs 40 matches and 80 goals before its share is used. Cups and thin leagues use the average of the fitted leagues, or 45% when none qualify. Shares stay between 30% and 62%. The second half is the remaining xG on its own grid. The two halves are independent given that split; they are not a correlated two-half state model.
 
@@ -82,7 +82,9 @@ Logged slate probabilities are kept the first time they are written. A rebuild i
 
 **Backtest.** `python -m src.cli backtest` replays 2024-25, 2025-26, and 2026-27 to date. Each match is scored from Elo and attack/defense fitted only on earlier dates. That day's other results, and every later match, stay out of the fit. The report scores home/draw/away with multiclass Brier, log loss, ranked probability score, and top-pick accuracy. It also bins over/under 2.5, both teams to score, the first-half markets, and the result/total combinations. Two benchmarks sit beside the model: that league's own result rates before the date, and closing 1X2 prices from football-data.co.uk where the file has them (Pinnacle close, then Bet365 close, then the market average), with the overround removed. The bookmaker line is a benchmark only. `/backtest` reads `data/artifacts/backtest.json`.
 
-On the 20 Oct 2026 run, 7,860 league matches: model Brier 0.601, log loss 1.007, ranked probability score 0.206, top pick 51.6%. League rates on the same matches: 0.651, 1.075, 0.231, and 43.2%. On the 7,589 matches with a closing price, the model is 0.600 and the close is 0.571. The model beats the league rates in every covered league. The close is still sharper, by about three hundredths of a Brier point overall, and in every league that has prices. Home favorites in the 60–80% band won 78% of the time, and first-half draws are priced at 42.8% against a 39.4% result.
+On the 20 Oct 2026 run, 7,929 league matches: model Brier 0.601, log loss 1.006, ranked probability score 0.207, top pick 51.7%. League rates on the same matches: 0.650, 1.075, 0.231, and 43.3%. On the 7,668 matches with a closing price, the model is 0.600 and the close is 0.571. The model beats the league rates in every covered league. The close is still sharper, by about three hundredths of a Brier point overall, and in every league that has prices. The cup change does not move these league figures: the same file scored 0.601 before and after.
+
+European cups are a separate slice. 1,614 Champions League, Europa League, and Conference League matches: model Brier 0.588, log loss 0.988, top pick 53.8%, against 0.615, 1.025, and 50.4% before the cross-league goal difference. Cup result rates on the same matches are 0.625, 1.036, and 49.1%. Mismatches (Elo gap above 200) are 273 matches: Brier 0.458, log loss 0.800, top pick 70.0%, against 0.533, 0.909, and 64.8% before. The cup files have no closing 1X2, so there is no bookmaker line on that slice. Home favorites in the league 60–80% band won 78.3% of the time against a 64.9% price, and first-half draws are priced at 42.8% against a 39.3% result.
 
 ## Environment variables
 

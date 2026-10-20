@@ -2,7 +2,7 @@
   "id": "aek-athens",
   "name": "AEK Athen",
   "league": "Super League Greece",
-  "rating": 1560.2,
+  "rating": 1544.5,
   "points": [
     {
       "date": "2021-09-12",
@@ -1377,24 +1377,38 @@
       "event": "match"
     },
     {
+      "date": "2026-09-08",
+      "rating": 1563.22,
+      "opponent": "LASK Linz",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
       "date": "2026-09-13",
-      "rating": 1555.55,
+      "rating": 1560.62,
       "opponent": "Asteras Tripolis",
       "competition_id": "G1",
       "event": "match"
     },
     {
       "date": "2026-09-20",
-      "rating": 1557.2,
+      "rating": 1562.14,
       "opponent": "Volos NFC",
       "competition_id": "G1",
       "event": "match"
     },
     {
       "date": "2026-10-10",
-      "rating": 1560.17,
+      "rating": 1564.95,
       "opponent": "OFI Heraklion",
       "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-14",
+      "rating": 1544.54,
+      "opponent": "FK Shakhtar Donetsk",
+      "competition_id": "UCL",
       "event": "match"
     }
   ]
