@@ -12,6 +12,7 @@ league's mean, and clubs coming up take the level of the clubs that went down.
 from __future__ import annotations
 
 import math
+from collections.abc import Callable
 from dataclasses import dataclass, field
 from datetime import date
 
@@ -158,11 +159,17 @@ def _record(history: dict[str, list[HistoryPoint]], team: str, point: HistoryPoi
     history.setdefault(team, []).append(point)
 
 
-def replay(matches: list[EloMatch], today: date | None = None) -> EloTable:
+def replay(
+    matches: list[EloMatch],
+    today: date | None = None,
+    before_apply: Callable[[dict[str, float], EloMatch], None] | None = None,
+) -> EloTable:
     """Replay every match from the seeded 2021-22 season through `today`.
 
     The same multiset of matches always produces the same ratings. Input
     order does not matter; matches are sorted before they are applied.
+    `before_apply`, when set, sees the ratings after every earlier match
+    and before this one is scored.
     """
     ordered = sorted(
         matches,
@@ -250,6 +257,11 @@ def replay(matches: list[EloMatch], today: date | None = None) -> EloTable:
             close_season(current_season, date(season, 7, 1))
             current_season = season
             seen_seasons.append(season)
+
+        # Ratings here include every earlier date, and not this match.
+        # Callers must not mutate the dict; replay still owns it.
+        if before_apply is not None:
+            before_apply(ratings, match)
 
         new_home, new_away = apply_match(ratings, match)
         played[match.home] = played.get(match.home, 0) + 1

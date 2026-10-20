@@ -28,6 +28,10 @@ class CatalogMatch:
     source: str = ""
     ht_home: int | None = None
     ht_away: int | None = None
+    close_home: float | None = None
+    close_draw: float | None = None
+    close_away: float | None = None
+    close_book: str = ""
 
     @property
     def finished(self) -> bool:
@@ -71,21 +75,34 @@ def _adopt_halves(kept: CatalogMatch, other: CatalogMatch) -> None:
         kept.ht_away = other.ht_away
 
 
+def _adopt_close(kept: CatalogMatch, other: CatalogMatch) -> None:
+    """Closing prices are optional. Keep them from whichever file has them."""
+    if kept.close_home is None and other.close_home is not None:
+        kept.close_home = other.close_home
+        kept.close_draw = other.close_draw
+        kept.close_away = other.close_away
+        kept.close_book = other.close_book
+
+
 def prefer(existing: CatalogMatch, incoming: CatalogMatch) -> CatalogMatch:
     """Keep the richer record when two sources describe the same match."""
     if incoming.finished and not existing.finished:
         _adopt_halves(incoming, existing)
+        _adopt_close(incoming, existing)
         return incoming
     if existing.finished and not incoming.finished:
         _adopt_kickoff(existing, incoming)
         _adopt_halves(existing, incoming)
+        _adopt_close(existing, incoming)
         return existing
     if incoming.xg_home is not None and existing.xg_home is None:
         _adopt_halves(incoming, existing)
+        _adopt_close(incoming, existing)
         _adopt_kickoff(incoming, existing)
         return incoming
     _adopt_kickoff(existing, incoming)
     _adopt_halves(existing, incoming)
+    _adopt_close(existing, incoming)
     if len(incoming.home_name) > len(existing.home_name):
         existing.home_name = incoming.home_name
         existing.away_name = incoming.away_name

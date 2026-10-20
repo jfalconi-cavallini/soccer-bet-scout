@@ -39,6 +39,26 @@ def _float(value: str) -> float | None:
         return None
 
 
+# Closing 1X2 prices. Pinnacle first, then Bet365, then the market average.
+# Opening prices are not used as a stand-in for the close.
+_CLOSING_BOOKS = (
+    ("pinnacle", "PSCH", "PSCD", "PSCA"),
+    ("bet365", "B365CH", "B365CD", "B365CA"),
+    ("average", "AvgCH", "AvgCD", "AvgCA"),
+)
+
+
+def closing_odds(row: dict) -> tuple[float, float, float, str] | None:
+    """Decimal closing home/draw/away prices, or None when the close is missing."""
+    for name, home_key, draw_key, away_key in _CLOSING_BOOKS:
+        home = _float(row.get(home_key) or "")
+        draw = _float(row.get(draw_key) or "")
+        away = _float(row.get(away_key) or "")
+        if home is not None and draw is not None and away is not None and min(home, draw, away) > 1.0:
+            return home, draw, away, name
+    return None
+
+
 def _int(value: str) -> int | None:
     value = (value or "").strip()
     if value == "":
@@ -76,6 +96,7 @@ def parse_csv(text: str, league: dict) -> list[CatalogMatch]:
         ):
             # A half cannot outscore the full match. Drop the half, keep the result.
             ht_home = ht_away = None
+        close = closing_odds(row)
         matches.append(
             CatalogMatch(
                 day=day,
@@ -94,6 +115,10 @@ def parse_csv(text: str, league: dict) -> list[CatalogMatch]:
                 source="football-data.co.uk",
                 ht_home=ht_home,
                 ht_away=ht_away,
+                close_home=None if close is None else close[0],
+                close_draw=None if close is None else close[1],
+                close_away=None if close is None else close[2],
+                close_book="" if close is None else close[3],
             )
         )
     return matches
