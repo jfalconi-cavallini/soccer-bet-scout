@@ -121,6 +121,22 @@ def load(cache: HttpCache, today: date | None = None) -> list[CatalogMatch]:
         print(f"  [fdorg] {code} {season_label(start)}: {len(batch)}")
         found.extend(batch)
 
+    # football-data.co.uk's La Liga file lags the calendar. The free plan
+    # includes the current Primera Division season, finished and scheduled.
+    liga = LEAGUE_BY_ID["SP1"]
+    payload = _get_json(cache, "/competitions/PD/matches", {"season": start}, key)
+    if not payload:
+        print("  [fdorg] PD unavailable on this key")
+    else:
+        batch = []
+        for row in payload.get("matches") or []:
+            match = parse_fdorg_match(row, "SP1", liga["name"], "league")
+            if match:
+                batch.append(match)
+        played = sum(1 for match in batch if match.finished)
+        print(f"  [fdorg] PD {season_label(start)}: {played} played / {len(batch)} rows")
+        found.extend(batch)
+
     date_to = (today + timedelta(days=SLATE_DAYS)).isoformat()
     codes = ",".join(["PL", "PD", "SA", "BL1", "FL1", "DED", "PPL", "CL", "EL"])
     payload = _get_json(

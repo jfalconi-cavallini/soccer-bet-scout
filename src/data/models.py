@@ -52,19 +52,24 @@ class CatalogMatch:
         )
 
 
+def _adopt_kickoff(existing: CatalogMatch, incoming: CatalogMatch) -> None:
+    """football-data.org sends a real UTC instant. Other files send a local clock."""
+    if not incoming.kickoff_utc:
+        return
+    if not existing.kickoff_utc or incoming.source == "football-data.org":
+        existing.kickoff_utc = incoming.kickoff_utc
+
+
 def prefer(existing: CatalogMatch, incoming: CatalogMatch) -> CatalogMatch:
     """Keep the richer record when two sources describe the same match."""
     if incoming.finished and not existing.finished:
         return incoming
     if existing.finished and not incoming.finished:
-        # Still take a better kickoff if we only had a date.
-        if incoming.kickoff_utc and not existing.kickoff_utc:
-            existing.kickoff_utc = incoming.kickoff_utc
+        _adopt_kickoff(existing, incoming)
         return existing
     if incoming.xg_home is not None and existing.xg_home is None:
         return incoming
-    if incoming.kickoff_utc and not existing.kickoff_utc:
-        existing.kickoff_utc = incoming.kickoff_utc
+    _adopt_kickoff(existing, incoming)
     if len(incoming.home_name) > len(existing.home_name):
         existing.home_name = incoming.home_name
         existing.away_name = incoming.away_name
