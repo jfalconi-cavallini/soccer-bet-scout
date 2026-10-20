@@ -19,6 +19,7 @@ from src.config import (
     tournament_filter_label,
 )
 from src.data.catalog import clubelo_report, load_catalog
+from src.model.backtest import report_from_catalog
 from src.model.elo import replay
 from src.model.halves import fit_half_shares
 from src.model.predict import predict_match
@@ -290,5 +291,6 @@ def build(today: date | None = None) -> dict:
     _write(ARTIFACTS / "matches.json", {"generated_at": generated, "matches": slate})
     _write(log_path, log)
     _write(ARTIFACTS / "calibration.json", calib)
+    _write(ARTIFACTS / "backtest.json", report_from_catalog(catalog, today))
     print(f"Wrote artifacts to {ARTIFACTS}")
     return meta

@@ -133,6 +133,54 @@ export function readMatch(id: string): SlateMatch | null {
   return readMatches().find((match) => match.id === id) ?? null;
 }
 
+export type BacktestScores = {
+  matches: number;
+  model_brier: number | null;
+  model_log_loss: number | null;
+  model_rps: number | null;
+  model_accuracy: number | null;
+  rates_brier: number | null;
+  rates_log_loss: number | null;
+  rates_rps: number | null;
+  rates_accuracy: number | null;
+  odds_matches: number;
+  model_on_odds_brier: number | null;
+  model_on_odds_log_loss: number | null;
+  model_on_odds_rps: number | null;
+  model_on_odds_accuracy: number | null;
+  book_brier: number | null;
+  book_log_loss: number | null;
+  book_rps: number | null;
+  book_accuracy: number | null;
+};
+
+export type BacktestMarket = {
+  market: string;
+  label: string;
+  count: number;
+  predicted: number | null;
+  actual: number | null;
+  brier: number | null;
+  bins?: { from: number; to: number; count: number; predicted: number | null; actual: number | null }[];
+};
+
+export type BacktestReport = {
+  generated_at?: string;
+  from: string;
+  through: string;
+  rule: string;
+  seasons: string[];
+  overall: BacktestScores;
+  by_league: (BacktestScores & { id: string; name: string; markets?: BacktestMarket[] })[];
+  by_season: (BacktestScores & { season: string })[];
+  markets: BacktestMarket[];
+  miscalibration: string[];
+};
+
+export function readBacktest(): BacktestReport | null {
+  return readJson<BacktestReport | null>("backtest.json", null);
+}
+
 export function readHistory(id: string): { name: string; points: HistoryPoint[]; rating: number; league: string | null } | null {
   if (!/^[a-z0-9-]+$/.test(id)) return null;
   return readJson("history/" + id + ".json", null);

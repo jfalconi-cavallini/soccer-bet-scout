@@ -9,7 +9,7 @@ appear in that season's file; results still enter only after they are played.
 from __future__ import annotations
 
 import math
-from datetime import date
+from datetime import date, datetime, timezone
 
 from src.config import DIXON_COLES_RHO, ELO_INITIAL, LEAGUES, season_label, season_start_year
 from src.model.dixon_coles import score_grid, summarize
@@ -408,3 +408,31 @@ def summarize_forecasts(rows: list[dict], eval_from: date, eval_to: date) -> dic
         "markets": markets,
         "miscalibration": _calibration_notes(markets),
     }
+
+
+def report_from_catalog(catalog, today: date) -> dict:
+    """Walk the loaded catalog and summarize 2024-25 through `today`."""
+    finished = [match for match in catalog if match.finished and match.day <= today]
+    played = [match.to_elo() for match in finished]
+    odds = {}
+    for match in finished:
+        if match.close_home is None or match.close_draw is None or match.close_away is None:
+            continue
+        odds[(match.day, match.competition_id, match.home, match.away)] = (
+            float(match.close_home),
+            float(match.close_draw),
+            float(match.close_away),
+            match.close_book,
+        )
+    print(f"Backtesting {BACKTEST_FROM.isoformat()} through {today.isoformat()}...")
+    rows = forecast_matches(played, BACKTEST_FROM, today, odds)
+    report = summarize_forecasts(rows, BACKTEST_FROM, today)
+    report["generated_at"] = datetime.now(timezone.utc).replace(microsecond=0).isoformat()
+    overall = report["overall"]
+    print(
+        f"  {overall['matches']} matches  "
+        f"Brier {overall['model_brier']}  "
+        f"rates {overall['rates_brier']}  "
+        f"book {overall['book_brier']} on {overall['odds_matches']}"
+    )
+    return report

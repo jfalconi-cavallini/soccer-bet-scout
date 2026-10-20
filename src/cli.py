@@ -5,6 +5,7 @@
     python -m src.cli slate
     python -m src.cli match "Arsenal" "Everton"
     python -m src.cli team "Arsenal"
+    python -m src.cli backtest
 """
 
 from __future__ import annotations
@@ -15,7 +16,8 @@ import json
 from dotenv import load_dotenv
 
 from src.names import canonicalize, slugify
-from src.pipeline.build import ARTIFACTS, build
+from src.model.backtest import report_from_catalog
+from src.pipeline.build import ARTIFACTS, _write, build
 from src.report.cards import render_match, render_rankings
 
 def _read(name: str) -> dict:
@@ -123,6 +125,57 @@ def _cmd_clubelo(_args: argparse.Namespace) -> None:
         print(f"ClubElo unavailable: {report.get('reason')}. Target when it returns is above 0.9.")
 
 
+def _fmt(value) -> str:
+    if value is None:
+        return "  —  "
+    return f"{value:6.3f}"
+
+
+def _cmd_backtest(_args: argparse.Namespace) -> None:
+    from datetime import date
+
+    from src.data.catalog import load_catalog
+
+    today = date.today()
+    catalog, _cache = load_catalog(today)
+    report = report_from_catalog(catalog, today)
+    _write(ARTIFACTS / "backtest.json", report)
+    overall = report["overall"]
+    print(f"\n  Walk-forward {report['from']} through {report['through']}")
+    print(f"  {report['rule']}\n")
+    print(f"  {'':<22}{'Brier':>8}{'Log loss':>10}{'RPS':>8}{'Top pick':>10}{'Matches':>9}")
+    print(
+        f"  {'Model':<22}{_fmt(overall['model_brier']):>8}{_fmt(overall['model_log_loss']):>10}"
+        f"{_fmt(overall['model_rps']):>8}{_fmt(overall['model_accuracy']):>10}{overall['matches']:9d}"
+    )
+    print(
+        f"  {'League rates':<22}{_fmt(overall['rates_brier']):>8}{_fmt(overall['rates_log_loss']):>10}"
+        f"{_fmt(overall['rates_rps']):>8}{_fmt(overall['rates_accuracy']):>10}{overall['matches']:9d}"
+    )
+    print(
+        f"  {'Model on priced games':<22}{_fmt(overall['model_on_odds_brier']):>8}"
+        f"{_fmt(overall['model_on_odds_log_loss']):>10}{_fmt(overall['model_on_odds_rps']):>8}"
+        f"{_fmt(overall['model_on_odds_accuracy']):>10}{overall['odds_matches']:9d}"
+    )
+    print(
+        f"  {'Closing odds':<22}{_fmt(overall['book_brier']):>8}{_fmt(overall['book_log_loss']):>10}"
+        f"{_fmt(overall['book_rps']):>8}{_fmt(overall['book_accuracy']):>10}{overall['odds_matches']:9d}"
+    )
+    print("\n  By league")
+    for league in report["by_league"]:
+        book = _fmt(league["book_brier"]) if league["odds_matches"] else "  —  "
+        print(
+            f"  {league['name']:<22} model {_fmt(league['model_brier'])}"
+            f"   rates {_fmt(league['rates_brier'])}   book {book}"
+            f"   n {league['matches']}"
+        )
+    if report["miscalibration"]:
+        print("\n  Where the prices miss the results")
+        for note in report["miscalibration"]:
+            print(f"  - {note}")
+    print(f"\n  Wrote {ARTIFACTS / 'backtest.json'}\n")
+
+
 def _cmd_team(args: argparse.Namespace) -> None:
     teams = _read("rankings.json")["teams"]
     team = _find_team(args.name, teams)
@@ -170,6 +223,9 @@ def main() -> None:
 
     clubelo = sub.add_parser("clubelo", help="Compare saved ratings with clubelo.com (target correlation > 0.9)")
     clubelo.set_defaults(func=_cmd_clubelo)
+
+    backtest = sub.add_parser("backtest", help="Walk-forward scores for 2024-25 through today")
+    backtest.set_defaults(func=_cmd_backtest)
 
     args = parser.parse_args()
     args.func(args)

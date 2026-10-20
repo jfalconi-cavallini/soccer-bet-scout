@@ -80,6 +80,8 @@ Kickoffs are America/Chicago. 24 Oct 2026 is still on daylight time; the Premier
 
 Logged slate probabilities are kept the first time they are written. A rebuild inside the 24 hours before kickoff stores one refresh beside that first call, and settlement scores the refresh. The same log stores the new market probabilities on the call that will be scored. Settlement skips an integer handicap push and skips a half market when the half-time score is missing. The calibration report bins home, draw, and away, plus both teams to score, over 2.5, first-half both teams to score, and first-half over 0.5.
 
+**Backtest.** `python -m src.cli backtest` replays 2024-25, 2025-26, and 2026-27 to date. Each match is scored from Elo and attack/defense fitted only on earlier dates. That day's other results, and every later match, stay out of the fit. The report scores home/draw/away with multiclass Brier, log loss, ranked probability score, and top-pick accuracy. It also bins over/under 2.5, both teams to score, the first-half markets, and the result/total combinations. Two benchmarks sit beside the model: that league's own result rates before the date, and closing 1X2 prices from football-data.co.uk where the file has them (Pinnacle close, then Bet365 close, then the market average), with the overround removed. The bookmaker line is a benchmark only. `/backtest` reads `data/artifacts/backtest.json`.
+
 ## Environment variables
 
 Copy `.env.example` to `.env`. Never commit `.env` or a real key.
@@ -100,6 +102,7 @@ The Next.js app is the repository root, which is what Vercel detects.
 - `/teams/[id]` rating history
 - `/matches` upcoming slate
 - `/matches/[id]` the breakdown card
+- `/backtest` walk-forward scores from 2024-25 through the build date
 
 ```bash
 npm install
