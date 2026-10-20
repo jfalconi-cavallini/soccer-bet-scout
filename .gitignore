@@ -3,4 +3,7 @@ venv/
 __pycache__/
 *.pyc
 logs/
-logs/cache/
+data/cache/
+node_modules/
+.next/
+next-env.d.ts
