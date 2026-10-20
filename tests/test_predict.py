@@ -104,6 +104,9 @@ def test_stale_file_hides_form_and_rest():
     assert "2026-09-19" in form["body"]
     assert "days ago" not in rest["body"]
     assert any(section["title"] == "Goals minus xG" for section in pred["narrative"])
+    recent = matches + [_played(date(2026, 10, 18), "alpha", "beta", 1, 1)]
+    fresh_table = replay(recent)
+    fresh_book = build_strengths(recent, date(2026, 10, 21))
     fresh = predict_match(
         "alpha",
         "beta",
@@ -114,13 +117,45 @@ def test_stale_file_hides_form_and_rest():
         "E0",
         "Premier League",
         "league",
-        book,
-        table,
-        matches,
+        fresh_book,
+        fresh_table,
+        recent,
         data_through=date(2026, 10, 18),
     )
     fresh_rest = next(section["body"] for section in fresh["narrative"] if section["title"] == "Rest and travel")
     assert "days ago" in fresh_rest
+
+
+def test_a_club_behind_the_league_file_hides_its_own_rest():
+    matches = [
+        _played(date(2026, 9, 19), "alpha", "gamma", 1, 0),
+        _played(date(2026, 10, 12), "beta", "gamma", 2, 1),
+    ]
+    table = replay(matches)
+    book = build_strengths(matches, date(2026, 10, 21))
+    pred = predict_match(
+        "alpha",
+        "beta",
+        "Alpha",
+        "Beta",
+        date(2026, 10, 21),
+        None,
+        "SP1",
+        "La Liga",
+        "league",
+        book,
+        table,
+        matches,
+        data_through=date(2026, 10, 12),
+    )
+    form = next(section["body"] for section in pred["narrative"] if section["title"] == "Form and chance trend")
+    rest = next(section["body"] for section in pred["narrative"] if section["title"] == "Rest and travel")
+    assert "Alpha form" not in form
+    assert "2026-09-19" in form
+    assert "Beta form" in form
+    assert "last played" not in rest.split("Beta")[0]
+    assert "days ago" in rest
+    assert "2026-09-19" in rest
 
 
 def test_tournament_filter_names_the_loaded_season_until_the_current_one():

@@ -102,8 +102,10 @@ def _team_context(team: str, matches: list[EloMatch], as_of: date, book: Strengt
     short_rest = False
     europe_week = False
     last_competition = None
+    last_day = None
     if played:
         previous = played[-1]
+        last_day = previous.day
         rest_days = (as_of - previous.day).days
         short_rest = rest_days <= 3
         last_competition = previous.competition_id
@@ -128,6 +130,7 @@ def _team_context(team: str, matches: list[EloMatch], as_of: date, book: Strengt
         "attack": round(attack, 2),
         "defense": round(defense, 2),
         "rest_days": rest_days,
+        "last_day": last_day,
         "short_rest": short_rest,
         "europe_week": europe_week,
         "last_competition": last_competition,
@@ -242,6 +245,31 @@ def predict_match(
             sentence += f", {bits[1]}, {bits[2]}"
         return sentence + "."
 
+    def lags_the_file(ctx: dict) -> bool:
+        """This club's last result is well behind the rest of the competition file."""
+        last = ctx.get("last_day")
+        if data_through is None or last is None:
+            return False
+        return (data_through - last).days > STALE_RESULT_DAYS
+
+    def form_sentence(name: str, ctx: dict) -> str:
+        last = ctx.get("last_day")
+        if lags_the_file(ctx) and last is not None:
+            return (
+                f"{name} results on file stop on {last.isoformat()}, "
+                "before the rest of this competition, so form is not shown."
+            )
+        return _trend_sentence(name, ctx)
+
+    def one_rest(name: str, ctx: dict) -> str:
+        last = ctx.get("last_day")
+        if lags_the_file(ctx) and last is not None:
+            return (
+                f"Rest is not shown for {name}. Their last result on file is {last.isoformat()}, "
+                "which is behind the rest of this competition."
+            )
+        return rest_sentence(name, ctx)
+
     stale = (
         data_through is not None and (day - data_through).days > STALE_RESULT_DAYS
     )
@@ -255,8 +283,8 @@ def predict_match(
             "so a long gap can be missing results rather than a real break."
         )
     else:
-        form_body = _trend_sentence(home_name, home_ctx) + " " + _trend_sentence(away_name, away_ctx)
-        rest_body = rest_sentence(home_name, home_ctx) + " " + rest_sentence(away_name, away_ctx)
+        form_body = form_sentence(home_name, home_ctx) + " " + form_sentence(away_name, away_ctx)
+        rest_body = one_rest(home_name, home_ctx) + " " + one_rest(away_name, away_ctx)
 
     sections = [
         {
