@@ -222,7 +222,8 @@ def predict_match(
         f"{home_name} attack {home_ctx['attack']:.2f} against {away_name} defense "
         f"{away_ctx['defense']:.2f}. {away_name} attack {away_ctx['attack']:.2f} against "
         f"{home_name} defense {home_ctx['defense']:.2f}. "
-        "Numbers above 1.00 are better than the league's typical side at that venue."
+        "An attack above 1.00 creates more than a typical side at that venue. "
+        "A defense above 1.00 allows more than a typical side."
     )
 
     def rest_sentence(name: str, ctx: dict) -> str:

@@ -59,6 +59,8 @@ def test_prediction_card_fields_and_first_half_share():
     assert len(pred["top_scorelines"]) == 5
     assert "2.5" in pred["over"]
     assert any(section["title"] == "Goals minus xG" for section in pred["narrative"])
+    attack = next(section for section in pred["narrative"] if section["title"] == "Attack against defense")
+    assert "defense above 1.00 allows more" in attack["body"]
     # Alpha has been the stronger side, so the Elo gap should favor them.
     assert pred["elo_gap"] > 0
     assert pred["home_win_pct"] > pred["away_win_pct"]
