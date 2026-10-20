@@ -1,6 +1,6 @@
 """Club spellings that must collapse before Elo and the goal model see them."""
 
-from src.names import canonicalize
+from src.names import canonicalize, clean_display_name, has_void_tag
 
 
 def test_bookmaker_and_openfootball_spellings_match():
@@ -34,3 +34,10 @@ def test_bookmaker_and_openfootball_spellings_match():
 
 def test_cancelled_tag_does_not_split_a_club():
     assert canonicalize("RB Leipzig [cancelled]") == canonicalize("RB Leipzig")
+    assert clean_display_name("RB Leipzig [cancelled]") == "RB Leipzig"
+    assert clean_display_name("Spartak Moskva (RUS) [cancelled]") == "Spartak Moskva"
+    assert clean_display_name("Puskás FC [awarded]") == "Puskás FC"
+    assert has_void_tag("RB Leipzig [cancelled]")
+    assert has_void_tag("Match [Abandoned]")
+    assert not has_void_tag("RB Leipzig")
+    assert not has_void_tag("0-3 [awarded]")

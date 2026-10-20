@@ -22,7 +22,7 @@ from src.data.catalog import clubelo_report, load_catalog
 from src.model.elo import replay
 from src.model.predict import predict_match
 from src.model.ratings import build_strengths
-from src.names import pretty_fallback, slugify
+from src.names import clean_display_name, pretty_fallback, slugify
 from src.report.timeutil import format_kickoff
 from src.track.settlement import calibration, settle, upsert_prediction
 
@@ -40,9 +40,12 @@ def _display_names(catalog) -> dict[str, str]:
     names: dict[str, str] = {}
     for match in catalog:
         for key, raw in ((match.home, match.home_name), (match.away, match.away_name)):
+            cleaned = clean_display_name(raw)
+            if not cleaned:
+                continue
             current = names.get(key)
-            if current is None or len(raw) > len(current):
-                names[key] = raw
+            if current is None or len(cleaned) > len(current):
+                names[key] = cleaned
     return names
 
 

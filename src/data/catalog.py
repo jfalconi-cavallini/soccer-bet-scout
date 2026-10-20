@@ -5,6 +5,7 @@ from __future__ import annotations
 from datetime import date
 
 from src.config import is_mens_competition
+from src.names import has_void_tag
 from src.data.cache import HttpCache
 from src.data.clubelo_compare import compare
 from src.data.cups import load as load_cups
@@ -24,6 +25,22 @@ def mens_only(matches: list[CatalogMatch]) -> list[CatalogMatch]:
     return kept
 
 
+def without_voids(matches: list[CatalogMatch]) -> list[CatalogMatch]:
+    """Drop matches a source marked cancelled, abandoned, or postponed.
+
+    Those rows are not results, so they stay out of Elo and the goal fit.
+    """
+    kept = [
+        match
+        for match in matches
+        if not has_void_tag(match.home_name) and not has_void_tag(match.away_name)
+    ]
+    dropped = len(matches) - len(kept)
+    if dropped:
+        print(f"Dropped {dropped} cancelled or abandoned matches.")
+    return kept
+
+
 def load_catalog(today: date | None = None, cache: HttpCache | None = None) -> tuple[list[CatalogMatch], HttpCache]:
     today = today or date.today()
     cache = cache or HttpCache()
@@ -37,7 +54,7 @@ def load_catalog(today: date | None = None, cache: HttpCache | None = None) -> t
     rows.extend(load_fdorg(cache, today))
 
     merged: dict[tuple, CatalogMatch] = {}
-    for match in mens_only(rows):
+    for match in without_voids(mens_only(rows)):
         if match.home == match.away:
             continue
         key = (match.day, match.home, match.away)

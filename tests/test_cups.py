@@ -34,3 +34,21 @@ def test_cup_text_marks_only_the_final_as_neutral():
     assert matches[2].home_goals == 5
     assert matches[0].home == "arsenal"
     assert matches[2].away == "inter"
+
+
+def test_cancelled_cup_line_is_not_a_match():
+    text = """
+  Thu Mar 10 2022
+           RB Leipzig (GER)        v Spartak Moskva (RUS)     [cancelled]
+    18:45  Sevilla FC (ESP)        v West Ham United (ENG)    1-0 (0-0)
+  Thu Mar 17 2022
+           Spartak Moskva (RUS)    v RB Leipzig (GER)         [cancelled]
+           Tottenham Hotspur (ENG) v Stade Rennais (FRA)      0-3    [awarded]
+"""
+    matches = parse_cup_text(text, "UEL", 2021)
+    assert [match.home for match in matches] == ["sevilla", "tottenham"]
+    assert all(match.finished for match in matches)
+    assert matches[0].away_name == "West Ham United"
+    assert matches[1].home_goals == 0 and matches[1].away_goals == 3
+    assert "[" not in matches[1].home_name and "[" not in matches[1].away_name
+    assert all(not match.finished or match.home != "rb leipzig" for match in matches)

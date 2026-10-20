@@ -443,6 +443,27 @@ def _basic(name: str) -> str:
     return re.sub(r"\s+", " ", text).strip()
 
 
+# Square-bracket notes on a club line are source status, not part of the name.
+_VOID_TAG = re.compile(
+    r"\[(cancelled|canceled|abandoned|postponed|void|suspended)\]",
+    re.IGNORECASE,
+)
+
+
+def clean_display_name(name: str | None) -> str:
+    """Drop country codes and source notes such as ``[cancelled]`` from a label."""
+    if not name:
+        return ""
+    text = re.sub(r"\s*\([A-Z]{3}\)\s*", " ", str(name))
+    text = re.sub(r"\s*\[[^\]]*\]", " ", text)
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def has_void_tag(name: str | None) -> bool:
+    """True when a source marked the match cancelled, abandoned, or postponed."""
+    return bool(name and _VOID_TAG.search(str(name)))
+
+
 def canonicalize(name: str | None) -> str | None:
     """Return a stable club key, or None if the name is empty."""
     if not name or not str(name).strip():

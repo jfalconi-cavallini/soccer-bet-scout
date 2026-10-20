@@ -12,7 +12,7 @@ from datetime import date
 from src.config import CUP_FILES, TOURNAMENTS, season_codes, season_label
 from src.data.cache import CURRENT_TTL, PAST_TTL, HttpCache
 from src.data.models import CatalogMatch
-from src.names import canonicalize
+from src.names import canonicalize, clean_display_name, has_void_tag
 from src.report.timeutil import central_european_kickoff
 
 BASE = "https://raw.githubusercontent.com/openfootball/champions-league/master"
@@ -87,6 +87,9 @@ def parse_cup_text(text: str, tournament_id: str, season_start: int) -> list[Cat
             continue
         if " v " not in line or current is None:
             continue
+        # A cancelled or abandoned line is not a result and not a fixture.
+        if has_void_tag(line):
+            continue
         left, right = line.split(" v ", 1)
         time_match = re.match(r"(\d{1,2}:\d{2})\s+(.*)", left)
         if time_match:
@@ -114,8 +117,8 @@ def parse_cup_text(text: str, tournament_id: str, season_start: int) -> list[Cat
                 day=current,
                 home=home,
                 away=away,
-                home_name=re.sub(r"\s*\([A-Z]{3}\)\s*", " ", home_raw).strip(),
-                away_name=re.sub(r"\s*\([A-Z]{3}\)\s*", " ", away_raw).strip(),
+                home_name=clean_display_name(home_raw),
+                away_name=clean_display_name(away_raw),
                 home_goals=home_goals,
                 away_goals=away_goals,
                 competition_id=tournament_id,
