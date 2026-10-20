@@ -82,6 +82,8 @@ Logged slate probabilities are kept the first time they are written. A rebuild i
 
 **Backtest.** `python -m src.cli backtest` replays 2024-25, 2025-26, and 2026-27 to date. Each match is scored from Elo and attack/defense fitted only on earlier dates. That day's other results, and every later match, stay out of the fit. The report scores home/draw/away with multiclass Brier, log loss, ranked probability score, and top-pick accuracy. It also bins over/under 2.5, both teams to score, the first-half markets, and the result/total combinations. Two benchmarks sit beside the model: that league's own result rates before the date, and closing 1X2 prices from football-data.co.uk where the file has them (Pinnacle close, then Bet365 close, then the market average), with the overround removed. The bookmaker line is a benchmark only. `/backtest` reads `data/artifacts/backtest.json`.
 
+On the 20 Oct 2026 run, 7,860 league matches: model Brier 0.601, log loss 1.007, ranked probability score 0.206, top pick 51.6%. League rates on the same matches: 0.651, 1.075, 0.231, and 43.2%. On the 7,589 matches with a closing price, the model is 0.600 and the close is 0.571. The model beats the league rates in every covered league. The close is still sharper, by about three hundredths of a Brier point overall, and in every league that has prices. Home favorites in the 60–80% band won 78% of the time, and first-half draws are priced at 42.8% against a 39.4% result.
+
 ## Environment variables
 
 Copy `.env.example` to `.env`. Never commit `.env` or a real key.
