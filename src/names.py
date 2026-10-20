@@ -60,6 +60,9 @@ _ALIASES = {
     "ein frankfurt": "frankfurt",
     "espanol": "espanyol",
     "sp braga": "braga",
+    "sporting braga": "braga",
+    "sporting clube braga": "braga",
+    "sc braga": "braga",
     "for sittard": "fortuna sittard",
     "guimaraes": "vitoria guimaraes",
     "vitoria sc guimaraes": "vitoria guimaraes",
@@ -89,6 +92,7 @@ _ALIASES = {
     "beerschot": "beerschot",
     "beerschot va": "beerschot",
     "aek": "aek athens",
+    "aek athen": "aek athens",
     "aek athens fc": "aek athens",
     "olympiacos piraeus": "olympiacos",
     "olympiakos piraeus": "olympiacos",
@@ -105,6 +109,8 @@ _ALIASES = {
     "bayer 04 leverkusen": "leverkusen",
     "rb leipzig": "rb leipzig",
     "rasenballsport leipzig": "rb leipzig",
+    "borussia dortmund": "dortmund",
+    "bv borussia dortmund": "dortmund",
     "borussia monchengladbach": "monchengladbach",
     "borussia mgladbach": "monchengladbach",
     "mgladbach": "monchengladbach",
@@ -205,7 +211,6 @@ _ALIASES = {
     "willem ii": "willem ii",
     "rkc waalwijk": "waalwijk",
     "fc porto": "porto",
-    "sc braga": "braga",
     "vitoria guimaraes": "vitoria guimaraes",
     "vitoria sc": "vitoria guimaraes",
     "gil vicente": "gil vicente",
@@ -329,6 +334,73 @@ _ALIASES = {
     "tottenham hotspur fc": "tottenham",
     "nottingham forest fc": "nottingham forest",
     "sfc": "southampton",
+    "willem ii tilburg": "willem ii",
+    "zulte waregem": "waregem",
+    "sv zulte waregem": "waregem",
+    "twente 65": "twente",
+    "telstar 1963": "telstar",
+    "st pauli 1910": "st pauli",
+    "rayo vallecano madrid": "rayo",
+    "qarabag agdam": "qarabag",
+    "pisa 1909": "pisa",
+    "ac pisa 1909": "pisa",
+    "pec zwolle": "zwolle",
+    "parma 1913": "parma",
+    "parma calcio 1913": "parma",
+    "paok saloniki": "paok",
+    "paok thessaloniki": "paok",
+    "paderborn 07": "paderborn",
+    "sc paderborn 07": "paderborn",
+    "real oviedo": "oviedo",
+    "racing lens": "lens",
+    "racing club lens": "lens",
+    "fatih karagumruk": "karagumruk",
+    "sbv excelsior": "excelsior",
+    "estrela da amadora": "estrela",
+    "cf estrela da amadora": "estrela",
+    "espanyol barcelona": "espanyol",
+    "rcd espanyol barcelona": "espanyol",
+    "es troyes": "troyes",
+    "es troyes ac": "troyes",
+    "fcv dender eh": "dender",
+    "fcv dender": "dender",
+    "cs maritimo": "maritimo",
+    "rc celta vigo": "celta",
+    "caykur rizespor": "rizespor",
+    "cambuur leeuwarden": "cambuur",
+    "sc cambuur leeuwarden": "cambuur",
+    "1 heidenheim 1846": "heidenheim",
+    "1 fc heidenheim 1846": "heidenheim",
+    "07 elversberg": "elversberg",
+    "sv 07 elversberg": "elversberg",
+    "levadeiakos": "levadiakos",
+    "lazio roma": "lazio",
+    "ss lazio roma": "lazio",
+    "aris saloniki": "aris",
+    "aris thessaloniki": "aris",
+    "rc strasbourg alsace": "strasbourg",
+    "tsg 1899 hoffenheim": "hoffenheim",
+    "1899 hoffenheim": "hoffenheim",
+    "gd estoril praia": "estoril",
+    "gd estoril": "estoril",
+    "ado den haag": "den haag",
+    "sint truidense vv": "sint truiden",
+    "stade rennais 1901": "rennes",
+    "stade rennais fc 1901": "rennes",
+    "la coruna": "deportivo",
+    "rc deportivo la coruna": "deportivo",
+    "deportivo la coruna": "deportivo",
+    "santander": "racing santander",
+    "real racing santander": "racing santander",
+    "racing santander": "racing santander",
+    "bodrum": "bodrumspor",
+    "bodrum fk": "bodrumspor",
+    "ae larissa": "larisa",
+    "ael larissa": "larisa",
+    "ofi heraklion": "ofi crete",
+    "ofi": "ofi crete",
+    "ae kifisias": "kifisia",
+    "ae kifisia": "kifisia",
 }
 
 
@@ -338,7 +410,23 @@ def _strip_accents(text: str) -> str:
 
 
 def _basic(name: str) -> str:
-    text = _strip_accents(name)
+    text = (
+        name.replace("ø", "o")
+        .replace("Ø", "O")
+        .replace("æ", "ae")
+        .replace("Æ", "AE")
+        .replace("ð", "d")
+        .replace("Ð", "D")
+        .replace("þ", "th")
+        .replace("Þ", "Th")
+        .replace("ł", "l")
+        .replace("Ł", "L")
+        .replace("đ", "d")
+        .replace("Đ", "D")
+    )
+    text = _strip_accents(text)
+    text = text.replace("İ", "I").replace("ı", "i").replace("ß", "ss")
+    text = re.sub(r"\[[^\]]*\]", " ", text)
     text = re.sub(r"\([^)]*\)", " ", text)
     text = text.replace("&", " and ")
     text = text.replace("'", "")
