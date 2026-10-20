@@ -1,0 +1,78 @@
+{
+  "id": "puskas",
+  "name": "Pusk\u00e1s FC",
+  "league": null,
+  "rating": 1503.3,
+  "points": [
+    {
+      "date": "2024-07-25",
+      "rating": 1520.91,
+      "opponent": "SK Dnipro-1",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-01",
+      "rating": 1530.96,
+      "opponent": "SK Dnipro-1",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-08",
+      "rating": 1537.65,
+      "opponent": "FC Ararat-Armenia",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-15",
+      "rating": 1534.63,
+      "opponent": "FC Ararat-Armenia",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-22",
+      "rating": 1538.01,
+      "opponent": "ACF Fiorentina",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-29",
+      "rating": 1536.06,
+      "opponent": "ACF Fiorentina",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-01",
+      "rating": 1524.04,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2025-07-24",
+      "rating": 1521.15,
+      "opponent": "Aris Limassol",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-31",
+      "rating": 1504.9,
+      "opponent": "Aris Limassol",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2026-07-01",
+      "rating": 1503.27,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    }
+  ]
+}

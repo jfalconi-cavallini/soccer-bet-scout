@@ -1,0 +1,43 @@
+{
+  "id": "fredrikstad",
+  "name": "Fredrikstad FK",
+  "league": null,
+  "rating": 1487.5,
+  "points": [
+    {
+      "date": "2025-08-07",
+      "rating": 1485.82,
+      "opponent": "FC Midtjylland",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-14",
+      "rating": 1480.31,
+      "opponent": "FC Midtjylland",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-21",
+      "rating": 1481.02,
+      "opponent": "Crystal Palace FC",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-28",
+      "rating": 1481.29,
+      "opponent": "Crystal Palace FC",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2026-07-01",
+      "rating": 1487.53,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    }
+  ]
+}

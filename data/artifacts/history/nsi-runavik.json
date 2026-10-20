@@ -1,0 +1,29 @@
+{
+  "id": "nsi-runavik",
+  "name": "NS\u00cd Runav\u00edk",
+  "league": null,
+  "rating": 1505.8,
+  "points": [
+    {
+      "date": "2025-07-10",
+      "rating": 1512.49,
+      "opponent": "HJK Helsinki",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-17",
+      "rating": 1508.71,
+      "opponent": "HJK Helsinki",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2026-07-01",
+      "rating": 1505.81,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    }
+  ]
+}

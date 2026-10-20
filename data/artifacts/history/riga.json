@@ -1,0 +1,78 @@
+{
+  "id": "riga",
+  "name": "Riga FC",
+  "league": null,
+  "rating": 1502.2,
+  "points": [
+    {
+      "date": "2024-07-24",
+      "rating": 1501.85,
+      "opponent": "\u015al\u0105sk Wroc\u0142aw",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-01",
+      "rating": 1494.16,
+      "opponent": "\u015al\u0105sk Wroc\u0142aw",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-01",
+      "rating": 1496.1,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2025-07-24",
+      "rating": 1498.32,
+      "opponent": "Dila Gori",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-31",
+      "rating": 1501.04,
+      "opponent": "Dila Gori",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-07",
+      "rating": 1513.95,
+      "opponent": "Beitar Jerusalem",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-14",
+      "rating": 1506.06,
+      "opponent": "Beitar Jerusalem",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-21",
+      "rating": 1500.07,
+      "opponent": "AC Sparta Praha",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-27",
+      "rating": 1503.35,
+      "opponent": "AC Sparta Praha",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2026-07-01",
+      "rating": 1502.23,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    }
+  ]
+}

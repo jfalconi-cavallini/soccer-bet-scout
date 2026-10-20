@@ -1,0 +1,1765 @@
+{
+  "id": "paris-saint-germain",
+  "name": "Paris Saint-Germain FC",
+  "league": "Ligue 1",
+  "rating": 1662.2,
+  "points": [
+    {
+      "date": "2021-08-07",
+      "rating": 1506.82,
+      "opponent": "ES Troyes AC",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2021-08-14",
+      "rating": 1513.38,
+      "opponent": "RC Strasbourg Alsace",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2021-08-20",
+      "rating": 1527.76,
+      "opponent": "Stade Brestois 29",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2021-08-29",
+      "rating": 1541.57,
+      "opponent": "Reims",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2021-09-11",
+      "rating": 1554.88,
+      "opponent": "Clermont",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2021-09-15",
+      "rating": 1556.28,
+      "opponent": "Club Brugge KV",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2021-09-19",
+      "rating": 1556.95,
+      "opponent": "Olympique Lyonnais",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2021-09-22",
+      "rating": 1560.88,
+      "opponent": "Metz",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2021-09-25",
+      "rating": 1566.08,
+      "opponent": "Montpellier",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2021-09-28",
+      "rating": 1572.74,
+      "opponent": "Manchester City FC",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2021-10-03",
+      "rating": 1561.89,
+      "opponent": "Stade Rennais FC 1901",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2021-10-15",
+      "rating": 1562.29,
+      "opponent": "Angers SCO",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2021-10-19",
+      "rating": 1562.64,
+      "opponent": "RB Leipzig [cancelled]",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2021-10-24",
+      "rating": 1564.07,
+      "opponent": "Olympique de Marseille",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2021-10-29",
+      "rating": 1563.89,
+      "opponent": "Lille OSC",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2021-11-03",
+      "rating": 1565.03,
+      "opponent": "RB Leipzig [cancelled]",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2021-11-06",
+      "rating": 1568.95,
+      "opponent": "Bordeaux",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2021-11-20",
+      "rating": 1573.75,
+      "opponent": "FC Nantes",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2021-11-24",
+      "rating": 1572.63,
+      "opponent": "Manchester City FC",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2021-11-28",
+      "rating": 1581.96,
+      "opponent": "St Etienne",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2021-12-01",
+      "rating": 1578.31,
+      "opponent": "OGC Nice",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2021-12-04",
+      "rating": 1579.04,
+      "opponent": "Racing Club de Lens",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2021-12-07",
+      "rating": 1586.64,
+      "opponent": "Club Brugge KV",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2021-12-12",
+      "rating": 1592.08,
+      "opponent": "AS Monaco FC",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2021-12-22",
+      "rating": 1589.62,
+      "opponent": "FC Lorient",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2022-01-09",
+      "rating": 1590.67,
+      "opponent": "Olympique Lyonnais",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2022-01-15",
+      "rating": 1593.55,
+      "opponent": "Stade Brestois 29",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2022-01-23",
+      "rating": 1603.04,
+      "opponent": "Reims",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2022-02-06",
+      "rating": 1622.35,
+      "opponent": "Lille OSC",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2022-02-11",
+      "rating": 1623.03,
+      "opponent": "Stade Rennais FC 1901",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2022-02-15",
+      "rating": 1624.72,
+      "opponent": "Real Madrid CF",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2022-02-19",
+      "rating": 1611.91,
+      "opponent": "FC Nantes",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2022-02-26",
+      "rating": 1613.04,
+      "opponent": "St Etienne",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2022-03-05",
+      "rating": 1609.17,
+      "opponent": "OGC Nice",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2022-03-09",
+      "rating": 1602.54,
+      "opponent": "Real Madrid CF",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2022-03-13",
+      "rating": 1606.7,
+      "opponent": "Bordeaux",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2022-03-20",
+      "rating": 1590.88,
+      "opponent": "AS Monaco FC",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2022-04-03",
+      "rating": 1598.45,
+      "opponent": "FC Lorient",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2022-04-09",
+      "rating": 1614.42,
+      "opponent": "Clermont",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2022-04-17",
+      "rating": 1615.87,
+      "opponent": "Olympique de Marseille",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2022-04-20",
+      "rating": 1628.11,
+      "opponent": "Angers SCO",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2022-04-23",
+      "rating": 1622.91,
+      "opponent": "Racing Club de Lens",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2022-04-29",
+      "rating": 1623.32,
+      "opponent": "RC Strasbourg Alsace",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2022-05-08",
+      "rating": 1617.05,
+      "opponent": "ES Troyes AC",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2022-05-14",
+      "rating": 1632.43,
+      "opponent": "Montpellier",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2022-05-21",
+      "rating": 1638.81,
+      "opponent": "Metz",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2022-07-01",
+      "rating": 1594.5,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2022-08-06",
+      "rating": 1611.84,
+      "opponent": "Clermont",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2022-08-13",
+      "rating": 1617.33,
+      "opponent": "Montpellier",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2022-08-21",
+      "rating": 1639.32,
+      "opponent": "Lille OSC",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2022-08-28",
+      "rating": 1634.16,
+      "opponent": "AS Monaco FC",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2022-08-31",
+      "rating": 1645.38,
+      "opponent": "Toulouse FC",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2022-09-03",
+      "rating": 1659.49,
+      "opponent": "FC Nantes",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2022-09-06",
+      "rating": 1658.21,
+      "opponent": "Juventus FC",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2022-09-10",
+      "rating": 1655.19,
+      "opponent": "Stade Brestois 29",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2022-09-14",
+      "rating": 1662.23,
+      "opponent": "Maccabi Haifa",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2022-09-18",
+      "rating": 1665.55,
+      "opponent": "Olympique Lyonnais",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2022-10-01",
+      "rating": 1663.11,
+      "opponent": "OGC Nice",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2022-10-05",
+      "rating": 1664.12,
+      "opponent": "Sport Lisboa e Benfica",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2022-10-08",
+      "rating": 1660.75,
+      "opponent": "Reims",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2022-10-11",
+      "rating": 1656.95,
+      "opponent": "Sport Lisboa e Benfica",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2022-10-16",
+      "rating": 1657.41,
+      "opponent": "Olympique de Marseille",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2022-10-21",
+      "rating": 1666.02,
+      "opponent": "Ajaccio",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2022-10-25",
+      "rating": 1673.29,
+      "opponent": "Maccabi Haifa",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2022-10-29",
+      "rating": 1670.45,
+      "opponent": "ES Troyes AC",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2022-11-02",
+      "rating": 1673.45,
+      "opponent": "Juventus FC",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2022-11-06",
+      "rating": 1674.75,
+      "opponent": "FC Lorient",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2022-11-13",
+      "rating": 1679.75,
+      "opponent": "AJ Auxerre",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2022-12-28",
+      "rating": 1676.65,
+      "opponent": "RC Strasbourg Alsace",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2023-01-01",
+      "rating": 1664.56,
+      "opponent": "Racing Club de Lens",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2023-01-11",
+      "rating": 1663.59,
+      "opponent": "Angers SCO",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2023-01-15",
+      "rating": 1659.32,
+      "opponent": "Stade Rennais FC 1901",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2023-01-29",
+      "rating": 1652.87,
+      "opponent": "Reims",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2023-02-01",
+      "rating": 1658.43,
+      "opponent": "Montpellier",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2023-02-04",
+      "rating": 1655.89,
+      "opponent": "Toulouse FC",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2023-02-11",
+      "rating": 1645.33,
+      "opponent": "AS Monaco FC",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2023-02-14",
+      "rating": 1640.76,
+      "opponent": "FC Bayern M\u00fcnchen",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2023-02-19",
+      "rating": 1640.57,
+      "opponent": "Lille OSC",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2023-02-26",
+      "rating": 1660.02,
+      "opponent": "Olympique de Marseille",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2023-03-04",
+      "rating": 1660.97,
+      "opponent": "FC Nantes",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2023-03-08",
+      "rating": 1655.92,
+      "opponent": "FC Bayern M\u00fcnchen",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2023-03-11",
+      "rating": 1656.71,
+      "opponent": "Stade Brestois 29",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2023-03-19",
+      "rating": 1637.52,
+      "opponent": "Stade Rennais FC 1901",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2023-04-02",
+      "rating": 1628.21,
+      "opponent": "Olympique Lyonnais",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2023-04-08",
+      "rating": 1640.58,
+      "opponent": "OGC Nice",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2023-04-15",
+      "rating": 1646.27,
+      "opponent": "Racing Club de Lens",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2023-04-21",
+      "rating": 1645.04,
+      "opponent": "Angers SCO",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2023-04-30",
+      "rating": 1623.6,
+      "opponent": "FC Lorient",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2023-05-07",
+      "rating": 1628.54,
+      "opponent": "ES Troyes AC",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2023-05-13",
+      "rating": 1633.04,
+      "opponent": "Ajaccio",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2023-05-21",
+      "rating": 1633.78,
+      "opponent": "AJ Auxerre",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2023-05-27",
+      "rating": 1632.55,
+      "opponent": "RC Strasbourg Alsace",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2023-06-03",
+      "rating": 1621.75,
+      "opponent": "Clermont",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2023-07-01",
+      "rating": 1582.76,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2023-08-12",
+      "rating": 1577.74,
+      "opponent": "FC Lorient",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2023-08-19",
+      "rating": 1577.62,
+      "opponent": "Toulouse FC",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2023-08-26",
+      "rating": 1585.16,
+      "opponent": "Racing Club de Lens",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2023-09-03",
+      "rating": 1602.64,
+      "opponent": "Olympique Lyonnais",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2023-09-15",
+      "rating": 1594.02,
+      "opponent": "OGC Nice",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2023-09-19",
+      "rating": 1601.71,
+      "opponent": "Borussia Dortmund",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2023-09-24",
+      "rating": 1613.67,
+      "opponent": "Olympique de Marseille",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2023-09-30",
+      "rating": 1611.34,
+      "opponent": "Clermont",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2023-10-04",
+      "rating": 1598.85,
+      "opponent": "Newcastle United FC",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2023-10-08",
+      "rating": 1612.66,
+      "opponent": "Stade Rennais FC 1901",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2023-10-21",
+      "rating": 1618.98,
+      "opponent": "RC Strasbourg Alsace",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2023-10-25",
+      "rating": 1629.36,
+      "opponent": "AC Milan",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2023-10-29",
+      "rating": 1632.41,
+      "opponent": "Stade Brestois 29",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2023-11-03",
+      "rating": 1639.9,
+      "opponent": "Montpellier",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2023-11-07",
+      "rating": 1635.94,
+      "opponent": "AC Milan",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2023-11-11",
+      "rating": 1650.39,
+      "opponent": "Reims",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2023-11-24",
+      "rating": 1657.8,
+      "opponent": "AS Monaco FC",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2023-11-28",
+      "rating": 1653.71,
+      "opponent": "Newcastle United FC",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2023-12-03",
+      "rating": 1659.44,
+      "opponent": "Le Havre AC",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2023-12-09",
+      "rating": 1656.42,
+      "opponent": "FC Nantes",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2023-12-13",
+      "rating": 1657.47,
+      "opponent": "Borussia Dortmund",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2023-12-17",
+      "rating": 1657.97,
+      "opponent": "Lille OSC",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2023-12-20",
+      "rating": 1657.59,
+      "opponent": "Metz",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2024-01-14",
+      "rating": 1668.26,
+      "opponent": "Racing Club de Lens",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2024-01-28",
+      "rating": 1662.68,
+      "opponent": "Stade Brestois 29",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2024-02-02",
+      "rating": 1664.65,
+      "opponent": "RC Strasbourg Alsace",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2024-02-10",
+      "rating": 1669.42,
+      "opponent": "Lille OSC",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2024-02-14",
+      "rating": 1673.52,
+      "opponent": "Real Sociedad de F\u00fatbol",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2024-02-17",
+      "rating": 1678.37,
+      "opponent": "FC Nantes",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2024-02-25",
+      "rating": 1672.97,
+      "opponent": "Stade Rennais FC 1901",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2024-03-01",
+      "rating": 1671.48,
+      "opponent": "AS Monaco FC",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2024-03-05",
+      "rating": 1674.96,
+      "opponent": "Real Sociedad de F\u00fatbol",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2024-03-10",
+      "rating": 1667.99,
+      "opponent": "Reims",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2024-03-17",
+      "rating": 1682.14,
+      "opponent": "Montpellier",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2024-03-31",
+      "rating": 1692.74,
+      "opponent": "Olympique de Marseille",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2024-04-06",
+      "rating": 1684.21,
+      "opponent": "Clermont",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2024-04-10",
+      "rating": 1675.75,
+      "opponent": "FC Barcelona",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2024-04-16",
+      "rating": 1694.32,
+      "opponent": "FC Barcelona",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2024-04-21",
+      "rating": 1698.57,
+      "opponent": "Olympique Lyonnais",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2024-04-24",
+      "rating": 1706.01,
+      "opponent": "FC Lorient",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2024-04-27",
+      "rating": 1697.61,
+      "opponent": "Le Havre AC",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2024-05-01",
+      "rating": 1694.15,
+      "opponent": "Borussia Dortmund",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2024-05-07",
+      "rating": 1686.19,
+      "opponent": "Borussia Dortmund",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2024-05-12",
+      "rating": 1664.63,
+      "opponent": "Toulouse FC",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2024-05-15",
+      "rating": 1668.14,
+      "opponent": "OGC Nice",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2024-05-19",
+      "rating": 1672.41,
+      "opponent": "Metz",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2024-07-01",
+      "rating": 1621.55,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2024-08-16",
+      "rating": 1634.23,
+      "opponent": "Le Havre AC",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-23",
+      "rating": 1644.86,
+      "opponent": "Montpellier",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2024-09-01",
+      "rating": 1657.48,
+      "opponent": "Lille OSC",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2024-09-14",
+      "rating": 1660.0,
+      "opponent": "Stade Brestois 29",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2024-09-18",
+      "rating": 1659.34,
+      "opponent": "Girona FC",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2024-09-21",
+      "rating": 1656.91,
+      "opponent": "Reims",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2024-09-27",
+      "rating": 1660.04,
+      "opponent": "Stade Rennais FC 1901",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2024-10-01",
+      "rating": 1652.6,
+      "opponent": "Arsenal FC",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2024-10-06",
+      "rating": 1651.84,
+      "opponent": "OGC Nice",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2024-10-19",
+      "rating": 1653.74,
+      "opponent": "RC Strasbourg Alsace",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2024-10-22",
+      "rating": 1651.74,
+      "opponent": "PSV Eindhoven",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2024-10-27",
+      "rating": 1669.6,
+      "opponent": "Olympique de Marseille",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2024-11-02",
+      "rating": 1668.22,
+      "opponent": "Racing Club de Lens",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2024-11-06",
+      "rating": 1658.74,
+      "opponent": "Club Atl\u00e9tico de Madrid",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2024-11-09",
+      "rating": 1664.43,
+      "opponent": "Angers SCO",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2024-11-22",
+      "rating": 1670.11,
+      "opponent": "Toulouse FC",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2024-11-26",
+      "rating": 1668.24,
+      "opponent": "FC Bayern M\u00fcnchen",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2024-11-30",
+      "rating": 1660.48,
+      "opponent": "FC Nantes",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2024-12-06",
+      "rating": 1657.6,
+      "opponent": "AJ Auxerre",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2024-12-10",
+      "rating": 1670.88,
+      "opponent": "FC Red Bull Salzburg",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2024-12-15",
+      "rating": 1675.51,
+      "opponent": "Olympique Lyonnais",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2024-12-18",
+      "rating": 1686.93,
+      "opponent": "AS Monaco FC",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2025-01-12",
+      "rating": 1683.05,
+      "opponent": "St Etienne",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2025-01-18",
+      "rating": 1685.68,
+      "opponent": "Racing Club de Lens",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2025-01-22",
+      "rating": 1691.37,
+      "opponent": "Manchester City FC",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-01-25",
+      "rating": 1683.87,
+      "opponent": "Reims",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2025-01-29",
+      "rating": 1698.92,
+      "opponent": "VfB Stuttgart",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-02-01",
+      "rating": 1710.4,
+      "opponent": "Stade Brestois 29",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2025-02-07",
+      "rating": 1716.22,
+      "opponent": "AS Monaco FC",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2025-02-11",
+      "rating": 1726.87,
+      "opponent": "Stade Brestois 29",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-02-15",
+      "rating": 1727.3,
+      "opponent": "Toulouse FC",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2025-02-19",
+      "rating": 1734.95,
+      "opponent": "Stade Brestois 29",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-02-23",
+      "rating": 1737.7,
+      "opponent": "Olympique Lyonnais",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2025-03-01",
+      "rating": 1744.44,
+      "opponent": "Lille OSC",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2025-03-05",
+      "rating": 1737.0,
+      "opponent": "Liverpool FC",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-03-08",
+      "rating": 1746.65,
+      "opponent": "Stade Rennais FC 1901",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2025-03-11",
+      "rating": 1752.92,
+      "opponent": "Liverpool FC",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-03-16",
+      "rating": 1753.81,
+      "opponent": "Olympique de Marseille",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2025-03-29",
+      "rating": 1761.58,
+      "opponent": "St Etienne",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2025-04-05",
+      "rating": 1756.7,
+      "opponent": "Angers SCO",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2025-04-09",
+      "rating": 1758.29,
+      "opponent": "Aston Villa FC",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-04-15",
+      "rating": 1751.82,
+      "opponent": "Aston Villa FC",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-04-19",
+      "rating": 1746.92,
+      "opponent": "Le Havre AC",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2025-04-22",
+      "rating": 1741.09,
+      "opponent": "FC Nantes",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2025-04-25",
+      "rating": 1718.99,
+      "opponent": "OGC Nice",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2025-04-29",
+      "rating": 1725.87,
+      "opponent": "Arsenal FC",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-05-03",
+      "rating": 1719.12,
+      "opponent": "RC Strasbourg Alsace",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2025-05-07",
+      "rating": 1720.49,
+      "opponent": "Arsenal FC",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-05-10",
+      "rating": 1724.16,
+      "opponent": "Montpellier",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2025-05-17",
+      "rating": 1724.01,
+      "opponent": "AJ Auxerre",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2025-05-31",
+      "rating": 1743.79,
+      "opponent": "FC Internazionale Milano",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-01",
+      "rating": 1670.85,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2025-08-17",
+      "rating": 1672.03,
+      "opponent": "FC Nantes",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-22",
+      "rating": 1668.96,
+      "opponent": "Angers SCO",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-30",
+      "rating": 1682.63,
+      "opponent": "Toulouse FC",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2025-09-14",
+      "rating": 1684.34,
+      "opponent": "Racing Club de Lens",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2025-09-17",
+      "rating": 1695.18,
+      "opponent": "Atalanta BC",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-09-22",
+      "rating": 1689.63,
+      "opponent": "Olympique de Marseille",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2025-09-27",
+      "rating": 1690.24,
+      "opponent": "AJ Auxerre",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2025-10-01",
+      "rating": 1696.82,
+      "opponent": "FC Barcelona",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-10-05",
+      "rating": 1695.51,
+      "opponent": "Lille OSC",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2025-10-17",
+      "rating": 1689.46,
+      "opponent": "RC Strasbourg Alsace",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2025-10-21",
+      "rating": 1709.87,
+      "opponent": "Bayer 04 Leverkusen",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-10-25",
+      "rating": 1719.96,
+      "opponent": "Stade Brestois 29",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2025-10-29",
+      "rating": 1714.32,
+      "opponent": "FC Lorient",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2025-11-01",
+      "rating": 1711.73,
+      "opponent": "OGC Nice",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2025-11-04",
+      "rating": 1706.0,
+      "opponent": "FC Bayern M\u00fcnchen",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-11-09",
+      "rating": 1708.68,
+      "opponent": "Olympique Lyonnais",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2025-11-22",
+      "rating": 1711.02,
+      "opponent": "Le Havre AC",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2025-11-26",
+      "rating": 1713.95,
+      "opponent": "Tottenham Hotspur FC",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-11-29",
+      "rating": 1706.47,
+      "opponent": "AS Monaco FC",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2025-12-06",
+      "rating": 1715.03,
+      "opponent": "Stade Rennais FC 1901",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2025-12-10",
+      "rating": 1711.55,
+      "opponent": "Athletic Club",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-12-13",
+      "rating": 1710.17,
+      "opponent": "Metz",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2026-01-04",
+      "rating": 1706.15,
+      "opponent": "Paris FC",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2026-01-16",
+      "rating": 1711.89,
+      "opponent": "Lille OSC",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2026-01-20",
+      "rating": 1709.24,
+      "opponent": "Sporting Clube de Portugal",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2026-01-23",
+      "rating": 1708.93,
+      "opponent": "AJ Auxerre",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2026-01-28",
+      "rating": 1703.85,
+      "opponent": "Newcastle United FC",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2026-02-01",
+      "rating": 1706.5,
+      "opponent": "RC Strasbourg Alsace",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2026-02-08",
+      "rating": 1716.72,
+      "opponent": "Olympique de Marseille",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2026-02-13",
+      "rating": 1700.29,
+      "opponent": "Stade Rennais FC 1901",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2026-02-17",
+      "rating": 1701.75,
+      "opponent": "AS Monaco FC",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2026-02-21",
+      "rating": 1702.95,
+      "opponent": "Metz",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2026-02-25",
+      "rating": 1696.21,
+      "opponent": "AS Monaco FC",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2026-02-28",
+      "rating": 1696.14,
+      "opponent": "Le Havre AC",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2026-03-06",
+      "rating": 1675.32,
+      "opponent": "AS Monaco FC",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2026-03-11",
+      "rating": 1686.44,
+      "opponent": "Chelsea FC",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2026-03-17",
+      "rating": 1704.63,
+      "opponent": "Chelsea FC",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2026-03-21",
+      "rating": 1715.78,
+      "opponent": "OGC Nice",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2026-04-03",
+      "rating": 1716.49,
+      "opponent": "Toulouse FC",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2026-04-08",
+      "rating": 1721.35,
+      "opponent": "Liverpool FC",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2026-04-14",
+      "rating": 1733.15,
+      "opponent": "Liverpool FC",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2026-04-19",
+      "rating": 1722.33,
+      "opponent": "Olympique Lyonnais",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2026-04-22",
+      "rating": 1723.61,
+      "opponent": "FC Nantes",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2026-04-25",
+      "rating": 1730.24,
+      "opponent": "Angers SCO",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2026-04-28",
+      "rating": 1734.27,
+      "opponent": "FC Bayern M\u00fcnchen",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2026-05-02",
+      "rating": 1726.41,
+      "opponent": "FC Lorient",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2026-05-06",
+      "rating": 1730.63,
+      "opponent": "FC Bayern M\u00fcnchen",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2026-05-10",
+      "rating": 1726.93,
+      "opponent": "Stade Brestois 29",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2026-05-13",
+      "rating": 1735.66,
+      "opponent": "Racing Club de Lens",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2026-05-17",
+      "rating": 1726.9,
+      "opponent": "Paris FC",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2026-05-30",
+      "rating": 1722.54,
+      "opponent": "Arsenal FC",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2026-07-01",
+      "rating": 1657.28,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2026-08-23",
+      "rating": 1659.31,
+      "opponent": "Stade Rennais FC 1901",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2026-08-28",
+      "rating": 1659.07,
+      "opponent": "Lille OSC",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2026-09-04",
+      "rating": 1655.02,
+      "opponent": "AS Monaco FC",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2026-09-13",
+      "rating": 1654.9,
+      "opponent": "Stade Brestois 29",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2026-09-20",
+      "rating": 1660.71,
+      "opponent": "Olympique de Marseille",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-10",
+      "rating": 1662.21,
+      "opponent": "Le Mans FC",
+      "competition_id": "F1",
+      "event": "match"
+    }
+  ]
+}

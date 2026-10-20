@@ -1,0 +1,43 @@
+{
+  "id": "beitar-jerusalem",
+  "name": "Beitar Jerusalem",
+  "league": null,
+  "rating": 1509.2,
+  "points": [
+    {
+      "date": "2025-07-24",
+      "rating": 1507.09,
+      "opponent": "FK Sutjeska",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-31",
+      "rating": 1518.78,
+      "opponent": "FK Sutjeska",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-07",
+      "rating": 1505.86,
+      "opponent": "Riga FC",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-14",
+      "rating": 1513.75,
+      "opponent": "Riga FC",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2026-07-01",
+      "rating": 1509.17,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    }
+  ]
+}

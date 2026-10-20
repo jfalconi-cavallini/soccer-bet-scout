@@ -1,0 +1,64 @@
+{
+  "id": "urartu",
+  "name": "FC Urartu",
+  "league": null,
+  "rating": 1478.9,
+  "points": [
+    {
+      "date": "2024-07-11",
+      "rating": 1506.82,
+      "opponent": "JK Tallinna Kalev",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-07-18",
+      "rating": 1513.74,
+      "opponent": "JK Tallinna Kalev",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-07-25",
+      "rating": 1498.42,
+      "opponent": "Ban\u00edk Ostrava",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-01",
+      "rating": 1484.2,
+      "opponent": "Ban\u00edk Ostrava",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-01",
+      "rating": 1489.47,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2025-07-10",
+      "rating": 1482.47,
+      "opponent": "Neman Grodno",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-17",
+      "rating": 1468.4,
+      "opponent": "Neman Grodno",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2026-07-01",
+      "rating": 1478.93,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    }
+  ]
+}

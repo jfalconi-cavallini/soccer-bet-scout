@@ -1,0 +1,1079 @@
+{
+  "id": "kortrijk",
+  "name": "Kortrijk",
+  "league": "Belgian Pro League",
+  "rating": 1390.8,
+  "points": [
+    {
+      "date": "2021-07-24",
+      "rating": 1507.52,
+      "opponent": "Seraing",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2021-08-01",
+      "rating": 1514.06,
+      "opponent": "Royal Antwerp FC",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2021-08-07",
+      "rating": 1506.67,
+      "opponent": "KRC Genk",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2021-08-14",
+      "rating": 1500.08,
+      "opponent": "Royale Union Saint-Gilloise",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2021-08-21",
+      "rating": 1514.54,
+      "opponent": "Sint-Truidense VV",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2021-08-27",
+      "rating": 1511.27,
+      "opponent": "KV Mechelen",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2021-09-12",
+      "rating": 1508.12,
+      "opponent": "Oud-Heverlee Leuven",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2021-09-19",
+      "rating": 1510.28,
+      "opponent": "KAA Gent",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2021-09-25",
+      "rating": 1511.98,
+      "opponent": "SV Zulte Waregem",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2021-10-02",
+      "rating": 1509.44,
+      "opponent": "Sporting Charleroi",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2021-10-15",
+      "rating": 1502.82,
+      "opponent": "Club Brugge KV",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2021-10-23",
+      "rating": 1503.95,
+      "opponent": "Oostende",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2021-10-30",
+      "rating": 1505.32,
+      "opponent": "Standard Li\u00e8ge",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2021-11-06",
+      "rating": 1500.96,
+      "opponent": "Beerschot VA",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2021-11-21",
+      "rating": 1503.88,
+      "opponent": "RSC Anderlecht",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2021-11-27",
+      "rating": 1506.52,
+      "opponent": "Eupen",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2021-12-04",
+      "rating": 1490.2,
+      "opponent": "Cercle Brugge",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2021-12-11",
+      "rating": 1491.88,
+      "opponent": "Oud-Heverlee Leuven",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2021-12-14",
+      "rating": 1504.43,
+      "opponent": "Oostende",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2021-12-17",
+      "rating": 1516.75,
+      "opponent": "Seraing",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2022-01-14",
+      "rating": 1520.19,
+      "opponent": "KAA Gent",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2022-01-22",
+      "rating": 1515.77,
+      "opponent": "Eupen",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2022-01-25",
+      "rating": 1518.12,
+      "opponent": "Sporting Charleroi",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2022-01-30",
+      "rating": 1511.08,
+      "opponent": "Club Brugge KV",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2022-02-02",
+      "rating": 1497.64,
+      "opponent": "Royal Antwerp FC",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2022-02-05",
+      "rating": 1481.18,
+      "opponent": "Sint-Truidense VV",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2022-02-13",
+      "rating": 1477.05,
+      "opponent": "Beerschot VA",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2022-02-19",
+      "rating": 1491.02,
+      "opponent": "SV Zulte Waregem",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2022-02-27",
+      "rating": 1485.03,
+      "opponent": "KRC Genk",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2022-03-05",
+      "rating": 1482.45,
+      "opponent": "Royale Union Saint-Gilloise",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2022-03-12",
+      "rating": 1477.22,
+      "opponent": "Cercle Brugge",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2022-03-20",
+      "rating": 1469.51,
+      "opponent": "Standard Li\u00e8ge",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2022-04-02",
+      "rating": 1468.36,
+      "opponent": "KV Mechelen",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2022-04-10",
+      "rating": 1465.28,
+      "opponent": "RSC Anderlecht",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2022-07-01",
+      "rating": 1474.78,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2022-07-23",
+      "rating": 1459.68,
+      "opponent": "Oud-Heverlee Leuven",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2022-07-31",
+      "rating": 1465.07,
+      "opponent": "Seraing",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2022-08-06",
+      "rating": 1464.21,
+      "opponent": "Sint-Truidense VV",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2022-08-13",
+      "rating": 1465.33,
+      "opponent": "Royale Union Saint-Gilloise",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2022-08-21",
+      "rating": 1466.15,
+      "opponent": "Club Brugge KV",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2022-08-28",
+      "rating": 1458.54,
+      "opponent": "Standard Li\u00e8ge",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2022-09-03",
+      "rating": 1464.12,
+      "opponent": "Eupen",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2022-09-10",
+      "rating": 1444.25,
+      "opponent": "KV Mechelen",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2022-09-18",
+      "rating": 1437.67,
+      "opponent": "RSC Anderlecht",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2022-10-02",
+      "rating": 1443.65,
+      "opponent": "Royal Antwerp FC",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2022-10-08",
+      "rating": 1445.25,
+      "opponent": "KRC Genk",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2022-10-15",
+      "rating": 1427.54,
+      "opponent": "SV Zulte Waregem",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2022-10-18",
+      "rating": 1431.81,
+      "opponent": "Sporting Charleroi",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2022-10-22",
+      "rating": 1417.8,
+      "opponent": "KVC Westerlo",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2022-10-29",
+      "rating": 1417.94,
+      "opponent": "Cercle Brugge",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2022-11-06",
+      "rating": 1410.74,
+      "opponent": "Oostende",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2022-11-13",
+      "rating": 1396.27,
+      "opponent": "KAA Gent",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2022-12-26",
+      "rating": 1404.93,
+      "opponent": "KRC Genk",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2023-01-08",
+      "rating": 1414.31,
+      "opponent": "Oud-Heverlee Leuven",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2023-01-15",
+      "rating": 1416.51,
+      "opponent": "KAA Gent",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2023-01-18",
+      "rating": 1418.06,
+      "opponent": "Seraing",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2023-01-21",
+      "rating": 1417.84,
+      "opponent": "KV Mechelen",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2023-01-28",
+      "rating": 1414.52,
+      "opponent": "Oostende",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2023-02-04",
+      "rating": 1415.08,
+      "opponent": "Sint-Truidense VV",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2023-02-12",
+      "rating": 1433.77,
+      "opponent": "Standard Li\u00e8ge",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2023-02-19",
+      "rating": 1434.29,
+      "opponent": "RSC Anderlecht",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2023-02-24",
+      "rating": 1435.92,
+      "opponent": "SV Zulte Waregem",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2023-03-04",
+      "rating": 1430.27,
+      "opponent": "Sporting Charleroi",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2023-03-11",
+      "rating": 1425.75,
+      "opponent": "KVC Westerlo",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2023-03-18",
+      "rating": 1431.1,
+      "opponent": "Club Brugge KV",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2023-04-01",
+      "rating": 1426.66,
+      "opponent": "Cercle Brugge",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2023-04-08",
+      "rating": 1423.58,
+      "opponent": "Eupen",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2023-04-16",
+      "rating": 1425.93,
+      "opponent": "Royal Antwerp FC",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2023-04-23",
+      "rating": 1418.57,
+      "opponent": "Royale Union Saint-Gilloise",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2023-07-01",
+      "rating": 1443.54,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2023-07-30",
+      "rating": 1444.5,
+      "opponent": "KAA Gent",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2023-08-06",
+      "rating": 1439.09,
+      "opponent": "Sint-Truidense VV",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2023-08-11",
+      "rating": 1427.97,
+      "opponent": "Royal Antwerp FC",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2023-08-20",
+      "rating": 1412.03,
+      "opponent": "Eupen",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2023-08-26",
+      "rating": 1412.42,
+      "opponent": "Standard Li\u00e8ge",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2023-09-01",
+      "rating": 1403.61,
+      "opponent": "Oud-Heverlee Leuven",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2023-09-17",
+      "rating": 1405.02,
+      "opponent": "RSC Anderlecht",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2023-09-23",
+      "rating": 1405.18,
+      "opponent": "Sporting Charleroi",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2023-09-29",
+      "rating": 1410.37,
+      "opponent": "Cercle Brugge",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2023-10-07",
+      "rating": 1410.18,
+      "opponent": "KVC Westerlo",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2023-10-21",
+      "rating": 1416.83,
+      "opponent": "Club Brugge KV",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2023-10-29",
+      "rating": 1405.38,
+      "opponent": "KRC Genk",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2023-11-04",
+      "rating": 1408.36,
+      "opponent": "RWD Molenbeek",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2023-11-12",
+      "rating": 1403.92,
+      "opponent": "Royale Union Saint-Gilloise",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2023-11-26",
+      "rating": 1386.09,
+      "opponent": "KV Mechelen",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2023-12-02",
+      "rating": 1388.99,
+      "opponent": "Eupen",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2023-12-08",
+      "rating": 1384.37,
+      "opponent": "KVC Westerlo",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2023-12-17",
+      "rating": 1379.27,
+      "opponent": "KRC Genk",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2023-12-20",
+      "rating": 1373.39,
+      "opponent": "Cercle Brugge",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2023-12-26",
+      "rating": 1368.21,
+      "opponent": "KAA Gent",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2024-01-20",
+      "rating": 1378.04,
+      "opponent": "Standard Li\u00e8ge",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2024-01-27",
+      "rating": 1378.19,
+      "opponent": "Oud-Heverlee Leuven",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2024-01-30",
+      "rating": 1386.51,
+      "opponent": "Club Brugge KV",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2024-02-03",
+      "rating": 1390.05,
+      "opponent": "Sporting Charleroi",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2024-02-09",
+      "rating": 1390.64,
+      "opponent": "Sint-Truidense VV",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2024-02-18",
+      "rating": 1385.01,
+      "opponent": "Royale Union Saint-Gilloise",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2024-02-24",
+      "rating": 1378.36,
+      "opponent": "KV Mechelen",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2024-03-03",
+      "rating": 1380.59,
+      "opponent": "RWD Molenbeek",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2024-03-09",
+      "rating": 1379.63,
+      "opponent": "Royal Antwerp FC",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2024-03-16",
+      "rating": 1391.83,
+      "opponent": "RSC Anderlecht",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2024-04-07",
+      "rating": 1393.57,
+      "opponent": "Eupen",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2024-04-14",
+      "rating": 1387.72,
+      "opponent": "Sporting Charleroi",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2024-04-21",
+      "rating": 1372.52,
+      "opponent": "RWD Molenbeek",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2024-04-28",
+      "rating": 1380.11,
+      "opponent": "RWD Molenbeek",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2024-05-05",
+      "rating": 1381.19,
+      "opponent": "Eupen",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2024-05-11",
+      "rating": 1376.53,
+      "opponent": "Sporting Charleroi",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2024-07-01",
+      "rating": 1418.47,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2024-07-28",
+      "rating": 1416.72,
+      "opponent": "KAA Gent",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-04",
+      "rating": 1426.37,
+      "opponent": "Cercle Brugge",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-10",
+      "rating": 1414.34,
+      "opponent": "FCV Dender EH",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-18",
+      "rating": 1418.2,
+      "opponent": "Standard Li\u00e8ge",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-25",
+      "rating": 1418.41,
+      "opponent": "Sporting Charleroi",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2024-09-01",
+      "rating": 1416.75,
+      "opponent": "Sint-Truidense VV",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2024-09-14",
+      "rating": 1406.65,
+      "opponent": "Club Brugge KV",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2024-09-22",
+      "rating": 1411.84,
+      "opponent": "Oud-Heverlee Leuven",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2024-09-29",
+      "rating": 1406.13,
+      "opponent": "Royale Union Saint-Gilloise",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2024-10-05",
+      "rating": 1412.52,
+      "opponent": "KRC Genk",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2024-10-20",
+      "rating": 1405.96,
+      "opponent": "KV Mechelen",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2024-10-25",
+      "rating": 1406.9,
+      "opponent": "Beerschot VA",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2024-11-03",
+      "rating": 1399.89,
+      "opponent": "RSC Anderlecht",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2024-11-09",
+      "rating": 1398.12,
+      "opponent": "Royal Antwerp FC",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2024-11-24",
+      "rating": 1387.7,
+      "opponent": "KVC Westerlo",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2024-11-29",
+      "rating": 1402.64,
+      "opponent": "KV Mechelen",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2024-12-07",
+      "rating": 1404.85,
+      "opponent": "KRC Genk",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2024-12-14",
+      "rating": 1384.86,
+      "opponent": "FCV Dender EH",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2024-12-21",
+      "rating": 1387.38,
+      "opponent": "Beerschot VA",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2024-12-26",
+      "rating": 1383.29,
+      "opponent": "Sporting Charleroi",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2025-01-10",
+      "rating": 1383.59,
+      "opponent": "Standard Li\u00e8ge",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2025-01-19",
+      "rating": 1377.52,
+      "opponent": "RSC Anderlecht",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2025-01-25",
+      "rating": 1385.76,
+      "opponent": "Club Brugge KV",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2025-02-02",
+      "rating": 1381.5,
+      "opponent": "KVC Westerlo",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2025-02-09",
+      "rating": 1381.15,
+      "opponent": "Royale Union Saint-Gilloise",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2025-02-15",
+      "rating": 1383.41,
+      "opponent": "Royal Antwerp FC",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2025-02-23",
+      "rating": 1385.07,
+      "opponent": "Cercle Brugge",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2025-03-01",
+      "rating": 1380.81,
+      "opponent": "Sint-Truidense VV",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2025-03-08",
+      "rating": 1393.63,
+      "opponent": "Oud-Heverlee Leuven",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2025-03-16",
+      "rating": 1404.28,
+      "opponent": "KAA Gent",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2025-03-30",
+      "rating": 1404.53,
+      "opponent": "Cercle Brugge",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2025-04-06",
+      "rating": 1428.62,
+      "opponent": "Sint-Truidense VV",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2025-04-12",
+      "rating": 1428.98,
+      "opponent": "Beerschot VA",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2025-04-25",
+      "rating": 1419.03,
+      "opponent": "Beerschot VA",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2025-05-03",
+      "rating": 1436.94,
+      "opponent": "Cercle Brugge",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2025-05-10",
+      "rating": 1434.91,
+      "opponent": "Sint-Truidense VV",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-01",
+      "rating": 1456.7,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2026-07-01",
+      "rating": 1424.3,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2026-08-07",
+      "rating": 1420.45,
+      "opponent": "Club Brugge KV",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2026-08-15",
+      "rating": 1409.89,
+      "opponent": "Royal Antwerp FC",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2026-08-29",
+      "rating": 1404.08,
+      "opponent": "Sporting Charleroi",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2026-09-03",
+      "rating": 1404.8,
+      "opponent": "RSC Anderlecht",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2026-09-06",
+      "rating": 1397.71,
+      "opponent": "SV Zulte Waregem",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2026-09-13",
+      "rating": 1388.01,
+      "opponent": "RAAL La Louviere",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2026-09-20",
+      "rating": 1392.54,
+      "opponent": "Beveren",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-10",
+      "rating": 1390.76,
+      "opponent": "KRC Genk",
+      "competition_id": "B1",
+      "event": "match"
+    }
+  ]
+}

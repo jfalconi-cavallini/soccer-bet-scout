@@ -1,0 +1,1163 @@
+{
+  "id": "espanyol",
+  "name": "RCD Espanyol de Barcelona",
+  "league": "La Liga",
+  "rating": 1498.8,
+  "points": [
+    {
+      "date": "2021-08-14",
+      "rating": 1502.49,
+      "opponent": "CA Osasuna",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2021-08-21",
+      "rating": 1499.85,
+      "opponent": "Villarreal CF",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2021-08-27",
+      "rating": 1498.12,
+      "opponent": "Mallorca",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2021-09-12",
+      "rating": 1491.53,
+      "opponent": "Club Atl\u00e9tico de Madrid",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2021-09-19",
+      "rating": 1494.37,
+      "opponent": "Real Betis Balompi\u00e9",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2021-09-22",
+      "rating": 1494.88,
+      "opponent": "Deportivo Alav\u00e9s",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2021-09-25",
+      "rating": 1488.87,
+      "opponent": "Sevilla FC",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2021-10-03",
+      "rating": 1492.69,
+      "opponent": "Real Madrid CF",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2021-10-18",
+      "rating": 1499.46,
+      "opponent": "Cadiz",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2021-10-23",
+      "rating": 1501.56,
+      "opponent": "Elche CF",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2021-10-26",
+      "rating": 1499.49,
+      "opponent": "Athletic Club",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2021-10-31",
+      "rating": 1496.04,
+      "opponent": "Getafe CF",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2021-11-06",
+      "rating": 1503.6,
+      "opponent": "Granada",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2021-11-20",
+      "rating": 1501.61,
+      "opponent": "FC Barcelona",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2021-11-28",
+      "rating": 1504.66,
+      "opponent": "Real Sociedad de F\u00fatbol",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2021-12-05",
+      "rating": 1503.51,
+      "opponent": "Rayo Vallecano de Madrid",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2021-12-11",
+      "rating": 1503.41,
+      "opponent": "Levante UD",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2021-12-17",
+      "rating": 1495.29,
+      "opponent": "RC Celta de Vigo",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2021-12-31",
+      "rating": 1502.74,
+      "opponent": "Valencia CF",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2022-01-10",
+      "rating": 1494.88,
+      "opponent": "Elche CF",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2022-01-18",
+      "rating": 1495.17,
+      "opponent": "Cadiz",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2022-01-21",
+      "rating": 1477.05,
+      "opponent": "Real Betis Balompi\u00e9",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2022-02-07",
+      "rating": 1476.61,
+      "opponent": "Athletic Club",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2022-02-13",
+      "rating": 1475.8,
+      "opponent": "FC Barcelona",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2022-02-20",
+      "rating": 1476.16,
+      "opponent": "Sevilla FC",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2022-02-27",
+      "rating": 1466.78,
+      "opponent": "Villarreal CF",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2022-03-05",
+      "rating": 1475.58,
+      "opponent": "Getafe CF",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2022-03-12",
+      "rating": 1476.55,
+      "opponent": "Levante UD",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2022-03-20",
+      "rating": 1476.84,
+      "opponent": "Mallorca",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2022-04-04",
+      "rating": 1475.86,
+      "opponent": "Real Sociedad de F\u00fatbol",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2022-04-10",
+      "rating": 1478.79,
+      "opponent": "RC Celta de Vigo",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2022-04-17",
+      "rating": 1479.62,
+      "opponent": "Club Atl\u00e9tico de Madrid",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2022-04-21",
+      "rating": 1472.27,
+      "opponent": "Rayo Vallecano de Madrid",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2022-04-30",
+      "rating": 1465.78,
+      "opponent": "Real Madrid CF",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2022-05-08",
+      "rating": 1463.56,
+      "opponent": "CA Osasuna",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2022-05-11",
+      "rating": 1460.4,
+      "opponent": "Deportivo Alav\u00e9s",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2022-05-14",
+      "rating": 1458.1,
+      "opponent": "Valencia CF",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2022-05-22",
+      "rating": 1460.31,
+      "opponent": "Granada",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2022-07-01",
+      "rating": 1475.16,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2022-08-13",
+      "rating": 1478.5,
+      "opponent": "RC Celta de Vigo",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2022-08-19",
+      "rating": 1463.1,
+      "opponent": "Rayo Vallecano de Madrid",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2022-08-28",
+      "rating": 1455.37,
+      "opponent": "Real Madrid CF",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2022-09-04",
+      "rating": 1464.43,
+      "opponent": "Athletic Club",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2022-09-10",
+      "rating": 1458.47,
+      "opponent": "Sevilla FC",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2022-09-18",
+      "rating": 1458.13,
+      "opponent": "Real Sociedad de F\u00fatbol",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2022-10-02",
+      "rating": 1457.11,
+      "opponent": "Valencia CF",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2022-10-09",
+      "rating": 1458.99,
+      "opponent": "Cadiz",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2022-10-16",
+      "rating": 1460.52,
+      "opponent": "Valladolid",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2022-10-20",
+      "rating": 1459.01,
+      "opponent": "CA Osasuna",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2022-10-23",
+      "rating": 1455.55,
+      "opponent": "Elche CF",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2022-10-28",
+      "rating": 1458.39,
+      "opponent": "Mallorca",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2022-11-06",
+      "rating": 1463.71,
+      "opponent": "Club Atl\u00e9tico de Madrid",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2022-11-09",
+      "rating": 1459.62,
+      "opponent": "Villarreal CF",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2022-12-31",
+      "rating": 1466.35,
+      "opponent": "FC Barcelona",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2023-01-07",
+      "rating": 1463.86,
+      "opponent": "Girona FC",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2023-01-15",
+      "rating": 1471.1,
+      "opponent": "Getafe CF",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2023-01-21",
+      "rating": 1475.92,
+      "opponent": "Real Betis Balompi\u00e9",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2023-01-27",
+      "rating": 1467.68,
+      "opponent": "Almeria",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2023-02-04",
+      "rating": 1465.63,
+      "opponent": "CA Osasuna",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2023-02-13",
+      "rating": 1462.09,
+      "opponent": "Real Sociedad de F\u00fatbol",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2023-02-19",
+      "rating": 1467.46,
+      "opponent": "Elche CF",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2023-02-25",
+      "rating": 1469.74,
+      "opponent": "Mallorca",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2023-03-05",
+      "rating": 1466.87,
+      "opponent": "Valladolid",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2023-03-11",
+      "rating": 1466.86,
+      "opponent": "Real Madrid CF",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2023-03-18",
+      "rating": 1453.36,
+      "opponent": "RC Celta de Vigo",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2023-04-01",
+      "rating": 1452.38,
+      "opponent": "Girona FC",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2023-04-08",
+      "rating": 1448.01,
+      "opponent": "Athletic Club",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2023-04-15",
+      "rating": 1443.67,
+      "opponent": "Real Betis Balompi\u00e9",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2023-04-21",
+      "rating": 1441.71,
+      "opponent": "Cadiz",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2023-04-27",
+      "rating": 1438.65,
+      "opponent": "Villarreal CF",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2023-04-30",
+      "rating": 1441.52,
+      "opponent": "Getafe CF",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2023-05-04",
+      "rating": 1442.31,
+      "opponent": "Sevilla FC",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2023-05-14",
+      "rating": 1436.17,
+      "opponent": "FC Barcelona",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2023-05-21",
+      "rating": 1443.7,
+      "opponent": "Rayo Vallecano de Madrid",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2023-05-24",
+      "rating": 1446.45,
+      "opponent": "Club Atl\u00e9tico de Madrid",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2023-05-28",
+      "rating": 1450.19,
+      "opponent": "Valencia CF",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2023-06-04",
+      "rating": 1447.92,
+      "opponent": "Almeria",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2023-07-01",
+      "rating": 1468.11,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2024-07-01",
+      "rating": 1450.15,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2024-08-19",
+      "rating": 1448.3,
+      "opponent": "Valladolid",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-24",
+      "rating": 1444.17,
+      "opponent": "Real Sociedad de F\u00fatbol",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-28",
+      "rating": 1450.36,
+      "opponent": "Club Atl\u00e9tico de Madrid",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-31",
+      "rating": 1453.2,
+      "opponent": "Rayo Vallecano de Madrid",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2024-09-14",
+      "rating": 1456.7,
+      "opponent": "Deportivo Alav\u00e9s",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2024-09-21",
+      "rating": 1453.42,
+      "opponent": "Real Madrid CF",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2024-09-26",
+      "rating": 1449.1,
+      "opponent": "Villarreal CF",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2024-09-29",
+      "rating": 1449.73,
+      "opponent": "Real Betis Balompi\u00e9",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2024-10-05",
+      "rating": 1453.34,
+      "opponent": "Mallorca",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2024-10-19",
+      "rating": 1446.79,
+      "opponent": "Athletic Club",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2024-10-25",
+      "rating": 1434.03,
+      "opponent": "Sevilla FC",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2024-11-03",
+      "rating": 1435.19,
+      "opponent": "FC Barcelona",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2024-11-23",
+      "rating": 1428.35,
+      "opponent": "Girona FC",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2024-11-30",
+      "rating": 1439.06,
+      "opponent": "RC Celta de Vigo",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2024-12-09",
+      "rating": 1438.48,
+      "opponent": "Getafe CF",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2024-12-14",
+      "rating": 1437.85,
+      "opponent": "CA Osasuna",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2024-12-18",
+      "rating": 1436.45,
+      "opponent": "Valencia CF",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2024-12-22",
+      "rating": 1436.02,
+      "opponent": "Las Palmas",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2025-01-11",
+      "rating": 1433.5,
+      "opponent": "Leganes",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2025-01-17",
+      "rating": 1434.74,
+      "opponent": "Valladolid",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2025-01-25",
+      "rating": 1439.02,
+      "opponent": "Sevilla FC",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2025-02-01",
+      "rating": 1448.53,
+      "opponent": "Real Madrid CF",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2025-02-09",
+      "rating": 1449.24,
+      "opponent": "Real Sociedad de F\u00fatbol",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2025-02-16",
+      "rating": 1451.71,
+      "opponent": "Athletic Club",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2025-02-22",
+      "rating": 1459.47,
+      "opponent": "Deportivo Alav\u00e9s",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2025-03-10",
+      "rating": 1458.52,
+      "opponent": "Girona FC",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2025-03-15",
+      "rating": 1457.5,
+      "opponent": "Mallorca",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2025-03-29",
+      "rating": 1460.46,
+      "opponent": "Club Atl\u00e9tico de Madrid",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2025-04-04",
+      "rating": 1487.21,
+      "opponent": "Rayo Vallecano de Madrid",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2025-04-12",
+      "rating": 1503.42,
+      "opponent": "RC Celta de Vigo",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2025-04-18",
+      "rating": 1505.63,
+      "opponent": "Getafe CF",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2025-04-22",
+      "rating": 1507.87,
+      "opponent": "Valencia CF",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2025-04-27",
+      "rating": 1507.42,
+      "opponent": "Villarreal CF",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2025-05-04",
+      "rating": 1503.47,
+      "opponent": "Real Betis Balompi\u00e9",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2025-05-11",
+      "rating": 1499.85,
+      "opponent": "Leganes",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2025-05-15",
+      "rating": 1494.22,
+      "opponent": "FC Barcelona",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2025-05-18",
+      "rating": 1487.73,
+      "opponent": "CA Osasuna",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2025-05-24",
+      "rating": 1493.79,
+      "opponent": "Las Palmas",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-01",
+      "rating": 1503.88,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2025-08-17",
+      "rating": 1508.96,
+      "opponent": "Club Atl\u00e9tico de Madrid",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-24",
+      "rating": 1511.55,
+      "opponent": "Real Sociedad de F\u00fatbol",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-31",
+      "rating": 1513.87,
+      "opponent": "CA Osasuna",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2025-09-15",
+      "rating": 1514.98,
+      "opponent": "Mallorca",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2025-09-20",
+      "rating": 1512.08,
+      "opponent": "Real Madrid CF",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2025-09-23",
+      "rating": 1509.92,
+      "opponent": "Valencia CF",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2025-09-26",
+      "rating": 1510.05,
+      "opponent": "Girona FC",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2025-10-05",
+      "rating": 1504.72,
+      "opponent": "Real Betis Balompi\u00e9",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2025-10-17",
+      "rating": 1516.13,
+      "opponent": "Oviedo",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2025-10-25",
+      "rating": 1516.68,
+      "opponent": "Elche CF",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2025-11-02",
+      "rating": 1514.54,
+      "opponent": "Deportivo Alav\u00e9s",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2025-11-08",
+      "rating": 1502.54,
+      "opponent": "Villarreal CF",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2025-11-24",
+      "rating": 1504.54,
+      "opponent": "Sevilla FC",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2025-11-30",
+      "rating": 1511.67,
+      "opponent": "RC Celta de Vigo",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2025-12-07",
+      "rating": 1514.0,
+      "opponent": "Rayo Vallecano de Madrid",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2025-12-13",
+      "rating": 1520.36,
+      "opponent": "Getafe CF",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2025-12-22",
+      "rating": 1527.09,
+      "opponent": "Athletic Club",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-01-03",
+      "rating": 1519.66,
+      "opponent": "FC Barcelona",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-01-11",
+      "rating": 1520.35,
+      "opponent": "Levante UD",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-01-16",
+      "rating": 1502.45,
+      "opponent": "Girona FC",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-01-24",
+      "rating": 1500.2,
+      "opponent": "Valencia CF",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-01-30",
+      "rating": 1492.91,
+      "opponent": "Deportivo Alav\u00e9s",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-02-09",
+      "rating": 1483.66,
+      "opponent": "Villarreal CF",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-02-14",
+      "rating": 1482.98,
+      "opponent": "RC Celta de Vigo",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-02-21",
+      "rating": 1480.7,
+      "opponent": "Club Atl\u00e9tico de Madrid",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-03-01",
+      "rating": 1482.79,
+      "opponent": "Elche CF",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-03-09",
+      "rating": 1478.39,
+      "opponent": "Oviedo",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-03-15",
+      "rating": 1476.78,
+      "opponent": "Mallorca",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-03-21",
+      "rating": 1470.97,
+      "opponent": "Getafe CF",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-04-04",
+      "rating": 1475.7,
+      "opponent": "Real Betis Balompi\u00e9",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-04-11",
+      "rating": 1473.05,
+      "opponent": "FC Barcelona",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-04-23",
+      "rating": 1472.05,
+      "opponent": "Rayo Vallecano de Madrid",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-04-27",
+      "rating": 1469.39,
+      "opponent": "Levante UD",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-05-03",
+      "rating": 1463.61,
+      "opponent": "Real Madrid CF",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-05-09",
+      "rating": 1461.68,
+      "opponent": "Sevilla FC",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-05-13",
+      "rating": 1471.45,
+      "opponent": "Athletic Club",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-05-17",
+      "rating": 1479.45,
+      "opponent": "CA Osasuna",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-05-23",
+      "rating": 1478.07,
+      "opponent": "Real Sociedad de F\u00fatbol",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-07-01",
+      "rating": 1494.1,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2026-08-16",
+      "rating": 1502.72,
+      "opponent": "Levante UD",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-08-22",
+      "rating": 1498.52,
+      "opponent": "Real Madrid CF",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-08-29",
+      "rating": 1497.36,
+      "opponent": "Real Sociedad de F\u00fatbol",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-09-06",
+      "rating": 1496.27,
+      "opponent": "Sevilla FC",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-09-12",
+      "rating": 1507.75,
+      "opponent": "CA Osasuna",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-09-15",
+      "rating": 1508.2,
+      "opponent": "Rayo Vallecano de Madrid",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-09-18",
+      "rating": 1496.18,
+      "opponent": "Elche CF",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-09",
+      "rating": 1498.78,
+      "opponent": "M\u00e1laga CF",
+      "competition_id": "SP1",
+      "event": "match"
+    }
+  ]
+}

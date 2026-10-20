@@ -1,0 +1,764 @@
+{
+  "id": "panserraikos",
+  "name": "Panserraikos",
+  "league": "Super League Greece",
+  "rating": 1398.5,
+  "points": [
+    {
+      "date": "2023-07-01",
+      "rating": 1442.72,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2023-08-20",
+      "rating": 1440.66,
+      "opponent": "Olympiakos Piraeus",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2023-08-26",
+      "rating": 1447.36,
+      "opponent": "AEK Athen",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2023-09-02",
+      "rating": 1444.21,
+      "opponent": "Panetolikos",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2023-09-17",
+      "rating": 1446.46,
+      "opponent": "AE Kifisias",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2023-09-23",
+      "rating": 1453.32,
+      "opponent": "Lamia",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2023-09-28",
+      "rating": 1455.35,
+      "opponent": "Giannina",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2023-10-21",
+      "rating": 1455.55,
+      "opponent": "Aris Saloniki",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2023-10-29",
+      "rating": 1447.81,
+      "opponent": "Panathinaikos",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2023-11-06",
+      "rating": 1450.66,
+      "opponent": "OFI Heraklion",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2023-11-11",
+      "rating": 1453.74,
+      "opponent": "Atromitos",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2023-11-25",
+      "rating": 1444.53,
+      "opponent": "PAOK Saloniki",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2023-11-29",
+      "rating": 1441.78,
+      "opponent": "Volos NFC",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2023-12-02",
+      "rating": 1440.18,
+      "opponent": "Asteras Tripolis",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2023-12-18",
+      "rating": 1437.77,
+      "opponent": "Olympiakos Piraeus",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2023-12-21",
+      "rating": 1439.56,
+      "opponent": "AEK Athen",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2024-01-04",
+      "rating": 1437.19,
+      "opponent": "Panetolikos",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2024-01-07",
+      "rating": 1433.29,
+      "opponent": "AE Kifisias",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2024-01-13",
+      "rating": 1448.33,
+      "opponent": "Lamia",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2024-01-20",
+      "rating": 1462.27,
+      "opponent": "Giannina",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2024-01-27",
+      "rating": 1457.87,
+      "opponent": "Volos NFC",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2024-02-03",
+      "rating": 1458.08,
+      "opponent": "Aris Saloniki",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2024-02-11",
+      "rating": 1446.01,
+      "opponent": "Panathinaikos",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2024-02-19",
+      "rating": 1430.08,
+      "opponent": "OFI Heraklion",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2024-02-24",
+      "rating": 1427.72,
+      "opponent": "Atromitos",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2024-02-28",
+      "rating": 1422.26,
+      "opponent": "PAOK Saloniki",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2024-03-03",
+      "rating": 1425.05,
+      "opponent": "Asteras Tripolis",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2024-03-16",
+      "rating": 1412.2,
+      "opponent": "Panetolikos",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2024-03-30",
+      "rating": 1420.68,
+      "opponent": "Asteras Tripolis",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2024-04-06",
+      "rating": 1424.0,
+      "opponent": "Atromitos",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2024-04-13",
+      "rating": 1422.13,
+      "opponent": "OFI Heraklion",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2024-04-21",
+      "rating": 1422.68,
+      "opponent": "Giannina",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2024-04-27",
+      "rating": 1421.01,
+      "opponent": "Volos NFC",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2024-05-11",
+      "rating": 1426.92,
+      "opponent": "AE Kifisias",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2024-07-01",
+      "rating": 1447.3,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2024-08-17",
+      "rating": 1449.31,
+      "opponent": "PAOK Saloniki",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-24",
+      "rating": 1444.88,
+      "opponent": "Aris Saloniki",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-31",
+      "rating": 1433.21,
+      "opponent": "Panetolikos",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2024-09-15",
+      "rating": 1429.9,
+      "opponent": "Levadeiakos",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2024-09-22",
+      "rating": 1428.14,
+      "opponent": "Panathinaikos",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2024-09-30",
+      "rating": 1434.64,
+      "opponent": "Lamia",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2024-10-06",
+      "rating": 1428.64,
+      "opponent": "OFI Heraklion",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2024-10-19",
+      "rating": 1435.44,
+      "opponent": "Volos NFC",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2024-10-26",
+      "rating": 1442.54,
+      "opponent": "AEK Athen",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2024-11-02",
+      "rating": 1444.55,
+      "opponent": "Olympiakos Piraeus",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2024-11-09",
+      "rating": 1438.04,
+      "opponent": "Atromitos",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2024-11-22",
+      "rating": 1443.69,
+      "opponent": "Athens Kallithea",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2024-12-01",
+      "rating": 1446.19,
+      "opponent": "Asteras Tripolis",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2024-12-08",
+      "rating": 1433.01,
+      "opponent": "PAOK Saloniki",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2024-12-15",
+      "rating": 1433.62,
+      "opponent": "Aris Saloniki",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2024-12-22",
+      "rating": 1432.69,
+      "opponent": "Panetolikos",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2025-01-05",
+      "rating": 1430.72,
+      "opponent": "Levadeiakos",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2025-01-12",
+      "rating": 1432.85,
+      "opponent": "Panathinaikos",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2025-01-20",
+      "rating": 1438.49,
+      "opponent": "Lamia",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2025-01-25",
+      "rating": 1437.74,
+      "opponent": "OFI Heraklion",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2025-02-01",
+      "rating": 1434.38,
+      "opponent": "Volos NFC",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2025-02-09",
+      "rating": 1426.79,
+      "opponent": "AEK Athen",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2025-02-16",
+      "rating": 1414.05,
+      "opponent": "Olympiakos Piraeus",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2025-02-22",
+      "rating": 1413.88,
+      "opponent": "Atromitos",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2025-03-01",
+      "rating": 1415.12,
+      "opponent": "Athens Kallithea",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2025-03-09",
+      "rating": 1423.42,
+      "opponent": "Asteras Tripolis",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2025-03-30",
+      "rating": 1419.38,
+      "opponent": "Lamia",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2025-04-05",
+      "rating": 1409.88,
+      "opponent": "Levadeiakos",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2025-04-12",
+      "rating": 1417.49,
+      "opponent": "Athens Kallithea",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2025-04-23",
+      "rating": 1416.3,
+      "opponent": "Panetolikos",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2025-04-28",
+      "rating": 1404.51,
+      "opponent": "Volos NFC",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2025-05-05",
+      "rating": 1417.94,
+      "opponent": "Volos NFC",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2025-05-10",
+      "rating": 1414.02,
+      "opponent": "Lamia",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2025-05-14",
+      "rating": 1415.71,
+      "opponent": "Athens Kallithea",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2025-05-18",
+      "rating": 1411.06,
+      "opponent": "Levadeiakos",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-01",
+      "rating": 1436.79,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2025-08-24",
+      "rating": 1433.87,
+      "opponent": "AEK Athen",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-30",
+      "rating": 1428.04,
+      "opponent": "OFI Heraklion",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2025-09-13",
+      "rating": 1420.56,
+      "opponent": "Olympiakos Piraeus",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2025-09-20",
+      "rating": 1420.49,
+      "opponent": "Atromitos",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2025-09-27",
+      "rating": 1425.49,
+      "opponent": "Aris Saloniki",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2025-10-04",
+      "rating": 1428.21,
+      "opponent": "Asteras Tripolis",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2025-10-19",
+      "rating": 1427.51,
+      "opponent": "Volos NFC",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2025-10-25",
+      "rating": 1411.1,
+      "opponent": "AE L\u00e1rissa",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2025-11-02",
+      "rating": 1395.5,
+      "opponent": "PAOK Saloniki",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2025-11-09",
+      "rating": 1389.61,
+      "opponent": "Levadeiakos",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2025-11-23",
+      "rating": 1377.03,
+      "opponent": "Panathinaikos",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2025-11-29",
+      "rating": 1367.59,
+      "opponent": "AE Kifisias",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2025-12-08",
+      "rating": 1363.8,
+      "opponent": "Panetolikos",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2025-12-13",
+      "rating": 1354.46,
+      "opponent": "OFI Heraklion",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2025-12-22",
+      "rating": 1347.99,
+      "opponent": "Levadeiakos",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2026-01-11",
+      "rating": 1344.14,
+      "opponent": "Panathinaikos",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2026-01-17",
+      "rating": 1349.01,
+      "opponent": "AE Kifisias",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2026-01-24",
+      "rating": 1348.48,
+      "opponent": "AE L\u00e1rissa",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2026-02-01",
+      "rating": 1346.81,
+      "opponent": "PAOK Saloniki",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2026-02-08",
+      "rating": 1336.77,
+      "opponent": "AEK Athen",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2026-02-16",
+      "rating": 1343.16,
+      "opponent": "Atromitos",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2026-02-22",
+      "rating": 1347.53,
+      "opponent": "Volos NFC",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2026-03-01",
+      "rating": 1349.03,
+      "opponent": "Olympiakos Piraeus",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2026-03-08",
+      "rating": 1357.94,
+      "opponent": "Asteras Tripolis",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2026-03-14",
+      "rating": 1359.38,
+      "opponent": "Aris Saloniki",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2026-03-22",
+      "rating": 1364.45,
+      "opponent": "Panetolikos",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2026-04-04",
+      "rating": 1372.96,
+      "opponent": "AE Kifisias",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2026-04-08",
+      "rating": 1371.95,
+      "opponent": "Asteras Tripolis",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2026-04-18",
+      "rating": 1381.01,
+      "opponent": "Panetolikos",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2026-04-22",
+      "rating": 1363.24,
+      "opponent": "Atromitos",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2026-04-26",
+      "rating": 1370.82,
+      "opponent": "AE L\u00e1rissa",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2026-05-02",
+      "rating": 1368.64,
+      "opponent": "AE L\u00e1rissa",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2026-05-09",
+      "rating": 1363.55,
+      "opponent": "AE Kifisias",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2026-05-12",
+      "rating": 1363.83,
+      "opponent": "Asteras Tripolis",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2026-05-17",
+      "rating": 1363.66,
+      "opponent": "Panetolikos",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2026-05-21",
+      "rating": 1353.31,
+      "opponent": "Atromitos",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2026-07-01",
+      "rating": 1398.47,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "una-strassen",
+  "name": "UNA Strassen",
+  "league": null,
+  "rating": 1483.9,
+  "points": [
+    {
+      "date": "2024-07-11",
+      "rating": 1497.51,
+      "opponent": "Kuopion PS",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-07-18",
+      "rating": 1481.46,
+      "opponent": "Kuopion PS",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-01",
+      "rating": 1487.64,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2025-07-24",
+      "rating": 1484.08,
+      "opponent": "Dundee United",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-31",
+      "rating": 1475.86,
+      "opponent": "Dundee United",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2026-07-01",
+      "rating": 1483.91,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    }
+  ]
+}

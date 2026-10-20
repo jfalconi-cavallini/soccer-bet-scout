@@ -1,0 +1,1709 @@
+{
+  "id": "juventus",
+  "name": "Juventus FC",
+  "league": "Serie A",
+  "rating": 1593.4,
+  "points": [
+    {
+      "date": "2021-08-22",
+      "rating": 1502.49,
+      "opponent": "Udinese Calcio",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2021-08-28",
+      "rating": 1495.15,
+      "opponent": "Empoli",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2021-09-11",
+      "rating": 1493.85,
+      "opponent": "SSC Napoli",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2021-09-14",
+      "rating": 1514.86,
+      "opponent": "Malm\u00f6 FF",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2021-09-19",
+      "rating": 1512.68,
+      "opponent": "AC Milan",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2021-09-22",
+      "rating": 1518.74,
+      "opponent": "Spezia",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2021-09-26",
+      "rating": 1519.81,
+      "opponent": "Sampdoria",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2021-09-29",
+      "rating": 1522.61,
+      "opponent": "Chelsea FC",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2021-10-02",
+      "rating": 1529.08,
+      "opponent": "Torino FC",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2021-10-17",
+      "rating": 1531.92,
+      "opponent": "AS Roma",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2021-10-20",
+      "rating": 1538.16,
+      "opponent": "Zenit St. Petersburg",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2021-10-24",
+      "rating": 1541.04,
+      "opponent": "FC Internazionale Milano",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2021-10-27",
+      "rating": 1532.99,
+      "opponent": "US Sassuolo Calcio",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2021-10-30",
+      "rating": 1530.57,
+      "opponent": "Verona",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2021-11-02",
+      "rating": 1537.03,
+      "opponent": "Zenit St. Petersburg",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2021-11-06",
+      "rating": 1538.15,
+      "opponent": "ACF Fiorentina",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2021-11-20",
+      "rating": 1552.5,
+      "opponent": "Lazio Roma",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2021-11-23",
+      "rating": 1540.89,
+      "opponent": "Chelsea FC",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2021-11-27",
+      "rating": 1534.04,
+      "opponent": "Atalanta BC",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2021-11-30",
+      "rating": 1543.94,
+      "opponent": "Salernitana",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2021-12-05",
+      "rating": 1547.56,
+      "opponent": "Genoa CFC",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2021-12-08",
+      "rating": 1546.77,
+      "opponent": "Malm\u00f6 FF",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2021-12-11",
+      "rating": 1546.32,
+      "opponent": "Venezia FC",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2021-12-18",
+      "rating": 1558.39,
+      "opponent": "Bologna FC 1909",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2021-12-21",
+      "rating": 1560.44,
+      "opponent": "Cagliari Calcio",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2022-01-06",
+      "rating": 1558.42,
+      "opponent": "SSC Napoli",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2022-01-09",
+      "rating": 1564.96,
+      "opponent": "AS Roma",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2022-01-15",
+      "rating": 1568.8,
+      "opponent": "Udinese Calcio",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2022-01-23",
+      "rating": 1571.32,
+      "opponent": "AC Milan",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2022-02-06",
+      "rating": 1576.42,
+      "opponent": "Verona",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2022-02-13",
+      "rating": 1578.17,
+      "opponent": "Atalanta BC",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2022-02-18",
+      "rating": 1573.74,
+      "opponent": "Torino FC",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2022-02-22",
+      "rating": 1576.38,
+      "opponent": "Villarreal CF",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2022-02-26",
+      "rating": 1579.2,
+      "opponent": "Empoli",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2022-03-06",
+      "rating": 1577.58,
+      "opponent": "Spezia",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2022-03-12",
+      "rating": 1587.64,
+      "opponent": "Sampdoria",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2022-03-16",
+      "rating": 1566.58,
+      "opponent": "Villarreal CF",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2022-03-20",
+      "rating": 1567.34,
+      "opponent": "Salernitana",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2022-04-03",
+      "rating": 1561.27,
+      "opponent": "FC Internazionale Milano",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2022-04-09",
+      "rating": 1563.67,
+      "opponent": "Cagliari Calcio",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2022-04-16",
+      "rating": 1558.77,
+      "opponent": "Bologna FC 1909",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2022-04-25",
+      "rating": 1564.59,
+      "opponent": "US Sassuolo Calcio",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2022-05-01",
+      "rating": 1562.04,
+      "opponent": "Venezia FC",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2022-05-06",
+      "rating": 1555.7,
+      "opponent": "Genoa CFC",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2022-05-16",
+      "rating": 1553.71,
+      "opponent": "Lazio Roma",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2022-05-21",
+      "rating": 1543.27,
+      "opponent": "ACF Fiorentina",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2022-07-01",
+      "rating": 1530.2,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2022-08-15",
+      "rating": 1540.78,
+      "opponent": "US Sassuolo Calcio",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2022-08-22",
+      "rating": 1540.95,
+      "opponent": "Sampdoria",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2022-08-27",
+      "rating": 1538.94,
+      "opponent": "AS Roma",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2022-08-31",
+      "rating": 1542.7,
+      "opponent": "Spezia",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2022-09-03",
+      "rating": 1543.95,
+      "opponent": "ACF Fiorentina",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2022-09-06",
+      "rating": 1545.23,
+      "opponent": "Paris Saint-Germain FC",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2022-09-11",
+      "rating": 1540.17,
+      "opponent": "Salernitana",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2022-09-14",
+      "rating": 1535.29,
+      "opponent": "Sport Lisboa e Benfica",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2022-09-18",
+      "rating": 1529.66,
+      "opponent": "AC Monza",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2022-10-02",
+      "rating": 1538.81,
+      "opponent": "Bologna FC 1909",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2022-10-05",
+      "rating": 1543.7,
+      "opponent": "Maccabi Haifa",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2022-10-08",
+      "rating": 1538.05,
+      "opponent": "AC Milan",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2022-10-11",
+      "rating": 1527.48,
+      "opponent": "Maccabi Haifa",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2022-10-15",
+      "rating": 1533.32,
+      "opponent": "Torino FC",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2022-10-21",
+      "rating": 1543.94,
+      "opponent": "Empoli",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2022-10-25",
+      "rating": 1544.41,
+      "opponent": "Sport Lisboa e Benfica",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2022-10-29",
+      "rating": 1547.92,
+      "opponent": "US Lecce",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2022-11-02",
+      "rating": 1544.93,
+      "opponent": "Paris Saint-Germain FC",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2022-11-06",
+      "rating": 1554.8,
+      "opponent": "FC Internazionale Milano",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2022-11-10",
+      "rating": 1558.31,
+      "opponent": "Verona",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2022-11-13",
+      "rating": 1571.76,
+      "opponent": "Lazio Roma",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2023-01-04",
+      "rating": 1573.77,
+      "opponent": "Cremonese",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2023-01-07",
+      "rating": 1574.65,
+      "opponent": "Udinese Calcio",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2023-01-13",
+      "rating": 1565.55,
+      "opponent": "SSC Napoli",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2023-01-22",
+      "rating": 1562.96,
+      "opponent": "Atalanta BC",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2023-01-29",
+      "rating": 1544.03,
+      "opponent": "AC Monza",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2023-02-07",
+      "rating": 1558.76,
+      "opponent": "Salernitana",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2023-02-12",
+      "rating": 1559.5,
+      "opponent": "ACF Fiorentina",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2023-02-16",
+      "rating": 1555.54,
+      "opponent": "FC Nantes",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2023-02-19",
+      "rating": 1564.42,
+      "opponent": "Spezia",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2023-02-23",
+      "rating": 1582.03,
+      "opponent": "FC Nantes",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2023-02-28",
+      "rating": 1586.2,
+      "opponent": "Torino FC",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2023-03-05",
+      "rating": 1584.22,
+      "opponent": "AS Roma",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2023-03-09",
+      "rating": 1585.26,
+      "opponent": "SC Freiburg",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2023-03-12",
+      "rating": 1586.04,
+      "opponent": "Sampdoria",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2023-03-16",
+      "rating": 1599.58,
+      "opponent": "SC Freiburg",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2023-03-19",
+      "rating": 1606.23,
+      "opponent": "FC Internazionale Milano",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2023-04-01",
+      "rating": 1603.87,
+      "opponent": "Verona",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2023-04-08",
+      "rating": 1601.52,
+      "opponent": "Lazio Roma",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2023-04-13",
+      "rating": 1604.15,
+      "opponent": "Sporting Clube de Portugal",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2023-04-16",
+      "rating": 1598.98,
+      "opponent": "US Sassuolo Calcio",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2023-04-20",
+      "rating": 1602.05,
+      "opponent": "Sporting Clube de Portugal",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2023-04-23",
+      "rating": 1597.51,
+      "opponent": "SSC Napoli",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2023-04-30",
+      "rating": 1597.67,
+      "opponent": "Bologna FC 1909",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2023-05-03",
+      "rating": 1595.72,
+      "opponent": "US Lecce",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2023-05-07",
+      "rating": 1609.15,
+      "opponent": "Atalanta BC",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2023-05-11",
+      "rating": 1604.59,
+      "opponent": "Sevilla FC",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2023-05-14",
+      "rating": 1605.11,
+      "opponent": "Cremonese",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2023-05-18",
+      "rating": 1606.04,
+      "opponent": "Sevilla FC",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2023-05-22",
+      "rating": 1586.13,
+      "opponent": "Empoli",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2023-05-28",
+      "rating": 1579.04,
+      "opponent": "AC Milan",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2023-06-04",
+      "rating": 1583.47,
+      "opponent": "Udinese Calcio",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2023-07-01",
+      "rating": 1561.41,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2023-08-20",
+      "rating": 1579.0,
+      "opponent": "Udinese Calcio",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2023-08-27",
+      "rating": 1574.73,
+      "opponent": "Bologna FC 1909",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2023-09-03",
+      "rating": 1584.94,
+      "opponent": "Empoli",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2023-09-16",
+      "rating": 1591.27,
+      "opponent": "Lazio Roma",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2023-09-23",
+      "rating": 1577.97,
+      "opponent": "US Sassuolo Calcio",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2023-09-26",
+      "rating": 1577.5,
+      "opponent": "US Lecce",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2023-10-01",
+      "rating": 1579.77,
+      "opponent": "Atalanta BC",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2023-10-07",
+      "rating": 1584.58,
+      "opponent": "Torino FC",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2023-10-22",
+      "rating": 1591.72,
+      "opponent": "AC Milan",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2023-10-28",
+      "rating": 1590.02,
+      "opponent": "Verona",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2023-11-05",
+      "rating": 1596.74,
+      "opponent": "ACF Fiorentina",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2023-11-11",
+      "rating": 1594.09,
+      "opponent": "Cagliari Calcio",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2023-11-26",
+      "rating": 1593.76,
+      "opponent": "FC Internazionale Milano",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2023-12-01",
+      "rating": 1598.22,
+      "opponent": "AC Monza",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2023-12-08",
+      "rating": 1599.83,
+      "opponent": "SSC Napoli",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2023-12-15",
+      "rating": 1597.64,
+      "opponent": "Genoa CFC",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2023-12-23",
+      "rating": 1599.85,
+      "opponent": "Frosinone Calcio",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2023-12-30",
+      "rating": 1601.1,
+      "opponent": "AS Roma",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2024-01-07",
+      "rating": 1602.59,
+      "opponent": "Salernitana",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2024-01-16",
+      "rating": 1608.49,
+      "opponent": "US Sassuolo Calcio",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2024-01-21",
+      "rating": 1621.95,
+      "opponent": "US Lecce",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2024-01-27",
+      "rating": 1615.0,
+      "opponent": "Empoli",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2024-02-04",
+      "rating": 1615.55,
+      "opponent": "FC Internazionale Milano",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2024-02-12",
+      "rating": 1605.13,
+      "opponent": "Udinese Calcio",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2024-02-17",
+      "rating": 1602.99,
+      "opponent": "Verona",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2024-02-25",
+      "rating": 1600.26,
+      "opponent": "Frosinone Calcio",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2024-03-03",
+      "rating": 1597.63,
+      "opponent": "SSC Napoli",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2024-03-10",
+      "rating": 1595.6,
+      "opponent": "Atalanta BC",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2024-03-17",
+      "rating": 1589.85,
+      "opponent": "Genoa CFC",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2024-03-30",
+      "rating": 1587.01,
+      "opponent": "Lazio Roma",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2024-04-07",
+      "rating": 1588.22,
+      "opponent": "ACF Fiorentina",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2024-04-13",
+      "rating": 1589.01,
+      "opponent": "Torino FC",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2024-04-19",
+      "rating": 1586.88,
+      "opponent": "Cagliari Calcio",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2024-04-27",
+      "rating": 1585.24,
+      "opponent": "AC Milan",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2024-05-05",
+      "rating": 1587.94,
+      "opponent": "AS Roma",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2024-05-12",
+      "rating": 1580.25,
+      "opponent": "Salernitana",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2024-05-20",
+      "rating": 1583.39,
+      "opponent": "Bologna FC 1909",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2024-05-25",
+      "rating": 1586.66,
+      "opponent": "AC Monza",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2024-07-01",
+      "rating": 1566.07,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2024-08-19",
+      "rating": 1572.47,
+      "opponent": "Como 1907",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-26",
+      "rating": 1589.39,
+      "opponent": "Verona",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2024-09-01",
+      "rating": 1585.97,
+      "opponent": "AS Roma",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2024-09-14",
+      "rating": 1585.74,
+      "opponent": "Empoli",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2024-09-17",
+      "rating": 1597.25,
+      "opponent": "PSV Eindhoven",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2024-09-21",
+      "rating": 1593.49,
+      "opponent": "SSC Napoli",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2024-09-28",
+      "rating": 1608.8,
+      "opponent": "Genoa CFC",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2024-10-02",
+      "rating": 1615.45,
+      "opponent": "RB Leipzig [cancelled]",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2024-10-06",
+      "rating": 1608.51,
+      "opponent": "Cagliari Calcio",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2024-10-19",
+      "rating": 1609.74,
+      "opponent": "Lazio Roma",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2024-10-22",
+      "rating": 1602.03,
+      "opponent": "VfB Stuttgart",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2024-10-27",
+      "rating": 1606.25,
+      "opponent": "FC Internazionale Milano",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2024-10-30",
+      "rating": 1599.79,
+      "opponent": "Parma Calcio 1913",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2024-11-02",
+      "rating": 1610.3,
+      "opponent": "Udinese Calcio",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2024-11-05",
+      "rating": 1612.87,
+      "opponent": "Lille OSC",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2024-11-09",
+      "rating": 1616.92,
+      "opponent": "Torino FC",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2024-11-23",
+      "rating": 1618.57,
+      "opponent": "AC Milan",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2024-11-27",
+      "rating": 1619.37,
+      "opponent": "Aston Villa FC",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2024-12-01",
+      "rating": 1616.48,
+      "opponent": "US Lecce",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2024-12-07",
+      "rating": 1611.78,
+      "opponent": "Bologna FC 1909",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2024-12-11",
+      "rating": 1620.82,
+      "opponent": "Manchester City FC",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2024-12-14",
+      "rating": 1613.65,
+      "opponent": "Venezia FC",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2024-12-22",
+      "rating": 1616.5,
+      "opponent": "AC Monza",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2024-12-29",
+      "rating": 1613.91,
+      "opponent": "ACF Fiorentina",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2025-01-11",
+      "rating": 1613.12,
+      "opponent": "Torino FC",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2025-01-14",
+      "rating": 1617.57,
+      "opponent": "Atalanta BC",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2025-01-18",
+      "rating": 1623.8,
+      "opponent": "AC Milan",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2025-01-21",
+      "rating": 1626.71,
+      "opponent": "Club Brugge KV",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-01-25",
+      "rating": 1624.59,
+      "opponent": "SSC Napoli",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2025-01-29",
+      "rating": 1609.68,
+      "opponent": "Sport Lisboa e Benfica",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-02-02",
+      "rating": 1615.51,
+      "opponent": "Empoli",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2025-02-07",
+      "rating": 1617.82,
+      "opponent": "Como 1907",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2025-02-11",
+      "rating": 1621.29,
+      "opponent": "PSV Eindhoven",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-02-16",
+      "rating": 1625.39,
+      "opponent": "FC Internazionale Milano",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2025-02-19",
+      "rating": 1619.41,
+      "opponent": "PSV Eindhoven",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-02-23",
+      "rating": 1621.42,
+      "opponent": "Cagliari Calcio",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2025-03-03",
+      "rating": 1622.14,
+      "opponent": "Verona",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2025-03-09",
+      "rating": 1600.76,
+      "opponent": "Atalanta BC",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2025-03-16",
+      "rating": 1587.87,
+      "opponent": "ACF Fiorentina",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2025-03-29",
+      "rating": 1587.32,
+      "opponent": "Genoa CFC",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2025-04-06",
+      "rating": 1590.11,
+      "opponent": "AS Roma",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2025-04-12",
+      "rating": 1588.06,
+      "opponent": "US Lecce",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2025-04-23",
+      "rating": 1582.35,
+      "opponent": "Parma Calcio 1913",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2025-04-27",
+      "rating": 1583.34,
+      "opponent": "AC Monza",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2025-05-04",
+      "rating": 1585.88,
+      "opponent": "Bologna FC 1909",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2025-05-10",
+      "rating": 1588.51,
+      "opponent": "Lazio Roma",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2025-05-18",
+      "rating": 1591.3,
+      "opponent": "Udinese Calcio",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2025-05-25",
+      "rating": 1593.55,
+      "opponent": "Venezia FC",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-01",
+      "rating": 1573.21,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2025-08-24",
+      "rating": 1577.57,
+      "opponent": "Parma Calcio 1913",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-31",
+      "rating": 1582.46,
+      "opponent": "Genoa CFC",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2025-09-13",
+      "rating": 1585.76,
+      "opponent": "FC Internazionale Milano",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2025-09-16",
+      "rating": 1584.45,
+      "opponent": "Borussia Dortmund",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-09-20",
+      "rating": 1583.16,
+      "opponent": "Verona",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2025-09-27",
+      "rating": 1581.8,
+      "opponent": "Atalanta BC",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2025-10-01",
+      "rating": 1584.17,
+      "opponent": "Villarreal CF",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-10-05",
+      "rating": 1582.08,
+      "opponent": "AC Milan",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2025-10-19",
+      "rating": 1572.63,
+      "opponent": "Como 1907",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2025-10-22",
+      "rating": 1573.09,
+      "opponent": "Real Madrid CF",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-10-26",
+      "rating": 1571.24,
+      "opponent": "Lazio Roma",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2025-10-29",
+      "rating": 1574.92,
+      "opponent": "Udinese Calcio",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2025-11-01",
+      "rating": 1579.07,
+      "opponent": "Cremonese",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2025-11-04",
+      "rating": 1578.82,
+      "opponent": "Sporting Clube de Portugal",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-11-08",
+      "rating": 1574.32,
+      "opponent": "Torino FC",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2025-11-22",
+      "rating": 1575.81,
+      "opponent": "ACF Fiorentina",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2025-11-25",
+      "rating": 1581.59,
+      "opponent": "FK Bod\u00f8/Glimt",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-11-29",
+      "rating": 1580.78,
+      "opponent": "Cagliari Calcio",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2025-12-07",
+      "rating": 1579.61,
+      "opponent": "SSC Napoli",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2025-12-10",
+      "rating": 1583.8,
+      "opponent": "Paphos FC",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-12-14",
+      "rating": 1590.66,
+      "opponent": "Bologna FC 1909",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2025-12-20",
+      "rating": 1592.71,
+      "opponent": "AS Roma",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2025-12-27",
+      "rating": 1601.36,
+      "opponent": "Pisa",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2026-01-03",
+      "rating": 1594.89,
+      "opponent": "US Lecce",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2026-01-06",
+      "rating": 1610.53,
+      "opponent": "US Sassuolo Calcio",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2026-01-12",
+      "rating": 1620.31,
+      "opponent": "Cremonese",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2026-01-17",
+      "rating": 1614.16,
+      "opponent": "Cagliari Calcio",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2026-01-21",
+      "rating": 1623.71,
+      "opponent": "Sport Lisboa e Benfica",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2026-01-25",
+      "rating": 1634.83,
+      "opponent": "SSC Napoli",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2026-01-28",
+      "rating": 1633.21,
+      "opponent": "AS Monaco FC",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2026-02-01",
+      "rating": 1645.21,
+      "opponent": "Parma Calcio 1913",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2026-02-08",
+      "rating": 1639.83,
+      "opponent": "Lazio Roma",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2026-02-14",
+      "rating": 1639.84,
+      "opponent": "FC Internazionale Milano",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2026-02-17",
+      "rating": 1628.74,
+      "opponent": "Galatasaray SK",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2026-02-21",
+      "rating": 1612.51,
+      "opponent": "Como 1907",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2026-02-25",
+      "rating": 1615.51,
+      "opponent": "Galatasaray SK",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2026-03-01",
+      "rating": 1618.12,
+      "opponent": "AS Roma",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2026-03-07",
+      "rating": 1623.84,
+      "opponent": "Pisa",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2026-03-14",
+      "rating": 1626.86,
+      "opponent": "Udinese Calcio",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2026-03-21",
+      "rating": 1620.96,
+      "opponent": "US Sassuolo Calcio",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2026-04-06",
+      "rating": 1623.96,
+      "opponent": "Genoa CFC",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2026-04-11",
+      "rating": 1630.28,
+      "opponent": "Atalanta BC",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2026-04-19",
+      "rating": 1633.52,
+      "opponent": "Bologna FC 1909",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2026-04-26",
+      "rating": 1635.0,
+      "opponent": "AC Milan",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2026-05-03",
+      "rating": 1627.23,
+      "opponent": "Verona",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2026-05-09",
+      "rating": 1628.68,
+      "opponent": "US Lecce",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2026-05-17",
+      "rating": 1609.33,
+      "opponent": "ACF Fiorentina",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2026-05-24",
+      "rating": 1608.19,
+      "opponent": "Torino FC",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2026-07-01",
+      "rating": 1582.92,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2026-08-23",
+      "rating": 1587.04,
+      "opponent": "Frosinone Calcio",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2026-08-29",
+      "rating": 1589.36,
+      "opponent": "Parma Calcio 1913",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2026-09-06",
+      "rating": 1589.24,
+      "opponent": "AC Milan",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2026-09-13",
+      "rating": 1587.74,
+      "opponent": "US Sassuolo Calcio",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2026-09-20",
+      "rating": 1590.51,
+      "opponent": "Atalanta BC",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-11",
+      "rating": 1593.36,
+      "opponent": "Cagliari Calcio",
+      "competition_id": "I1",
+      "event": "match"
+    }
+  ]
+}

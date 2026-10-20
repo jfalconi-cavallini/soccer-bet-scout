@@ -1,0 +1,43 @@
+{
+  "id": "santa-coloma",
+  "name": "FC Santa Coloma",
+  "league": null,
+  "rating": 1492.0,
+  "points": [
+    {
+      "date": "2025-07-10",
+      "rating": 1520.57,
+      "opponent": "Borac Banja Luka",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-17",
+      "rating": 1503.7,
+      "opponent": "Borac Banja Luka",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-24",
+      "rating": 1510.11,
+      "opponent": "Polissya Zhytomyr",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-31",
+      "rating": 1488.07,
+      "opponent": "Polissya Zhytomyr",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2026-07-01",
+      "rating": 1492.05,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    }
+  ]
+}

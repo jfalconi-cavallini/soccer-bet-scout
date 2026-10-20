@@ -1,0 +1,71 @@
+{
+  "id": "academico-viseu",
+  "name": "Acad\u00e9mico de Viseu FC",
+  "league": "Primeira Liga",
+  "rating": 1452.5,
+  "points": [
+    {
+      "date": "2026-07-01",
+      "rating": 1438.11,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2026-08-09",
+      "rating": 1441.22,
+      "opponent": "Sport Lisboa e Benfica",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2026-08-15",
+      "rating": 1436.65,
+      "opponent": "CD Santa Clara",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2026-08-22",
+      "rating": 1440.77,
+      "opponent": "CS Mar\u00edtimo",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2026-08-29",
+      "rating": 1434.23,
+      "opponent": "FC Porto",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2026-09-06",
+      "rating": 1437.68,
+      "opponent": "Gil Vicente FC",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2026-09-12",
+      "rating": 1438.24,
+      "opponent": "Vit\u00f3ria Guimar\u00e3es",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2026-09-20",
+      "rating": 1453.92,
+      "opponent": "CF Estrela da Amadora",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-10",
+      "rating": 1452.5,
+      "opponent": "GD Estoril Praia",
+      "competition_id": "P1",
+      "event": "match"
+    }
+  ]
+}

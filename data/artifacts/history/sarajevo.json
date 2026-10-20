@@ -1,0 +1,64 @@
+{
+  "id": "sarajevo",
+  "name": "FK Sarajevo",
+  "league": null,
+  "rating": 1484.4,
+  "points": [
+    {
+      "date": "2024-07-11",
+      "rating": 1506.82,
+      "opponent": "FK Aktobe",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-07-18",
+      "rating": 1499.59,
+      "opponent": "FK Aktobe",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-07-25",
+      "rating": 1496.33,
+      "opponent": "Spartak Trnava",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-07-31",
+      "rating": 1483.29,
+      "opponent": "Spartak Trnava",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-01",
+      "rating": 1488.86,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2025-07-24",
+      "rating": 1490.93,
+      "opponent": "CS Universitatea Craiova",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-31",
+      "rating": 1476.58,
+      "opponent": "CS Universitatea Craiova",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2026-07-01",
+      "rating": 1484.39,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    }
+  ]
+}

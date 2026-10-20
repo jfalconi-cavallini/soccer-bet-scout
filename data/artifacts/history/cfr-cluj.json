@@ -1,0 +1,239 @@
+{
+  "id": "cfr-cluj",
+  "name": "CFR Cluj",
+  "league": null,
+  "rating": 1497.3,
+  "points": [
+    {
+      "date": "2021-09-16",
+      "rating": 1498.15,
+      "opponent": "FK Jablonec",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2021-09-30",
+      "rating": 1495.64,
+      "opponent": "Randers FC",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2021-10-21",
+      "rating": 1490.09,
+      "opponent": "AZ Alkmaar",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2021-11-04",
+      "rating": 1484.39,
+      "opponent": "AZ Alkmaar",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2021-11-25",
+      "rating": 1483.0,
+      "opponent": "Randers FC",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2021-12-09",
+      "rating": 1491.24,
+      "opponent": "FK Jablonec",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2022-07-01",
+      "rating": 1494.16,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2022-09-08",
+      "rating": 1496.82,
+      "opponent": "KF Ballkani",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2022-09-15",
+      "rating": 1489.13,
+      "opponent": "Sivasspor",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2022-10-06",
+      "rating": 1496.82,
+      "opponent": "SK Slavia Praha",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2022-10-13",
+      "rating": 1504.99,
+      "opponent": "SK Slavia Praha",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2022-10-27",
+      "rating": 1492.62,
+      "opponent": "Sivasspor",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2022-11-03",
+      "rating": 1494.32,
+      "opponent": "KF Ballkani",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2023-02-16",
+      "rating": 1494.53,
+      "opponent": "Lazio Roma",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2023-02-23",
+      "rating": 1494.55,
+      "opponent": "Lazio Roma",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2023-07-01",
+      "rating": 1496.36,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2024-07-01",
+      "rating": 1497.58,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2024-07-25",
+      "rating": 1495.16,
+      "opponent": "Neman Grodno",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-01",
+      "rating": 1521.9,
+      "opponent": "Neman Grodno",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-08",
+      "rating": 1527.13,
+      "opponent": "Maccabi Petach-Tikva",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-15",
+      "rating": 1527.19,
+      "opponent": "Maccabi Petach-Tikva",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-22",
+      "rating": 1527.36,
+      "opponent": "Paphos FC",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-29",
+      "rating": 1512.19,
+      "opponent": "Paphos FC",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-01",
+      "rating": 1508.13,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2025-07-10",
+      "rating": 1510.62,
+      "opponent": "Paksi SE",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-17",
+      "rating": 1522.34,
+      "opponent": "Paksi SE",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-24",
+      "rating": 1524.11,
+      "opponent": "FC Lugano",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-31",
+      "rating": 1520.82,
+      "opponent": "FC Lugano",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-07",
+      "rating": 1514.94,
+      "opponent": "Sporting Clube de Braga",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-14",
+      "rating": 1509.56,
+      "opponent": "Sporting Clube de Braga",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-21",
+      "rating": 1493.11,
+      "opponent": "BK H\u00e4cken",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-28",
+      "rating": 1495.91,
+      "opponent": "BK H\u00e4cken",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2026-07-01",
+      "rating": 1497.28,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "msk-zilina",
+  "name": "M\u0160K \u017dilina",
+  "league": null,
+  "rating": 1482.2,
+  "points": [
+    {
+      "date": "2025-07-24",
+      "rating": 1487.59,
+      "opponent": "Rak\u00f3w Cz\u0119stochowa",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-31",
+      "rating": 1473.36,
+      "opponent": "Rak\u00f3w Cz\u0119stochowa",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2026-07-01",
+      "rating": 1482.24,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    }
+  ]
+}

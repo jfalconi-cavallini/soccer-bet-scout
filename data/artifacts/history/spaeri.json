@@ -1,0 +1,29 @@
+{
+  "id": "spaeri",
+  "name": "Spaeri FC",
+  "league": null,
+  "rating": 1478.9,
+  "points": [
+    {
+      "date": "2025-07-24",
+      "rating": 1493.02,
+      "opponent": "Austria Wien",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-31",
+      "rating": 1468.3,
+      "opponent": "Austria Wien",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2026-07-01",
+      "rating": 1478.87,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    }
+  ]
+}

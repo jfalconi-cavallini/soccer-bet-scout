@@ -1,0 +1,106 @@
+{
+  "id": "hnk-rijeka",
+  "name": "HNK Rijeka",
+  "league": null,
+  "rating": 1488.4,
+  "points": [
+    {
+      "date": "2024-07-25",
+      "rating": 1502.69,
+      "opponent": "FC Corvinul Hunedoara",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-01",
+      "rating": 1504.58,
+      "opponent": "FC Corvinul Hunedoara",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-08",
+      "rating": 1503.18,
+      "opponent": "IF Elfsborg",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-15",
+      "rating": 1497.33,
+      "opponent": "IF Elfsborg",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-22",
+      "rating": 1495.46,
+      "opponent": "Olimpija Ljubljana",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-29",
+      "rating": 1480.52,
+      "opponent": "Olimpija Ljubljana",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-01",
+      "rating": 1487.01,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2025-07-22",
+      "rating": 1485.27,
+      "opponent": "PFC Ludogorets Razgrad",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-30",
+      "rating": 1484.24,
+      "opponent": "PFC Ludogorets Razgrad",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-06",
+      "rating": 1477.12,
+      "opponent": "Shelbourne FC",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-12",
+      "rating": 1492.31,
+      "opponent": "Shelbourne FC",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-21",
+      "rating": 1496.01,
+      "opponent": "PAOK Saloniki",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-28",
+      "rating": 1482.59,
+      "opponent": "PAOK Saloniki",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2026-07-01",
+      "rating": 1488.39,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    }
+  ]
+}

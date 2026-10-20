@@ -1,0 +1,57 @@
+{
+  "id": "hull",
+  "name": "Hull City AFC",
+  "league": "Premier League",
+  "rating": 1508.9,
+  "points": [
+    {
+      "date": "2026-07-01",
+      "rating": 1498.44,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2026-08-22",
+      "rating": 1502.98,
+      "opponent": "Manchester United FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2026-08-29",
+      "rating": 1506.2,
+      "opponent": "Coventry City FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2026-09-05",
+      "rating": 1502.66,
+      "opponent": "Aston Villa FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2026-09-12",
+      "rating": 1508.14,
+      "opponent": "Chelsea FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2026-09-19",
+      "rating": 1510.71,
+      "opponent": "Newcastle United FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-11",
+      "rating": 1508.86,
+      "opponent": "Everton FC",
+      "competition_id": "E0",
+      "event": "match"
+    }
+  ]
+}

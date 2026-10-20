@@ -1,0 +1,323 @@
+{
+  "id": "shakhtar",
+  "name": "FK Shakhtar Donetsk",
+  "league": null,
+  "rating": 1520.6,
+  "points": [
+    {
+      "date": "2021-09-15",
+      "rating": 1492.48,
+      "opponent": "FC Sheriff",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2021-09-28",
+      "rating": 1491.72,
+      "opponent": "FC Internazionale Milano",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2021-10-19",
+      "rating": 1468.94,
+      "opponent": "Real Madrid CF",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2021-11-03",
+      "rating": 1470.0,
+      "opponent": "Real Madrid CF",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2021-11-24",
+      "rating": 1467.0,
+      "opponent": "FC Internazionale Milano",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2021-12-07",
+      "rating": 1464.96,
+      "opponent": "FC Sheriff",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2022-07-01",
+      "rating": 1476.64,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2022-09-06",
+      "rating": 1501.09,
+      "opponent": "RB Leipzig [cancelled]",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2022-09-14",
+      "rating": 1502.96,
+      "opponent": "Celtic FC",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2022-10-05",
+      "rating": 1504.99,
+      "opponent": "Real Madrid CF",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2022-10-11",
+      "rating": 1507.08,
+      "opponent": "Real Madrid CF",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2022-10-25",
+      "rating": 1512.32,
+      "opponent": "Celtic FC",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2022-11-02",
+      "rating": 1492.06,
+      "opponent": "RB Leipzig [cancelled]",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2023-02-16",
+      "rating": 1496.11,
+      "opponent": "Stade Rennais FC 1901",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2023-02-23",
+      "rating": 1500.48,
+      "opponent": "Stade Rennais FC 1901",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2023-03-09",
+      "rating": 1502.47,
+      "opponent": "Feyenoord Rotterdam",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2023-03-16",
+      "rating": 1492.32,
+      "opponent": "Feyenoord Rotterdam",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2023-07-01",
+      "rating": 1494.88,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2023-09-19",
+      "rating": 1485.19,
+      "opponent": "FC Porto",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2023-10-04",
+      "rating": 1494.12,
+      "opponent": "Royal Antwerp FC",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2023-10-25",
+      "rating": 1495.56,
+      "opponent": "FC Barcelona",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2023-11-07",
+      "rating": 1501.17,
+      "opponent": "FC Barcelona",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2023-11-28",
+      "rating": 1504.49,
+      "opponent": "Royal Antwerp FC",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2023-12-13",
+      "rating": 1502.28,
+      "opponent": "FC Porto",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2024-02-15",
+      "rating": 1501.87,
+      "opponent": "Olympique de Marseille",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2024-02-22",
+      "rating": 1497.15,
+      "opponent": "Olympique de Marseille",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2024-07-01",
+      "rating": 1498.1,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2024-09-18",
+      "rating": 1501.89,
+      "opponent": "Bologna FC 1909",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2024-10-02",
+      "rating": 1486.94,
+      "opponent": "Atalanta BC",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2024-10-22",
+      "rating": 1489.31,
+      "opponent": "Arsenal FC",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2024-11-06",
+      "rating": 1490.84,
+      "opponent": "BSC Young Boys",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2024-11-27",
+      "rating": 1493.91,
+      "opponent": "PSV Eindhoven",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2024-12-10",
+      "rating": 1480.42,
+      "opponent": "FC Bayern M\u00fcnchen",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-01-22",
+      "rating": 1491.2,
+      "opponent": "Stade Brestois 29",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-01-29",
+      "rating": 1487.58,
+      "opponent": "Borussia Dortmund",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-01",
+      "rating": 1491.72,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2025-07-10",
+      "rating": 1509.6,
+      "opponent": "Ilves Tampere",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-17",
+      "rating": 1511.04,
+      "opponent": "Ilves Tampere",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-24",
+      "rating": 1527.24,
+      "opponent": "Besiktas",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-31",
+      "rating": 1534.54,
+      "opponent": "Besiktas",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-07",
+      "rating": 1537.02,
+      "opponent": "Panathinaikos",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-14",
+      "rating": 1534.38,
+      "opponent": "Panathinaikos",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-21",
+      "rating": 1530.12,
+      "opponent": "Servette FC",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-28",
+      "rating": 1530.96,
+      "opponent": "Servette FC",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2026-07-01",
+      "rating": 1520.64,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    }
+  ]
+}

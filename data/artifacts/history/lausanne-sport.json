@@ -1,0 +1,57 @@
+{
+  "id": "lausanne-sport",
+  "name": "FC Lausanne-Sport",
+  "league": null,
+  "rating": 1527.6,
+  "points": [
+    {
+      "date": "2025-07-24",
+      "rating": 1498.5,
+      "opponent": "Vardar Skopje",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-31",
+      "rating": 1515.75,
+      "opponent": "Vardar Skopje",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-07",
+      "rating": 1522.94,
+      "opponent": "FK Astana",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-14",
+      "rating": 1536.93,
+      "opponent": "FK Astana",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-21",
+      "rating": 1534.42,
+      "opponent": "Besiktas",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-28",
+      "rating": 1541.38,
+      "opponent": "Besiktas",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2026-07-01",
+      "rating": 1527.58,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    }
+  ]
+}

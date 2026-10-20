@@ -1,0 +1,43 @@
+{
+  "id": "vardar-skopje",
+  "name": "Vardar Skopje",
+  "league": null,
+  "rating": 1497.4,
+  "points": [
+    {
+      "date": "2025-07-10",
+      "rating": 1510.71,
+      "opponent": "SP La Fiorita",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-17",
+      "rating": 1511.78,
+      "opponent": "SP La Fiorita",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-24",
+      "rating": 1513.28,
+      "opponent": "FC Lausanne-Sport",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-31",
+      "rating": 1496.03,
+      "opponent": "FC Lausanne-Sport",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2026-07-01",
+      "rating": 1497.36,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    }
+  ]
+}

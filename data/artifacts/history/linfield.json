@@ -1,0 +1,92 @@
+{
+  "id": "linfield",
+  "name": "Linfield FC",
+  "league": null,
+  "rating": 1487.5,
+  "points": [
+    {
+      "date": "2024-07-11",
+      "rating": 1492.48,
+      "opponent": "UMF Stjarnan",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-07-18",
+      "rating": 1494.78,
+      "opponent": "UMF Stjarnan",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-01",
+      "rating": 1496.52,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2025-07-09",
+      "rating": 1494.56,
+      "opponent": "Shelbourne FC",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-16",
+      "rating": 1492.08,
+      "opponent": "Shelbourne FC",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-24",
+      "rating": 1494.78,
+      "opponent": "FK \u017dalgiris",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-31",
+      "rating": 1502.37,
+      "opponent": "FK \u017dalgiris",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-07",
+      "rating": 1499.85,
+      "opponent": "V\u00edkingur",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-14",
+      "rating": 1506.62,
+      "opponent": "V\u00edkingur",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-21",
+      "rating": 1497.24,
+      "opponent": "Shelbourne FC",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-28",
+      "rating": 1481.3,
+      "opponent": "Shelbourne FC",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2026-07-01",
+      "rating": 1487.53,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    }
+  ]
+}

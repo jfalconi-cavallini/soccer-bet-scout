@@ -1,0 +1,29 @@
+{
+  "id": "sp-tre-fiori",
+  "name": "SP Tre Fiori",
+  "league": null,
+  "rating": 1490.0,
+  "points": [
+    {
+      "date": "2025-07-10",
+      "rating": 1501.78,
+      "opponent": "Pyunik FC",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-17",
+      "rating": 1485.07,
+      "opponent": "Pyunik FC",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2026-07-01",
+      "rating": 1490.05,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    }
+  ]
+}

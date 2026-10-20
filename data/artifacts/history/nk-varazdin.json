@@ -1,0 +1,29 @@
+{
+  "id": "nk-varazdin",
+  "name": "NK Vara\u017edin",
+  "league": null,
+  "rating": 1495.7,
+  "points": [
+    {
+      "date": "2025-07-24",
+      "rating": 1501.63,
+      "opponent": "CD Santa Clara",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-31",
+      "rating": 1493.62,
+      "opponent": "CD Santa Clara",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2026-07-01",
+      "rating": 1495.75,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    }
+  ]
+}

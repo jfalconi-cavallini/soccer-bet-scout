@@ -1,0 +1,29 @@
+{
+  "id": "rfcu-luxemburg",
+  "name": "RFCU Luxemburg",
+  "league": null,
+  "rating": 1494.5,
+  "points": [
+    {
+      "date": "2025-07-10",
+      "rating": 1493.18,
+      "opponent": "Dila Gori",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-17",
+      "rating": 1491.74,
+      "opponent": "Dila Gori",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2026-07-01",
+      "rating": 1494.49,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    }
+  ]
+}

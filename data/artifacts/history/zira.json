@@ -1,0 +1,92 @@
+{
+  "id": "zira",
+  "name": "Zira FK",
+  "league": null,
+  "rating": 1499.6,
+  "points": [
+    {
+      "date": "2024-07-11",
+      "rating": 1505.76,
+      "opponent": "FC Sheriff",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2024-07-18",
+      "rating": 1506.26,
+      "opponent": "FC Sheriff",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2024-07-25",
+      "rating": 1520.44,
+      "opponent": "FC DAC 1904",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-01",
+      "rating": 1526.21,
+      "opponent": "FC DAC 1904",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-08",
+      "rating": 1528.55,
+      "opponent": "NK Osijek",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-15",
+      "rating": 1521.45,
+      "opponent": "NK Osijek",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-22",
+      "rating": 1502.91,
+      "opponent": "Omonia Nikosia",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-29",
+      "rating": 1505.52,
+      "opponent": "Omonia Nikosia",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-01",
+      "rating": 1503.68,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2025-07-23",
+      "rating": 1501.17,
+      "opponent": "Hajduk Split",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-31",
+      "rating": 1499.45,
+      "opponent": "Hajduk Split",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2026-07-01",
+      "rating": 1499.63,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    }
+  ]
+}

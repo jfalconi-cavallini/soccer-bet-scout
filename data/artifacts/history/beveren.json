@@ -1,0 +1,71 @@
+{
+  "id": "beveren",
+  "name": "Beveren",
+  "league": "Belgian Pro League",
+  "rating": 1414.9,
+  "points": [
+    {
+      "date": "2026-07-01",
+      "rating": 1424.3,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2026-08-09",
+      "rating": 1423.78,
+      "opponent": "Royal Antwerp FC",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2026-08-16",
+      "rating": 1424.42,
+      "opponent": "RSC Anderlecht",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2026-08-22",
+      "rating": 1416.45,
+      "opponent": "SV Zulte Waregem",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2026-08-28",
+      "rating": 1409.06,
+      "opponent": "KRC Genk",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2026-09-06",
+      "rating": 1420.85,
+      "opponent": "Oud-Heverlee Leuven",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2026-09-12",
+      "rating": 1431.11,
+      "opponent": "Sint-Truidense VV",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2026-09-20",
+      "rating": 1426.57,
+      "opponent": "Kortrijk",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-09",
+      "rating": 1414.89,
+      "opponent": "Lommel SK",
+      "competition_id": "B1",
+      "event": "match"
+    }
+  ]
+}

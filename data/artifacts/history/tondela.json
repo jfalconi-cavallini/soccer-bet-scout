@@ -1,0 +1,519 @@
+{
+  "id": "tondela",
+  "name": "Tondela",
+  "league": "Primeira Liga",
+  "rating": 1441.3,
+  "points": [
+    {
+      "date": "2021-08-08",
+      "rating": 1511.97,
+      "opponent": "CD Santa Clara",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2021-08-14",
+      "rating": 1509.4,
+      "opponent": "Vizela",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2021-08-22",
+      "rating": 1488.23,
+      "opponent": "Portimonense",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2021-08-29",
+      "rating": 1487.56,
+      "opponent": "Sport Lisboa e Benfica",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2021-09-13",
+      "rating": 1481.94,
+      "opponent": "GD Estoril Praia",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2021-09-20",
+      "rating": 1475.72,
+      "opponent": "Sporting Clube de Braga",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2021-09-25",
+      "rating": 1477.79,
+      "opponent": "FC Famalic\u00e3o",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2021-10-03",
+      "rating": 1492.95,
+      "opponent": "Belenenses",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2021-10-23",
+      "rating": 1479.62,
+      "opponent": "FC Porto",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2021-10-29",
+      "rating": 1471.55,
+      "opponent": "FC Arouca",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2021-11-07",
+      "rating": 1479.32,
+      "opponent": "CS Mar\u00edtimo",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2021-11-28",
+      "rating": 1475.46,
+      "opponent": "Sporting Clube de Portugal",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2021-12-11",
+      "rating": 1465.31,
+      "opponent": "Vit\u00f3ria Guimar\u00e3es",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2021-12-18",
+      "rating": 1458.16,
+      "opponent": "Pacos Ferreira",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2021-12-28",
+      "rating": 1439.68,
+      "opponent": "Gil Vicente FC",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2022-01-03",
+      "rating": 1442.43,
+      "opponent": "Moreirense FC",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2022-01-08",
+      "rating": 1445.68,
+      "opponent": "Boavista",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2022-01-16",
+      "rating": 1447.99,
+      "opponent": "CD Santa Clara",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2022-01-22",
+      "rating": 1441.26,
+      "opponent": "Vizela",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2022-01-30",
+      "rating": 1449.67,
+      "opponent": "Portimonense",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2022-02-07",
+      "rating": 1441.26,
+      "opponent": "Sport Lisboa e Benfica",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2022-02-12",
+      "rating": 1441.04,
+      "opponent": "GD Estoril Praia",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2022-02-20",
+      "rating": 1437.51,
+      "opponent": "Sporting Clube de Braga",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2022-02-26",
+      "rating": 1436.98,
+      "opponent": "FC Famalic\u00e3o",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2022-03-07",
+      "rating": 1433.27,
+      "opponent": "Belenenses",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2022-03-13",
+      "rating": 1427.17,
+      "opponent": "FC Porto",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2022-03-19",
+      "rating": 1424.62,
+      "opponent": "FC Arouca",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2022-04-03",
+      "rating": 1443.03,
+      "opponent": "CS Mar\u00edtimo",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2022-04-09",
+      "rating": 1436.25,
+      "opponent": "Sporting Clube de Portugal",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2022-04-16",
+      "rating": 1429.0,
+      "opponent": "Moreirense FC",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2022-04-24",
+      "rating": 1428.86,
+      "opponent": "Vit\u00f3ria Guimar\u00e3es",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2022-05-02",
+      "rating": 1432.58,
+      "opponent": "Pacos Ferreira",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2022-05-08",
+      "rating": 1424.56,
+      "opponent": "Gil Vicente FC",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2022-05-14",
+      "rating": 1423.08,
+      "opponent": "Boavista",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2022-07-01",
+      "rating": 1447.7,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2023-07-01",
+      "rating": 1465.14,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2024-07-01",
+      "rating": 1476.76,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2025-07-01",
+      "rating": 1438.0,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2025-08-10",
+      "rating": 1431.66,
+      "opponent": "Sporting Clube de Braga",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-16",
+      "rating": 1427.77,
+      "opponent": "FC Famalic\u00e3o",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-23",
+      "rating": 1424.5,
+      "opponent": "Sport Lisboa e Benfica",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-31",
+      "rating": 1424.03,
+      "opponent": "GD Estoril Praia",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2025-09-12",
+      "rating": 1422.26,
+      "opponent": "FC Alverca",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2025-09-21",
+      "rating": 1419.96,
+      "opponent": "CF Estrela da Amadora",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2025-09-27",
+      "rating": 1429.04,
+      "opponent": "CD Santa Clara",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2025-10-05",
+      "rating": 1418.92,
+      "opponent": "Rio Ave FC",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2025-10-26",
+      "rating": 1410.13,
+      "opponent": "Sporting Clube de Portugal",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2025-11-02",
+      "rating": 1411.24,
+      "opponent": "AVS",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2025-11-08",
+      "rating": 1406.8,
+      "opponent": "Vit\u00f3ria Guimar\u00e3es",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2025-11-29",
+      "rating": 1416.97,
+      "opponent": "Gil Vicente FC",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2025-12-07",
+      "rating": 1411.67,
+      "opponent": "FC Porto",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2025-12-15",
+      "rating": 1406.03,
+      "opponent": "CD Nacional",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2025-12-21",
+      "rating": 1400.12,
+      "opponent": "Casa Pia AC",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2026-01-03",
+      "rating": 1408.43,
+      "opponent": "FC Arouca",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2026-01-11",
+      "rating": 1408.97,
+      "opponent": "Moreirense FC",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2026-01-18",
+      "rating": 1408.0,
+      "opponent": "Sporting Clube de Braga",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2026-01-25",
+      "rating": 1401.84,
+      "opponent": "FC Famalic\u00e3o",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2026-02-01",
+      "rating": 1407.08,
+      "opponent": "Sport Lisboa e Benfica",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2026-02-07",
+      "rating": 1413.15,
+      "opponent": "GD Estoril Praia",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2026-02-13",
+      "rating": 1411.12,
+      "opponent": "FC Alverca",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2026-02-20",
+      "rating": 1427.06,
+      "opponent": "CF Estrela da Amadora",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2026-03-01",
+      "rating": 1425.75,
+      "opponent": "CD Santa Clara",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2026-03-09",
+      "rating": 1418.62,
+      "opponent": "Rio Ave FC",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2026-03-21",
+      "rating": 1414.38,
+      "opponent": "AVS",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2026-04-03",
+      "rating": 1400.96,
+      "opponent": "Vit\u00f3ria Guimar\u00e3es",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2026-04-13",
+      "rating": 1402.37,
+      "opponent": "Gil Vicente FC",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2026-04-19",
+      "rating": 1403.43,
+      "opponent": "FC Porto",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2026-04-25",
+      "rating": 1391.06,
+      "opponent": "CD Nacional",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2026-04-29",
+      "rating": 1399.61,
+      "opponent": "Sporting Clube de Portugal",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2026-05-03",
+      "rating": 1407.05,
+      "opponent": "Casa Pia AC",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2026-05-11",
+      "rating": 1417.33,
+      "opponent": "Moreirense FC",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2026-05-16",
+      "rating": 1412.38,
+      "opponent": "FC Arouca",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2026-07-01",
+      "rating": 1441.27,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    }
+  ]
+}

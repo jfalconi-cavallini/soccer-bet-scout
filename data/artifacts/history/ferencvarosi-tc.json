@@ -1,0 +1,351 @@
+{
+  "id": "ferencvarosi-tc",
+  "name": "Ferencv\u00e1rosi TC",
+  "league": null,
+  "rating": 1517.5,
+  "points": [
+    {
+      "date": "2021-09-16",
+      "rating": 1498.97,
+      "opponent": "Bayer 04 Leverkusen",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2021-09-30",
+      "rating": 1484.98,
+      "opponent": "Real Betis Balompi\u00e9",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2021-10-19",
+      "rating": 1479.29,
+      "opponent": "Celtic FC",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2021-11-04",
+      "rating": 1474.56,
+      "opponent": "Celtic FC",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2021-11-25",
+      "rating": 1469.05,
+      "opponent": "Real Betis Balompi\u00e9",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2021-12-09",
+      "rating": 1474.43,
+      "opponent": "Bayer 04 Leverkusen",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2022-07-01",
+      "rating": 1482.95,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2022-09-08",
+      "rating": 1486.79,
+      "opponent": "Trabzonspor",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2022-09-15",
+      "rating": 1495.23,
+      "opponent": "AS Monaco FC",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2022-10-06",
+      "rating": 1483.39,
+      "opponent": "FK Crvena Zvezda",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2022-10-13",
+      "rating": 1486.04,
+      "opponent": "FK Crvena Zvezda",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2022-10-27",
+      "rating": 1485.68,
+      "opponent": "AS Monaco FC",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2022-11-03",
+      "rating": 1485.75,
+      "opponent": "Trabzonspor",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2023-03-09",
+      "rating": 1480.86,
+      "opponent": "Bayer 04 Leverkusen",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2023-03-16",
+      "rating": 1469.37,
+      "opponent": "Bayer 04 Leverkusen",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2023-07-01",
+      "rating": 1479.58,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2023-09-21",
+      "rating": 1488.03,
+      "opponent": "FK \u010cukari\u010dki",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2023-10-05",
+      "rating": 1493.22,
+      "opponent": "ACF Fiorentina",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2023-10-26",
+      "rating": 1498.43,
+      "opponent": "KRC Genk",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2023-11-09",
+      "rating": 1498.94,
+      "opponent": "KRC Genk",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2023-11-30",
+      "rating": 1504.72,
+      "opponent": "FK \u010cukari\u010dki",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2023-12-14",
+      "rating": 1504.91,
+      "opponent": "ACF Fiorentina",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-02-15",
+      "rating": 1505.18,
+      "opponent": "Olympiakos Piraeus",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-02-22",
+      "rating": 1501.43,
+      "opponent": "Olympiakos Piraeus",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-07-01",
+      "rating": 1500.96,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2024-07-23",
+      "rating": 1518.08,
+      "opponent": "The New Saints",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2024-07-30",
+      "rating": 1524.25,
+      "opponent": "The New Saints",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-06",
+      "rating": 1516.92,
+      "opponent": "FC Midtjylland",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-13",
+      "rating": 1515.01,
+      "opponent": "FC Midtjylland",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-22",
+      "rating": 1512.08,
+      "opponent": "Borac Banja Luka",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-29",
+      "rating": 1514.3,
+      "opponent": "Borac Banja Luka",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2024-09-25",
+      "rating": 1513.59,
+      "opponent": "RSC Anderlecht",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2024-10-03",
+      "rating": 1509.11,
+      "opponent": "Tottenham Hotspur FC",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2024-10-24",
+      "rating": 1512.18,
+      "opponent": "OGC Nice",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2024-11-07",
+      "rating": 1535.52,
+      "opponent": "Dinamo Kiev",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2024-11-28",
+      "rating": 1544.15,
+      "opponent": "Malm\u00f6 FF",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2024-12-12",
+      "rating": 1530.83,
+      "opponent": "PAOK Saloniki",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2025-01-23",
+      "rating": 1526.02,
+      "opponent": "Eintracht Frankfurt",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2025-01-30",
+      "rating": 1529.19,
+      "opponent": "AZ Alkmaar",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2025-02-13",
+      "rating": 1531.1,
+      "opponent": "Viktoria Plze\u0148",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2025-02-20",
+      "rating": 1519.04,
+      "opponent": "Viktoria Plze\u0148",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-01",
+      "rating": 1512.69,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2025-07-22",
+      "rating": 1519.46,
+      "opponent": "FC Noah",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-30",
+      "rating": 1520.84,
+      "opponent": "FC Noah",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-06",
+      "rating": 1523.13,
+      "opponent": "PFC Ludogorets Razgrad",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-12",
+      "rating": 1534.51,
+      "opponent": "PFC Ludogorets Razgrad",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-19",
+      "rating": 1518.95,
+      "opponent": "Qaraba\u011f A\u011fdam FK",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-27",
+      "rating": 1526.31,
+      "opponent": "Qaraba\u011f A\u011fdam FK",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2026-07-01",
+      "rating": 1517.54,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    }
+  ]
+}

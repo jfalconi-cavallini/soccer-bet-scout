@@ -1,0 +1,50 @@
+{
+  "id": "hb-torshavn",
+  "name": "HB T\u00f3rshavn",
+  "league": null,
+  "rating": 1493.3,
+  "points": [
+    {
+      "date": "2024-07-25",
+      "rating": 1492.48,
+      "opponent": "Hajduk Split",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-01",
+      "rating": 1490.44,
+      "opponent": "Hajduk Split",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-01",
+      "rating": 1493.63,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2025-07-24",
+      "rating": 1491.44,
+      "opponent": "Br\u00f8ndby IF",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-31",
+      "rating": 1490.02,
+      "opponent": "Br\u00f8ndby IF",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2026-07-01",
+      "rating": 1493.35,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    }
+  ]
+}

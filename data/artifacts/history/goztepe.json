@@ -1,0 +1,848 @@
+{
+  "id": "goztepe",
+  "name": "G\u00f6ztepe",
+  "league": "Super Lig",
+  "rating": 1516.8,
+  "points": [
+    {
+      "date": "2021-08-15",
+      "rating": 1502.49,
+      "opponent": "Antalyaspor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2021-08-22",
+      "rating": 1494.89,
+      "opponent": "Yeni Malatyaspor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2021-08-29",
+      "rating": 1497.3,
+      "opponent": "Sivasspor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2021-09-12",
+      "rating": 1498.77,
+      "opponent": "\u0130stanbul Ba\u015fak\u015fehir",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2021-09-17",
+      "rating": 1497.22,
+      "opponent": "Altay",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2021-09-22",
+      "rating": 1483.59,
+      "opponent": "Hatayspor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2021-09-26",
+      "rating": 1482.29,
+      "opponent": "Galatasaray SK",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2021-10-02",
+      "rating": 1475.05,
+      "opponent": "Giresunspor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2021-10-17",
+      "rating": 1482.09,
+      "opponent": "Kas\u0131mpa\u015fa SK",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2021-10-23",
+      "rating": 1477.18,
+      "opponent": "Trabzonspor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2021-10-31",
+      "rating": 1480.77,
+      "opponent": "Alanyaspor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2021-11-07",
+      "rating": 1467.64,
+      "opponent": "Konyaspor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2021-11-22",
+      "rating": 1470.91,
+      "opponent": "Kayserispor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2021-11-29",
+      "rating": 1469.83,
+      "opponent": "Fenerbahce",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2021-12-06",
+      "rating": 1472.29,
+      "opponent": "Gaziantep FK",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2021-12-11",
+      "rating": 1463.11,
+      "opponent": "\u00c7aykur Rizespor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2021-12-19",
+      "rating": 1456.9,
+      "opponent": "Fatih Karag\u00fcmr\u00fck",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2021-12-23",
+      "rating": 1454.97,
+      "opponent": "Besiktas",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2021-12-26",
+      "rating": 1454.79,
+      "opponent": "Ad. Demirspor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2022-01-09",
+      "rating": 1470.74,
+      "opponent": "Antalyaspor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2022-01-14",
+      "rating": 1476.36,
+      "opponent": "Yeni Malatyaspor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2022-01-19",
+      "rating": 1479.76,
+      "opponent": "Sivasspor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2022-01-22",
+      "rating": 1488.48,
+      "opponent": "\u0130stanbul Ba\u015fak\u015fehir",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2022-02-06",
+      "rating": 1471.47,
+      "opponent": "Altay",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2022-02-14",
+      "rating": 1469.91,
+      "opponent": "Hatayspor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2022-02-21",
+      "rating": 1463.52,
+      "opponent": "Galatasaray SK",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2022-02-27",
+      "rating": 1456.64,
+      "opponent": "Giresunspor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2022-03-05",
+      "rating": 1451.33,
+      "opponent": "Kas\u0131mpa\u015fa SK",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2022-03-12",
+      "rating": 1449.58,
+      "opponent": "Trabzonspor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2022-03-19",
+      "rating": 1437.56,
+      "opponent": "Alanyaspor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2022-04-03",
+      "rating": 1430.75,
+      "opponent": "Konyaspor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2022-04-09",
+      "rating": 1424.77,
+      "opponent": "Kayserispor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2022-04-16",
+      "rating": 1422.96,
+      "opponent": "Fenerbahce",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2022-04-23",
+      "rating": 1427.14,
+      "opponent": "Gaziantep FK",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2022-05-01",
+      "rating": 1397.94,
+      "opponent": "\u00c7aykur Rizespor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2022-05-07",
+      "rating": 1394.0,
+      "opponent": "Fatih Karag\u00fcmr\u00fck",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2022-05-15",
+      "rating": 1383.45,
+      "opponent": "Besiktas",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2022-05-22",
+      "rating": 1371.84,
+      "opponent": "Ad. Demirspor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2022-07-01",
+      "rating": 1413.76,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2023-07-01",
+      "rating": 1442.5,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2024-07-01",
+      "rating": 1453.34,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2024-08-10",
+      "rating": 1456.41,
+      "opponent": "Antalyaspor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-17",
+      "rating": 1458.56,
+      "opponent": "Fenerbahce",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-23",
+      "rating": 1462.25,
+      "opponent": "Alanyaspor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-31",
+      "rating": 1469.05,
+      "opponent": "Bodrumspor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2024-09-23",
+      "rating": 1480.46,
+      "opponent": "Kayserispor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2024-09-28",
+      "rating": 1479.15,
+      "opponent": "Samsunspor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2024-10-05",
+      "rating": 1481.12,
+      "opponent": "Sivasspor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2024-10-19",
+      "rating": 1479.17,
+      "opponent": "Eyupspor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2024-10-26",
+      "rating": 1482.57,
+      "opponent": "Trabzonspor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2024-11-01",
+      "rating": 1480.64,
+      "opponent": "Gaziantep FK",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2024-11-10",
+      "rating": 1488.01,
+      "opponent": "Konyaspor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2024-11-24",
+      "rating": 1505.02,
+      "opponent": "Besiktas",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2024-11-30",
+      "rating": 1494.12,
+      "opponent": "\u0130stanbul Ba\u015fak\u015fehir",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2024-12-07",
+      "rating": 1497.35,
+      "opponent": "Ad. Demirspor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2024-12-15",
+      "rating": 1497.61,
+      "opponent": "Hatayspor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2024-12-22",
+      "rating": 1508.42,
+      "opponent": "\u00c7aykur Rizespor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2025-01-04",
+      "rating": 1510.34,
+      "opponent": "Galatasaray SK",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2025-01-13",
+      "rating": 1525.73,
+      "opponent": "Kas\u0131mpa\u015fa SK",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2025-01-19",
+      "rating": 1524.82,
+      "opponent": "Antalyaspor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2025-01-26",
+      "rating": 1525.87,
+      "opponent": "Fenerbahce",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2025-02-02",
+      "rating": 1518.08,
+      "opponent": "Alanyaspor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2025-02-10",
+      "rating": 1517.93,
+      "opponent": "Bodrumspor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2025-02-23",
+      "rating": 1512.94,
+      "opponent": "Kayserispor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2025-03-03",
+      "rating": 1510.7,
+      "opponent": "Samsunspor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2025-03-09",
+      "rating": 1500.38,
+      "opponent": "Sivasspor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2025-03-16",
+      "rating": 1497.98,
+      "opponent": "Eyupspor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2025-03-29",
+      "rating": 1501.8,
+      "opponent": "Trabzonspor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2025-04-07",
+      "rating": 1499.1,
+      "opponent": "Gaziantep FK",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2025-04-12",
+      "rating": 1496.56,
+      "opponent": "Konyaspor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2025-04-19",
+      "rating": 1495.03,
+      "opponent": "Besiktas",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2025-04-28",
+      "rating": 1509.47,
+      "opponent": "\u0130stanbul Ba\u015fak\u015fehir",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2025-05-04",
+      "rating": 1511.27,
+      "opponent": "Ad. Demirspor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2025-05-11",
+      "rating": 1505.3,
+      "opponent": "Hatayspor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2025-05-18",
+      "rating": 1491.08,
+      "opponent": "\u00c7aykur Rizespor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2025-05-24",
+      "rating": 1484.33,
+      "opponent": "Galatasaray SK",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2025-05-30",
+      "rating": 1492.13,
+      "opponent": "Kas\u0131mpa\u015fa SK",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-01",
+      "rating": 1492.5,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2025-08-10",
+      "rating": 1513.3,
+      "opponent": "\u00c7aykur Rizespor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-16",
+      "rating": 1513.49,
+      "opponent": "Fenerbahce",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-22",
+      "rating": 1524.8,
+      "opponent": "Fatih Karag\u00fcmr\u00fck",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-29",
+      "rating": 1521.97,
+      "opponent": "Konyaspor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2025-09-14",
+      "rating": 1522.86,
+      "opponent": "Kayserispor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2025-09-19",
+      "rating": 1534.88,
+      "opponent": "Besiktas",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2025-09-27",
+      "rating": 1534.71,
+      "opponent": "Eyupspor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2025-10-05",
+      "rating": 1536.11,
+      "opponent": "\u0130stanbul Ba\u015fak\u015fehir",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2025-10-19",
+      "rating": 1533.33,
+      "opponent": "Alanyaspor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2025-10-26",
+      "rating": 1530.35,
+      "opponent": "Galatasaray SK",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2025-11-01",
+      "rating": 1529.53,
+      "opponent": "Genclerbirligi",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2025-11-08",
+      "rating": 1542.46,
+      "opponent": "Kas\u0131mpa\u015fa SK",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2025-11-23",
+      "rating": 1537.5,
+      "opponent": "Kocaelispor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2025-11-30",
+      "rating": 1540.53,
+      "opponent": "Antalyaspor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2025-12-07",
+      "rating": 1534.18,
+      "opponent": "Trabzonspor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2025-12-14",
+      "rating": 1539.46,
+      "opponent": "Gaziantep FK",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2025-12-21",
+      "rating": 1545.74,
+      "opponent": "Samsunspor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2026-01-19",
+      "rating": 1550.44,
+      "opponent": "\u00c7aykur Rizespor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2026-01-25",
+      "rating": 1555.63,
+      "opponent": "Fenerbahce",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2026-01-31",
+      "rating": 1553.3,
+      "opponent": "Fatih Karag\u00fcmr\u00fck",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2026-02-08",
+      "rating": 1552.54,
+      "opponent": "Konyaspor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2026-02-15",
+      "rating": 1546.19,
+      "opponent": "Kayserispor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2026-02-22",
+      "rating": 1532.05,
+      "opponent": "Besiktas",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2026-02-28",
+      "rating": 1527.06,
+      "opponent": "Eyupspor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2026-03-07",
+      "rating": 1526.5,
+      "opponent": "\u0130stanbul Ba\u015fak\u015fehir",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2026-03-14",
+      "rating": 1522.45,
+      "opponent": "Alanyaspor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2026-04-04",
+      "rating": 1533.67,
+      "opponent": "Genclerbirligi",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2026-04-08",
+      "rating": 1523.8,
+      "opponent": "Galatasaray SK",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2026-04-12",
+      "rating": 1519.28,
+      "opponent": "Kas\u0131mpa\u015fa SK",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2026-04-18",
+      "rating": 1519.68,
+      "opponent": "Kocaelispor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2026-04-25",
+      "rating": 1522.88,
+      "opponent": "Antalyaspor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2026-05-02",
+      "rating": 1526.97,
+      "opponent": "Trabzonspor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2026-05-09",
+      "rating": 1526.62,
+      "opponent": "Gaziantep FK",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2026-05-16",
+      "rating": 1512.93,
+      "opponent": "Samsunspor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2026-07-01",
+      "rating": 1507.18,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2026-08-17",
+      "rating": 1507.7,
+      "opponent": "Samsunspor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2026-08-23",
+      "rating": 1502.72,
+      "opponent": "Genclerbirligi",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2026-08-29",
+      "rating": 1501.52,
+      "opponent": "Galatasaray SK",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2026-09-07",
+      "rating": 1495.77,
+      "opponent": "Gaziantep FK",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2026-09-12",
+      "rating": 1498.37,
+      "opponent": "Alanyaspor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2026-09-20",
+      "rating": 1499.56,
+      "opponent": "\u00c7aykur Rizespor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-12",
+      "rating": 1516.83,
+      "opponent": "Eyupspor",
+      "competition_id": "T1",
+      "event": "match"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "ordabasy",
+  "name": "FK Ordabasy",
+  "league": null,
+  "rating": 1490.0,
+  "points": [
+    {
+      "date": "2024-07-10",
+      "rating": 1497.51,
+      "opponent": "CS Petrocub",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2024-07-17",
+      "rating": 1495.81,
+      "opponent": "CS Petrocub",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2024-07-23",
+      "rating": 1493.79,
+      "opponent": "FC Differdange 03",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-01",
+      "rating": 1491.24,
+      "opponent": "FC Differdange 03",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-08",
+      "rating": 1484.67,
+      "opponent": "Pyunik FC",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-15",
+      "rating": 1483.47,
+      "opponent": "Pyunik FC",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-01",
+      "rating": 1488.98,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2025-07-10",
+      "rating": 1487.23,
+      "opponent": "Torpedo Kutaisi",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-17",
+      "rating": 1484.95,
+      "opponent": "Torpedo Kutaisi",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2026-07-01",
+      "rating": 1489.97,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    }
+  ]
+}

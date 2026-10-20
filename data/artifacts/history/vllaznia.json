@@ -1,0 +1,64 @@
+{
+  "id": "vllaznia",
+  "name": "FK Vllaznia",
+  "league": null,
+  "rating": 1501.2,
+  "points": [
+    {
+      "date": "2024-07-11",
+      "rating": 1502.49,
+      "opponent": "Valur Reykjav\u00edk",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-07-18",
+      "rating": 1478.34,
+      "opponent": "Valur Reykjav\u00edk",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-01",
+      "rating": 1485.56,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2025-07-10",
+      "rating": 1479.17,
+      "opponent": "BFC Daugavpils",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-17",
+      "rating": 1495.37,
+      "opponent": "BFC Daugavpils",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-24",
+      "rating": 1498.4,
+      "opponent": "V\u00edkingur Reykjav\u00edk",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-31",
+      "rating": 1501.85,
+      "opponent": "V\u00edkingur Reykjav\u00edk",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2026-07-01",
+      "rating": 1501.24,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    }
+  ]
+}

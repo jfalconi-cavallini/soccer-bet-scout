@@ -1,0 +1,43 @@
+{
+  "id": "koper",
+  "name": "FC Koper",
+  "league": null,
+  "rating": 1484.3,
+  "points": [
+    {
+      "date": "2025-07-10",
+      "rating": 1502.49,
+      "opponent": "\u017deljezni\u010dar Sarajevo",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-17",
+      "rating": 1509.79,
+      "opponent": "\u017deljezni\u010dar Sarajevo",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-24",
+      "rating": 1490.12,
+      "opponent": "Viking FK",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-31",
+      "rating": 1476.48,
+      "opponent": "Viking FK",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2026-07-01",
+      "rating": 1484.32,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    }
+  ]
+}

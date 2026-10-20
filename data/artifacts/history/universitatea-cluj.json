@@ -1,0 +1,29 @@
+{
+  "id": "universitatea-cluj",
+  "name": "Universitatea Cluj",
+  "league": null,
+  "rating": 1503.4,
+  "points": [
+    {
+      "date": "2025-07-24",
+      "rating": 1502.94,
+      "opponent": "FC Ararat-Armenia",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-31",
+      "rating": 1505.07,
+      "opponent": "FC Ararat-Armenia",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2026-07-01",
+      "rating": 1503.38,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    }
+  ]
+}

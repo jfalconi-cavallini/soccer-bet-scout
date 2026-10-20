@@ -1,0 +1,43 @@
+{
+  "id": "dila-gori",
+  "name": "Dila Gori",
+  "league": null,
+  "rating": 1502.2,
+  "points": [
+    {
+      "date": "2025-07-10",
+      "rating": 1506.82,
+      "opponent": "RFCU Luxemburg",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-17",
+      "rating": 1508.26,
+      "opponent": "RFCU Luxemburg",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-24",
+      "rating": 1506.05,
+      "opponent": "Riga FC",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-31",
+      "rating": 1503.33,
+      "opponent": "Riga FC",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2026-07-01",
+      "rating": 1502.22,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    }
+  ]
+}

@@ -1,0 +1,1730 @@
+{
+  "id": "chelsea",
+  "name": "Chelsea FC",
+  "league": "Premier League",
+  "rating": 1560.1,
+  "points": [
+    {
+      "date": "2021-08-14",
+      "rating": 1511.97,
+      "opponent": "Crystal Palace FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2021-08-22",
+      "rating": 1526.08,
+      "opponent": "Arsenal FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2021-08-28",
+      "rating": 1528.59,
+      "opponent": "Liverpool FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2021-09-11",
+      "rating": 1539.23,
+      "opponent": "Aston Villa FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2021-09-14",
+      "rating": 1539.93,
+      "opponent": "Zenit St. Petersburg",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2021-09-19",
+      "rating": 1558.41,
+      "opponent": "Tottenham Hotspur FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2021-09-25",
+      "rating": 1551.03,
+      "opponent": "Manchester City FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2021-09-29",
+      "rating": 1548.23,
+      "opponent": "Juventus FC",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2021-10-02",
+      "rating": 1553.17,
+      "opponent": "Southampton",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2021-10-16",
+      "rating": 1559.14,
+      "opponent": "Brentford FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2021-10-20",
+      "rating": 1568.83,
+      "opponent": "Malm\u00f6 FF",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2021-10-23",
+      "rating": 1580.17,
+      "opponent": "Norwich",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2021-10-30",
+      "rating": 1594.47,
+      "opponent": "Newcastle United FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2021-11-02",
+      "rating": 1596.97,
+      "opponent": "Malm\u00f6 FF",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2021-11-06",
+      "rating": 1591.3,
+      "opponent": "Burnley",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2021-11-20",
+      "rating": 1606.64,
+      "opponent": "Leicester City",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2021-11-23",
+      "rating": 1618.26,
+      "opponent": "Juventus FC",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2021-11-28",
+      "rating": 1612.88,
+      "opponent": "Manchester United FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2021-12-01",
+      "rating": 1615.74,
+      "opponent": "Watford",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2021-12-04",
+      "rating": 1612.54,
+      "opponent": "West Ham United",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2021-12-08",
+      "rating": 1611.54,
+      "opponent": "Zenit St. Petersburg",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2021-12-11",
+      "rating": 1609.71,
+      "opponent": "Leeds United FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2021-12-16",
+      "rating": 1603.45,
+      "opponent": "Everton FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2021-12-19",
+      "rating": 1602.84,
+      "opponent": "Wolves",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2021-12-26",
+      "rating": 1613.24,
+      "opponent": "Aston Villa FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2021-12-29",
+      "rating": 1607.44,
+      "opponent": "Brighton & Hove Albion FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2022-01-02",
+      "rating": 1606.08,
+      "opponent": "Liverpool FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2022-01-15",
+      "rating": 1605.34,
+      "opponent": "Manchester City FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2022-01-18",
+      "rating": 1604.49,
+      "opponent": "Brighton & Hove Albion FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2022-01-23",
+      "rating": 1608.09,
+      "opponent": "Tottenham Hotspur FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2022-02-19",
+      "rating": 1611.26,
+      "opponent": "Crystal Palace FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2022-02-22",
+      "rating": 1614.54,
+      "opponent": "Lille OSC",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2022-03-05",
+      "rating": 1630.62,
+      "opponent": "Burnley",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2022-03-10",
+      "rating": 1634.67,
+      "opponent": "Norwich",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2022-03-13",
+      "rating": 1632.36,
+      "opponent": "Newcastle United FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2022-03-16",
+      "rating": 1635.68,
+      "opponent": "Lille OSC",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2022-04-02",
+      "rating": 1607.16,
+      "opponent": "Brentford FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2022-04-06",
+      "rating": 1592.86,
+      "opponent": "Real Madrid CF",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2022-04-09",
+      "rating": 1613.28,
+      "opponent": "Southampton",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2022-04-12",
+      "rating": 1620.85,
+      "opponent": "Real Madrid CF",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2022-04-20",
+      "rating": 1602.12,
+      "opponent": "Arsenal FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2022-04-24",
+      "rating": 1602.44,
+      "opponent": "West Ham United",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2022-04-28",
+      "rating": 1602.15,
+      "opponent": "Manchester United FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2022-05-01",
+      "rating": 1595.4,
+      "opponent": "Everton FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2022-05-07",
+      "rating": 1590.0,
+      "opponent": "Wolves",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2022-05-11",
+      "rating": 1601.71,
+      "opponent": "Leeds United FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2022-05-19",
+      "rating": 1597.57,
+      "opponent": "Leicester City",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2022-05-22",
+      "rating": 1594.12,
+      "opponent": "Watford",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2022-07-01",
+      "rating": 1566.63,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2022-08-06",
+      "rating": 1570.44,
+      "opponent": "Everton FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2022-08-14",
+      "rating": 1568.2,
+      "opponent": "Tottenham Hotspur FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2022-08-21",
+      "rating": 1550.18,
+      "opponent": "Leeds United FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2022-08-27",
+      "rating": 1551.17,
+      "opponent": "Leicester City",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2022-08-30",
+      "rating": 1546.25,
+      "opponent": "Southampton",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2022-09-03",
+      "rating": 1546.96,
+      "opponent": "West Ham United",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2022-09-06",
+      "rating": 1544.01,
+      "opponent": "GNK Dinamo Zagreb",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2022-09-14",
+      "rating": 1544.37,
+      "opponent": "FC Red Bull Salzburg",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2022-10-01",
+      "rating": 1550.36,
+      "opponent": "Crystal Palace FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2022-10-05",
+      "rating": 1565.08,
+      "opponent": "AC Milan",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2022-10-08",
+      "rating": 1572.28,
+      "opponent": "Wolves",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2022-10-11",
+      "rating": 1588.16,
+      "opponent": "AC Milan",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2022-10-16",
+      "rating": 1598.67,
+      "opponent": "Aston Villa FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2022-10-19",
+      "rating": 1598.08,
+      "opponent": "Brentford FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2022-10-22",
+      "rating": 1593.89,
+      "opponent": "Manchester United FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2022-10-25",
+      "rating": 1601.66,
+      "opponent": "FC Red Bull Salzburg",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2022-10-29",
+      "rating": 1585.16,
+      "opponent": "Brighton & Hove Albion FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2022-11-02",
+      "rating": 1584.44,
+      "opponent": "GNK Dinamo Zagreb",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2022-11-06",
+      "rating": 1578.35,
+      "opponent": "Arsenal FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2022-11-12",
+      "rating": 1576.4,
+      "opponent": "Newcastle United FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2022-12-27",
+      "rating": 1578.38,
+      "opponent": "AFC Bournemouth",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2023-01-01",
+      "rating": 1575.52,
+      "opponent": "Nottingham Forest FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2023-01-05",
+      "rating": 1571.77,
+      "opponent": "Manchester City FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2023-01-12",
+      "rating": 1567.23,
+      "opponent": "Fulham FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2023-01-15",
+      "rating": 1566.47,
+      "opponent": "Crystal Palace FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2023-01-21",
+      "rating": 1570.78,
+      "opponent": "Liverpool FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2023-02-03",
+      "rating": 1565.92,
+      "opponent": "Fulham FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2023-02-11",
+      "rating": 1566.93,
+      "opponent": "West Ham United",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2023-02-15",
+      "rating": 1566.08,
+      "opponent": "Borussia Dortmund",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2023-02-18",
+      "rating": 1555.27,
+      "opponent": "Southampton",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2023-02-26",
+      "rating": 1548.12,
+      "opponent": "Tottenham Hotspur FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2023-03-04",
+      "rating": 1547.27,
+      "opponent": "Leeds United FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2023-03-07",
+      "rating": 1557.73,
+      "opponent": "Borussia Dortmund",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2023-03-11",
+      "rating": 1571.03,
+      "opponent": "Leicester City",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2023-03-18",
+      "rating": 1564.84,
+      "opponent": "Everton FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2023-04-01",
+      "rating": 1547.36,
+      "opponent": "Aston Villa FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2023-04-04",
+      "rating": 1546.65,
+      "opponent": "Liverpool FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2023-04-08",
+      "rating": 1541.9,
+      "opponent": "Wolves",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2023-04-12",
+      "rating": 1539.44,
+      "opponent": "Real Madrid CF",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2023-04-15",
+      "rating": 1533.5,
+      "opponent": "Brighton & Hove Albion FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2023-04-18",
+      "rating": 1525.2,
+      "opponent": "Real Madrid CF",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2023-04-26",
+      "rating": 1510.08,
+      "opponent": "Brentford FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2023-05-02",
+      "rating": 1507.77,
+      "opponent": "Arsenal FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2023-05-06",
+      "rating": 1519.4,
+      "opponent": "AFC Bournemouth",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2023-05-13",
+      "rating": 1514.32,
+      "opponent": "Nottingham Forest FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2023-05-21",
+      "rating": 1517.99,
+      "opponent": "Manchester City FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2023-05-25",
+      "rating": 1508.73,
+      "opponent": "Manchester United FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2023-05-28",
+      "rating": 1509.11,
+      "opponent": "Newcastle United FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2023-07-01",
+      "rating": 1514.8,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2023-08-13",
+      "rating": 1514.68,
+      "opponent": "Liverpool FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2023-08-20",
+      "rating": 1508.52,
+      "opponent": "West Ham United",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2023-08-25",
+      "rating": 1517.7,
+      "opponent": "Luton",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2023-09-02",
+      "rating": 1509.61,
+      "opponent": "Nottingham Forest FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2023-09-17",
+      "rating": 1510.15,
+      "opponent": "AFC Bournemouth",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2023-09-24",
+      "rating": 1504.45,
+      "opponent": "Aston Villa FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2023-10-02",
+      "rating": 1519.35,
+      "opponent": "Fulham FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2023-10-07",
+      "rating": 1535.34,
+      "opponent": "Burnley",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2023-10-21",
+      "rating": 1535.75,
+      "opponent": "Arsenal FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2023-10-28",
+      "rating": 1521.11,
+      "opponent": "Brentford FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2023-11-06",
+      "rating": 1545.1,
+      "opponent": "Tottenham Hotspur FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2023-11-12",
+      "rating": 1547.91,
+      "opponent": "Manchester City FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2023-11-25",
+      "rating": 1538.19,
+      "opponent": "Newcastle United FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2023-12-03",
+      "rating": 1541.42,
+      "opponent": "Brighton & Hove Albion FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2023-12-06",
+      "rating": 1539.74,
+      "opponent": "Manchester United FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2023-12-10",
+      "rating": 1530.23,
+      "opponent": "Everton FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2023-12-16",
+      "rating": 1532.42,
+      "opponent": "Sheffield United",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2023-12-24",
+      "rating": 1528.6,
+      "opponent": "Wolves",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2023-12-27",
+      "rating": 1529.35,
+      "opponent": "Crystal Palace FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2023-12-30",
+      "rating": 1533.87,
+      "opponent": "Luton",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2024-01-13",
+      "rating": 1534.43,
+      "opponent": "Fulham FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2024-01-31",
+      "rating": 1528.8,
+      "opponent": "Liverpool FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2024-02-04",
+      "rating": 1512.85,
+      "opponent": "Wolves",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2024-02-12",
+      "rating": 1526.35,
+      "opponent": "Crystal Palace FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2024-02-17",
+      "rating": 1533.34,
+      "opponent": "Manchester City FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2024-03-02",
+      "rating": 1534.81,
+      "opponent": "Brentford FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2024-03-11",
+      "rating": 1537.43,
+      "opponent": "Newcastle United FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2024-03-30",
+      "rating": 1531.46,
+      "opponent": "Burnley",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2024-04-04",
+      "rating": 1533.87,
+      "opponent": "Manchester United FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2024-04-07",
+      "rating": 1531.86,
+      "opponent": "Sheffield United",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2024-04-15",
+      "rating": 1546.77,
+      "opponent": "Everton FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2024-04-23",
+      "rating": 1537.95,
+      "opponent": "Arsenal FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2024-04-27",
+      "rating": 1542.32,
+      "opponent": "Aston Villa FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2024-05-02",
+      "rating": 1550.88,
+      "opponent": "Tottenham Hotspur FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2024-05-05",
+      "rating": 1565.49,
+      "opponent": "West Ham United",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2024-05-11",
+      "rating": 1569.56,
+      "opponent": "Nottingham Forest FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2024-05-15",
+      "rating": 1574.85,
+      "opponent": "Brighton & Hove Albion FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2024-05-19",
+      "rating": 1574.54,
+      "opponent": "AFC Bournemouth",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2024-07-01",
+      "rating": 1560.76,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2024-08-18",
+      "rating": 1551.19,
+      "opponent": "Manchester City FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-22",
+      "rating": 1555.83,
+      "opponent": "Servette FC",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-25",
+      "rating": 1575.77,
+      "opponent": "Wolves",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-29",
+      "rating": 1570.9,
+      "opponent": "Servette FC",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-09-01",
+      "rating": 1567.23,
+      "opponent": "Crystal Palace FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2024-09-14",
+      "rating": 1572.52,
+      "opponent": "AFC Bournemouth",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2024-09-21",
+      "rating": 1590.61,
+      "opponent": "West Ham United",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2024-09-28",
+      "rating": 1595.58,
+      "opponent": "Brighton & Hove Albion FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2024-10-03",
+      "rating": 1603.55,
+      "opponent": "KAA Gent",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-10-06",
+      "rating": 1598.32,
+      "opponent": "Nottingham Forest FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2024-10-20",
+      "rating": 1598.21,
+      "opponent": "Liverpool FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2024-10-24",
+      "rating": 1617.67,
+      "opponent": "Panathinaikos",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-10-27",
+      "rating": 1617.81,
+      "opponent": "Newcastle United FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2024-11-03",
+      "rating": 1617.72,
+      "opponent": "Manchester United FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2024-11-07",
+      "rating": 1633.22,
+      "opponent": "FC Noah",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-11-10",
+      "rating": 1631.02,
+      "opponent": "Arsenal FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2024-11-23",
+      "rating": 1631.8,
+      "opponent": "Leicester City",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2024-11-28",
+      "rating": 1640.97,
+      "opponent": "1. FC Heidenheim 1846",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-12-01",
+      "rating": 1649.1,
+      "opponent": "Aston Villa FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2024-12-04",
+      "rating": 1659.82,
+      "opponent": "Southampton",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2024-12-08",
+      "rating": 1665.04,
+      "opponent": "Tottenham Hotspur FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2024-12-12",
+      "rating": 1672.29,
+      "opponent": "FK Astana",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-12-15",
+      "rating": 1670.45,
+      "opponent": "Brentford FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2024-12-19",
+      "rating": 1676.92,
+      "opponent": "Shamrock Rovers",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-12-22",
+      "rating": 1673.87,
+      "opponent": "Everton FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2024-12-26",
+      "rating": 1663.39,
+      "opponent": "Fulham FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2024-12-30",
+      "rating": 1644.9,
+      "opponent": "Ipswich Town FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2025-01-04",
+      "rating": 1643.52,
+      "opponent": "Crystal Palace FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2025-01-14",
+      "rating": 1638.72,
+      "opponent": "AFC Bournemouth",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2025-01-20",
+      "rating": 1639.78,
+      "opponent": "Wolves",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2025-01-25",
+      "rating": 1632.17,
+      "opponent": "Manchester City FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2025-02-03",
+      "rating": 1630.01,
+      "opponent": "West Ham United",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2025-02-14",
+      "rating": 1612.2,
+      "opponent": "Brighton & Hove Albion FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2025-02-22",
+      "rating": 1608.47,
+      "opponent": "Aston Villa FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2025-02-25",
+      "rating": 1612.56,
+      "opponent": "Southampton",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2025-03-06",
+      "rating": 1616.67,
+      "opponent": "FC K\u00f8benhavn",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-03-09",
+      "rating": 1612.94,
+      "opponent": "Leicester City",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2025-03-13",
+      "rating": 1612.25,
+      "opponent": "FC K\u00f8benhavn",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-03-16",
+      "rating": 1613.33,
+      "opponent": "Arsenal FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2025-04-03",
+      "rating": 1614.57,
+      "opponent": "Tottenham Hotspur FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2025-04-06",
+      "rating": 1614.78,
+      "opponent": "Brentford FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2025-04-10",
+      "rating": 1633.33,
+      "opponent": "Legia Warszawa",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-04-13",
+      "rating": 1625.56,
+      "opponent": "Ipswich Town FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2025-04-17",
+      "rating": 1616.77,
+      "opponent": "Legia Warszawa",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-04-20",
+      "rating": 1621.67,
+      "opponent": "Fulham FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2025-04-26",
+      "rating": 1620.87,
+      "opponent": "Everton FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2025-05-01",
+      "rating": 1637.71,
+      "opponent": "Djurg\u00e5rdens IF",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-05-04",
+      "rating": 1648.78,
+      "opponent": "Liverpool FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2025-05-08",
+      "rating": 1647.5,
+      "opponent": "Djurg\u00e5rdens IF",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-05-11",
+      "rating": 1638.03,
+      "opponent": "Newcastle United FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2025-05-16",
+      "rating": 1638.02,
+      "opponent": "Manchester United FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2025-05-25",
+      "rating": 1642.53,
+      "opponent": "Nottingham Forest FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2025-05-28",
+      "rating": 1655.43,
+      "opponent": "Real Betis Balompi\u00e9",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-01",
+      "rating": 1622.44,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2025-08-17",
+      "rating": 1618.4,
+      "opponent": "Crystal Palace FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-22",
+      "rating": 1635.78,
+      "opponent": "West Ham United",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-30",
+      "rating": 1639.41,
+      "opponent": "Fulham FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2025-09-13",
+      "rating": 1639.23,
+      "opponent": "Brentford FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2025-09-17",
+      "rating": 1633.37,
+      "opponent": "FC Bayern M\u00fcnchen",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-09-20",
+      "rating": 1629.18,
+      "opponent": "Manchester United FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2025-09-27",
+      "rating": 1611.1,
+      "opponent": "Brighton & Hove Albion FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2025-09-30",
+      "rating": 1613.32,
+      "opponent": "Sport Lisboa e Benfica",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-10-04",
+      "rating": 1616.26,
+      "opponent": "Liverpool FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2025-10-18",
+      "rating": 1631.9,
+      "opponent": "Nottingham Forest FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2025-10-22",
+      "rating": 1641.04,
+      "opponent": "AFC Ajax",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-10-25",
+      "rating": 1629.94,
+      "opponent": "Sunderland AFC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2025-11-01",
+      "rating": 1635.96,
+      "opponent": "Tottenham Hotspur FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2025-11-05",
+      "rating": 1635.43,
+      "opponent": "Qaraba\u011f A\u011fdam FK",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-11-08",
+      "rating": 1639.72,
+      "opponent": "Wolves",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2025-11-22",
+      "rating": 1645.89,
+      "opponent": "Burnley",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2025-11-25",
+      "rating": 1659.43,
+      "opponent": "FC Barcelona",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-11-30",
+      "rating": 1658.81,
+      "opponent": "Arsenal FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2025-12-03",
+      "rating": 1641.3,
+      "opponent": "Leeds United FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2025-12-06",
+      "rating": 1640.85,
+      "opponent": "AFC Bournemouth",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2025-12-09",
+      "rating": 1637.22,
+      "opponent": "Atalanta BC",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-12-13",
+      "rating": 1641.14,
+      "opponent": "Everton FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2025-12-20",
+      "rating": 1642.72,
+      "opponent": "Newcastle United FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2025-12-27",
+      "rating": 1635.12,
+      "opponent": "Aston Villa FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2025-12-30",
+      "rating": 1629.87,
+      "opponent": "AFC Bournemouth",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2026-01-04",
+      "rating": 1634.11,
+      "opponent": "Manchester City FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2026-01-07",
+      "rating": 1629.55,
+      "opponent": "Fulham FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2026-01-17",
+      "rating": 1635.68,
+      "opponent": "Brentford FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2026-01-21",
+      "rating": 1633.86,
+      "opponent": "Paphos FC",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2026-01-25",
+      "rating": 1644.78,
+      "opponent": "Crystal Palace FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2026-01-28",
+      "rating": 1650.11,
+      "opponent": "SSC Napoli",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2026-01-31",
+      "rating": 1647.77,
+      "opponent": "West Ham United",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2026-02-07",
+      "rating": 1653.54,
+      "opponent": "Wolves",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2026-02-10",
+      "rating": 1647.1,
+      "opponent": "Leeds United FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2026-02-21",
+      "rating": 1639.51,
+      "opponent": "Burnley",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2026-03-01",
+      "rating": 1640.44,
+      "opponent": "Arsenal FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2026-03-04",
+      "rating": 1658.9,
+      "opponent": "Aston Villa FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2026-03-11",
+      "rating": 1647.78,
+      "opponent": "Paris Saint-Germain FC",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2026-03-14",
+      "rating": 1640.12,
+      "opponent": "Newcastle United FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2026-03-17",
+      "rating": 1621.93,
+      "opponent": "Paris Saint-Germain FC",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2026-03-21",
+      "rating": 1606.32,
+      "opponent": "Everton FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2026-04-12",
+      "rating": 1588.03,
+      "opponent": "Manchester City FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2026-04-18",
+      "rating": 1581.78,
+      "opponent": "Manchester United FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2026-04-21",
+      "rating": 1570.44,
+      "opponent": "Brighton & Hove Albion FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2026-05-04",
+      "rating": 1555.62,
+      "opponent": "Nottingham Forest FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2026-05-09",
+      "rating": 1560.63,
+      "opponent": "Liverpool FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2026-05-19",
+      "rating": 1561.73,
+      "opponent": "Tottenham Hotspur FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2026-05-24",
+      "rating": 1558.11,
+      "opponent": "Sunderland AFC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2026-07-01",
+      "rating": 1560.9,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2026-08-24",
+      "rating": 1566.24,
+      "opponent": "Fulham FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2026-08-30",
+      "rating": 1569.72,
+      "opponent": "Brighton & Hove Albion FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2026-09-06",
+      "rating": 1569.75,
+      "opponent": "Arsenal FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2026-09-12",
+      "rating": 1564.27,
+      "opponent": "Hull City AFC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2026-09-18",
+      "rating": 1555.03,
+      "opponent": "Brentford FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-10",
+      "rating": 1560.09,
+      "opponent": "AFC Bournemouth",
+      "competition_id": "E0",
+      "event": "match"
+    }
+  ]
+}

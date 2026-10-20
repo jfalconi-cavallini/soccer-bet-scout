@@ -1,0 +1,78 @@
+{
+  "id": "vikingur",
+  "name": "V\u00edkingur",
+  "league": null,
+  "rating": 1484.0,
+  "points": [
+    {
+      "date": "2024-07-11",
+      "rating": 1502.49,
+      "opponent": "FK Liep\u0101ja",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-07-18",
+      "rating": 1509.79,
+      "opponent": "FK Liep\u0101ja",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-07-25",
+      "rating": 1500.97,
+      "opponent": "KAA Gent",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-01",
+      "rating": 1484.78,
+      "opponent": "KAA Gent",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-01",
+      "rating": 1489.85,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2025-07-08",
+      "rating": 1482.36,
+      "opponent": "Lincoln Red Imps",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-15",
+      "rating": 1480.28,
+      "opponent": "Lincoln Red Imps",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-07",
+      "rating": 1482.8,
+      "opponent": "Linfield FC",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-14",
+      "rating": 1476.04,
+      "opponent": "Linfield FC",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2026-07-01",
+      "rating": 1484.03,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    }
+  ]
+}

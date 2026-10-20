@@ -1,0 +1,78 @@
+{
+  "id": "iberia-1999",
+  "name": "FC Iberia 1999",
+  "league": null,
+  "rating": 1485.3,
+  "points": [
+    {
+      "date": "2024-07-25",
+      "rating": 1507.73,
+      "opponent": "FK Partizani",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-01",
+      "rating": 1509.88,
+      "opponent": "FK Partizani",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-08",
+      "rating": 1505.21,
+      "opponent": "\u0130stanbul Ba\u015fak\u015fehir",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-15",
+      "rating": 1500.97,
+      "opponent": "\u0130stanbul Ba\u015fak\u015fehir",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-01",
+      "rating": 1500.65,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2025-07-08",
+      "rating": 1484.57,
+      "opponent": "Malm\u00f6 FF",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-15",
+      "rating": 1477.38,
+      "opponent": "Malm\u00f6 FF",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-23",
+      "rating": 1475.79,
+      "opponent": "FCI Levadia",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-29",
+      "rating": 1477.99,
+      "opponent": "FCI Levadia",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2026-07-01",
+      "rating": 1485.32,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    }
+  ]
+}

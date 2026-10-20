@@ -1,0 +1,316 @@
+{
+  "id": "telstar",
+  "name": "Telstar 1963",
+  "league": "Eredivisie",
+  "rating": 1457.4,
+  "points": [
+    {
+      "date": "2025-07-01",
+      "rating": 1430.61,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2025-08-10",
+      "rating": 1427.97,
+      "opponent": "AFC Ajax",
+      "competition_id": "N1",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-15",
+      "rating": 1416.03,
+      "opponent": "PEC Zwolle",
+      "competition_id": "N1",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-23",
+      "rating": 1414.16,
+      "opponent": "Volendam",
+      "competition_id": "N1",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-30",
+      "rating": 1436.96,
+      "opponent": "PSV Eindhoven",
+      "competition_id": "N1",
+      "event": "match"
+    },
+    {
+      "date": "2025-09-14",
+      "rating": 1422.67,
+      "opponent": "Fortuna Sittard",
+      "competition_id": "N1",
+      "event": "match"
+    },
+    {
+      "date": "2025-09-20",
+      "rating": 1417.74,
+      "opponent": "FC Groningen",
+      "competition_id": "N1",
+      "event": "match"
+    },
+    {
+      "date": "2025-09-28",
+      "rating": 1429.04,
+      "opponent": "Go Ahead Eagles",
+      "competition_id": "N1",
+      "event": "match"
+    },
+    {
+      "date": "2025-10-05",
+      "rating": 1431.27,
+      "opponent": "AZ Alkmaar",
+      "competition_id": "N1",
+      "event": "match"
+    },
+    {
+      "date": "2025-10-19",
+      "rating": 1425.74,
+      "opponent": "SC Heerenveen",
+      "competition_id": "N1",
+      "event": "match"
+    },
+    {
+      "date": "2025-10-25",
+      "rating": 1425.36,
+      "opponent": "Sparta Rotterdam",
+      "competition_id": "N1",
+      "event": "match"
+    },
+    {
+      "date": "2025-11-01",
+      "rating": 1422.64,
+      "opponent": "SBV Excelsior",
+      "competition_id": "N1",
+      "event": "match"
+    },
+    {
+      "date": "2025-11-07",
+      "rating": 1428.04,
+      "opponent": "FC Twente '65",
+      "competition_id": "N1",
+      "event": "match"
+    },
+    {
+      "date": "2025-11-23",
+      "rating": 1429.74,
+      "opponent": "FC Utrecht",
+      "competition_id": "N1",
+      "event": "match"
+    },
+    {
+      "date": "2025-11-30",
+      "rating": 1427.97,
+      "opponent": "Feyenoord Rotterdam",
+      "competition_id": "N1",
+      "event": "match"
+    },
+    {
+      "date": "2025-12-06",
+      "rating": 1430.83,
+      "opponent": "Heracles",
+      "competition_id": "N1",
+      "event": "match"
+    },
+    {
+      "date": "2025-12-13",
+      "rating": 1432.47,
+      "opponent": "Nijmegen",
+      "competition_id": "N1",
+      "event": "match"
+    },
+    {
+      "date": "2025-12-20",
+      "rating": 1439.21,
+      "opponent": "NAC Breda",
+      "competition_id": "N1",
+      "event": "match"
+    },
+    {
+      "date": "2026-01-11",
+      "rating": 1435.5,
+      "opponent": "AFC Ajax",
+      "competition_id": "N1",
+      "event": "match"
+    },
+    {
+      "date": "2026-01-17",
+      "rating": 1437.25,
+      "opponent": "SBV Excelsior",
+      "competition_id": "N1",
+      "event": "match"
+    },
+    {
+      "date": "2026-01-25",
+      "rating": 1433.69,
+      "opponent": "AZ Alkmaar",
+      "competition_id": "N1",
+      "event": "match"
+    },
+    {
+      "date": "2026-01-31",
+      "rating": 1422.99,
+      "opponent": "PEC Zwolle",
+      "competition_id": "N1",
+      "event": "match"
+    },
+    {
+      "date": "2026-02-08",
+      "rating": 1427.18,
+      "opponent": "Go Ahead Eagles",
+      "competition_id": "N1",
+      "event": "match"
+    },
+    {
+      "date": "2026-02-15",
+      "rating": 1428.58,
+      "opponent": "FC Twente '65",
+      "competition_id": "N1",
+      "event": "match"
+    },
+    {
+      "date": "2026-02-22",
+      "rating": 1430.55,
+      "opponent": "Feyenoord Rotterdam",
+      "competition_id": "N1",
+      "event": "match"
+    },
+    {
+      "date": "2026-02-27",
+      "rating": 1442.32,
+      "opponent": "NAC Breda",
+      "competition_id": "N1",
+      "event": "match"
+    },
+    {
+      "date": "2026-03-08",
+      "rating": 1464.09,
+      "opponent": "Fortuna Sittard",
+      "competition_id": "N1",
+      "event": "match"
+    },
+    {
+      "date": "2026-03-14",
+      "rating": 1454.27,
+      "opponent": "SC Heerenveen",
+      "competition_id": "N1",
+      "event": "match"
+    },
+    {
+      "date": "2026-03-22",
+      "rating": 1470.91,
+      "opponent": "PSV Eindhoven",
+      "competition_id": "N1",
+      "event": "match"
+    },
+    {
+      "date": "2026-04-04",
+      "rating": 1457.39,
+      "opponent": "FC Groningen",
+      "competition_id": "N1",
+      "event": "match"
+    },
+    {
+      "date": "2026-04-11",
+      "rating": 1450.89,
+      "opponent": "FC Utrecht",
+      "competition_id": "N1",
+      "event": "match"
+    },
+    {
+      "date": "2026-04-22",
+      "rating": 1463.58,
+      "opponent": "Sparta Rotterdam",
+      "competition_id": "N1",
+      "event": "match"
+    },
+    {
+      "date": "2026-05-02",
+      "rating": 1469.07,
+      "opponent": "Nijmegen",
+      "competition_id": "N1",
+      "event": "match"
+    },
+    {
+      "date": "2026-05-10",
+      "rating": 1475.47,
+      "opponent": "Heracles",
+      "competition_id": "N1",
+      "event": "match"
+    },
+    {
+      "date": "2026-05-17",
+      "rating": 1480.82,
+      "opponent": "Volendam",
+      "competition_id": "N1",
+      "event": "match"
+    },
+    {
+      "date": "2026-07-01",
+      "rating": 1486.21,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2026-08-08",
+      "rating": 1491.35,
+      "opponent": "Nijmegen",
+      "competition_id": "N1",
+      "event": "match"
+    },
+    {
+      "date": "2026-08-14",
+      "rating": 1475.23,
+      "opponent": "Sparta Rotterdam",
+      "competition_id": "N1",
+      "event": "match"
+    },
+    {
+      "date": "2026-08-30",
+      "rating": 1460.84,
+      "opponent": "AFC Ajax",
+      "competition_id": "N1",
+      "event": "match"
+    },
+    {
+      "date": "2026-09-06",
+      "rating": 1458.81,
+      "opponent": "SC Cambuur-Leeuwarden",
+      "competition_id": "N1",
+      "event": "match"
+    },
+    {
+      "date": "2026-09-09",
+      "rating": 1457.96,
+      "opponent": "FC Twente '65",
+      "competition_id": "N1",
+      "event": "match"
+    },
+    {
+      "date": "2026-09-13",
+      "rating": 1459.54,
+      "opponent": "SC Heerenveen",
+      "competition_id": "N1",
+      "event": "match"
+    },
+    {
+      "date": "2026-09-20",
+      "rating": 1458.3,
+      "opponent": "AZ Alkmaar",
+      "competition_id": "N1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-11",
+      "rating": 1457.39,
+      "opponent": "ADO Den Haag",
+      "competition_id": "N1",
+      "event": "match"
+    }
+  ]
+}

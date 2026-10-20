@@ -1,0 +1,78 @@
+{
+  "id": "buducnost-podgorica",
+  "name": "FK Budu\u0107nost Podgorica",
+  "league": null,
+  "rating": 1496.9,
+  "points": [
+    {
+      "date": "2024-07-11",
+      "rating": 1498.15,
+      "opponent": "KF Malisheva",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-07-18",
+      "rating": 1510.32,
+      "opponent": "KF Malisheva",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-07-25",
+      "rating": 1508.16,
+      "opponent": "CSKA 1948 Sofia",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-01",
+      "rating": 1505.49,
+      "opponent": "CSKA 1948 Sofia",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-01",
+      "rating": 1503.66,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2025-07-08",
+      "rating": 1501.9,
+      "opponent": "FC Noah",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-15",
+      "rating": 1499.61,
+      "opponent": "FC Noah",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-23",
+      "rating": 1497.11,
+      "opponent": "FC Milsami",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-31",
+      "rating": 1495.41,
+      "opponent": "FC Milsami",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2026-07-01",
+      "rating": 1496.94,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    }
+  ]
+}

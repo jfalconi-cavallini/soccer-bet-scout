@@ -1,0 +1,1324 @@
+{
+  "id": "hoffenheim",
+  "name": "TSG 1899 Hoffenheim",
+  "league": "Bundesliga",
+  "rating": 1526.5,
+  "points": [
+    {
+      "date": "2021-08-14",
+      "rating": 1523.87,
+      "opponent": "FC Augsburg",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2021-08-22",
+      "rating": 1520.61,
+      "opponent": "1. FC Union Berlin",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2021-08-27",
+      "rating": 1518.43,
+      "opponent": "Borussia Dortmund",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2021-09-11",
+      "rating": 1502.87,
+      "opponent": "1. FSV Mainz 05",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2021-09-18",
+      "rating": 1504.92,
+      "opponent": "Bielefeld",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2021-09-25",
+      "rating": 1513.19,
+      "opponent": "VfL Wolfsburg",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2021-10-02",
+      "rating": 1504.3,
+      "opponent": "VfB Stuttgart",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2021-10-15",
+      "rating": 1521.21,
+      "opponent": "1. FC K\u00f6ln",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2021-10-23",
+      "rating": 1512.26,
+      "opponent": "FC Bayern M\u00fcnchen",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2021-10-29",
+      "rating": 1518.18,
+      "opponent": "Hertha",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2021-11-06",
+      "rating": 1508.66,
+      "opponent": "Bochum",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2021-11-20",
+      "rating": 1516.75,
+      "opponent": "RB Leipzig [cancelled]",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2021-11-27",
+      "rating": 1531.65,
+      "opponent": "Greuther Furth",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2021-12-04",
+      "rating": 1533.24,
+      "opponent": "Eintracht Frankfurt",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2021-12-11",
+      "rating": 1540.52,
+      "opponent": "SC Freiburg",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2021-12-15",
+      "rating": 1543.64,
+      "opponent": "Bayer 04 Leverkusen",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2021-12-18",
+      "rating": 1538.84,
+      "opponent": "Borussia M\u00f6nchengladbach",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2022-01-08",
+      "rating": 1543.79,
+      "opponent": "FC Augsburg",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2022-01-15",
+      "rating": 1540.88,
+      "opponent": "1. FC Union Berlin",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2022-01-22",
+      "rating": 1534.91,
+      "opponent": "Borussia Dortmund",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2022-02-05",
+      "rating": 1526.4,
+      "opponent": "1. FSV Mainz 05",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2022-02-13",
+      "rating": 1532.43,
+      "opponent": "Bielefeld",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2022-02-19",
+      "rating": 1536.86,
+      "opponent": "VfL Wolfsburg",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2022-02-25",
+      "rating": 1536.14,
+      "opponent": "VfB Stuttgart",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2022-03-06",
+      "rating": 1541.71,
+      "opponent": "1. FC K\u00f6ln",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2022-03-12",
+      "rating": 1543.59,
+      "opponent": "FC Bayern M\u00fcnchen",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2022-03-19",
+      "rating": 1523.35,
+      "opponent": "Hertha",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2022-04-02",
+      "rating": 1515.06,
+      "opponent": "Bochum",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2022-04-10",
+      "rating": 1507.61,
+      "opponent": "RB Leipzig [cancelled]",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2022-04-17",
+      "rating": 1501.63,
+      "opponent": "Greuther Furth",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2022-04-23",
+      "rating": 1504.6,
+      "opponent": "Eintracht Frankfurt",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2022-04-30",
+      "rating": 1498.78,
+      "opponent": "SC Freiburg",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2022-05-07",
+      "rating": 1488.26,
+      "opponent": "Bayer 04 Leverkusen",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2022-05-14",
+      "rating": 1474.05,
+      "opponent": "Borussia M\u00f6nchengladbach",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2022-07-01",
+      "rating": 1485.3,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2022-08-06",
+      "rating": 1478.79,
+      "opponent": "Borussia M\u00f6nchengladbach",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2022-08-13",
+      "rating": 1480.54,
+      "opponent": "Bochum",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2022-08-20",
+      "rating": 1505.12,
+      "opponent": "Bayer 04 Leverkusen",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2022-08-27",
+      "rating": 1505.73,
+      "opponent": "FC Augsburg",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2022-09-02",
+      "rating": 1505.43,
+      "opponent": "Borussia Dortmund",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2022-09-10",
+      "rating": 1517.56,
+      "opponent": "1. FSV Mainz 05",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2022-09-18",
+      "rating": 1516.26,
+      "opponent": "SC Freiburg",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2022-10-02",
+      "rating": 1517.01,
+      "opponent": "Hertha",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2022-10-07",
+      "rating": 1509.01,
+      "opponent": "SV Werder Bremen",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2022-10-14",
+      "rating": 1524.63,
+      "opponent": "FC Schalke 04",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2022-10-22",
+      "rating": 1517.09,
+      "opponent": "FC Bayern M\u00fcnchen",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2022-10-30",
+      "rating": 1519.09,
+      "opponent": "1. FC K\u00f6ln",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2022-11-05",
+      "rating": 1507.63,
+      "opponent": "RB Leipzig [cancelled]",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2022-11-09",
+      "rating": 1501.98,
+      "opponent": "Eintracht Frankfurt",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2022-11-12",
+      "rating": 1495.67,
+      "opponent": "VfL Wolfsburg",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2023-01-21",
+      "rating": 1489.89,
+      "opponent": "1. FC Union Berlin",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2023-01-24",
+      "rating": 1486.21,
+      "opponent": "VfB Stuttgart",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2023-01-28",
+      "rating": 1466.82,
+      "opponent": "Borussia M\u00f6nchengladbach",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2023-02-04",
+      "rating": 1452.71,
+      "opponent": "Bochum",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2023-02-11",
+      "rating": 1441.27,
+      "opponent": "Bayer 04 Leverkusen",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2023-02-17",
+      "rating": 1439.84,
+      "opponent": "FC Augsburg",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2023-02-25",
+      "rating": 1438.19,
+      "opponent": "Borussia Dortmund",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2023-03-04",
+      "rating": 1438.74,
+      "opponent": "1. FSV Mainz 05",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2023-03-12",
+      "rating": 1440.05,
+      "opponent": "SC Freiburg",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2023-03-18",
+      "rating": 1447.39,
+      "opponent": "Hertha",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2023-04-02",
+      "rating": 1454.53,
+      "opponent": "SV Werder Bremen",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2023-04-09",
+      "rating": 1460.14,
+      "opponent": "FC Schalke 04",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2023-04-15",
+      "rating": 1468.25,
+      "opponent": "FC Bayern M\u00fcnchen",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2023-04-22",
+      "rating": 1453.66,
+      "opponent": "1. FC K\u00f6ln",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2023-04-29",
+      "rating": 1455.19,
+      "opponent": "RB Leipzig [cancelled]",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2023-05-06",
+      "rating": 1465.29,
+      "opponent": "Eintracht Frankfurt",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2023-05-13",
+      "rating": 1465.74,
+      "opponent": "VfL Wolfsburg",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2023-05-20",
+      "rating": 1477.98,
+      "opponent": "1. FC Union Berlin",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2023-05-27",
+      "rating": 1480.66,
+      "opponent": "VfB Stuttgart",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2023-07-01",
+      "rating": 1492.03,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2023-08-19",
+      "rating": 1486.53,
+      "opponent": "SC Freiburg",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2023-08-26",
+      "rating": 1492.04,
+      "opponent": "1. FC Heidenheim 1846",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2023-09-02",
+      "rating": 1501.52,
+      "opponent": "VfL Wolfsburg",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2023-09-16",
+      "rating": 1516.67,
+      "opponent": "1. FC K\u00f6ln",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2023-09-23",
+      "rating": 1532.86,
+      "opponent": "1. FC Union Berlin",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2023-09-29",
+      "rating": 1520.52,
+      "opponent": "Borussia Dortmund",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2023-10-07",
+      "rating": 1525.6,
+      "opponent": "SV Werder Bremen",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2023-10-21",
+      "rating": 1510.0,
+      "opponent": "Eintracht Frankfurt",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2023-10-28",
+      "rating": 1518.56,
+      "opponent": "VfB Stuttgart",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2023-11-04",
+      "rating": 1515.4,
+      "opponent": "Bayer 04 Leverkusen",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2023-11-11",
+      "rating": 1516.4,
+      "opponent": "FC Augsburg",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2023-11-26",
+      "rating": 1512.47,
+      "opponent": "1. FSV Mainz 05",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2023-12-02",
+      "rating": 1510.32,
+      "opponent": "Borussia M\u00f6nchengladbach",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2023-12-08",
+      "rating": 1515.48,
+      "opponent": "Bochum",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2023-12-16",
+      "rating": 1511.93,
+      "opponent": "RB Leipzig [cancelled]",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2023-12-19",
+      "rating": 1506.68,
+      "opponent": "Darmstadt",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2024-01-12",
+      "rating": 1502.23,
+      "opponent": "FC Bayern M\u00fcnchen",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2024-01-20",
+      "rating": 1501.62,
+      "opponent": "SC Freiburg",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2024-01-27",
+      "rating": 1497.82,
+      "opponent": "1. FC Heidenheim 1846",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2024-02-04",
+      "rating": 1500.14,
+      "opponent": "VfL Wolfsburg",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2024-02-11",
+      "rating": 1496.41,
+      "opponent": "1. FC K\u00f6ln",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2024-02-17",
+      "rating": 1489.09,
+      "opponent": "1. FC Union Berlin",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2024-02-25",
+      "rating": 1499.7,
+      "opponent": "Borussia Dortmund",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2024-03-03",
+      "rating": 1501.42,
+      "opponent": "SV Werder Bremen",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2024-03-10",
+      "rating": 1495.55,
+      "opponent": "Eintracht Frankfurt",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2024-03-16",
+      "rating": 1479.61,
+      "opponent": "VfB Stuttgart",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2024-03-30",
+      "rating": 1482.78,
+      "opponent": "Bayer 04 Leverkusen",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2024-04-07",
+      "rating": 1491.4,
+      "opponent": "FC Augsburg",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2024-04-13",
+      "rating": 1478.6,
+      "opponent": "1. FSV Mainz 05",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2024-04-20",
+      "rating": 1480.91,
+      "opponent": "Borussia M\u00f6nchengladbach",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2024-04-26",
+      "rating": 1477.4,
+      "opponent": "Bochum",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2024-05-03",
+      "rating": 1480.25,
+      "opponent": "RB Leipzig [cancelled]",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2024-05-12",
+      "rating": 1501.95,
+      "opponent": "Darmstadt",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2024-05-18",
+      "rating": 1516.51,
+      "opponent": "FC Bayern M\u00fcnchen",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2024-07-01",
+      "rating": 1517.94,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2024-08-24",
+      "rating": 1517.45,
+      "opponent": "Holstein Kiel",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-31",
+      "rating": 1509.91,
+      "opponent": "Eintracht Frankfurt",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2024-09-14",
+      "rating": 1495.87,
+      "opponent": "Bayer 04 Leverkusen",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2024-09-21",
+      "rating": 1493.75,
+      "opponent": "1. FC Union Berlin",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2024-09-25",
+      "rating": 1497.41,
+      "opponent": "FC Midtjylland",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2024-09-29",
+      "rating": 1490.78,
+      "opponent": "SV Werder Bremen",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2024-10-03",
+      "rating": 1499.25,
+      "opponent": "Dinamo Kiev",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2024-10-06",
+      "rating": 1504.42,
+      "opponent": "VfB Stuttgart",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2024-10-19",
+      "rating": 1508.61,
+      "opponent": "Bochum",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2024-10-24",
+      "rating": 1505.75,
+      "opponent": "FC Porto",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2024-10-27",
+      "rating": 1508.83,
+      "opponent": "1. FC Heidenheim 1846",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2024-11-02",
+      "rating": 1490.57,
+      "opponent": "St Pauli",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2024-11-07",
+      "rating": 1490.26,
+      "opponent": "Olympique Lyonnais",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2024-11-10",
+      "rating": 1492.18,
+      "opponent": "FC Augsburg",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2024-11-23",
+      "rating": 1497.33,
+      "opponent": "RB Leipzig [cancelled]",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2024-11-28",
+      "rating": 1488.49,
+      "opponent": "Sporting Clube de Braga",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2024-12-01",
+      "rating": 1483.14,
+      "opponent": "1. FSV Mainz 05",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2024-12-08",
+      "rating": 1481.47,
+      "opponent": "SC Freiburg",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2024-12-12",
+      "rating": 1480.68,
+      "opponent": "FCSB",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2024-12-15",
+      "rating": 1486.81,
+      "opponent": "Borussia Dortmund",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2024-12-21",
+      "rating": 1480.86,
+      "opponent": "Borussia M\u00f6nchengladbach",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2025-01-11",
+      "rating": 1475.36,
+      "opponent": "VfL Wolfsburg",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2025-01-15",
+      "rating": 1469.22,
+      "opponent": "FC Bayern M\u00fcnchen",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2025-01-18",
+      "rating": 1481.67,
+      "opponent": "Holstein Kiel",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2025-01-23",
+      "rating": 1478.0,
+      "opponent": "Tottenham Hotspur FC",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2025-01-26",
+      "rating": 1479.29,
+      "opponent": "Eintracht Frankfurt",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2025-01-30",
+      "rating": 1488.92,
+      "opponent": "RSC Anderlecht",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2025-02-02",
+      "rating": 1488.11,
+      "opponent": "Bayer 04 Leverkusen",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2025-02-08",
+      "rating": 1461.47,
+      "opponent": "1. FC Union Berlin",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2025-02-16",
+      "rating": 1478.43,
+      "opponent": "SV Werder Bremen",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2025-02-23",
+      "rating": 1478.41,
+      "opponent": "VfB Stuttgart",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2025-03-01",
+      "rating": 1484.09,
+      "opponent": "Bochum",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2025-03-09",
+      "rating": 1479.99,
+      "opponent": "1. FC Heidenheim 1846",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2025-03-14",
+      "rating": 1477.36,
+      "opponent": "St Pauli",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2025-03-29",
+      "rating": 1476.1,
+      "opponent": "FC Augsburg",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2025-04-05",
+      "rating": 1472.22,
+      "opponent": "RB Leipzig [cancelled]",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2025-04-12",
+      "rating": 1484.55,
+      "opponent": "1. FSV Mainz 05",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2025-04-19",
+      "rating": 1483.23,
+      "opponent": "SC Freiburg",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2025-04-26",
+      "rating": 1480.87,
+      "opponent": "Borussia Dortmund",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2025-05-03",
+      "rating": 1484.33,
+      "opponent": "Borussia M\u00f6nchengladbach",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2025-05-09",
+      "rating": 1487.6,
+      "opponent": "VfL Wolfsburg",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2025-05-17",
+      "rating": 1476.57,
+      "opponent": "FC Bayern M\u00fcnchen",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-01",
+      "rating": 1493.31,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2025-08-23",
+      "rating": 1502.79,
+      "opponent": "Bayer 04 Leverkusen",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-30",
+      "rating": 1491.58,
+      "opponent": "Eintracht Frankfurt",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2025-09-13",
+      "rating": 1506.04,
+      "opponent": "1. FC Union Berlin",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2025-09-20",
+      "rating": 1494.95,
+      "opponent": "FC Bayern M\u00fcnchen",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2025-09-28",
+      "rating": 1498.07,
+      "opponent": "SC Freiburg",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2025-10-03",
+      "rating": 1490.54,
+      "opponent": "1. FC K\u00f6ln",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2025-10-19",
+      "rating": 1511.0,
+      "opponent": "St Pauli",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2025-10-25",
+      "rating": 1515.83,
+      "opponent": "1. FC Heidenheim 1846",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2025-11-02",
+      "rating": 1522.12,
+      "opponent": "VfL Wolfsburg",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2025-11-08",
+      "rating": 1532.75,
+      "opponent": "RB Leipzig [cancelled]",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2025-11-21",
+      "rating": 1534.94,
+      "opponent": "1. FSV Mainz 05",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2025-11-29",
+      "rating": 1543.69,
+      "opponent": "FC Augsburg",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2025-12-07",
+      "rating": 1540.46,
+      "opponent": "Borussia Dortmund",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2025-12-13",
+      "rating": 1548.55,
+      "opponent": "Hamburger SV",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2025-12-20",
+      "rating": 1551.55,
+      "opponent": "VfB Stuttgart",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2026-01-14",
+      "rating": 1563.98,
+      "opponent": "Borussia M\u00f6nchengladbach",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2026-01-17",
+      "rating": 1566.69,
+      "opponent": "Bayer 04 Leverkusen",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2026-01-24",
+      "rating": 1579.99,
+      "opponent": "Eintracht Frankfurt",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2026-01-27",
+      "rating": 1590.38,
+      "opponent": "SV Werder Bremen",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2026-01-31",
+      "rating": 1593.48,
+      "opponent": "1. FC Union Berlin",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2026-02-08",
+      "rating": 1587.01,
+      "opponent": "FC Bayern M\u00fcnchen",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2026-02-14",
+      "rating": 1595.69,
+      "opponent": "SC Freiburg",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2026-02-21",
+      "rating": 1594.17,
+      "opponent": "1. FC K\u00f6ln",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2026-02-28",
+      "rating": 1583.53,
+      "opponent": "St Pauli",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2026-03-07",
+      "rating": 1590.08,
+      "opponent": "1. FC Heidenheim 1846",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2026-03-14",
+      "rating": 1584.19,
+      "opponent": "VfL Wolfsburg",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2026-03-20",
+      "rating": 1566.86,
+      "opponent": "RB Leipzig [cancelled]",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2026-04-04",
+      "rating": 1558.98,
+      "opponent": "1. FSV Mainz 05",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2026-04-10",
+      "rating": 1558.67,
+      "opponent": "FC Augsburg",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2026-04-18",
+      "rating": 1563.03,
+      "opponent": "Borussia Dortmund",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2026-04-25",
+      "rating": 1566.63,
+      "opponent": "Hamburger SV",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2026-05-02",
+      "rating": 1565.22,
+      "opponent": "VfB Stuttgart",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2026-05-09",
+      "rating": 1564.36,
+      "opponent": "SV Werder Bremen",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2026-05-16",
+      "rating": 1545.02,
+      "opponent": "Borussia M\u00f6nchengladbach",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2026-07-01",
+      "rating": 1538.93,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2026-08-29",
+      "rating": 1537.23,
+      "opponent": "1. FC K\u00f6ln",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2026-09-05",
+      "rating": 1533.95,
+      "opponent": "Borussia Dortmund",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2026-09-12",
+      "rating": 1536.24,
+      "opponent": "VfB Stuttgart",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2026-09-20",
+      "rating": 1533.89,
+      "opponent": "SC Paderborn 07",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-10",
+      "rating": 1526.45,
+      "opponent": "Hamburger SV",
+      "competition_id": "D1",
+      "event": "match"
+    }
+  ]
+}

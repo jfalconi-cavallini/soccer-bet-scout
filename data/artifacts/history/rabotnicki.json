@@ -1,0 +1,29 @@
+{
+  "id": "rabotnicki",
+  "name": "FK Rabotni\u010dki",
+  "league": null,
+  "rating": 1487.5,
+  "points": [
+    {
+      "date": "2025-07-10",
+      "rating": 1487.62,
+      "opponent": "Torpedo-BelAZ Zhodino",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-17",
+      "rating": 1481.31,
+      "opponent": "Torpedo-BelAZ Zhodino",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2026-07-01",
+      "rating": 1487.54,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    }
+  ]
+}

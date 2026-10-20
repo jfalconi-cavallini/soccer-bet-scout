@@ -1,0 +1,78 @@
+{
+  "id": "cs-universitatea-craiova",
+  "name": "CS Universitatea Craiova",
+  "league": null,
+  "rating": 1524.9,
+  "points": [
+    {
+      "date": "2024-07-25",
+      "rating": 1492.29,
+      "opponent": "NK Maribor",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-01",
+      "rating": 1494.47,
+      "opponent": "NK Maribor",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-01",
+      "rating": 1496.31,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2025-07-24",
+      "rating": 1494.24,
+      "opponent": "FK Sarajevo",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-31",
+      "rating": 1508.59,
+      "opponent": "FK Sarajevo",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-07",
+      "rating": 1520.89,
+      "opponent": "Spartak Trnava",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-14",
+      "rating": 1522.81,
+      "opponent": "Spartak Trnava",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-21",
+      "rating": 1530.0,
+      "opponent": "\u0130stanbul Ba\u015fak\u015fehir",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-28",
+      "rating": 1537.42,
+      "opponent": "\u0130stanbul Ba\u015fak\u015fehir",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2026-07-01",
+      "rating": 1524.94,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    }
+  ]
+}

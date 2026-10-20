@@ -1,0 +1,57 @@
+{
+  "id": "iraklis",
+  "name": "Iraklis",
+  "league": "Super League Greece",
+  "rating": 1425.7,
+  "points": [
+    {
+      "date": "2026-07-01",
+      "rating": 1411.05,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2026-08-22",
+      "rating": 1408.06,
+      "opponent": "AEK Athen",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2026-08-29",
+      "rating": 1409.32,
+      "opponent": "Volos NFC",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2026-09-07",
+      "rating": 1420.88,
+      "opponent": "Asteras Tripolis",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2026-09-12",
+      "rating": 1418.76,
+      "opponent": "Atromitos",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2026-09-19",
+      "rating": 1420.85,
+      "opponent": "Aris Saloniki",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-11",
+      "rating": 1425.66,
+      "opponent": "Levadeiakos",
+      "competition_id": "G1",
+      "event": "match"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "elversberg",
+  "name": "SV 07 Elversberg",
+  "league": "Bundesliga",
+  "rating": 1477.3,
+  "points": [
+    {
+      "date": "2026-07-01",
+      "rating": 1471.38,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2026-08-29",
+      "rating": 1473.03,
+      "opponent": "Bayer 04 Leverkusen",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2026-09-05",
+      "rating": 1478.35,
+      "opponent": "Borussia M\u00f6nchengladbach",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2026-09-13",
+      "rating": 1476.92,
+      "opponent": "FC Bayern M\u00fcnchen",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2026-09-20",
+      "rating": 1479.38,
+      "opponent": "FC Schalke 04",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-10",
+      "rating": 1477.34,
+      "opponent": "1. FC Union Berlin",
+      "competition_id": "D1",
+      "event": "match"
+    }
+  ]
+}

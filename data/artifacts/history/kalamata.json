@@ -1,0 +1,57 @@
+{
+  "id": "kalamata",
+  "name": "Kalamata",
+  "league": "Super League Greece",
+  "rating": 1433.1,
+  "points": [
+    {
+      "date": "2026-07-01",
+      "rating": 1411.05,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2026-08-22",
+      "rating": 1406.55,
+      "opponent": "Aris Saloniki",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2026-08-29",
+      "rating": 1402.17,
+      "opponent": "Panetolikos",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2026-09-06",
+      "rating": 1407.75,
+      "opponent": "Atromitos",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2026-09-13",
+      "rating": 1414.74,
+      "opponent": "Volos NFC",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2026-09-20",
+      "rating": 1413.59,
+      "opponent": "Panathinaikos",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-12",
+      "rating": 1433.07,
+      "opponent": "PAOK Saloniki",
+      "competition_id": "G1",
+      "event": "match"
+    }
+  ]
+}

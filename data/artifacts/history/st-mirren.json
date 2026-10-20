@@ -1,0 +1,1457 @@
+{
+  "id": "st-mirren",
+  "name": "St. Mirren FC",
+  "league": "Scottish Premiership",
+  "rating": 1413.9,
+  "points": [
+    {
+      "date": "2021-07-31",
+      "rating": 1502.49,
+      "opponent": "Dundee FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2021-08-07",
+      "rating": 1495.65,
+      "opponent": "Heart of Midlothian",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2021-08-21",
+      "rating": 1479.15,
+      "opponent": "Celtic FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2021-08-29",
+      "rating": 1477.07,
+      "opponent": "St Johnstone",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2021-09-11",
+      "rating": 1474.88,
+      "opponent": "Dundee United",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2021-09-18",
+      "rating": 1478.89,
+      "opponent": "Hibernian FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2021-09-26",
+      "rating": 1481.29,
+      "opponent": "Aberdeen FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2021-10-02",
+      "rating": 1487.67,
+      "opponent": "Livingston FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2021-10-16",
+      "rating": 1493.78,
+      "opponent": "Ross County",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2021-10-24",
+      "rating": 1487.83,
+      "opponent": "Rangers FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2021-10-27",
+      "rating": 1490.43,
+      "opponent": "Motherwell FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2021-10-30",
+      "rating": 1482.18,
+      "opponent": "Dundee FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2021-11-06",
+      "rating": 1484.64,
+      "opponent": "St Johnstone",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2021-11-20",
+      "rating": 1482.37,
+      "opponent": "Livingston FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2021-11-27",
+      "rating": 1476.98,
+      "opponent": "Heart of Midlothian",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2021-12-01",
+      "rating": 1474.44,
+      "opponent": "Ross County",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2021-12-04",
+      "rating": 1463.04,
+      "opponent": "Aberdeen FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2021-12-11",
+      "rating": 1461.08,
+      "opponent": "Hibernian FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2021-12-22",
+      "rating": 1462.35,
+      "opponent": "Celtic FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2021-12-26",
+      "rating": 1460.15,
+      "opponent": "Rangers FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2022-01-18",
+      "rating": 1467.07,
+      "opponent": "Dundee United",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2022-01-25",
+      "rating": 1469.96,
+      "opponent": "Aberdeen FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2022-02-01",
+      "rating": 1467.64,
+      "opponent": "Motherwell FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2022-02-05",
+      "rating": 1475.13,
+      "opponent": "Hibernian FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2022-02-09",
+      "rating": 1475.95,
+      "opponent": "St Johnstone",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2022-02-19",
+      "rating": 1478.75,
+      "opponent": "Livingston FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2022-02-26",
+      "rating": 1465.22,
+      "opponent": "Heart of Midlothian",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2022-03-02",
+      "rating": 1462.88,
+      "opponent": "Celtic FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2022-03-05",
+      "rating": 1461.94,
+      "opponent": "Ross County",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2022-03-09",
+      "rating": 1467.65,
+      "opponent": "Dundee FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2022-03-19",
+      "rating": 1461.06,
+      "opponent": "Dundee United",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2022-04-02",
+      "rating": 1452.95,
+      "opponent": "Motherwell FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2022-04-10",
+      "rating": 1437.46,
+      "opponent": "Rangers FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2022-04-23",
+      "rating": 1431.64,
+      "opponent": "Hibernian FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2022-04-30",
+      "rating": 1438.77,
+      "opponent": "St Johnstone",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2022-05-07",
+      "rating": 1445.5,
+      "opponent": "Dundee FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2022-05-11",
+      "rating": 1444.29,
+      "opponent": "Livingston FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2022-05-15",
+      "rating": 1447.76,
+      "opponent": "Aberdeen FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2022-07-01",
+      "rating": 1464.18,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2022-07-31",
+      "rating": 1457.5,
+      "opponent": "Motherwell FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2022-08-06",
+      "rating": 1446.65,
+      "opponent": "Aberdeen FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2022-08-13",
+      "rating": 1449.14,
+      "opponent": "Ross County",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2022-08-20",
+      "rating": 1471.04,
+      "opponent": "Dundee United",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2022-08-27",
+      "rating": 1473.36,
+      "opponent": "Hibernian FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2022-09-03",
+      "rating": 1459.63,
+      "opponent": "St Johnstone",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2022-09-18",
+      "rating": 1475.47,
+      "opponent": "Celtic FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2022-10-01",
+      "rating": 1477.48,
+      "opponent": "Livingston FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2022-10-08",
+      "rating": 1468.39,
+      "opponent": "Rangers FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2022-10-15",
+      "rating": 1464.65,
+      "opponent": "Kilmarnock FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2022-10-22",
+      "rating": 1466.19,
+      "opponent": "Dundee United",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2022-10-29",
+      "rating": 1455.18,
+      "opponent": "Hibernian FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2022-11-05",
+      "rating": 1452.25,
+      "opponent": "Ross County",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2022-11-09",
+      "rating": 1450.17,
+      "opponent": "St Johnstone",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2022-11-12",
+      "rating": 1450.81,
+      "opponent": "Rangers FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2022-12-24",
+      "rating": 1460.25,
+      "opponent": "Aberdeen FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2022-12-28",
+      "rating": 1462.75,
+      "opponent": "Livingston FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2023-01-02",
+      "rating": 1463.85,
+      "opponent": "Kilmarnock FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2023-01-07",
+      "rating": 1462.3,
+      "opponent": "Heart of Midlothian",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2023-01-13",
+      "rating": 1461.45,
+      "opponent": "Heart of Midlothian",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2023-01-18",
+      "rating": 1454.88,
+      "opponent": "Celtic FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2023-01-28",
+      "rating": 1456.66,
+      "opponent": "Motherwell FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2023-02-01",
+      "rating": 1471.24,
+      "opponent": "Aberdeen FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2023-02-04",
+      "rating": 1464.55,
+      "opponent": "Hibernian FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2023-02-15",
+      "rating": 1461.56,
+      "opponent": "Motherwell FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2023-02-18",
+      "rating": 1462.49,
+      "opponent": "Ross County",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2023-02-25",
+      "rating": 1464.4,
+      "opponent": "St Johnstone",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2023-03-05",
+      "rating": 1451.95,
+      "opponent": "Celtic FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2023-03-18",
+      "rating": 1453.31,
+      "opponent": "Dundee United",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2023-04-01",
+      "rating": 1464.73,
+      "opponent": "Livingston FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2023-04-08",
+      "rating": 1480.45,
+      "opponent": "Heart of Midlothian",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2023-04-15",
+      "rating": 1475.26,
+      "opponent": "Rangers FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2023-04-22",
+      "rating": 1456.67,
+      "opponent": "Kilmarnock FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2023-05-06",
+      "rating": 1455.28,
+      "opponent": "Hibernian FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2023-05-13",
+      "rating": 1453.31,
+      "opponent": "Heart of Midlothian",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2023-05-20",
+      "rating": 1460.92,
+      "opponent": "Celtic FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2023-05-24",
+      "rating": 1450.63,
+      "opponent": "Aberdeen FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2023-05-27",
+      "rating": 1439.94,
+      "opponent": "Rangers FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2023-07-01",
+      "rating": 1453.5,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2023-08-06",
+      "rating": 1461.26,
+      "opponent": "Hibernian FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2023-08-12",
+      "rating": 1461.96,
+      "opponent": "Dundee FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2023-08-27",
+      "rating": 1460.05,
+      "opponent": "Aberdeen FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2023-09-02",
+      "rating": 1461.55,
+      "opponent": "Livingston FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2023-09-16",
+      "rating": 1469.43,
+      "opponent": "Motherwell FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2023-09-23",
+      "rating": 1471.8,
+      "opponent": "Heart of Midlothian",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2023-09-30",
+      "rating": 1473.65,
+      "opponent": "Kilmarnock FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2023-10-08",
+      "rating": 1458.45,
+      "opponent": "Rangers FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2023-10-28",
+      "rating": 1470.51,
+      "opponent": "St Johnstone",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2023-11-01",
+      "rating": 1472.57,
+      "opponent": "Celtic FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2023-11-08",
+      "rating": 1470.2,
+      "opponent": "Hibernian FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2023-11-11",
+      "rating": 1452.99,
+      "opponent": "Dundee FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2023-11-25",
+      "rating": 1453.38,
+      "opponent": "Livingston FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2023-11-28",
+      "rating": 1450.61,
+      "opponent": "Ross County",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2023-12-03",
+      "rating": 1449.19,
+      "opponent": "Rangers FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2023-12-06",
+      "rating": 1445.85,
+      "opponent": "St Johnstone",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2023-12-09",
+      "rating": 1453.1,
+      "opponent": "Ross County",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2023-12-16",
+      "rating": 1450.15,
+      "opponent": "Motherwell FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2023-12-23",
+      "rating": 1444.87,
+      "opponent": "Heart of Midlothian",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2023-12-27",
+      "rating": 1438.8,
+      "opponent": "Kilmarnock FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2023-12-30",
+      "rating": 1461.77,
+      "opponent": "Aberdeen FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2024-01-02",
+      "rating": 1449.15,
+      "opponent": "Celtic FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2024-01-27",
+      "rating": 1448.14,
+      "opponent": "Rangers FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2024-02-03",
+      "rating": 1469.8,
+      "opponent": "Hibernian FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2024-02-07",
+      "rating": 1476.54,
+      "opponent": "Dundee FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2024-02-17",
+      "rating": 1471.27,
+      "opponent": "Livingston FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2024-02-24",
+      "rating": 1475.98,
+      "opponent": "St Johnstone",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2024-02-27",
+      "rating": 1475.84,
+      "opponent": "Ross County",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2024-03-02",
+      "rating": 1476.76,
+      "opponent": "Aberdeen FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2024-03-16",
+      "rating": 1465.06,
+      "opponent": "Kilmarnock FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2024-03-30",
+      "rating": 1467.51,
+      "opponent": "Motherwell FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2024-04-06",
+      "rating": 1462.28,
+      "opponent": "Heart of Midlothian",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2024-04-13",
+      "rating": 1457.6,
+      "opponent": "Celtic FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2024-04-28",
+      "rating": 1456.02,
+      "opponent": "Rangers FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2024-05-04",
+      "rating": 1470.56,
+      "opponent": "Dundee FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2024-05-11",
+      "rating": 1464.61,
+      "opponent": "Kilmarnock FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2024-05-15",
+      "rating": 1464.09,
+      "opponent": "Heart of Midlothian",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2024-05-18",
+      "rating": 1466.99,
+      "opponent": "Celtic FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2024-07-01",
+      "rating": 1470.27,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2024-07-25",
+      "rating": 1474.24,
+      "opponent": "Valur Reykjav\u00edk",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-01",
+      "rating": 1488.55,
+      "opponent": "Valur Reykjav\u00edk",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-04",
+      "rating": 1499.21,
+      "opponent": "Hibernian FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-08",
+      "rating": 1496.85,
+      "opponent": "SK Brann",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-11",
+      "rating": 1488.79,
+      "opponent": "Aberdeen FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-15",
+      "rating": 1482.03,
+      "opponent": "SK Brann",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-25",
+      "rating": 1468.48,
+      "opponent": "Celtic FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-31",
+      "rating": 1470.51,
+      "opponent": "Dundee FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2024-09-14",
+      "rating": 1467.27,
+      "opponent": "Kilmarnock FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2024-09-21",
+      "rating": 1469.31,
+      "opponent": "Heart of Midlothian",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2024-09-28",
+      "rating": 1467.77,
+      "opponent": "Motherwell FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2024-10-05",
+      "rating": 1459.38,
+      "opponent": "Dundee United",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2024-10-19",
+      "rating": 1445.66,
+      "opponent": "Heart of Midlothian",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2024-10-27",
+      "rating": 1446.98,
+      "opponent": "Rangers FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2024-10-30",
+      "rating": 1453.56,
+      "opponent": "St Johnstone",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2024-11-02",
+      "rating": 1449.59,
+      "opponent": "Ross County",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2024-11-09",
+      "rating": 1456.17,
+      "opponent": "Hibernian FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2024-11-23",
+      "rating": 1460.19,
+      "opponent": "Aberdeen FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2024-11-30",
+      "rating": 1451.73,
+      "opponent": "Dundee United",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2024-12-07",
+      "rating": 1444.35,
+      "opponent": "Motherwell FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2024-12-14",
+      "rating": 1450.45,
+      "opponent": "St Johnstone",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2024-12-21",
+      "rating": 1455.08,
+      "opponent": "Ross County",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2024-12-26",
+      "rating": 1461.27,
+      "opponent": "Rangers FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2024-12-29",
+      "rating": 1453.36,
+      "opponent": "Dundee FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2025-01-02",
+      "rating": 1446.14,
+      "opponent": "Kilmarnock FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2025-01-05",
+      "rating": 1443.1,
+      "opponent": "Celtic FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2025-01-11",
+      "rating": 1436.64,
+      "opponent": "Dundee United",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2025-01-25",
+      "rating": 1458.06,
+      "opponent": "Aberdeen FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2025-02-01",
+      "rating": 1449.41,
+      "opponent": "St Johnstone",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2025-02-16",
+      "rating": 1448.1,
+      "opponent": "Hibernian FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2025-02-22",
+      "rating": 1469.72,
+      "opponent": "Rangers FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2025-02-26",
+      "rating": 1463.03,
+      "opponent": "Heart of Midlothian",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2025-03-01",
+      "rating": 1452.97,
+      "opponent": "Celtic FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2025-03-15",
+      "rating": 1454.56,
+      "opponent": "Motherwell FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2025-03-29",
+      "rating": 1468.69,
+      "opponent": "Kilmarnock FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2025-04-05",
+      "rating": 1458.57,
+      "opponent": "Dundee FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2025-04-12",
+      "rating": 1459.1,
+      "opponent": "Ross County",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2025-04-26",
+      "rating": 1460.67,
+      "opponent": "Rangers FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2025-05-03",
+      "rating": 1462.29,
+      "opponent": "Aberdeen FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2025-05-10",
+      "rating": 1475.44,
+      "opponent": "Dundee United",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2025-05-14",
+      "rating": 1475.0,
+      "opponent": "Hibernian FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2025-05-17",
+      "rating": 1482.55,
+      "opponent": "Celtic FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-01",
+      "rating": 1479.81,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2025-08-03",
+      "rating": 1481.44,
+      "opponent": "Celtic FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-09",
+      "rating": 1477.75,
+      "opponent": "Motherwell FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-24",
+      "rating": 1477.55,
+      "opponent": "Rangers FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-31",
+      "rating": 1480.94,
+      "opponent": "Hibernian FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2025-09-13",
+      "rating": 1485.65,
+      "opponent": "Falkirk FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2025-09-27",
+      "rating": 1485.92,
+      "opponent": "Dundee FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2025-10-04",
+      "rating": 1477.41,
+      "opponent": "Kilmarnock FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2025-10-18",
+      "rating": 1468.95,
+      "opponent": "Aberdeen FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2025-10-25",
+      "rating": 1461.17,
+      "opponent": "Dundee United",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2025-10-29",
+      "rating": 1461.6,
+      "opponent": "Heart of Midlothian",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2025-11-08",
+      "rating": 1443.61,
+      "opponent": "Hibernian FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2025-11-22",
+      "rating": 1441.54,
+      "opponent": "Celtic FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2025-11-29",
+      "rating": 1432.25,
+      "opponent": "Dundee FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2025-12-03",
+      "rating": 1435.05,
+      "opponent": "Aberdeen FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2025-12-06",
+      "rating": 1443.08,
+      "opponent": "Dundee United",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2025-12-20",
+      "rating": 1443.45,
+      "opponent": "Livingston FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2025-12-27",
+      "rating": 1439.62,
+      "opponent": "Kilmarnock FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2025-12-30",
+      "rating": 1440.81,
+      "opponent": "Rangers FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2026-01-03",
+      "rating": 1436.11,
+      "opponent": "Motherwell FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2026-01-10",
+      "rating": 1420.83,
+      "opponent": "Falkirk FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2026-01-14",
+      "rating": 1418.84,
+      "opponent": "Heart of Midlothian",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2026-01-20",
+      "rating": 1419.95,
+      "opponent": "Livingston FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2026-01-31",
+      "rating": 1417.17,
+      "opponent": "Dundee FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2026-02-03",
+      "rating": 1423.94,
+      "opponent": "Heart of Midlothian",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2026-02-11",
+      "rating": 1421.16,
+      "opponent": "Kilmarnock FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2026-02-14",
+      "rating": 1417.67,
+      "opponent": "Hibernian FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2026-02-21",
+      "rating": 1398.59,
+      "opponent": "Motherwell FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2026-02-28",
+      "rating": 1399.98,
+      "opponent": "Livingston FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2026-03-03",
+      "rating": 1398.93,
+      "opponent": "Dundee United",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2026-03-15",
+      "rating": 1397.97,
+      "opponent": "Rangers FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2026-03-21",
+      "rating": 1406.74,
+      "opponent": "Falkirk FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2026-04-04",
+      "rating": 1414.59,
+      "opponent": "Aberdeen FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2026-04-11",
+      "rating": 1416.74,
+      "opponent": "Celtic FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2026-04-25",
+      "rating": 1399.53,
+      "opponent": "Livingston FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2026-05-02",
+      "rating": 1398.01,
+      "opponent": "Dundee FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2026-05-09",
+      "rating": 1377.81,
+      "opponent": "Kilmarnock FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2026-05-12",
+      "rating": 1395.06,
+      "opponent": "Aberdeen FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2026-05-17",
+      "rating": 1393.52,
+      "opponent": "Dundee United",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2026-07-01",
+      "rating": 1420.28,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2026-08-01",
+      "rating": 1433.57,
+      "opponent": "Falkirk FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2026-08-08",
+      "rating": 1432.79,
+      "opponent": "St Johnstone",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2026-08-30",
+      "rating": 1433.23,
+      "opponent": "Motherwell FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2026-09-02",
+      "rating": 1438.79,
+      "opponent": "Kilmarnock FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2026-09-05",
+      "rating": 1435.9,
+      "opponent": "Celtic FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2026-09-09",
+      "rating": 1437.21,
+      "opponent": "Rangers FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2026-09-19",
+      "rating": 1422.37,
+      "opponent": "Dundee United",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-10",
+      "rating": 1413.88,
+      "opponent": "Heart of Midlothian",
+      "competition_id": "SC0",
+      "event": "match"
+    }
+  ]
+}

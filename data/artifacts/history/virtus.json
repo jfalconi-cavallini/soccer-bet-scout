@@ -1,0 +1,92 @@
+{
+  "id": "virtus",
+  "name": "SS Virtus",
+  "league": null,
+  "rating": 1468.2,
+  "points": [
+    {
+      "date": "2024-07-09",
+      "rating": 1469.98,
+      "opponent": "FCSB",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2024-07-16",
+      "rating": 1457.29,
+      "opponent": "FCSB",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2024-07-23",
+      "rating": 1455.19,
+      "opponent": "FC Flora",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-07-30",
+      "rating": 1453.86,
+      "opponent": "FC Flora",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-01",
+      "rating": 1469.24,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2025-07-08",
+      "rating": 1455.04,
+      "opponent": "Zrinjski Mostar",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-15",
+      "rating": 1454.51,
+      "opponent": "Zrinjski Mostar",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-07",
+      "rating": 1454.09,
+      "opponent": "FC Milsami",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-14",
+      "rating": 1468.75,
+      "opponent": "FC Milsami",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-21",
+      "rating": 1466.97,
+      "opponent": "Brei\u00f0ablik",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-28",
+      "rating": 1452.23,
+      "opponent": "Brei\u00f0ablik",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2026-07-01",
+      "rating": 1468.15,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "deportivo",
+  "name": "RC Deportivo La Coru\u00f1a",
+  "league": "La Liga",
+  "rating": 1495.5,
+  "points": [
+    {
+      "date": "2026-07-01",
+      "rating": 1488.62,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2026-08-17",
+      "rating": 1484.02,
+      "opponent": "Elche CF",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-08-24",
+      "rating": 1484.74,
+      "opponent": "M\u00e1laga CF",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-08-30",
+      "rating": 1488.61,
+      "opponent": "Valencia CF",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-09-05",
+      "rating": 1494.46,
+      "opponent": "Villarreal CF",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-09-13",
+      "rating": 1497.32,
+      "opponent": "Getafe CF",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-09-16",
+      "rating": 1491.28,
+      "opponent": "Sevilla FC",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-09-20",
+      "rating": 1493.23,
+      "opponent": "Real Betis Balompi\u00e9",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-11",
+      "rating": 1495.48,
+      "opponent": "Real Sociedad de F\u00fatbol",
+      "competition_id": "SP1",
+      "event": "match"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "kosice",
+  "name": "FC Ko\u0161ice",
+  "league": null,
+  "rating": 1497.6,
+  "points": [
+    {
+      "date": "2025-07-24",
+      "rating": 1493.32,
+      "opponent": "Neman Grodno",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-31",
+      "rating": 1496.35,
+      "opponent": "Neman Grodno",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2026-07-01",
+      "rating": 1497.57,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    }
+  ]
+}

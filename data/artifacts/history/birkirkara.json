@@ -1,0 +1,29 @@
+{
+  "id": "birkirkara",
+  "name": "Birkirkara FC",
+  "league": null,
+  "rating": 1491.2,
+  "points": [
+    {
+      "date": "2025-07-10",
+      "rating": 1500.77,
+      "opponent": "CS Petrocub",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-17",
+      "rating": 1486.75,
+      "opponent": "CS Petrocub",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2026-07-01",
+      "rating": 1491.16,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    }
+  ]
+}

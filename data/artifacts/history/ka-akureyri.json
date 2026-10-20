@@ -1,0 +1,29 @@
+{
+  "id": "ka-akureyri",
+  "name": "KA Akureyri",
+  "league": null,
+  "rating": 1503.0,
+  "points": [
+    {
+      "date": "2025-07-23",
+      "rating": 1502.65,
+      "opponent": "Silkeborg IF",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-31",
+      "rating": 1504.51,
+      "opponent": "Silkeborg IF",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2026-07-01",
+      "rating": 1503.01,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    }
+  ]
+}

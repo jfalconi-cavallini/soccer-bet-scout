@@ -1,0 +1,71 @@
+{
+  "id": "malaga",
+  "name": "M\u00e1laga CF",
+  "league": "La Liga",
+  "rating": 1467.4,
+  "points": [
+    {
+      "date": "2026-07-01",
+      "rating": 1488.62,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2026-08-19",
+      "rating": 1487.96,
+      "opponent": "Club Atl\u00e9tico de Madrid",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-08-24",
+      "rating": 1487.25,
+      "opponent": "RC Deportivo La Coru\u00f1a",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-08-30",
+      "rating": 1483.2,
+      "opponent": "Real Madrid CF",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-09-06",
+      "rating": 1482.66,
+      "opponent": "Levante UD",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-09-13",
+      "rating": 1482.96,
+      "opponent": "RC Celta de Vigo",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-09-17",
+      "rating": 1469.87,
+      "opponent": "Villarreal CF",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-09-20",
+      "rating": 1469.99,
+      "opponent": "Getafe CF",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-09",
+      "rating": 1467.4,
+      "opponent": "RCD Espanyol de Barcelona",
+      "competition_id": "SP1",
+      "event": "match"
+    }
+  ]
+}

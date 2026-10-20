@@ -1,0 +1,29 @@
+{
+  "id": "novi-pazar",
+  "name": "FK Novi Pazar",
+  "league": null,
+  "rating": 1491.6,
+  "points": [
+    {
+      "date": "2025-07-24",
+      "rating": 1493.68,
+      "opponent": "Jagiellonia Bia\u0142ystok",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-31",
+      "rating": 1487.44,
+      "opponent": "Jagiellonia Bia\u0142ystok",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2026-07-01",
+      "rating": 1491.63,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "rosenborg",
+  "name": "Rosenborg BK",
+  "league": null,
+  "rating": 1515.8,
+  "points": [
+    {
+      "date": "2025-07-24",
+      "rating": 1516.35,
+      "opponent": "Banga Garg\u017edai",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-31",
+      "rating": 1529.84,
+      "opponent": "Banga Garg\u017edai",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-07",
+      "rating": 1526.63,
+      "opponent": "Hammarby IF",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-14",
+      "rating": 1532.9,
+      "opponent": "Hammarby IF",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-21",
+      "rating": 1535.34,
+      "opponent": "1. FSV Mainz 05",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-28",
+      "rating": 1523.63,
+      "opponent": "1. FSV Mainz 05",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2026-07-01",
+      "rating": 1515.75,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    }
+  ]
+}

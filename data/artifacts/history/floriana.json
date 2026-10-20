@@ -1,0 +1,78 @@
+{
+  "id": "floriana",
+  "name": "Floriana FC",
+  "league": null,
+  "rating": 1495.0,
+  "points": [
+    {
+      "date": "2024-07-11",
+      "rating": 1507.52,
+      "opponent": "SP Tre Penne",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-07-18",
+      "rating": 1509.56,
+      "opponent": "SP Tre Penne",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-07-25",
+      "rating": 1503.12,
+      "opponent": "Vit\u00f3ria Guimar\u00e3es",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-01",
+      "rating": 1490.01,
+      "opponent": "Vit\u00f3ria Guimar\u00e3es",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-01",
+      "rating": 1493.34,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2025-07-08",
+      "rating": 1495.39,
+      "opponent": "Haverfordwest County",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-17",
+      "rating": 1502.29,
+      "opponent": "Haverfordwest County",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-22",
+      "rating": 1494.63,
+      "opponent": "KF Ballkani",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-31",
+      "rating": 1492.52,
+      "opponent": "KF Ballkani",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2026-07-01",
+      "rating": 1495.01,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "valur-reykjavik",
+  "name": "Valur Reykjav\u00edk",
+  "league": null,
+  "rating": 1509.2,
+  "points": [
+    {
+      "date": "2024-07-11",
+      "rating": 1497.51,
+      "opponent": "FK Vllaznia",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-07-18",
+      "rating": 1521.66,
+      "opponent": "FK Vllaznia",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-07-25",
+      "rating": 1517.69,
+      "opponent": "St. Mirren FC",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-01",
+      "rating": 1503.38,
+      "opponent": "St. Mirren FC",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-01",
+      "rating": 1502.25,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2025-07-10",
+      "rating": 1513.11,
+      "opponent": "FC Flora",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-17",
+      "rating": 1518.6,
+      "opponent": "FC Flora",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-24",
+      "rating": 1520.95,
+      "opponent": "Kauno \u017dalgiris",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-31",
+      "rating": 1513.84,
+      "opponent": "Kauno \u017dalgiris",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2026-07-01",
+      "rating": 1509.22,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    }
+  ]
+}

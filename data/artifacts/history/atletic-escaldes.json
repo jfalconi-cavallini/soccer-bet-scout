@@ -1,0 +1,64 @@
+{
+  "id": "atletic-escaldes",
+  "name": "Atl\u00e9tic Escaldes",
+  "league": null,
+  "rating": 1497.0,
+  "points": [
+    {
+      "date": "2024-07-11",
+      "rating": 1493.18,
+      "opponent": "F91 Dudelange",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-07-18",
+      "rating": 1486.26,
+      "opponent": "F91 Dudelange",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-01",
+      "rating": 1490.84,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2025-07-10",
+      "rating": 1497.92,
+      "opponent": "F91 Dudelange",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-17",
+      "rating": 1504.01,
+      "opponent": "F91 Dudelange",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-24",
+      "rating": 1497.07,
+      "opponent": "FC Dinamo City",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-31",
+      "rating": 1495.52,
+      "opponent": "FC Dinamo City",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2026-07-01",
+      "rating": 1497.01,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    }
+  ]
+}

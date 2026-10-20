@@ -1,0 +1,43 @@
+{
+  "id": "hammarby",
+  "name": "Hammarby IF",
+  "league": null,
+  "rating": 1501.5,
+  "points": [
+    {
+      "date": "2025-07-24",
+      "rating": 1497.92,
+      "opponent": "Sporting Charleroi",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-31",
+      "rating": 1505.29,
+      "opponent": "Sporting Charleroi",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-07",
+      "rating": 1508.5,
+      "opponent": "Rosenborg BK",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-14",
+      "rating": 1502.23,
+      "opponent": "Rosenborg BK",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2026-07-01",
+      "rating": 1501.48,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    }
+  ]
+}

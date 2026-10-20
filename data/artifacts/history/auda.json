@@ -1,0 +1,78 @@
+{
+  "id": "auda",
+  "name": "FK Auda",
+  "league": null,
+  "rating": 1513.6,
+  "points": [
+    {
+      "date": "2024-07-10",
+      "rating": 1507.52,
+      "opponent": "B36 T\u00f3rshavn",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-07-17",
+      "rating": 1513.89,
+      "opponent": "B36 T\u00f3rshavn",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-07-24",
+      "rating": 1520.3,
+      "opponent": "Cliftonville FC",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-07-31",
+      "rating": 1526.64,
+      "opponent": "Cliftonville FC",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-08",
+      "rating": 1527.9,
+      "opponent": "Drita Gjilan",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-15",
+      "rating": 1529.72,
+      "opponent": "Drita Gjilan",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-01",
+      "rating": 1519.81,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2025-07-10",
+      "rating": 1520.39,
+      "opponent": "Larne FC",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-16",
+      "rating": 1520.44,
+      "opponent": "Larne FC",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2026-07-01",
+      "rating": 1513.62,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    }
+  ]
+}

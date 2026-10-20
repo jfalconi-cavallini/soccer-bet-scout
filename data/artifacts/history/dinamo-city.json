@@ -1,0 +1,57 @@
+{
+  "id": "dinamo-city",
+  "name": "FC Dinamo City",
+  "league": null,
+  "rating": 1497.7,
+  "points": [
+    {
+      "date": "2025-07-24",
+      "rating": 1506.94,
+      "opponent": "Atl\u00e9tic Escaldes",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-31",
+      "rating": 1508.5,
+      "opponent": "Atl\u00e9tic Escaldes",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-07",
+      "rating": 1506.61,
+      "opponent": "Hajduk Split",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-14",
+      "rating": 1508.52,
+      "opponent": "Hajduk Split",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-21",
+      "rating": 1497.74,
+      "opponent": "Jagiellonia Bia\u0142ystok",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-28",
+      "rating": 1496.62,
+      "opponent": "Jagiellonia Bia\u0142ystok",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2026-07-01",
+      "rating": 1497.74,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    }
+  ]
+}

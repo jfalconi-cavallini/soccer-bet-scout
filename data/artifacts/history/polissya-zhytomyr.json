@@ -1,0 +1,78 @@
+{
+  "id": "polissya-zhytomyr",
+  "name": "Polissya Zhytomyr",
+  "league": null,
+  "rating": 1498.5,
+  "points": [
+    {
+      "date": "2024-07-25",
+      "rating": 1491.97,
+      "opponent": "Olimpija Ljubljana",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-01",
+      "rating": 1485.3,
+      "opponent": "Olimpija Ljubljana",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-01",
+      "rating": 1490.2,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2025-07-24",
+      "rating": 1483.78,
+      "opponent": "FC Santa Coloma",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-31",
+      "rating": 1505.83,
+      "opponent": "FC Santa Coloma",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-07",
+      "rating": 1517.41,
+      "opponent": "Paksi SE",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-14",
+      "rating": 1514.63,
+      "opponent": "Paksi SE",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-21",
+      "rating": 1497.09,
+      "opponent": "ACF Fiorentina",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-28",
+      "rating": 1497.82,
+      "opponent": "ACF Fiorentina",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2026-07-01",
+      "rating": 1498.55,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "id": "shelbourne",
+  "name": "Shelbourne FC",
+  "league": null,
+  "rating": 1494.5,
+  "points": [
+    {
+      "date": "2024-07-11",
+      "rating": 1501.85,
+      "opponent": "St. Joseph's FC",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-07-18",
+      "rating": 1504.22,
+      "opponent": "St. Joseph's FC",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-07-25",
+      "rating": 1491.42,
+      "opponent": "FC Z\u00fcrich",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-01",
+      "rating": 1489.23,
+      "opponent": "FC Z\u00fcrich",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-01",
+      "rating": 1492.82,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2025-07-09",
+      "rating": 1494.77,
+      "opponent": "Linfield FC",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-16",
+      "rating": 1497.26,
+      "opponent": "Linfield FC",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-23",
+      "rating": 1475.59,
+      "opponent": "Qaraba\u011f A\u011fdam FK",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-30",
+      "rating": 1474.46,
+      "opponent": "Qaraba\u011f A\u011fdam FK",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-06",
+      "rating": 1481.57,
+      "opponent": "HNK Rijeka",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-12",
+      "rating": 1466.38,
+      "opponent": "HNK Rijeka",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-21",
+      "rating": 1475.76,
+      "opponent": "Linfield FC",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-28",
+      "rating": 1491.7,
+      "opponent": "Linfield FC",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2026-07-01",
+      "rating": 1494.47,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    }
+  ]
+}

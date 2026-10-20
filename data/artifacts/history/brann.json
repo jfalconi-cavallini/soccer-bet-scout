@@ -1,0 +1,106 @@
+{
+  "id": "brann",
+  "name": "SK Brann",
+  "league": null,
+  "rating": 1515.9,
+  "points": [
+    {
+      "date": "2024-07-25",
+      "rating": 1502.15,
+      "opponent": "Go Ahead Eagles",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-01",
+      "rating": 1503.54,
+      "opponent": "Go Ahead Eagles",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-08",
+      "rating": 1505.9,
+      "opponent": "St. Mirren FC",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-15",
+      "rating": 1512.66,
+      "opponent": "St. Mirren FC",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-22",
+      "rating": 1519.74,
+      "opponent": "FK Astana",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-29",
+      "rating": 1506.47,
+      "opponent": "FK Astana",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-01",
+      "rating": 1504.32,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2025-07-23",
+      "rating": 1484.68,
+      "opponent": "FC Red Bull Salzburg",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-30",
+      "rating": 1488.86,
+      "opponent": "FC Red Bull Salzburg",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-07",
+      "rating": 1505.11,
+      "opponent": "BK H\u00e4cken",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-14",
+      "rating": 1498.16,
+      "opponent": "BK H\u00e4cken",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-21",
+      "rating": 1500.09,
+      "opponent": "AEK Larnaca",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-27",
+      "rating": 1523.9,
+      "opponent": "AEK Larnaca",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2026-07-01",
+      "rating": 1515.93,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    }
+  ]
+}

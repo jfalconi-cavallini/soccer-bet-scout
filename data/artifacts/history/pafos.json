@@ -1,0 +1,57 @@
+{
+  "id": "pafos",
+  "name": "Pafos FC",
+  "league": null,
+  "rating": 1516.5,
+  "points": [
+    {
+      "date": "2025-07-22",
+      "rating": 1498.21,
+      "opponent": "Maccabi Tel Aviv",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-30",
+      "rating": 1505.81,
+      "opponent": "Maccabi Tel Aviv",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-05",
+      "rating": 1512.93,
+      "opponent": "Dinamo Kiev",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-12",
+      "rating": 1520.26,
+      "opponent": "Dinamo Kiev",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-19",
+      "rating": 1527.37,
+      "opponent": "FK Crvena Zvezda",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-26",
+      "rating": 1524.74,
+      "opponent": "FK Crvena Zvezda",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2026-07-01",
+      "rating": 1516.5,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    }
+  ]
+}

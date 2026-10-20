@@ -1,0 +1,281 @@
+{
+  "id": "malmo-ff",
+  "name": "Malm\u00f6 FF",
+  "league": null,
+  "rating": 1519.4,
+  "points": [
+    {
+      "date": "2021-09-14",
+      "rating": 1478.99,
+      "opponent": "Juventus FC",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2021-09-29",
+      "rating": 1465.58,
+      "opponent": "Zenit St. Petersburg",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2021-10-20",
+      "rating": 1455.9,
+      "opponent": "Chelsea FC",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2021-11-02",
+      "rating": 1453.4,
+      "opponent": "Chelsea FC",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2021-11-23",
+      "rating": 1452.35,
+      "opponent": "Zenit St. Petersburg",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2021-12-08",
+      "rating": 1453.14,
+      "opponent": "Juventus FC",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2022-07-01",
+      "rating": 1468.76,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2022-09-08",
+      "rating": 1459.41,
+      "opponent": "Sporting Clube de Braga",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2022-09-15",
+      "rating": 1460.64,
+      "opponent": "Royale Union Saint-Gilloise",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2022-10-06",
+      "rating": 1456.64,
+      "opponent": "1. FC Union Berlin",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2022-10-13",
+      "rating": 1457.6,
+      "opponent": "1. FC Union Berlin",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2022-10-27",
+      "rating": 1449.83,
+      "opponent": "Royale Union Saint-Gilloise",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2022-11-03",
+      "rating": 1451.64,
+      "opponent": "Sporting Clube de Braga",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2023-07-01",
+      "rating": 1467.76,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2024-07-01",
+      "rating": 1478.51,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2024-07-23",
+      "rating": 1491.7,
+      "opponent": "K\u00cd Klaksv\u00edk",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2024-07-30",
+      "rating": 1489.74,
+      "opponent": "K\u00cd Klaksv\u00edk",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-06",
+      "rating": 1490.62,
+      "opponent": "PAOK Saloniki",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-13",
+      "rating": 1491.67,
+      "opponent": "PAOK Saloniki",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-21",
+      "rating": 1478.55,
+      "opponent": "AC Sparta Praha",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-27",
+      "rating": 1473.87,
+      "opponent": "AC Sparta Praha",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2024-09-26",
+      "rating": 1463.22,
+      "opponent": "Rangers FC",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2024-10-03",
+      "rating": 1471.36,
+      "opponent": "Qaraba\u011f A\u011fdam FK",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2024-10-24",
+      "rating": 1468.38,
+      "opponent": "Olympiakos Piraeus",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2024-11-06",
+      "rating": 1468.34,
+      "opponent": "Besiktas",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2024-11-28",
+      "rating": 1459.71,
+      "opponent": "Ferencv\u00e1rosi TC",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2024-12-12",
+      "rating": 1462.97,
+      "opponent": "Galatasaray SK",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2025-01-23",
+      "rating": 1459.42,
+      "opponent": "FC Twente '65",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2025-01-30",
+      "rating": 1464.09,
+      "opponent": "SK Slavia Praha",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-01",
+      "rating": 1476.06,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2025-07-08",
+      "rating": 1492.14,
+      "opponent": "FC Iberia 1999",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-15",
+      "rating": 1499.32,
+      "opponent": "FC Iberia 1999",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-22",
+      "rating": 1520.65,
+      "opponent": "FK RFS",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-30",
+      "rating": 1521.61,
+      "opponent": "FK RFS",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-05",
+      "rating": 1519.32,
+      "opponent": "FC K\u00f8benhavn",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-12",
+      "rating": 1503.63,
+      "opponent": "FC K\u00f8benhavn",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-21",
+      "rating": 1515.41,
+      "opponent": "Sigma Olomouc",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-28",
+      "rating": 1529.16,
+      "opponent": "Sigma Olomouc",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2026-07-01",
+      "rating": 1519.44,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    }
+  ]
+}

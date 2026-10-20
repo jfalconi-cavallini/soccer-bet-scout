@@ -1,0 +1,43 @@
+{
+  "id": "jk-nomme-kalju",
+  "name": "JK N\u00f5mme Kalju",
+  "league": null,
+  "rating": 1501.0,
+  "points": [
+    {
+      "date": "2025-07-10",
+      "rating": 1497.4,
+      "opponent": "FK Partizani",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-17",
+      "rating": 1499.94,
+      "opponent": "FK Partizani",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-24",
+      "rating": 1498.83,
+      "opponent": "St Patrick's Athletic",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-31",
+      "rating": 1501.5,
+      "opponent": "St Patrick's Athletic",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2026-07-01",
+      "rating": 1501.0,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    }
+  ]
+}

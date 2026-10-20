@@ -1,0 +1,253 @@
+{
+  "id": "partizan",
+  "name": "Partizan",
+  "league": null,
+  "rating": 1503.5,
+  "points": [
+    {
+      "date": "2021-09-16",
+      "rating": 1514.99,
+      "opponent": "Anorthosis Famagusta",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2021-09-30",
+      "rating": 1521.56,
+      "opponent": "FC Flora",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2021-10-21",
+      "rating": 1515.08,
+      "opponent": "KAA Gent",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2021-11-04",
+      "rating": 1518.37,
+      "opponent": "KAA Gent",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2021-11-25",
+      "rating": 1515.54,
+      "opponent": "FC Flora",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2021-12-09",
+      "rating": 1512.11,
+      "opponent": "Anorthosis Famagusta",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2022-02-17",
+      "rating": 1518.3,
+      "opponent": "AC Sparta Praha",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2022-02-24",
+      "rating": 1519.17,
+      "opponent": "AC Sparta Praha",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2022-03-10",
+      "rating": 1503.28,
+      "opponent": "Feyenoord Rotterdam",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2022-03-17",
+      "rating": 1500.63,
+      "opponent": "Feyenoord Rotterdam",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2022-07-01",
+      "rating": 1500.42,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2022-09-08",
+      "rating": 1502.9,
+      "opponent": "1. FC Slov\u00e1cko",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2022-09-15",
+      "rating": 1500.39,
+      "opponent": "OGC Nice",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2022-10-06",
+      "rating": 1508.35,
+      "opponent": "1. FC K\u00f6ln",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2022-10-13",
+      "rating": 1516.34,
+      "opponent": "1. FC K\u00f6ln",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2022-10-27",
+      "rating": 1513.86,
+      "opponent": "OGC Nice",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2022-11-03",
+      "rating": 1510.54,
+      "opponent": "1. FC Slov\u00e1cko",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2023-02-16",
+      "rating": 1516.05,
+      "opponent": "FC Sheriff",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2023-02-23",
+      "rating": 1498.73,
+      "opponent": "FC Sheriff",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2023-07-01",
+      "rating": 1499.16,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2024-07-01",
+      "rating": 1499.44,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2024-07-23",
+      "rating": 1484.19,
+      "opponent": "Dinamo Kiev",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2024-07-31",
+      "rating": 1464.47,
+      "opponent": "Dinamo Kiev",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-08",
+      "rating": 1458.04,
+      "opponent": "FC Lugano",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-15",
+      "rating": 1465.62,
+      "opponent": "FC Lugano",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-22",
+      "rating": 1462.57,
+      "opponent": "KAA Gent",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-28",
+      "rating": 1464.1,
+      "opponent": "KAA Gent",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-01",
+      "rating": 1476.07,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2025-07-10",
+      "rating": 1474.21,
+      "opponent": "AEK Larnaca",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-17",
+      "rating": 1471.82,
+      "opponent": "AEK Larnaca",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-24",
+      "rating": 1488.06,
+      "opponent": "FK Oleksandriya",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-31",
+      "rating": 1502.35,
+      "opponent": "FK Oleksandriya",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-07",
+      "rating": 1488.31,
+      "opponent": "Hibernian FC",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-14",
+      "rating": 1505.2,
+      "opponent": "Hibernian FC",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2026-07-01",
+      "rating": 1503.47,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    }
+  ]
+}

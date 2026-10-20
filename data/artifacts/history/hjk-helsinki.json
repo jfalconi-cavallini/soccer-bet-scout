@@ -1,0 +1,281 @@
+{
+  "id": "hjk-helsinki",
+  "name": "HJK Helsinki",
+  "league": null,
+  "rating": 1470.9,
+  "points": [
+    {
+      "date": "2021-09-16",
+      "rating": 1483.79,
+      "opponent": "LASK",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2021-09-30",
+      "rating": 1498.97,
+      "opponent": "FC Alashkert",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2021-10-21",
+      "rating": 1473.58,
+      "opponent": "Maccabi Tel Aviv",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2021-11-04",
+      "rating": 1464.89,
+      "opponent": "Maccabi Tel Aviv",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2021-11-25",
+      "rating": 1466.21,
+      "opponent": "FC Alashkert",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2021-12-09",
+      "rating": 1456.9,
+      "opponent": "LASK",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2022-07-01",
+      "rating": 1471.27,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2022-09-08",
+      "rating": 1460.25,
+      "opponent": "Real Betis Balompi\u00e9",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2022-09-15",
+      "rating": 1452.55,
+      "opponent": "AS Roma",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2022-10-06",
+      "rating": 1451.26,
+      "opponent": "PFC Ludogorets Razgrad",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2022-10-13",
+      "rating": 1445.55,
+      "opponent": "PFC Ludogorets Razgrad",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2022-10-27",
+      "rating": 1442.05,
+      "opponent": "AS Roma",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2022-11-03",
+      "rating": 1436.45,
+      "opponent": "Real Betis Balompi\u00e9",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2023-07-01",
+      "rating": 1457.63,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2023-09-21",
+      "rating": 1453.97,
+      "opponent": "PAOK Saloniki",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2023-10-05",
+      "rating": 1457.62,
+      "opponent": "Aberdeen FC",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2023-10-26",
+      "rating": 1444.07,
+      "opponent": "Eintracht Frankfurt",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2023-11-09",
+      "rating": 1440.81,
+      "opponent": "Eintracht Frankfurt",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2023-11-30",
+      "rating": 1439.65,
+      "opponent": "Aberdeen FC",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2023-12-14",
+      "rating": 1438.52,
+      "opponent": "PAOK Saloniki",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-07-01",
+      "rating": 1459.01,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2024-07-09",
+      "rating": 1449.13,
+      "opponent": "FK Panev\u0117\u017eys",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2024-07-16",
+      "rating": 1448.52,
+      "opponent": "FK Panev\u0117\u017eys",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-08",
+      "rating": 1451.91,
+      "opponent": "FK De\u010di\u0107 Tuzi",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-15",
+      "rating": 1455.65,
+      "opponent": "FK De\u010di\u0107 Tuzi",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-22",
+      "rating": 1459.16,
+      "opponent": "K\u00cd Klaksv\u00edk",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-29",
+      "rating": 1461.86,
+      "opponent": "K\u00cd Klaksv\u00edk",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-10-03",
+      "rating": 1449.99,
+      "opponent": "FC Lugano",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-10-24",
+      "rating": 1453.06,
+      "opponent": "Dinamo Minsk",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-11-07",
+      "rating": 1442.05,
+      "opponent": "Olimpija Ljubljana",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-11-28",
+      "rating": 1443.29,
+      "opponent": "Panathinaikos",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-12-12",
+      "rating": 1443.14,
+      "opponent": "Molde FK",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-12-19",
+      "rating": 1443.87,
+      "opponent": "Real Betis Balompi\u00e9",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-01",
+      "rating": 1462.58,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2025-07-10",
+      "rating": 1450.09,
+      "opponent": "NS\u00cd Runav\u00edk",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-17",
+      "rating": 1453.87,
+      "opponent": "NS\u00cd Runav\u00edk",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-24",
+      "rating": 1457.69,
+      "opponent": "Arda Kardzhali",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-31",
+      "rating": 1456.39,
+      "opponent": "Arda Kardzhali",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2026-07-01",
+      "rating": 1470.92,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    }
+  ]
+}

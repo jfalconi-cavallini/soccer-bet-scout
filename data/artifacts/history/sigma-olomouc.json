@@ -1,0 +1,29 @@
+{
+  "id": "sigma-olomouc",
+  "name": "Sigma Olomouc",
+  "league": null,
+  "rating": 1483.0,
+  "points": [
+    {
+      "date": "2025-08-21",
+      "rating": 1488.22,
+      "opponent": "Malm\u00f6 FF",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2025-08-28",
+      "rating": 1474.47,
+      "opponent": "Malm\u00f6 FF",
+      "competition_id": "UEL",
+      "event": "match"
+    },
+    {
+      "date": "2026-07-01",
+      "rating": 1482.98,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    }
+  ]
+}

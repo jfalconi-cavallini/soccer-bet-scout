@@ -1,0 +1,64 @@
+{
+  "id": "sp-la-fiorita",
+  "name": "SP La Fiorita",
+  "league": null,
+  "rating": 1475.8,
+  "points": [
+    {
+      "date": "2024-07-11",
+      "rating": 1493.18,
+      "opponent": "FK Isloch Minsk",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-07-18",
+      "rating": 1496.07,
+      "opponent": "FK Isloch Minsk",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-07-25",
+      "rating": 1482.63,
+      "opponent": "\u0130stanbul Ba\u015fak\u015fehir",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2024-08-01",
+      "rating": 1463.27,
+      "opponent": "\u0130stanbul Ba\u015fak\u015fehir",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-01",
+      "rating": 1475.51,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    },
+    {
+      "date": "2025-07-10",
+      "rating": 1464.8,
+      "opponent": "Vardar Skopje",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2025-07-17",
+      "rating": 1463.73,
+      "opponent": "Vardar Skopje",
+      "competition_id": "UECL",
+      "event": "match"
+    },
+    {
+      "date": "2026-07-01",
+      "rating": 1475.82,
+      "opponent": null,
+      "competition_id": null,
+      "event": "season"
+    }
+  ]
+}
