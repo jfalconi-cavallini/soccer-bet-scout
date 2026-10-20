@@ -13,7 +13,7 @@ from src.config import CUP_FILES, TOURNAMENTS, season_codes, season_label
 from src.data.cache import CURRENT_TTL, PAST_TTL, HttpCache
 from src.data.models import CatalogMatch
 from src.names import canonicalize
-from src.report.timeutil import london_kickoff
+from src.report.timeutil import central_european_kickoff
 
 BASE = "https://raw.githubusercontent.com/openfootball/champions-league/master"
 _MONTHS = {
@@ -122,7 +122,7 @@ def parse_cup_text(text: str, tournament_id: str, season_start: int) -> list[Cat
                 competition=name,
                 kind="cup",
                 neutral=neutral,
-                kickoff_utc=london_kickoff(current, kick_hm).isoformat(),
+                kickoff_utc=central_european_kickoff(current, kick_hm).isoformat(),
                 source="openfootball-cup",
             )
         )

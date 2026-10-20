@@ -9,12 +9,13 @@ from __future__ import annotations
 
 import json
 from datetime import date
+from zoneinfo import ZoneInfo
 
 from src.config import LEAGUES, season_codes, season_label
 from src.data.cache import CURRENT_TTL, PAST_TTL, HttpCache
 from src.data.models import CatalogMatch
 from src.names import canonicalize
-from src.report.timeutil import london_kickoff
+from src.report.timeutil import kickoff_in_zone
 
 BASE = "https://raw.githubusercontent.com/openfootball/football.json/master"
 
@@ -34,7 +35,8 @@ def parse_document(payload: dict, league: dict, source: str) -> list[CatalogMatc
         if not home or not away or home == away:
             continue
         home_goals, away_goals = _score(row.get("score"))
-        kickoff = london_kickoff(day, row.get("time")).isoformat()
+        zone = ZoneInfo(league.get("tz") or "Europe/London")
+        kickoff = kickoff_in_zone(day, row.get("time"), zone).isoformat()
         matches.append(
             CatalogMatch(
                 day=day,

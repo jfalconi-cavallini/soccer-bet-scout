@@ -64,22 +64,26 @@ ELO_GOAL_WEIGHT = 0.30
 ELO_GOALS_PER_400 = 1.0
 
 CHICAGO_TZ = "America/Chicago"
+# football-data.co.uk prints every league's clock in UK local time.
 KICKOFF_SOURCE_TZ = "Europe/London"
+# UEFA text files and most continental openfootball files use this offset.
+CENTRAL_EUROPE_TZ = "Europe/Berlin"
 
 # football-data.co.uk division code, openfootball file code, display name.
+# `tz` is the local clock in openfootball's league JSON (not the UK CSV).
 LEAGUES: list[dict] = [
-    {"id": "E0", "fd": "E0", "of": "en.1", "name": "Premier League", "country": "England"},
-    {"id": "SP1", "fd": "SP1", "of": "es.1", "name": "La Liga", "country": "Spain"},
-    {"id": "I1", "fd": "I1", "of": "it.1", "name": "Serie A", "country": "Italy"},
-    {"id": "D1", "fd": "D1", "of": "de.1", "name": "Bundesliga", "country": "Germany"},
-    {"id": "F1", "fd": "F1", "of": "fr.1", "name": "Ligue 1", "country": "France"},
-    {"id": "N1", "fd": "N1", "of": "nl.1", "name": "Eredivisie", "country": "Netherlands"},
-    {"id": "P1", "fd": "P1", "of": "pt.1", "name": "Primeira Liga", "country": "Portugal"},
-    {"id": "B1", "fd": "B1", "of": "be.1", "name": "Belgian Pro League", "country": "Belgium"},
-    {"id": "T1", "fd": "T1", "of": "tr.1", "name": "Super Lig", "country": "Turkey"},
-    {"id": "G1", "fd": "G1", "of": "gr.1", "name": "Super League Greece", "country": "Greece"},
-    {"id": "SC0", "fd": "SC0", "of": "sco.1", "name": "Scottish Premiership", "country": "Scotland"},
-    {"id": "AT1", "fd": None, "of": "at.1", "name": "Austrian Bundesliga", "country": "Austria"},
+    {"id": "E0", "fd": "E0", "of": "en.1", "name": "Premier League", "country": "England", "tz": "Europe/London"},
+    {"id": "SP1", "fd": "SP1", "of": "es.1", "name": "La Liga", "country": "Spain", "tz": CENTRAL_EUROPE_TZ},
+    {"id": "I1", "fd": "I1", "of": "it.1", "name": "Serie A", "country": "Italy", "tz": CENTRAL_EUROPE_TZ},
+    {"id": "D1", "fd": "D1", "of": "de.1", "name": "Bundesliga", "country": "Germany", "tz": CENTRAL_EUROPE_TZ},
+    {"id": "F1", "fd": "F1", "of": "fr.1", "name": "Ligue 1", "country": "France", "tz": CENTRAL_EUROPE_TZ},
+    {"id": "N1", "fd": "N1", "of": "nl.1", "name": "Eredivisie", "country": "Netherlands", "tz": CENTRAL_EUROPE_TZ},
+    {"id": "P1", "fd": "P1", "of": "pt.1", "name": "Primeira Liga", "country": "Portugal", "tz": "Europe/Lisbon"},
+    {"id": "B1", "fd": "B1", "of": "be.1", "name": "Belgian Pro League", "country": "Belgium", "tz": CENTRAL_EUROPE_TZ},
+    {"id": "T1", "fd": "T1", "of": "tr.1", "name": "Super Lig", "country": "Turkey", "tz": "Europe/Istanbul"},
+    {"id": "G1", "fd": "G1", "of": "gr.1", "name": "Super League Greece", "country": "Greece", "tz": "Europe/Athens"},
+    {"id": "SC0", "fd": "SC0", "of": "sco.1", "name": "Scottish Premiership", "country": "Scotland", "tz": "Europe/London"},
+    {"id": "AT1", "fd": None, "of": "at.1", "name": "Austrian Bundesliga", "country": "Austria", "tz": CENTRAL_EUROPE_TZ},
 ]
 
 TOURNAMENTS = {
