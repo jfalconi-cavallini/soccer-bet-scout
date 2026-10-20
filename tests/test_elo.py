@@ -2,7 +2,14 @@
 
 from datetime import date
 
-from src.model.elo import EloMatch, margin_multiplier, replay, result_score
+from src.model.elo import (
+    EloMatch,
+    actual_score,
+    margin_multiplier,
+    outcome_score,
+    replay,
+    result_score,
+)
 
 
 def _match(day, home, away, hg, ag, competition="E0", kind="league", neutral=False, xg=None):
@@ -62,6 +69,13 @@ def test_bigger_margin_moves_more_than_a_one_goal_win():
     close = replay([_match(date(2021, 8, 14), "alpha", "beta", 1, 0)])
     wide = replay([_match(date(2021, 8, 14), "alpha", "beta", 4, 0)])
     assert wide.rating("alpha") > close.rating("alpha")
+    # The scoreline itself is a win, not a goal-difference curve.
+    # result_score(4) is about 0.97; the multiplier is what separates 4-0 from 1-0.
+    assert actual_score(_match(date(2021, 8, 14), "alpha", "beta", 4, 0)) == 1.0
+    assert actual_score(_match(date(2021, 8, 14), "alpha", "beta", 1, 0)) == 1.0
     assert margin_multiplier(1) == 1
     assert margin_multiplier(2) == 1.5
     assert result_score(0) == 0.5
+    assert outcome_score(2, 0) == 1
+    assert outcome_score(1, 1) == 0.5
+    assert outcome_score(0, 2) == 0

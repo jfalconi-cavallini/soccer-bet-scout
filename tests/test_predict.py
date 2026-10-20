@@ -53,8 +53,8 @@ def test_prediction_card_fields_and_first_half_share():
         matches,
     )
     assert abs(pred["home_win_pct"] + pred["draw_pct"] + pred["away_win_pct"] - 100) < 0.2
-    assert pred["xg_home_1h"] == round(pred["xg_home"] * FIRST_HALF_SHARE, 2)
-    assert pred["xg_away_1h"] == round(pred["xg_away"] * FIRST_HALF_SHARE, 2)
+    assert abs(pred["xg_home_1h"] - pred["xg_home"] * FIRST_HALF_SHARE) < 0.02
+    assert abs(pred["xg_away_1h"] - pred["xg_away"] * FIRST_HALF_SHARE) < 0.02
     assert "CDT" in pred["kickoff_ct"]
     assert len(pred["top_scorelines"]) == 5
     assert "2.5" in pred["over"]

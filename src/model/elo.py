@@ -69,13 +69,21 @@ def expected_score(rating_home: float, rating_away: float, home_advantage: float
 
 
 def result_score(goal_diff: float) -> float:
-    """Map a goal (or xG) difference onto the same 0-1 scale as expected_score.
+    """Map an xG difference onto the 0-1 scale. Not used for the goal result.
 
-    A one-goal win is about 0.70, not a full 1.0, so a smash-and-grab 1-0
-    does not move ratings as if it were a dominant win. xG differences use
-    the same curve.
+    The goal result is a plain win, draw, or loss. Putting this curve on the
+    scoreline as well as margin_multiplier counts the margin twice.
     """
     return 1.0 / (1.0 + math.exp(-goal_diff / 1.2))
+
+
+def outcome_score(home_goals: int, away_goals: int) -> float:
+    """Win 1, draw 0.5, loss 0. The margin multiplier carries the goal difference."""
+    if home_goals > away_goals:
+        return 1.0
+    if home_goals == away_goals:
+        return 0.5
+    return 0.0
 
 
 def margin_multiplier(goal_diff: int) -> float:
@@ -89,8 +97,8 @@ def margin_multiplier(goal_diff: int) -> float:
 
 
 def actual_score(match: EloMatch) -> float:
-    """Blend the goal margin with xG when the match has expected goals."""
-    goals = result_score(match.home_goals - match.away_goals)
+    """Win/draw/loss, blended with the xG curve when the match has expected goals."""
+    goals = outcome_score(match.home_goals, match.away_goals)
     if match.xg_home is None or match.xg_away is None:
         return goals
     chances = result_score(match.xg_home - match.xg_away)
