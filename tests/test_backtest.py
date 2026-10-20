@@ -134,6 +134,14 @@ def test_forecast_does_not_use_the_match_or_the_future(monkeypatch):
     assert moved["p_home"] != alpha["p_home"]
 
 
+def test_a_one_goal_home_win_does_not_win_the_minus_one_handicap():
+    rows = forecast_matches(_history(), date(2025, 1, 15), date(2025, 1, 15))
+    alpha = next(row for row in rows if row["day"] == "2025-01-15" and row["home_goals"] == 1)
+    assert alpha["away_goals"] == 0
+    assert alpha["hits"]["ah_home_-1"] == 0.0
+    assert alpha["hits"]["ah_home_-1.5"] == 0.0
+
+
 def test_window_starts_at_2024_25_and_summary_math_holds():
     assert BACKTEST_FROM == date(2024, 7, 1)
     rows = forecast_matches(_history(), BACKTEST_FROM, date(2025, 1, 15))

@@ -150,7 +150,10 @@ def _predict_row(
         if key not in priced:
             continue
         hit = market_hit(key, match.home_goals, match.away_goals, match.ht_home, match.ht_away)
-        if hit is None:
+        if hit is None and key.startswith("ah_"):
+            # The stored price is the chance the handicap wins. A push is not a win.
+            hit = 0.0
+        elif hit is None:
             continue
         kept[key] = priced[key]
         hits[key] = hit
@@ -356,19 +359,36 @@ def _slice_metrics(rows: list[dict]) -> dict:
     }
 
 
+def _gap_sentence(label: str, predicted: float, actual: float) -> str:
+    direction = "higher than the results" if predicted > actual else "lower than the results"
+    return (
+        f"{label} averages {predicted:.1%}, "
+        f"and the results landed {actual:.1%}. The price is {direction}."
+    )
+
+
 def _calibration_notes(markets: list[dict]) -> list[str]:
     notes = []
     for market in markets:
         if market["count"] < CALIBRATION_MIN or market["predicted"] is None:
             continue
         gap = market["predicted"] - market["actual"]
-        if abs(gap) < CALIBRATION_GAP:
-            continue
-        direction = "higher than the results" if gap > 0 else "lower than the results"
-        notes.append(
-            f"{market['label']} averages {market['predicted']:.1%}, "
-            f"and the results landed {market['actual']:.1%}. The price is {direction}."
-        )
+        if abs(gap) >= CALIBRATION_GAP:
+            notes.append(_gap_sentence(market["label"], market["predicted"], market["actual"]))
+        for band in market["bins"]:
+            if band["count"] < CALIBRATION_MIN or band["predicted"] is None or band["actual"] is None:
+                continue
+            if abs(band["predicted"] - band["actual"]) < 0.05:
+                continue
+            low = f"{band['from']:.0%}"
+            high = f"{band['to']:.0%}"
+            notes.append(
+                _gap_sentence(
+                    f"{market['label']} in the {low} to {high} band",
+                    band["predicted"],
+                    band["actual"],
+                )
+            )
     return notes
 
 
