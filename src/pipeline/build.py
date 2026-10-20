@@ -235,6 +235,8 @@ def build(today: date | None = None) -> dict:
                 "markets": pred.get("markets"),
             },
         )
+        # The page shows the ranked list. The full price book stays in the log.
+        pred.pop("markets", None)
     results = {
         match.id: {
             "home_goals": int(match.home_goals),
