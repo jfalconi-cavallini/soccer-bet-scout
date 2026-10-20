@@ -11,6 +11,7 @@ from src.config import DIXON_COLES_RHO, STALE_RESULT_DAYS, XG_BLEND
 from src.model.dixon_coles import score_grid, summarize
 from src.model.elo import EloMatch, EloTable
 from src.model.halves import HalfBook, scoring_share
+from src.model.markets import build_markets, rank_markets
 from src.model.ratings import StrengthBook, blend_chance
 from src.report.timeutil import format_kickoff
 
@@ -226,6 +227,7 @@ def _period_block(lambda_home: float, lambda_away: float) -> dict:
         "top_scorelines": [
             {"score": item["score"], "pct": _pct(item["prob"])} for item in summary["top_scorelines"]
         ],
+        "_grid": grid,
     }
 
 
@@ -257,6 +259,8 @@ def predict_match(
     lambda_away = lambdas["lambda_away"]
     first_half = _period_block(lambda_home * share_home, lambda_away * share_away)
     second_half = _period_block(lambda_home * (1.0 - share_home), lambda_away * (1.0 - share_away))
+    markets = build_markets(grid, first_half.pop("_grid"), second_half.pop("_grid"))
+    most_likely = rank_markets(markets, home_name, away_name)
     home_ctx = _team_context(home, history, day, book)
     away_ctx = _team_context(away, history, day, book)
 
@@ -373,6 +377,8 @@ def predict_match(
         "top_scorelines": [
             {"score": item["score"], "pct": _pct(item["prob"])} for item in summary["top_scorelines"]
         ],
+        "markets": markets,
+        "most_likely": most_likely,
         "elo_home": round(elo_home, 1),
         "elo_away": round(elo_away, 1),
         "elo_gap": round(lambdas["elo_gap"], 1),
