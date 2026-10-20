@@ -32,6 +32,32 @@ def test_bookmaker_and_openfootball_spellings_match():
             assert canonicalize(spelling) == expected, spelling
 
 
+def test_logged_name_loses_a_cancelled_tag(tmp_path):
+    import json
+
+    from src.pipeline.build import _load_log
+
+    path = tmp_path / "prediction_log.json"
+    path.write_text(
+        json.dumps(
+            {
+                "predictions": [
+                    {
+                        "home_name": "RB Leipzig [cancelled]",
+                        "away_name": "Spartak Moskva [cancelled]",
+                        "p_home": 0.5,
+                    }
+                ]
+            }
+        ),
+        encoding="utf-8",
+    )
+    row = _load_log(path)["predictions"][0]
+    assert row["home_name"] == "RB Leipzig"
+    assert row["away_name"] == "Spartak Moskva"
+    assert row["p_home"] == 0.5
+
+
 def test_cancelled_tag_does_not_split_a_club():
     assert canonicalize("RB Leipzig [cancelled]") == canonicalize("RB Leipzig")
     assert clean_display_name("RB Leipzig [cancelled]") == "RB Leipzig"

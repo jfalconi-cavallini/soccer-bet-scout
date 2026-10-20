@@ -53,9 +53,16 @@ def _load_log(path: Path) -> dict:
     if not path.exists():
         return {"predictions": []}
     try:
-        return json.loads(path.read_text(encoding="utf-8"))
+        log = json.loads(path.read_text(encoding="utf-8"))
     except json.JSONDecodeError:
         return {"predictions": []}
+    # Names were stored on the first write. Strip a source note if an older
+    # row still has one; probabilities stay as they were logged.
+    for row in log.get("predictions", []):
+        for key in ("home_name", "away_name"):
+            if row.get(key):
+                row[key] = clean_display_name(row[key])
+    return log
 
 
 def build(today: date | None = None) -> dict:
