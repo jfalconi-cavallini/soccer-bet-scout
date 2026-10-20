@@ -232,10 +232,16 @@ def build(today: date | None = None) -> dict:
                 "p_away": round(pred["away_win_pct"] / 100, 4),
                 "xg_home": pred["xg_home"],
                 "xg_away": pred["xg_away"],
+                "markets": pred.get("markets"),
             },
         )
     results = {
-        match.id: (int(match.home_goals), int(match.away_goals))
+        match.id: {
+            "home_goals": int(match.home_goals),
+            "away_goals": int(match.away_goals),
+            "ht_home": match.ht_home,
+            "ht_away": match.ht_away,
+        }
         for match in catalog
         if match.finished
     }

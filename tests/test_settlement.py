@@ -77,3 +77,72 @@ def test_refresh_lands_once_inside_the_day_before_kickoff():
     assert settle(log, {"m1": (1, 0)}) == 1
     assert row["brier"] == round(brier(0.6, 0.22, 0.18, 1, 0), 4)
     assert row["brier_first"] == round(brier(0.5, 0.3, 0.2, 1, 0), 4)
+
+
+def test_markets_backfill_without_rewriting_the_result_call():
+    log = {"predictions": []}
+    upsert_prediction(
+        log,
+        {
+            "match_id": "m-markets",
+            "home": "alpha",
+            "away": "beta",
+            "p_home": 0.5,
+            "p_draw": 0.3,
+            "p_away": 0.2,
+        },
+    )
+    upsert_prediction(
+        log,
+        {
+            "match_id": "m-markets",
+            "home": "alpha",
+            "away": "beta",
+            "p_home": 0.9,
+            "p_draw": 0.05,
+            "p_away": 0.05,
+            "markets": {"btts": 0.6, "over_2.5": 0.4, "1h_btts": 0.3, "ah_home_-1": 0.25},
+        },
+    )
+    row = log["predictions"][0]
+    assert row["p_home"] == 0.5
+    assert row["markets"]["btts"] == 0.6
+    assert settle(
+        log,
+        {"m-markets": {"home_goals": 2, "away_goals": 1, "ht_home": 1, "ht_away": 0}},
+    ) == 1
+    assert row["market_hits"]["btts"] == 1
+    assert row["market_hits"]["over_2.5"] == 1
+    assert row["market_hits"]["1h_btts"] == 0
+    assert "ah_home_-1" not in row["market_hits"]
+    assert row["market_brier"] is not None
+    report = calibration(log)
+    assert any(item["market"] == "btts" and item["actual"] == 1 for item in report["markets"])
+    assert set(report["market_bins"]) == {"btts", "over_2.5", "1h_btts", "1h_over_0.5"}
+    btts_bin = next(item for item in report["market_bins"]["btts"] if item["count"])
+    assert btts_bin["actual"] == 1
+
+
+def test_refresh_is_where_markets_land_when_one_exists():
+    log = {"predictions": []}
+    kickoff = "2026-10-24T19:00:00+00:00"
+    first = {
+        "match_id": "m2",
+        "kickoff_utc": kickoff,
+        "home": "alpha",
+        "away": "beta",
+        "p_home": 0.5,
+        "p_draw": 0.3,
+        "p_away": 0.2,
+    }
+    upsert_prediction(log, first, now=datetime(2026, 10, 20, tzinfo=timezone.utc))
+    close = dict(first, p_home=0.6, p_draw=0.22, p_away=0.18, markets={"over_2.5": 0.7})
+    upsert_prediction(log, close, now=datetime(2026, 10, 23, 20, tzinfo=timezone.utc))
+    row = log["predictions"][0]
+    assert row["p_home"] == 0.5
+    assert "markets" not in row
+    assert row["refresh"]["markets"]["over_2.5"] == 0.7
+    later = dict(first, markets={"over_2.5": 0.2, "btts": 0.4})
+    upsert_prediction(log, later, now=datetime(2026, 10, 24, 1, tzinfo=timezone.utc))
+    assert row["refresh"]["markets"]["over_2.5"] == 0.7
+    assert row["refresh"]["p_home"] == 0.6
