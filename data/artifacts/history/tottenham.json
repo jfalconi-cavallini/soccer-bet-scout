@@ -2,7 +2,7 @@
   "id": "tottenham",
   "name": "Tottenham Hotspur FC",
   "league": "Premier League",
-  "rating": 1597.3,
+  "rating": 1599.7,
   "points": [
     {
       "date": "2021-08-15",
@@ -1681,6 +1681,13 @@
       "date": "2026-10-10",
       "rating": 1597.29,
       "opponent": "Manchester United FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-19",
+      "rating": 1599.66,
+      "opponent": "Coventry City FC",
       "competition_id": "E0",
       "event": "match"
     }

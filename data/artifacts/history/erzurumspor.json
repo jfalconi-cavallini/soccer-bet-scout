@@ -2,7 +2,7 @@
   "id": "erzurumspor",
   "name": "Erzurumspor",
   "league": "Super Lig",
-  "rating": 1350.2,
+  "rating": 1356.8,
   "points": [
     {
       "date": "2026-07-01",
@@ -57,6 +57,13 @@
       "date": "2026-10-10",
       "rating": 1350.2,
       "opponent": "Alanyaspor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-17",
+      "rating": 1356.79,
+      "opponent": "Eyupspor",
       "competition_id": "T1",
       "event": "match"
     }

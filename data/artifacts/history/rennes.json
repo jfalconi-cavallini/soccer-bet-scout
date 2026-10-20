@@ -2,7 +2,7 @@
   "id": "rennes",
   "name": "Stade Rennais FC 1901",
   "league": "Ligue 1",
-  "rating": 1580.8,
+  "rating": 1576.3,
   "points": [
     {
       "date": "2021-08-08",
@@ -1492,6 +1492,13 @@
       "date": "2026-10-11",
       "rating": 1580.78,
       "opponent": "AJ Auxerre",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-18",
+      "rating": 1576.26,
+      "opponent": "Paris FC",
       "competition_id": "F1",
       "event": "match"
     }

@@ -2,7 +2,7 @@
   "id": "sunderland",
   "name": "Sunderland AFC",
   "league": "Premier League",
-  "rating": 1603.7,
+  "rating": 1594.1,
   "points": [
     {
       "date": "2025-07-01",
@@ -323,6 +323,13 @@
       "date": "2026-10-10",
       "rating": 1603.66,
       "opponent": "Brighton & Hove Albion FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-18",
+      "rating": 1594.06,
+      "opponent": "AFC Bournemouth",
       "competition_id": "E0",
       "event": "match"
     }

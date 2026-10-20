@@ -2,7 +2,7 @@
   "id": "kasimpasa",
   "name": "Kas\u0131mpa\u015fa SK",
   "league": "Super Lig",
-  "rating": 1401.1,
+  "rating": 1411.5,
   "points": [
     {
       "date": "2021-08-14",
@@ -1359,6 +1359,13 @@
       "date": "2026-10-09",
       "rating": 1401.14,
       "opponent": "Galatasaray SK",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-18",
+      "rating": 1411.48,
+      "opponent": "Samsunspor",
       "competition_id": "T1",
       "event": "match"
     }

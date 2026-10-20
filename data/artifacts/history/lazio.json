@@ -2,7 +2,7 @@
   "id": "lazio",
   "name": "Lazio Roma",
   "league": "Serie A",
-  "rating": 1601.6,
+  "rating": 1617.4,
   "points": [
     {
       "date": "2021-08-21",
@@ -1674,6 +1674,13 @@
       "date": "2026-10-11",
       "rating": 1601.61,
       "opponent": "AC Monza",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-18",
+      "rating": 1617.38,
+      "opponent": "Juventus FC",
       "competition_id": "I1",
       "event": "match"
     }

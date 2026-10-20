@@ -2,7 +2,7 @@
   "id": "bayern",
   "name": "FC Bayern M\u00fcnchen",
   "league": "Bundesliga",
-  "rating": 1795.6,
+  "rating": 1801.6,
   "points": [
     {
       "date": "2021-08-13",
@@ -1696,6 +1696,13 @@
       "rating": 1795.61,
       "opponent": "Viking FK",
       "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-17",
+      "rating": 1801.56,
+      "opponent": "RB Leipzig",
+      "competition_id": "D1",
       "event": "match"
     }
   ]

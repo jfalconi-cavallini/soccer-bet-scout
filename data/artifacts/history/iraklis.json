@@ -2,7 +2,7 @@
   "id": "iraklis",
   "name": "Iraklis",
   "league": "Super League Greece",
-  "rating": 1329.1,
+  "rating": 1328.1,
   "points": [
     {
       "date": "2026-07-01",
@@ -50,6 +50,13 @@
       "date": "2026-10-11",
       "rating": 1329.11,
       "opponent": "Levadeiakos",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-18",
+      "rating": 1328.06,
+      "opponent": "PAOK Saloniki",
       "competition_id": "G1",
       "event": "match"
     }

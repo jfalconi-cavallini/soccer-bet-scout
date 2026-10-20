@@ -2,7 +2,7 @@
   "id": "gil-vicente",
   "name": "Gil Vicente FC",
   "league": "Primeira Liga",
-  "rating": 1471.4,
+  "rating": 1482.0,
   "points": [
     {
       "date": "2021-08-09",
@@ -1275,6 +1275,13 @@
       "date": "2026-10-09",
       "rating": 1471.38,
       "opponent": "Moreirense FC",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-19",
+      "rating": 1482.04,
+      "opponent": "Sporting Clube de Braga",
       "competition_id": "P1",
       "event": "match"
     }

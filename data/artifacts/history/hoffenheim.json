@@ -2,7 +2,7 @@
   "id": "hoffenheim",
   "name": "TSG 1899 Hoffenheim",
   "league": "Bundesliga",
-  "rating": 1563.2,
+  "rating": 1571.8,
   "points": [
     {
       "date": "2021-08-14",
@@ -1317,6 +1317,13 @@
       "date": "2026-10-10",
       "rating": 1563.21,
       "opponent": "Hamburger SV",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-18",
+      "rating": 1571.83,
+      "opponent": "Borussia M\u00f6nchengladbach",
       "competition_id": "D1",
       "event": "match"
     }

@@ -2,7 +2,7 @@
   "id": "frosinone",
   "name": "Frosinone Calcio",
   "league": "Serie A",
-  "rating": 1469.0,
+  "rating": 1477.6,
   "points": [
     {
       "date": "2023-07-01",
@@ -337,6 +337,13 @@
       "date": "2026-10-10",
       "rating": 1468.96,
       "opponent": "SSC Napoli",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-16",
+      "rating": 1477.55,
+      "opponent": "US Sassuolo Calcio",
       "competition_id": "I1",
       "event": "match"
     }

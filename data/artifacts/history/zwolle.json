@@ -2,7 +2,7 @@
   "id": "zwolle",
   "name": "PEC Zwolle",
   "league": "Eredivisie",
-  "rating": 1373.7,
+  "rating": 1379.3,
   "points": [
     {
       "date": "2021-08-15",
@@ -1044,6 +1044,13 @@
       "date": "2026-10-11",
       "rating": 1373.72,
       "opponent": "SC Cambuur-Leeuwarden",
+      "competition_id": "N1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-18",
+      "rating": 1379.31,
+      "opponent": "Go Ahead Eagles",
       "competition_id": "N1",
       "event": "match"
     }

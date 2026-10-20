@@ -2,7 +2,7 @@
   "id": "inter",
   "name": "FC Internazionale Milano",
   "league": "Serie A",
-  "rating": 1702.3,
+  "rating": 1713.7,
   "points": [
     {
       "date": "2021-08-21",
@@ -1801,6 +1801,13 @@
       "rating": 1702.26,
       "opponent": "Club Brugge KV",
       "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-17",
+      "rating": 1713.73,
+      "opponent": "Bologna FC 1909",
+      "competition_id": "I1",
       "event": "match"
     }
   ]

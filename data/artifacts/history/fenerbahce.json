@@ -2,7 +2,7 @@
   "id": "fenerbahce",
   "name": "Fenerbah\u00e7e SK",
   "league": "Super Lig",
-  "rating": 1558.1,
+  "rating": 1564.7,
   "points": [
     {
       "date": "2021-08-15",
@@ -1696,6 +1696,13 @@
       "rating": 1558.07,
       "opponent": "Aston Villa FC",
       "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-17",
+      "rating": 1564.73,
+      "opponent": "Alanyaspor",
+      "competition_id": "T1",
       "event": "match"
     }
   ]

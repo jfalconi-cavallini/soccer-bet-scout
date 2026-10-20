@@ -2,7 +2,7 @@
   "id": "goztepe",
   "name": "G\u00f6ztepe",
   "league": "Super Lig",
-  "rating": 1452.1,
+  "rating": 1456.3,
   "points": [
     {
       "date": "2021-08-15",
@@ -841,6 +841,13 @@
       "date": "2026-10-12",
       "rating": 1452.09,
       "opponent": "Eyupspor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-18",
+      "rating": 1456.32,
+      "opponent": "Kocaelispor",
       "competition_id": "T1",
       "event": "match"
     }

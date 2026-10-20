@@ -2,7 +2,7 @@
   "id": "excelsior",
   "name": "SBV Excelsior",
   "league": "Eredivisie",
-  "rating": 1427.0,
+  "rating": 1418.0,
   "points": [
     {
       "date": "2022-07-01",
@@ -806,6 +806,13 @@
       "date": "2026-10-11",
       "rating": 1427.02,
       "opponent": "FC Groningen",
+      "competition_id": "N1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-16",
+      "rating": 1418.02,
+      "opponent": "SC Heerenveen",
       "competition_id": "N1",
       "event": "match"
     }

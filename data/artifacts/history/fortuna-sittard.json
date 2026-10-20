@@ -2,7 +2,7 @@
   "id": "fortuna-sittard",
   "name": "Fortuna Sittard",
   "league": "Eredivisie",
-  "rating": 1402.7,
+  "rating": 1403.1,
   "points": [
     {
       "date": "2021-08-14",
@@ -1282,6 +1282,13 @@
       "date": "2026-10-10",
       "rating": 1402.69,
       "opponent": "FC Twente '65",
+      "competition_id": "N1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-18",
+      "rating": 1403.1,
+      "opponent": "Nijmegen",
       "competition_id": "N1",
       "event": "match"
     }

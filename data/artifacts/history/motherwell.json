@@ -2,7 +2,7 @@
   "id": "motherwell",
   "name": "Motherwell FC",
   "league": "Scottish Premiership",
-  "rating": 1419.7,
+  "rating": 1416.5,
   "points": [
     {
       "date": "2021-08-01",
@@ -1422,6 +1422,13 @@
       "date": "2026-10-11",
       "rating": 1419.73,
       "opponent": "Celtic FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-17",
+      "rating": 1416.5,
+      "opponent": "Kilmarnock FC",
       "competition_id": "SC0",
       "event": "match"
     }

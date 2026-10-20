@@ -2,7 +2,7 @@
   "id": "werder-bremen",
   "name": "SV Werder Bremen",
   "league": "Bundesliga",
-  "rating": 1509.3,
+  "rating": 1509.4,
   "points": [
     {
       "date": "2022-07-01",
@@ -1023,6 +1023,13 @@
       "date": "2026-10-09",
       "rating": 1509.26,
       "opponent": "Borussia Dortmund",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-17",
+      "rating": 1509.37,
+      "opponent": "SC Paderborn 07",
       "competition_id": "D1",
       "event": "match"
     }

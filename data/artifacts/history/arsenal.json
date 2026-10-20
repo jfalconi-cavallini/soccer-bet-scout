@@ -2,7 +2,7 @@
   "id": "arsenal",
   "name": "Arsenal FC",
   "league": "Premier League",
-  "rating": 1830.2,
+  "rating": 1832.8,
   "points": [
     {
       "date": "2021-08-13",
@@ -1752,6 +1752,13 @@
       "rating": 1830.17,
       "opponent": "Lille OSC",
       "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-18",
+      "rating": 1832.83,
+      "opponent": "Nottingham Forest FC",
+      "competition_id": "E0",
       "event": "match"
     }
   ]

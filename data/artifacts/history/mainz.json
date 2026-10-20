@@ -2,7 +2,7 @@
   "id": "mainz",
   "name": "1. FSV Mainz 05",
   "league": "Bundesliga",
-  "rating": 1564.2,
+  "rating": 1572.5,
   "points": [
     {
       "date": "2021-08-15",
@@ -1275,6 +1275,13 @@
       "date": "2026-10-10",
       "rating": 1564.21,
       "opponent": "Bayer 04 Leverkusen",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-17",
+      "rating": 1572.55,
+      "opponent": "FC Schalke 04",
       "competition_id": "D1",
       "event": "match"
     }

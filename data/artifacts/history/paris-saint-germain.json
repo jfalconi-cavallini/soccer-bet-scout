@@ -2,7 +2,7 @@
   "id": "paris-saint-germain",
   "name": "Paris Saint-Germain FC",
   "league": "Ligue 1",
-  "rating": 1753.2,
+  "rating": 1759.8,
   "points": [
     {
       "date": "2021-08-07",
@@ -1773,6 +1773,13 @@
       "rating": 1753.19,
       "opponent": "Manchester City FC",
       "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-17",
+      "rating": 1759.81,
+      "opponent": "RC Strasbourg Alsace",
+      "competition_id": "F1",
       "event": "match"
     }
   ]

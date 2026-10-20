@@ -2,7 +2,7 @@
   "id": "frankfurt",
   "name": "Eintracht Frankfurt",
   "league": "Bundesliga",
-  "rating": 1522.1,
+  "rating": 1526.2,
   "points": [
     {
       "date": "2021-08-14",
@@ -1604,6 +1604,13 @@
       "date": "2026-10-10",
       "rating": 1522.12,
       "opponent": "RB Leipzig",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-16",
+      "rating": 1526.21,
+      "opponent": "1. FC K\u00f6ln",
       "competition_id": "D1",
       "event": "match"
     }

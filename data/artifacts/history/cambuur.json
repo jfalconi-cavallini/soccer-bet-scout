@@ -2,7 +2,7 @@
   "id": "cambuur",
   "name": "SC Cambuur-Leeuwarden",
   "league": "Eredivisie",
-  "rating": 1358.1,
+  "rating": 1361.0,
   "points": [
     {
       "date": "2021-08-15",
@@ -568,6 +568,13 @@
       "date": "2026-10-11",
       "rating": 1358.12,
       "opponent": "PEC Zwolle",
+      "competition_id": "N1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-18",
+      "rating": 1361.02,
+      "opponent": "AZ Alkmaar",
       "competition_id": "N1",
       "event": "match"
     }

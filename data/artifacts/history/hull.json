@@ -2,7 +2,7 @@
   "id": "hull",
   "name": "Hull City AFC",
   "league": "Premier League",
-  "rating": 1563.2,
+  "rating": 1559.2,
   "points": [
     {
       "date": "2026-07-01",
@@ -50,6 +50,13 @@
       "date": "2026-10-11",
       "rating": 1563.21,
       "opponent": "Everton FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-17",
+      "rating": 1559.19,
+      "opponent": "Fulham FC",
       "competition_id": "E0",
       "event": "match"
     }

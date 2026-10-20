@@ -2,7 +2,7 @@
   "id": "paok",
   "name": "PAOK Saloniki",
   "league": "Super League Greece",
-  "rating": 1513.6,
+  "rating": 1514.7,
   "points": [
     {
       "date": "2021-09-12",
@@ -1576,6 +1576,13 @@
       "date": "2026-10-12",
       "rating": 1513.61,
       "opponent": "Kalamata",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-18",
+      "rating": 1514.66,
+      "opponent": "Iraklis",
       "competition_id": "G1",
       "event": "match"
     }

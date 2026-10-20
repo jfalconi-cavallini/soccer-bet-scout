@@ -2,7 +2,7 @@
   "id": "parma",
   "name": "Parma Calcio 1913",
   "league": "Serie A",
-  "rating": 1500.8,
+  "rating": 1488.6,
   "points": [
     {
       "date": "2024-07-01",
@@ -596,6 +596,13 @@
       "date": "2026-10-10",
       "rating": 1500.81,
       "opponent": "FC Internazionale Milano",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-19",
+      "rating": 1488.56,
+      "opponent": "Torino FC",
       "competition_id": "I1",
       "event": "match"
     }

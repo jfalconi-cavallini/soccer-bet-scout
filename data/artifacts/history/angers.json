@@ -2,7 +2,7 @@
   "id": "angers",
   "name": "Angers SCO",
   "league": "Ligue 1",
-  "rating": 1465.8,
+  "rating": 1454.7,
   "points": [
     {
       "date": "2021-08-08",
@@ -1086,6 +1086,13 @@
       "date": "2026-10-10",
       "rating": 1465.77,
       "opponent": "Stade Brestois 29",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-18",
+      "rating": 1454.66,
+      "opponent": "Olympique de Marseille",
       "competition_id": "F1",
       "event": "match"
     }

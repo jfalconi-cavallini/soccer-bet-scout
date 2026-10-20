@@ -2,7 +2,7 @@
   "id": "napoli",
   "name": "SSC Napoli",
   "league": "Serie A",
-  "rating": 1620.7,
+  "rating": 1614.2,
   "points": [
     {
       "date": "2021-08-22",
@@ -1661,6 +1661,13 @@
       "rating": 1620.7,
       "opponent": "Villarreal CF",
       "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-17",
+      "rating": 1614.24,
+      "opponent": "Venezia FC",
+      "competition_id": "I1",
       "event": "match"
     }
   ]

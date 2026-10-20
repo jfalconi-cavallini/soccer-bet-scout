@@ -2,7 +2,7 @@
   "id": "monza",
   "name": "AC Monza",
   "league": "Serie A",
-  "rating": 1459.3,
+  "rating": 1468.0,
   "points": [
     {
       "date": "2022-07-01",
@@ -876,6 +876,13 @@
       "date": "2026-10-11",
       "rating": 1459.27,
       "opponent": "Lazio Roma",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-19",
+      "rating": 1468.04,
+      "opponent": "Cagliari Calcio",
       "competition_id": "I1",
       "event": "match"
     }

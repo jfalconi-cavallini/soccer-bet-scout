@@ -2,7 +2,7 @@
   "id": "konyaspor",
   "name": "Konyaspor",
   "league": "Super Lig",
-  "rating": 1396.3,
+  "rating": 1390.7,
   "points": [
     {
       "date": "2021-08-16",
@@ -1359,6 +1359,13 @@
       "date": "2026-10-11",
       "rating": 1396.29,
       "opponent": "\u0130stanbul Ba\u015fak\u015fehir",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-17",
+      "rating": 1390.65,
+      "opponent": "Amedspor",
       "competition_id": "T1",
       "event": "match"
     }

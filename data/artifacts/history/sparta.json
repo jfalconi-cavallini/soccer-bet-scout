@@ -2,7 +2,7 @@
   "id": "sparta",
   "name": "Sparta Rotterdam",
   "league": "Eredivisie",
-  "rating": 1410.3,
+  "rating": 1415.0,
   "points": [
     {
       "date": "2021-08-15",
@@ -1282,6 +1282,13 @@
       "date": "2026-10-10",
       "rating": 1410.26,
       "opponent": "Go Ahead Eagles",
+      "competition_id": "N1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-17",
+      "rating": 1414.95,
+      "opponent": "Willem II Tilburg",
       "competition_id": "N1",
       "event": "match"
     }

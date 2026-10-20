@@ -2,7 +2,7 @@
   "id": "celtic",
   "name": "Celtic FC",
   "league": "Scottish Premiership",
-  "rating": 1573.8,
+  "rating": 1586.3,
   "points": [
     {
       "date": "2021-07-31",
@@ -1646,6 +1646,13 @@
       "date": "2026-10-11",
       "rating": 1573.76,
       "opponent": "Motherwell FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-18",
+      "rating": 1586.3,
+      "opponent": "Heart of Midlothian",
       "competition_id": "SC0",
       "event": "match"
     }

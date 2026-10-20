@@ -2,7 +2,7 @@
   "id": "liverpool",
   "name": "Liverpool FC",
   "league": "Premier League",
-  "rating": 1704.0,
+  "rating": 1712.6,
   "points": [
     {
       "date": "2021-08-14",
@@ -1794,6 +1794,13 @@
       "rating": 1703.97,
       "opponent": "LASK Linz",
       "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-17",
+      "rating": 1712.63,
+      "opponent": "Brentford FC",
+      "competition_id": "E0",
       "event": "match"
     }
   ]

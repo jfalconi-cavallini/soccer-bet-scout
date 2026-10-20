@@ -2,7 +2,7 @@
   "id": "cagliari",
   "name": "Cagliari Calcio",
   "league": "Serie A",
-  "rating": 1535.6,
+  "rating": 1526.9,
   "points": [
     {
       "date": "2021-08-23",
@@ -1142,6 +1142,13 @@
       "date": "2026-10-11",
       "rating": 1535.63,
       "opponent": "Juventus FC",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-19",
+      "rating": 1526.86,
+      "opponent": "AC Monza",
       "competition_id": "I1",
       "event": "match"
     }

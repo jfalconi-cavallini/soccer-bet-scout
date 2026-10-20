@@ -2,7 +2,7 @@
   "id": "schalke",
   "name": "FC Schalke 04",
   "league": "Bundesliga",
-  "rating": 1477.0,
+  "rating": 1468.6,
   "points": [
     {
       "date": "2022-07-01",
@@ -309,6 +309,13 @@
       "date": "2026-10-11",
       "rating": 1476.98,
       "opponent": "SC Freiburg",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-17",
+      "rating": 1468.64,
+      "opponent": "1. FSV Mainz 05",
       "competition_id": "D1",
       "event": "match"
     }

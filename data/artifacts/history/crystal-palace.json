@@ -2,7 +2,7 @@
   "id": "crystal-palace",
   "name": "Crystal Palace FC",
   "league": "Premier League",
-  "rating": 1603.6,
+  "rating": 1597.7,
   "points": [
     {
       "date": "2021-08-14",
@@ -1422,6 +1422,13 @@
       "date": "2026-10-11",
       "rating": 1603.63,
       "opponent": "Nottingham Forest FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-18",
+      "rating": 1597.71,
+      "opponent": "Brighton & Hove Albion FC",
       "competition_id": "E0",
       "event": "match"
     }

@@ -2,7 +2,7 @@
   "id": "hearts",
   "name": "Heart of Midlothian",
   "league": "Scottish Premiership",
-  "rating": 1511.4,
+  "rating": 1498.9,
   "points": [
     {
       "date": "2021-07-31",
@@ -1520,6 +1520,13 @@
       "date": "2026-10-10",
       "rating": 1511.4,
       "opponent": "St. Mirren FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-18",
+      "rating": 1498.86,
+      "opponent": "Celtic FC",
       "competition_id": "SC0",
       "event": "match"
     }

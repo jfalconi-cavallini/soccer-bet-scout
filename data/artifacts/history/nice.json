@@ -2,7 +2,7 @@
   "id": "nice",
   "name": "OGC Nice",
   "league": "Ligue 1",
-  "rating": 1476.2,
+  "rating": 1476.6,
   "points": [
     {
       "date": "2021-08-08",
@@ -1464,6 +1464,13 @@
       "date": "2026-10-11",
       "rating": 1476.21,
       "opponent": "RC Strasbourg Alsace",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-18",
+      "rating": 1476.6,
+      "opponent": "Olympique Lyonnais",
       "competition_id": "F1",
       "event": "match"
     }

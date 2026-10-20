@@ -2,7 +2,7 @@
   "id": "torino",
   "name": "Torino FC",
   "league": "Serie A",
-  "rating": 1530.2,
+  "rating": 1542.5,
   "points": [
     {
       "date": "2021-08-21",
@@ -1408,6 +1408,13 @@
       "date": "2026-10-12",
       "rating": 1530.23,
       "opponent": "Udinese Calcio",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-19",
+      "rating": 1542.48,
+      "opponent": "Parma Calcio 1913",
       "competition_id": "I1",
       "event": "match"
     }

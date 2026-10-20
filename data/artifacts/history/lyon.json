@@ -2,7 +2,7 @@
   "id": "lyon",
   "name": "Olympique Lyonnais",
   "league": "Ligue 1",
-  "rating": 1598.9,
+  "rating": 1598.5,
   "points": [
     {
       "date": "2021-08-07",
@@ -1478,6 +1478,13 @@
       "date": "2026-10-09",
       "rating": 1598.92,
       "opponent": "Racing Club de Lens",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-18",
+      "rating": 1598.52,
+      "opponent": "OGC Nice",
       "competition_id": "F1",
       "event": "match"
     }

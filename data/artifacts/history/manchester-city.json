@@ -2,7 +2,7 @@
   "id": "manchester-city",
   "name": "Manchester City FC",
   "league": "Premier League",
-  "rating": 1768.0,
+  "rating": 1769.5,
   "points": [
     {
       "date": "2021-08-15",
@@ -1808,6 +1808,13 @@
       "rating": 1768.01,
       "opponent": "Paris Saint-Germain FC",
       "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-17",
+      "rating": 1769.52,
+      "opponent": "Ipswich Town FC",
+      "competition_id": "E0",
       "event": "match"
     }
   ]

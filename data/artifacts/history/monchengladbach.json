@@ -2,7 +2,7 @@
   "id": "monchengladbach",
   "name": "Borussia M\u00f6nchengladbach",
   "league": "Bundesliga",
-  "rating": 1494.3,
+  "rating": 1485.7,
   "points": [
     {
       "date": "2021-08-13",
@@ -1261,6 +1261,13 @@
       "date": "2026-10-11",
       "rating": 1494.31,
       "opponent": "1. FC K\u00f6ln",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-18",
+      "rating": 1485.69,
+      "opponent": "TSG 1899 Hoffenheim",
       "competition_id": "D1",
       "event": "match"
     }

@@ -2,7 +2,7 @@
   "id": "braga",
   "name": "Sporting Clube de Braga",
   "league": "Primeira Liga",
-  "rating": 1552.7,
+  "rating": 1542.0,
   "points": [
     {
       "date": "2021-08-07",
@@ -1611,6 +1611,13 @@
       "date": "2026-10-09",
       "rating": 1552.68,
       "opponent": "Sporting Clube de Portugal",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-19",
+      "rating": 1542.02,
+      "opponent": "Gil Vicente FC",
       "competition_id": "P1",
       "event": "match"
     }

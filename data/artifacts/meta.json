@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-20T05:04:43+00:00",
+  "generated_at": "2026-10-20T15:36:51+00:00",
   "timezone": "America/Chicago",
   "through": "2026-10-20",
   "season": "2026-27",
-  "matches_played": 21946,
+  "matches_played": 22015,
   "clubs": 394,
   "upcoming": 191,
-  "xg_matches_in_strength_window": 665,
+  "xg_matches_in_strength_window": 744,
   "tournament_seasons": {
     "UCL": "2026-27",
     "UECL": "2025-26",
@@ -17,7 +17,7 @@
       "id": "E0",
       "name": "Premier League",
       "country": "England",
-      "data_through": "2026-10-12"
+      "data_through": "2026-10-19"
     },
     {
       "id": "SP1",
@@ -29,31 +29,31 @@
       "id": "I1",
       "name": "Serie A",
       "country": "Italy",
-      "data_through": "2026-10-12"
+      "data_through": "2026-10-19"
     },
     {
       "id": "D1",
       "name": "Bundesliga",
       "country": "Germany",
-      "data_through": "2026-10-11"
+      "data_through": "2026-10-18"
     },
     {
       "id": "F1",
       "name": "Ligue 1",
       "country": "France",
-      "data_through": "2026-10-11"
+      "data_through": "2026-10-18"
     },
     {
       "id": "N1",
       "name": "Eredivisie",
       "country": "Netherlands",
-      "data_through": "2026-10-11"
+      "data_through": "2026-10-18"
     },
     {
       "id": "P1",
       "name": "Primeira Liga",
       "country": "Portugal",
-      "data_through": "2026-10-12"
+      "data_through": "2026-10-19"
     },
     {
       "id": "B1",
@@ -65,19 +65,19 @@
       "id": "T1",
       "name": "Super Lig",
       "country": "Turkey",
-      "data_through": "2026-10-12"
+      "data_through": "2026-10-19"
     },
     {
       "id": "G1",
       "name": "Super League Greece",
       "country": "Greece",
-      "data_through": "2026-10-12"
+      "data_through": "2026-10-18"
     },
     {
       "id": "SC0",
       "name": "Scottish Premiership",
       "country": "Scotland",
-      "data_through": "2026-10-11"
+      "data_through": "2026-10-18"
     },
     {
       "id": "AT1",
