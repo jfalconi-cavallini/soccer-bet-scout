@@ -49,9 +49,21 @@ The files in `data/artifacts/` are a snapshot from 20 Oct 2026 (21,946 played ma
   Win %     Arsenal FC                    56.4%
   Draw                                    27.0%
   Win %     Everton FC                    16.5%
-  xG        1.62  –  0.77     1H  0.73  –  0.35
+  xG        1.62  –  0.77     1H  0.75  –  0.33
   Over 2.5   42.6%     BTTS   44.2%
   Elo       1830  –  1636   gap +194
+
+  First half
+    xG  0.75  –  0.33
+    W/D/L   41.4 /  44.4 /  14.2
+    BTTS  15.9%    Over 0.5  65.5%    Over 1.5  30.5%
+
+  Most likely
+    Everton FC under 4.5                          99.9%
+    Everton FC under 3.5                          99.2%
+    Arsenal FC under 4.5                          97.7%
+    Everton FC under 2.5                          95.7%
+    Arsenal FC +1.5                               94.8%
 ```
 
 Kickoffs are America/Chicago. 24 Oct 2026 is still on daylight time; the Premier League source clock is 15:00 BST.

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T04:51:35+00:00",
+  "generated_at": "2026-10-20T05:04:43+00:00",
   "timezone": "America/Chicago",
   "through": "2026-10-20",
   "season": "2026-27",
@@ -115,6 +115,8 @@
     "bins": [],
     "draw_bins": [],
     "away_bins": [],
+    "markets": [],
+    "market_bins": {},
     "note": "No settled predictions yet. The next rebuild scores matches once they are played."
   }
 }
