@@ -2,7 +2,7 @@
   "id": "levante",
   "name": "Levante UD",
   "league": "La Liga",
-  "rating": 1544.7,
+  "rating": 1547.1,
   "points": [
     {
       "date": "2021-08-14",
@@ -601,22 +601,29 @@
     },
     {
       "date": "2026-09-13",
-      "rating": 1557.55,
+      "rating": 1557.79,
       "opponent": "FC Barcelona",
       "competition_id": "SP1",
       "event": "match"
     },
     {
       "date": "2026-09-20",
-      "rating": 1548.26,
+      "rating": 1548.25,
       "opponent": "Villarreal CF",
       "competition_id": "SP1",
       "event": "match"
     },
     {
       "date": "2026-10-12",
-      "rating": 1544.66,
+      "rating": 1544.65,
       "opponent": "Sevilla FC",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-16",
+      "rating": 1547.08,
+      "opponent": "RC Deportivo La Coru\u00f1a",
       "competition_id": "SP1",
       "event": "match"
     }

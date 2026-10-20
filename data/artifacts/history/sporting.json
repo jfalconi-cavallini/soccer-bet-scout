@@ -2,7 +2,7 @@
   "id": "sporting",
   "name": "Sporting Clube de Portugal",
   "league": "Primeira Liga",
-  "rating": 1655.5,
+  "rating": 1681.9,
   "points": [
     {
       "date": "2021-08-06",
@@ -1629,24 +1629,38 @@
       "event": "match"
     },
     {
+      "date": "2026-09-09",
+      "rating": 1666.92,
+      "opponent": "Galatasaray SK",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
       "date": "2026-09-13",
-      "rating": 1658.65,
+      "rating": 1667.97,
       "opponent": "FC Famalic\u00e3o",
       "competition_id": "P1",
       "event": "match"
     },
     {
       "date": "2026-09-19",
-      "rating": 1649.68,
+      "rating": 1658.84,
       "opponent": "FC Arouca",
       "competition_id": "P1",
       "event": "match"
     },
     {
       "date": "2026-10-09",
-      "rating": 1655.52,
+      "rating": 1664.25,
       "opponent": "Sporting Clube de Braga",
       "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-13",
+      "rating": 1681.94,
+      "opponent": "Racing Club de Lens",
+      "competition_id": "UCL",
       "event": "match"
     }
   ]

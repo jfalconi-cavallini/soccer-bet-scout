@@ -2,7 +2,7 @@
   "id": "dortmund",
   "name": "Borussia Dortmund",
   "league": "Bundesliga",
-  "rating": 1678.6,
+  "rating": 1670.1,
   "points": [
     {
       "date": "2021-08-14",
@@ -1615,24 +1615,38 @@
       "event": "match"
     },
     {
+      "date": "2026-09-08",
+      "rating": 1681.21,
+      "opponent": "Villarreal CF",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
       "date": "2026-09-12",
-      "rating": 1675.53,
+      "rating": 1682.27,
       "opponent": "SC Paderborn 07",
       "competition_id": "D1",
       "event": "match"
     },
     {
       "date": "2026-09-19",
-      "rating": 1682.86,
+      "rating": 1689.5,
       "opponent": "VfB Stuttgart",
       "competition_id": "D1",
       "event": "match"
     },
     {
       "date": "2026-10-09",
-      "rating": 1678.63,
+      "rating": 1685.14,
       "opponent": "SV Werder Bremen",
       "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-14",
+      "rating": 1670.12,
+      "opponent": "FK Bod\u00f8/Glimt",
+      "competition_id": "UCL",
       "event": "match"
     }
   ]

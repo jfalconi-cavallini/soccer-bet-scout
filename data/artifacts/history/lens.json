@@ -2,7 +2,7 @@
   "id": "lens",
   "name": "Racing Club de Lens",
   "league": "Ligue 1",
-  "rating": 1603.9,
+  "rating": 1591.6,
   "points": [
     {
       "date": "2021-08-08",
@@ -1377,24 +1377,38 @@
       "event": "match"
     },
     {
+      "date": "2026-09-10",
+      "rating": 1615.35,
+      "opponent": "SK Slavia Praha",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
       "date": "2026-09-13",
-      "rating": 1604.09,
+      "rating": 1609.89,
       "opponent": "Le Mans FC",
       "competition_id": "F1",
       "event": "match"
     },
     {
       "date": "2026-09-18",
-      "rating": 1599.89,
+      "rating": 1605.52,
       "opponent": "AS Monaco FC",
       "competition_id": "F1",
       "event": "match"
     },
     {
       "date": "2026-10-09",
-      "rating": 1603.85,
+      "rating": 1609.31,
       "opponent": "Olympique Lyonnais",
       "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-13",
+      "rating": 1591.62,
+      "opponent": "Sporting Clube de Portugal",
+      "competition_id": "UCL",
       "event": "match"
     }
   ]

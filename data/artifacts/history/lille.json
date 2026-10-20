@@ -2,7 +2,7 @@
   "id": "lille",
   "name": "Lille OSC",
   "league": "Ligue 1",
-  "rating": 1595.2,
+  "rating": 1578.4,
   "points": [
     {
       "date": "2021-08-08",
@@ -924,14 +924,14 @@
     {
       "date": "2024-08-06",
       "rating": 1612.67,
-      "opponent": "Fenerbahce",
+      "opponent": "Fenerbah\u00e7e SK",
       "competition_id": "UCL",
       "event": "match"
     },
     {
       "date": "2024-08-13",
       "rating": 1615.1,
-      "opponent": "Fenerbahce",
+      "opponent": "Fenerbah\u00e7e SK",
       "competition_id": "UCL",
       "event": "match"
     },
@@ -1531,24 +1531,38 @@
       "event": "match"
     },
     {
+      "date": "2026-09-08",
+      "rating": 1588.31,
+      "opponent": "Real Betis Balompi\u00e9",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
       "date": "2026-09-13",
-      "rating": 1602.49,
+      "rating": 1590.19,
       "opponent": "ES Troyes AC",
       "competition_id": "F1",
       "event": "match"
     },
     {
       "date": "2026-09-20",
-      "rating": 1595.75,
+      "rating": 1583.83,
       "opponent": "OGC Nice",
       "competition_id": "F1",
       "event": "match"
     },
     {
       "date": "2026-10-10",
-      "rating": 1595.24,
+      "rating": 1583.6,
       "opponent": "Le Havre AC",
       "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-13",
+      "rating": 1578.37,
+      "opponent": "Arsenal FC",
+      "competition_id": "UCL",
       "event": "match"
     }
   ]

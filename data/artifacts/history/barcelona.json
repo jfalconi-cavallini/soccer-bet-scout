@@ -2,7 +2,7 @@
   "id": "barcelona",
   "name": "FC Barcelona",
   "league": "La Liga",
-  "rating": 1807.9,
+  "rating": 1838.5,
   "points": [
     {
       "date": "2021-08-15",
@@ -1790,30 +1790,51 @@
       "event": "match"
     },
     {
+      "date": "2026-09-09",
+      "rating": 1797.18,
+      "opponent": "Feyenoord Rotterdam",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
       "date": "2026-09-13",
-      "rating": 1793.11,
+      "rating": 1799.0,
       "opponent": "Levante UD",
       "competition_id": "SP1",
       "event": "match"
     },
     {
       "date": "2026-09-16",
-      "rating": 1798.28,
+      "rating": 1804.01,
       "opponent": "Real Racing Club de Santander",
       "competition_id": "SP1",
       "event": "match"
     },
     {
       "date": "2026-09-19",
-      "rating": 1806.4,
+      "rating": 1811.91,
       "opponent": "Sevilla FC",
       "competition_id": "SP1",
       "event": "match"
     },
     {
       "date": "2026-10-10",
-      "rating": 1807.87,
+      "rating": 1813.25,
       "opponent": "Getafe CF",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-13",
+      "rating": 1823.75,
+      "opponent": "Galatasaray SK",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-17",
+      "rating": 1838.55,
+      "opponent": "Real Betis Balompi\u00e9",
       "competition_id": "SP1",
       "event": "match"
     }

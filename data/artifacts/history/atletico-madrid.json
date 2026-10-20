@@ -2,7 +2,7 @@
   "id": "atletico-madrid",
   "name": "Club Atl\u00e9tico de Madrid",
   "league": "La Liga",
-  "rating": 1690.3,
+  "rating": 1706.8,
   "points": [
     {
       "date": "2021-08-15",
@@ -1762,30 +1762,51 @@
       "event": "match"
     },
     {
+      "date": "2026-09-09",
+      "rating": 1642.8,
+      "opponent": "Liverpool FC",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
       "date": "2026-09-13",
-      "rating": 1665.95,
+      "rating": 1659.08,
       "opponent": "Real Sociedad de F\u00fatbol",
       "competition_id": "SP1",
       "event": "match"
     },
     {
       "date": "2026-09-16",
-      "rating": 1675.08,
+      "rating": 1668.52,
       "opponent": "CA Osasuna",
       "competition_id": "SP1",
       "event": "match"
     },
     {
       "date": "2026-09-20",
-      "rating": 1684.32,
+      "rating": 1678.18,
       "opponent": "Real Madrid CF",
       "competition_id": "SP1",
       "event": "match"
     },
     {
       "date": "2026-10-10",
-      "rating": 1690.25,
+      "rating": 1684.31,
       "opponent": "Deportivo Alav\u00e9s",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-13",
+      "rating": 1698.14,
+      "opponent": "Manchester United FC",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-17",
+      "rating": 1706.82,
+      "opponent": "RCD Espanyol de Barcelona",
       "competition_id": "SP1",
       "event": "match"
     }

@@ -2,7 +2,7 @@
   "id": "roma",
   "name": "AS Roma",
   "league": "Serie A",
-  "rating": 1694.6,
+  "rating": 1681.6,
   "points": [
     {
       "date": "2021-08-22",
@@ -1769,24 +1769,38 @@
       "event": "match"
     },
     {
+      "date": "2026-09-10",
+      "rating": 1687.81,
+      "opponent": "Fenerbah\u00e7e SK",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
       "date": "2026-09-14",
-      "rating": 1697.2,
+      "rating": 1695.65,
       "opponent": "Torino FC",
       "competition_id": "I1",
       "event": "match"
     },
     {
       "date": "2026-09-19",
-      "rating": 1693.87,
+      "rating": 1692.14,
       "opponent": "FC Internazionale Milano",
       "competition_id": "I1",
       "event": "match"
     },
     {
       "date": "2026-10-11",
-      "rating": 1694.56,
+      "rating": 1693.24,
       "opponent": "Como 1907",
       "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-14",
+      "rating": 1681.56,
+      "opponent": "Real Madrid CF",
+      "competition_id": "UCL",
       "event": "match"
     }
   ]

@@ -2,7 +2,7 @@
   "id": "psv",
   "name": "PSV Eindhoven",
   "league": "Eredivisie",
-  "rating": 1650.7,
+  "rating": 1633.6,
   "points": [
     {
       "date": "2021-08-14",
@@ -1601,24 +1601,38 @@
       "event": "match"
     },
     {
+      "date": "2026-09-10",
+      "rating": 1652.8,
+      "opponent": "FK Shakhtar Donetsk",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
       "date": "2026-09-13",
-      "rating": 1662.13,
+      "rating": 1653.96,
       "opponent": "Sparta Rotterdam",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2026-09-20",
-      "rating": 1652.78,
+      "rating": 1644.87,
       "opponent": "FC Twente '65",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2026-10-09",
-      "rating": 1650.71,
+      "rating": 1643.02,
       "opponent": "SC Heerenveen",
       "competition_id": "N1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-13",
+      "rating": 1633.57,
+      "opponent": "RB Leipzig [cancelled]",
+      "competition_id": "UCL",
       "event": "match"
     }
   ]

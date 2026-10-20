@@ -2,7 +2,7 @@
   "id": "deportivo",
   "name": "RC Deportivo La Coru\u00f1a",
   "league": "La Liga",
-  "rating": 1542.3,
+  "rating": 1540.2,
   "points": [
     {
       "date": "2026-07-01",
@@ -55,15 +55,22 @@
     },
     {
       "date": "2026-09-20",
-      "rating": 1542.98,
+      "rating": 1543.35,
       "opponent": "Real Betis Balompi\u00e9",
       "competition_id": "SP1",
       "event": "match"
     },
     {
       "date": "2026-10-11",
-      "rating": 1542.25,
+      "rating": 1542.6,
       "opponent": "Real Sociedad de F\u00fatbol",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-16",
+      "rating": 1540.17,
+      "opponent": "Levante UD",
       "competition_id": "SP1",
       "event": "match"
     }

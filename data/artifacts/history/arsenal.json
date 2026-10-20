@@ -2,7 +2,7 @@
   "id": "arsenal",
   "name": "Arsenal FC",
   "league": "Premier League",
-  "rating": 1818.2,
+  "rating": 1830.2,
   "points": [
     {
       "date": "2021-08-13",
@@ -1720,24 +1720,38 @@
       "event": "match"
     },
     {
+      "date": "2026-09-09",
+      "rating": 1833.79,
+      "opponent": "SSC Napoli",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
       "date": "2026-09-12",
-      "rating": 1828.72,
+      "rating": 1835.93,
       "opponent": "Sunderland AFC",
       "competition_id": "E0",
       "event": "match"
     },
     {
       "date": "2026-09-19",
-      "rating": 1816.4,
+      "rating": 1823.23,
       "opponent": "Brighton & Hove Albion FC",
       "competition_id": "E0",
       "event": "match"
     },
     {
       "date": "2026-10-10",
-      "rating": 1818.23,
+      "rating": 1824.93,
       "opponent": "Leeds United FC",
       "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-13",
+      "rating": 1830.17,
+      "opponent": "Lille OSC",
+      "competition_id": "UCL",
       "event": "match"
     }
   ]

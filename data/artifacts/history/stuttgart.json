@@ -2,7 +2,7 @@
   "id": "stuttgart",
   "name": "VfB Stuttgart",
   "league": "Bundesliga",
-  "rating": 1619.7,
+  "rating": 1632.2,
   "points": [
     {
       "date": "2021-08-14",
@@ -1300,24 +1300,38 @@
       "event": "match"
     },
     {
+      "date": "2026-09-09",
+      "rating": 1629.38,
+      "opponent": "Viking FK",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
       "date": "2026-09-12",
-      "rating": 1619.79,
+      "rating": 1623.39,
       "opponent": "TSG 1899 Hoffenheim",
       "competition_id": "D1",
       "event": "match"
     },
     {
       "date": "2026-09-19",
-      "rating": 1612.46,
+      "rating": 1616.16,
       "opponent": "Borussia Dortmund",
       "competition_id": "D1",
       "event": "match"
     },
     {
       "date": "2026-10-10",
-      "rating": 1619.7,
+      "rating": 1623.23,
       "opponent": "SC Paderborn 07",
       "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-14",
+      "rating": 1632.2,
+      "opponent": "\u0160K Slovan Bratislava",
+      "competition_id": "UCL",
       "event": "match"
     }
   ]

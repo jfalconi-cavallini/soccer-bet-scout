@@ -2,7 +2,7 @@
   "id": "frankfurt",
   "name": "Eintracht Frankfurt",
   "league": "Bundesliga",
-  "rating": 1522.7,
+  "rating": 1522.1,
   "points": [
     {
       "date": "2021-08-14",
@@ -35,7 +35,7 @@
     {
       "date": "2021-09-16",
       "rating": 1526.77,
-      "opponent": "Fenerbahce",
+      "opponent": "Fenerbah\u00e7e SK",
       "competition_id": "UEL",
       "event": "match"
     },
@@ -140,7 +140,7 @@
     {
       "date": "2021-12-09",
       "rating": 1575.59,
-      "opponent": "Fenerbahce",
+      "opponent": "Fenerbah\u00e7e SK",
       "competition_id": "UEL",
       "event": "match"
     },
@@ -1602,7 +1602,7 @@
     },
     {
       "date": "2026-10-10",
-      "rating": 1522.74,
+      "rating": 1522.12,
       "opponent": "RB Leipzig [cancelled]",
       "competition_id": "D1",
       "event": "match"

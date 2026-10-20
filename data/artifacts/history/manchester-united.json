@@ -2,7 +2,7 @@
   "id": "manchester-united",
   "name": "Manchester United FC",
   "league": "Premier League",
-  "rating": 1704.9,
+  "rating": 1693.8,
   "points": [
     {
       "date": "2021-08-14",
@@ -1078,7 +1078,7 @@
     {
       "date": "2024-10-24",
       "rating": 1632.43,
-      "opponent": "Fenerbahce",
+      "opponent": "Fenerbah\u00e7e SK",
       "competition_id": "UEL",
       "event": "match"
     },
@@ -1678,24 +1678,38 @@
       "event": "match"
     },
     {
+      "date": "2026-09-10",
+      "rating": 1722.34,
+      "opponent": "Sabah FK",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
       "date": "2026-09-13",
-      "rating": 1712.98,
+      "rating": 1715.83,
       "opponent": "Manchester City FC",
       "competition_id": "E0",
       "event": "match"
     },
     {
       "date": "2026-09-20",
-      "rating": 1712.54,
+      "rating": 1715.31,
       "opponent": "Fulham FC",
       "competition_id": "E0",
       "event": "match"
     },
     {
       "date": "2026-10-10",
-      "rating": 1704.94,
+      "rating": 1707.65,
       "opponent": "Tottenham Hotspur FC",
       "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-13",
+      "rating": 1693.82,
+      "opponent": "Club Atl\u00e9tico de Madrid",
+      "competition_id": "UCL",
       "event": "match"
     }
   ]

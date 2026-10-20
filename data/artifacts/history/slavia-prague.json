@@ -2,7 +2,7 @@
   "id": "slavia-prague",
   "name": "SK Slavia Praha",
   "league": null,
-  "rating": 1357.8,
+  "rating": 1337.6,
   "points": [
     {
       "date": "2021-09-16",
@@ -49,28 +49,28 @@
     {
       "date": "2022-02-17",
       "rating": 1371.74,
-      "opponent": "Fenerbahce",
+      "opponent": "Fenerbah\u00e7e SK",
       "competition_id": "UECL",
       "event": "match"
     },
     {
       "date": "2022-02-24",
       "rating": 1383.08,
-      "opponent": "Fenerbahce",
+      "opponent": "Fenerbah\u00e7e SK",
       "competition_id": "UECL",
       "event": "match"
     },
     {
       "date": "2022-03-10",
       "rating": 1403.4,
-      "opponent": "LASK",
+      "opponent": "LASK Linz",
       "competition_id": "UECL",
       "event": "match"
     },
     {
       "date": "2022-03-17",
       "rating": 1396.98,
-      "opponent": "LASK",
+      "opponent": "LASK Linz",
       "competition_id": "UECL",
       "event": "match"
     },
@@ -266,7 +266,7 @@
     {
       "date": "2024-11-28",
       "rating": 1440.89,
-      "opponent": "Fenerbahce",
+      "opponent": "Fenerbah\u00e7e SK",
       "competition_id": "UEL",
       "event": "match"
     },
@@ -360,6 +360,20 @@
       "opponent": null,
       "competition_id": null,
       "event": "season"
+    },
+    {
+      "date": "2026-09-10",
+      "rating": 1351.87,
+      "opponent": "Racing Club de Lens",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-13",
+      "rating": 1337.57,
+      "opponent": "Sabah FK",
+      "competition_id": "UCL",
+      "event": "match"
     }
   ]
 }

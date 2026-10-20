@@ -2,7 +2,7 @@
   "id": "rayo",
   "name": "Rayo Vallecano de Madrid",
   "league": "La Liga",
-  "rating": 1592.3,
+  "rating": 1593.9,
   "points": [
     {
       "date": "2021-08-15",
@@ -1413,22 +1413,29 @@
     },
     {
       "date": "2026-09-12",
-      "rating": 1587.96,
+      "rating": 1588.24,
       "opponent": "Real Madrid CF",
       "competition_id": "SP1",
       "event": "match"
     },
     {
       "date": "2026-09-15",
-      "rating": 1590.22,
+      "rating": 1590.49,
       "opponent": "RCD Espanyol de Barcelona",
       "competition_id": "SP1",
       "event": "match"
     },
     {
       "date": "2026-09-19",
-      "rating": 1592.34,
+      "rating": 1592.59,
       "opponent": "CA Osasuna",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-19",
+      "rating": 1593.92,
+      "opponent": "Getafe CF",
       "competition_id": "SP1",
       "event": "match"
     }

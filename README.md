@@ -27,18 +27,18 @@ python -m pytest -q
 
 `build` is safe to re-run. Past seasons are cached on disk under `data/cache/` (gitignored). The current season expires after 12 hours. football-data.org calls, when a key is present, wait 6.5 seconds between requests so the free tier stays under 10 per minute.
 
-The files in `data/artifacts/` are a snapshot from 20 Oct 2026 (21,900 played matches, 393 clubs, 143 upcoming). Top of the pool:
+The files in `data/artifacts/` are a snapshot from 20 Oct 2026 (21,946 played matches, 394 clubs, 191 upcoming). Top of the pool:
 
 ```
   #      Elo  League                  Club
-    1   1818.2  Premier League          Arsenal FC
-    2   1807.9  La Liga                 FC Barcelona
-    3   1800.7  Bundesliga              FC Bayern München
-    4   1777.2  Premier League          Manchester City FC
-    5   1745.2  La Liga                 Real Madrid CF
-    6   1727.6  Ligue 1                 Paris Saint-Germain FC
-    7   1725.5  Serie A                 FC Internazionale Milano
-    8   1704.9  Premier League          Manchester United FC
+    1   1838.5  La Liga                 FC Barcelona
+    2   1830.2  Premier League          Arsenal FC
+    3   1795.6  Bundesliga              FC Bayern München
+    4   1769.6  La Liga                 Real Madrid CF
+    5   1768.0  Premier League          Manchester City FC
+    6   1753.2  Ligue 1                 Paris Saint-Germain FC
+    7   1706.8  La Liga                 Club Atlético de Madrid
+    8   1704.0  Premier League          Liverpool FC
 ```
 
 `python -m src.cli match "Arsenal" "Everton"` on that snapshot:
@@ -46,12 +46,12 @@ The files in `data/artifacts/` are a snapshot from 20 Oct 2026 (21,900 played ma
 ```
   Arsenal FC  vs  Everton FC
   Premier League  ·  Sat, Oct 24, 2026, 9:00 AM CDT
-  Win %     Arsenal FC                    54.3%
-  Draw                                    27.7%
-  Win %     Everton FC                    18.0%
-  xG        1.57  –  0.81     1H  0.71  –  0.36
-  Over 2.5   42.4%     BTTS   45.0%
-  Elo       1818  –  1636   gap +182
+  Win %     Arsenal FC                    56.4%
+  Draw                                    27.0%
+  Win %     Everton FC                    16.5%
+  xG        1.62  –  0.77     1H  0.73  –  0.35
+  Over 2.5   42.6%     BTTS   44.2%
+  Elo       1830  –  1636   gap +194
 ```
 
 Kickoffs are America/Chicago. 24 Oct 2026 is still on daylight time; the Premier League source clock is 15:00 BST.
@@ -123,8 +123,8 @@ Covered: the score grid sums to 1, the Dixon-Coles factors for 0-0, 1-0, 0-1, an
 
 - Absolute Elo points will not match ClubElo. The check is whether the ordering of top clubs agrees (target Spearman above 0.9). Scales differ because this pool is seeded in 2021 from UEFA coefficients. The 20 Oct 2026 build could not fetch `http://api.clubelo.com/2026-10-20` (HTTP 502), so `meta.json` records `clubelo.available: false`. Re-run `python -m src.cli clubelo` when that API answers.
 - football-data.co.uk clocks are UK local time. openfootball league files use each country's local time. UEFA text files use Central European time (a 21:00 slot is 19:00 UTC in summer). The Odds API overrides those with a real UTC timestamp when `ODDS_API_KEY` is set. This snapshot was built without that key.
-- 2026-27 European cup matches are missing from the openfootball text archive until that repo publishes them, unless `FOOTBALL_DATA_API_KEY` is set. Tournament filters on this snapshot therefore read "2025-26 entrants". This environment did not have the key.
-- football-data.co.uk's 2026-27 CSVs still lag some clubs. La Liga as a competition is through 12 Oct 2026, but Athletic Club's own results in that file stop on 19 Sep 2026. The card hides that club's form and rest instead of calling the hole a 32-day break.
+- This snapshot loaded the 2026-27 Champions League (144 matches) and the current La Liga season (88 played out of 380) from football-data.org. The Champions League filter is the live season. Europa League returned 403 on this plan, and Conference League is not in the competition list, so those two filters still read "2025-26 entrants".
+- football-data.co.uk's 2026-27 CSVs still lag some leagues. La Liga on this snapshot is through 19 Oct 2026, filled from football-data.org. Premier League, Serie A, Ligue 1, and the other CSV leagues are still through 11 or 12 Oct 2026. Austria is through 2 Nov 2025.
 - The prediction log on this snapshot has 143 pending matches and 0 settled, so Brier and the home, draw, and away bins are empty until a later `build` sees final scores. None of those matches were inside 24 hours of kickoff at build time, so no refresh row is stored yet.
 - Team names are matched through a canonical alias list. A club spelled in a new way can show up twice until the alias is added.
 - The goals-minus-xG flag only appears for matches whose source file contains xG.

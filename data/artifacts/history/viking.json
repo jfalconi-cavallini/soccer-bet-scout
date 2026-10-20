@@ -2,7 +2,7 @@
   "id": "viking",
   "name": "Viking FK",
   "league": null,
-  "rating": 1347.0,
+  "rating": 1352.1,
   "points": [
     {
       "date": "2025-07-24",
@@ -38,6 +38,20 @@
       "opponent": null,
       "competition_id": null,
       "event": "season"
+    },
+    {
+      "date": "2026-09-09",
+      "rating": 1343.28,
+      "opponent": "VfB Stuttgart",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-13",
+      "rating": 1352.07,
+      "opponent": "FC Bayern M\u00fcnchen",
+      "competition_id": "UCL",
+      "event": "match"
     }
   ]
 }

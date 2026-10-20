@@ -2,7 +2,7 @@
   "id": "brugge",
   "name": "Club Brugge KV",
   "league": "Belgian Pro League",
-  "rating": 1631.9,
+  "rating": 1637.2,
   "points": [
     {
       "date": "2021-07-25",
@@ -1755,24 +1755,38 @@
       "event": "match"
     },
     {
+      "date": "2026-09-08",
+      "rating": 1610.56,
+      "opponent": "Aston Villa FC",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
       "date": "2026-09-13",
-      "rating": 1622.67,
+      "rating": 1610.81,
       "opponent": "Royal Antwerp FC",
       "competition_id": "B1",
       "event": "match"
     },
     {
       "date": "2026-09-20",
-      "rating": 1622.6,
+      "rating": 1611.21,
       "opponent": "KRC Genk",
       "competition_id": "B1",
       "event": "match"
     },
     {
       "date": "2026-10-10",
-      "rating": 1631.91,
+      "rating": 1621.02,
       "opponent": "RAAL La Louviere",
       "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-13",
+      "rating": 1637.19,
+      "opponent": "FC Internazionale Milano",
+      "competition_id": "UCL",
       "event": "match"
     }
   ]

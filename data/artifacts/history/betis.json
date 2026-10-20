@@ -2,7 +2,7 @@
   "id": "betis",
   "name": "Real Betis Balompi\u00e9",
   "league": "La Liga",
-  "rating": 1642.7,
+  "rating": 1647.2,
   "points": [
     {
       "date": "2021-08-14",
@@ -1699,30 +1699,51 @@
       "event": "match"
     },
     {
+      "date": "2026-09-08",
+      "rating": 1640.38,
+      "opponent": "Lille OSC",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
       "date": "2026-09-14",
-      "rating": 1638.69,
+      "rating": 1650.77,
       "opponent": "Villarreal CF",
       "competition_id": "SP1",
       "event": "match"
     },
     {
       "date": "2026-09-17",
-      "rating": 1641.96,
+      "rating": 1653.73,
       "opponent": "Getafe CF",
       "competition_id": "SP1",
       "event": "match"
     },
     {
       "date": "2026-09-20",
-      "rating": 1638.55,
+      "rating": 1649.95,
       "opponent": "RC Deportivo La Coru\u00f1a",
       "competition_id": "SP1",
       "event": "match"
     },
     {
       "date": "2026-10-11",
-      "rating": 1642.73,
+      "rating": 1653.64,
       "opponent": "CA Osasuna",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-14",
+      "rating": 1662.0,
+      "opponent": "FC Porto",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-17",
+      "rating": 1647.2,
+      "opponent": "FC Barcelona",
       "competition_id": "SP1",
       "event": "match"
     }

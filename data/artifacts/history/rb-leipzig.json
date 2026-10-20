@@ -2,7 +2,7 @@
   "id": "rb-leipzig",
   "name": "RB Leipzig [cancelled]",
   "league": "Bundesliga",
-  "rating": 1622.7,
+  "rating": 1621.6,
   "points": [
     {
       "date": "2021-08-15",
@@ -1496,24 +1496,38 @@
       "event": "match"
     },
     {
+      "date": "2026-09-10",
+      "rating": 1602.29,
+      "opponent": "Como 1907",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
       "date": "2026-09-13",
-      "rating": 1619.37,
+      "rating": 1607.69,
       "opponent": "Hamburger SV",
       "competition_id": "D1",
       "event": "match"
     },
     {
       "date": "2026-09-20",
-      "rating": 1611.76,
+      "rating": 1600.59,
       "opponent": "Bayer 04 Leverkusen",
       "competition_id": "D1",
       "event": "match"
     },
     {
       "date": "2026-10-10",
-      "rating": 1622.72,
+      "rating": 1612.17,
       "opponent": "Eintracht Frankfurt",
       "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-13",
+      "rating": 1621.63,
+      "opponent": "PSV Eindhoven",
+      "competition_id": "UCL",
       "event": "match"
     }
   ]

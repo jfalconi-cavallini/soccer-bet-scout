@@ -2,7 +2,7 @@
   "id": "elche",
   "name": "Elche CF",
   "league": "La Liga",
-  "rating": 1535.4,
+  "rating": 1540.9,
   "points": [
     {
       "date": "2021-08-16",
@@ -874,22 +874,29 @@
     },
     {
       "date": "2026-09-15",
-      "rating": 1520.96,
+      "rating": 1521.16,
       "opponent": "Real Madrid CF",
       "competition_id": "SP1",
       "event": "match"
     },
     {
       "date": "2026-09-18",
-      "rating": 1535.82,
+      "rating": 1536.01,
       "opponent": "RCD Espanyol de Barcelona",
       "competition_id": "SP1",
       "event": "match"
     },
     {
       "date": "2026-10-11",
-      "rating": 1535.45,
+      "rating": 1535.63,
       "opponent": "RC Celta de Vigo",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-17",
+      "rating": 1540.95,
+      "opponent": "Villarreal CF",
       "competition_id": "SP1",
       "event": "match"
     }

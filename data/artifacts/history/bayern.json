@@ -2,7 +2,7 @@
   "id": "bayern",
   "name": "FC Bayern M\u00fcnchen",
   "league": "Bundesliga",
-  "rating": 1800.7,
+  "rating": 1795.6,
   "points": [
     {
       "date": "2021-08-13",
@@ -1664,24 +1664,38 @@
       "event": "match"
     },
     {
+      "date": "2026-09-10",
+      "rating": 1799.32,
+      "opponent": "FK Bod\u00f8/Glimt",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
       "date": "2026-09-13",
-      "rating": 1798.08,
+      "rating": 1802.02,
       "opponent": "SV 07 Elversberg",
       "competition_id": "D1",
       "event": "match"
     },
     {
       "date": "2026-09-18",
-      "rating": 1801.51,
+      "rating": 1805.34,
       "opponent": "1. FC Union Berlin",
       "competition_id": "D1",
       "event": "match"
     },
     {
       "date": "2026-10-10",
-      "rating": 1800.66,
+      "rating": 1804.4,
       "opponent": "FC Augsburg",
       "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-13",
+      "rating": 1795.61,
+      "opponent": "Viking FK",
+      "competition_id": "UCL",
       "event": "match"
     }
   ]

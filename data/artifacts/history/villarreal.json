@@ -2,7 +2,7 @@
   "id": "villarreal",
   "name": "Villarreal CF",
   "league": "La Liga",
-  "rating": 1631.0,
+  "rating": 1633.4,
   "points": [
     {
       "date": "2021-08-16",
@@ -1650,30 +1650,51 @@
       "event": "match"
     },
     {
+      "date": "2026-09-08",
+      "rating": 1612.79,
+      "opponent": "Borussia Dortmund",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
       "date": "2026-09-14",
-      "rating": 1608.74,
+      "rating": 1602.4,
       "opponent": "Real Betis Balompi\u00e9",
       "competition_id": "SP1",
       "event": "match"
     },
     {
       "date": "2026-09-17",
-      "rating": 1623.62,
+      "rating": 1617.58,
       "opponent": "M\u00e1laga CF",
       "competition_id": "SP1",
       "event": "match"
     },
     {
       "date": "2026-09-20",
-      "rating": 1632.91,
+      "rating": 1627.12,
       "opponent": "Levante UD",
       "competition_id": "SP1",
       "event": "match"
     },
     {
       "date": "2026-10-10",
-      "rating": 1631.05,
+      "rating": 1625.55,
       "opponent": "Real Madrid CF",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-13",
+      "rating": 1638.69,
+      "opponent": "SSC Napoli",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-17",
+      "rating": 1633.38,
+      "opponent": "Elche CF",
       "competition_id": "SP1",
       "event": "match"
     }

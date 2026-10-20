@@ -2,7 +2,7 @@
   "id": "slovan-bratislava",
   "name": "\u0160K Slovan Bratislava",
   "league": null,
-  "rating": 1339.2,
+  "rating": 1327.3,
   "points": [
     {
       "date": "2021-09-16",
@@ -346,6 +346,20 @@
       "opponent": null,
       "competition_id": null,
       "event": "season"
+    },
+    {
+      "date": "2026-09-09",
+      "rating": 1336.25,
+      "opponent": "Paris Saint-Germain FC",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-14",
+      "rating": 1327.28,
+      "opponent": "VfB Stuttgart",
+      "competition_id": "UCL",
+      "event": "match"
     }
   ]
 }

@@ -2,7 +2,7 @@
   "id": "napoli",
   "name": "SSC Napoli",
   "league": "Serie A",
-  "rating": 1640.7,
+  "rating": 1620.7,
   "points": [
     {
       "date": "2021-08-22",
@@ -1629,24 +1629,38 @@
       "event": "match"
     },
     {
+      "date": "2026-09-09",
+      "rating": 1624.76,
+      "opponent": "Arsenal FC",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
       "date": "2026-09-13",
-      "rating": 1635.34,
+      "rating": 1628.03,
       "opponent": "Bologna FC 1909",
       "competition_id": "I1",
       "event": "match"
     },
     {
       "date": "2026-09-20",
-      "rating": 1635.83,
+      "rating": 1628.75,
       "opponent": "ACF Fiorentina",
       "competition_id": "I1",
       "event": "match"
     },
     {
       "date": "2026-10-10",
-      "rating": 1640.65,
+      "rating": 1633.84,
       "opponent": "Frosinone Calcio",
       "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-13",
+      "rating": 1620.7,
+      "opponent": "Villarreal CF",
+      "competition_id": "UCL",
       "event": "match"
     }
   ]

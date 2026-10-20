@@ -2,7 +2,7 @@
   "id": "malaga",
   "name": "M\u00e1laga CF",
   "league": "La Liga",
-  "rating": 1507.5,
+  "rating": 1486.9,
   "points": [
     {
       "date": "2026-07-01",
@@ -48,22 +48,29 @@
     },
     {
       "date": "2026-09-17",
-      "rating": 1512.75,
+      "rating": 1512.45,
       "opponent": "Villarreal CF",
       "competition_id": "SP1",
       "event": "match"
     },
     {
       "date": "2026-09-20",
-      "rating": 1509.95,
+      "rating": 1509.66,
       "opponent": "Getafe CF",
       "competition_id": "SP1",
       "event": "match"
     },
     {
       "date": "2026-10-09",
-      "rating": 1507.5,
+      "rating": 1507.23,
       "opponent": "RCD Espanyol de Barcelona",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-18",
+      "rating": 1486.95,
+      "opponent": "Real Sociedad de F\u00fatbol",
       "competition_id": "SP1",
       "event": "match"
     }

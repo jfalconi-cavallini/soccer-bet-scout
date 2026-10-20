@@ -1,8 +1,8 @@
 {
   "id": "fenerbahce",
-  "name": "Fenerbahce",
+  "name": "Fenerbah\u00e7e SK",
   "league": "Super Lig",
-  "rating": 1568.9,
+  "rating": 1558.1,
   "points": [
     {
       "date": "2021-08-15",
@@ -1664,24 +1664,38 @@
       "event": "match"
     },
     {
+      "date": "2026-09-10",
+      "rating": 1559.31,
+      "opponent": "AS Roma",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
       "date": "2026-09-14",
-      "rating": 1556.65,
+      "rating": 1558.23,
       "opponent": "Gaziantep FK",
       "competition_id": "T1",
       "event": "match"
     },
     {
       "date": "2026-09-20",
-      "rating": 1564.74,
+      "rating": 1566.25,
       "opponent": "Eyupspor",
       "competition_id": "T1",
       "event": "match"
     },
     {
       "date": "2026-10-10",
-      "rating": 1568.89,
+      "rating": 1570.32,
       "opponent": "\u00c7aykur Rizespor",
       "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-14",
+      "rating": 1558.07,
+      "opponent": "Aston Villa FC",
+      "competition_id": "UCL",
       "event": "match"
     }
   ]

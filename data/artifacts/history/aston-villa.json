@@ -2,7 +2,7 @@
   "id": "aston-villa",
   "name": "Aston Villa FC",
   "league": "Premier League",
-  "rating": 1659.1,
+  "rating": 1682.5,
   "points": [
     {
       "date": "2021-08-14",
@@ -1559,24 +1559,38 @@
       "event": "match"
     },
     {
+      "date": "2026-09-08",
+      "rating": 1677.28,
+      "opponent": "Club Brugge KV",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
       "date": "2026-09-12",
-      "rating": 1653.42,
+      "rating": 1665.26,
       "opponent": "Nottingham Forest FC",
       "competition_id": "E0",
       "event": "match"
     },
     {
       "date": "2026-09-19",
-      "rating": 1658.68,
+      "rating": 1670.14,
       "opponent": "Tottenham Hotspur FC",
       "competition_id": "E0",
       "event": "match"
     },
     {
       "date": "2026-10-10",
-      "rating": 1659.15,
+      "rating": 1670.26,
       "opponent": "Brentford FC",
       "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-14",
+      "rating": 1682.51,
+      "opponent": "Fenerbah\u00e7e SK",
+      "competition_id": "UCL",
       "event": "match"
     }
   ]

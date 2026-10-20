@@ -2,7 +2,7 @@
   "id": "feyenoord",
   "name": "Feyenoord Rotterdam",
   "league": "Eredivisie",
-  "rating": 1601.2,
+  "rating": 1606.6,
   "points": [
     {
       "date": "2021-08-15",
@@ -1288,7 +1288,7 @@
     {
       "date": "2025-08-06",
       "rating": 1595.97,
-      "opponent": "Fenerbahce",
+      "opponent": "Fenerbah\u00e7e SK",
       "competition_id": "UCL",
       "event": "match"
     },
@@ -1302,7 +1302,7 @@
     {
       "date": "2025-08-12",
       "rating": 1583.98,
-      "opponent": "Fenerbahce",
+      "opponent": "Fenerbah\u00e7e SK",
       "competition_id": "UCL",
       "event": "match"
     },
@@ -1580,24 +1580,38 @@
       "event": "match"
     },
     {
+      "date": "2026-09-09",
+      "rating": 1561.9,
+      "opponent": "FC Barcelona",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
       "date": "2026-09-13",
-      "rating": 1585.28,
+      "rating": 1579.56,
       "opponent": "PEC Zwolle",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2026-09-20",
-      "rating": 1595.22,
+      "rating": 1589.78,
       "opponent": "FC Utrecht",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2026-10-10",
-      "rating": 1601.16,
+      "rating": 1595.94,
       "opponent": "AZ Alkmaar",
       "competition_id": "N1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-14",
+      "rating": 1606.62,
+      "opponent": "Como 1907",
+      "competition_id": "UCL",
       "event": "match"
     }
   ]

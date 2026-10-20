@@ -2,7 +2,7 @@
   "id": "galatasaray",
   "name": "Galatasaray SK",
   "league": "Super Lig",
-  "rating": 1571.4,
+  "rating": 1552.3,
   "points": [
     {
       "date": "2021-08-16",
@@ -119,7 +119,7 @@
     {
       "date": "2021-11-21",
       "rating": 1472.35,
-      "opponent": "Fenerbahce",
+      "opponent": "Fenerbah\u00e7e SK",
       "competition_id": "T1",
       "event": "match"
     },
@@ -280,7 +280,7 @@
     {
       "date": "2022-04-10",
       "rating": 1430.03,
-      "opponent": "Fenerbahce",
+      "opponent": "Fenerbah\u00e7e SK",
       "competition_id": "T1",
       "event": "match"
     },
@@ -448,7 +448,7 @@
     {
       "date": "2023-01-08",
       "rating": 1582.95,
-      "opponent": "Fenerbahce",
+      "opponent": "Fenerbah\u00e7e SK",
       "competition_id": "T1",
       "event": "match"
     },
@@ -574,7 +574,7 @@
     {
       "date": "2023-06-04",
       "rating": 1666.21,
-      "opponent": "Fenerbahce",
+      "opponent": "Fenerbah\u00e7e SK",
       "competition_id": "T1",
       "event": "match"
     },
@@ -749,7 +749,7 @@
     {
       "date": "2023-12-24",
       "rating": 1635.25,
-      "opponent": "Fenerbahce",
+      "opponent": "Fenerbah\u00e7e SK",
       "competition_id": "T1",
       "event": "match"
     },
@@ -903,7 +903,7 @@
     {
       "date": "2024-05-19",
       "rating": 1704.18,
-      "opponent": "Fenerbahce",
+      "opponent": "Fenerbah\u00e7e SK",
       "competition_id": "T1",
       "event": "match"
     },
@@ -973,7 +973,7 @@
     {
       "date": "2024-09-21",
       "rating": 1638.59,
-      "opponent": "Fenerbahce",
+      "opponent": "Fenerbah\u00e7e SK",
       "competition_id": "T1",
       "event": "match"
     },
@@ -1169,7 +1169,7 @@
     {
       "date": "2025-02-24",
       "rating": 1648.76,
-      "opponent": "Fenerbahce",
+      "opponent": "Fenerbah\u00e7e SK",
       "competition_id": "T1",
       "event": "match"
     },
@@ -1393,7 +1393,7 @@
     {
       "date": "2025-12-01",
       "rating": 1653.59,
-      "opponent": "Fenerbahce",
+      "opponent": "Fenerbah\u00e7e SK",
       "competition_id": "T1",
       "event": "match"
     },
@@ -1561,7 +1561,7 @@
     {
       "date": "2026-04-26",
       "rating": 1677.74,
-      "opponent": "Fenerbahce",
+      "opponent": "Fenerbah\u00e7e SK",
       "competition_id": "T1",
       "event": "match"
     },
@@ -1622,24 +1622,38 @@
       "event": "match"
     },
     {
+      "date": "2026-09-09",
+      "rating": 1573.34,
+      "opponent": "Sporting Clube de Portugal",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
       "date": "2026-09-13",
-      "rating": 1584.08,
+      "rating": 1574.63,
       "opponent": "Kocaelispor",
       "competition_id": "T1",
       "event": "match"
     },
     {
       "date": "2026-09-19",
-      "rating": 1567.67,
+      "rating": 1558.78,
       "opponent": "Trabzonspor",
       "competition_id": "T1",
       "event": "match"
     },
     {
       "date": "2026-10-09",
-      "rating": 1571.39,
+      "rating": 1562.77,
       "opponent": "Kas\u0131mpa\u015fa SK",
       "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-13",
+      "rating": 1552.28,
+      "opponent": "FC Barcelona",
+      "competition_id": "UCL",
       "event": "match"
     }
   ]

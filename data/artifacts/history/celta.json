@@ -2,7 +2,7 @@
   "id": "celta",
   "name": "RC Celta de Vigo",
   "league": "La Liga",
-  "rating": 1582.1,
+  "rating": 1590.0,
   "points": [
     {
       "date": "2021-08-15",
@@ -1420,8 +1420,15 @@
     },
     {
       "date": "2026-10-11",
-      "rating": 1582.14,
+      "rating": 1582.16,
       "opponent": "Elche CF",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-18",
+      "rating": 1589.99,
+      "opponent": "Deportivo Alav\u00e9s",
       "competition_id": "SP1",
       "event": "match"
     }

@@ -2,7 +2,7 @@
   "id": "como",
   "name": "Como 1907",
   "league": "Serie A",
-  "rating": 1654.7,
+  "rating": 1655.1,
   "points": [
     {
       "date": "2024-07-01",
@@ -579,24 +579,38 @@
       "event": "match"
     },
     {
+      "date": "2026-09-10",
+      "rating": 1679.35,
+      "opponent": "RB Leipzig [cancelled]",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
       "date": "2026-09-14",
-      "rating": 1669.73,
+      "rating": 1681.73,
       "opponent": "Parma Calcio 1913",
       "competition_id": "I1",
       "event": "match"
     },
     {
       "date": "2026-09-20",
-      "rating": 1655.35,
+      "rating": 1666.86,
       "opponent": "Frosinone Calcio",
       "competition_id": "I1",
       "event": "match"
     },
     {
       "date": "2026-10-11",
-      "rating": 1654.66,
+      "rating": 1665.76,
       "opponent": "AS Roma",
       "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-14",
+      "rating": 1655.08,
+      "opponent": "Feyenoord Rotterdam",
+      "competition_id": "UCL",
       "event": "match"
     }
   ]

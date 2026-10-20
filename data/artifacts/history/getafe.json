@@ -2,7 +2,7 @@
   "id": "getafe",
   "name": "Getafe CF",
   "league": "La Liga",
-  "rating": 1554.6,
+  "rating": 1553.7,
   "points": [
     {
       "date": "2021-08-13",
@@ -1406,22 +1406,29 @@
     },
     {
       "date": "2026-09-17",
-      "rating": 1553.24,
+      "rating": 1553.55,
       "opponent": "Real Betis Balompi\u00e9",
       "competition_id": "SP1",
       "event": "match"
     },
     {
       "date": "2026-09-20",
-      "rating": 1556.05,
+      "rating": 1556.34,
       "opponent": "M\u00e1laga CF",
       "competition_id": "SP1",
       "event": "match"
     },
     {
       "date": "2026-10-10",
-      "rating": 1554.58,
+      "rating": 1555.0,
       "opponent": "FC Barcelona",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-19",
+      "rating": 1553.66,
+      "opponent": "Rayo Vallecano de Madrid",
       "competition_id": "SP1",
       "event": "match"
     }

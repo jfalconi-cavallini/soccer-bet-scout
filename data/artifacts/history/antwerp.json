@@ -2,7 +2,7 @@
   "id": "antwerp",
   "name": "Royal Antwerp FC",
   "league": "Belgian Pro League",
-  "rating": 1399.2,
+  "rating": 1398.9,
   "points": [
     {
       "date": "2021-07-25",
@@ -98,7 +98,7 @@
     {
       "date": "2021-10-21",
       "rating": 1485.17,
-      "opponent": "Fenerbahce",
+      "opponent": "Fenerbah\u00e7e SK",
       "competition_id": "UEL",
       "event": "match"
     },
@@ -119,7 +119,7 @@
     {
       "date": "2021-11-04",
       "rating": 1467.84,
-      "opponent": "Fenerbahce",
+      "opponent": "Fenerbah\u00e7e SK",
       "competition_id": "UEL",
       "event": "match"
     },
@@ -1476,21 +1476,21 @@
     },
     {
       "date": "2026-09-13",
-      "rating": 1418.39,
+      "rating": 1418.07,
       "opponent": "Club Brugge KV",
       "competition_id": "B1",
       "event": "match"
     },
     {
       "date": "2026-09-20",
-      "rating": 1408.46,
+      "rating": 1408.15,
       "opponent": "Royale Union Saint-Gilloise",
       "competition_id": "B1",
       "event": "match"
     },
     {
       "date": "2026-10-11",
-      "rating": 1399.2,
+      "rating": 1398.9,
       "opponent": "KVC Westerlo",
       "competition_id": "B1",
       "event": "match"

@@ -2,7 +2,7 @@
   "id": "real-madrid",
   "name": "Real Madrid CF",
   "league": "La Liga",
-  "rating": 1745.2,
+  "rating": 1769.6,
   "points": [
     {
       "date": "2021-08-14",
@@ -1860,30 +1860,51 @@
       "event": "match"
     },
     {
+      "date": "2026-09-08",
+      "rating": 1750.96,
+      "opponent": "FC Internazionale Milano",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
       "date": "2026-09-12",
-      "rating": 1746.7,
+      "rating": 1754.11,
       "opponent": "Rayo Vallecano de Madrid",
       "competition_id": "SP1",
       "event": "match"
     },
     {
       "date": "2026-09-15",
-      "rating": 1752.56,
+      "rating": 1759.76,
       "opponent": "Elche CF",
       "competition_id": "SP1",
       "event": "match"
     },
     {
       "date": "2026-09-20",
-      "rating": 1743.32,
+      "rating": 1750.09,
       "opponent": "Club Atl\u00e9tico de Madrid",
       "competition_id": "SP1",
       "event": "match"
     },
     {
       "date": "2026-10-10",
-      "rating": 1745.18,
+      "rating": 1751.66,
       "opponent": "Villarreal CF",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-14",
+      "rating": 1763.34,
+      "opponent": "AS Roma",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-18",
+      "rating": 1769.6,
+      "opponent": "Sevilla FC",
       "competition_id": "SP1",
       "event": "match"
     }

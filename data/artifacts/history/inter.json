@@ -2,7 +2,7 @@
   "id": "inter",
   "name": "FC Internazionale Milano",
   "league": "Serie A",
-  "rating": 1725.5,
+  "rating": 1702.3,
   "points": [
     {
       "date": "2021-08-21",
@@ -1769,24 +1769,38 @@
       "event": "match"
     },
     {
+      "date": "2026-09-08",
+      "rating": 1707.43,
+      "opponent": "Real Madrid CF",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
       "date": "2026-09-14",
-      "rating": 1719.47,
+      "rating": 1712.03,
       "opponent": "Udinese Calcio",
       "competition_id": "I1",
       "event": "match"
     },
     {
       "date": "2026-09-19",
-      "rating": 1722.8,
+      "rating": 1715.54,
       "opponent": "AS Roma",
       "competition_id": "I1",
       "event": "match"
     },
     {
       "date": "2026-10-10",
-      "rating": 1725.49,
+      "rating": 1718.44,
       "opponent": "Parma Calcio 1913",
       "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-13",
+      "rating": 1702.26,
+      "opponent": "Club Brugge KV",
+      "competition_id": "UCL",
       "event": "match"
     }
   ]

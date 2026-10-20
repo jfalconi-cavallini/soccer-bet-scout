@@ -2,7 +2,7 @@
   "id": "liverpool",
   "name": "Liverpool FC",
   "league": "Premier League",
-  "rating": 1687.1,
+  "rating": 1704.0,
   "points": [
     {
       "date": "2021-08-14",
@@ -735,7 +735,7 @@
     {
       "date": "2023-09-21",
       "rating": 1770.37,
-      "opponent": "LASK",
+      "opponent": "LASK Linz",
       "competition_id": "UEL",
       "event": "match"
     },
@@ -819,7 +819,7 @@
     {
       "date": "2023-11-30",
       "rating": 1784.74,
-      "opponent": "LASK",
+      "opponent": "LASK Linz",
       "competition_id": "UEL",
       "event": "match"
     },
@@ -1762,24 +1762,38 @@
       "event": "match"
     },
     {
+      "date": "2026-09-09",
+      "rating": 1699.73,
+      "opponent": "Club Atl\u00e9tico de Madrid",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
       "date": "2026-09-12",
-      "rating": 1689.19,
+      "rating": 1696.28,
       "opponent": "Fulham FC",
       "competition_id": "E0",
       "event": "match"
     },
     {
       "date": "2026-09-20",
-      "rating": 1698.86,
+      "rating": 1705.73,
       "opponent": "AFC Bournemouth",
       "competition_id": "E0",
       "event": "match"
     },
     {
       "date": "2026-10-11",
-      "rating": 1687.1,
+      "rating": 1694.37,
       "opponent": "Manchester City FC",
       "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-14",
+      "rating": 1703.97,
+      "opponent": "LASK Linz",
+      "competition_id": "UCL",
       "event": "match"
     }
   ]

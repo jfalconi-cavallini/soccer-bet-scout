@@ -2,7 +2,7 @@
   "id": "paris-saint-germain",
   "name": "Paris Saint-Germain FC",
   "league": "Ligue 1",
-  "rating": 1727.6,
+  "rating": 1753.2,
   "points": [
     {
       "date": "2021-08-07",
@@ -1741,24 +1741,38 @@
       "event": "match"
     },
     {
+      "date": "2026-09-09",
+      "rating": 1719.31,
+      "opponent": "\u0160K Slovan Bratislava",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
       "date": "2026-09-13",
-      "rating": 1717.87,
+      "rating": 1720.74,
       "opponent": "Stade Brestois 29",
       "competition_id": "F1",
       "event": "match"
     },
     {
       "date": "2026-09-20",
-      "rating": 1725.55,
+      "rating": 1728.33,
       "opponent": "Olympique de Marseille",
       "competition_id": "F1",
       "event": "match"
     },
     {
       "date": "2026-10-10",
-      "rating": 1727.63,
+      "rating": 1730.36,
       "opponent": "Le Mans FC",
       "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-14",
+      "rating": 1753.19,
+      "opponent": "Manchester City FC",
+      "competition_id": "UCL",
       "event": "match"
     }
   ]
