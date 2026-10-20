@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T03:26:45+00:00",
+  "generated_at": "2026-10-20T04:02:56+00:00",
   "timezone": "America/Chicago",
   "through": "2026-10-20",
   "season": "2026-27",
@@ -16,76 +16,91 @@
     {
       "id": "E0",
       "name": "Premier League",
-      "country": "England"
+      "country": "England",
+      "data_through": "2026-10-12"
     },
     {
       "id": "SP1",
       "name": "La Liga",
-      "country": "Spain"
+      "country": "Spain",
+      "data_through": "2026-10-12"
     },
     {
       "id": "I1",
       "name": "Serie A",
-      "country": "Italy"
+      "country": "Italy",
+      "data_through": "2026-10-12"
     },
     {
       "id": "D1",
       "name": "Bundesliga",
-      "country": "Germany"
+      "country": "Germany",
+      "data_through": "2026-10-11"
     },
     {
       "id": "F1",
       "name": "Ligue 1",
-      "country": "France"
+      "country": "France",
+      "data_through": "2026-10-11"
     },
     {
       "id": "N1",
       "name": "Eredivisie",
-      "country": "Netherlands"
+      "country": "Netherlands",
+      "data_through": "2026-10-11"
     },
     {
       "id": "P1",
       "name": "Primeira Liga",
-      "country": "Portugal"
+      "country": "Portugal",
+      "data_through": "2026-10-12"
     },
     {
       "id": "B1",
       "name": "Belgian Pro League",
-      "country": "Belgium"
+      "country": "Belgium",
+      "data_through": "2026-10-11"
     },
     {
       "id": "T1",
       "name": "Super Lig",
-      "country": "Turkey"
+      "country": "Turkey",
+      "data_through": "2026-10-12"
     },
     {
       "id": "G1",
       "name": "Super League Greece",
-      "country": "Greece"
+      "country": "Greece",
+      "data_through": "2026-10-12"
     },
     {
       "id": "SC0",
       "name": "Scottish Premiership",
-      "country": "Scotland"
+      "country": "Scotland",
+      "data_through": "2026-10-11"
     },
     {
       "id": "AT1",
       "name": "Austrian Bundesliga",
-      "country": "Austria"
+      "country": "Austria",
+      "data_through": "2025-11-02"
     }
   ],
   "tournaments": [
     {
       "id": "UCL",
-      "name": "Champions League"
+      "name": "Champions League 2025-26 entrants",
+      "season": "2025-26"
     },
     {
       "id": "UEL",
-      "name": "Europa League"
+      "name": "Europa League 2025-26 entrants",
+      "season": "2025-26"
     },
     {
       "id": "UECL",
-      "name": "Conference League"
+      "name": "Conference League 2025-26 entrants",
+      "season": "2025-26"
     }
   ],
   "clubelo": {
@@ -98,6 +113,8 @@
     "pending": 143,
     "brier": null,
     "bins": [],
+    "draw_bins": [],
+    "away_bins": [],
     "note": "No settled predictions yet. The next rebuild scores matches once they are played."
   }
 }

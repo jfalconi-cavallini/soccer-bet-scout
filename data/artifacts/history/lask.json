@@ -2,1194 +2,1194 @@
   "id": "lask",
   "name": "LASK",
   "league": "Austrian Bundesliga",
-  "rating": 1485.8,
+  "rating": 1434.8,
   "points": [
     {
       "date": "2021-07-24",
-      "rating": 1506.82,
+      "rating": 1467.0,
       "opponent": "SCR Altach",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2021-07-31",
-      "rating": 1503.69,
+      "rating": 1463.52,
       "opponent": "Rapid Wien",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2021-08-08",
-      "rating": 1506.07,
+      "rating": 1465.7,
       "opponent": "WSG Tirol",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2021-08-15",
-      "rating": 1491.43,
+      "rating": 1445.69,
       "opponent": "SK Sturm Graz",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2021-08-22",
-      "rating": 1489.26,
+      "rating": 1443.26,
       "opponent": "TSV Hartberg",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2021-08-29",
-      "rating": 1487.11,
+      "rating": 1434.67,
       "opponent": "SV Ried",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2021-09-12",
-      "rating": 1472.41,
+      "rating": 1414.48,
       "opponent": "Austria Wien",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2021-09-16",
-      "rating": 1488.62,
+      "rating": 1430.53,
       "opponent": "HJK Helsinki",
       "competition_id": "UECL",
       "event": "match"
     },
     {
       "date": "2021-09-19",
-      "rating": 1490.99,
+      "rating": 1433.26,
       "opponent": "SK Austria Klagenfurt",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2021-09-26",
-      "rating": 1498.8,
+      "rating": 1446.54,
       "opponent": "FC Admira Wacker",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2021-09-30",
-      "rating": 1496.71,
+      "rating": 1441.14,
       "opponent": "Maccabi Tel Aviv",
       "competition_id": "UECL",
       "event": "match"
     },
     {
       "date": "2021-10-03",
-      "rating": 1492.62,
+      "rating": 1433.89,
       "opponent": "FC Red Bull Salzburg",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2021-10-17",
-      "rating": 1485.13,
+      "rating": 1420.13,
       "opponent": "Wolfsberger AC",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2021-10-21",
-      "rating": 1505.16,
+      "rating": 1436.61,
       "opponent": "FC Alashkert",
       "competition_id": "UECL",
       "event": "match"
     },
     {
       "date": "2021-10-24",
-      "rating": 1497.07,
+      "rating": 1422.21,
       "opponent": "SCR Altach",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2021-10-31",
-      "rating": 1495.04,
+      "rating": 1413.97,
       "opponent": "Rapid Wien",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2021-11-04",
-      "rating": 1500.72,
+      "rating": 1421.21,
       "opponent": "FC Alashkert",
       "competition_id": "UECL",
       "event": "match"
     },
     {
       "date": "2021-11-07",
-      "rating": 1511.09,
+      "rating": 1436.15,
       "opponent": "WSG Tirol",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2021-11-21",
-      "rating": 1513.14,
+      "rating": 1439.23,
       "opponent": "SK Sturm Graz",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2021-11-25",
-      "rating": 1520.99,
+      "rating": 1450.98,
       "opponent": "Maccabi Tel Aviv",
       "competition_id": "UECL",
       "event": "match"
     },
     {
       "date": "2021-11-28",
-      "rating": 1518.59,
+      "rating": 1442.23,
       "opponent": "TSV Hartberg",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2021-12-05",
-      "rating": 1519.06,
+      "rating": 1450.53,
       "opponent": "SV Ried",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2021-12-09",
-      "rating": 1528.37,
+      "rating": 1458.59,
       "opponent": "HJK Helsinki",
       "competition_id": "UECL",
       "event": "match"
     },
     {
       "date": "2021-12-12",
-      "rating": 1534.86,
+      "rating": 1472.42,
       "opponent": "Austria Wien",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2022-02-13",
-      "rating": 1531.37,
+      "rating": 1469.69,
       "opponent": "SK Austria Klagenfurt",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2022-02-19",
-      "rating": 1549.48,
+      "rating": 1490.01,
       "opponent": "FC Admira Wacker",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2022-03-02",
-      "rating": 1548.47,
+      "rating": 1491.45,
       "opponent": "FC Red Bull Salzburg",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2022-03-06",
-      "rating": 1545.4,
+      "rating": 1482.52,
       "opponent": "Wolfsberger AC",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2022-03-10",
-      "rating": 1531.93,
+      "rating": 1462.19,
       "opponent": "SK Slavia Praha",
       "competition_id": "UECL",
       "event": "match"
     },
     {
       "date": "2022-03-13",
-      "rating": 1545.82,
+      "rating": 1477.23,
       "opponent": "WSG Tirol",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2022-03-17",
-      "rating": 1547.22,
+      "rating": 1483.65,
       "opponent": "SK Slavia Praha",
       "competition_id": "UECL",
       "event": "match"
     },
     {
       "date": "2022-03-20",
-      "rating": 1547.46,
+      "rating": 1483.62,
       "opponent": "TSV Hartberg",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2022-04-02",
-      "rating": 1528.74,
+      "rating": 1460.1,
       "opponent": "SV Ried",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2022-04-09",
-      "rating": 1529.78,
+      "rating": 1461.09,
       "opponent": "FC Admira Wacker",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2022-04-16",
-      "rating": 1528.92,
+      "rating": 1460.01,
       "opponent": "SCR Altach",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2022-04-23",
-      "rating": 1527.88,
+      "rating": 1465.47,
       "opponent": "SCR Altach",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2022-04-26",
-      "rating": 1508.95,
+      "rating": 1446.26,
       "opponent": "WSG Tirol",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2022-05-07",
-      "rating": 1505.93,
+      "rating": 1442.84,
       "opponent": "TSV Hartberg",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2022-05-14",
-      "rating": 1506.9,
+      "rating": 1443.87,
       "opponent": "SV Ried",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2022-05-20",
-      "rating": 1511.85,
+      "rating": 1453.69,
       "opponent": "FC Admira Wacker",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2022-05-23",
-      "rating": 1509.0,
+      "rating": 1444.5,
       "opponent": "WSG Tirol",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2022-07-01",
-      "rating": 1505.1,
+      "rating": 1446.88,
       "opponent": null,
       "competition_id": null,
       "event": "season"
     },
     {
       "date": "2022-07-23",
-      "rating": 1511.17,
+      "rating": 1458.51,
       "opponent": "SK Austria Klagenfurt",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2022-07-31",
-      "rating": 1513.62,
+      "rating": 1461.56,
       "opponent": "Austria Wien",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2022-08-06",
-      "rating": 1536.54,
+      "rating": 1486.76,
       "opponent": "Wolfsberger AC",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2022-08-14",
-      "rating": 1537.74,
+      "rating": 1495.26,
       "opponent": "Rapid Wien",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2022-08-20",
-      "rating": 1544.41,
+      "rating": 1509.23,
       "opponent": "SK Sturm Graz",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2022-08-27",
-      "rating": 1551.48,
+      "rating": 1517.93,
       "opponent": "SCR Altach",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2022-09-04",
-      "rating": 1546.34,
+      "rating": 1511.85,
       "opponent": "SV Ried",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2022-09-11",
-      "rating": 1546.37,
+      "rating": 1511.35,
       "opponent": "Austria Lustenau",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2022-09-17",
-      "rating": 1521.52,
+      "rating": 1482.47,
       "opponent": "WSG Tirol",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2022-10-01",
-      "rating": 1526.93,
+      "rating": 1488.96,
       "opponent": "FC Red Bull Salzburg",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2022-10-08",
-      "rating": 1502.2,
+      "rating": 1459.61,
       "opponent": "TSV Hartberg",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2022-10-15",
-      "rating": 1516.37,
+      "rating": 1479.13,
       "opponent": "SK Austria Klagenfurt",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2022-10-23",
-      "rating": 1512.95,
+      "rating": 1475.69,
       "opponent": "Austria Wien",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2022-10-30",
-      "rating": 1523.98,
+      "rating": 1488.57,
       "opponent": "Wolfsberger AC",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2022-11-06",
-      "rating": 1521.94,
+      "rating": 1479.07,
       "opponent": "Rapid Wien",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2022-11-13",
-      "rating": 1520.35,
+      "rating": 1478.86,
       "opponent": "SK Sturm Graz",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2023-02-12",
-      "rating": 1524.15,
+      "rating": 1488.51,
       "opponent": "SCR Altach",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2023-02-18",
-      "rating": 1523.85,
+      "rating": 1486.79,
       "opponent": "SV Ried",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2023-02-24",
-      "rating": 1523.69,
+      "rating": 1492.71,
       "opponent": "Austria Lustenau",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2023-03-05",
-      "rating": 1529.57,
+      "rating": 1504.96,
       "opponent": "WSG Tirol",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2023-03-12",
-      "rating": 1519.12,
+      "rating": 1492.1,
       "opponent": "FC Red Bull Salzburg",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2023-03-19",
-      "rating": 1518.67,
+      "rating": 1489.77,
       "opponent": "TSV Hartberg",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2023-04-02",
-      "rating": 1520.63,
+      "rating": 1491.2,
       "opponent": "Austria Wien",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2023-04-09",
-      "rating": 1524.28,
+      "rating": 1502.82,
       "opponent": "SK Sturm Graz",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2023-04-16",
-      "rating": 1529.76,
+      "rating": 1509.52,
       "opponent": "FC Red Bull Salzburg",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2023-04-23",
-      "rating": 1536.72,
+      "rating": 1520.66,
       "opponent": "Rapid Wien",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2023-04-30",
-      "rating": 1546.27,
+      "rating": 1530.13,
       "opponent": "SK Austria Klagenfurt",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2023-05-07",
-      "rating": 1545.15,
+      "rating": 1527.96,
       "opponent": "SK Austria Klagenfurt",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2023-05-14",
-      "rating": 1541.24,
+      "rating": 1519.15,
       "opponent": "FC Red Bull Salzburg",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2023-05-21",
-      "rating": 1542.62,
+      "rating": 1519.43,
       "opponent": "Rapid Wien",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2023-05-28",
-      "rating": 1548.43,
+      "rating": 1529.17,
       "opponent": "Austria Wien",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2023-06-03",
-      "rating": 1542.15,
+      "rating": 1518.42,
       "opponent": "SK Sturm Graz",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2023-07-01",
-      "rating": 1524.43,
+      "rating": 1492.96,
       "opponent": null,
       "competition_id": null,
       "event": "season"
     },
     {
       "date": "2023-07-28",
-      "rating": 1521.19,
+      "rating": 1489.13,
       "opponent": "Rapid Wien",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2023-08-05",
-      "rating": 1515.77,
+      "rating": 1479.27,
       "opponent": "SK Sturm Graz",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2023-08-12",
-      "rating": 1519.7,
+      "rating": 1486.55,
       "opponent": "FC Blau Wei\u00df Linz",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2023-08-19",
-      "rating": 1519.65,
+      "rating": 1485.23,
       "opponent": "WSG Tirol",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2023-08-27",
-      "rating": 1526.14,
+      "rating": 1496.27,
       "opponent": "Austria Wien",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2023-09-03",
-      "rating": 1529.75,
+      "rating": 1503.83,
       "opponent": "Austria Lustenau",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2023-09-16",
-      "rating": 1542.9,
+      "rating": 1521.49,
       "opponent": "SK Austria Klagenfurt",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2023-09-21",
-      "rating": 1531.41,
+      "rating": 1512.07,
       "opponent": "Liverpool FC",
       "competition_id": "UEL",
       "event": "match"
     },
     {
       "date": "2023-09-24",
-      "rating": 1526.78,
+      "rating": 1506.7,
       "opponent": "TSV Hartberg",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2023-09-30",
-      "rating": 1523.51,
+      "rating": 1495.96,
       "opponent": "Wolfsberger AC",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2023-10-05",
-      "rating": 1520.98,
+      "rating": 1487.47,
       "opponent": "Toulouse FC",
       "competition_id": "UEL",
       "event": "match"
     },
     {
       "date": "2023-10-08",
-      "rating": 1520.82,
+      "rating": 1493.28,
       "opponent": "SCR Altach",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2023-10-21",
-      "rating": 1530.42,
+      "rating": 1510.59,
       "opponent": "FC Red Bull Salzburg",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2023-10-26",
-      "rating": 1530.08,
+      "rating": 1504.49,
       "opponent": "Royale Union Saint-Gilloise",
       "competition_id": "UEL",
       "event": "match"
     },
     {
       "date": "2023-10-29",
-      "rating": 1532.44,
+      "rating": 1505.57,
       "opponent": "Rapid Wien",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2023-11-05",
-      "rating": 1541.56,
+      "rating": 1521.46,
       "opponent": "SK Sturm Graz",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2023-11-09",
-      "rating": 1556.35,
+      "rating": 1541.76,
       "opponent": "Royale Union Saint-Gilloise",
       "competition_id": "UEL",
       "event": "match"
     },
     {
       "date": "2023-11-12",
-      "rating": 1542.55,
+      "rating": 1519.95,
       "opponent": "FC Blau Wei\u00df Linz",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2023-11-25",
-      "rating": 1541.08,
+      "rating": 1523.72,
       "opponent": "WSG Tirol",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2023-11-30",
-      "rating": 1532.13,
+      "rating": 1518.51,
       "opponent": "Liverpool FC",
       "competition_id": "UEL",
       "event": "match"
     },
     {
       "date": "2023-12-03",
-      "rating": 1533.9,
+      "rating": 1519.05,
       "opponent": "Austria Wien",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2023-12-09",
-      "rating": 1540.87,
+      "rating": 1527.92,
       "opponent": "Austria Lustenau",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2023-12-14",
-      "rating": 1532.16,
+      "rating": 1512.79,
       "opponent": "Toulouse FC",
       "competition_id": "UEL",
       "event": "match"
     },
     {
       "date": "2024-02-11",
-      "rating": 1527.61,
+      "rating": 1508.01,
       "opponent": "SK Austria Klagenfurt",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2024-02-18",
-      "rating": 1529.09,
+      "rating": 1508.67,
       "opponent": "TSV Hartberg",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2024-02-24",
-      "rating": 1520.89,
+      "rating": 1492.95,
       "opponent": "Wolfsberger AC",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2024-03-03",
-      "rating": 1520.13,
+      "rating": 1490.15,
       "opponent": "SCR Altach",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2024-03-09",
-      "rating": 1515.84,
+      "rating": 1480.68,
       "opponent": "FC Red Bull Salzburg",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2024-03-15",
-      "rating": 1519.3,
+      "rating": 1483.76,
       "opponent": "Rapid Wien",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2024-03-31",
-      "rating": 1519.36,
+      "rating": 1490.7,
       "opponent": "SK Austria Klagenfurt",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2024-04-07",
-      "rating": 1519.28,
+      "rating": 1484.31,
       "opponent": "SK Sturm Graz",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2024-04-12",
-      "rating": 1531.35,
+      "rating": 1504.41,
       "opponent": "FC Red Bull Salzburg",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2024-04-21",
-      "rating": 1513.28,
+      "rating": 1480.15,
       "opponent": "TSV Hartberg",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2024-04-24",
-      "rating": 1518.99,
+      "rating": 1492.13,
       "opponent": "TSV Hartberg",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2024-04-28",
-      "rating": 1537.05,
+      "rating": 1509.34,
       "opponent": "Rapid Wien",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2024-05-05",
-      "rating": 1548.6,
+      "rating": 1525.66,
       "opponent": "SK Austria Klagenfurt",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2024-05-12",
-      "rating": 1547.74,
+      "rating": 1525.6,
       "opponent": "SK Sturm Graz",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2024-05-19",
-      "rating": 1533.42,
+      "rating": 1512.36,
       "opponent": "FC Red Bull Salzburg",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2024-07-01",
-      "rating": 1516.78,
+      "rating": 1486.23,
       "opponent": null,
       "competition_id": null,
       "event": "season"
     },
     {
       "date": "2024-08-03",
-      "rating": 1522.45,
+      "rating": 1497.91,
       "opponent": "TSV Hartberg",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2024-08-10",
-      "rating": 1513.23,
+      "rating": 1480.7,
       "opponent": "SCR Altach",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2024-08-17",
-      "rating": 1508.74,
+      "rating": 1470.41,
       "opponent": "FC Red Bull Salzburg",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2024-08-22",
-      "rating": 1506.51,
+      "rating": 1464.83,
       "opponent": "FCSB",
       "competition_id": "UEL",
       "event": "match"
     },
     {
       "date": "2024-08-25",
-      "rating": 1504.24,
+      "rating": 1455.83,
       "opponent": "Austria Wien",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2024-08-29",
-      "rating": 1502.86,
+      "rating": 1444.39,
       "opponent": "FCSB",
       "competition_id": "UEL",
       "event": "match"
     },
     {
       "date": "2024-09-01",
-      "rating": 1477.64,
+      "rating": 1417.87,
       "opponent": "Wolfsberger AC",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2024-09-14",
-      "rating": 1475.03,
+      "rating": 1408.38,
       "opponent": "FC Blau Wei\u00df Linz",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2024-09-21",
-      "rating": 1480.3,
+      "rating": 1418.22,
       "opponent": "Grazer AK",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2024-09-28",
-      "rating": 1484.38,
+      "rating": 1423.39,
       "opponent": "Rapid Wien",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2024-10-03",
-      "rating": 1483.19,
+      "rating": 1419.64,
       "opponent": "Djurg\u00e5rdens IF",
       "competition_id": "UECL",
       "event": "match"
     },
     {
       "date": "2024-10-06",
-      "rating": 1496.27,
+      "rating": 1435.33,
       "opponent": "SK Austria Klagenfurt",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2024-10-20",
-      "rating": 1501.19,
+      "rating": 1446.24,
       "opponent": "WSG Tirol",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2024-10-24",
-      "rating": 1495.03,
+      "rating": 1430.43,
       "opponent": "Olimpija Ljubljana",
       "competition_id": "UECL",
       "event": "match"
     },
     {
       "date": "2024-10-27",
-      "rating": 1490.2,
+      "rating": 1420.37,
       "opponent": "SK Sturm Graz",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2024-11-02",
-      "rating": 1487.47,
+      "rating": 1418.43,
       "opponent": "TSV Hartberg",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2024-11-07",
-      "rating": 1485.72,
+      "rating": 1416.87,
       "opponent": "Cercle Brugge",
       "competition_id": "UECL",
       "event": "match"
     },
     {
       "date": "2024-11-10",
-      "rating": 1490.99,
+      "rating": 1427.9,
       "opponent": "SCR Altach",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2024-11-23",
-      "rating": 1498.87,
+      "rating": 1443.48,
       "opponent": "FC Red Bull Salzburg",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2024-11-28",
-      "rating": 1497.06,
+      "rating": 1431.49,
       "opponent": "Borac Banja Luka",
       "competition_id": "UECL",
       "event": "match"
     },
     {
       "date": "2024-12-01",
-      "rating": 1482.77,
+      "rating": 1414.16,
       "opponent": "Austria Wien",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2024-12-07",
-      "rating": 1481.48,
+      "rating": 1406.55,
       "opponent": "Wolfsberger AC",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2024-12-12",
-      "rating": 1470.43,
+      "rating": 1400.43,
       "opponent": "ACF Fiorentina",
       "competition_id": "UECL",
       "event": "match"
     },
     {
       "date": "2024-12-19",
-      "rating": 1469.33,
+      "rating": 1396.47,
       "opponent": "V\u00edkingur Reykjav\u00edk",
       "competition_id": "UECL",
       "event": "match"
     },
     {
       "date": "2025-02-09",
-      "rating": 1466.74,
+      "rating": 1394.2,
       "opponent": "FC Blau Wei\u00df Linz",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2025-02-16",
-      "rating": 1467.46,
+      "rating": 1394.63,
       "opponent": "Grazer AK",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2025-02-23",
-      "rating": 1471.39,
+      "rating": 1406.09,
       "opponent": "Rapid Wien",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2025-03-02",
-      "rating": 1476.46,
+      "rating": 1418.12,
       "opponent": "SK Austria Klagenfurt",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2025-03-09",
-      "rating": 1477.06,
+      "rating": 1424.68,
       "opponent": "WSG Tirol",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2025-03-16",
-      "rating": 1472.63,
+      "rating": 1416.83,
       "opponent": "SK Sturm Graz",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2025-03-28",
-      "rating": 1485.23,
+      "rating": 1432.76,
       "opponent": "SCR Altach",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2025-04-05",
-      "rating": 1484.42,
+      "rating": 1437.59,
       "opponent": "Grazer AK",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2025-04-12",
-      "rating": 1490.51,
+      "rating": 1449.99,
       "opponent": "TSV Hartberg",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2025-04-18",
-      "rating": 1494.96,
+      "rating": 1457.87,
       "opponent": "WSG Tirol",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2025-04-22",
-      "rating": 1510.24,
+      "rating": 1473.99,
       "opponent": "SK Austria Klagenfurt",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2025-04-26",
-      "rating": 1520.71,
+      "rating": 1482.99,
       "opponent": "SK Austria Klagenfurt",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2025-05-03",
-      "rating": 1530.18,
+      "rating": 1495.3,
       "opponent": "WSG Tirol",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2025-05-10",
-      "rating": 1526.06,
+      "rating": 1490.48,
       "opponent": "TSV Hartberg",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2025-05-17",
-      "rating": 1519.77,
+      "rating": 1475.78,
       "opponent": "Grazer AK",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2025-05-23",
-      "rating": 1514.26,
+      "rating": 1469.0,
       "opponent": "SCR Altach",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2025-05-26",
-      "rating": 1520.31,
+      "rating": 1480.13,
       "opponent": "TSV Hartberg",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2025-05-29",
-      "rating": 1527.67,
+      "rating": 1491.92,
       "opponent": "Rapid Wien",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2025-07-01",
-      "rating": 1511.21,
+      "rating": 1469.45,
       "opponent": null,
       "competition_id": null,
       "event": "season"
     },
     {
       "date": "2025-08-01",
-      "rating": 1497.14,
+      "rating": 1451.14,
       "opponent": "SK Sturm Graz",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2025-08-10",
-      "rating": 1487.07,
+      "rating": 1434.48,
       "opponent": "WSG Tirol",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2025-08-17",
-      "rating": 1489.97,
+      "rating": 1443.96,
       "opponent": "Austria Wien",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2025-08-23",
-      "rating": 1480.89,
+      "rating": 1432.56,
       "opponent": "FC Red Bull Salzburg",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2025-08-30",
-      "rating": 1462.76,
+      "rating": 1408.07,
       "opponent": "SV Ried",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2025-09-13",
-      "rating": 1460.55,
+      "rating": 1398.46,
       "opponent": "SCR Altach",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2025-09-21",
-      "rating": 1467.49,
+      "rating": 1409.68,
       "opponent": "FC Blau Wei\u00df Linz",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2025-09-27",
-      "rating": 1467.83,
+      "rating": 1403.61,
       "opponent": "Wolfsberger AC",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2025-10-05",
-      "rating": 1466.07,
+      "rating": 1401.89,
       "opponent": "TSV Hartberg",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2025-10-19",
-      "rating": 1483.37,
+      "rating": 1424.71,
       "opponent": "Rapid Wien",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2025-10-25",
-      "rating": 1482.5,
+      "rating": 1430.0,
       "opponent": "Grazer AK",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2025-11-01",
-      "rating": 1488.03,
+      "rating": 1441.19,
       "opponent": "FC Blau Wei\u00df Linz",
       "competition_id": "AT1",
       "event": "match"
     },
     {
       "date": "2026-07-01",
-      "rating": 1485.81,
+      "rating": 1434.81,
       "opponent": null,
       "competition_id": null,
       "event": "season"

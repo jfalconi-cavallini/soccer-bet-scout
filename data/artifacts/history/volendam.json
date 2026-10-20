@@ -2,753 +2,753 @@
   "id": "volendam",
   "name": "Volendam",
   "league": "Eredivisie",
-  "rating": 1447.3,
+  "rating": 1381.7,
   "points": [
     {
       "date": "2022-07-01",
-      "rating": 1468.18,
+      "rating": 1410.4,
       "opponent": null,
       "competition_id": null,
       "event": "season"
     },
     {
       "date": "2022-08-07",
-      "rating": 1470.86,
+      "rating": 1413.13,
       "opponent": "FC Groningen",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2022-08-14",
-      "rating": 1450.07,
+      "rating": 1389.47,
       "opponent": "Nijmegen",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2022-08-28",
-      "rating": 1455.37,
+      "rating": 1403.53,
       "opponent": "FC Twente '65",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2022-08-31",
-      "rating": 1446.87,
+      "rating": 1396.66,
       "opponent": "PSV Eindhoven",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2022-09-03",
-      "rating": 1434.49,
+      "rating": 1383.11,
       "opponent": "Sparta Rotterdam",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2022-09-09",
-      "rating": 1428.12,
+      "rating": 1369.16,
       "opponent": "Go Ahead Eagles",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2022-09-17",
-      "rating": 1431.37,
+      "rating": 1372.88,
       "opponent": "Vitesse",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2022-10-02",
-      "rating": 1424.0,
+      "rating": 1360.3,
       "opponent": "Fortuna Sittard",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2022-10-08",
-      "rating": 1418.52,
+      "rating": 1352.36,
       "opponent": "AFC Ajax",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2022-10-14",
-      "rating": 1421.25,
+      "rating": 1355.08,
       "opponent": "FC Emmen",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2022-10-23",
-      "rating": 1410.06,
+      "rating": 1340.19,
       "opponent": "SC Heerenveen",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2022-10-30",
-      "rating": 1412.45,
+      "rating": 1336.89,
       "opponent": "AZ Alkmaar",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2022-11-06",
-      "rating": 1407.12,
+      "rating": 1329.03,
       "opponent": "Feyenoord Rotterdam",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2022-11-12",
-      "rating": 1388.61,
+      "rating": 1312.57,
       "opponent": "FC Utrecht",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2023-01-08",
-      "rating": 1412.31,
+      "rating": 1338.73,
       "opponent": "SC Cambuur-Leeuwarden",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2023-01-14",
-      "rating": 1416.47,
+      "rating": 1350.66,
       "opponent": "Waalwijk",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2023-01-20",
-      "rating": 1409.68,
+      "rating": 1339.06,
       "opponent": "SBV Excelsior",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2023-01-26",
-      "rating": 1417.25,
+      "rating": 1347.71,
       "opponent": "AFC Ajax",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2023-01-29",
-      "rating": 1419.36,
+      "rating": 1356.05,
       "opponent": "FC Groningen",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2023-02-04",
-      "rating": 1422.23,
+      "rating": 1360.71,
       "opponent": "AZ Alkmaar",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2023-02-12",
-      "rating": 1417.57,
+      "rating": 1355.1,
       "opponent": "FC Twente '65",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2023-02-18",
-      "rating": 1428.3,
+      "rating": 1372.36,
       "opponent": "Vitesse",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2023-02-25",
-      "rating": 1420.36,
+      "rating": 1361.73,
       "opponent": "Nijmegen",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2023-03-04",
-      "rating": 1427.96,
+      "rating": 1373.95,
       "opponent": "FC Emmen",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2023-03-12",
-      "rating": 1431.2,
+      "rating": 1371.6,
       "opponent": "Feyenoord Rotterdam",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2023-03-17",
-      "rating": 1433.4,
+      "rating": 1381.03,
       "opponent": "Fortuna Sittard",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2023-04-02",
-      "rating": 1438.25,
+      "rating": 1386.39,
       "opponent": "FC Utrecht",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2023-04-08",
-      "rating": 1437.59,
+      "rating": 1379.28,
       "opponent": "SC Heerenveen",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2023-04-16",
-      "rating": 1436.98,
+      "rating": 1373.91,
       "opponent": "PSV Eindhoven",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2023-04-21",
-      "rating": 1442.21,
+      "rating": 1383.19,
       "opponent": "SC Cambuur-Leeuwarden",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2023-05-05",
-      "rating": 1432.51,
+      "rating": 1371.44,
       "opponent": "Waalwijk",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2023-05-13",
-      "rating": 1438.02,
+      "rating": 1384.99,
       "opponent": "Sparta Rotterdam",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2023-05-21",
-      "rating": 1427.49,
+      "rating": 1371.73,
       "opponent": "Go Ahead Eagles",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2023-05-28",
-      "rating": 1428.88,
+      "rating": 1379.78,
       "opponent": "SBV Excelsior",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2023-07-01",
-      "rating": 1454.21,
+      "rating": 1409.46,
       "opponent": null,
       "competition_id": null,
       "event": "season"
     },
     {
       "date": "2023-08-11",
-      "rating": 1449.05,
+      "rating": 1397.66,
       "opponent": "Vitesse",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2023-08-19",
-      "rating": 1438.22,
+      "rating": 1384.16,
       "opponent": "Go Ahead Eagles",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2023-09-03",
-      "rating": 1430.77,
+      "rating": 1373.26,
       "opponent": "FC Twente '65",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2023-09-16",
-      "rating": 1424.55,
+      "rating": 1362.52,
       "opponent": "Fortuna Sittard",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2023-09-23",
-      "rating": 1421.98,
+      "rating": 1359.88,
       "opponent": "Heracles",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2023-09-30",
-      "rating": 1422.17,
+      "rating": 1356.53,
       "opponent": "PSV Eindhoven",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2023-10-06",
-      "rating": 1425.28,
+      "rating": 1366.91,
       "opponent": "FC Utrecht",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2023-10-21",
-      "rating": 1424.15,
+      "rating": 1359.44,
       "opponent": "Waalwijk",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2023-10-29",
-      "rating": 1432.91,
+      "rating": 1374.2,
       "opponent": "SBV Excelsior",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2023-11-02",
-      "rating": 1429.58,
+      "rating": 1366.78,
       "opponent": "AFC Ajax",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2023-11-05",
-      "rating": 1433.36,
+      "rating": 1370.69,
       "opponent": "Nijmegen",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2023-11-12",
-      "rating": 1417.57,
+      "rating": 1353.89,
       "opponent": "Sparta Rotterdam",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2023-11-26",
-      "rating": 1413.41,
+      "rating": 1348.38,
       "opponent": "AZ Alkmaar",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2023-12-02",
-      "rating": 1388.32,
+      "rating": 1322.43,
       "opponent": "PEC Zwolle",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2023-12-07",
-      "rating": 1389.58,
+      "rating": 1319.83,
       "opponent": "Feyenoord Rotterdam",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2023-12-16",
-      "rating": 1399.22,
+      "rating": 1336.82,
       "opponent": "SC Heerenveen",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2024-01-14",
-      "rating": 1392.71,
+      "rating": 1323.75,
       "opponent": "Almere City",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2024-01-20",
-      "rating": 1395.63,
+      "rating": 1326.96,
       "opponent": "Heracles",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2024-01-28",
-      "rating": 1389.58,
+      "rating": 1314.9,
       "opponent": "Fortuna Sittard",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2024-02-04",
-      "rating": 1386.36,
+      "rating": 1307.89,
       "opponent": "FC Utrecht",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2024-02-11",
-      "rating": 1379.37,
+      "rating": 1303.46,
       "opponent": "PSV Eindhoven",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2024-02-18",
-      "rating": 1382.59,
+      "rating": 1306.53,
       "opponent": "Vitesse",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2024-02-25",
-      "rating": 1363.41,
+      "rating": 1287.62,
       "opponent": "SC Heerenveen",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2024-03-01",
-      "rating": 1351.24,
+      "rating": 1274.71,
       "opponent": "Nijmegen",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2024-03-10",
-      "rating": 1356.41,
+      "rating": 1280.25,
       "opponent": "PEC Zwolle",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2024-03-17",
-      "rating": 1344.75,
+      "rating": 1269.71,
       "opponent": "AZ Alkmaar",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2024-03-31",
-      "rating": 1349.56,
+      "rating": 1275.23,
       "opponent": "Almere City",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2024-04-04",
-      "rating": 1355.97,
+      "rating": 1283.61,
       "opponent": "Feyenoord Rotterdam",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2024-04-07",
-      "rating": 1360.36,
+      "rating": 1294.65,
       "opponent": "Waalwijk",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2024-04-12",
-      "rating": 1347.8,
+      "rating": 1279.63,
       "opponent": "SBV Excelsior",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2024-04-28",
-      "rating": 1350.33,
+      "rating": 1275.9,
       "opponent": "Sparta Rotterdam",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2024-05-05",
-      "rating": 1339.79,
+      "rating": 1266.27,
       "opponent": "AFC Ajax",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2024-05-12",
-      "rating": 1335.22,
+      "rating": 1262.72,
       "opponent": "FC Twente '65",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2024-05-19",
-      "rating": 1332.99,
+      "rating": 1254.58,
       "opponent": "Go Ahead Eagles",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2024-07-01",
-      "rating": 1387.76,
+      "rating": 1323.74,
       "opponent": null,
       "competition_id": null,
       "event": "season"
     },
     {
       "date": "2025-07-01",
-      "rating": 1430.61,
+      "rating": 1359.42,
       "opponent": null,
       "competition_id": null,
       "event": "season"
     },
     {
       "date": "2025-08-09",
-      "rating": 1434.41,
+      "rating": 1364.07,
       "opponent": "SC Heerenveen",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2025-08-17",
-      "rating": 1436.44,
+      "rating": 1367.33,
       "opponent": "AZ Alkmaar",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2025-08-23",
-      "rating": 1438.31,
+      "rating": 1368.94,
       "opponent": "Telstar 1963",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2025-08-30",
-      "rating": 1439.55,
+      "rating": 1372.57,
       "opponent": "AFC Ajax",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2025-09-13",
-      "rating": 1429.29,
+      "rating": 1360.99,
       "opponent": "Go Ahead Eagles",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2025-09-20",
-      "rating": 1421.99,
+      "rating": 1346.88,
       "opponent": "SBV Excelsior",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2025-09-27",
-      "rating": 1425.62,
+      "rating": 1358.23,
       "opponent": "PEC Zwolle",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2025-10-04",
-      "rating": 1425.05,
+      "rating": 1351.75,
       "opponent": "Fortuna Sittard",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2025-10-18",
-      "rating": 1423.18,
+      "rating": 1345.75,
       "opponent": "FC Utrecht",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2025-10-25",
-      "rating": 1434.41,
+      "rating": 1360.94,
       "opponent": "Heracles",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2025-11-01",
-      "rating": 1433.64,
+      "rating": 1357.11,
       "opponent": "Feyenoord Rotterdam",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2025-11-08",
-      "rating": 1435.46,
+      "rating": 1366.04,
       "opponent": "NAC Breda",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2025-11-22",
-      "rating": 1435.72,
+      "rating": 1367.66,
       "opponent": "FC Twente '65",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2025-11-30",
-      "rating": 1433.66,
+      "rating": 1364.87,
       "opponent": "PSV Eindhoven",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2025-12-07",
-      "rating": 1430.79,
+      "rating": 1356.41,
       "opponent": "Nijmegen",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2025-12-13",
-      "rating": 1421.16,
+      "rating": 1345.54,
       "opponent": "FC Groningen",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2025-12-21",
-      "rating": 1415.08,
+      "rating": 1334.01,
       "opponent": "Sparta Rotterdam",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2026-01-10",
-      "rating": 1417.07,
+      "rating": 1330.37,
       "opponent": "AZ Alkmaar",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2026-01-18",
-      "rating": 1423.15,
+      "rating": 1344.83,
       "opponent": "FC Utrecht",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2026-01-24",
-      "rating": 1420.57,
+      "rating": 1339.75,
       "opponent": "AFC Ajax",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2026-02-01",
-      "rating": 1419.98,
+      "rating": 1340.32,
       "opponent": "Go Ahead Eagles",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2026-02-07",
-      "rating": 1428.22,
+      "rating": 1356.41,
       "opponent": "PEC Zwolle",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2026-02-13",
-      "rating": 1437.33,
+      "rating": 1374.84,
       "opponent": "PSV Eindhoven",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2026-02-21",
-      "rating": 1435.1,
+      "rating": 1365.22,
       "opponent": "NAC Breda",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2026-03-01",
-      "rating": 1438.29,
+      "rating": 1375.34,
       "opponent": "FC Groningen",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2026-03-08",
-      "rating": 1431.81,
+      "rating": 1367.44,
       "opponent": "Nijmegen",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2026-03-14",
-      "rating": 1425.28,
+      "rating": 1354.96,
       "opponent": "Fortuna Sittard",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2026-03-21",
-      "rating": 1419.52,
+      "rating": 1345.79,
       "opponent": "Sparta Rotterdam",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2026-04-05",
-      "rating": 1421.35,
+      "rating": 1350.01,
       "opponent": "Feyenoord Rotterdam",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2026-04-10",
-      "rating": 1423.35,
+      "rating": 1346.68,
       "opponent": "FC Twente '65",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2026-04-26",
-      "rating": 1435.52,
+      "rating": 1364.32,
       "opponent": "Heracles",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2026-05-03",
-      "rating": 1424.19,
+      "rating": 1350.2,
       "opponent": "SC Heerenveen",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2026-05-10",
-      "rating": 1427.6,
+      "rating": 1353.68,
       "opponent": "SBV Excelsior",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2026-05-17",
-      "rating": 1422.26,
+      "rating": 1341.9,
       "opponent": "Telstar 1963",
       "competition_id": "N1",
       "event": "match"
     },
     {
       "date": "2026-07-01",
-      "rating": 1447.28,
+      "rating": 1381.67,
       "opponent": null,
       "competition_id": null,
       "event": "season"
