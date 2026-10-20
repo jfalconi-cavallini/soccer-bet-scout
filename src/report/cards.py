@@ -32,6 +32,28 @@ def render_match(match: dict) -> str:
     for item in pred["top_scorelines"]:
         lines.append(f"    {item['score']:<6} {item['pct']:5.1f}%")
     lines.append("")
+    for title, block in (("First half", pred.get("first_half")), ("Second half", pred.get("second_half"))):
+        if not block:
+            continue
+        lines.append(f"  {title}")
+        lines.append(f"    xG  {block['xg_home']:.2f}  –  {block['xg_away']:.2f}")
+        lines.append(
+            f"    W/D/L  {block['home_win_pct']:5.1f} / {block['draw_pct']:5.1f} / {block['away_win_pct']:5.1f}"
+        )
+        lines.append(
+            f"    BTTS {block['btts_pct']:5.1f}%"
+            f"    Over 0.5 {block['over'].get('0.5', 0):5.1f}%"
+            f"    Over 1.5 {block['over'].get('1.5', 0):5.1f}%"
+        )
+        for item in block["top_scorelines"][:3]:
+            lines.append(f"    {item['score']:<6} {item['pct']:5.1f}%")
+        lines.append("")
+    picks = pred.get("most_likely") or []
+    if picks:
+        lines.append("  Most likely")
+        for item in picks:
+            lines.append(f"    {item['label']:<44} {item['pct']:5.1f}%")
+        lines.append("")
     lines.append(f"  Team totals over 1.5")
     lines.append(f"    {match['home_name']:<28} {pred['home_totals'].get('1.5', 0):5.1f}%")
     lines.append(f"    {match['away_name']:<28} {pred['away_totals'].get('1.5', 0):5.1f}%")

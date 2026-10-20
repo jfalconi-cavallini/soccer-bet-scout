@@ -15,6 +15,22 @@ export type TeamRow = {
 
 export type NarrativeSection = { title: string; body: string };
 
+export type Scoreline = { score: string; pct: number };
+
+export type HalfView = {
+  xg_home: number;
+  xg_away: number;
+  home_win_pct: number;
+  draw_pct: number;
+  away_win_pct: number;
+  btts_pct: number;
+  over: Record<string, number>;
+  under: Record<string, number>;
+  top_scorelines: Scoreline[];
+};
+
+export type LikelyPick = { key: string; label: string; pct: number };
+
 export type Prediction = {
   home_win_pct: number;
   draw_pct: number;
@@ -30,13 +46,16 @@ export type Prediction = {
   under: Record<string, number>;
   home_totals: Record<string, number>;
   away_totals: Record<string, number>;
-  top_scorelines: { score: string; pct: number }[];
+  top_scorelines: Scoreline[];
   elo_home: number;
   elo_away: number;
   elo_gap: number;
   narrative: NarrativeSection[];
   model: Record<string, number>;
   kickoff_ct: string | null;
+  first_half?: HalfView;
+  second_half?: HalfView;
+  most_likely?: LikelyPick[];
 };
 
 export type SlateMatch = {

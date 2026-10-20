@@ -21,7 +21,7 @@ export default function SlatePage() {
         <h1>Upcoming slate</h1>
         <p>
           The next {meta?.upcoming ?? matches.length} matches in the window, with Chicago kickoff times.
-          Open a match for the score grid, totals, and the written breakdown.
+          Open a match for the score grid, the half-time split, and the markets the model ranks as most likely.
         </p>
       </section>
       {matches.length === 0 ? (
@@ -46,6 +46,15 @@ export default function SlatePage() {
                       {" · "}O2.5 {match.prediction.over["2.5"]?.toFixed(0)}%
                       {" · "}BTTS {match.prediction.btts_pct.toFixed(0)}%
                     </div>
+                  </div>
+                  <div className="likely-col">
+                    <div className="kicker">Most likely</div>
+                    {(match.prediction.most_likely ?? []).slice(0, 3).map((pick) => (
+                      <div className="scoreline" key={pick.key}>
+                        <span>{pick.label}</span>
+                        <b>{pick.pct.toFixed(0)}%</b>
+                      </div>
+                    ))}
                   </div>
                   <ProbBars
                     home={match.prediction.home_win_pct}

@@ -132,7 +132,7 @@ tbody tr:hover { background: #f7f4ec; }
 }
 .match-card {
   display: grid;
-  grid-template-columns: 1.4fr 1fr;
+  grid-template-columns: 1.3fr 0.9fr 1fr;
   gap: 18px;
   background: var(--card);
   border: 1px solid var(--line);
@@ -191,7 +191,12 @@ tbody tr:hover { background: #f7f4ec; }
   background: #fffdf8;
 }
 .panel h2 { margin: 0 0 8px; font-size: 15px; letter-spacing: 0.04em; text-transform: uppercase; }
-.scoreline { display: flex; justify-content: space-between; padding: 6px 0; border-bottom: 1px solid var(--line); font-variant-numeric: tabular-nums; }
+.scoreline { display: flex; justify-content: space-between; gap: 12px; padding: 6px 0; border-bottom: 1px solid var(--line); font-variant-numeric: tabular-nums; }
+.likely-col { font-size: 13px; }
+.likely-col .scoreline { align-items: baseline; }
+.likely-col .scoreline span { line-height: 1.35; }
+.likely-panel { margin-bottom: 18px; }
+.half-cols { margin-bottom: 18px; }
 .narrative { display: grid; gap: 12px; margin-top: 16px; }
 .narrative article { border-top: 1px solid var(--line); padding-top: 12px; }
 .narrative h3 { margin: 0 0 4px; font-size: 16px; }

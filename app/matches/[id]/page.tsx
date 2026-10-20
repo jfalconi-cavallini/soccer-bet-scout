@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ProbBars } from "../../components/prob-bars";
-import { readMatch, readMatches } from "../../lib/data";
+import { HalfView, LikelyPick, readMatch, readMatches } from "../../lib/data";
 
 export function generateStaticParams() {
   return readMatches().map((match) => ({ id: match.id }));
@@ -12,6 +12,63 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
   const match = readMatch(id);
   if (!match) return { title: "Match · Soccer Bet Scout" };
   return { title: `${match.home_name} vs ${match.away_name} · Soccer Bet Scout` };
+}
+
+function HalfPanel({ title, half, home, away }: { title: string; half: HalfView; home: string; away: string }) {
+  return (
+    <section className="panel">
+      <h2>{title}</h2>
+      <div className="scoreline">
+        <span>xG</span>
+        <b>
+          {half.xg_home.toFixed(2)} – {half.xg_away.toFixed(2)}
+        </b>
+      </div>
+      <div className="scoreline">
+        <span>
+          {home} / draw / {away}
+        </span>
+        <b>
+          {half.home_win_pct.toFixed(1)} / {half.draw_pct.toFixed(1)} / {half.away_win_pct.toFixed(1)}
+        </b>
+      </div>
+      <div className="scoreline">
+        <span>Both teams to score</span>
+        <b>{half.btts_pct.toFixed(1)}%</b>
+      </div>
+      <div className="scoreline">
+        <span>Over 0.5 / 1.5</span>
+        <b>
+          {half.over["0.5"]?.toFixed(1)}% / {half.over["1.5"]?.toFixed(1)}%
+        </b>
+      </div>
+      <div className="scoreline">
+        <span>Under 0.5 / 1.5</span>
+        <b>
+          {half.under["0.5"]?.toFixed(1)}% / {half.under["1.5"]?.toFixed(1)}%
+        </b>
+      </div>
+      {half.top_scorelines.slice(0, 3).map((line) => (
+        <div className="scoreline" key={line.score}>
+          <span>{line.score}</span>
+          <b>{line.pct.toFixed(1)}%</b>
+        </div>
+      ))}
+    </section>
+  );
+}
+
+function LikelyList({ picks }: { picks: LikelyPick[] }) {
+  return (
+    <>
+      {picks.map((pick) => (
+        <div className="scoreline" key={pick.key}>
+          <span>{pick.label}</span>
+          <b>{pick.pct.toFixed(1)}%</b>
+        </div>
+      ))}
+    </>
+  );
 }
 
 export default async function MatchPage({ params }: { params: Promise<{ id: string }> }) {
@@ -65,6 +122,19 @@ export default async function MatchPage({ params }: { params: Promise<{ id: stri
           </div>
         </div>
         <div className="body">
+          {pred.most_likely && pred.most_likely.length > 0 ? (
+            <section className="panel likely-panel">
+              <h2>Most likely</h2>
+              <p className="sub">Ranked by the model, not by a bookmaker price.</p>
+              <LikelyList picks={pred.most_likely} />
+            </section>
+          ) : null}
+          {pred.first_half && pred.second_half ? (
+            <div className="cols half-cols">
+              <HalfPanel title="First half" half={pred.first_half} home={match.home_name} away={match.away_name} />
+              <HalfPanel title="Second half" half={pred.second_half} home={match.home_name} away={match.away_name} />
+            </div>
+          ) : null}
           <div className="cols">
             <section className="panel">
               <h2>Top scorelines</h2>
