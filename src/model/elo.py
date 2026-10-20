@@ -43,6 +43,8 @@ class EloMatch:
     neutral: bool = False
     xg_home: float | None = None
     xg_away: float | None = None
+    ht_home: int | None = None
+    ht_away: int | None = None
 
 
 @dataclass

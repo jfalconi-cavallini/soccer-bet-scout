@@ -26,6 +26,8 @@ class CatalogMatch:
     xg_away: float | None = None
     kickoff_utc: str | None = None
     source: str = ""
+    ht_home: int | None = None
+    ht_away: int | None = None
 
     @property
     def finished(self) -> bool:
@@ -49,6 +51,8 @@ class CatalogMatch:
             neutral=self.neutral,
             xg_home=self.xg_home,
             xg_away=self.xg_away,
+            ht_home=self.ht_home,
+            ht_away=self.ht_away,
         )
 
 
@@ -60,16 +64,28 @@ def _adopt_kickoff(existing: CatalogMatch, incoming: CatalogMatch) -> None:
         existing.kickoff_utc = incoming.kickoff_utc
 
 
+def _adopt_halves(kept: CatalogMatch, other: CatalogMatch) -> None:
+    """Half-time scores are optional. Keep them from whichever source has them."""
+    if kept.ht_home is None and other.ht_home is not None and other.ht_away is not None:
+        kept.ht_home = other.ht_home
+        kept.ht_away = other.ht_away
+
+
 def prefer(existing: CatalogMatch, incoming: CatalogMatch) -> CatalogMatch:
     """Keep the richer record when two sources describe the same match."""
     if incoming.finished and not existing.finished:
+        _adopt_halves(incoming, existing)
         return incoming
     if existing.finished and not incoming.finished:
         _adopt_kickoff(existing, incoming)
+        _adopt_halves(existing, incoming)
         return existing
     if incoming.xg_home is not None and existing.xg_home is None:
+        _adopt_halves(incoming, existing)
+        _adopt_kickoff(incoming, existing)
         return incoming
     _adopt_kickoff(existing, incoming)
+    _adopt_halves(existing, incoming)
     if len(incoming.home_name) > len(existing.home_name):
         existing.home_name = incoming.home_name
         existing.away_name = incoming.away_name

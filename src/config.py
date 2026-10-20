@@ -52,8 +52,20 @@ ELO_REGRESSION = 1.0 / 3.0
 DIXON_COLES_RHO = -0.10
 SCORE_GRID_MAX = 6
 
-# Share of full-match xG assigned to the first half. Not a separate model.
+# Fallback share of full-match xG assigned to the first half when a league
+# has too little half-time history. Fitted shares replace this per club.
 FIRST_HALF_SHARE = 0.45
+HALF_SHARE_FALLBACK = FIRST_HALF_SHARE
+# Shrink a club's own half-time scoring rate toward the league with this
+# many goals of prior weight. Ignore the club rate below the match/goal floors.
+HALF_PRIOR_GOALS = 12.0
+HALF_MIN_MATCHES = 15
+HALF_MIN_GOALS = 12.0
+HALF_SHARE_MIN = 0.30
+HALF_SHARE_MAX = 0.62
+# A league share is published only once the half-time sample is this large.
+HALF_LEAGUE_MIN_MATCHES = 40
+HALF_LEAGUE_MIN_GOALS = 80.0
 
 # Time decay for attack/defense: weight = exp(-xi * days).
 # xi = 0.005 is a half-life of about 139 days.

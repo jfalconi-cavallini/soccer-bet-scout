@@ -20,6 +20,7 @@ from src.config import (
 )
 from src.data.catalog import clubelo_report, load_catalog
 from src.model.elo import replay
+from src.model.halves import fit_half_shares
 from src.model.predict import predict_match
 from src.model.ratings import build_strengths
 from src.names import clean_display_name, pretty_fallback, slugify
@@ -74,6 +75,11 @@ def build(today: date | None = None) -> dict:
     table = replay(finished, today)
     print("Fitting attack and defense...")
     book = build_strengths(finished, today)
+    half_book = fit_half_shares(finished)
+    print(
+        f"Half-time shares for {len(half_book.league_share)} leagues, "
+        f"global {half_book.global_share:.3f}"
+    )
 
     current_start = date(season_start_year(today), 7, 1)
     active: set[str] = set()
@@ -185,6 +191,7 @@ def build(today: date | None = None) -> dict:
             finished,
             match.neutral,
             data_through.get(match.competition_id),
+            half_book,
         )
         through = data_through.get(match.competition_id)
         slate.append(

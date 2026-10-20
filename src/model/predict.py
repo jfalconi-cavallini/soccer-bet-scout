@@ -7,9 +7,10 @@ from __future__ import annotations
 
 from datetime import date, timedelta
 
-from src.config import DIXON_COLES_RHO, FIRST_HALF_SHARE, STALE_RESULT_DAYS, XG_BLEND
+from src.config import DIXON_COLES_RHO, STALE_RESULT_DAYS, XG_BLEND
 from src.model.dixon_coles import score_grid, summarize
 from src.model.elo import EloMatch, EloTable
+from src.model.halves import HalfBook, scoring_share
 from src.model.ratings import StrengthBook, blend_chance
 from src.report.timeutil import format_kickoff
 
@@ -198,6 +199,36 @@ def _script(home_name: str, away_name: str, summary: dict, lam_home: float, lam_
     return f"{control} {tempo} {both}"
 
 
+def _over_prob(grid: list[list[float]], line: float) -> float:
+    total = 0.0
+    for home_goals, row in enumerate(grid):
+        for away_goals, prob in enumerate(row):
+            if home_goals + away_goals > line:
+                total += prob
+    return total
+
+
+def _period_block(lambda_home: float, lambda_away: float) -> dict:
+    """Win/draw/loss, BTTS, 0.5 and 1.5 totals, and scorelines for one half."""
+    grid = score_grid(lambda_home, lambda_away, DIXON_COLES_RHO)
+    summary = summarize(grid)
+    over_05 = _over_prob(grid, 0.5)
+    over_15 = summary["over"][1.5]
+    return {
+        "xg_home": round(lambda_home, 2),
+        "xg_away": round(lambda_away, 2),
+        "home_win_pct": _pct(summary["home_win"]),
+        "draw_pct": _pct(summary["draw"]),
+        "away_win_pct": _pct(summary["away_win"]),
+        "btts_pct": _pct(summary["btts"]),
+        "over": {"0.5": _pct(over_05), "1.5": _pct(over_15)},
+        "under": {"0.5": _pct(1.0 - over_05), "1.5": _pct(1.0 - over_15)},
+        "top_scorelines": [
+            {"score": item["score"], "pct": _pct(item["prob"])} for item in summary["top_scorelines"]
+        ],
+    }
+
+
 def predict_match(
     home: str,
     away: str,
@@ -213,12 +244,19 @@ def predict_match(
     history: list[EloMatch],
     neutral: bool = False,
     data_through: date | None = None,
+    half_book: HalfBook | None = None,
 ) -> dict:
     elo_home = table.rating(home)
     elo_away = table.rating(away)
     lambdas = book.lambdas(home, away, elo_home, elo_away, competition_id, kind, neutral)
     grid = score_grid(lambdas["lambda_home"], lambdas["lambda_away"], DIXON_COLES_RHO)
     summary = summarize(grid)
+    share_home = scoring_share(half_book, home, competition_id)
+    share_away = scoring_share(half_book, away, competition_id)
+    lambda_home = lambdas["lambda_home"]
+    lambda_away = lambdas["lambda_away"]
+    first_half = _period_block(lambda_home * share_home, lambda_away * share_away)
+    second_half = _period_block(lambda_home * (1.0 - share_home), lambda_away * (1.0 - share_away))
     home_ctx = _team_context(home, history, day, book)
     away_ctx = _team_context(away, history, day, book)
 
@@ -302,11 +340,12 @@ def predict_match(
         },
         {
             "title": "Game script",
-            "body": _script(home_name, away_name, summary, lambdas["lambda_home"], lambdas["lambda_away"])
+            "body": _script(home_name, away_name, summary, lambda_home, lambda_away)
             + (
-                f" First-half xG is about {FIRST_HALF_SHARE:.0%} of the full match: "
-                f"{lambdas['lambda_home'] * FIRST_HALF_SHARE:.2f} to "
-                f"{lambdas['lambda_away'] * FIRST_HALF_SHARE:.2f}."
+                f" First-half xG uses each side's scoring share of the full match"
+                f" ({share_home:.0%} {home_name}, {share_away:.0%} {away_name}): "
+                f"{lambda_home * share_home:.2f} to {lambda_away * share_away:.2f}."
+                " The second half is the rest of each side's xG, on its own grid."
             ),
         },
     ]
@@ -318,10 +357,12 @@ def predict_match(
         "home_win_pct": _pct(summary["home_win"]),
         "draw_pct": _pct(summary["draw"]),
         "away_win_pct": _pct(summary["away_win"]),
-        "xg_home": round(lambdas["lambda_home"], 2),
-        "xg_away": round(lambdas["lambda_away"], 2),
-        "xg_home_1h": round(lambdas["lambda_home"] * FIRST_HALF_SHARE, 2),
-        "xg_away_1h": round(lambdas["lambda_away"] * FIRST_HALF_SHARE, 2),
+        "xg_home": round(lambda_home, 2),
+        "xg_away": round(lambda_away, 2),
+        "xg_home_1h": first_half["xg_home"],
+        "xg_away_1h": first_half["xg_away"],
+        "first_half": first_half,
+        "second_half": second_half,
         "btts_pct": _pct(summary["btts"]),
         "clean_sheet_home_pct": _pct(summary["clean_sheet_home"]),
         "clean_sheet_away_pct": _pct(summary["clean_sheet_away"]),
@@ -341,7 +382,9 @@ def predict_match(
         "model": {
             "rho": DIXON_COLES_RHO,
             "xg_blend": XG_BLEND,
-            "first_half_share": FIRST_HALF_SHARE,
+            "first_half_share": round((share_home + share_away) / 2.0, 3),
+            "first_half_share_home": round(share_home, 3),
+            "first_half_share_away": round(share_away, 3),
             "lambda_home_before_elo": round(lambdas["lambda_home_raw"], 3),
             "lambda_away_before_elo": round(lambdas["lambda_away_raw"], 3),
             "home_attack": round(lambdas["home_attack"], 3),

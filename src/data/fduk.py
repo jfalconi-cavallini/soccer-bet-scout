@@ -63,6 +63,19 @@ def parse_csv(text: str, league: dict) -> list[CatalogMatch]:
         if day is None or not home or not away or home == away:
             continue
         kickoff = london_kickoff(day, (row.get("Time") or "").strip() or None).isoformat()
+        home_goals = _int(row.get("FTHG") or "")
+        away_goals = _int(row.get("FTAG") or "")
+        ht_home = _int(row.get("HTHG") or "")
+        ht_away = _int(row.get("HTAG") or "")
+        if ht_home is None or ht_away is None or ht_home < 0 or ht_away < 0:
+            ht_home = ht_away = None
+        elif (
+            home_goals is not None
+            and away_goals is not None
+            and (ht_home > home_goals or ht_away > away_goals)
+        ):
+            # A half cannot outscore the full match. Drop the half, keep the result.
+            ht_home = ht_away = None
         matches.append(
             CatalogMatch(
                 day=day,
@@ -70,8 +83,8 @@ def parse_csv(text: str, league: dict) -> list[CatalogMatch]:
                 away=away,
                 home_name=home_raw,
                 away_name=away_raw,
-                home_goals=_int(row.get("FTHG") or ""),
-                away_goals=_int(row.get("FTAG") or ""),
+                home_goals=home_goals,
+                away_goals=away_goals,
                 competition_id=league["id"],
                 competition=league["name"],
                 kind="league",
@@ -79,6 +92,8 @@ def parse_csv(text: str, league: dict) -> list[CatalogMatch]:
                 xg_away=_float(row.get("AxG") or ""),
                 kickoff_utc=kickoff,
                 source="football-data.co.uk",
+                ht_home=ht_home,
+                ht_away=ht_away,
             )
         )
     return matches
