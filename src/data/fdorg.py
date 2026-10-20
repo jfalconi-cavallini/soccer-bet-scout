@@ -26,10 +26,22 @@ from src.names import canonicalize
 
 BASE = "https://api.football-data.org/v4"
 LEAGUE_BY_ID = {league["id"]: league for league in LEAGUES}
+# The matches endpoint rejects a range longer than this.
+FDORG_MATCH_WINDOW_DAYS = 10
 
 
 def api_key() -> str | None:
     return os.getenv("FOOTBALL_DATA_API_KEY") or os.getenv("FOOTBALL_DATA_KEY") or None
+
+
+def match_windows(start: date, days: int, span: int = FDORG_MATCH_WINDOW_DAYS):
+    """Split a slate into inclusive ranges the matches endpoint will accept."""
+    end = start + timedelta(days=days)
+    cursor = start
+    while cursor <= end:
+        chunk_end = min(end, cursor + timedelta(days=span - 1))
+        yield cursor, chunk_end
+        cursor = chunk_end + timedelta(days=1)
 
 
 def _parse_utc(value: str) -> datetime | None:
@@ -137,16 +149,21 @@ def load(cache: HttpCache, today: date | None = None) -> list[CatalogMatch]:
         print(f"  [fdorg] PD {season_label(start)}: {played} played / {len(batch)} rows")
         found.extend(batch)
 
-    date_to = (today + timedelta(days=SLATE_DAYS)).isoformat()
     codes = ",".join(["PL", "PD", "SA", "BL1", "FL1", "DED", "PPL", "CL", "EL"])
-    payload = _get_json(
-        cache,
-        "/matches",
-        {"competitions": codes, "dateFrom": today.isoformat(), "dateTo": date_to},
-        key,
-    )
-    if payload:
-        for row in payload.get("matches") or []:
+    slate_rows = 0
+    for date_from, date_to in match_windows(today, SLATE_DAYS):
+        payload = _get_json(
+            cache,
+            "/matches",
+            {"competitions": codes, "dateFrom": date_from.isoformat(), "dateTo": date_to.isoformat()},
+            key,
+        )
+        if not payload:
+            print(f"  [fdorg] slate {date_from.isoformat()} to {date_to.isoformat()} unavailable")
+            continue
+        rows = payload.get("matches") or []
+        slate_rows += len(rows)
+        for row in rows:
             comp = (row.get("competition") or {}).get("code") or ""
             if comp in FDORG_COMPETITIONS:
                 tournament_id = FDORG_COMPETITIONS[comp]
@@ -159,5 +176,5 @@ def load(cache: HttpCache, today: date | None = None) -> list[CatalogMatch]:
                 continue
             if match and not match.finished:
                 found.append(match)
-        print(f"  [fdorg] slate window returned {len(payload.get('matches') or [])} rows")
+    print(f"  [fdorg] slate window returned {slate_rows} rows")
     return found

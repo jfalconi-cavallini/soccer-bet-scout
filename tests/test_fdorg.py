@@ -2,7 +2,7 @@
 
 from datetime import date
 
-from src.data.fdorg import parse_fdorg_match
+from src.data.fdorg import match_windows, parse_fdorg_match
 from src.data.models import CatalogMatch, prefer
 
 
@@ -23,6 +23,16 @@ def _match(**overrides) -> CatalogMatch:
     )
     base.update(overrides)
     return CatalogMatch(**base)
+
+
+def test_slate_windows_stay_within_ten_days():
+    windows = list(match_windows(date(2026, 10, 20), 16))
+    assert windows == [
+        (date(2026, 10, 20), date(2026, 10, 29)),
+        (date(2026, 10, 30), date(2026, 11, 5)),
+    ]
+    for start, end in windows:
+        assert (end - start).days <= 9
 
 
 def test_finished_api_row_becomes_a_result():
