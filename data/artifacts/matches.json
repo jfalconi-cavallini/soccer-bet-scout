@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T04:24:34+00:00",
+  "generated_at": "2026-10-20T04:51:35+00:00",
   "matches": [
     {
       "id": "2026-10-20-fenerbahce-slavia-prague",
@@ -2496,7 +2496,7 @@
       "home_id": "real-madrid",
       "away_id": "rb-leipzig",
       "home_name": "Real Madrid CF",
-      "away_name": "RB Leipzig [cancelled]",
+      "away_name": "RB Leipzig",
       "prediction": {
         "home_win_pct": 62.9,
         "draw_pct": 20.6,
@@ -2594,19 +2594,19 @@
         "narrative": [
           {
             "title": "Form and chance trend",
-            "body": "Real Madrid CF form WLWWW. Recent xG is 2.28 per game. Chance creation is flat across the last two blocks of games. RB Leipzig [cancelled] form LWLWW. Recent xG is 2.58 per game. Chance creation is rising across the last two blocks of games."
+            "body": "Real Madrid CF form WLWWW. Recent xG is 2.28 per game. Chance creation is flat across the last two blocks of games. RB Leipzig form LWLWW. Recent xG is 2.58 per game. Chance creation is rising across the last two blocks of games."
           },
           {
             "title": "Goals minus xG",
-            "body": "Real Madrid CF is scoring -0.48 goals per game below xG. That is a positive regression flag: finishing has lagged the chances. RB Leipzig [cancelled] is scoring +0.42 goals per game above xG. That is a regression flag: the chance quality has not kept up with the scoreboard."
+            "body": "Real Madrid CF is scoring -0.48 goals per game below xG. That is a positive regression flag: finishing has lagged the chances. RB Leipzig is scoring +0.42 goals per game above xG. That is a regression flag: the chance quality has not kept up with the scoreboard."
           },
           {
             "title": "Attack against defense",
-            "body": "Real Madrid CF attack 1.49 against RB Leipzig [cancelled] defense 0.91. RB Leipzig [cancelled] attack 1.10 against Real Madrid CF defense 0.84. An attack above 1.00 creates more than a typical side at that venue. A defense above 1.00 allows more than a typical side."
+            "body": "Real Madrid CF attack 1.49 against RB Leipzig defense 0.91. RB Leipzig attack 1.10 against Real Madrid CF defense 0.84. An attack above 1.00 creates more than a typical side at that venue. A defense above 1.00 allows more than a typical side."
           },
           {
             "title": "Rest and travel",
-            "body": "Real Madrid CF last played 3 days ago, which is a short rest. RB Leipzig [cancelled] last played 8 days ago."
+            "body": "Real Madrid CF last played 3 days ago, which is a short rest. RB Leipzig last played 8 days ago."
           },
           {
             "title": "Game script",
@@ -4977,7 +4977,7 @@
       "neutral": false,
       "home_id": "rb-leipzig",
       "away_id": "elversberg",
-      "home_name": "RB Leipzig [cancelled]",
+      "home_name": "RB Leipzig",
       "away_name": "SV 07 Elversberg",
       "prediction": {
         "home_win_pct": 57.3,
@@ -5076,23 +5076,23 @@
         "narrative": [
           {
             "title": "Form and chance trend",
-            "body": "RB Leipzig [cancelled] form LWLWW. Recent xG is 2.58 per game. Chance creation is rising across the last two blocks of games. SV 07 Elversberg form WWLDL. Recent xG is 1.15 per game. Chance creation is falling across the last two blocks of games."
+            "body": "RB Leipzig form LWLWW. Recent xG is 2.58 per game. Chance creation is rising across the last two blocks of games. SV 07 Elversberg form WWLDL. Recent xG is 1.15 per game. Chance creation is falling across the last two blocks of games."
           },
           {
             "title": "Goals minus xG",
-            "body": "RB Leipzig [cancelled] is scoring +0.42 goals per game above xG. That is a regression flag: the chance quality has not kept up with the scoreboard. SV 07 Elversberg is scoring +0.45 goals per game above xG. That is a regression flag: the chance quality has not kept up with the scoreboard."
+            "body": "RB Leipzig is scoring +0.42 goals per game above xG. That is a regression flag: the chance quality has not kept up with the scoreboard. SV 07 Elversberg is scoring +0.45 goals per game above xG. That is a regression flag: the chance quality has not kept up with the scoreboard."
           },
           {
             "title": "Attack against defense",
-            "body": "RB Leipzig [cancelled] attack 1.10 against SV 07 Elversberg defense 1.00. SV 07 Elversberg attack 0.96 against RB Leipzig [cancelled] defense 0.91. An attack above 1.00 creates more than a typical side at that venue. A defense above 1.00 allows more than a typical side."
+            "body": "RB Leipzig attack 1.10 against SV 07 Elversberg defense 1.00. SV 07 Elversberg attack 0.96 against RB Leipzig defense 0.91. An attack above 1.00 creates more than a typical side at that venue. A defense above 1.00 allows more than a typical side."
           },
           {
             "title": "Rest and travel",
-            "body": "RB Leipzig [cancelled] last played 11 days ago. SV 07 Elversberg last played 14 days ago."
+            "body": "RB Leipzig last played 11 days ago. SV 07 Elversberg last played 14 days ago."
           },
           {
             "title": "Game script",
-            "body": "RB Leipzig [cancelled] are the side more likely to control the game. The grid expects a high-event match. Both teams are likelier than not to score. First-half xG is about 45% of the full match: 0.92 to 0.51."
+            "body": "RB Leipzig are the side more likely to control the game. The grid expects a high-event match. Both teams are likelier than not to score. First-half xG is about 45% of the full match: 0.92 to 0.51."
           }
         ],
         "model": {
@@ -16366,7 +16366,7 @@
       "home_id": "schalke",
       "away_id": "rb-leipzig",
       "home_name": "FC Schalke 04",
-      "away_name": "RB Leipzig [cancelled]",
+      "away_name": "RB Leipzig",
       "prediction": {
         "home_win_pct": 40.4,
         "draw_pct": 27.5,
@@ -16468,11 +16468,11 @@
           },
           {
             "title": "Goals minus xG",
-            "body": "FC Schalke 04 is close to xG (-0.32 per game). No regression flag. RB Leipzig [cancelled] is scoring +0.42 goals per game above xG. That is a regression flag: the chance quality has not kept up with the scoreboard."
+            "body": "FC Schalke 04 is close to xG (-0.32 per game). No regression flag. RB Leipzig is scoring +0.42 goals per game above xG. That is a regression flag: the chance quality has not kept up with the scoreboard."
           },
           {
             "title": "Attack against defense",
-            "body": "FC Schalke 04 attack 0.92 against RB Leipzig [cancelled] defense 0.91. RB Leipzig [cancelled] attack 1.10 against FC Schalke 04 defense 0.99. An attack above 1.00 creates more than a typical side at that venue. A defense above 1.00 allows more than a typical side."
+            "body": "FC Schalke 04 attack 0.92 against RB Leipzig defense 0.91. RB Leipzig attack 1.10 against FC Schalke 04 defense 0.99. An attack above 1.00 creates more than a typical side at that venue. A defense above 1.00 allows more than a typical side."
           },
           {
             "title": "Rest and travel",
@@ -27461,7 +27461,7 @@
       "neutral": false,
       "home_id": "rb-leipzig",
       "away_id": "manchester-city",
-      "home_name": "RB Leipzig [cancelled]",
+      "home_name": "RB Leipzig",
       "away_name": "Manchester City FC",
       "prediction": {
         "home_win_pct": 39.8,
@@ -27564,11 +27564,11 @@
           },
           {
             "title": "Goals minus xG",
-            "body": "RB Leipzig [cancelled] is scoring +0.42 goals per game above xG. That is a regression flag: the chance quality has not kept up with the scoreboard. Manchester City FC is scoring +0.68 goals per game above xG. That is a regression flag: the chance quality has not kept up with the scoreboard."
+            "body": "RB Leipzig is scoring +0.42 goals per game above xG. That is a regression flag: the chance quality has not kept up with the scoreboard. Manchester City FC is scoring +0.68 goals per game above xG. That is a regression flag: the chance quality has not kept up with the scoreboard."
           },
           {
             "title": "Attack against defense",
-            "body": "RB Leipzig [cancelled] attack 1.10 against Manchester City FC defense 0.87. Manchester City FC attack 1.26 against RB Leipzig [cancelled] defense 0.91. An attack above 1.00 creates more than a typical side at that venue. A defense above 1.00 allows more than a typical side."
+            "body": "RB Leipzig attack 1.10 against Manchester City FC defense 0.87. Manchester City FC attack 1.26 against RB Leipzig defense 0.91. An attack above 1.00 creates more than a typical side at that venue. A defense above 1.00 allows more than a typical side."
           },
           {
             "title": "Rest and travel",
