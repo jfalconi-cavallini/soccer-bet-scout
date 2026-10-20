@@ -11,7 +11,7 @@ from __future__ import annotations
 import math
 from datetime import date, datetime, timezone
 
-from src.config import DIXON_COLES_RHO, ELO_INITIAL, LEAGUES, season_label, season_start_year
+from src.config import DIXON_COLES_RHO, ELO_INITIAL, LEAGUES, TOURNAMENTS, season_label, season_start_year
 from src.model.dixon_coles import score_grid, summarize
 from src.model.elo import EloMatch, replay
 from src.model.halves import fit_half_shares, scoring_share
@@ -42,6 +42,10 @@ SCORED_MARKETS = (
 )
 LEAGUE_IDS = {league["id"] for league in LEAGUES}
 LEAGUE_NAME = {league["id"]: league["name"] for league in LEAGUES}
+CUP_IDS = set(TOURNAMENTS)
+# A mismatch is a wide Elo gap or a short closing price. The cup slice uses both.
+MISMATCH_ELO_GAP = 200.0
+MISMATCH_PRICE = 0.75
 # A gap this large, on a big sample, is the miscalibration note.
 CALIBRATION_GAP = 0.03
 CALIBRATION_MIN = 200
@@ -175,7 +179,25 @@ def _predict_row(
         "book": book_name,
         "markets": kept,
         "hits": hits,
+        "elo_gap": lambdas["elo_gap"],
     }
+
+
+def _scored(match: EloMatch) -> bool:
+    """Domestic leagues, plus Champions League, Europa League, and Conference League."""
+    if match.kind == "league" and match.competition_id in LEAGUE_IDS:
+        return True
+    return match.competition_id in CUP_IDS
+
+
+def is_mismatch(row: dict) -> bool:
+    """Elo gap above 200, or a devigged closing price above 75% on one side."""
+    if abs(row.get("elo_gap") or 0.0) > MISMATCH_ELO_GAP:
+        return True
+    prices = (row.get("book_home"), row.get("book_draw"), row.get("book_away"))
+    if all(price is not None for price in prices) and max(prices) > MISMATCH_PRICE:
+        return True
+    return False
 
 
 def forecast_matches(
@@ -184,7 +206,7 @@ def forecast_matches(
     eval_to: date,
     odds: dict[tuple, tuple[float, float, float, str]] | None = None,
 ) -> list[dict]:
-    """Forecast every covered league match in the window.
+    """Forecast covered league matches and UEFA cup matches in the window.
 
     `odds` maps (day, competition_id, home, away) to decimal closing prices
     and a book name. Missing keys are scored without a bookmaker line.
@@ -206,11 +228,7 @@ def forecast_matches(
                 if state["month"] != (match.day.year, match.day.month):
                     state["month"] = (match.day.year, match.day.month)
                     print(f"  [backtest] {match.day.isoformat()}  scored {len(rows)}")
-        in_window = (
-            eval_from <= match.day <= eval_to
-            and match.kind == "league"
-            and match.competition_id in LEAGUE_IDS
-        )
+        in_window = eval_from <= match.day <= eval_to and _scored(match)
         if in_window:
             if state["book"] is None:
                 prior = [earlier for earlier in matches if earlier.day < match.day]
@@ -227,7 +245,7 @@ def forecast_matches(
                     odds.get(key),
                 )
             )
-        if match.kind == "league" and match.competition_id in LEAGUE_IDS:
+        if _scored(match):
             bucket = rates.setdefault(match.competition_id, _empty_counts())
             bucket[outcome(match.home_goals, match.away_goals)] += 1
 
@@ -392,13 +410,27 @@ def _calibration_notes(markets: list[dict]) -> list[str]:
     return notes
 
 
+def _league_rows(rows: list[dict]) -> list[dict]:
+    return [row for row in rows if row["competition_id"] in LEAGUE_IDS]
+
+
+def _cup_rows(rows: list[dict]) -> list[dict]:
+    return [row for row in rows if row["competition_id"] in CUP_IDS]
+
+
 def summarize_forecasts(rows: list[dict], eval_from: date, eval_to: date) -> dict:
-    """Aggregate a forecast list. This does not look at matches outside `rows`."""
+    """Aggregate a forecast list. This does not look at matches outside `rows`.
+
+    `overall` is domestic leagues only. European cups are a separate slice so
+    a cup adjustment can be checked without mixing it into the league scores.
+    """
+    league_rows = _league_rows(rows)
+    cup_rows = _cup_rows(rows)
     result_keys = ("home", "draw", "away")
     market_keys = result_keys + SCORED_MARKETS
     by_league = []
     for league in LEAGUES:
-        group = [row for row in rows if row["competition_id"] == league["id"]]
+        group = [row for row in league_rows if row["competition_id"] == league["id"]]
         if not group:
             continue
         entry = {"id": league["id"], "name": league["name"], **_slice_metrics(group)}
@@ -408,9 +440,18 @@ def summarize_forecasts(rows: list[dict], eval_from: date, eval_to: date) -> dic
         ]
         by_league.append(entry)
     seasons = []
-    for label in sorted({row["season"] for row in rows}):
-        seasons.append({"season": label, **_slice_metrics([row for row in rows if row["season"] == label])})
-    markets = [_market_summary(rows, key) for key in market_keys]
+    for label in sorted({row["season"] for row in league_rows}):
+        seasons.append(
+            {"season": label, **_slice_metrics([row for row in league_rows if row["season"] == label])}
+        )
+    markets = [_market_summary(league_rows, key) for key in market_keys]
+    cup_competitions = []
+    for competition_id, name in TOURNAMENTS.items():
+        group = [row for row in cup_rows if row["competition_id"] == competition_id]
+        if not group:
+            continue
+        cup_competitions.append({"id": competition_id, "name": name, **_slice_metrics(group)})
+    mismatches = [row for row in cup_rows if is_mismatch(row)]
     return {
         "from": eval_from.isoformat(),
         "through": eval_to.isoformat(),
@@ -418,15 +459,21 @@ def summarize_forecasts(rows: list[dict], eval_from: date, eval_to: date) -> dic
         "rule": (
             "Each match uses Elo and attack/defense from earlier dates only. "
             "The match, later matches, and other matches on the same day are left out. "
-            "League-average rates are that league's results before the date. "
+            "League-average rates are that competition's results before the date. "
             "Bookmaker figures are closing prices from football-data.co.uk, "
-            "with the overround removed, on the matches that have them."
+            "with the overround removed, on the matches that have them. "
+            "The overall table is domestic leagues. "
+            "Champions League, Europa League, and Conference League are scored separately. "
+            "A cup mismatch is an Elo gap above 200 or a closing price above 75% on one side."
         ),
-        "overall": _slice_metrics(rows),
+        "overall": _slice_metrics(league_rows),
         "by_league": by_league,
         "by_season": seasons,
         "markets": markets,
         "miscalibration": _calibration_notes(markets),
+        "cups": _slice_metrics(cup_rows),
+        "cup_competitions": cup_competitions,
+        "cup_mismatches": _slice_metrics(mismatches),
     }
 
 

@@ -175,6 +175,9 @@ export type BacktestReport = {
   by_season: (BacktestScores & { season: string })[];
   markets: BacktestMarket[];
   miscalibration: string[];
+  cups?: BacktestScores;
+  cup_competitions?: (BacktestScores & { id: string; name: string })[];
+  cup_mismatches?: BacktestScores;
 };
 
 export function readBacktest(): BacktestReport | null {

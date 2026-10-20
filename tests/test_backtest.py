@@ -7,6 +7,7 @@ from src.model.backtest import (
     BACKTEST_FROM,
     devig,
     forecast_matches,
+    is_mismatch,
     log_loss,
     ranked_probability_score,
     summarize_forecasts,
@@ -155,3 +156,36 @@ def test_window_starts_at_2024_25_and_summary_math_holds():
     assert "btts_over_2.5" in {item["market"] for item in report["markets"]}
     home = next(item for item in report["markets"] if item["market"] == "home")
     assert len(home["bins"]) == 5
+    assert report["cups"]["matches"] == 0
+    assert report["cup_mismatches"]["matches"] == 0
+
+
+def test_cup_matches_stay_out_of_the_league_table_and_mismatches_are_flagged():
+    history = _history()
+    history.append(
+        EloMatch(
+            day=date(2025, 3, 2),
+            home="alpha",
+            away="minnow",
+            home_goals=3,
+            away_goals=0,
+            competition_id="UCL",
+            kind="cup",
+        )
+    )
+    rows = forecast_matches(history, date(2025, 3, 2), date(2025, 3, 2))
+    assert len(rows) == 1
+    cup = rows[0]
+    assert cup["competition_id"] == "UCL"
+    assert cup["elo_gap"] > 200
+    assert cup["p_home"] > 0.5
+    report = summarize_forecasts(rows, date(2025, 3, 2), date(2025, 3, 2))
+    assert report["overall"]["matches"] == 0
+    assert report["cups"]["matches"] == 1
+    assert report["cups"]["model_brier"] is not None
+    assert report["cup_competitions"][0]["id"] == "UCL"
+    assert report["cup_mismatches"]["matches"] == 1
+    assert is_mismatch({"elo_gap": 201, "book_home": None, "book_draw": None, "book_away": None})
+    assert is_mismatch({"elo_gap": 10, "book_home": 0.76, "book_draw": 0.14, "book_away": 0.1})
+    assert not is_mismatch({"elo_gap": 200, "book_home": 0.75, "book_draw": 0.15, "book_away": 0.1})
+    assert not is_mismatch({"elo_gap": -200, "book_home": None, "book_draw": None, "book_away": None})

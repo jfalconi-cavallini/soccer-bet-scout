@@ -187,6 +187,80 @@ export default function BacktestPage() {
         </table>
       </div>
 
+      {report.cups && report.cups.matches > 0 ? (
+        <>
+          <h2 className="day-label">European cups</h2>
+          <p className="sub">
+            Champions League, Europa League, and Conference League, scored from the same pre-match ratings.
+            Across leagues the goal difference follows the Elo gap, because attack and defense are centered inside
+            each league. A mismatch is an Elo gap above 200, or a closing price above 75% on one side. Domestic
+            leagues stay in the tables above.
+            {report.cups.odds_matches
+              ? " Closing prices are the football-data.co.uk lines on the matches that have them."
+              : " These cup files do not carry a closing 1X2, so there is no bookmaker line on this slice."}
+          </p>
+          <div className="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th></th>
+                  <th>Brier</th>
+                  <th>Log loss</th>
+                  <th>RPS</th>
+                  <th>Top pick</th>
+                  <th>Matches</th>
+                </tr>
+              </thead>
+              <tbody>
+                <ScoreRow label="Cups, model" scores={report.cups} source="model" />
+                <ScoreRow label="Cup result rates" scores={report.cups} source="rates" />
+                <ScoreRow label="Model on priced cups" scores={report.cups} source="model_on_odds" />
+                <ScoreRow label="Closing odds" scores={report.cups} source="book" />
+                {report.cup_mismatches ? (
+                  <ScoreRow label="Mismatches, model" scores={report.cup_mismatches} source="model" />
+                ) : null}
+                {report.cup_mismatches ? (
+                  <ScoreRow label="Mismatches, model on priced" scores={report.cup_mismatches} source="model_on_odds" />
+                ) : null}
+                {report.cup_mismatches ? (
+                  <ScoreRow label="Mismatches, closing odds" scores={report.cup_mismatches} source="book" />
+                ) : null}
+              </tbody>
+            </table>
+          </div>
+          {report.cup_competitions && report.cup_competitions.length > 0 ? (
+            <div className="table-wrap">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Competition</th>
+                    <th>Matches</th>
+                    <th>Model Brier</th>
+                    <th>Log loss</th>
+                    <th>Top pick</th>
+                    <th>Priced</th>
+                    <th>Book Brier</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {report.cup_competitions.map((competition) => (
+                    <tr key={competition.id}>
+                      <td>{competition.name}</td>
+                      <td className="rating">{competition.matches}</td>
+                      <td className="rating">{num(competition.model_brier)}</td>
+                      <td className="rating">{num(competition.model_log_loss)}</td>
+                      <td className="rating">{pct(competition.model_accuracy)}</td>
+                      <td className="rating">{competition.odds_matches}</td>
+                      <td className="rating">{competition.odds_matches ? num(competition.book_brier) : "—"}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          ) : null}
+        </>
+      ) : null}
+
       {report.miscalibration.length > 0 ? (
         <section className="panel" style={{ marginTop: 18 }}>
           <h2>Where the prices miss the results</h2>
