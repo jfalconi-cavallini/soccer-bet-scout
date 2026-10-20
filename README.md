@@ -1,223 +1,109 @@
-# ⚽ Soccer Bet Scout
+# Soccer Bet Scout
 
-A data-driven soccer betting analysis tool that combines bookmaker consensus odds, real team statistics, and H2H history to surface high-confidence bet signals across top European leagues.
+Men's European club ratings and match breakdowns. One Elo pool covers the top leagues and is tied together by Champions League, Europa League, and Conference League matches. Each upcoming match gets a score grid: win, draw, loss, expected goals, both teams to score, clean sheets, totals, and a short written report.
 
-Built in Python. No BS, no black box — every signal comes with full reasoning.
+The site reads files that a scheduled job builds ahead of time. Opening a page does not call football-data.org or The Odds API.
 
----
+This is a research tool. It does not place bets, and it does not promise an edge.
 
-## What It Does
-
-Runs two analysis modes:
-
-**1. Full Scout (`scorer.py`)** — scans all upcoming games across supported leagues and ranks them by bet signal strength across 4 bet types.
-
-**2. Pick Analyzer (`pick_analyzer.py`)** — you give it your specific picks and it gives you a deep breakdown with a plain-English confidence rating: `STRONG / GOOD / LEAN / SKIP`.
-
----
-
-## Bet Types Scored
-
-| Bet | What it looks for |
-|-----|-------------------|
-| **Away Win** | Strong away form, weak home team, favorable H2H |
-| **Away -1.5** | Dominant away team, high scoring rate, leaky home defense |
-| **Win + Over 2.5** | High-scoring environment, both teams concede freely |
-| **Win + BTTS** | Competitive game, both teams score regularly, low clean sheet rate |
-
----
-
-## Data Sources
-
-| Source | What we use it for | Cost |
-|--------|-------------------|------|
-| [football-data.org](https://www.football-data.org/) | Standings, form, match history, H2H | Free |
-| [The Odds API](https://the-odds-api.com/) | Bookmaker consensus probabilities | Free tier (500 req/mo) |
-
----
-
-## Supported Leagues
-
-- 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Premier League
-- 🇪🇸 La Liga
-- 🇮🇹 Serie A
-- 🇩🇪 Bundesliga
-- 🇫🇷 Ligue 1
-- 🇵🇹 Primeira Liga
-- 🇳🇱 Eredivisie
-- 🏆 UEFA Champions League
-- 🏆 UEFA Europa League
-
----
-
-## Project Structure
-
-```
-polymarket-bot/
-├── src/
-│   ├── data/
-│   │   ├── market_reader.py     # Fetches Polymarket market data
-│   │   ├── parser.py            # Parses raw market JSON
-│   │   ├── odds_data.py         # Bookmaker consensus via The Odds API
-│   │   ├── football_stats.py    # Team profiles, form, H2H via football-data.org
-│   │   └── team_aliases.py      # Canonical team name matching (130+ teams)
-│   ├── strategy/
-│   │   ├── scorer.py            # Full game scanner — all upcoming games
-│   │   ├── bet_profiler.py      # Scores each game across 4 bet types
-│   │   └── pick_analyzer.py     # Deep analysis on your specific picks
-│   └── simulator/
-│       └── simulator.py         # Paper trading engine
-├── logs/
-│   └── cache/                   # API response cache (1hr TTL)
-├── .env                         # API keys (never committed)
-├── requirements.txt
-└── README.md
-```
-
----
-
-## Setup
-
-### 1. Clone and install
+## What you can run
 
 ```bash
-git clone https://github.com/yourusername/polymarket-bot.git
-cd polymarket-bot
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
+cp .env.example .env   # optional keys, see below
+
+python -m src.cli build       # download history, write data/artifacts
+python -m src.cli rankings    # Europe club Elo
+python -m src.cli rankings --league E0
+python -m src.cli rankings --tournament UCL
+python -m src.cli slate       # upcoming matches, America/Chicago kickoffs
+python -m src.cli match "Arsenal" "Everton"
+python -m src.cli team "Arsenal"
+python -m pytest -q
 ```
 
-### 2. Get API keys
+`build` is safe to re-run. Past seasons are cached on disk under `data/cache/` (gitignored). The current season expires after 12 hours. football-data.org calls, when a key is present, wait 6.5 seconds between requests so the free tier stays under 10 per minute.
 
-| Key | Where to get it |
-|-----|----------------|
-| `FOOTBALL_DATA_KEY` | [football-data.org/client/register](https://www.football-data.org/client/register) — free, no card |
-| `ODDS_API_KEY` | [the-odds-api.com](https://the-odds-api.com/) — free tier, 500 req/month |
+## How a match is scored
 
-### 3. Add keys to `.env`
+**Attack and defense.** Each club's recent matches are time-decayed (half-life about 140 days, window of 18 months). Goals scored and conceded are compared with that league's home and away scoring rate. When a file includes `HxG` / `AxG`, those values are blended with the actual goals (65% xG, 35% goals). A short sample is shrunk toward average.
+
+**Elo.** Every club in 2021-22 starts at 1500 in one pool. After each match the rating moves by a margin multiplier, and by a blend of the goal difference and xG when xG exists. Home teams get 80 Elo points of advantage, except in a one-off final. Between seasons, each rating moves a third of the way back to its league mean. A club entering a league takes the average rating of the clubs that left, so promoted sides start at the level of the sides they replace. Domestic leagues in the pool: Premier League, La Liga, Serie A, Bundesliga, Ligue 1, Eredivisie, Primeira Liga, Belgian Pro League, Super Lig, Greek Super League, Scottish Premiership, and the Austrian Bundesliga.
+
+**Score grid.** The two expected-goal figures become a Dixon-Coles grid from 0-0 through 6-6. The low-score correction (rho = -0.10) raises the chance of 0-0 and 1-1 versus two independent Poissons. The grid is scaled so the cells sum to 1. First-half xG is 45% of the full-match figure. That is a split, not a separate half model.
+
+**Report.** The card shows win percentages, xG, over/under, team totals, both teams to score, clean sheets, and the five most likely scorelines. The note covers form and the chance trend, a goals-minus-xG regression flag, attack against the opponent's defense, rest and a European travel week, and a projected game script. Kickoffs are printed in `America/Chicago`.
+
+Logged slate probabilities are kept the first time they are written. Later builds settle them when the result is in `data/artifacts` and report a multiclass Brier score plus home-win calibration bins.
+
+## Environment variables
+
+Copy `.env.example` to `.env`. Never commit `.env` or a real key.
+
+| Name | Required | Used for |
+| --- | --- | --- |
+| `FOOTBALL_DATA_API_KEY` | No | Current-season UEFA results and UTC kickoffs from football-data.org. `FOOTBALL_DATA_KEY` is still accepted as a legacy alias. |
+| `ODDS_API_KEY` | No | Kickoff timestamps from The Odds API. Prices are not stored. |
+| `CRON_SECRET` | No | Vercel sends this to `/api/cron/refresh`. The route only reports when the artifacts were built. |
+
+Without those keys the model still runs on football-data.co.uk and openfootball. The free football-data.org plan may also refuse Europa League or Conference League; those competitions still load from openfootball text files through 2025-26.
+
+## Web app
+
+The Next.js app is the repository root, which is what Vercel detects.
+
+- `/` Europe club Elo, with filters for all Europe, each league, and UCL / Europa / Conference
+- `/teams/[id]` rating history
+- `/matches` upcoming slate
+- `/matches/[id]` the breakdown card
 
 ```bash
-FOOTBALL_DATA_KEY=your_key_here
-ODDS_API_KEY=your_key_here
+npm install
+npm run dev     # http://localhost:3000
+npm run build
 ```
 
----
+### Deploy on Vercel
 
-## Usage
+Do not create the project from here. In the Vercel dashboard, import this GitHub repo. The framework preset is Next.js. Root directory stays the repo root. No API keys are required on Vercel for pages to render, because the pages only read `data/artifacts`.
 
-### Scan all upcoming games
+Optional: if you turn on Vercel Cron, set `CRON_SECRET` in the project environment. The daily cron calls `GET /api/cron/refresh` and returns the artifact timestamp. It does not download match data.
+
+The rebuild itself is `.github/workflows/refresh-artifacts.yml` (11:00 UTC, or run it by hand). Add repository secrets `FOOTBALL_DATA_API_KEY` and `ODDS_API_KEY` if you want the live UEFA sync and bookmaker kickoff times. The action commits updated JSON to `main`, and Vercel redeploys from that commit.
+
+## Tests
 
 ```bash
-python3 -m src.strategy.scorer
+python -m pytest -q
 ```
 
-Fetches all upcoming games in supported leagues, pulls real team stats, and prints every game ranked by strongest bet signal.
+Covered: the score grid sums to 1, the Dixon-Coles factors for 0-0, 1-0, 0-1, and 1-1, Elo replay determinism and promotion inheritance, Chicago daylight and standard time, and prediction settlement.
 
-> ⚠️ First run takes ~10-15 minutes due to the football-data.org free tier rate limit (10 req/min). All responses are cached for 1 hour — subsequent runs are instant.
+## Data sources
 
-### Analyze your specific picks
+- [football-data.co.uk](https://www.football-data.co.uk/) league CSVs, including xG columns when the file has them
+- [openfootball](https://github.com/openfootball) league JSON and Champions League / Europa / Conference text
+- [football-data.org](https://www.football-data.org/) for the current UEFA season when a key is set
+- [The Odds API](https://the-odds-api.com/) for kickoff times only
+- [clubelo.com](http://clubelo.com/) as a rank-order check, not as an input to the model
 
-Edit `MY_PICKS` at the top of `pick_analyzer.py`:
+## Known limitations
 
-```python
-MY_PICKS = [
-    ("Arsenal",       "Everton",          "soccer_epl",              "home_win"),
-    ("Lyon",          "Le Havre",         "soccer_france_ligue_one", "away_win"),
-    ("Inter Milan",   "Atalanta BC",      "soccer_italy_serie_a",    "home_btts"),
-    ("Borussia Dortmund", "Augsburg",     "soccer_germany_bundesliga","home_over25"),
-]
-```
+- Absolute Elo points will not match ClubElo. The check is whether the ordering of top clubs agrees. Scales differ because this pool is seeded in 2021.
+- Kickoff clocks from football-data.co.uk and openfootball are treated as `Europe/London`, then shown in Chicago. The Odds API overrides that with a real UTC timestamp when `ODDS_API_KEY` is set.
+- 2026-27 European cup matches are missing from the openfootball text archive until that repo publishes them, unless `FOOTBALL_DATA_API_KEY` is set.
+- Team names are matched through a canonical alias list. A club spelled in a new way can show up twice until the alias is added.
+- The goals-minus-xG flag only appears for matches whose source file contains xG.
+- Men's competitions only. Player goals, assists, lineups, and injuries are not in this model.
 
-Then run:
+## Next phases
 
-```bash
-python3 -m src.strategy.pick_analyzer
-```
+- Backtest the score grid and Elo against settled seasons, beyond the live Brier log.
+- Lineups and injuries.
+- A player goal and assist model.
 
-You'll get a full breakdown per pick including form, goals/game, H2H, bet model score, and a plain-English confidence verdict.
+## Older code
 
----
-
-## How the Scoring Works
-
-### Team Profile (per team, last 10 games)
-- Overall form score (W=3pts, D=1pt, L=0pts normalized to 0-100)
-- Home-specific and away-specific form scores
-- Goals scored/conceded per game (overall, home, away)
-- Clean sheet rate
-- BTTS rate
-
-### H2H (time-weighted)
-Recent meetings count more than old ones:
-- Last 1 year → weight 1.0
-- 1-2 years → weight 0.7
-- 2-3 years → weight 0.4
-- 3+ years → weight 0.2
-
-### Win Probability
-Combined from standings (35%), form (40%), H2H (25%) with a +5% home advantage boost.
-
-### Bet Signal Score (0-100)
-Each bet type has its own weighted formula:
-
-| Bet | Key factors |
-|-----|-------------|
-| Away Win | Away form 40% + home team weakness 30% + H2H 15% + stats 15% |
-| Away -1.5 | Away scoring rate 35% + home defensive weakness 35% + away form 20% + H2H 10% |
-| Win + Over 2.5 | Goals environment 40% + stronger team form 30% + H2H avg goals 20% + no clean sheets 10% |
-| Win + BTTS | Both teams BTTS rate 40% + no clean sheets 30% + H2H BTTS 20% + competitiveness 10% |
-
----
-
-## Confidence Ratings
-
-| Rating | Meaning |
-|--------|---------|
-| 🔥 STRONG | Bet model + stats + H2H all align |
-| ✅ GOOD | Two of three factors support the pick |
-| ⚠️ LEAN | One factor supports it, use caution |
-| ❌ SKIP | Model disagrees or no data available |
-
----
-
-## Rate Limiting
-
-football-data.org free tier: **10 requests/minute**
-
-The bot enforces a 6.5s delay between every API call. All responses are cached locally for 1 hour so you only hit the API on the first run of the day.
-
-If you're running the full scanner frequently, consider upgrading to a paid football-data.org plan to remove the rate limit.
-
----
-
-## Requirements
-
-```
-requests
-python-dotenv
-pytz
-```
-
-Install with:
-```bash
-pip install -r requirements.txt
-```
-
----
-
-## Roadmap
-
-- [ ] Injury data layer (requires paid API-Football plan)
-- [ ] Starting lineup detection (squad rotation before CL/EL)
-- [ ] Live trading execution via Polymarket CLOB API
-- [ ] Signal logging and outcome tracking for edge validation
-- [ ] Parlay builder — combines highest-confidence picks into slips
-
----
-
-## Disclaimer
-
-This tool is for **research and educational purposes only**. It does not guarantee betting outcomes. Always gamble responsibly and within your means.
-
----
+`legacy/polymarket/` is the old paper-trading simulator. `legacy/signal_scores/` is the old 0-100 hand-weighted bet scorer. Neither is imported by the CLI or the site.
