@@ -11,7 +11,7 @@ def test_bookmaker_and_openfootball_spellings_match():
         ("frankfurt", ["Ein Frankfurt", "Eintracht Frankfurt"]),
         ("braga", ["Sp Braga", "Sporting Clube de Braga", "SC Braga"]),
         ("union sg", ["St. Gilloise", "Royale Union Saint-Gilloise"]),
-        ("aek athens", ["AEK", "AEK Athen"]),
+        ("aek athens", ["AEK", "AEK Athen", "PAE AEK"]),
         ("aek larnaca", ["AEK Larnaca"]),
         ("dortmund", ["Dortmund", "Borussia Dortmund"]),
         ("inter", ["FC Internazionale Milano"]),

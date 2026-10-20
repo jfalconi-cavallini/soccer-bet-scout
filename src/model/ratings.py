@@ -5,7 +5,9 @@ opponent's defense and the venue baseline. Defense is how many they allow
 after the opponent's attack is taken out. Recent matches count more. When
 a file has xG, those values are blended with actual goals, then each league
 is rescaled so the predicted total matches the goals that league scored.
-The Elo gap then shifts the goal difference without replacing the totals.
+Inside one league the Elo gap shifts how that total is shared. Across
+leagues the indexes are not on the same scale, so the Elo gap sets the
+goal difference and the attack/defense total stays.
 """
 
 from __future__ import annotations
@@ -14,6 +16,8 @@ import math
 from datetime import date, timedelta
 
 from src.config import (
+    CUP_ELO_GOAL_WEIGHT,
+    CUP_ELO_GOALS_PER_400,
     ELO_GOAL_WEIGHT,
     ELO_GOALS_PER_400,
     ELO_HOME_ADVANTAGE,
@@ -62,6 +66,30 @@ class StrengthBook:
             return table[league]
         return self.global_home if venue == "home" else self.global_away
 
+    def same_domestic_league(self, home: str, away: str) -> bool:
+        """True when both clubs' attack indexes were fit in one covered league."""
+        league = self.team_league.get(home)
+        return bool(league and league == self.team_league.get(away) and league in self.league_home)
+
+    def uses_cross_league_goals(
+        self,
+        home: str,
+        away: str,
+        competition_id: str | None,
+        kind: str,
+    ) -> bool:
+        """Cup and cross-league matches take the goal difference from Elo.
+
+        A domestic league match, and a cup tie between two clubs from that
+        same league, keep the within-league blend. Anyone else is not on a
+        shared attack/defense scale.
+        """
+        if kind == "league" and competition_id in self.league_home:
+            return False
+        if self.same_domestic_league(home, away):
+            return False
+        return True
+
     def lambdas(
         self,
         home: str,
@@ -94,10 +122,13 @@ class StrengthBook:
         rating_gap = elo_home - elo_away
         if not neutral:
             rating_gap += ELO_HOME_ADVANTAGE
-        elo_diff = rating_gap / 400.0 * ELO_GOALS_PER_400
-        blended_diff = (1.0 - ELO_GOAL_WEIGHT) * raw_diff + ELO_GOAL_WEIGHT * elo_diff
-        # Keep the match total from the attack/defense model. Elo only
-        # moves how that total is shared.
+        cross = self.uses_cross_league_goals(home, away, competition_id, kind)
+        per_400 = CUP_ELO_GOALS_PER_400 if cross else ELO_GOALS_PER_400
+        weight = CUP_ELO_GOAL_WEIGHT if cross else ELO_GOAL_WEIGHT
+        elo_diff = rating_gap / 400.0 * per_400
+        blended_diff = (1.0 - weight) * raw_diff + weight * elo_diff
+        # Keep the match total from the attack/defense model. Elo moves how
+        # that total is shared. Across leagues it takes the whole difference.
         lam_home = max(0.15, (total + blended_diff) / 2.0)
         lam_away = max(0.15, (total - blended_diff) / 2.0)
         return {
@@ -113,6 +144,7 @@ class StrengthBook:
             "away_attack": away_attack,
             "home_defense": home_defense,
             "away_defense": away_defense,
+            "cross_league": cross,
         }
 
 

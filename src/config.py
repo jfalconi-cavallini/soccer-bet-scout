@@ -79,8 +79,20 @@ XG_BLEND = 0.65
 # How much of the goal-difference expectation comes from the Elo gap.
 # The rest comes from attack and defense. Non-neutral matches add the
 # Elo home advantage onto that gap so the 30% Elo share does not drop it.
+# Domestic matches stay here: attack and defense already separate clubs
+# inside one league, so Elo only moves the split.
 ELO_GOAL_WEIGHT = 0.30
 ELO_GOALS_PER_400 = 1.0
+# Cross-league and cup matches. Attack and defense are centered inside each
+# league, so an average Greek side and an average English side both sit near
+# 1 and the domestic blend throws away the league gap. The Elo rating already
+# carries that gap (covered leagues sit on their mean, cup-only clubs sit on
+# the anchor below). Historical European matches score about two goals of
+# difference per 400 Elo points, so the cup difference uses the whole gap at
+# that scale. The attack/defense total is kept. Two clubs from the same
+# domestic league stay on the domestic blend, including when they meet in Europe.
+CUP_ELO_GOAL_WEIGHT = 1.0
+CUP_ELO_GOALS_PER_400 = 2.0
 
 CHICAGO_TZ = "America/Chicago"
 # football-data.co.uk prints every league's clock in UK local time.

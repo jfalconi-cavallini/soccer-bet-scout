@@ -94,6 +94,8 @@ _ALIASES = {
     "aek": "aek athens",
     "aek athen": "aek athens",
     "aek athens fc": "aek athens",
+    # football-data.org prints the Greek legal prefix on the club name.
+    "pae aek": "aek athens",
     "olympiacos piraeus": "olympiacos",
     "olympiakos piraeus": "olympiacos",
     "fc twente": "twente",
