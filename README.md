@@ -26,6 +26,35 @@ python -m pytest -q
 
 `build` is safe to re-run. Past seasons are cached on disk under `data/cache/` (gitignored). The current season expires after 12 hours. football-data.org calls, when a key is present, wait 6.5 seconds between requests so the free tier stays under 10 per minute.
 
+The files in `data/artifacts/` are a snapshot from 20 Oct 2026 (21,900 played matches, 395 clubs, 143 upcoming). Top of the pool:
+
+```
+  #      Elo  League                  Club
+    1   1711.9  Bundesliga              FC Bayern München
+    2   1697.8  La Liga                 FC Barcelona
+    3   1675.6  Premier League          Arsenal FC
+    4   1662.2  Ligue 1                 Paris Saint-Germain FC
+    5   1660.0  Premier League          Manchester City FC
+    6   1649.6  Serie A                 FC Internazionale Milano
+    7   1641.7  Eredivisie              PSV Eindhoven
+    8   1640.5  La Liga                 Real Madrid CF
+```
+
+`python -m src.cli match "Arsenal" "Everton"` on that snapshot:
+
+```
+  Arsenal FC  vs  Everton FC
+  Premier League  ·  Sat, Oct 24, 2026, 9:00 AM CDT
+  Win %     Arsenal FC                    51.4%
+  Draw                                    28.1%
+  Win %     Everton FC                    20.4%
+  xG        1.54  –  0.88     1H  0.69  –  0.40
+  Over 2.5   43.6%     BTTS   47.3%
+  Elo       1676  –  1559   gap +116
+```
+
+Kickoffs are America/Chicago. 24 Oct 2026 is still on daylight time; the London source clock is 15:00 BST.
+
 ## How a match is scored
 
 **Attack and defense.** Each club's recent matches are time-decayed (half-life about 140 days, window of 18 months). Goals scored and conceded are compared with that league's home and away scoring rate. When a file includes `HxG` / `AxG`, those values are blended with the actual goals (65% xG, 35% goals). A short sample is shrunk toward average.
@@ -79,7 +108,7 @@ The rebuild itself is `.github/workflows/refresh-artifacts.yml` (11:00 UTC, or r
 python -m pytest -q
 ```
 
-Covered: the score grid sums to 1, the Dixon-Coles factors for 0-0, 1-0, 0-1, and 1-1, Elo replay determinism and promotion inheritance, Chicago daylight and standard time, and prediction settlement.
+Covered: the score grid sums to 1, the Dixon-Coles factors for 0-0, 1-0, 0-1, and 1-1, Elo replay determinism and promotion inheritance, Chicago daylight and standard time, club-name aliases, and prediction settlement.
 
 ## Data sources
 
@@ -91,9 +120,11 @@ Covered: the score grid sums to 1, the Dixon-Coles factors for 0-0, 1-0, 0-1, an
 
 ## Known limitations
 
-- Absolute Elo points will not match ClubElo. The check is whether the ordering of top clubs agrees. Scales differ because this pool is seeded in 2021.
-- Kickoff clocks from football-data.co.uk and openfootball are treated as `Europe/London`, then shown in Chicago. The Odds API overrides that with a real UTC timestamp when `ODDS_API_KEY` is set.
-- 2026-27 European cup matches are missing from the openfootball text archive until that repo publishes them, unless `FOOTBALL_DATA_API_KEY` is set.
+- Absolute Elo points will not match ClubElo. The check is whether the ordering of top clubs agrees. Scales differ because this pool is seeded in 2021. The 20 Oct 2026 build could not fetch `http://api.clubelo.com/2026-10-20` (HTTP 502; HTTPS timed out), so `meta.json` records `clubelo.available: false` and there is no Spearman figure for this snapshot.
+- Kickoff clocks from football-data.co.uk and openfootball are treated as `Europe/London`, then shown in Chicago. The Odds API overrides that with a real UTC timestamp when `ODDS_API_KEY` is set. This snapshot was built without that key.
+- 2026-27 European cup matches are missing from the openfootball text archive until that repo publishes them, unless `FOOTBALL_DATA_API_KEY` is set. Tournament filters on this snapshot therefore use the 2025-26 campaigns. This environment did not have the key.
+- football-data.co.uk's 2026-27 CSVs lag the calendar. La Liga results in the file used here stop in mid-September, so a rest note can say a club last played weeks ago when later matches have simply not been published in that CSV yet.
+- The prediction log on this snapshot has 143 pending matches and 0 settled, so Brier and calibration are empty until a later `build` sees final scores.
 - Team names are matched through a canonical alias list. A club spelled in a new way can show up twice until the alias is added.
 - The goals-minus-xG flag only appears for matches whose source file contains xG.
 - Men's competitions only. Player goals, assists, lineups, and injuries are not in this model.
