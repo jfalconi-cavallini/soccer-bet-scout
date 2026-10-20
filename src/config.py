@@ -6,7 +6,14 @@ UEFA Champions League, Europa League, and Conference League matches.
 
 from __future__ import annotations
 
+import re
 from datetime import date
+
+# Competition names that are not the men's pool. Checked on every loaded match.
+_WOMENS_COMPETITION = re.compile(
+    r"women|woman|feminine|femenina|frauen|dames|ladies|\bwsl\b|\bnwsl\b",
+    re.IGNORECASE,
+)
 
 # Anchor for the coefficient formula. The average covered league starts here.
 ELO_INITIAL = 1500.0
@@ -139,6 +146,13 @@ SLATE_DAYS = 16
 # If the last result on file is older than this before the match, form and rest
 # describe the file gap rather than the team. An international break is shorter.
 STALE_RESULT_DAYS = 14
+
+
+def is_mens_competition(name: str | None) -> bool:
+    """True when a competition name is not a women's league or cup."""
+    if not name:
+        return True
+    return _WOMENS_COMPETITION.search(name) is None
 
 
 def season_start_year(day: date) -> int:

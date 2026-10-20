@@ -4,6 +4,7 @@ from __future__ import annotations
 
 from datetime import date
 
+from src.config import is_mens_competition
 from src.data.cache import HttpCache
 from src.data.clubelo_compare import compare
 from src.data.cups import load as load_cups
@@ -12,6 +13,15 @@ from src.data.fduk import load_results
 from src.data.models import CatalogMatch, prefer
 from src.data.odds_times import load_kickoffs
 from src.data.openfootball import load as load_openfootball
+
+
+def mens_only(matches: list[CatalogMatch]) -> list[CatalogMatch]:
+    """Drop anything whose competition name is outside the men's pool."""
+    kept = [match for match in matches if is_mens_competition(match.competition)]
+    dropped = len(matches) - len(kept)
+    if dropped:
+        print(f"Dropped {dropped} matches from competitions outside the men's pool.")
+    return kept
 
 
 def load_catalog(today: date | None = None, cache: HttpCache | None = None) -> tuple[list[CatalogMatch], HttpCache]:
@@ -27,7 +37,7 @@ def load_catalog(today: date | None = None, cache: HttpCache | None = None) -> t
     rows.extend(load_fdorg(cache, today))
 
     merged: dict[tuple, CatalogMatch] = {}
-    for match in rows:
+    for match in mens_only(rows):
         if match.home == match.away:
             continue
         key = (match.day, match.home, match.away)
