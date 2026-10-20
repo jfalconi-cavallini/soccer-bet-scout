@@ -159,6 +159,7 @@ def build(today: date | None = None) -> dict:
             book,
             table,
             finished,
+            match.neutral,
         )
         slate.append(
             {

@@ -72,3 +72,7 @@ def test_elo_gap_shifts_share_of_goals_not_just_the_label():
     tilted = book.lambdas("alpha", "beta", 1700, 1400, "E0", "league")
     assert tilted["lambda_home"] > even["lambda_home"]
     assert abs((tilted["lambda_home"] + tilted["lambda_away"]) - (even["lambda_home"] + even["lambda_away"])) < 0.05
+    neutral = book.lambdas("alpha", "beta", 1500, 1500, "UCL", "cup", neutral=True)
+    assert even["elo_gap_used"] == even["elo_gap"] + 80
+    assert neutral["elo_gap_used"] == 0
+    assert even["lambda_home"] > neutral["lambda_home"]

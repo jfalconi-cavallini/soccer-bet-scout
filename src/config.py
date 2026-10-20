@@ -36,8 +36,8 @@ RATING_PRIOR_MATCHES = 6.0
 XG_BLEND = 0.65
 
 # How much of the goal-difference expectation comes from the Elo gap.
-# The rest comes from attack and defense. Home advantage stays in the
-# attack/defense baselines, so the Elo gap used here is raw (no extra home bump).
+# The rest comes from attack and defense. Non-neutral matches add the
+# Elo home advantage onto that gap so the 30% Elo share does not drop it.
 ELO_GOAL_WEIGHT = 0.30
 ELO_GOALS_PER_400 = 1.0
 

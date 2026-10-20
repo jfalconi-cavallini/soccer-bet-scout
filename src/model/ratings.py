@@ -16,6 +16,7 @@ from datetime import date, timedelta
 from src.config import (
     ELO_GOAL_WEIGHT,
     ELO_GOALS_PER_400,
+    ELO_HOME_ADVANTAGE,
     RATING_DECAY_XI,
     RATING_PRIOR_MATCHES,
     RATING_WINDOW_DAYS,
@@ -69,6 +70,7 @@ class StrengthBook:
         elo_away: float,
         competition_id: str | None,
         kind: str,
+        neutral: bool = False,
     ) -> dict:
         """Expected goals for one match, before and after the Elo shift."""
         if kind == "league" and competition_id in self.league_home:
@@ -88,7 +90,11 @@ class StrengthBook:
 
         total = raw_home + raw_away
         raw_diff = raw_home - raw_away
-        elo_diff = (elo_home - elo_away) / 400.0 * ELO_GOALS_PER_400
+        # Rating gap, plus the same +80 home edge Elo uses, except on a neutral final.
+        rating_gap = elo_home - elo_away
+        if not neutral:
+            rating_gap += ELO_HOME_ADVANTAGE
+        elo_diff = rating_gap / 400.0 * ELO_GOALS_PER_400
         blended_diff = (1.0 - ELO_GOAL_WEIGHT) * raw_diff + ELO_GOAL_WEIGHT * elo_diff
         # Keep the match total from the attack/defense model. Elo only
         # moves how that total is shared.
@@ -100,6 +106,7 @@ class StrengthBook:
             "lambda_home": lam_home,
             "lambda_away": lam_away,
             "elo_gap": elo_home - elo_away,
+            "elo_gap_used": rating_gap,
             "base_home": base_home,
             "base_away": base_away,
             "home_attack": home_attack,

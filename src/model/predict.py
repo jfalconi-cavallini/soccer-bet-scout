@@ -208,10 +208,11 @@ def predict_match(
     book: StrengthBook,
     table: EloTable,
     history: list[EloMatch],
+    neutral: bool = False,
 ) -> dict:
     elo_home = table.rating(home)
     elo_away = table.rating(away)
-    lambdas = book.lambdas(home, away, elo_home, elo_away, competition_id, kind)
+    lambdas = book.lambdas(home, away, elo_home, elo_away, competition_id, kind, neutral)
     grid = score_grid(lambdas["lambda_home"], lambdas["lambda_away"], DIXON_COLES_RHO)
     summary = summarize(grid)
     home_ctx = _team_context(home, history, day, book)
