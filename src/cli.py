@@ -104,6 +104,25 @@ def _cmd_match(args: argparse.Namespace) -> None:
     raise SystemExit("That pairing is not in the upcoming slate. Rebuild, or check the date window.")
 
 
+def _cmd_clubelo(_args: argparse.Namespace) -> None:
+    """Rank-correlation check. Target is above 0.9 once clubelo.com answers."""
+    from datetime import date
+
+    from src.data.cache import HttpCache
+    from src.data.clubelo_compare import compare
+
+    rankings = _read("rankings.json")
+    # Slugs are the canonical name with spaces turned into hyphens.
+    ratings = {team["id"].replace("-", " "): team["rating"] for team in rankings["teams"]}
+    report = compare(HttpCache(), ratings, date.today())
+    print(json.dumps(report, indent=2))
+    spearman = report.get("spearman")
+    if report.get("available") and spearman is not None:
+        print(f"Spearman {spearman}. Target is above 0.9.")
+    else:
+        print(f"ClubElo unavailable: {report.get('reason')}. Target when it returns is above 0.9.")
+
+
 def _cmd_team(args: argparse.Namespace) -> None:
     teams = _read("rankings.json")["teams"]
     team = _find_team(args.name, teams)
@@ -148,6 +167,9 @@ def main() -> None:
     team = sub.add_parser("team", help="Rating history for one club")
     team.add_argument("name")
     team.set_defaults(func=_cmd_team)
+
+    clubelo = sub.add_parser("clubelo", help="Compare saved ratings with clubelo.com (target correlation > 0.9)")
+    clubelo.set_defaults(func=_cmd_clubelo)
 
     args = parser.parse_args()
     args.func(args)

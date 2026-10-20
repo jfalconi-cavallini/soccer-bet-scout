@@ -2,9 +2,11 @@
 
 Domestic leagues share a single rating pool. Champions League, Europa League,
 and Conference League matches are what make a goal in Lisbon comparable to a
-goal in Manchester. Every club in 2021-22 starts equal. After each season,
-ratings move about a third of the way back to that league's mean, and clubs
-coming up take the level of the clubs that went down.
+goal in Manchester. Covered leagues start in 2021 from their UEFA country
+coefficient, not from one shared number. Clubs that never play in those
+leagues start 175 points under the league average and regress to that same
+point. After each season, ratings move about a third of the way back to that
+league's mean, and clubs coming up take the level of the clubs that went down.
 """
 
 from __future__ import annotations
@@ -18,6 +20,10 @@ from src.config import (
     ELO_INITIAL,
     ELO_K,
     ELO_REGRESSION,
+    ELO_START_SEASON,
+    LEAGUES,
+    cup_anchor,
+    league_seed,
     season_label,
     season_start_year,
 )
@@ -179,14 +185,28 @@ def replay(matches: list[EloMatch], today: date | None = None) -> EloTable:
 
     seen_seasons: list[int] = []
     current_season: int | None = None
+    opening = members.get(ELO_START_SEASON, {})
+    team_open_league: dict[str, str] = {}
+    for league, teams in opening.items():
+        for team in teams:
+            team_open_league[team] = league
+    covered_average = sum(league_seed(league["id"]) for league in LEAGUES) / len(LEAGUES)
 
-    def ensure(team: str, day: date) -> None:
+    def starting_rating(team: str, league_id: str | None) -> float:
+        if team in team_open_league:
+            return league_seed(team_open_league[team])
+        if league_id:
+            return league_seed(league_id)
+        return cup_anchor(covered_average)
+
+    def ensure(team: str, day: date, league_id: str | None) -> None:
         if team not in ratings:
-            ratings[team] = ELO_INITIAL
+            start = starting_rating(team, league_id)
+            ratings[team] = start
             _record(
                 history,
                 team,
-                HistoryPoint(day=day.isoformat(), rating=round(ELO_INITIAL, 2), event="seed"),
+                HistoryPoint(day=day.isoformat(), rating=round(start, 2), event="seed"),
             )
 
     def close_season(previous: int, boundary: date) -> None:
@@ -198,9 +218,11 @@ def replay(matches: list[EloMatch], today: date | None = None) -> EloTable:
             mean = sum(ratings.get(team, ELO_INITIAL) for team in teams) / len(teams)
             for team in teams:
                 ratings[team] = regress_toward(ratings.get(team, ELO_INITIAL), mean)
+        domestic = [ratings[team] for team in all_prev if team in ratings]
+        league_level = sum(domestic) / len(domestic) if domestic else covered_average
         for team in list(ratings):
             if team not in all_prev:
-                ratings[team] = regress_toward(ratings[team], ELO_INITIAL)
+                ratings[team] = regress_toward(ratings[team], cup_anchor(league_level))
         next_year = previous + 1
         next_members = members.get(next_year, {})
         for league, upcoming in next_members.items():
@@ -216,8 +238,9 @@ def replay(matches: list[EloMatch], today: date | None = None) -> EloTable:
         if today is not None and match.day > today:
             break
         season = season_start_year(match.day)
-        ensure(match.home, match.day)
-        ensure(match.away, match.day)
+        league_id = match.competition_id if match.kind == "league" else None
+        ensure(match.home, match.day, league_id)
+        ensure(match.away, match.day, league_id)
         if current_season is None:
             current_season = season
             seen_seasons.append(season)

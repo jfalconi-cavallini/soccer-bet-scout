@@ -8,9 +8,31 @@ from __future__ import annotations
 
 from datetime import date
 
-# Every club that appears in the opening season starts here.
+# Anchor for the coefficient formula. The average covered league starts here.
 ELO_INITIAL = 1500.0
 ELO_START_SEASON = 2021  # 2021-22
+
+# Five-year UEFA association coefficients at the end of 2020/21, the ranking
+# in force when this pool's first season starts. Source: UEFA country
+# coefficient table for 2021 (wildstat / UEFA association rankings).
+UEFA_COEFFICIENT_2021 = {
+    "E0": 100.569,
+    "SP1": 97.855,
+    "I1": 75.438,
+    "D1": 73.570,
+    "F1": 56.081,
+    "P1": 48.549,
+    "N1": 39.200,
+    "B1": 36.500,
+    "AT1": 35.825,
+    "SC0": 33.375,
+    "T1": 30.100,
+    "G1": 26.000,
+}
+# Elo points per coefficient point, so England starts well above Greece.
+ELO_PER_COEFFICIENT = 2.5
+# Cup-only clubs sit this far under the covered-league average, and regress there.
+CUP_ELO_BELOW_LEAGUE = 175.0
 
 # Home advantage added to the home side before the expected-score lookup.
 ELO_HOME_ADVANTAGE = 80.0
@@ -118,6 +140,20 @@ def season_start_year(day: date) -> int:
 
 def season_label(start_year: int) -> str:
     return f"{start_year}-{str(start_year + 1)[-2:]}"
+
+
+def league_seed(league_id: str) -> float:
+    """2021 starting Elo for a covered league, from the UEFA country coefficient."""
+    coeff = UEFA_COEFFICIENT_2021.get(league_id)
+    if coeff is None:
+        return ELO_INITIAL
+    mean = sum(UEFA_COEFFICIENT_2021.values()) / len(UEFA_COEFFICIENT_2021)
+    return ELO_INITIAL + (coeff - mean) * ELO_PER_COEFFICIENT
+
+
+def cup_anchor(league_average: float) -> float:
+    """Where clubs outside the covered leagues are seeded and regressed."""
+    return league_average - CUP_ELO_BELOW_LEAGUE
 
 
 def current_season_start(today: date | None = None) -> int:

@@ -65,6 +65,29 @@ def test_promoted_club_inherits_relegated_level():
     assert table.rating("alpha") > table.rating("beta")
 
 
+def test_opening_leagues_follow_the_uefa_coefficient_and_cup_clubs_start_lower():
+    from src.config import ELO_INITIAL, cup_anchor, league_seed
+
+    assert league_seed("E0") > league_seed("P1") > league_seed("N1")
+    assert league_seed("P1") > league_seed("B1") > league_seed("G1")
+    matches = [
+        _match(date(2021, 8, 1), "alpha", "beta", 1, 0),
+        _match(date(2021, 9, 15), "minnow", "alpha", 0, 1, kind="cup", competition="UCL"),
+        _match(date(2022, 8, 6), "alpha", "beta", 1, 0),
+    ]
+    table = replay(matches)
+
+    def point(team: str, event: str) -> float:
+        return next(item.rating for item in table.history[team] if item.event == event)
+
+    assert point("alpha", "seed") == round(league_seed("E0"), 2)
+    assert point("minnow", "seed") == round(cup_anchor(ELO_INITIAL), 2)
+    assert point("alpha", "seed") - point("minnow", "seed") >= 150
+    # Season regression pulls the cup club toward the domestic average minus 175,
+    # which sits under the Premier League seed and is not 1500.
+    assert point("minnow", "season") < point("alpha", "seed") - 100
+
+
 def test_bigger_margin_moves_more_than_a_one_goal_win():
     close = replay([_match(date(2021, 8, 14), "alpha", "beta", 1, 0)])
     wide = replay([_match(date(2021, 8, 14), "alpha", "beta", 4, 0)])
