@@ -130,7 +130,7 @@ def _team_context(team: str, matches: list[EloMatch], as_of: date, book: Strengt
         "attack": round(attack, 2),
         "defense": round(defense, 2),
         "rest_days": rest_days,
-        "last_day": last_day,
+        "last_day": last_day.isoformat() if last_day else None,
         "short_rest": short_rest,
         "europe_week": europe_week,
         "last_competition": last_competition,
@@ -248,24 +248,24 @@ def predict_match(
     def lags_the_file(ctx: dict) -> bool:
         """This club's last result is well behind the rest of the competition file."""
         last = ctx.get("last_day")
-        if data_through is None or last is None:
+        if data_through is None or not last:
             return False
-        return (data_through - last).days > STALE_RESULT_DAYS
+        return (data_through - date.fromisoformat(last)).days > STALE_RESULT_DAYS
 
     def form_sentence(name: str, ctx: dict) -> str:
         last = ctx.get("last_day")
-        if lags_the_file(ctx) and last is not None:
+        if lags_the_file(ctx) and last:
             return (
-                f"{name} results on file stop on {last.isoformat()}, "
+                f"{name} results on file stop on {last}, "
                 "before the rest of this competition, so form is not shown."
             )
         return _trend_sentence(name, ctx)
 
     def one_rest(name: str, ctx: dict) -> str:
         last = ctx.get("last_day")
-        if lags_the_file(ctx) and last is not None:
+        if lags_the_file(ctx) and last:
             return (
-                f"Rest is not shown for {name}. Their last result on file is {last.isoformat()}, "
+                f"Rest is not shown for {name}. Their last result on file is {last}, "
                 "which is behind the rest of this competition."
             )
         return rest_sentence(name, ctx)
