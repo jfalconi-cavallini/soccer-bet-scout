@@ -2,7 +2,7 @@
   "id": "roma",
   "name": "AS Roma",
   "league": "Serie A",
-  "rating": 1682.3,
+  "rating": 1685.4,
   "points": [
     {
       "date": "2021-08-22",
@@ -1808,6 +1808,13 @@
       "rating": 1682.29,
       "opponent": "Genoa CFC",
       "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-20",
+      "rating": 1685.41,
+      "opponent": "\u0160K Slovan Bratislava",
+      "competition_id": "UCL",
       "event": "match"
     }
   ]

@@ -2,7 +2,7 @@
   "id": "psv",
   "name": "PSV Eindhoven",
   "league": "Eredivisie",
-  "rating": 1621.2,
+  "rating": 1635.3,
   "points": [
     {
       "date": "2021-08-14",
@@ -1640,6 +1640,13 @@
       "rating": 1621.23,
       "opponent": "ADO Den Haag",
       "competition_id": "N1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-20",
+      "rating": 1635.29,
+      "opponent": "FC Porto",
+      "competition_id": "UCL",
       "event": "match"
     }
   ]

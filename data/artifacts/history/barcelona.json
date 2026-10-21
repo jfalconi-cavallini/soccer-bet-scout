@@ -2,7 +2,7 @@
   "id": "barcelona",
   "name": "FC Barcelona",
   "league": "La Liga",
-  "rating": 1835.2,
+  "rating": 1818.9,
   "points": [
     {
       "date": "2021-08-15",
@@ -1836,6 +1836,13 @@
       "rating": 1835.18,
       "opponent": "Real Betis Balompi\u00e9",
       "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-20",
+      "rating": 1818.9,
+      "opponent": "Paris Saint-Germain FC",
+      "competition_id": "UCL",
       "event": "match"
     }
   ]

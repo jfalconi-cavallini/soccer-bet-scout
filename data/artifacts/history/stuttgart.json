@@ -2,7 +2,7 @@
   "id": "stuttgart",
   "name": "VfB Stuttgart",
   "league": "Bundesliga",
-  "rating": 1626.7,
+  "rating": 1626.6,
   "points": [
     {
       "date": "2021-08-14",
@@ -1339,6 +1339,13 @@
       "rating": 1626.71,
       "opponent": "Hamburger SV",
       "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-20",
+      "rating": 1626.61,
+      "opponent": "Club Atl\u00e9tico de Madrid",
+      "competition_id": "UCL",
       "event": "match"
     }
   ]

@@ -2,7 +2,7 @@
   "id": "aek-athens",
   "name": "AEK Athen",
   "league": "Super League Greece",
-  "rating": 1544.5,
+  "rating": 1538.5,
   "points": [
     {
       "date": "2021-09-12",
@@ -1408,6 +1408,13 @@
       "date": "2026-10-14",
       "rating": 1544.54,
       "opponent": "FK Shakhtar Donetsk",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-20",
+      "rating": 1538.46,
+      "opponent": "Manchester City FC",
       "competition_id": "UCL",
       "event": "match"
     }

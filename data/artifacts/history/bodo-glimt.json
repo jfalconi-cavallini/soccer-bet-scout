@@ -2,7 +2,7 @@
   "id": "bodo-glimt",
   "name": "FK Bod\u00f8/Glimt",
   "league": null,
-  "rating": 1487.3,
+  "rating": 1482.1,
   "points": [
     {
       "date": "2021-09-16",
@@ -498,6 +498,13 @@
       "date": "2026-10-14",
       "rating": 1487.27,
       "opponent": "Borussia Dortmund",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-20",
+      "rating": 1482.14,
+      "opponent": "SSC Napoli",
       "competition_id": "UCL",
       "event": "match"
     }
