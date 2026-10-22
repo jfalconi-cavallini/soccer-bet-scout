@@ -2,7 +2,7 @@
   "id": "feyenoord",
   "name": "Feyenoord Rotterdam",
   "league": "Eredivisie",
-  "rating": 1612.6,
+  "rating": 1605.2,
   "points": [
     {
       "date": "2021-08-15",
@@ -1619,6 +1619,13 @@
       "rating": 1612.57,
       "opponent": "Telstar 1963",
       "competition_id": "N1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-21",
+      "rating": 1605.17,
+      "opponent": "Real Betis Balompi\u00e9",
+      "competition_id": "UCL",
       "event": "match"
     }
   ]

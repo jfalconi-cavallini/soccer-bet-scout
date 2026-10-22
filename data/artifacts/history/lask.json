@@ -2,7 +2,7 @@
   "id": "lask",
   "name": "LASK Linz",
   "league": "Austrian Bundesliga",
-  "rating": 1419.7,
+  "rating": 1439.0,
   "points": [
     {
       "date": "2021-07-24",
@@ -1205,6 +1205,13 @@
       "date": "2026-10-14",
       "rating": 1419.72,
       "opponent": "Liverpool FC",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-21",
+      "rating": 1439.02,
+      "opponent": "Sporting Clube de Portugal",
       "competition_id": "UCL",
       "event": "match"
     }

@@ -2,7 +2,7 @@
   "id": "como",
   "name": "Como 1907",
   "league": "Serie A",
-  "rating": 1660.2,
+  "rating": 1676.8,
   "points": [
     {
       "date": "2024-07-01",
@@ -618,6 +618,13 @@
       "rating": 1660.16,
       "opponent": "ACF Fiorentina",
       "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-21",
+      "rating": 1676.83,
+      "opponent": "Manchester United FC",
+      "competition_id": "UCL",
       "event": "match"
     }
   ]

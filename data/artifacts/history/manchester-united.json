@@ -2,7 +2,7 @@
   "id": "manchester-united",
   "name": "Manchester United FC",
   "league": "Premier League",
-  "rating": 1693.3,
+  "rating": 1676.6,
   "points": [
     {
       "date": "2021-08-14",
@@ -1717,6 +1717,13 @@
       "rating": 1693.27,
       "opponent": "Leeds United FC",
       "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-21",
+      "rating": 1676.6,
+      "opponent": "Como 1907",
+      "competition_id": "UCL",
       "event": "match"
     }
   ]

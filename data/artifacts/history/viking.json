@@ -2,7 +2,7 @@
   "id": "viking",
   "name": "Viking FK",
   "league": null,
-  "rating": 1352.1,
+  "rating": 1349.3,
   "points": [
     {
       "date": "2025-07-24",
@@ -50,6 +50,13 @@
       "date": "2026-10-13",
       "rating": 1352.07,
       "opponent": "FC Bayern M\u00fcnchen",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-21",
+      "rating": 1349.35,
+      "opponent": "Aston Villa FC",
       "competition_id": "UCL",
       "event": "match"
     }

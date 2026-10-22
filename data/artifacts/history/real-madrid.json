@@ -2,7 +2,7 @@
   "id": "real-madrid",
   "name": "Real Madrid CF",
   "league": "La Liga",
-  "rating": 1765.4,
+  "rating": 1773.5,
   "points": [
     {
       "date": "2021-08-14",
@@ -1906,6 +1906,13 @@
       "rating": 1765.39,
       "opponent": "Sevilla FC",
       "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-21",
+      "rating": 1773.49,
+      "opponent": "RB Leipzig",
+      "competition_id": "UCL",
       "event": "match"
     }
   ]

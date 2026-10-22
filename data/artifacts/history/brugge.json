@@ -2,7 +2,7 @@
   "id": "brugge",
   "name": "Club Brugge KV",
   "league": "Belgian Pro League",
-  "rating": 1637.2,
+  "rating": 1650.0,
   "points": [
     {
       "date": "2021-07-25",
@@ -1786,6 +1786,13 @@
       "date": "2026-10-13",
       "rating": 1637.19,
       "opponent": "FC Internazionale Milano",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-21",
+      "rating": 1649.98,
+      "opponent": "Racing Club de Lens",
       "competition_id": "UCL",
       "event": "match"
     }
