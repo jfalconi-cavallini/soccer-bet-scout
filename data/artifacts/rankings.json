@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T15:39:25+00:00",
+  "generated_at": "2026-10-24T14:16:35+00:00",
   "teams": [
     {
       "id": "arsenal",
@@ -742,17 +742,6 @@
       "rank": 62
     },
     {
-      "id": "alaves",
-      "name": "Deportivo Alav\u00e9s",
-      "rating": 1557.0,
-      "league_id": "SP1",
-      "league": "La Liga",
-      "country": "Spain",
-      "tournaments": [],
-      "played": 161,
-      "rank": 63
-    },
-    {
       "id": "fenerbahce",
       "name": "Fenerbah\u00e7e SK",
       "rating": 1556.9,
@@ -763,7 +752,7 @@
         "UCL"
       ],
       "played": 239,
-      "rank": 64
+      "rank": 63
     },
     {
       "id": "sevilla",
@@ -774,7 +763,7 @@
       "country": "Spain",
       "tournaments": [],
       "played": 230,
-      "rank": 65
+      "rank": 64
     },
     {
       "id": "olympiacos",
@@ -785,7 +774,7 @@
       "country": "Greece",
       "tournaments": [],
       "played": 228,
-      "rank": 66
+      "rank": 65
     },
     {
       "id": "paris",
@@ -796,7 +785,7 @@
       "country": "France",
       "tournaments": [],
       "played": 41,
-      "rank": 67
+      "rank": 66
     },
     {
       "id": "lille",
@@ -809,7 +798,7 @@
         "UCL"
       ],
       "played": 220,
-      "rank": 68
+      "rank": 67
     },
     {
       "id": "bologna",
@@ -820,6 +809,17 @@
       "country": "Italy",
       "tournaments": [],
       "played": 205,
+      "rank": 68
+    },
+    {
+      "id": "alaves",
+      "name": "Deportivo Alav\u00e9s",
+      "rating": 1552.7,
+      "league_id": "SP1",
+      "league": "La Liga",
+      "country": "Spain",
+      "tournaments": [],
+      "played": 162,
       "rank": 69
     },
     {
@@ -1259,6 +1259,17 @@
       "rank": 107
     },
     {
+      "id": "malaga",
+      "name": "M\u00e1laga CF",
+      "rating": 1496.5,
+      "league_id": "SP1",
+      "league": "La Liga",
+      "country": "Spain",
+      "tournaments": [],
+      "played": 10,
+      "rank": 108
+    },
+    {
       "id": "wolfsburg",
       "name": "VfL Wolfsburg",
       "rating": 1496.1,
@@ -1267,7 +1278,7 @@
       "country": "Germany",
       "tournaments": [],
       "played": 176,
-      "rank": 108
+      "rank": 109
     },
     {
       "id": "charleroi",
@@ -1280,7 +1291,7 @@
         "UECL"
       ],
       "played": 194,
-      "rank": 109
+      "rank": 110
     },
     {
       "id": "burnley",
@@ -1291,7 +1302,7 @@
       "country": "England",
       "tournaments": [],
       "played": 114,
-      "rank": 110
+      "rank": 111
     },
     {
       "id": "genk",
@@ -1304,7 +1315,7 @@
         "UEL"
       ],
       "played": 211,
-      "rank": 111
+      "rank": 112
     },
     {
       "id": "union-berlin",
@@ -1315,17 +1326,6 @@
       "country": "Germany",
       "tournaments": [],
       "played": 198,
-      "rank": 112
-    },
-    {
-      "id": "malaga",
-      "name": "M\u00e1laga CF",
-      "rating": 1492.1,
-      "league_id": "SP1",
-      "league": "La Liga",
-      "country": "Spain",
-      "tournaments": [],
-      "played": 9,
       "rank": 113
     },
     {
