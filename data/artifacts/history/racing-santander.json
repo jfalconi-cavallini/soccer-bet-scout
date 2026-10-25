@@ -2,7 +2,7 @@
   "id": "racing-santander",
   "name": "Real Racing Club de Santander",
   "league": "La Liga",
-  "rating": 1509.6,
+  "rating": 1519.0,
   "points": [
     {
       "date": "2026-07-01",
@@ -71,6 +71,13 @@
       "date": "2026-10-18",
       "rating": 1509.65,
       "opponent": "CA Osasuna",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-24",
+      "rating": 1519.04,
+      "opponent": "RCD Espanyol de Barcelona",
       "competition_id": "SP1",
       "event": "match"
     }

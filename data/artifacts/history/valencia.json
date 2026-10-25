@@ -2,7 +2,7 @@
   "id": "valencia",
   "name": "Valencia CF",
   "league": "La Liga",
-  "rating": 1563.3,
+  "rating": 1551.9,
   "points": [
     {
       "date": "2021-08-13",
@@ -1429,6 +1429,13 @@
       "date": "2026-10-17",
       "rating": 1563.27,
       "opponent": "Athletic Club",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-24",
+      "rating": 1551.88,
+      "opponent": "Villarreal CF",
       "competition_id": "SP1",
       "event": "match"
     }
