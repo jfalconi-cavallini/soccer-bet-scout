@@ -2,7 +2,7 @@
   "id": "toulouse",
   "name": "Toulouse FC",
   "league": "Ligue 1",
-  "rating": 1545.4,
+  "rating": 1540.3,
   "points": [
     {
       "date": "2022-07-01",
@@ -1121,6 +1121,13 @@
       "date": "2026-10-16",
       "rating": 1545.38,
       "opponent": "Le Mans FC",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-25",
+      "rating": 1540.26,
+      "opponent": "ES Troyes AC",
       "competition_id": "F1",
       "event": "match"
     }

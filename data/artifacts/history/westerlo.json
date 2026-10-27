@@ -2,7 +2,7 @@
   "id": "westerlo",
   "name": "KVC Westerlo",
   "league": "Belgian Pro League",
-  "rating": 1457.2,
+  "rating": 1452.1,
   "points": [
     {
       "date": "2022-07-01",
@@ -1163,6 +1163,13 @@
       "date": "2026-10-11",
       "rating": 1457.16,
       "opponent": "Royal Antwerp FC",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-24",
+      "rating": 1452.1,
+      "opponent": "Beveren",
       "competition_id": "B1",
       "event": "match"
     }

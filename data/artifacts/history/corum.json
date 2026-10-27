@@ -2,7 +2,7 @@
   "id": "corum",
   "name": "Corum",
   "league": "Super Lig",
-  "rating": 1397.6,
+  "rating": 1391.2,
   "points": [
     {
       "date": "2026-07-01",
@@ -64,6 +64,13 @@
       "date": "2026-10-16",
       "rating": 1397.59,
       "opponent": "\u00c7aykur Rizespor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-25",
+      "rating": 1391.17,
+      "opponent": "G\u00f6ztepe",
       "competition_id": "T1",
       "event": "match"
     }

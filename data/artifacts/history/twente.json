@@ -2,7 +2,7 @@
   "id": "twente",
   "name": "FC Twente '65",
   "league": "Eredivisie",
-  "rating": 1547.9,
+  "rating": 1560.9,
   "points": [
     {
       "date": "2021-08-14",
@@ -1373,6 +1373,13 @@
       "date": "2026-10-18",
       "rating": 1547.93,
       "opponent": "FC Utrecht",
+      "competition_id": "N1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-25",
+      "rating": 1560.89,
+      "opponent": "AZ Alkmaar",
       "competition_id": "N1",
       "event": "match"
     }

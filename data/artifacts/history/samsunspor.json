@@ -2,7 +2,7 @@
   "id": "samsunspor",
   "name": "Samsunspor",
   "league": "Super Lig",
-  "rating": 1394.3,
+  "rating": 1385.6,
   "points": [
     {
       "date": "2023-07-01",
@@ -855,6 +855,13 @@
       "date": "2026-10-18",
       "rating": 1394.34,
       "opponent": "Kas\u0131mpa\u015fa SK",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-24",
+      "rating": 1385.61,
+      "opponent": "Amedspor",
       "competition_id": "T1",
       "event": "match"
     }

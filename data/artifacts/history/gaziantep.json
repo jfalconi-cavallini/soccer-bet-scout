@@ -2,7 +2,7 @@
   "id": "gaziantep",
   "name": "Gaziantep FK",
   "league": "Super Lig",
-  "rating": 1358.6,
+  "rating": 1347.9,
   "points": [
     {
       "date": "2021-08-14",
@@ -1366,6 +1366,13 @@
       "date": "2026-10-18",
       "rating": 1358.59,
       "opponent": "\u0130stanbul Ba\u015fak\u015fehir",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-24",
+      "rating": 1347.88,
+      "opponent": "Erzurumspor",
       "competition_id": "T1",
       "event": "match"
     }

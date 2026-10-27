@@ -2,7 +2,7 @@
   "id": "torino",
   "name": "Torino FC",
   "league": "Serie A",
-  "rating": 1542.5,
+  "rating": 1544.8,
   "points": [
     {
       "date": "2021-08-21",
@@ -1415,6 +1415,13 @@
       "date": "2026-10-19",
       "rating": 1542.48,
       "opponent": "Parma Calcio 1913",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-23",
+      "rating": 1544.82,
+      "opponent": "AC Monza",
       "competition_id": "I1",
       "event": "match"
     }

@@ -2,7 +2,7 @@
   "id": "panathinaikos",
   "name": "Panathinaikos",
   "league": "Super League Greece",
-  "rating": 1523.6,
+  "rating": 1528.5,
   "points": [
     {
       "date": "2021-09-11",
@@ -1485,6 +1485,13 @@
       "date": "2026-10-18",
       "rating": 1523.62,
       "opponent": "Asteras Tripolis",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-25",
+      "rating": 1528.52,
+      "opponent": "Volos NFC",
       "competition_id": "G1",
       "event": "match"
     }

@@ -2,7 +2,7 @@
   "id": "atalanta",
   "name": "Atalanta BC",
   "league": "Serie A",
-  "rating": 1583.7,
+  "rating": 1581.9,
   "points": [
     {
       "date": "2021-08-21",
@@ -1744,6 +1744,13 @@
       "date": "2026-10-18",
       "rating": 1583.65,
       "opponent": "AC Milan",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-25",
+      "rating": 1581.93,
+      "opponent": "Frosinone Calcio",
       "competition_id": "I1",
       "event": "match"
     }

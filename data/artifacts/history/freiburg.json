@@ -2,7 +2,7 @@
   "id": "freiburg",
   "name": "SC Freiburg",
   "league": "Bundesliga",
-  "rating": 1587.1,
+  "rating": 1579.4,
   "points": [
     {
       "date": "2021-08-14",
@@ -1394,6 +1394,13 @@
       "date": "2026-10-18",
       "rating": 1587.08,
       "opponent": "Bayer 04 Leverkusen",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-25",
+      "rating": 1579.42,
+      "opponent": "FC Bayern M\u00fcnchen",
       "competition_id": "D1",
       "event": "match"
     }

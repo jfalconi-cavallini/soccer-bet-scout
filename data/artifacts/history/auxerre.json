@@ -2,7 +2,7 @@
   "id": "auxerre",
   "name": "AJ Auxerre",
   "league": "Ligue 1",
-  "rating": 1505.0,
+  "rating": 1500.1,
   "points": [
     {
       "date": "2022-07-01",
@@ -827,6 +827,13 @@
       "date": "2026-10-18",
       "rating": 1505.02,
       "opponent": "Le Havre AC",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-25",
+      "rating": 1500.1,
+      "opponent": "Le Mans FC",
       "competition_id": "F1",
       "event": "match"
     }

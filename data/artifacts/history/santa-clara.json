@@ -2,7 +2,7 @@
   "id": "santa-clara",
   "name": "CD Santa Clara",
   "league": "Primeira Liga",
-  "rating": 1484.1,
+  "rating": 1481.2,
   "points": [
     {
       "date": "2021-08-08",
@@ -1086,6 +1086,13 @@
       "date": "2026-10-10",
       "rating": 1484.09,
       "opponent": "Casa Pia AC",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-26",
+      "rating": 1481.18,
+      "opponent": "Sport Lisboa e Benfica",
       "competition_id": "P1",
       "event": "match"
     }

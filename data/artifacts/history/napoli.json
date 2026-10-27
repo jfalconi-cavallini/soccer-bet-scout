@@ -2,7 +2,7 @@
   "id": "napoli",
   "name": "SSC Napoli",
   "league": "Serie A",
-  "rating": 1619.4,
+  "rating": 1620.1,
   "points": [
     {
       "date": "2021-08-22",
@@ -1675,6 +1675,13 @@
       "rating": 1619.37,
       "opponent": "FK Bod\u00f8/Glimt",
       "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-24",
+      "rating": 1620.15,
+      "opponent": "AS Roma",
+      "competition_id": "I1",
       "event": "match"
     }
   ]

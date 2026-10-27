@@ -2,7 +2,7 @@
   "id": "panetolikos",
   "name": "Panetolikos",
   "league": "Super League Greece",
-  "rating": 1340.6,
+  "rating": 1334.2,
   "points": [
     {
       "date": "2021-09-11",
@@ -1275,6 +1275,13 @@
       "date": "2026-10-18",
       "rating": 1340.59,
       "opponent": "Olympiakos Piraeus",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-24",
+      "rating": 1334.2,
+      "opponent": "AEK Athen",
       "competition_id": "G1",
       "event": "match"
     }

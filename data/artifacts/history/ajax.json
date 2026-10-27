@@ -2,7 +2,7 @@
   "id": "ajax",
   "name": "AFC Ajax",
   "league": "Eredivisie",
-  "rating": 1559.2,
+  "rating": 1563.1,
   "points": [
     {
       "date": "2021-08-14",
@@ -1653,6 +1653,13 @@
       "date": "2026-10-18",
       "rating": 1559.23,
       "opponent": "FC Groningen",
+      "competition_id": "N1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-25",
+      "rating": 1563.13,
+      "opponent": "Sparta Rotterdam",
       "competition_id": "N1",
       "event": "match"
     }

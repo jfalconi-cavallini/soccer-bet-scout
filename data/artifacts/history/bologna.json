@@ -2,7 +2,7 @@
   "id": "bologna",
   "name": "Bologna FC 1909",
   "league": "Serie A",
-  "rating": 1553.6,
+  "rating": 1568.0,
   "points": [
     {
       "date": "2021-08-22",
@@ -1471,6 +1471,13 @@
       "date": "2026-10-17",
       "rating": 1553.63,
       "opponent": "FC Internazionale Milano",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-24",
+      "rating": 1568.03,
+      "opponent": "Cagliari Calcio",
       "competition_id": "I1",
       "event": "match"
     }

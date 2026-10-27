@@ -2,7 +2,7 @@
   "id": "casa-pia",
   "name": "Casa Pia AC",
   "league": "Primeira Liga",
-  "rating": 1378.7,
+  "rating": 1388.9,
   "points": [
     {
       "date": "2022-07-01",
@@ -1044,6 +1044,13 @@
       "date": "2026-10-10",
       "rating": 1378.73,
       "opponent": "CD Santa Clara",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-24",
+      "rating": 1388.94,
+      "opponent": "CF Estrela da Amadora",
       "competition_id": "P1",
       "event": "match"
     }

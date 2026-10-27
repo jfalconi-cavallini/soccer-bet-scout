@@ -2,7 +2,7 @@
   "id": "union-berlin",
   "name": "1. FC Union Berlin",
   "league": "Bundesliga",
-  "rating": 1493.1,
+  "rating": 1495.4,
   "points": [
     {
       "date": "2021-08-14",
@@ -1422,6 +1422,13 @@
       "date": "2026-10-17",
       "rating": 1493.1,
       "opponent": "Borussia Dortmund",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-24",
+      "rating": 1495.43,
+      "opponent": "FC Augsburg",
       "competition_id": "D1",
       "event": "match"
     }

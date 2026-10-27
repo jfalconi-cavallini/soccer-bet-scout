@@ -2,7 +2,7 @@
   "id": "famalicao",
   "name": "FC Famalic\u00e3o",
   "league": "Primeira Liga",
-  "rating": 1486.5,
+  "rating": 1500.7,
   "points": [
     {
       "date": "2021-08-08",
@@ -1282,6 +1282,13 @@
       "date": "2026-10-12",
       "rating": 1486.5,
       "opponent": "FC Alverca",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-25",
+      "rating": 1500.7,
+      "opponent": "Rio Ave FC",
       "competition_id": "P1",
       "event": "match"
     }

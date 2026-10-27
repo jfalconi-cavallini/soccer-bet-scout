@@ -2,7 +2,7 @@
   "id": "go-ahead-eagles",
   "name": "Go Ahead Eagles",
   "league": "Eredivisie",
-  "rating": 1441.9,
+  "rating": 1443.7,
   "points": [
     {
       "date": "2021-08-13",
@@ -1303,6 +1303,13 @@
       "date": "2026-10-18",
       "rating": 1441.9,
       "opponent": "PEC Zwolle",
+      "competition_id": "N1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-23",
+      "rating": 1443.72,
+      "opponent": "Telstar 1963",
       "competition_id": "N1",
       "event": "match"
     }

@@ -2,7 +2,7 @@
   "id": "rb-leipzig",
   "name": "RB Leipzig",
   "league": "Bundesliga",
-  "rating": 1607.6,
+  "rating": 1614.3,
   "points": [
     {
       "date": "2021-08-15",
@@ -1542,6 +1542,13 @@
       "rating": 1607.58,
       "opponent": "Real Madrid CF",
       "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-24",
+      "rating": 1614.3,
+      "opponent": "SV 07 Elversberg",
+      "competition_id": "D1",
       "event": "match"
     }
   ]

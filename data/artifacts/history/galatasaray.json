@@ -2,7 +2,7 @@
   "id": "galatasaray",
   "name": "Galatasaray SK",
   "league": "Super Lig",
-  "rating": 1575.9,
+  "rating": 1582.0,
   "points": [
     {
       "date": "2021-08-16",
@@ -1668,6 +1668,13 @@
       "rating": 1575.85,
       "opponent": "Lille OSC",
       "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-26",
+      "rating": 1582.01,
+      "opponent": "Fenerbah\u00e7e SK",
+      "competition_id": "T1",
       "event": "match"
     }
   ]

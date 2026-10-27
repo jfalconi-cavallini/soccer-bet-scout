@@ -2,7 +2,7 @@
   "id": "paris",
   "name": "Paris FC",
   "league": "Ligue 1",
-  "rating": 1556.1,
+  "rating": 1552.4,
   "points": [
     {
       "date": "2025-07-01",
@@ -302,6 +302,13 @@
       "date": "2026-10-18",
       "rating": 1556.1,
       "opponent": "Stade Rennais FC 1901",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-24",
+      "rating": 1552.45,
+      "opponent": "Racing Club de Lens",
       "competition_id": "F1",
       "event": "match"
     }

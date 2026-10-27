@@ -2,7 +2,7 @@
   "id": "union-sg",
   "name": "Royale Union Saint-Gilloise",
   "league": "Belgian Pro League",
-  "rating": 1614.3,
+  "rating": 1613.6,
   "points": [
     {
       "date": "2021-07-25",
@@ -1688,6 +1688,13 @@
       "date": "2026-10-11",
       "rating": 1614.35,
       "opponent": "Oud-Heverlee Leuven",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-25",
+      "rating": 1613.6,
+      "opponent": "Cercle Brugge",
       "competition_id": "B1",
       "event": "match"
     }

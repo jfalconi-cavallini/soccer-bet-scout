@@ -2,7 +2,7 @@
   "id": "trabzonspor",
   "name": "Trabzonspor",
   "league": "Super Lig",
-  "rating": 1527.3,
+  "rating": 1533.7,
   "points": [
     {
       "date": "2021-08-16",
@@ -1464,6 +1464,13 @@
       "date": "2026-10-19",
       "rating": 1527.3,
       "opponent": "Besiktas",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-26",
+      "rating": 1533.67,
+      "opponent": "\u00c7aykur Rizespor",
       "competition_id": "T1",
       "event": "match"
     }

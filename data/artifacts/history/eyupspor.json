@@ -2,7 +2,7 @@
   "id": "eyupspor",
   "name": "Eyupspor",
   "league": "Super Lig",
-  "rating": 1326.4,
+  "rating": 1320.7,
   "points": [
     {
       "date": "2024-07-01",
@@ -568,6 +568,13 @@
       "date": "2026-10-17",
       "rating": 1326.44,
       "opponent": "Erzurumspor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-24",
+      "rating": 1320.73,
+      "opponent": "Kas\u0131mpa\u015fa SK",
       "competition_id": "T1",
       "event": "match"
     }

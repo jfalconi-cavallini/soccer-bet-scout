@@ -2,7 +2,7 @@
   "id": "willem-ii",
   "name": "Willem II Tilburg",
   "league": "Eredivisie",
-  "rating": 1322.9,
+  "rating": 1305.5,
   "points": [
     {
       "date": "2021-08-15",
@@ -575,6 +575,13 @@
       "date": "2026-10-17",
       "rating": 1322.93,
       "opponent": "Sparta Rotterdam",
+      "competition_id": "N1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-24",
+      "rating": 1305.47,
+      "opponent": "SC Cambuur-Leeuwarden",
       "competition_id": "N1",
       "event": "match"
     }

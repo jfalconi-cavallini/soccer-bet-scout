@@ -2,7 +2,7 @@
   "id": "asteras-tripolis",
   "name": "Asteras Tripolis",
   "league": "Super League Greece",
-  "rating": 1346.9,
+  "rating": 1346.0,
   "points": [
     {
       "date": "2021-09-11",
@@ -1254,6 +1254,13 @@
       "date": "2026-10-18",
       "rating": 1346.94,
       "opponent": "Panathinaikos",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-24",
+      "rating": 1345.96,
+      "opponent": "Levadeiakos",
       "competition_id": "G1",
       "event": "match"
     }

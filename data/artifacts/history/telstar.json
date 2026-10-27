@@ -2,7 +2,7 @@
   "id": "telstar",
   "name": "Telstar 1963",
   "league": "Eredivisie",
-  "rating": 1397.0,
+  "rating": 1395.2,
   "points": [
     {
       "date": "2025-07-01",
@@ -316,6 +316,13 @@
       "date": "2026-10-17",
       "rating": 1396.97,
       "opponent": "Feyenoord Rotterdam",
+      "competition_id": "N1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-23",
+      "rating": 1395.15,
+      "opponent": "Go Ahead Eagles",
       "competition_id": "N1",
       "event": "match"
     }

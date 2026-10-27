@@ -2,7 +2,7 @@
   "id": "liverpool",
   "name": "Liverpool FC",
   "league": "Premier League",
-  "rating": 1719.3,
+  "rating": 1722.8,
   "points": [
     {
       "date": "2021-08-14",
@@ -1808,6 +1808,13 @@
       "rating": 1719.28,
       "opponent": "Villarreal CF",
       "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-25",
+      "rating": 1722.77,
+      "opponent": "Brighton & Hove Albion FC",
+      "competition_id": "E0",
       "event": "match"
     }
   ]

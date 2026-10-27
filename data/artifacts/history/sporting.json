@@ -2,7 +2,7 @@
   "id": "sporting",
   "name": "Sporting Clube de Portugal",
   "league": "Primeira Liga",
-  "rating": 1662.6,
+  "rating": 1652.0,
   "points": [
     {
       "date": "2021-08-06",
@@ -1668,6 +1668,13 @@
       "rating": 1662.63,
       "opponent": "LASK Linz",
       "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-25",
+      "rating": 1652.02,
+      "opponent": "Acad\u00e9mico de Viseu FC",
+      "competition_id": "P1",
       "event": "match"
     }
   ]

@@ -2,7 +2,7 @@
   "id": "dortmund",
   "name": "Borussia Dortmund",
   "league": "Bundesliga",
-  "rating": 1671.8,
+  "rating": 1672.5,
   "points": [
     {
       "date": "2021-08-14",
@@ -1661,6 +1661,13 @@
       "rating": 1671.84,
       "opponent": "Sabah FK",
       "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-24",
+      "rating": 1672.47,
+      "opponent": "Eintracht Frankfurt",
+      "competition_id": "D1",
       "event": "match"
     }
   ]

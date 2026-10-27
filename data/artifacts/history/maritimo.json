@@ -2,7 +2,7 @@
   "id": "maritimo",
   "name": "CS Mar\u00edtimo",
   "league": "Primeira Liga",
-  "rating": 1386.2,
+  "rating": 1378.1,
   "points": [
     {
       "date": "2021-08-07",
@@ -568,6 +568,13 @@
       "date": "2026-10-10",
       "rating": 1386.21,
       "opponent": "FC Porto",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-23",
+      "rating": 1378.08,
+      "opponent": "Vit\u00f3ria Guimar\u00e3es",
       "competition_id": "P1",
       "event": "match"
     }

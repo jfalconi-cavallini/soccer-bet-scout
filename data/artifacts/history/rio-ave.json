@@ -2,7 +2,7 @@
   "id": "rio-ave",
   "name": "Rio Ave FC",
   "league": "Primeira Liga",
-  "rating": 1399.3,
+  "rating": 1385.1,
   "points": [
     {
       "date": "2022-07-01",
@@ -1044,6 +1044,13 @@
       "date": "2026-10-11",
       "rating": 1399.27,
       "opponent": "CD Nacional",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-25",
+      "rating": 1385.08,
+      "opponent": "FC Famalic\u00e3o",
       "competition_id": "P1",
       "event": "match"
     }

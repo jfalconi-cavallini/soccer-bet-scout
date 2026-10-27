@@ -2,7 +2,7 @@
   "id": "basaksehir",
   "name": "\u0130stanbul Ba\u015fak\u015fehir",
   "league": "Super Lig",
-  "rating": 1472.8,
+  "rating": 1464.8,
   "points": [
     {
       "date": "2021-08-15",
@@ -1548,6 +1548,13 @@
       "date": "2026-10-18",
       "rating": 1472.76,
       "opponent": "Gaziantep FK",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-26",
+      "rating": 1464.78,
+      "opponent": "Besiktas",
       "competition_id": "T1",
       "event": "match"
     }

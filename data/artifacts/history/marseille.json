@@ -2,7 +2,7 @@
   "id": "marseille",
   "name": "Olympique de Marseille",
   "league": "Ligue 1",
-  "rating": 1565.9,
+  "rating": 1562.8,
   "points": [
     {
       "date": "2021-08-08",
@@ -1625,6 +1625,13 @@
       "date": "2026-10-18",
       "rating": 1565.85,
       "opponent": "Angers SCO",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-25",
+      "rating": 1562.8,
+      "opponent": "Le Havre AC",
       "competition_id": "F1",
       "event": "match"
     }

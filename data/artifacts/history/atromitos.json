@@ -2,7 +2,7 @@
   "id": "atromitos",
   "name": "Atromitos",
   "league": "Super League Greece",
-  "rating": 1378.9,
+  "rating": 1376.4,
   "points": [
     {
       "date": "2021-09-12",
@@ -1247,6 +1247,13 @@
       "date": "2026-10-10",
       "rating": 1378.86,
       "opponent": "Asteras Tripolis",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-25",
+      "rating": 1376.4,
+      "opponent": "Aris Saloniki",
       "competition_id": "G1",
       "event": "match"
     }

@@ -2,7 +2,7 @@
   "id": "porto",
   "name": "FC Porto",
   "league": "Primeira Liga",
-  "rating": 1626.4,
+  "rating": 1631.5,
   "points": [
     {
       "date": "2021-08-08",
@@ -1556,6 +1556,13 @@
       "rating": 1626.39,
       "opponent": "PSV Eindhoven",
       "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-24",
+      "rating": 1631.5,
+      "opponent": "Gil Vicente FC",
+      "competition_id": "P1",
       "event": "match"
     }
   ]

@@ -2,7 +2,7 @@
   "id": "estoril",
   "name": "GD Estoril Praia",
   "league": "Primeira Liga",
-  "rating": 1413.4,
+  "rating": 1404.1,
   "points": [
     {
       "date": "2021-08-07",
@@ -1282,6 +1282,13 @@
       "date": "2026-10-10",
       "rating": 1413.42,
       "opponent": "Acad\u00e9mico de Viseu FC",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-25",
+      "rating": 1404.1,
+      "opponent": "Moreirense FC",
       "competition_id": "P1",
       "event": "match"
     }

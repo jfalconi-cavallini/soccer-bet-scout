@@ -2,7 +2,7 @@
   "id": "benfica",
   "name": "Sport Lisboa e Benfica",
   "league": "Primeira Liga",
-  "rating": 1666.8,
+  "rating": 1669.7,
   "points": [
     {
       "date": "2021-08-07",
@@ -1688,6 +1688,13 @@
       "date": "2026-10-11",
       "rating": 1666.81,
       "opponent": "Vit\u00f3ria Guimar\u00e3es",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-26",
+      "rating": 1669.72,
+      "opponent": "CD Santa Clara",
       "competition_id": "P1",
       "event": "match"
     }

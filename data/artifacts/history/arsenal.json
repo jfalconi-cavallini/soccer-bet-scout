@@ -2,7 +2,7 @@
   "id": "arsenal",
   "name": "Arsenal FC",
   "league": "Premier League",
-  "rating": 1834.4,
+  "rating": 1835.4,
   "points": [
     {
       "date": "2021-08-13",
@@ -1766,6 +1766,13 @@
       "rating": 1834.36,
       "opponent": "FC Bayern M\u00fcnchen",
       "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-24",
+      "rating": 1835.42,
+      "opponent": "Everton FC",
+      "competition_id": "E0",
       "event": "match"
     }
   ]

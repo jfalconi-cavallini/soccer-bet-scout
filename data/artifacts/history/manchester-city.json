@@ -2,7 +2,7 @@
   "id": "manchester-city",
   "name": "Manchester City FC",
   "league": "Premier League",
-  "rating": 1775.6,
+  "rating": 1772.1,
   "points": [
     {
       "date": "2021-08-15",
@@ -1822,6 +1822,13 @@
       "rating": 1775.6,
       "opponent": "AEK Athen",
       "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-24",
+      "rating": 1772.1,
+      "opponent": "Aston Villa FC",
+      "competition_id": "E0",
       "event": "match"
     }
   ]

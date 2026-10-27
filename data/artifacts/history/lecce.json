@@ -2,7 +2,7 @@
   "id": "lecce",
   "name": "US Lecce",
   "league": "Serie A",
-  "rating": 1504.7,
+  "rating": 1498.2,
   "points": [
     {
       "date": "2022-07-01",
@@ -1149,6 +1149,13 @@
       "date": "2026-10-18",
       "rating": 1504.74,
       "opponent": "Udinese Calcio",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-25",
+      "rating": 1498.19,
+      "opponent": "Juventus FC",
       "competition_id": "I1",
       "event": "match"
     }

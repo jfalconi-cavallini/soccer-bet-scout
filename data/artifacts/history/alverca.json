@@ -2,7 +2,7 @@
   "id": "alverca",
   "name": "FC Alverca",
   "league": "Primeira Liga",
-  "rating": 1455.2,
+  "rating": 1444.5,
   "points": [
     {
       "date": "2025-07-01",
@@ -309,6 +309,13 @@
       "date": "2026-10-12",
       "rating": 1455.17,
       "opponent": "FC Famalic\u00e3o",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-24",
+      "rating": 1444.51,
+      "opponent": "FC Arouca",
       "competition_id": "P1",
       "event": "match"
     }

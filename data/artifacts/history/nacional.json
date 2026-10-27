@@ -2,7 +2,7 @@
   "id": "nacional",
   "name": "CD Nacional",
   "league": "Primeira Liga",
-  "rating": 1390.8,
+  "rating": 1396.0,
   "points": [
     {
       "date": "2024-07-01",
@@ -554,6 +554,13 @@
       "date": "2026-10-11",
       "rating": 1390.76,
       "opponent": "Rio Ave FC",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-25",
+      "rating": 1395.96,
+      "opponent": "Sporting Clube de Braga",
       "competition_id": "P1",
       "event": "match"
     }

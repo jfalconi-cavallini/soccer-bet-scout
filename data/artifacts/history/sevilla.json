@@ -2,7 +2,7 @@
   "id": "sevilla",
   "name": "Sevilla FC",
   "league": "La Liga",
-  "rating": 1556.4,
+  "rating": 1561.8,
   "points": [
     {
       "date": "2021-08-15",
@@ -1646,6 +1646,13 @@
       "date": "2026-10-18",
       "rating": 1556.38,
       "opponent": "Real Madrid CF",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-26",
+      "rating": 1561.78,
+      "opponent": "CA Osasuna",
       "competition_id": "SP1",
       "event": "match"
     }

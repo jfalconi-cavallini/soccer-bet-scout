@@ -2,7 +2,7 @@
   "id": "standard-liege",
   "name": "Standard Li\u00e8ge",
   "league": "Belgian Pro League",
-  "rating": 1453.1,
+  "rating": 1447.7,
   "points": [
     {
       "date": "2021-07-23",
@@ -1401,6 +1401,13 @@
       "date": "2026-10-11",
       "rating": 1453.07,
       "opponent": "Sporting Charleroi",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-25",
+      "rating": 1447.74,
+      "opponent": "KRC Genk",
       "competition_id": "B1",
       "event": "match"
     }

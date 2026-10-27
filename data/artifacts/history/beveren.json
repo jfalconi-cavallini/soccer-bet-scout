@@ -2,7 +2,7 @@
   "id": "beveren",
   "name": "Beveren",
   "league": "Belgian Pro League",
-  "rating": 1333.3,
+  "rating": 1338.4,
   "points": [
     {
       "date": "2026-07-01",
@@ -64,6 +64,13 @@
       "date": "2026-10-09",
       "rating": 1333.33,
       "opponent": "Lommel SK",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-24",
+      "rating": 1338.38,
+      "opponent": "KVC Westerlo",
       "competition_id": "B1",
       "event": "match"
     }

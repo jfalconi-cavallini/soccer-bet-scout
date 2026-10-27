@@ -2,7 +2,7 @@
   "id": "cercle-brugge",
   "name": "Cercle Brugge",
   "league": "Belgian Pro League",
-  "rating": 1394.5,
+  "rating": 1395.3,
   "points": [
     {
       "date": "2021-07-27",
@@ -1450,6 +1450,13 @@
       "date": "2026-10-10",
       "rating": 1394.55,
       "opponent": "RSC Anderlecht",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-25",
+      "rating": 1395.3,
+      "opponent": "Royale Union Saint-Gilloise",
       "competition_id": "B1",
       "event": "match"
     }

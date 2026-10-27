@@ -2,7 +2,7 @@
   "id": "troyes",
   "name": "ES Troyes AC",
   "league": "Ligue 1",
-  "rating": 1406.2,
+  "rating": 1411.3,
   "points": [
     {
       "date": "2021-08-07",
@@ -617,6 +617,13 @@
       "date": "2026-10-17",
       "rating": 1406.2,
       "opponent": "Racing Club de Lens",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-25",
+      "rating": 1411.33,
+      "opponent": "Toulouse FC",
       "competition_id": "F1",
       "event": "match"
     }

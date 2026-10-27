@@ -2,7 +2,7 @@
   "id": "moreirense",
   "name": "Moreirense FC",
   "league": "Primeira Liga",
-  "rating": 1421.9,
+  "rating": 1431.2,
   "points": [
     {
       "date": "2021-08-07",
@@ -1044,6 +1044,13 @@
       "date": "2026-10-09",
       "rating": 1421.87,
       "opponent": "Gil Vicente FC",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-25",
+      "rating": 1431.19,
+      "opponent": "GD Estoril Praia",
       "competition_id": "P1",
       "event": "match"
     }

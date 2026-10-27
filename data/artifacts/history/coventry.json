@@ -2,7 +2,7 @@
   "id": "coventry",
   "name": "Coventry City FC",
   "league": "Premier League",
-  "rating": 1541.4,
+  "rating": 1535.8,
   "points": [
     {
       "date": "2026-07-01",
@@ -57,6 +57,13 @@
       "date": "2026-10-19",
       "rating": 1541.41,
       "opponent": "Tottenham Hotspur FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-24",
+      "rating": 1535.82,
+      "opponent": "Fulham FC",
       "competition_id": "E0",
       "event": "match"
     }

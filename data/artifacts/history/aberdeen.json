@@ -2,7 +2,7 @@
   "id": "aberdeen",
   "name": "Aberdeen FC",
   "league": "Scottish Premiership",
-  "rating": 1359.1,
+  "rating": 1357.3,
   "points": [
     {
       "date": "2021-08-01",
@@ -1485,6 +1485,13 @@
       "date": "2026-10-17",
       "rating": 1359.12,
       "opponent": "St. Mirren FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-24",
+      "rating": 1357.34,
+      "opponent": "Dundee United",
       "competition_id": "SC0",
       "event": "match"
     }

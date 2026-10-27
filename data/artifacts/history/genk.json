@@ -2,7 +2,7 @@
   "id": "genk",
   "name": "KRC Genk",
   "league": "Belgian Pro League",
-  "rating": 1495.2,
+  "rating": 1500.5,
   "points": [
     {
       "date": "2021-07-23",
@@ -1513,6 +1513,13 @@
       "date": "2026-10-10",
       "rating": 1495.17,
       "opponent": "Kortrijk",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-25",
+      "rating": 1500.5,
+      "opponent": "Standard Li\u00e8ge",
       "competition_id": "B1",
       "event": "match"
     }

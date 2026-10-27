@@ -2,7 +2,7 @@
   "id": "brest",
   "name": "Stade Brestois 29",
   "league": "Ligue 1",
-  "rating": 1518.7,
+  "rating": 1513.2,
   "points": [
     {
       "date": "2021-08-07",
@@ -1401,6 +1401,13 @@
       "date": "2026-10-17",
       "rating": 1518.72,
       "opponent": "Lille OSC",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-23",
+      "rating": 1513.25,
+      "opponent": "OGC Nice",
       "competition_id": "F1",
       "event": "match"
     }
