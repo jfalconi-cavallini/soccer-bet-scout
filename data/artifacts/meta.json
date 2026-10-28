@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-27T16:13:39+00:00",
+  "generated_at": "2026-10-28T17:00:53+00:00",
   "timezone": "America/Chicago",
-  "through": "2026-10-27",
+  "through": "2026-10-28",
   "season": "2026-27",
   "matches_played": 22130,
   "clubs": 393,
-  "upcoming": 180,
+  "upcoming": 176,
   "xg_matches_in_strength_window": 841,
   "tournament_seasons": {
     "UCL": "2026-27",
@@ -106,7 +106,7 @@
   "clubelo": {
     "available": false,
     "reason": "clubelo.com did not return a rating table on this run",
-    "url": "http://api.clubelo.com/2026-10-27"
+    "url": "http://api.clubelo.com/2026-10-28"
   },
   "calibration": {
     "settled": 85,
