@@ -2,7 +2,7 @@
   "id": "falkirk",
   "name": "Falkirk FC",
   "league": "Scottish Premiership",
-  "rating": 1369.2,
+  "rating": 1375.4,
   "points": [
     {
       "date": "2025-07-01",
@@ -351,6 +351,13 @@
       "date": "2026-10-24",
       "rating": 1369.16,
       "opponent": "Kilmarnock FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-28",
+      "rating": 1375.42,
+      "opponent": "Aberdeen FC",
       "competition_id": "SC0",
       "event": "match"
     }

@@ -2,7 +2,7 @@
   "id": "napoli",
   "name": "SSC Napoli",
   "league": "Serie A",
-  "rating": 1620.1,
+  "rating": 1628.2,
   "points": [
     {
       "date": "2021-08-22",
@@ -1681,6 +1681,13 @@
       "date": "2026-10-24",
       "rating": 1620.15,
       "opponent": "AS Roma",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-28",
+      "rating": 1628.22,
+      "opponent": "AC Monza",
       "competition_id": "I1",
       "event": "match"
     }

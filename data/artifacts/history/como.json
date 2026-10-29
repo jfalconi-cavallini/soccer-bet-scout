@@ -2,7 +2,7 @@
   "id": "como",
   "name": "Como 1907",
   "league": "Serie A",
-  "rating": 1680.9,
+  "rating": 1690.1,
   "points": [
     {
       "date": "2024-07-01",
@@ -631,6 +631,13 @@
       "date": "2026-10-24",
       "rating": 1680.92,
       "opponent": "US Sassuolo Calcio",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-27",
+      "rating": 1690.15,
+      "opponent": "Torino FC",
       "competition_id": "I1",
       "event": "match"
     }

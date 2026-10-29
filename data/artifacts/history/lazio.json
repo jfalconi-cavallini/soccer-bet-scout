@@ -2,7 +2,7 @@
   "id": "lazio",
   "name": "Lazio Roma",
   "league": "Serie A",
-  "rating": 1619.0,
+  "rating": 1637.4,
   "points": [
     {
       "date": "2021-08-21",
@@ -1688,6 +1688,13 @@
       "date": "2026-10-24",
       "rating": 1618.99,
       "opponent": "Parma Calcio 1913",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-27",
+      "rating": 1637.39,
+      "opponent": "US Sassuolo Calcio",
       "competition_id": "I1",
       "event": "match"
     }

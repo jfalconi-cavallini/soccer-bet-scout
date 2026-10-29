@@ -2,7 +2,7 @@
   "id": "sassuolo",
   "name": "US Sassuolo Calcio",
   "league": "Serie A",
-  "rating": 1531.9,
+  "rating": 1513.5,
   "points": [
     {
       "date": "2021-08-21",
@@ -1156,6 +1156,13 @@
       "date": "2026-10-24",
       "rating": 1531.9,
       "opponent": "Como 1907",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-27",
+      "rating": 1513.5,
+      "opponent": "Lazio Roma",
       "competition_id": "I1",
       "event": "match"
     }

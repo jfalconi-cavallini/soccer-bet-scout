@@ -2,7 +2,7 @@
   "id": "roma",
   "name": "AS Roma",
   "league": "Serie A",
-  "rating": 1684.6,
+  "rating": 1683.5,
   "points": [
     {
       "date": "2021-08-22",
@@ -1821,6 +1821,13 @@
       "date": "2026-10-24",
       "rating": 1684.63,
       "opponent": "SSC Napoli",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-27",
+      "rating": 1683.53,
+      "opponent": "Cagliari Calcio",
       "competition_id": "I1",
       "event": "match"
     }
