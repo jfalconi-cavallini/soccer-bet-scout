@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T17:19:54+00:00",
+  "generated_at": "2026-10-30T16:57:42+00:00",
   "teams": [
     {
       "id": "arsenal",
@@ -646,7 +646,7 @@
       "league": "Serie A",
       "country": "Italy",
       "tournaments": [],
-      "played": 245,
+      "played": 246,
       "rank": 54
     },
     {
@@ -969,7 +969,7 @@
       "tournaments": [
         "UECL"
       ],
-      "played": 242,
+      "played": 243,
       "rank": 82
     },
     {
@@ -1272,17 +1272,6 @@
       "rank": 108
     },
     {
-      "id": "lecce",
-      "name": "US Lecce",
-      "rating": 1498.2,
-      "league_id": "I1",
-      "league": "Serie A",
-      "country": "Italy",
-      "tournaments": [],
-      "played": 160,
-      "rank": 109
-    },
-    {
       "id": "hamburg",
       "name": "Hamburger SV",
       "rating": 1496.9,
@@ -1291,7 +1280,7 @@
       "country": "Germany",
       "tournaments": [],
       "played": 41,
-      "rank": 110
+      "rank": 109
     },
     {
       "id": "wolfsburg",
@@ -1302,7 +1291,7 @@
       "country": "Germany",
       "tournaments": [],
       "played": 176,
-      "rank": 111
+      "rank": 110
     },
     {
       "id": "burnley",
@@ -1313,7 +1302,7 @@
       "country": "England",
       "tournaments": [],
       "played": 114,
-      "rank": 112
+      "rank": 111
     },
     {
       "id": "union-berlin",
@@ -1324,7 +1313,7 @@
       "country": "Germany",
       "tournaments": [],
       "played": 199,
-      "rank": 113
+      "rank": 112
     },
     {
       "id": "malaga",
@@ -1335,6 +1324,17 @@
       "country": "Spain",
       "tournaments": [],
       "played": 10,
+      "rank": 113
+    },
+    {
+      "id": "frosinone",
+      "name": "Frosinone Calcio",
+      "rating": 1492.1,
+      "league_id": "I1",
+      "league": "Serie A",
+      "country": "Italy",
+      "tournaments": [],
+      "played": 47,
       "rank": 114
     },
     {
@@ -1433,6 +1433,17 @@
       "rank": 122
     },
     {
+      "id": "lecce",
+      "name": "US Lecce",
+      "rating": 1485.4,
+      "league_id": "I1",
+      "league": "Serie A",
+      "country": "Italy",
+      "tournaments": [],
+      "played": 161,
+      "rank": 123
+    },
+    {
       "id": "parma",
       "name": "Parma Calcio 1913",
       "rating": 1484.3,
@@ -1441,7 +1452,7 @@
       "country": "Italy",
       "tournaments": [],
       "played": 85,
-      "rank": 123
+      "rank": 124
     },
     {
       "id": "bodo-glimt",
@@ -1454,7 +1465,7 @@
         "UCL"
       ],
       "played": 67,
-      "rank": 124
+      "rank": 125
     },
     {
       "id": "nice",
@@ -1465,7 +1476,7 @@
       "country": "France",
       "tournaments": [],
       "played": 206,
-      "rank": 125
+      "rank": 126
     },
     {
       "id": "nec",
@@ -1476,7 +1487,7 @@
       "country": "Netherlands",
       "tournaments": [],
       "played": 180,
-      "rank": 126
+      "rank": 127
     },
     {
       "id": "santa-clara",
@@ -1489,7 +1500,7 @@
         "UECL"
       ],
       "played": 151,
-      "rank": 127
+      "rank": 128
     },
     {
       "id": "koln",
@@ -1500,17 +1511,6 @@
       "country": "Germany",
       "tournaments": [],
       "played": 149,
-      "rank": 128
-    },
-    {
-      "id": "frosinone",
-      "name": "Frosinone Calcio",
-      "rating": 1479.3,
-      "league_id": "I1",
-      "league": "Serie A",
-      "country": "Italy",
-      "tournaments": [],
-      "played": 46,
       "rank": 129
     },
     {

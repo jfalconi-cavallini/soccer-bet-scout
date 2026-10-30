@@ -2,7 +2,7 @@
   "id": "frosinone",
   "name": "Frosinone Calcio",
   "league": "Serie A",
-  "rating": 1479.3,
+  "rating": 1492.1,
   "points": [
     {
       "date": "2023-07-01",
@@ -351,6 +351,13 @@
       "date": "2026-10-25",
       "rating": 1479.27,
       "opponent": "Atalanta BC",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-29",
+      "rating": 1492.09,
+      "opponent": "US Lecce",
       "competition_id": "I1",
       "event": "match"
     }
