@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T16:57:42+00:00",
+  "generated_at": "2026-10-31T15:58:19+00:00",
   "teams": [
     {
       "id": "arsenal",
@@ -300,19 +300,6 @@
       "rank": 24
     },
     {
-      "id": "villarreal",
-      "name": "Villarreal CF",
-      "rating": 1637.6,
-      "league_id": "SP1",
-      "league": "La Liga",
-      "country": "Spain",
-      "tournaments": [
-        "UCL"
-      ],
-      "played": 239,
-      "rank": 25
-    },
-    {
       "id": "lazio",
       "name": "Lazio Roma",
       "rating": 1637.4,
@@ -321,7 +308,7 @@
       "country": "Italy",
       "tournaments": [],
       "played": 237,
-      "rank": 26
+      "rank": 25
     },
     {
       "id": "leverkusen",
@@ -332,7 +319,7 @@
       "country": "Germany",
       "tournaments": [],
       "played": 234,
-      "rank": 27
+      "rank": 26
     },
     {
       "id": "psv",
@@ -345,7 +332,7 @@
         "UCL"
       ],
       "played": 231,
-      "rank": 28
+      "rank": 27
     },
     {
       "id": "leeds",
@@ -356,7 +343,7 @@
       "country": "England",
       "tournaments": [],
       "played": 122,
-      "rank": 29
+      "rank": 28
     },
     {
       "id": "juventus",
@@ -367,7 +354,7 @@
       "country": "Italy",
       "tournaments": [],
       "played": 241,
-      "rank": 30
+      "rank": 29
     },
     {
       "id": "porto",
@@ -380,7 +367,7 @@
         "UCL"
       ],
       "played": 218,
-      "rank": 31
+      "rank": 30
     },
     {
       "id": "milan",
@@ -391,7 +378,7 @@
       "country": "Italy",
       "tournaments": [],
       "played": 239,
-      "rank": 32
+      "rank": 31
     },
     {
       "id": "napoli",
@@ -404,7 +391,7 @@
         "UCL"
       ],
       "played": 236,
-      "rank": 33
+      "rank": 32
     },
     {
       "id": "fulham",
@@ -415,6 +402,19 @@
       "country": "England",
       "tournaments": [],
       "played": 160,
+      "rank": 33
+    },
+    {
+      "id": "villarreal",
+      "name": "Villarreal CF",
+      "rating": 1621.2,
+      "league_id": "SP1",
+      "league": "La Liga",
+      "country": "Spain",
+      "tournaments": [
+        "UCL"
+      ],
+      "played": 240,
       "rank": 34
     },
     {
@@ -867,6 +867,17 @@
       "rank": 73
     },
     {
+      "id": "espanyol",
+      "name": "RCD Espanyol de Barcelona",
+      "rating": 1547.5,
+      "league_id": "SP1",
+      "league": "La Liga",
+      "country": "Spain",
+      "tournaments": [],
+      "played": 163,
+      "rank": 74
+    },
+    {
       "id": "levante",
       "name": "Levante UD",
       "rating": 1547.1,
@@ -875,7 +886,7 @@
       "country": "Spain",
       "tournaments": [],
       "played": 86,
-      "rank": 74
+      "rank": 75
     },
     {
       "id": "aek-athens",
@@ -889,7 +900,7 @@
         "UECL"
       ],
       "played": 198,
-      "rank": 75
+      "rank": 76
     },
     {
       "id": "getafe",
@@ -900,7 +911,7 @@
       "country": "Spain",
       "tournaments": [],
       "played": 200,
-      "rank": 76
+      "rank": 77
     },
     {
       "id": "osasuna",
@@ -911,7 +922,7 @@
       "country": "Spain",
       "tournaments": [],
       "played": 200,
-      "rank": 77
+      "rank": 78
     },
     {
       "id": "deportivo",
@@ -922,7 +933,7 @@
       "country": "Spain",
       "tournaments": [],
       "played": 10,
-      "rank": 78
+      "rank": 79
     },
     {
       "id": "toulouse",
@@ -933,7 +944,7 @@
       "country": "France",
       "tournaments": [],
       "played": 156,
-      "rank": 79
+      "rank": 80
     },
     {
       "id": "strasbourg",
@@ -946,7 +957,7 @@
         "UECL"
       ],
       "played": 188,
-      "rank": 80
+      "rank": 81
     },
     {
       "id": "rangers",
@@ -957,7 +968,7 @@
       "country": "Scotland",
       "tournaments": [],
       "played": 250,
-      "rank": 81
+      "rank": 82
     },
     {
       "id": "fiorentina",
@@ -970,7 +981,7 @@
         "UECL"
       ],
       "played": 243,
-      "rank": 82
+      "rank": 83
     },
     {
       "id": "braga",
@@ -983,7 +994,7 @@
         "UEL"
       ],
       "played": 227,
-      "rank": 83
+      "rank": 84
     },
     {
       "id": "augsburg",
@@ -994,7 +1005,7 @@
       "country": "Germany",
       "tournaments": [],
       "played": 177,
-      "rank": 84
+      "rank": 85
     },
     {
       "id": "coventry",
@@ -1005,7 +1016,7 @@
       "country": "England",
       "tournaments": [],
       "played": 8,
-      "rank": 85
+      "rank": 86
     },
     {
       "id": "torino",
@@ -1016,7 +1027,7 @@
       "country": "Italy",
       "tournaments": [],
       "played": 199,
-      "rank": 86
+      "rank": 87
     },
     {
       "id": "trabzonspor",
@@ -1027,7 +1038,7 @@
       "country": "Turkey",
       "tournaments": [],
       "played": 205,
-      "rank": 87
+      "rank": 88
     },
     {
       "id": "wolverhampton",
@@ -1038,17 +1049,6 @@
       "country": "England",
       "tournaments": [],
       "played": 190,
-      "rank": 88
-    },
-    {
-      "id": "espanyol",
-      "name": "RCD Espanyol de Barcelona",
-      "rating": 1531.1,
-      "league_id": "SP1",
-      "league": "La Liga",
-      "country": "Spain",
-      "tournaments": [],
-      "played": 162,
       "rank": 89
     },
     {
