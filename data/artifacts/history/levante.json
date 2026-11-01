@@ -2,7 +2,7 @@
   "id": "levante",
   "name": "Levante UD",
   "league": "La Liga",
-  "rating": 1547.1,
+  "rating": 1534.1,
   "points": [
     {
       "date": "2021-08-14",
@@ -638,6 +638,13 @@
       "date": "2026-10-25",
       "rating": 1547.14,
       "opponent": "Real Sociedad de F\u00fatbol",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-31",
+      "rating": 1534.13,
+      "opponent": "Club Atl\u00e9tico de Madrid",
       "competition_id": "SP1",
       "event": "match"
     }

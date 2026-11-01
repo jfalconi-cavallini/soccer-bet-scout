@@ -2,7 +2,7 @@
   "id": "alaves",
   "name": "Deportivo Alav\u00e9s",
   "league": "La Liga",
-  "rating": 1555.1,
+  "rating": 1549.4,
   "points": [
     {
       "date": "2021-08-14",
@@ -1170,6 +1170,13 @@
       "date": "2026-10-23",
       "rating": 1555.08,
       "opponent": "M\u00e1laga CF",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-31",
+      "rating": 1549.44,
+      "opponent": "FC Barcelona",
       "competition_id": "SP1",
       "event": "match"
     }

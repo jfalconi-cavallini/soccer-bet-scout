@@ -2,7 +2,7 @@
   "id": "malaga",
   "name": "M\u00e1laga CF",
   "league": "La Liga",
-  "rating": 1494.1,
+  "rating": 1489.7,
   "points": [
     {
       "date": "2026-07-01",
@@ -78,6 +78,13 @@
       "date": "2026-10-23",
       "rating": 1494.05,
       "opponent": "Deportivo Alav\u00e9s",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-31",
+      "rating": 1489.73,
+      "opponent": "Real Betis Balompi\u00e9",
       "competition_id": "SP1",
       "event": "match"
     }

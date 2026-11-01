@@ -2,7 +2,7 @@
   "id": "betis",
   "name": "Real Betis Balompi\u00e9",
   "league": "La Liga",
-  "rating": 1659.1,
+  "rating": 1663.4,
   "points": [
     {
       "date": "2021-08-14",
@@ -1758,6 +1758,13 @@
       "date": "2026-10-25",
       "rating": 1659.06,
       "opponent": "RC Celta de Vigo",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-31",
+      "rating": 1663.37,
+      "opponent": "M\u00e1laga CF",
       "competition_id": "SP1",
       "event": "match"
     }
