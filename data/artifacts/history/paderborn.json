@@ -2,7 +2,7 @@
   "id": "paderborn",
   "name": "SC Paderborn 07",
   "league": "Bundesliga",
-  "rating": 1473.4,
+  "rating": 1475.9,
   "points": [
     {
       "date": "2026-07-01",
@@ -57,6 +57,13 @@
       "date": "2026-10-24",
       "rating": 1473.35,
       "opponent": "Hamburger SV",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-31",
+      "rating": 1475.87,
+      "opponent": "Borussia M\u00f6nchengladbach",
       "competition_id": "D1",
       "event": "match"
     }

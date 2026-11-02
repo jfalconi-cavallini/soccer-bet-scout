@@ -2,7 +2,7 @@
   "id": "ofi-crete",
   "name": "OFI Heraklion",
   "league": "Super League Greece",
-  "rating": 1389.3,
+  "rating": 1397.1,
   "points": [
     {
       "date": "2021-09-13",
@@ -1233,6 +1233,13 @@
       "date": "2026-10-25",
       "rating": 1389.26,
       "opponent": "PAOK Saloniki",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-01",
+      "rating": 1397.15,
+      "opponent": "Panetolikos",
       "competition_id": "G1",
       "event": "match"
     }

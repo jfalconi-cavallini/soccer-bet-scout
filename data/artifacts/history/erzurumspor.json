@@ -2,7 +2,7 @@
   "id": "erzurumspor",
   "name": "Erzurumspor",
   "league": "Super Lig",
-  "rating": 1367.5,
+  "rating": 1354.5,
   "points": [
     {
       "date": "2026-07-01",
@@ -71,6 +71,13 @@
       "date": "2026-10-24",
       "rating": 1367.49,
       "opponent": "Gaziantep FK",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-31",
+      "rating": 1354.47,
+      "opponent": "Corum",
       "competition_id": "T1",
       "event": "match"
     }

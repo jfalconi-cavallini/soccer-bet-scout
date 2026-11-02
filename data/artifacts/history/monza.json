@@ -2,7 +2,7 @@
   "id": "monza",
   "name": "AC Monza",
   "league": "Serie A",
-  "rating": 1457.6,
+  "rating": 1457.5,
   "points": [
     {
       "date": "2022-07-01",
@@ -897,6 +897,13 @@
       "date": "2026-10-28",
       "rating": 1457.63,
       "opponent": "SSC Napoli",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-31",
+      "rating": 1457.45,
+      "opponent": "Bologna FC 1909",
       "competition_id": "I1",
       "event": "match"
     }

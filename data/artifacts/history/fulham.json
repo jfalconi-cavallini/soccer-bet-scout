@@ -2,7 +2,7 @@
   "id": "fulham",
   "name": "Fulham FC",
   "league": "Premier League",
-  "rating": 1627.2,
+  "rating": 1632.6,
   "points": [
     {
       "date": "2022-07-01",
@@ -1156,6 +1156,13 @@
       "date": "2026-10-24",
       "rating": 1627.18,
       "opponent": "Coventry City FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-31",
+      "rating": 1632.57,
+      "opponent": "Aston Villa FC",
       "competition_id": "E0",
       "event": "match"
     }

@@ -2,7 +2,7 @@
   "id": "cambuur",
   "name": "SC Cambuur-Leeuwarden",
   "league": "Eredivisie",
-  "rating": 1378.5,
+  "rating": 1391.7,
   "points": [
     {
       "date": "2021-08-15",
@@ -582,6 +582,13 @@
       "date": "2026-10-24",
       "rating": 1378.48,
       "opponent": "Willem II Tilburg",
+      "competition_id": "N1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-31",
+      "rating": 1391.69,
+      "opponent": "Go Ahead Eagles",
       "competition_id": "N1",
       "event": "match"
     }

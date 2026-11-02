@@ -2,7 +2,7 @@
   "id": "psv",
   "name": "PSV Eindhoven",
   "league": "Eredivisie",
-  "rating": 1633.7,
+  "rating": 1631.9,
   "points": [
     {
       "date": "2021-08-14",
@@ -1653,6 +1653,13 @@
       "date": "2026-10-25",
       "rating": 1633.7,
       "opponent": "Feyenoord Rotterdam",
+      "competition_id": "N1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-31",
+      "rating": 1631.95,
+      "opponent": "Willem II Tilburg",
       "competition_id": "N1",
       "event": "match"
     }

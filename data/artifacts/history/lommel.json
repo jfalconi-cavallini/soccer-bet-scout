@@ -2,7 +2,7 @@
   "id": "lommel",
   "name": "Lommel SK",
   "league": "Belgian Pro League",
-  "rating": 1366.2,
+  "rating": 1377.3,
   "points": [
     {
       "date": "2026-07-01",
@@ -71,6 +71,13 @@
       "date": "2026-10-24",
       "rating": 1366.25,
       "opponent": "Oud-Heverlee Leuven",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-01",
+      "rating": 1377.29,
+      "opponent": "KAA Gent",
       "competition_id": "B1",
       "event": "match"
     }

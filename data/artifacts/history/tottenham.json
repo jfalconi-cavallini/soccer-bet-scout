@@ -2,7 +2,7 @@
   "id": "tottenham",
   "name": "Tottenham Hotspur FC",
   "league": "Premier League",
-  "rating": 1614.9,
+  "rating": 1625.6,
   "points": [
     {
       "date": "2021-08-15",
@@ -1695,6 +1695,13 @@
       "date": "2026-10-24",
       "rating": 1614.93,
       "opponent": "Chelsea FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-31",
+      "rating": 1625.59,
+      "opponent": "Crystal Palace FC",
       "competition_id": "E0",
       "event": "match"
     }

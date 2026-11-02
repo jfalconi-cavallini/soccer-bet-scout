@@ -2,7 +2,7 @@
   "id": "st-mirren",
   "name": "St. Mirren FC",
   "league": "Scottish Premiership",
-  "rating": 1331.1,
+  "rating": 1326.4,
   "points": [
     {
       "date": "2021-07-31",
@@ -1471,6 +1471,13 @@
       "date": "2026-10-28",
       "rating": 1331.09,
       "opponent": "Hibernian FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-31",
+      "rating": 1326.38,
+      "opponent": "Motherwell FC",
       "competition_id": "SC0",
       "event": "match"
     }

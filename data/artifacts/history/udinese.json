@@ -2,7 +2,7 @@
   "id": "udinese",
   "name": "Udinese Calcio",
   "league": "Serie A",
-  "rating": 1501.7,
+  "rating": 1493.8,
   "points": [
     {
       "date": "2021-08-22",
@@ -1429,6 +1429,13 @@
       "date": "2026-10-28",
       "rating": 1501.7,
       "opponent": "Parma Calcio 1913",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-31",
+      "rating": 1493.81,
+      "opponent": "AS Roma",
       "competition_id": "I1",
       "event": "match"
     }

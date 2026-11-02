@@ -2,7 +2,7 @@
   "id": "le-havre",
   "name": "Le Havre AC",
   "league": "Ligue 1",
-  "rating": 1461.9,
+  "rating": 1456.7,
   "points": [
     {
       "date": "2023-07-01",
@@ -799,6 +799,13 @@
       "date": "2026-10-25",
       "rating": 1461.86,
       "opponent": "Olympique de Marseille",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-30",
+      "rating": 1456.68,
+      "opponent": "Paris Saint-Germain FC",
       "competition_id": "F1",
       "event": "match"
     }

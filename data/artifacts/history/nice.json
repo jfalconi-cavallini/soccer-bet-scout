@@ -2,7 +2,7 @@
   "id": "nice",
   "name": "OGC Nice",
   "league": "Ligue 1",
-  "rating": 1482.1,
+  "rating": 1496.1,
   "points": [
     {
       "date": "2021-08-08",
@@ -1478,6 +1478,13 @@
       "date": "2026-10-23",
       "rating": 1482.08,
       "opponent": "Stade Brestois 29",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-30",
+      "rating": 1496.11,
+      "opponent": "Stade Rennais FC 1901",
       "competition_id": "F1",
       "event": "match"
     }

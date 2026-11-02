@@ -2,7 +2,7 @@
   "id": "elche",
   "name": "Elche CF",
   "league": "La Liga",
-  "rating": 1557.9,
+  "rating": 1550.6,
   "points": [
     {
       "date": "2021-08-16",
@@ -904,6 +904,13 @@
       "date": "2026-10-24",
       "rating": 1557.87,
       "opponent": "Rayo Vallecano de Madrid",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-01",
+      "rating": 1550.64,
+      "opponent": "Valencia CF",
       "competition_id": "SP1",
       "event": "match"
     }

@@ -2,7 +2,7 @@
   "id": "inter",
   "name": "FC Internazionale Milano",
   "league": "Serie A",
-  "rating": 1720.9,
+  "rating": 1715.6,
   "points": [
     {
       "date": "2021-08-21",
@@ -1828,6 +1828,13 @@
       "date": "2026-10-28",
       "rating": 1720.89,
       "opponent": "Venezia FC",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-31",
+      "rating": 1715.6,
+      "opponent": "AC Milan",
       "competition_id": "I1",
       "event": "match"
     }

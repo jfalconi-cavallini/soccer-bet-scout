@@ -2,7 +2,7 @@
   "id": "porto",
   "name": "FC Porto",
   "league": "Primeira Liga",
-  "rating": 1631.5,
+  "rating": 1635.2,
   "points": [
     {
       "date": "2021-08-08",
@@ -1562,6 +1562,13 @@
       "date": "2026-10-24",
       "rating": 1631.5,
       "opponent": "Gil Vicente FC",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-31",
+      "rating": 1635.17,
+      "opponent": "GD Estoril Praia",
       "competition_id": "P1",
       "event": "match"
     }

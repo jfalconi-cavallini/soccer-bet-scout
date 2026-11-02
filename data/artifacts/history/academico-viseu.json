@@ -2,7 +2,7 @@
   "id": "academico-viseu",
   "name": "Acad\u00e9mico de Viseu FC",
   "league": "Primeira Liga",
-  "rating": 1427.4,
+  "rating": 1428.7,
   "points": [
     {
       "date": "2026-07-01",
@@ -71,6 +71,13 @@
       "date": "2026-10-25",
       "rating": 1427.41,
       "opponent": "Sporting Clube de Portugal",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-01",
+      "rating": 1428.69,
+      "opponent": "Rio Ave FC",
       "competition_id": "P1",
       "event": "match"
     }

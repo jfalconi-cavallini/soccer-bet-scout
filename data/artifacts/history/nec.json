@@ -2,7 +2,7 @@
   "id": "nec",
   "name": "Nijmegen",
   "league": "Eredivisie",
-  "rating": 1481.6,
+  "rating": 1478.5,
   "points": [
     {
       "date": "2021-08-14",
@@ -1296,6 +1296,13 @@
       "date": "2026-10-25",
       "rating": 1481.62,
       "opponent": "FC Groningen",
+      "competition_id": "N1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-31",
+      "rating": 1478.51,
+      "opponent": "SC Heerenveen",
       "competition_id": "N1",
       "event": "match"
     }

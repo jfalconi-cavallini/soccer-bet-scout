@@ -2,7 +2,7 @@
   "id": "le-mans",
   "name": "Le Mans FC",
   "league": "Ligue 1",
-  "rating": 1427.3,
+  "rating": 1416.8,
   "points": [
     {
       "date": "2026-07-01",
@@ -64,6 +64,13 @@
       "date": "2026-10-25",
       "rating": 1427.33,
       "opponent": "AJ Auxerre",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-31",
+      "rating": 1416.8,
+      "opponent": "ES Troyes AC",
       "competition_id": "F1",
       "event": "match"
     }

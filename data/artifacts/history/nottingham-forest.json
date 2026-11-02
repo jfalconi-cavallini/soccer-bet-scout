@@ -2,7 +2,7 @@
   "id": "nottingham-forest",
   "name": "Nottingham Forest FC",
   "league": "Premier League",
-  "rating": 1640.4,
+  "rating": 1638.2,
   "points": [
     {
       "date": "2022-07-01",
@@ -1156,6 +1156,13 @@
       "date": "2026-10-23",
       "rating": 1640.44,
       "opponent": "Ipswich Town FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-31",
+      "rating": 1638.25,
+      "opponent": "Brentford FC",
       "competition_id": "E0",
       "event": "match"
     }

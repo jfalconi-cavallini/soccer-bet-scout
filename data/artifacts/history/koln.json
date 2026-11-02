@@ -2,7 +2,7 @@
   "id": "koln",
   "name": "1. FC K\u00f6ln",
   "league": "Bundesliga",
-  "rating": 1479.3,
+  "rating": 1483.4,
   "points": [
     {
       "date": "2021-08-15",
@@ -1079,6 +1079,13 @@
       "date": "2026-10-24",
       "rating": 1479.3,
       "opponent": "FC Schalke 04",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-01",
+      "rating": 1483.4,
+      "opponent": "1. FC Union Berlin",
       "competition_id": "D1",
       "event": "match"
     }

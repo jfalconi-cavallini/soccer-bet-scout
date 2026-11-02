@@ -2,7 +2,7 @@
   "id": "celtic",
   "name": "Celtic FC",
   "league": "Scottish Premiership",
-  "rating": 1584.0,
+  "rating": 1575.1,
   "points": [
     {
       "date": "2021-07-31",
@@ -1667,6 +1667,13 @@
       "date": "2026-10-28",
       "rating": 1584.04,
       "opponent": "Dundee United",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-01",
+      "rating": 1575.15,
+      "opponent": "Falkirk FC",
       "competition_id": "SC0",
       "event": "match"
     }

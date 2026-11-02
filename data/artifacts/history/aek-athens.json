@@ -2,7 +2,7 @@
   "id": "aek-athens",
   "name": "AEK Athen",
   "league": "Super League Greece",
-  "rating": 1544.9,
+  "rating": 1541.2,
   "points": [
     {
       "date": "2021-09-12",
@@ -1422,6 +1422,13 @@
       "date": "2026-10-24",
       "rating": 1544.85,
       "opponent": "Panetolikos",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-01",
+      "rating": 1541.16,
+      "opponent": "Panathinaikos",
       "competition_id": "G1",
       "event": "match"
     }

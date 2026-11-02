@@ -2,7 +2,7 @@
   "id": "bayern",
   "name": "FC Bayern M\u00fcnchen",
   "league": "Bundesliga",
-  "rating": 1807.7,
+  "rating": 1806.7,
   "points": [
     {
       "date": "2021-08-13",
@@ -1716,6 +1716,13 @@
       "date": "2026-10-25",
       "rating": 1807.69,
       "opponent": "SC Freiburg",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-31",
+      "rating": 1806.67,
+      "opponent": "Borussia Dortmund",
       "competition_id": "D1",
       "event": "match"
     }

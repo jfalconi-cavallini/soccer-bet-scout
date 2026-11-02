@@ -2,7 +2,7 @@
   "id": "monchengladbach",
   "name": "Borussia M\u00f6nchengladbach",
   "league": "Bundesliga",
-  "rating": 1499.6,
+  "rating": 1497.1,
   "points": [
     {
       "date": "2021-08-13",
@@ -1275,6 +1275,13 @@
       "date": "2026-10-23",
       "rating": 1499.63,
       "opponent": "VfB Stuttgart",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-31",
+      "rating": 1497.12,
+      "opponent": "SC Paderborn 07",
       "competition_id": "D1",
       "event": "match"
     }

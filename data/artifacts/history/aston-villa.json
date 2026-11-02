@@ -2,7 +2,7 @@
   "id": "aston-villa",
   "name": "Aston Villa FC",
   "league": "Premier League",
-  "rating": 1696.7,
+  "rating": 1691.3,
   "points": [
     {
       "date": "2021-08-14",
@@ -1611,6 +1611,13 @@
       "date": "2026-10-24",
       "rating": 1696.69,
       "opponent": "Manchester City FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-31",
+      "rating": 1691.3,
+      "opponent": "Fulham FC",
       "competition_id": "E0",
       "event": "match"
     }

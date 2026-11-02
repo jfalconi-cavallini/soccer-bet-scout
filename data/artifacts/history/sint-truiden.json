@@ -2,7 +2,7 @@
   "id": "sint-truiden",
   "name": "Sint-Truidense VV",
   "league": "Belgian Pro League",
-  "rating": 1466.9,
+  "rating": 1460.3,
   "points": [
     {
       "date": "2021-07-25",
@@ -1387,6 +1387,13 @@
       "date": "2026-10-25",
       "rating": 1466.95,
       "opponent": "Club Brugge KV",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-01",
+      "rating": 1460.29,
+      "opponent": "Oud-Heverlee Leuven",
       "competition_id": "B1",
       "event": "match"
     }

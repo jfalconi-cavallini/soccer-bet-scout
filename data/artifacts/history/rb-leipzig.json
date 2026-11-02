@@ -2,7 +2,7 @@
   "id": "rb-leipzig",
   "name": "RB Leipzig",
   "league": "Bundesliga",
-  "rating": 1614.3,
+  "rating": 1626.7,
   "points": [
     {
       "date": "2021-08-15",
@@ -1548,6 +1548,13 @@
       "date": "2026-10-24",
       "rating": 1614.3,
       "opponent": "SV 07 Elversberg",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-31",
+      "rating": 1626.69,
+      "opponent": "FC Schalke 04",
       "competition_id": "D1",
       "event": "match"
     }

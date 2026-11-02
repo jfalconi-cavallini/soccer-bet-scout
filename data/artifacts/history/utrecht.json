@@ -2,7 +2,7 @@
   "id": "utrecht",
   "name": "FC Utrecht",
   "league": "Eredivisie",
-  "rating": 1485.5,
+  "rating": 1473.0,
   "points": [
     {
       "date": "2021-08-15",
@@ -1338,6 +1338,13 @@
       "date": "2026-10-24",
       "rating": 1485.52,
       "opponent": "PEC Zwolle",
+      "competition_id": "N1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-01",
+      "rating": 1473.04,
+      "opponent": "Telstar 1963",
       "competition_id": "N1",
       "event": "match"
     }

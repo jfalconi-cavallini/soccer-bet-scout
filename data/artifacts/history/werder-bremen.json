@@ -2,7 +2,7 @@
   "id": "werder-bremen",
   "name": "SV Werder Bremen",
   "league": "Bundesliga",
-  "rating": 1521.3,
+  "rating": 1529.8,
   "points": [
     {
       "date": "2022-07-01",
@@ -1037,6 +1037,13 @@
       "date": "2026-10-24",
       "rating": 1521.31,
       "opponent": "1. FSV Mainz 05",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-31",
+      "rating": 1529.8,
+      "opponent": "TSG 1899 Hoffenheim",
       "competition_id": "D1",
       "event": "match"
     }

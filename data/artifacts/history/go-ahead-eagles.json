@@ -2,7 +2,7 @@
   "id": "go-ahead-eagles",
   "name": "Go Ahead Eagles",
   "league": "Eredivisie",
-  "rating": 1443.7,
+  "rating": 1430.5,
   "points": [
     {
       "date": "2021-08-13",
@@ -1310,6 +1310,13 @@
       "date": "2026-10-23",
       "rating": 1443.72,
       "opponent": "Telstar 1963",
+      "competition_id": "N1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-31",
+      "rating": 1430.51,
+      "opponent": "SC Cambuur-Leeuwarden",
       "competition_id": "N1",
       "event": "match"
     }

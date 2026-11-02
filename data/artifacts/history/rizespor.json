@@ -2,7 +2,7 @@
   "id": "rizespor",
   "name": "\u00c7aykur Rizespor",
   "league": "Super Lig",
-  "rating": 1411.2,
+  "rating": 1414.4,
   "points": [
     {
       "date": "2021-08-13",
@@ -1121,6 +1121,13 @@
       "date": "2026-10-26",
       "rating": 1411.22,
       "opponent": "Trabzonspor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-31",
+      "rating": 1414.4,
+      "opponent": "Kocaelispor",
       "competition_id": "T1",
       "event": "match"
     }

@@ -2,7 +2,7 @@
   "id": "hull",
   "name": "Hull City AFC",
   "league": "Premier League",
-  "rating": 1559.5,
+  "rating": 1556.1,
   "points": [
     {
       "date": "2026-07-01",
@@ -64,6 +64,13 @@
       "date": "2026-10-25",
       "rating": 1559.53,
       "opponent": "Brentford FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-31",
+      "rating": 1556.1,
+      "opponent": "Ipswich Town FC",
       "competition_id": "E0",
       "event": "match"
     }

@@ -2,7 +2,7 @@
   "id": "athletic-bilbao",
   "name": "Athletic Club",
   "league": "La Liga",
-  "rating": 1575.8,
+  "rating": 1582.9,
   "points": [
     {
       "date": "2021-08-16",
@@ -1583,6 +1583,13 @@
       "date": "2026-10-25",
       "rating": 1575.77,
       "opponent": "Getafe CF",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-01",
+      "rating": 1582.85,
+      "opponent": "Real Sociedad de F\u00fatbol",
       "competition_id": "SP1",
       "event": "match"
     }

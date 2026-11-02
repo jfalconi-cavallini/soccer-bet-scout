@@ -2,7 +2,7 @@
   "id": "mainz",
   "name": "1. FSV Mainz 05",
   "league": "Bundesliga",
-  "rating": 1560.6,
+  "rating": 1551.8,
   "points": [
     {
       "date": "2021-08-15",
@@ -1289,6 +1289,13 @@
       "date": "2026-10-24",
       "rating": 1560.6,
       "opponent": "SV Werder Bremen",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-30",
+      "rating": 1551.83,
+      "opponent": "SV 07 Elversberg",
       "competition_id": "D1",
       "event": "match"
     }

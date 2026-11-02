@@ -2,7 +2,7 @@
   "id": "manchester-city",
   "name": "Manchester City FC",
   "league": "Premier League",
-  "rating": 1772.1,
+  "rating": 1763.5,
   "points": [
     {
       "date": "2021-08-15",
@@ -1828,6 +1828,13 @@
       "date": "2026-10-24",
       "rating": 1772.1,
       "opponent": "Aston Villa FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-31",
+      "rating": 1763.55,
+      "opponent": "Brighton & Hove Albion FC",
       "competition_id": "E0",
       "event": "match"
     }

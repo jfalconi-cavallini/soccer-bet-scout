@@ -2,7 +2,7 @@
   "id": "bournemouth",
   "name": "AFC Bournemouth",
   "league": "Premier League",
-  "rating": 1693.3,
+  "rating": 1697.2,
   "points": [
     {
       "date": "2022-07-01",
@@ -1156,6 +1156,13 @@
       "date": "2026-10-25",
       "rating": 1693.26,
       "opponent": "Manchester United FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-31",
+      "rating": 1697.15,
+      "opponent": "Leeds United FC",
       "competition_id": "E0",
       "event": "match"
     }

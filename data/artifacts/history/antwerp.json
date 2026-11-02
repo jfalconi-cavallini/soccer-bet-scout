@@ -2,7 +2,7 @@
   "id": "antwerp",
   "name": "Royal Antwerp FC",
   "league": "Belgian Pro League",
-  "rating": 1407.8,
+  "rating": 1407.7,
   "points": [
     {
       "date": "2021-07-25",
@@ -1499,6 +1499,13 @@
       "date": "2026-10-24",
       "rating": 1407.8,
       "opponent": "Sporting Charleroi",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-01",
+      "rating": 1407.69,
+      "opponent": "Cercle Brugge",
       "competition_id": "B1",
       "event": "match"
     }

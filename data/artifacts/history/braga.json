@@ -2,7 +2,7 @@
   "id": "braga",
   "name": "Sporting Clube de Braga",
   "league": "Primeira Liga",
-  "rating": 1536.8,
+  "rating": 1544.0,
   "points": [
     {
       "date": "2021-08-07",
@@ -1625,6 +1625,13 @@
       "date": "2026-10-25",
       "rating": 1536.82,
       "opponent": "CD Nacional",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-01",
+      "rating": 1543.97,
+      "opponent": "FC Famalic\u00e3o",
       "competition_id": "P1",
       "event": "match"
     }

@@ -2,7 +2,7 @@
   "id": "excelsior",
   "name": "SBV Excelsior",
   "league": "Eredivisie",
-  "rating": 1415.2,
+  "rating": 1393.0,
   "points": [
     {
       "date": "2022-07-01",
@@ -820,6 +820,13 @@
       "date": "2026-10-25",
       "rating": 1415.24,
       "opponent": "Fortuna Sittard",
+      "competition_id": "N1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-01",
+      "rating": 1393.03,
+      "opponent": "FC Twente '65",
       "competition_id": "N1",
       "event": "match"
     }

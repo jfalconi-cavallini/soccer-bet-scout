@@ -2,7 +2,7 @@
   "id": "sunderland",
   "name": "Sunderland AFC",
   "league": "Premier League",
-  "rating": 1592.9,
+  "rating": 1589.4,
   "points": [
     {
       "date": "2025-07-01",
@@ -337,6 +337,13 @@
       "date": "2026-10-25",
       "rating": 1592.9,
       "opponent": "Leeds United FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2026-10-31",
+      "rating": 1589.36,
+      "opponent": "Coventry City FC",
       "competition_id": "E0",
       "event": "match"
     }
