@@ -2,7 +2,7 @@
   "id": "everton",
   "name": "Everton FC",
   "league": "Premier League",
-  "rating": 1620.2,
+  "rating": 1630.3,
   "points": [
     {
       "date": "2021-08-14",
@@ -1422,6 +1422,13 @@
       "date": "2026-10-24",
       "rating": 1620.21,
       "opponent": "Arsenal FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-02",
+      "rating": 1630.28,
+      "opponent": "Newcastle United FC",
       "competition_id": "E0",
       "event": "match"
     }

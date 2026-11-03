@@ -2,7 +2,7 @@
   "id": "newcastle",
   "name": "Newcastle United FC",
   "league": "Premier League",
-  "rating": 1639.3,
+  "rating": 1629.3,
   "points": [
     {
       "date": "2021-08-15",
@@ -1548,6 +1548,13 @@
       "date": "2026-10-25",
       "rating": 1639.34,
       "opponent": "Crystal Palace FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-02",
+      "rating": 1629.27,
+      "opponent": "Everton FC",
       "competition_id": "E0",
       "event": "match"
     }
