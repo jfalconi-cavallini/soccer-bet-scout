@@ -2,7 +2,7 @@
   "id": "barcelona",
   "name": "FC Barcelona",
   "league": "La Liga",
-  "rating": 1811.1,
+  "rating": 1820.4,
   "points": [
     {
       "date": "2021-08-15",
@@ -1857,6 +1857,13 @@
       "rating": 1811.14,
       "opponent": "Deportivo Alav\u00e9s",
       "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-03",
+      "rating": 1820.39,
+      "opponent": "Aston Villa FC",
+      "competition_id": "UCL",
       "event": "match"
     }
   ]

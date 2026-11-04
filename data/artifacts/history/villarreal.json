@@ -2,7 +2,7 @@
   "id": "villarreal",
   "name": "Villarreal CF",
   "league": "La Liga",
-  "rating": 1628.2,
+  "rating": 1609.6,
   "points": [
     {
       "date": "2021-08-16",
@@ -1717,6 +1717,13 @@
       "rating": 1628.17,
       "opponent": "RCD Espanyol de Barcelona",
       "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-03",
+      "rating": 1609.56,
+      "opponent": "Paris Saint-Germain FC",
+      "competition_id": "UCL",
       "event": "match"
     }
   ]

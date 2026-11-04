@@ -2,7 +2,7 @@
   "id": "galatasaray",
   "name": "Galatasaray SK",
   "league": "Super Lig",
-  "rating": 1591.7,
+  "rating": 1606.2,
   "points": [
     {
       "date": "2021-08-16",
@@ -1682,6 +1682,13 @@
       "rating": 1591.75,
       "opponent": "Konyaspor",
       "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-03",
+      "rating": 1606.2,
+      "opponent": "VfB Stuttgart",
+      "competition_id": "UCL",
       "event": "match"
     }
   ]

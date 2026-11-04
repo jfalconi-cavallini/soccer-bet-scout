@@ -2,7 +2,7 @@
   "id": "stuttgart",
   "name": "VfB Stuttgart",
   "league": "Bundesliga",
-  "rating": 1628.4,
+  "rating": 1613.9,
   "points": [
     {
       "date": "2021-08-14",
@@ -1360,6 +1360,13 @@
       "rating": 1628.4,
       "opponent": "Bayer 04 Leverkusen",
       "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-03",
+      "rating": 1613.95,
+      "opponent": "Galatasaray SK",
+      "competition_id": "UCL",
       "event": "match"
     }
   ]

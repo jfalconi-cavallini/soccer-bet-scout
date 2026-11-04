@@ -2,7 +2,7 @@
   "id": "roma",
   "name": "AS Roma",
   "league": "Serie A",
-  "rating": 1691.4,
+  "rating": 1681.6,
   "points": [
     {
       "date": "2021-08-22",
@@ -1836,6 +1836,13 @@
       "rating": 1691.43,
       "opponent": "Udinese Calcio",
       "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-03",
+      "rating": 1681.59,
+      "opponent": "Manchester United FC",
+      "competition_id": "UCL",
       "event": "match"
     }
   ]

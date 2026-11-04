@@ -2,7 +2,7 @@
   "id": "manchester-united",
   "name": "Manchester United FC",
   "league": "Premier League",
-  "rating": 1648.3,
+  "rating": 1658.1,
   "points": [
     {
       "date": "2021-08-14",
@@ -1738,6 +1738,13 @@
       "rating": 1648.26,
       "opponent": "Chelsea FC",
       "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-03",
+      "rating": 1658.1,
+      "opponent": "AS Roma",
+      "competition_id": "UCL",
       "event": "match"
     }
   ]

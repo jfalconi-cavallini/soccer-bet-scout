@@ -2,7 +2,7 @@
   "id": "atletico-madrid",
   "name": "Club Atl\u00e9tico de Madrid",
   "league": "La Liga",
-  "rating": 1704.2,
+  "rating": 1688.8,
   "points": [
     {
       "date": "2021-08-15",
@@ -1829,6 +1829,13 @@
       "rating": 1704.2,
       "opponent": "Levante UD",
       "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-03",
+      "rating": 1688.77,
+      "opponent": "FC Bayern M\u00fcnchen",
+      "competition_id": "UCL",
       "event": "match"
     }
   ]
