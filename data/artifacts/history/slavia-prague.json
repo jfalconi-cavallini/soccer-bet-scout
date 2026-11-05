@@ -2,7 +2,7 @@
   "id": "slavia-prague",
   "name": "SK Slavia Praha",
   "league": null,
-  "rating": 1345.4,
+  "rating": 1343.5,
   "points": [
     {
       "date": "2021-09-16",
@@ -379,6 +379,13 @@
       "date": "2026-10-20",
       "rating": 1345.36,
       "opponent": "Fenerbah\u00e7e SK",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-04",
+      "rating": 1343.5,
+      "opponent": "Arsenal FC",
       "competition_id": "UCL",
       "event": "match"
     }

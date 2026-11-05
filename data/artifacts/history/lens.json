@@ -2,7 +2,7 @@
   "id": "lens",
   "name": "Racing Club de Lens",
   "league": "Ligue 1",
-  "rating": 1579.8,
+  "rating": 1556.0,
   "points": [
     {
       "date": "2021-08-08",
@@ -1437,6 +1437,13 @@
       "rating": 1579.8,
       "opponent": "Lille OSC",
       "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-04",
+      "rating": 1555.96,
+      "opponent": "Como 1907",
+      "competition_id": "UCL",
       "event": "match"
     }
   ]

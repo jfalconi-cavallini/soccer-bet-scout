@@ -2,7 +2,7 @@
   "id": "real-madrid",
   "name": "Real Madrid CF",
   "league": "La Liga",
-  "rating": 1791.9,
+  "rating": 1797.9,
   "points": [
     {
       "date": "2021-08-14",
@@ -1927,6 +1927,13 @@
       "rating": 1791.92,
       "opponent": "Real Racing Club de Santander",
       "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-04",
+      "rating": 1797.91,
+      "opponent": "AEK Athen",
+      "competition_id": "UCL",
       "event": "match"
     }
   ]

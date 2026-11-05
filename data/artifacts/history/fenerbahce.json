@@ -2,7 +2,7 @@
   "id": "fenerbahce",
   "name": "Fenerbah\u00e7e SK",
   "league": "Super Lig",
-  "rating": 1540.6,
+  "rating": 1554.6,
   "points": [
     {
       "date": "2021-08-15",
@@ -1724,6 +1724,13 @@
       "rating": 1540.59,
       "opponent": "G\u00f6ztepe",
       "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-04",
+      "rating": 1554.61,
+      "opponent": "Liverpool FC",
+      "competition_id": "UCL",
       "event": "match"
     }
   ]

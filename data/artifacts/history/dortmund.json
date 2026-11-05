@@ -2,7 +2,7 @@
   "id": "dortmund",
   "name": "Borussia Dortmund",
   "league": "Bundesliga",
-  "rating": 1673.5,
+  "rating": 1681.6,
   "points": [
     {
       "date": "2021-08-14",
@@ -1675,6 +1675,13 @@
       "rating": 1673.49,
       "opponent": "FC Bayern M\u00fcnchen",
       "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-04",
+      "rating": 1681.58,
+      "opponent": "Real Betis Balompi\u00e9",
+      "competition_id": "UCL",
       "event": "match"
     }
   ]

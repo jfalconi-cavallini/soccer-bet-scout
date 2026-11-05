@@ -2,7 +2,7 @@
   "id": "como",
   "name": "Como 1907",
   "league": "Serie A",
-  "rating": 1690.2,
+  "rating": 1714.1,
   "points": [
     {
       "date": "2024-07-01",
@@ -646,6 +646,13 @@
       "rating": 1690.22,
       "opponent": "Venezia FC",
       "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-04",
+      "rating": 1714.07,
+      "opponent": "Racing Club de Lens",
+      "competition_id": "UCL",
       "event": "match"
     }
   ]

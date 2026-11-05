@@ -2,7 +2,7 @@
   "id": "rb-leipzig",
   "name": "RB Leipzig",
   "league": "Bundesliga",
-  "rating": 1626.7,
+  "rating": 1617.5,
   "points": [
     {
       "date": "2021-08-15",
@@ -1556,6 +1556,13 @@
       "rating": 1626.69,
       "opponent": "FC Schalke 04",
       "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-04",
+      "rating": 1617.47,
+      "opponent": "Manchester City FC",
+      "competition_id": "UCL",
       "event": "match"
     }
   ]

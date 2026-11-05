@@ -2,7 +2,7 @@
   "id": "kortrijk",
   "name": "Kortrijk",
   "league": "Belgian Pro League",
-  "rating": 1311.5,
+  "rating": 1302.9,
   "points": [
     {
       "date": "2021-07-24",
@@ -1079,6 +1079,13 @@
       "date": "2026-10-31",
       "rating": 1311.49,
       "opponent": "Standard Li\u00e8ge",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-04",
+      "rating": 1302.86,
+      "opponent": "KV Mechelen",
       "competition_id": "B1",
       "event": "match"
     }
