@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T17:50:04+00:00",
+  "generated_at": "2026-11-07T16:45:58+00:00",
   "teams": [
     {
       "id": "arsenal",
@@ -799,14 +799,14 @@
       "rank": 67
     },
     {
-      "id": "sevilla",
-      "name": "Sevilla FC",
-      "rating": 1553.8,
+      "id": "alaves",
+      "name": "Deportivo Alav\u00e9s",
+      "rating": 1554.4,
       "league_id": "SP1",
       "league": "La Liga",
       "country": "Spain",
       "tournaments": [],
-      "played": 232,
+      "played": 164,
       "rank": 68
     },
     {
@@ -845,17 +845,6 @@
       "rank": 71
     },
     {
-      "id": "alaves",
-      "name": "Deportivo Alav\u00e9s",
-      "rating": 1551.9,
-      "league_id": "SP1",
-      "league": "La Liga",
-      "country": "Spain",
-      "tournaments": [],
-      "played": 163,
-      "rank": 72
-    },
-    {
       "id": "mainz",
       "name": "1. FSV Mainz 05",
       "rating": 1551.8,
@@ -866,6 +855,17 @@
         "UECL"
       ],
       "played": 180,
+      "rank": 72
+    },
+    {
+      "id": "sevilla",
+      "name": "Sevilla FC",
+      "rating": 1551.3,
+      "league_id": "SP1",
+      "league": "La Liga",
+      "country": "Spain",
+      "tournaments": [],
+      "played": 233,
       "rank": 73
     },
     {
@@ -1098,6 +1098,17 @@
       "rank": 93
     },
     {
+      "id": "racing-santander",
+      "name": "Real Racing Club de Santander",
+      "rating": 1522.5,
+      "league_id": "SP1",
+      "league": "La Liga",
+      "country": "Spain",
+      "tournaments": [],
+      "played": 12,
+      "rank": 94
+    },
+    {
       "id": "genoa",
       "name": "Genoa CFC",
       "rating": 1519.7,
@@ -1106,7 +1117,7 @@
       "country": "Italy",
       "tournaments": [],
       "played": 162,
-      "rank": 94
+      "rank": 95
     },
     {
       "id": "az",
@@ -1119,7 +1130,7 @@
         "UECL"
       ],
       "played": 225,
-      "rank": 95
+      "rank": 96
     },
     {
       "id": "cagliari",
@@ -1130,7 +1141,7 @@
       "country": "Italy",
       "tournaments": [],
       "played": 162,
-      "rank": 96
+      "rank": 97
     },
     {
       "id": "lorient",
@@ -1141,17 +1152,6 @@
       "country": "France",
       "tournaments": [],
       "played": 153,
-      "rank": 97
-    },
-    {
-      "id": "racing-santander",
-      "name": "Real Racing Club de Santander",
-      "rating": 1509.5,
-      "league_id": "SP1",
-      "league": "La Liga",
-      "country": "Spain",
-      "tournaments": [],
-      "played": 11,
       "rank": 98
     },
     {
@@ -1294,17 +1294,6 @@
       "rank": 110
     },
     {
-      "id": "malaga",
-      "name": "M\u00e1laga CF",
-      "rating": 1493.8,
-      "league_id": "SP1",
-      "league": "La Liga",
-      "country": "Spain",
-      "tournaments": [],
-      "played": 11,
-      "rank": 111
-    },
-    {
       "id": "udinese",
       "name": "Udinese Calcio",
       "rating": 1493.8,
@@ -1313,7 +1302,7 @@
       "country": "Italy",
       "tournaments": [],
       "played": 200,
-      "rank": 112
+      "rank": 111
     },
     {
       "id": "famalicao",
@@ -1324,7 +1313,7 @@
       "country": "Portugal",
       "tournaments": [],
       "played": 180,
-      "rank": 113
+      "rank": 112
     },
     {
       "id": "union-berlin",
@@ -1335,7 +1324,7 @@
       "country": "Germany",
       "tournaments": [],
       "played": 200,
-      "rank": 114
+      "rank": 113
     },
     {
       "id": "salzburg",
@@ -1346,7 +1335,7 @@
       "country": "Austria",
       "tournaments": [],
       "played": 178,
-      "rank": 115
+      "rank": 114
     },
     {
       "id": "charleroi",
@@ -1359,7 +1348,7 @@
         "UECL"
       ],
       "played": 196,
-      "rank": 116
+      "rank": 115
     },
     {
       "id": "hamburg",
@@ -1370,7 +1359,7 @@
       "country": "Germany",
       "tournaments": [],
       "played": 42,
-      "rank": 117
+      "rank": 116
     },
     {
       "id": "heerenveen",
@@ -1381,7 +1370,7 @@
       "country": "Netherlands",
       "tournaments": [],
       "played": 181,
-      "rank": 118
+      "rank": 117
     },
     {
       "id": "oviedo",
@@ -1392,7 +1381,7 @@
       "country": "Spain",
       "tournaments": [],
       "played": 38,
-      "rank": 119
+      "rank": 118
     },
     {
       "id": "auxerre",
@@ -1403,7 +1392,7 @@
       "country": "France",
       "tournaments": [],
       "played": 115,
-      "rank": 120
+      "rank": 119
     },
     {
       "id": "elversberg",
@@ -1414,7 +1403,7 @@
       "country": "Germany",
       "tournaments": [],
       "played": 8,
-      "rank": 121
+      "rank": 120
     },
     {
       "id": "sturm-graz",
@@ -1425,7 +1414,7 @@
       "country": "Austria",
       "tournaments": [],
       "played": 171,
-      "rank": 122
+      "rank": 121
     },
     {
       "id": "wolfsberger",
@@ -1439,7 +1428,7 @@
         "UECL"
       ],
       "played": 145,
-      "rank": 123
+      "rank": 122
     },
     {
       "id": "arouca",
@@ -1450,7 +1439,7 @@
       "country": "Portugal",
       "tournaments": [],
       "played": 180,
-      "rank": 124
+      "rank": 123
     },
     {
       "id": "santa-clara",
@@ -1463,7 +1452,7 @@
         "UECL"
       ],
       "played": 152,
-      "rank": 125
+      "rank": 124
     },
     {
       "id": "koln",
@@ -1474,7 +1463,7 @@
       "country": "Germany",
       "tournaments": [],
       "played": 150,
-      "rank": 126
+      "rank": 125
     },
     {
       "id": "anderlecht",
@@ -1488,7 +1477,7 @@
         "UECL"
       ],
       "played": 228,
-      "rank": 127
+      "rank": 126
     },
     {
       "id": "bodo-glimt",
@@ -1501,6 +1490,17 @@
         "UCL"
       ],
       "played": 68,
+      "rank": 127
+    },
+    {
+      "id": "malaga",
+      "name": "M\u00e1laga CF",
+      "rating": 1480.8,
+      "league_id": "SP1",
+      "league": "La Liga",
+      "country": "Spain",
+      "tournaments": [],
+      "played": 12,
       "rank": 128
     },
     {

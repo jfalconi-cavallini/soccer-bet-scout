@@ -2,7 +2,7 @@
   "id": "sevilla",
   "name": "Sevilla FC",
   "league": "La Liga",
-  "rating": 1553.8,
+  "rating": 1551.3,
   "points": [
     {
       "date": "2021-08-15",
@@ -1660,6 +1660,13 @@
       "date": "2026-11-01",
       "rating": 1553.8,
       "opponent": "Getafe CF",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-06",
+      "rating": 1551.25,
+      "opponent": "Deportivo Alav\u00e9s",
       "competition_id": "SP1",
       "event": "match"
     }
