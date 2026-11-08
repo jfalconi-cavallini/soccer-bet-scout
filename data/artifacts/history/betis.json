@@ -2,7 +2,7 @@
   "id": "betis",
   "name": "Real Betis Balompi\u00e9",
   "league": "La Liga",
-  "rating": 1651.2,
+  "rating": 1666.7,
   "points": [
     {
       "date": "2021-08-14",
@@ -1773,6 +1773,13 @@
       "rating": 1651.22,
       "opponent": "Borussia Dortmund",
       "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-08",
+      "rating": 1666.74,
+      "opponent": "Elche CF",
+      "competition_id": "SP1",
       "event": "match"
     }
   ]

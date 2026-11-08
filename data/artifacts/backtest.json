@@ -1,6 +1,6 @@
 {
   "from": "2024-07-01",
-  "through": "2026-11-07",
+  "through": "2026-11-08",
   "seasons": [
     "2024-25",
     "2025-26",
@@ -8,15 +8,15 @@
   ],
   "rule": "Each match uses Elo and attack/defense from earlier dates only. The match, later matches, and other matches on the same day are left out. League-average rates are that competition's results before the date. Bookmaker figures are closing prices from football-data.co.uk, with the overround removed, on the matches that have them. The overall table is domestic leagues. Champions League, Europa League, and Conference League are scored separately. A cup mismatch is an Elo gap above 200 or a closing price above 75% on one side.",
   "overall": {
-    "matches": 8139,
+    "matches": 8143,
     "model_brier": 0.601,
     "model_log_loss": 1.0059,
-    "model_rps": 0.2069,
-    "model_accuracy": 0.5181,
-    "rates_brier": 0.6499,
-    "rates_log_loss": 1.074,
-    "rates_rps": 0.2308,
-    "rates_accuracy": 0.4342,
+    "model_rps": 0.2068,
+    "model_accuracy": 0.518,
+    "rates_brier": 0.65,
+    "rates_log_loss": 1.0741,
+    "rates_rps": 0.2309,
+    "rates_accuracy": 0.434,
     "odds_matches": 7876,
     "odds_books": {
       "pinnacle": 5013,
@@ -103,15 +103,15 @@
     {
       "id": "SP1",
       "name": "La Liga",
-      "matches": 871,
-      "model_brier": 0.5912,
-      "model_log_loss": 0.9924,
-      "model_rps": 0.2031,
-      "model_accuracy": 0.5339,
-      "rates_brier": 0.6408,
-      "rates_log_loss": 1.0616,
-      "rates_rps": 0.2264,
-      "rates_accuracy": 0.465,
+      "matches": 875,
+      "model_brier": 0.5913,
+      "model_log_loss": 0.9926,
+      "model_rps": 0.203,
+      "model_accuracy": 0.5326,
+      "rates_brier": 0.6416,
+      "rates_log_loss": 1.0627,
+      "rates_rps": 0.2266,
+      "rates_accuracy": 0.4629,
       "odds_matches": 869,
       "odds_books": {
         "pinnacle": 568,
@@ -129,18 +129,18 @@
         {
           "market": "over_2.5",
           "label": "Over 2.5",
-          "count": 871,
+          "count": 875,
           "predicted": 0.481,
-          "actual": 0.504,
-          "brier": 0.2412
+          "actual": 0.503,
+          "brier": 0.2411
         },
         {
           "market": "btts",
           "label": "Both teams to score",
-          "count": 871,
+          "count": 875,
           "predicted": 0.519,
-          "actual": 0.557,
-          "brier": 0.2477
+          "actual": 0.555,
+          "brier": 0.2479
         },
         {
           "market": "1h_btts",
@@ -161,10 +161,10 @@
         {
           "market": "btts_over_2.5",
           "label": "Both teams to score and over 2.5",
-          "count": 871,
+          "count": 875,
           "predicted": 0.39,
-          "actual": 0.409,
-          "brier": 0.2373
+          "actual": 0.407,
+          "brier": 0.2371
         }
       ]
     },
@@ -898,15 +898,15 @@
     },
     {
       "season": "2026-27",
-      "matches": 954,
-      "model_brier": 0.599,
-      "model_log_loss": 1.0029,
-      "model_rps": 0.2128,
-      "model_accuracy": 0.5304,
-      "rates_brier": 0.6437,
-      "rates_log_loss": 1.064,
-      "rates_rps": 0.2353,
-      "rates_accuracy": 0.4465,
+      "matches": 958,
+      "model_brier": 0.5991,
+      "model_log_loss": 1.003,
+      "model_rps": 0.2126,
+      "model_accuracy": 0.5292,
+      "rates_brier": 0.6445,
+      "rates_log_loss": 1.065,
+      "rates_rps": 0.2354,
+      "rates_accuracy": 0.4447,
       "odds_matches": 952,
       "odds_books": {
         "bet365": 952
@@ -925,10 +925,10 @@
     {
       "market": "home",
       "label": "Home win",
-      "count": 8139,
-      "predicted": 0.422,
+      "count": 8143,
+      "predicted": 0.421,
       "actual": 0.434,
-      "brier": 0.2193,
+      "brier": 0.2192,
       "bins": [
         {
           "from": 0.0,
@@ -940,14 +940,14 @@
         {
           "from": 0.2,
           "to": 0.4,
-          "count": 3419,
+          "count": 3422,
           "predicted": 0.326,
           "actual": 0.29
         },
         {
           "from": 0.4,
           "to": 0.6,
-          "count": 3959,
+          "count": 3960,
           "predicted": 0.48,
           "actual": 0.52
         },
@@ -970,7 +970,7 @@
     {
       "market": "draw",
       "label": "Draw",
-      "count": 8139,
+      "count": 8143,
       "predicted": 0.268,
       "actual": 0.251,
       "brier": 0.1873,
@@ -985,7 +985,7 @@
         {
           "from": 0.2,
           "to": 0.4,
-          "count": 7913,
+          "count": 7917,
           "predicted": 0.271,
           "actual": 0.255
         },
@@ -1015,10 +1015,10 @@
     {
       "market": "away",
       "label": "Away win",
-      "count": 8139,
+      "count": 8143,
       "predicted": 0.31,
       "actual": 0.315,
-      "brier": 0.1944,
+      "brier": 0.1945,
       "bins": [
         {
           "from": 0.0,
@@ -1030,16 +1030,16 @@
         {
           "from": 0.2,
           "to": 0.4,
-          "count": 5438,
+          "count": 5441,
           "predicted": 0.296,
           "actual": 0.29
         },
         {
           "from": 0.4,
           "to": 0.6,
-          "count": 1452,
+          "count": 1453,
           "predicted": 0.465,
-          "actual": 0.565
+          "actual": 0.566
         },
         {
           "from": 0.6,
@@ -1060,7 +1060,7 @@
     {
       "market": "over_2.5",
       "label": "Over 2.5",
-      "count": 8139,
+      "count": 8143,
       "predicted": 0.525,
       "actual": 0.541,
       "brier": 0.246,
@@ -1082,16 +1082,16 @@
         {
           "from": 0.4,
           "to": 0.6,
-          "count": 5351,
+          "count": 5354,
           "predicted": 0.506,
           "actual": 0.526
         },
         {
           "from": 0.6,
           "to": 0.8,
-          "count": 1874,
+          "count": 1875,
           "predicted": 0.656,
-          "actual": 0.625
+          "actual": 0.626
         },
         {
           "from": 0.8,
@@ -1105,10 +1105,10 @@
     {
       "market": "btts",
       "label": "Both teams to score",
-      "count": 8139,
+      "count": 8143,
       "predicted": 0.555,
       "actual": 0.54,
-      "brier": 0.2487,
+      "brier": 0.2488,
       "bins": [
         {
           "from": 0.0,
@@ -1127,16 +1127,16 @@
         {
           "from": 0.4,
           "to": 0.6,
-          "count": 5718,
+          "count": 5721,
           "predicted": 0.525,
           "actual": 0.522
         },
         {
           "from": 0.6,
           "to": 0.8,
-          "count": 2251,
+          "count": 2252,
           "predicted": 0.646,
-          "actual": 0.589
+          "actual": 0.588
         },
         {
           "from": 0.8,
@@ -1420,22 +1420,22 @@
     {
       "market": "home_win_btts",
       "label": "Home win and both teams to score",
-      "count": 8139,
+      "count": 8143,
       "predicted": 0.207,
       "actual": 0.201,
-      "brier": 0.1563,
+      "brier": 0.1562,
       "bins": [
         {
           "from": 0.0,
           "to": 0.2,
-          "count": 4126,
+          "count": 4129,
           "predicted": 0.156,
           "actual": 0.149
         },
         {
           "from": 0.2,
           "to": 0.4,
-          "count": 3958,
+          "count": 3959,
           "predicted": 0.256,
           "actual": 0.253
         },
@@ -1465,7 +1465,7 @@
     {
       "market": "home_win_over_2.5",
       "label": "Home win and over 2.5",
-      "count": 8139,
+      "count": 8143,
       "predicted": 0.267,
       "actual": 0.275,
       "brier": 0.1846,
@@ -1473,14 +1473,14 @@
         {
           "from": 0.0,
           "to": 0.2,
-          "count": 2074,
+          "count": 2076,
           "predicted": 0.159,
           "actual": 0.139
         },
         {
           "from": 0.2,
           "to": 0.4,
-          "count": 5260,
+          "count": 5262,
           "predicted": 0.28,
           "actual": 0.287
         },
@@ -1510,10 +1510,10 @@
     {
       "market": "btts_over_2.5",
       "label": "Both teams to score and over 2.5",
-      "count": 8139,
+      "count": 8143,
       "predicted": 0.431,
       "actual": 0.426,
-      "brier": 0.2447,
+      "brier": 0.2446,
       "bins": [
         {
           "from": 0.0,
@@ -1525,14 +1525,14 @@
         {
           "from": 0.2,
           "to": 0.4,
-          "count": 3011,
+          "count": 3012,
           "predicted": 0.342,
           "actual": 0.385
         },
         {
           "from": 0.4,
           "to": 0.6,
-          "count": 4846,
+          "count": 4849,
           "predicted": 0.477,
           "actual": 0.444
         },
@@ -1555,10 +1555,10 @@
     {
       "market": "dc_1x",
       "label": "Home or draw",
-      "count": 8139,
+      "count": 8143,
       "predicted": 0.69,
       "actual": 0.685,
-      "brier": 0.1944,
+      "brier": 0.1945,
       "bins": [
         {
           "from": 0.0,
@@ -1577,15 +1577,15 @@
         {
           "from": 0.4,
           "to": 0.6,
-          "count": 1451,
+          "count": 1452,
           "predicted": 0.535,
           "actual": 0.435
         },
         {
           "from": 0.6,
           "to": 0.8,
-          "count": 5439,
-          "predicted": 0.704,
+          "count": 5442,
+          "predicted": 0.703,
           "actual": 0.71
         },
         {
@@ -1600,10 +1600,10 @@
     {
       "market": "dc_1x_over_2.5",
       "label": "Home or draw and over 2.5",
-      "count": 8139,
+      "count": 8143,
       "predicted": 0.333,
       "actual": 0.348,
-      "brier": 0.213,
+      "brier": 0.2129,
       "bins": [
         {
           "from": 0.0,
@@ -1615,9 +1615,9 @@
         {
           "from": 0.2,
           "to": 0.4,
-          "count": 5583,
+          "count": 5587,
           "predicted": 0.303,
-          "actual": 0.309
+          "actual": 0.308
         },
         {
           "from": 0.4,
@@ -1645,22 +1645,22 @@
     {
       "market": "ah_home_-1.5",
       "label": "Home -1.5",
-      "count": 8139,
+      "count": 8143,
       "predicted": 0.221,
       "actual": 0.226,
-      "brier": 0.159,
+      "brier": 0.1589,
       "bins": [
         {
           "from": 0.0,
           "to": 0.2,
-          "count": 3772,
+          "count": 3775,
           "predicted": 0.145,
           "actual": 0.117
         },
         {
           "from": 0.2,
           "to": 0.4,
-          "count": 3987,
+          "count": 3988,
           "predicted": 0.271,
           "actual": 0.296
         },
@@ -1690,22 +1690,22 @@
     {
       "market": "ah_home_-1",
       "label": "Home -1",
-      "count": 8139,
+      "count": 8143,
       "predicted": 0.221,
       "actual": 0.226,
-      "brier": 0.159,
+      "brier": 0.1589,
       "bins": [
         {
           "from": 0.0,
           "to": 0.2,
-          "count": 3772,
+          "count": 3775,
           "predicted": 0.145,
           "actual": 0.117
         },
         {
           "from": 0.2,
           "to": 0.4,
-          "count": 3987,
+          "count": 3988,
           "predicted": 0.271,
           "actual": 0.296
         },
@@ -1737,9 +1737,9 @@
     "Home win in the 60% to 80% band averages 64.9%, and the results landed 78.2%. The price is lower than the results.",
     "Draw in the 0% to 20% band averages 18.0%, and the results landed 10.6%. The price is higher than the results.",
     "Away win in the 0% to 20% band averages 16.3%, and the results landed 9.8%. The price is higher than the results.",
-    "Away win in the 40% to 60% band averages 46.5%, and the results landed 56.5%. The price is lower than the results.",
+    "Away win in the 40% to 60% band averages 46.5%, and the results landed 56.6%. The price is lower than the results.",
     "Over 2.5 in the 20% to 40% band averages 35.3%, and the results landed 44.5%. The price is lower than the results.",
-    "Both teams to score in the 60% to 80% band averages 64.6%, and the results landed 58.9%. The price is higher than the results.",
+    "Both teams to score in the 60% to 80% band averages 64.6%, and the results landed 58.8%. The price is higher than the results.",
     "1H Home win in the 40% to 60% band averages 45.2%, and the results landed 54.9%. The price is lower than the results.",
     "1H Draw averages 42.8%, and the results landed 39.2%. The price is higher than the results.",
     "1H Over 0.5 in the 40% to 60% band averages 57.3%, and the results landed 62.3%. The price is lower than the results.",
@@ -1863,5 +1863,5 @@
     "book_rps": null,
     "book_accuracy": null
   },
-  "generated_at": "2026-11-07T16:47:44+00:00"
+  "generated_at": "2026-11-08T16:58:17+00:00"
 }

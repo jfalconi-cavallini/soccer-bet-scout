@@ -2,7 +2,7 @@
   "id": "valencia",
   "name": "Valencia CF",
   "league": "La Liga",
-  "rating": 1563.8,
+  "rating": 1552.5,
   "points": [
     {
       "date": "2021-08-13",
@@ -1443,6 +1443,13 @@
       "date": "2026-11-01",
       "rating": 1563.77,
       "opponent": "Elche CF",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-07",
+      "rating": 1552.54,
+      "opponent": "Real Madrid CF",
       "competition_id": "SP1",
       "event": "match"
     }

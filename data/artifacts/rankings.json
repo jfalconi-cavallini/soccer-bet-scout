@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T16:45:58+00:00",
+  "generated_at": "2026-11-08T16:56:01+00:00",
   "teams": [
     {
       "id": "arsenal",
@@ -41,6 +41,19 @@
       "rank": 3
     },
     {
+      "id": "real-madrid",
+      "name": "Real Madrid CF",
+      "rating": 1809.1,
+      "league_id": "SP1",
+      "league": "La Liga",
+      "country": "Spain",
+      "tournaments": [
+        "UCL"
+      ],
+      "played": 272,
+      "rank": 4
+    },
+    {
       "id": "paris-saint-germain",
       "name": "Paris Saint-Germain FC",
       "rating": 1798.6,
@@ -51,19 +64,6 @@
         "UCL"
       ],
       "played": 253,
-      "rank": 4
-    },
-    {
-      "id": "real-madrid",
-      "name": "Real Madrid CF",
-      "rating": 1797.9,
-      "league_id": "SP1",
-      "league": "La Liga",
-      "country": "Spain",
-      "tournaments": [
-        "UCL"
-      ],
-      "played": 271,
       "rank": 5
     },
     {
@@ -204,6 +204,19 @@
       "rank": 16
     },
     {
+      "id": "betis",
+      "name": "Real Betis Balompi\u00e9",
+      "rating": 1666.7,
+      "league_id": "SP1",
+      "league": "La Liga",
+      "country": "Spain",
+      "tournaments": [
+        "UCL"
+      ],
+      "played": 249,
+      "rank": 17
+    },
+    {
       "id": "sporting",
       "name": "Sporting Clube de Portugal",
       "rating": 1664.8,
@@ -214,7 +227,7 @@
         "UCL"
       ],
       "played": 236,
-      "rank": 17
+      "rank": 18
     },
     {
       "id": "brentford",
@@ -225,7 +238,7 @@
       "country": "England",
       "tournaments": [],
       "played": 199,
-      "rank": 18
+      "rank": 19
     },
     {
       "id": "brugge",
@@ -238,7 +251,7 @@
         "UCL"
       ],
       "played": 254,
-      "rank": 19
+      "rank": 20
     },
     {
       "id": "manchester-united",
@@ -251,19 +264,6 @@
         "UCL"
       ],
       "played": 244,
-      "rank": 20
-    },
-    {
-      "id": "betis",
-      "name": "Real Betis Balompi\u00e9",
-      "rating": 1651.2,
-      "league_id": "SP1",
-      "league": "La Liga",
-      "country": "Spain",
-      "tournaments": [
-        "UCL"
-      ],
-      "played": 248,
       "rank": 21
     },
     {
@@ -558,6 +558,17 @@
       "rank": 46
     },
     {
+      "id": "athletic-bilbao",
+      "name": "Athletic Club",
+      "rating": 1583.9,
+      "league_id": "SP1",
+      "league": "La Liga",
+      "country": "Spain",
+      "tournaments": [],
+      "played": 223,
+      "rank": 47
+    },
+    {
       "id": "twente",
       "name": "FC Twente '65",
       "rating": 1583.1,
@@ -566,17 +577,6 @@
       "country": "Netherlands",
       "tournaments": [],
       "played": 193,
-      "rank": 47
-    },
-    {
-      "id": "athletic-bilbao",
-      "name": "Athletic Club",
-      "rating": 1582.9,
-      "league_id": "SP1",
-      "league": "La Liga",
-      "country": "Spain",
-      "tournaments": [],
-      "played": 222,
       "rank": 48
     },
     {
@@ -694,17 +694,6 @@
       "rank": 58
     },
     {
-      "id": "valencia",
-      "name": "Valencia CF",
-      "rating": 1563.8,
-      "league_id": "SP1",
-      "league": "La Liga",
-      "country": "Spain",
-      "tournaments": [],
-      "played": 201,
-      "rank": 59
-    },
-    {
       "id": "ajax",
       "name": "AFC Ajax",
       "rating": 1563.6,
@@ -713,7 +702,7 @@
       "country": "Netherlands",
       "tournaments": [],
       "played": 233,
-      "rank": 60
+      "rank": 59
     },
     {
       "id": "paris",
@@ -724,7 +713,7 @@
       "country": "France",
       "tournaments": [],
       "played": 43,
-      "rank": 61
+      "rank": 60
     },
     {
       "id": "lille",
@@ -737,7 +726,7 @@
         "UCL"
       ],
       "played": 223,
-      "rank": 62
+      "rank": 61
     },
     {
       "id": "olympiacos",
@@ -748,7 +737,7 @@
       "country": "Greece",
       "tournaments": [],
       "played": 230,
-      "rank": 63
+      "rank": 62
     },
     {
       "id": "mallorca",
@@ -759,7 +748,7 @@
       "country": "Spain",
       "tournaments": [],
       "played": 190,
-      "rank": 64
+      "rank": 63
     },
     {
       "id": "hull",
@@ -770,7 +759,7 @@
       "country": "England",
       "tournaments": [],
       "played": 9,
-      "rank": 65
+      "rank": 64
     },
     {
       "id": "lens",
@@ -783,7 +772,7 @@
         "UCL"
       ],
       "played": 201,
-      "rank": 66
+      "rank": 65
     },
     {
       "id": "fenerbahce",
@@ -796,7 +785,7 @@
         "UCL"
       ],
       "played": 242,
-      "rank": 67
+      "rank": 66
     },
     {
       "id": "alaves",
@@ -807,7 +796,7 @@
       "country": "Spain",
       "tournaments": [],
       "played": 164,
-      "rank": 68
+      "rank": 67
     },
     {
       "id": "fiorentina",
@@ -820,7 +809,7 @@
         "UECL"
       ],
       "played": 244,
-      "rank": 69
+      "rank": 68
     },
     {
       "id": "ipswich",
@@ -831,7 +820,7 @@
       "country": "England",
       "tournaments": [],
       "played": 47,
-      "rank": 70
+      "rank": 69
     },
     {
       "id": "getafe",
@@ -842,6 +831,17 @@
       "country": "Spain",
       "tournaments": [],
       "played": 201,
+      "rank": 70
+    },
+    {
+      "id": "valencia",
+      "name": "Valencia CF",
+      "rating": 1552.5,
+      "league_id": "SP1",
+      "league": "La Liga",
+      "country": "Spain",
+      "tournaments": [],
+      "played": 202,
       "rank": 71
     },
     {
@@ -869,14 +869,14 @@
       "rank": 73
     },
     {
-      "id": "elche",
-      "name": "Elche CF",
-      "rating": 1550.6,
+      "id": "deportivo",
+      "name": "RC Deportivo La Coru\u00f1a",
+      "rating": 1550.4,
       "league_id": "SP1",
       "league": "La Liga",
       "country": "Spain",
       "tournaments": [],
-      "played": 125,
+      "played": 12,
       "rank": 74
     },
     {
@@ -904,17 +904,6 @@
       "rank": 76
     },
     {
-      "id": "deportivo",
-      "name": "RC Deportivo La Coru\u00f1a",
-      "rating": 1548.1,
-      "league_id": "SP1",
-      "league": "La Liga",
-      "country": "Spain",
-      "tournaments": [],
-      "played": 11,
-      "rank": 77
-    },
-    {
       "id": "levante",
       "name": "Levante UD",
       "rating": 1544.7,
@@ -923,7 +912,7 @@
       "country": "Spain",
       "tournaments": [],
       "played": 87,
-      "rank": 78
+      "rank": 77
     },
     {
       "id": "braga",
@@ -936,18 +925,7 @@
         "UEL"
       ],
       "played": 228,
-      "rank": 79
-    },
-    {
-      "id": "espanyol",
-      "name": "RCD Espanyol de Barcelona",
-      "rating": 1540.5,
-      "league_id": "SP1",
-      "league": "La Liga",
-      "country": "Spain",
-      "tournaments": [],
-      "played": 163,
-      "rank": 80
+      "rank": 78
     },
     {
       "id": "coventry",
@@ -958,7 +936,7 @@
       "country": "England",
       "tournaments": [],
       "played": 9,
-      "rank": 81
+      "rank": 79
     },
     {
       "id": "toulouse",
@@ -969,7 +947,18 @@
       "country": "France",
       "tournaments": [],
       "played": 157,
-      "rank": 82
+      "rank": 80
+    },
+    {
+      "id": "espanyol",
+      "name": "RCD Espanyol de Barcelona",
+      "rating": 1538.2,
+      "league_id": "SP1",
+      "league": "La Liga",
+      "country": "Spain",
+      "tournaments": [],
+      "played": 164,
+      "rank": 81
     },
     {
       "id": "rangers",
@@ -980,18 +969,18 @@
       "country": "Scotland",
       "tournaments": [],
       "played": 250,
-      "rank": 83
+      "rank": 82
     },
     {
       "id": "osasuna",
       "name": "CA Osasuna",
-      "rating": 1537.0,
+      "rating": 1535.9,
       "league_id": "SP1",
       "league": "La Liga",
       "country": "Spain",
       "tournaments": [],
-      "played": 201,
-      "rank": 84
+      "played": 202,
+      "rank": 83
     },
     {
       "id": "aek-athens",
@@ -1005,6 +994,17 @@
         "UECL"
       ],
       "played": 200,
+      "rank": 84
+    },
+    {
+      "id": "elche",
+      "name": "Elche CF",
+      "rating": 1535.1,
+      "league_id": "SP1",
+      "league": "La Liga",
+      "country": "Spain",
+      "tournaments": [],
+      "played": 126,
       "rank": 85
     },
     {
