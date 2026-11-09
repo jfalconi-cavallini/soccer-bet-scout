@@ -2,7 +2,7 @@
   "id": "schalke",
   "name": "FC Schalke 04",
   "league": "Bundesliga",
-  "rating": 1457.7,
+  "rating": 1459.5,
   "points": [
     {
       "date": "2022-07-01",
@@ -330,6 +330,13 @@
       "date": "2026-10-31",
       "rating": 1457.69,
       "opponent": "RB Leipzig",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-08",
+      "rating": 1459.55,
+      "opponent": "TSG 1899 Hoffenheim",
       "competition_id": "D1",
       "event": "match"
     }

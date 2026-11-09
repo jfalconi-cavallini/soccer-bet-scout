@@ -2,7 +2,7 @@
   "id": "bayern",
   "name": "FC Bayern M\u00fcnchen",
   "league": "Bundesliga",
-  "rating": 1822.1,
+  "rating": 1826.1,
   "points": [
     {
       "date": "2021-08-13",
@@ -1731,6 +1731,13 @@
       "rating": 1822.1,
       "opponent": "Club Atl\u00e9tico de Madrid",
       "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-07",
+      "rating": 1826.12,
+      "opponent": "1. FSV Mainz 05",
+      "competition_id": "D1",
       "event": "match"
     }
   ]

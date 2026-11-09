@@ -2,7 +2,7 @@
   "id": "alanyaspor",
   "name": "Alanyaspor",
   "league": "Super Lig",
-  "rating": 1380.0,
+  "rating": 1372.9,
   "points": [
     {
       "date": "2021-08-15",
@@ -1380,6 +1380,13 @@
       "date": "2026-11-02",
       "rating": 1380.05,
       "opponent": "Genclerbirligi",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-08",
+      "rating": 1372.89,
+      "opponent": "Trabzonspor",
       "competition_id": "T1",
       "event": "match"
     }

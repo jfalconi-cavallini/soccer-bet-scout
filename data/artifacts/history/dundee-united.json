@@ -2,7 +2,7 @@
   "id": "dundee-united",
   "name": "Dundee United",
   "league": "Scottish Premiership",
-  "rating": 1402.9,
+  "rating": 1401.1,
   "points": [
     {
       "date": "2021-08-01",
@@ -1205,6 +1205,13 @@
       "date": "2026-10-28",
       "rating": 1402.86,
       "opponent": "Celtic FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-07",
+      "rating": 1401.05,
+      "opponent": "Motherwell FC",
       "competition_id": "SC0",
       "event": "match"
     }

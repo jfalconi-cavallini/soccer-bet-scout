@@ -2,7 +2,7 @@
   "id": "corum",
   "name": "Corum",
   "league": "Super Lig",
-  "rating": 1404.2,
+  "rating": 1402.3,
   "points": [
     {
       "date": "2026-07-01",
@@ -78,6 +78,13 @@
       "date": "2026-10-31",
       "rating": 1404.19,
       "opponent": "Erzurumspor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-08",
+      "rating": 1402.3,
+      "opponent": "Fenerbah\u00e7e SK",
       "competition_id": "T1",
       "event": "match"
     }

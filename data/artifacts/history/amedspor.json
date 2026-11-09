@@ -2,7 +2,7 @@
   "id": "amedspor",
   "name": "Amedspor",
   "league": "Super Lig",
-  "rating": 1429.6,
+  "rating": 1430.2,
   "points": [
     {
       "date": "2026-07-01",
@@ -78,6 +78,13 @@
       "date": "2026-11-01",
       "rating": 1429.56,
       "opponent": "Eyupspor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-07",
+      "rating": 1430.2,
+      "opponent": "Galatasaray SK",
       "competition_id": "T1",
       "event": "match"
     }

@@ -2,7 +2,7 @@
   "id": "augsburg",
   "name": "FC Augsburg",
   "league": "Bundesliga",
-  "rating": 1530.1,
+  "rating": 1528.3,
   "points": [
     {
       "date": "2021-08-14",
@@ -1282,6 +1282,13 @@
       "date": "2026-10-31",
       "rating": 1530.07,
       "opponent": "SC Freiburg",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-07",
+      "rating": 1528.26,
+      "opponent": "RB Leipzig",
       "competition_id": "D1",
       "event": "match"
     }

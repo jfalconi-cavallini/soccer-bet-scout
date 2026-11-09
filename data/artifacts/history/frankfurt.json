@@ -2,7 +2,7 @@
   "id": "frankfurt",
   "name": "Eintracht Frankfurt",
   "league": "Bundesliga",
-  "rating": 1531.8,
+  "rating": 1531.4,
   "points": [
     {
       "date": "2021-08-14",
@@ -1625,6 +1625,13 @@
       "date": "2026-11-01",
       "rating": 1531.76,
       "opponent": "Hamburger SV",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-07",
+      "rating": 1531.43,
+      "opponent": "SC Paderborn 07",
       "competition_id": "D1",
       "event": "match"
     }

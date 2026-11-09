@@ -2,7 +2,7 @@
   "id": "brentford",
   "name": "Brentford FC",
   "league": "Premier League",
-  "rating": 1664.3,
+  "rating": 1657.1,
   "points": [
     {
       "date": "2021-08-13",
@@ -1429,6 +1429,13 @@
       "date": "2026-10-31",
       "rating": 1664.27,
       "opponent": "Nottingham Forest FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-08",
+      "rating": 1657.13,
+      "opponent": "Brighton & Hove Albion FC",
       "competition_id": "E0",
       "event": "match"
     }

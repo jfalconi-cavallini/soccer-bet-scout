@@ -2,7 +2,7 @@
   "id": "aris",
   "name": "Aris Saloniki",
   "league": "Super League Greece",
-  "rating": 1426.6,
+  "rating": 1431.3,
   "points": [
     {
       "date": "2021-09-13",
@@ -1317,6 +1317,13 @@
       "date": "2026-11-01",
       "rating": 1426.63,
       "opponent": "Levadeiakos",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-07",
+      "rating": 1431.26,
+      "opponent": "Panetolikos",
       "competition_id": "G1",
       "event": "match"
     }

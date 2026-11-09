@@ -2,7 +2,7 @@
   "id": "dundee",
   "name": "Dundee FC",
   "league": "Scottish Premiership",
-  "rating": 1382.5,
+  "rating": 1375.1,
   "points": [
     {
       "date": "2021-07-31",
@@ -1177,6 +1177,13 @@
       "date": "2026-10-28",
       "rating": 1382.45,
       "opponent": "Kilmarnock FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-07",
+      "rating": 1375.08,
+      "opponent": "St Johnstone",
       "competition_id": "SC0",
       "event": "match"
     }

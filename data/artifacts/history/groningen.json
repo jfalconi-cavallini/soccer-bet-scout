@@ -2,7 +2,7 @@
   "id": "groningen",
   "name": "FC Groningen",
   "league": "Eredivisie",
-  "rating": 1460.9,
+  "rating": 1456.2,
   "points": [
     {
       "date": "2021-08-15",
@@ -1065,6 +1065,13 @@
       "date": "2026-11-01",
       "rating": 1460.94,
       "opponent": "Sparta Rotterdam",
+      "competition_id": "N1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-08",
+      "rating": 1456.16,
+      "opponent": "AZ Alkmaar",
       "competition_id": "N1",
       "event": "match"
     }

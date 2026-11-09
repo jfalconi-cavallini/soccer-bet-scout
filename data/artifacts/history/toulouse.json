@@ -2,7 +2,7 @@
   "id": "toulouse",
   "name": "Toulouse FC",
   "league": "Ligue 1",
-  "rating": 1538.8,
+  "rating": 1545.3,
   "points": [
     {
       "date": "2022-07-01",
@@ -1135,6 +1135,13 @@
       "date": "2026-11-01",
       "rating": 1538.79,
       "opponent": "Olympique de Marseille",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-06",
+      "rating": 1545.27,
+      "opponent": "RC Strasbourg Alsace",
       "competition_id": "F1",
       "event": "match"
     }

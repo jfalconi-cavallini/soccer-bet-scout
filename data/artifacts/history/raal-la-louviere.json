@@ -2,7 +2,7 @@
   "id": "raal-la-louviere",
   "name": "RAAL La Louviere",
   "league": "Belgian Pro League",
-  "rating": 1361.3,
+  "rating": 1358.0,
   "points": [
     {
       "date": "2025-07-01",
@@ -330,6 +330,13 @@
       "date": "2026-11-01",
       "rating": 1361.34,
       "opponent": "Sporting Charleroi",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-07",
+      "rating": 1357.95,
+      "opponent": "Cercle Brugge",
       "competition_id": "B1",
       "event": "match"
     }

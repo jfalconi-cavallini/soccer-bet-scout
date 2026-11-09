@@ -2,7 +2,7 @@
   "id": "waregem",
   "name": "SV Zulte Waregem",
   "league": "Belgian Pro League",
-  "rating": 1413.7,
+  "rating": 1407.6,
   "points": [
     {
       "date": "2021-07-24",
@@ -834,6 +834,13 @@
       "date": "2026-10-30",
       "rating": 1413.65,
       "opponent": "Club Brugge KV",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-08",
+      "rating": 1407.62,
+      "opponent": "Sint-Truidense VV",
       "competition_id": "B1",
       "event": "match"
     }

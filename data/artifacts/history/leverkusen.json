@@ -2,7 +2,7 @@
   "id": "leverkusen",
   "name": "Bayer 04 Leverkusen",
   "league": "Bundesliga",
-  "rating": 1620.3,
+  "rating": 1624.6,
   "points": [
     {
       "date": "2021-08-14",
@@ -1681,6 +1681,13 @@
       "date": "2026-10-31",
       "rating": 1620.34,
       "opponent": "VfB Stuttgart",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-08",
+      "rating": 1624.65,
+      "opponent": "1. FC K\u00f6ln",
       "competition_id": "D1",
       "event": "match"
     }

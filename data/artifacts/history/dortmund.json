@@ -2,7 +2,7 @@
   "id": "dortmund",
   "name": "Borussia Dortmund",
   "league": "Bundesliga",
-  "rating": 1681.6,
+  "rating": 1680.7,
   "points": [
     {
       "date": "2021-08-14",
@@ -1682,6 +1682,13 @@
       "rating": 1681.58,
       "opponent": "Real Betis Balompi\u00e9",
       "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-07",
+      "rating": 1680.65,
+      "opponent": "SV 07 Elversberg",
+      "competition_id": "D1",
       "event": "match"
     }
   ]

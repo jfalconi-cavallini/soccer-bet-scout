@@ -2,7 +2,7 @@
   "id": "psv",
   "name": "PSV Eindhoven",
   "league": "Eredivisie",
-  "rating": 1619.0,
+  "rating": 1626.5,
   "points": [
     {
       "date": "2021-08-14",
@@ -1668,6 +1668,13 @@
       "rating": 1619.03,
       "opponent": "Club Brugge KV",
       "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-08",
+      "rating": 1626.48,
+      "opponent": "SC Cambuur-Leeuwarden",
+      "competition_id": "N1",
       "event": "match"
     }
   ]

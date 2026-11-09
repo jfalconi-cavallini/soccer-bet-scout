@@ -2,7 +2,7 @@
   "id": "estrela",
   "name": "CF Estrela da Amadora",
   "league": "Primeira Liga",
-  "rating": 1393.9,
+  "rating": 1394.6,
   "points": [
     {
       "date": "2023-07-01",
@@ -813,6 +813,13 @@
       "date": "2026-10-31",
       "rating": 1393.9,
       "opponent": "Moreirense FC",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-08",
+      "rating": 1394.61,
+      "opponent": "Sport Lisboa e Benfica",
       "competition_id": "P1",
       "event": "match"
     }

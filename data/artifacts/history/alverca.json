@@ -2,7 +2,7 @@
   "id": "alverca",
   "name": "FC Alverca",
   "league": "Primeira Liga",
-  "rating": 1444.5,
+  "rating": 1439.7,
   "points": [
     {
       "date": "2025-07-01",
@@ -323,6 +323,13 @@
       "date": "2026-11-02",
       "rating": 1444.53,
       "opponent": "Sport Lisboa e Benfica",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-07",
+      "rating": 1439.74,
+      "opponent": "Casa Pia AC",
       "competition_id": "P1",
       "event": "match"
     }

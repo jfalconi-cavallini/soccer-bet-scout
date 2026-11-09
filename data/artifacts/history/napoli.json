@@ -2,7 +2,7 @@
   "id": "napoli",
   "name": "SSC Napoli",
   "league": "Serie A",
-  "rating": 1608.7,
+  "rating": 1610.0,
   "points": [
     {
       "date": "2021-08-22",
@@ -1703,6 +1703,13 @@
       "rating": 1608.67,
       "opponent": "FC Porto",
       "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-08",
+      "rating": 1610.04,
+      "opponent": "Lazio Roma",
+      "competition_id": "I1",
       "event": "match"
     }
   ]

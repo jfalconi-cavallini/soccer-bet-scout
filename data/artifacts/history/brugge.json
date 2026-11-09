@@ -2,7 +2,7 @@
   "id": "brugge",
   "name": "Club Brugge KV",
   "league": "Belgian Pro League",
-  "rating": 1663.9,
+  "rating": 1658.6,
   "points": [
     {
       "date": "2021-07-25",
@@ -1815,6 +1815,13 @@
       "rating": 1663.87,
       "opponent": "PSV Eindhoven",
       "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-08",
+      "rating": 1658.59,
+      "opponent": "RSC Anderlecht",
+      "competition_id": "B1",
       "event": "match"
     }
   ]

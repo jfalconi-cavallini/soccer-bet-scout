@@ -2,7 +2,7 @@
   "id": "kilmarnock",
   "name": "Kilmarnock FC",
   "league": "Scottish Premiership",
-  "rating": 1342.4,
+  "rating": 1343.1,
   "points": [
     {
       "date": "2022-07-01",
@@ -1226,6 +1226,13 @@
       "date": "2026-10-31",
       "rating": 1342.38,
       "opponent": "St Johnstone",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-08",
+      "rating": 1343.12,
+      "opponent": "Celtic FC",
       "competition_id": "SC0",
       "event": "match"
     }

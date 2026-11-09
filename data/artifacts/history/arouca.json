@@ -2,7 +2,7 @@
   "id": "arouca",
   "name": "FC Arouca",
   "league": "Primeira Liga",
-  "rating": 1487.2,
+  "rating": 1483.1,
   "points": [
     {
       "date": "2021-08-07",
@@ -1296,6 +1296,13 @@
       "date": "2026-11-01",
       "rating": 1487.22,
       "opponent": "CD Nacional",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-06",
+      "rating": 1483.11,
+      "opponent": "FC Famalic\u00e3o",
       "competition_id": "P1",
       "event": "match"
     }

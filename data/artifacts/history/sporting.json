@@ -2,7 +2,7 @@
   "id": "sporting",
   "name": "Sporting Clube de Portugal",
   "league": "Primeira Liga",
-  "rating": 1664.8,
+  "rating": 1665.5,
   "points": [
     {
       "date": "2021-08-06",
@@ -1689,6 +1689,13 @@
       "rating": 1664.78,
       "opponent": "FK Shakhtar Donetsk",
       "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-07",
+      "rating": 1665.48,
+      "opponent": "Moreirense FC",
+      "competition_id": "P1",
       "event": "match"
     }
   ]

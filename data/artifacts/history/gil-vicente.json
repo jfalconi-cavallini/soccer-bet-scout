@@ -2,7 +2,7 @@
   "id": "gil-vicente",
   "name": "Gil Vicente FC",
   "league": "Primeira Liga",
-  "rating": 1474.2,
+  "rating": 1483.5,
   "points": [
     {
       "date": "2021-08-09",
@@ -1296,6 +1296,13 @@
       "date": "2026-11-02",
       "rating": 1474.17,
       "opponent": "Vit\u00f3ria Guimar\u00e3es",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-08",
+      "rating": 1483.46,
+      "opponent": "CD Santa Clara",
       "competition_id": "P1",
       "event": "match"
     }

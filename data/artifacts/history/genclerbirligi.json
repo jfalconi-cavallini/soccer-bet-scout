@@ -2,7 +2,7 @@
   "id": "genclerbirligi",
   "name": "Genclerbirligi",
   "league": "Super Lig",
-  "rating": 1361.5,
+  "rating": 1354.1,
   "points": [
     {
       "date": "2025-07-01",
@@ -323,6 +323,13 @@
       "date": "2026-11-02",
       "rating": 1361.53,
       "opponent": "Alanyaspor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-08",
+      "rating": 1354.09,
+      "opponent": "Besiktas",
       "competition_id": "T1",
       "event": "match"
     }

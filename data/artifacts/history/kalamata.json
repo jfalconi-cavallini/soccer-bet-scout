@@ -2,7 +2,7 @@
   "id": "kalamata",
   "name": "Kalamata",
   "league": "Super League Greece",
-  "rating": 1329.1,
+  "rating": 1331.9,
   "points": [
     {
       "date": "2026-07-01",
@@ -71,6 +71,13 @@
       "date": "2026-11-02",
       "rating": 1329.06,
       "opponent": "Iraklis",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-08",
+      "rating": 1331.92,
+      "opponent": "Asteras Tripolis",
       "competition_id": "G1",
       "event": "match"
     }

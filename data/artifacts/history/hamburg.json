@@ -2,7 +2,7 @@
   "id": "hamburg",
   "name": "Hamburger SV",
   "league": "Bundesliga",
-  "rating": 1490.7,
+  "rating": 1495.7,
   "points": [
     {
       "date": "2025-07-01",
@@ -309,6 +309,13 @@
       "date": "2026-11-01",
       "rating": 1490.74,
       "opponent": "Eintracht Frankfurt",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-06",
+      "rating": 1495.72,
+      "opponent": "Borussia M\u00f6nchengladbach",
       "competition_id": "D1",
       "event": "match"
     }

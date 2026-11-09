@@ -2,7 +2,7 @@
   "id": "cagliari",
   "name": "Cagliari Calcio",
   "league": "Serie A",
-  "rating": 1513.8,
+  "rating": 1514.1,
   "points": [
     {
       "date": "2021-08-23",
@@ -1170,6 +1170,13 @@
       "date": "2026-11-01",
       "rating": 1513.78,
       "opponent": "Lazio Roma",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-07",
+      "rating": 1514.06,
+      "opponent": "Frosinone Calcio",
       "competition_id": "I1",
       "event": "match"
     }

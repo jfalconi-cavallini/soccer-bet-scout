@@ -2,7 +2,7 @@
   "id": "charleroi",
   "name": "Sporting Charleroi",
   "league": "Belgian Pro League",
-  "rating": 1491.1,
+  "rating": 1508.7,
   "points": [
     {
       "date": "2021-07-24",
@@ -1408,6 +1408,13 @@
       "date": "2026-11-01",
       "rating": 1491.08,
       "opponent": "RAAL La Louviere",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-07",
+      "rating": 1508.74,
+      "opponent": "KVC Westerlo",
       "competition_id": "B1",
       "event": "match"
     }

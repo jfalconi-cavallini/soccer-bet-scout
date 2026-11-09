@@ -2,7 +2,7 @@
   "id": "sparta",
   "name": "Sparta Rotterdam",
   "league": "Eredivisie",
-  "rating": 1421.5,
+  "rating": 1415.1,
   "points": [
     {
       "date": "2021-08-15",
@@ -1303,6 +1303,13 @@
       "date": "2026-11-01",
       "rating": 1421.52,
       "opponent": "FC Groningen",
+      "competition_id": "N1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-07",
+      "rating": 1415.12,
+      "opponent": "ADO Den Haag",
       "competition_id": "N1",
       "event": "match"
     }

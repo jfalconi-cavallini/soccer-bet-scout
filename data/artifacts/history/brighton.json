@@ -2,7 +2,7 @@
   "id": "brighton",
   "name": "Brighton & Hove Albion FC",
   "league": "Premier League",
-  "rating": 1710.4,
+  "rating": 1717.6,
   "points": [
     {
       "date": "2021-08-14",
@@ -1485,6 +1485,13 @@
       "date": "2026-10-31",
       "rating": 1710.44,
       "opponent": "Manchester City FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-08",
+      "rating": 1717.57,
+      "opponent": "Brentford FC",
       "competition_id": "E0",
       "event": "match"
     }

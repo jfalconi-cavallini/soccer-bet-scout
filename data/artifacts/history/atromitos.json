@@ -2,7 +2,7 @@
   "id": "atromitos",
   "name": "Atromitos",
   "league": "Super League Greece",
-  "rating": 1384.1,
+  "rating": 1384.5,
   "points": [
     {
       "date": "2021-09-12",
@@ -1261,6 +1261,13 @@
       "date": "2026-11-02",
       "rating": 1384.07,
       "opponent": "Volos NFC",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-08",
+      "rating": 1384.5,
+      "opponent": "OFI Heraklion",
       "competition_id": "G1",
       "event": "match"
     }

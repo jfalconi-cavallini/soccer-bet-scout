@@ -2,7 +2,7 @@
   "id": "paris",
   "name": "Paris FC",
   "league": "Ligue 1",
-  "rating": 1563.0,
+  "rating": 1568.5,
   "points": [
     {
       "date": "2025-07-01",
@@ -316,6 +316,13 @@
       "date": "2026-11-01",
       "rating": 1562.97,
       "opponent": "AS Monaco FC",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-07",
+      "rating": 1568.54,
+      "opponent": "AJ Auxerre",
       "competition_id": "F1",
       "event": "match"
     }

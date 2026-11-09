@@ -2,7 +2,7 @@
   "id": "liverpool",
   "name": "Liverpool FC",
   "league": "Premier League",
-  "rating": 1704.5,
+  "rating": 1710.7,
   "points": [
     {
       "date": "2021-08-14",
@@ -1829,6 +1829,13 @@
       "rating": 1704.48,
       "opponent": "Fenerbah\u00e7e SK",
       "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-08",
+      "rating": 1710.75,
+      "opponent": "Crystal Palace FC",
+      "competition_id": "E0",
       "event": "match"
     }
   ]

@@ -2,7 +2,7 @@
   "id": "nacional",
   "name": "CD Nacional",
   "league": "Primeira Liga",
-  "rating": 1394.6,
+  "rating": 1399.8,
   "points": [
     {
       "date": "2024-07-01",
@@ -568,6 +568,13 @@
       "date": "2026-11-01",
       "rating": 1394.58,
       "opponent": "FC Arouca",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-08",
+      "rating": 1399.77,
+      "opponent": "Acad\u00e9mico de Viseu FC",
       "competition_id": "P1",
       "event": "match"
     }

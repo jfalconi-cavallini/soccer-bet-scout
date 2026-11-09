@@ -2,7 +2,7 @@
   "id": "vitoria-guimaraes",
   "name": "Vit\u00f3ria Guimar\u00e3es",
   "league": "Primeira Liga",
-  "rating": 1452.5,
+  "rating": 1448.5,
   "points": [
     {
       "date": "2021-08-08",
@@ -1394,6 +1394,13 @@
       "date": "2026-11-02",
       "rating": 1452.49,
       "opponent": "Gil Vicente FC",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-08",
+      "rating": 1448.53,
+      "opponent": "FC Porto",
       "competition_id": "P1",
       "event": "match"
     }

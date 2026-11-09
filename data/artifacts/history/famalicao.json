@@ -2,7 +2,7 @@
   "id": "famalicao",
   "name": "FC Famalic\u00e3o",
   "league": "Primeira Liga",
-  "rating": 1493.6,
+  "rating": 1497.7,
   "points": [
     {
       "date": "2021-08-08",
@@ -1296,6 +1296,13 @@
       "date": "2026-11-01",
       "rating": 1493.55,
       "opponent": "Sporting Clube de Braga",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-06",
+      "rating": 1497.66,
+      "opponent": "FC Arouca",
       "competition_id": "P1",
       "event": "match"
     }

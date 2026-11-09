@@ -2,7 +2,7 @@
   "id": "st-johnstone",
   "name": "St Johnstone",
   "league": "Scottish Premiership",
-  "rating": 1308.6,
+  "rating": 1316.0,
   "points": [
     {
       "date": "2021-07-31",
@@ -1184,6 +1184,13 @@
       "date": "2026-10-31",
       "rating": 1308.58,
       "opponent": "Kilmarnock FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-07",
+      "rating": 1315.95,
+      "opponent": "Dundee FC",
       "competition_id": "SC0",
       "event": "match"
     }

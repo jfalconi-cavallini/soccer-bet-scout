@@ -2,7 +2,7 @@
   "id": "hibernian",
   "name": "Hibernian FC",
   "league": "Scottish Premiership",
-  "rating": 1406.6,
+  "rating": 1423.9,
   "points": [
     {
       "date": "2021-08-01",
@@ -1485,6 +1485,13 @@
       "date": "2026-10-28",
       "rating": 1406.61,
       "opponent": "St. Mirren FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-07",
+      "rating": 1423.94,
+      "opponent": "Aberdeen FC",
       "competition_id": "SC0",
       "event": "match"
     }

@@ -2,7 +2,7 @@
   "id": "porto",
   "name": "FC Porto",
   "league": "Primeira Liga",
-  "rating": 1649.4,
+  "rating": 1653.4,
   "points": [
     {
       "date": "2021-08-08",
@@ -1577,6 +1577,13 @@
       "rating": 1649.42,
       "opponent": "SSC Napoli",
       "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-08",
+      "rating": 1653.39,
+      "opponent": "Vit\u00f3ria Guimar\u00e3es",
+      "competition_id": "P1",
       "event": "match"
     }
   ]

@@ -2,7 +2,7 @@
   "id": "den-haag",
   "name": "ADO Den Haag",
   "league": "Eredivisie",
-  "rating": 1343.3,
+  "rating": 1349.7,
   "points": [
     {
       "date": "2026-07-01",
@@ -85,6 +85,13 @@
       "date": "2026-11-01",
       "rating": 1343.29,
       "opponent": "PEC Zwolle",
+      "competition_id": "N1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-07",
+      "rating": 1349.69,
+      "opponent": "Sparta Rotterdam",
       "competition_id": "N1",
       "event": "match"
     }

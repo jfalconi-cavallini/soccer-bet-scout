@@ -2,7 +2,7 @@
   "id": "arsenal",
   "name": "Arsenal FC",
   "league": "Premier League",
-  "rating": 1841.5,
+  "rating": 1840.4,
   "points": [
     {
       "date": "2021-08-13",
@@ -1787,6 +1787,13 @@
       "rating": 1841.54,
       "opponent": "SK Slavia Praha",
       "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-07",
+      "rating": 1840.4,
+      "opponent": "Hull City AFC",
+      "competition_id": "E0",
       "event": "match"
     }
   ]

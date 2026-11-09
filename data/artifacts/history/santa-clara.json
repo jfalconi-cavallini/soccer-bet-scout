@@ -2,7 +2,7 @@
   "id": "santa-clara",
   "name": "CD Santa Clara",
   "league": "Primeira Liga",
-  "rating": 1484.4,
+  "rating": 1475.1,
   "points": [
     {
       "date": "2021-08-08",
@@ -1100,6 +1100,13 @@
       "date": "2026-11-01",
       "rating": 1484.41,
       "opponent": "CS Mar\u00edtimo",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-08",
+      "rating": 1475.12,
+      "opponent": "Gil Vicente FC",
       "competition_id": "P1",
       "event": "match"
     }

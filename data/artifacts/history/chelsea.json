@@ -2,7 +2,7 @@
   "id": "chelsea",
   "name": "Chelsea FC",
   "league": "Premier League",
-  "rating": 1649.5,
+  "rating": 1641.3,
   "points": [
     {
       "date": "2021-08-14",
@@ -1744,6 +1744,13 @@
       "date": "2026-10-31",
       "rating": 1649.52,
       "opponent": "Manchester United FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-08",
+      "rating": 1641.27,
+      "opponent": "Sunderland AFC",
       "competition_id": "E0",
       "event": "match"
     }

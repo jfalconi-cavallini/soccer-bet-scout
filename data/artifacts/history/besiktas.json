@@ -2,7 +2,7 @@
   "id": "besiktas",
   "name": "Besiktas",
   "league": "Super Lig",
-  "rating": 1505.4,
+  "rating": 1512.9,
   "points": [
     {
       "date": "2021-08-13",
@@ -1576,6 +1576,13 @@
       "date": "2026-11-01",
       "rating": 1505.42,
       "opponent": "Kas\u0131mpa\u015fa SK",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-08",
+      "rating": 1512.86,
+      "opponent": "Genclerbirligi",
       "competition_id": "T1",
       "event": "match"
     }

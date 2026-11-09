@@ -2,7 +2,7 @@
   "id": "elversberg",
   "name": "SV 07 Elversberg",
   "league": "Bundesliga",
-  "rating": 1488.1,
+  "rating": 1489.1,
   "points": [
     {
       "date": "2026-07-01",
@@ -64,6 +64,13 @@
       "date": "2026-10-30",
       "rating": 1488.12,
       "opponent": "1. FSV Mainz 05",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-07",
+      "rating": 1489.05,
+      "opponent": "Borussia Dortmund",
       "competition_id": "D1",
       "event": "match"
     }

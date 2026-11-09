@@ -2,7 +2,7 @@
   "id": "zwolle",
   "name": "PEC Zwolle",
   "league": "Eredivisie",
-  "rating": 1387.2,
+  "rating": 1387.3,
   "points": [
     {
       "date": "2021-08-15",
@@ -1065,6 +1065,13 @@
       "date": "2026-11-01",
       "rating": 1387.2,
       "opponent": "ADO Den Haag",
+      "competition_id": "N1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-06",
+      "rating": 1387.34,
+      "opponent": "Willem II Tilburg",
       "competition_id": "N1",
       "event": "match"
     }

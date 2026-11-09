@@ -2,7 +2,7 @@
   "id": "inter",
   "name": "FC Internazionale Milano",
   "league": "Serie A",
-  "rating": 1733.0,
+  "rating": 1741.5,
   "points": [
     {
       "date": "2021-08-21",
@@ -1843,6 +1843,13 @@
       "rating": 1733.03,
       "opponent": "Feyenoord Rotterdam",
       "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-08",
+      "rating": 1741.51,
+      "opponent": "Como 1907",
+      "competition_id": "I1",
       "event": "match"
     }
   ]

@@ -2,7 +2,7 @@
   "id": "crystal-palace",
   "name": "Crystal Palace FC",
   "league": "Premier League",
-  "rating": 1578.7,
+  "rating": 1572.5,
   "points": [
     {
       "date": "2021-08-14",
@@ -1443,6 +1443,13 @@
       "date": "2026-10-31",
       "rating": 1578.74,
       "opponent": "Tottenham Hotspur FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-08",
+      "rating": 1572.48,
+      "opponent": "Liverpool FC",
       "competition_id": "E0",
       "event": "match"
     }

@@ -2,7 +2,7 @@
   "id": "anderlecht",
   "name": "RSC Anderlecht",
   "league": "Belgian Pro League",
-  "rating": 1482.3,
+  "rating": 1487.6,
   "points": [
     {
       "date": "2021-07-25",
@@ -1632,6 +1632,13 @@
       "date": "2026-10-31",
       "rating": 1482.33,
       "opponent": "KVC Westerlo",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-08",
+      "rating": 1487.61,
+      "opponent": "Club Brugge KV",
       "competition_id": "B1",
       "event": "match"
     }

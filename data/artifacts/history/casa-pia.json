@@ -2,7 +2,7 @@
   "id": "casa-pia",
   "name": "Casa Pia AC",
   "league": "Primeira Liga",
-  "rating": 1382.5,
+  "rating": 1387.3,
   "points": [
     {
       "date": "2022-07-01",
@@ -1058,6 +1058,13 @@
       "date": "2026-10-30",
       "rating": 1382.46,
       "opponent": "Sporting Clube de Portugal",
+      "competition_id": "P1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-07",
+      "rating": 1387.25,
+      "opponent": "FC Alverca",
       "competition_id": "P1",
       "event": "match"
     }

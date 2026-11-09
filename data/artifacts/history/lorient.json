@@ -2,7 +2,7 @@
   "id": "lorient",
   "name": "FC Lorient",
   "league": "Ligue 1",
-  "rating": 1511.9,
+  "rating": 1523.7,
   "points": [
     {
       "date": "2021-08-08",
@@ -1107,6 +1107,13 @@
       "date": "2026-11-02",
       "rating": 1511.94,
       "opponent": "Stade Brestois 29",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-08",
+      "rating": 1523.67,
+      "opponent": "Le Havre AC",
       "competition_id": "F1",
       "event": "match"
     }

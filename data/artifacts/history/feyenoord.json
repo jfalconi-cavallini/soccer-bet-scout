@@ -2,7 +2,7 @@
   "id": "feyenoord",
   "name": "Feyenoord Rotterdam",
   "league": "Eredivisie",
-  "rating": 1585.3,
+  "rating": 1573.9,
   "points": [
     {
       "date": "2021-08-15",
@@ -1647,6 +1647,13 @@
       "rating": 1585.27,
       "opponent": "FC Internazionale Milano",
       "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-08",
+      "rating": 1573.89,
+      "opponent": "SC Heerenveen",
+      "competition_id": "N1",
       "event": "match"
     }
   ]

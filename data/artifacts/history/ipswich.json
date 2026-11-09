@@ -2,7 +2,7 @@
   "id": "ipswich",
   "name": "Ipswich Town FC",
   "league": "Premier League",
-  "rating": 1552.7,
+  "rating": 1547.1,
   "points": [
     {
       "date": "2024-07-01",
@@ -351,6 +351,13 @@
       "date": "2026-10-31",
       "rating": 1552.73,
       "opponent": "Hull City AFC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-08",
+      "rating": 1547.14,
+      "opponent": "AFC Bournemouth",
       "competition_id": "E0",
       "event": "match"
     }

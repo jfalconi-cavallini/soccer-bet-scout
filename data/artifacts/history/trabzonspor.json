@@ -2,7 +2,7 @@
   "id": "trabzonspor",
   "name": "Trabzonspor",
   "league": "Super Lig",
-  "rating": 1534.1,
+  "rating": 1541.3,
   "points": [
     {
       "date": "2021-08-16",
@@ -1478,6 +1478,13 @@
       "date": "2026-11-01",
       "rating": 1534.13,
       "opponent": "Gaziantep FK",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-08",
+      "rating": 1541.29,
+      "opponent": "Alanyaspor",
       "competition_id": "T1",
       "event": "match"
     }

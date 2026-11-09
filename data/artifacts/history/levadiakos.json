@@ -2,7 +2,7 @@
   "id": "levadiakos",
   "name": "Levadeiakos",
   "league": "Super League Greece",
-  "rating": 1395.5,
+  "rating": 1392.4,
   "points": [
     {
       "date": "2022-07-01",
@@ -799,6 +799,13 @@
       "date": "2026-11-01",
       "rating": 1395.48,
       "opponent": "Aris Saloniki",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-08",
+      "rating": 1392.37,
+      "opponent": "AEK Athen",
       "competition_id": "G1",
       "event": "match"
     }

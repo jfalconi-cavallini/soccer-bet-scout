@@ -2,7 +2,7 @@
   "id": "milan",
   "name": "AC Milan",
   "league": "Serie A",
-  "rating": 1636.3,
+  "rating": 1639.5,
   "points": [
     {
       "date": "2021-08-23",
@@ -1716,6 +1716,13 @@
       "date": "2026-10-31",
       "rating": 1636.33,
       "opponent": "FC Internazionale Milano",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-08",
+      "rating": 1639.5,
+      "opponent": "Genoa CFC",
       "competition_id": "I1",
       "event": "match"
     }

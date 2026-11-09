@@ -2,7 +2,7 @@
   "id": "monaco",
   "name": "AS Monaco FC",
   "league": "Ligue 1",
-  "rating": 1574.1,
+  "rating": 1570.6,
   "points": [
     {
       "date": "2021-08-06",
@@ -1597,6 +1597,13 @@
       "date": "2026-11-01",
       "rating": 1574.12,
       "opponent": "Paris FC",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-08",
+      "rating": 1570.61,
+      "opponent": "Le Mans FC",
       "competition_id": "F1",
       "event": "match"
     }
