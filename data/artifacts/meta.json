@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-09T21:18:48+00:00",
+  "generated_at": "2026-11-10T18:30:24+00:00",
   "timezone": "America/Chicago",
-  "through": "2026-11-09",
+  "through": "2026-11-10",
   "season": "2026-27",
   "matches_played": 22355,
   "clubs": 393,
@@ -106,7 +106,7 @@
   "clubelo": {
     "available": false,
     "reason": "clubelo.com did not return a rating table on this run",
-    "url": "http://api.clubelo.com/2026-11-09"
+    "url": "http://api.clubelo.com/2026-11-10"
   },
   "calibration": {
     "settled": 244,
