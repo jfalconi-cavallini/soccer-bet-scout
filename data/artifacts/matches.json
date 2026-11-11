@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T18:30:24+00:00",
+  "generated_at": "2026-11-11T18:24:35+00:00",
   "matches": [
     {
       "id": "2026-11-20-bayern-koln",
@@ -16,7 +16,7 @@
       "home_name": "FC Bayern M\u00fcnchen",
       "away_name": "1. FC K\u00f6ln",
       "prediction": {
-        "home_win_pct": 73.8,
+        "home_win_pct": 73.7,
         "draw_pct": 14.9,
         "away_win_pct": 11.3,
         "xg_home": 3.16,
@@ -45,7 +45,7 @@
             },
             {
               "score": "2-0",
-              "pct": 15.4
+              "pct": 15.3
             },
             {
               "score": "0-0",
@@ -64,10 +64,10 @@
         "second_half": {
           "xg_home": 1.67,
           "xg_away": 0.74,
-          "home_win_pct": 58.6,
-          "draw_pct": 26.2,
+          "home_win_pct": 58.5,
+          "draw_pct": 26.3,
           "away_win_pct": 15.2,
-          "btts_pct": 43.6,
+          "btts_pct": 43.5,
           "over": {
             "0.5": 89.9,
             "1.5": 70.5
@@ -106,18 +106,18 @@
           "1.5": 93.5,
           "2.5": 80.5,
           "3.5": 62.2,
-          "4.5": 42.2
+          "4.5": 42.1
         },
         "under": {
           "1.5": 6.5,
           "2.5": 19.5,
           "3.5": 37.8,
-          "4.5": 57.8
+          "4.5": 57.9
         },
         "home_totals": {
           "0.5": 95.6,
-          "1.5": 81.6,
-          "2.5": 59.5
+          "1.5": 81.5,
+          "2.5": 59.4
         },
         "away_totals": {
           "0.5": 70.7,
@@ -255,9 +255,9 @@
           "first_half_share": 0.434,
           "first_half_share_home": 0.471,
           "first_half_share_away": 0.398,
-          "lambda_home_before_elo": 3.346,
-          "lambda_away_before_elo": 1.042,
-          "home_attack": 1.809,
+          "lambda_home_before_elo": 3.342,
+          "lambda_away_before_elo": 1.043,
+          "home_attack": 1.807,
           "away_attack": 0.906,
           "home_defense": 0.823,
           "away_defense": 1.045
@@ -292,7 +292,7 @@
         "first_half": {
           "xg_home": 0.75,
           "xg_away": 0.53,
-          "home_win_pct": 35.6,
+          "home_win_pct": 35.7,
           "draw_pct": 42.3,
           "away_win_pct": 22.0,
           "btts_pct": 22.6,
@@ -331,7 +331,7 @@
           "xg_home": 0.67,
           "xg_away": 0.8,
           "home_win_pct": 26.2,
-          "draw_pct": 39.6,
+          "draw_pct": 39.5,
           "away_win_pct": 34.2,
           "btts_pct": 28.1,
           "over": {
@@ -367,7 +367,7 @@
         },
         "btts_pct": 56.8,
         "clean_sheet_home_pct": 26.5,
-        "clean_sheet_away_pct": 24.4,
+        "clean_sheet_away_pct": 24.3,
         "over": {
           "1.5": 77.1,
           "2.5": 51.6,
@@ -381,7 +381,7 @@
           "4.5": 85.8
         },
         "home_totals": {
-          "0.5": 75.6,
+          "0.5": 75.7,
           "1.5": 41.2,
           "2.5": 16.9
         },
@@ -522,7 +522,7 @@
           "first_half_share_home": 0.528,
           "first_half_share_away": 0.397,
           "lambda_home_before_elo": 1.4,
-          "lambda_away_before_elo": 1.342,
+          "lambda_away_before_elo": 1.341,
           "home_attack": 0.933,
           "away_attack": 0.988,
           "home_defense": 1.087,
@@ -631,30 +631,30 @@
             }
           ]
         },
-        "btts_pct": 47.3,
+        "btts_pct": 47.4,
         "clean_sheet_home_pct": 38.4,
         "clean_sheet_away_pct": 25.2,
         "over": {
           "1.5": 69.0,
           "2.5": 41.3,
-          "3.5": 20.7,
+          "3.5": 20.8,
           "4.5": 8.7
         },
         "under": {
           "1.5": 31.0,
           "2.5": 58.7,
-          "3.5": 79.3,
+          "3.5": 79.2,
           "4.5": 91.3
         },
         "home_totals": {
           "0.5": 74.8,
-          "1.5": 40.0,
+          "1.5": 40.1,
           "2.5": 16.1
         },
         "away_totals": {
           "0.5": 61.6,
           "1.5": 24.8,
-          "2.5": 7.2
+          "2.5": 7.3
         },
         "top_scorelines": [
           {
@@ -707,7 +707,7 @@
           {
             "key": "under_4.5",
             "label": "Under 4.5",
-            "pct": 91.3
+            "pct": 91.2
           },
           {
             "key": "ah_home_+1.5",
@@ -751,7 +751,7 @@
           "xg_against_pg": 1.21,
           "goals_minus_xg": -0.01,
           "xg_trend": "falling",
-          "attack": 0.85,
+          "attack": 0.86,
           "defense": 0.95,
           "rest_days": 13,
           "last_day": "2026-11-07",
@@ -770,7 +770,7 @@
           },
           {
             "title": "Attack against defense",
-            "body": "Athletic Club attack 1.00 against RCD Espanyol de Barcelona defense 0.95. RCD Espanyol de Barcelona attack 0.85 against Athletic Club defense 0.96. An attack above 1.00 creates more than a typical side at that venue. A defense above 1.00 allows more than a typical side."
+            "body": "Athletic Club attack 1.00 against RCD Espanyol de Barcelona defense 0.95. RCD Espanyol de Barcelona attack 0.86 against Athletic Club defense 0.96. An attack above 1.00 creates more than a typical side at that venue. A defense above 1.00 allows more than a typical side."
           },
           {
             "title": "Rest and travel",
@@ -814,15 +814,15 @@
       "home_name": "Manchester City FC",
       "away_name": "Fulham FC",
       "prediction": {
-        "home_win_pct": 55.0,
+        "home_win_pct": 54.9,
         "draw_pct": 24.9,
         "away_win_pct": 20.1,
         "xg_home": 1.84,
         "xg_away": 1.04,
-        "xg_home_1h": 0.89,
+        "xg_home_1h": 0.88,
         "xg_away_1h": 0.42,
         "first_half": {
-          "xg_home": 0.89,
+          "xg_home": 0.88,
           "xg_away": 0.42,
           "home_win_pct": 44.2,
           "draw_pct": 40.2,
@@ -868,11 +868,11 @@
           "btts_pct": 29.8,
           "over": {
             "0.5": 78.2,
-            "1.5": 48.2
+            "1.5": 48.1
           },
           "under": {
             "0.5": 21.8,
-            "1.5": 51.8
+            "1.5": 51.9
           },
           "top_scorelines": [
             {
@@ -903,19 +903,19 @@
         "over": {
           "1.5": 79.3,
           "2.5": 54.9,
-          "3.5": 32.5,
+          "3.5": 32.4,
           "4.5": 16.3
         },
         "under": {
           "1.5": 20.7,
           "2.5": 45.1,
-          "3.5": 67.5,
+          "3.5": 67.6,
           "4.5": 83.7
         },
         "home_totals": {
           "0.5": 84.1,
-          "1.5": 54.9,
-          "2.5": 27.9
+          "1.5": 54.8,
+          "2.5": 27.8
         },
         "away_totals": {
           "0.5": 64.7,
@@ -999,7 +999,7 @@
           "xg_against_pg": 1.05,
           "goals_minus_xg": -0.36,
           "xg_trend": "falling",
-          "attack": 1.35,
+          "attack": 1.34,
           "defense": 0.9,
           "rest_days": 14,
           "last_day": "2026-11-07",
@@ -1036,7 +1036,7 @@
           },
           {
             "title": "Attack against defense",
-            "body": "Manchester City FC attack 1.35 against Fulham FC defense 0.95. Fulham FC attack 0.90 against Manchester City FC defense 0.90. An attack above 1.00 creates more than a typical side at that venue. A defense above 1.00 allows more than a typical side."
+            "body": "Manchester City FC attack 1.34 against Fulham FC defense 0.95. Fulham FC attack 0.90 against Manchester City FC defense 0.90. An attack above 1.00 creates more than a typical side at that venue. A defense above 1.00 allows more than a typical side."
           },
           {
             "title": "Rest and travel",
@@ -1044,7 +1044,7 @@
           },
           {
             "title": "Game script",
-            "body": "Manchester City FC are the side more likely to control the game. The grid expects a normal tempo. Both teams scoring is close to a coin flip. First-half xG uses each side's scoring share of the full match (48% Manchester City FC, 40% Fulham FC): 0.89 to 0.42. The second half is the rest of each side's xG, on its own grid."
+            "body": "Manchester City FC are the side more likely to control the game. The grid expects a normal tempo. Both teams scoring is close to a coin flip. First-half xG uses each side's scoring share of the full match (48% Manchester City FC, 40% Fulham FC): 0.88 to 0.42. The second half is the rest of each side's xG, on its own grid."
           }
         ],
         "model": {
@@ -1053,9 +1053,9 @@
           "first_half_share": 0.441,
           "first_half_share_home": 0.481,
           "first_half_share_away": 0.401,
-          "lambda_home_before_elo": 1.901,
+          "lambda_home_before_elo": 1.898,
           "lambda_away_before_elo": 0.984,
-          "home_attack": 1.383,
+          "home_attack": 1.382,
           "away_attack": 0.837,
           "home_defense": 0.972,
           "away_defense": 0.929
@@ -1320,7 +1320,7 @@
           "first_half_share_home": 0.422,
           "first_half_share_away": 0.44,
           "lambda_home_before_elo": 1.317,
-          "lambda_away_before_elo": 1.222,
+          "lambda_away_before_elo": 1.221,
           "home_attack": 0.951,
           "away_attack": 0.964,
           "home_defense": 1.093,
@@ -1358,7 +1358,7 @@
           "xg_away": 0.34,
           "home_win_pct": 43.3,
           "draw_pct": 43.1,
-          "away_win_pct": 13.6,
+          "away_win_pct": 13.7,
           "btts_pct": 16.6,
           "over": {
             "0.5": 67.0,
@@ -1585,8 +1585,8 @@
           "first_half_share": 0.397,
           "first_half_share_home": 0.433,
           "first_half_share_away": 0.361,
-          "lambda_home_before_elo": 1.9,
-          "lambda_away_before_elo": 0.877,
+          "lambda_home_before_elo": 1.899,
+          "lambda_away_before_elo": 0.878,
           "home_attack": 1.289,
           "away_attack": 0.965,
           "home_defense": 0.736,
@@ -1660,7 +1660,7 @@
         "second_half": {
           "xg_home": 0.82,
           "xg_away": 0.53,
-          "home_win_pct": 38.3,
+          "home_win_pct": 38.2,
           "draw_pct": 40.8,
           "away_win_pct": 20.9,
           "btts_pct": 24.1,
@@ -1696,7 +1696,7 @@
           ]
         },
         "btts_pct": 50.3,
-        "clean_sheet_home_pct": 36.0,
+        "clean_sheet_home_pct": 35.9,
         "clean_sheet_away_pct": 23.4,
         "over": {
           "1.5": 72.0,
@@ -1716,7 +1716,7 @@
           "2.5": 17.8
         },
         "away_totals": {
-          "0.5": 64.0,
+          "0.5": 64.1,
           "1.5": 27.3,
           "2.5": 8.5
         },
@@ -1852,7 +1852,7 @@
           "first_half_share_home": 0.438,
           "first_half_share_away": 0.481,
           "lambda_home_before_elo": 1.417,
-          "lambda_away_before_elo": 1.057,
+          "lambda_away_before_elo": 1.058,
           "home_attack": 1.049,
           "away_attack": 0.863,
           "home_defense": 0.992,
@@ -1926,7 +1926,7 @@
         "second_half": {
           "xg_home": 0.98,
           "xg_away": 0.84,
-          "home_win_pct": 36.3,
+          "home_win_pct": 36.2,
           "draw_pct": 35.1,
           "away_win_pct": 28.6,
           "btts_pct": 37.0,
@@ -2122,7 +2122,7 @@
           "home_attack": 1.091,
           "away_attack": 0.933,
           "home_defense": 1.128,
-          "away_defense": 0.98
+          "away_defense": 0.981
         },
         "kickoff_ct": "Sat, Nov 21, 2026, 8:30 AM CST",
         "competition": "Bundesliga",
@@ -2146,7 +2146,7 @@
       "prediction": {
         "home_win_pct": 39.9,
         "draw_pct": 25.0,
-        "away_win_pct": 35.1,
+        "away_win_pct": 35.0,
         "xg_home": 1.72,
         "xg_away": 1.6,
         "xg_home_1h": 0.83,
@@ -2384,11 +2384,11 @@
           "first_half_share_home": 0.486,
           "first_half_share_away": 0.484,
           "lambda_home_before_elo": 1.724,
-          "lambda_away_before_elo": 1.591,
+          "lambda_away_before_elo": 1.59,
           "home_attack": 0.976,
           "away_attack": 1.019,
           "home_defense": 1.116,
-          "away_defense": 0.999
+          "away_defense": 0.998
         },
         "kickoff_ct": "Sat, Nov 21, 2026, 8:30 AM CST",
         "competition": "Bundesliga",
@@ -2410,7 +2410,7 @@
       "home_name": "Bayer 04 Leverkusen",
       "away_name": "SC Paderborn 07",
       "prediction": {
-        "home_win_pct": 55.4,
+        "home_win_pct": 55.3,
         "draw_pct": 24.1,
         "away_win_pct": 20.5,
         "xg_home": 1.93,
@@ -2493,8 +2493,8 @@
             }
           ]
         },
-        "btts_pct": 58.3,
-        "clean_sheet_home_pct": 33.0,
+        "btts_pct": 58.4,
+        "clean_sheet_home_pct": 32.9,
         "clean_sheet_away_pct": 14.5,
         "over": {
           "1.5": 81.7,
@@ -2514,9 +2514,9 @@
           "2.5": 30.3
         },
         "away_totals": {
-          "0.5": 67.0,
-          "1.5": 30.4,
-          "2.5": 10.1
+          "0.5": 67.1,
+          "1.5": 30.5,
+          "2.5": 10.2
         },
         "top_scorelines": [
           {
@@ -2569,7 +2569,7 @@
           {
             "key": "away_under_2.5",
             "label": "SC Paderborn 07 under 2.5",
-            "pct": 89.9
+            "pct": 89.8
           },
           {
             "key": "home_under_3.5",
@@ -2650,9 +2650,9 @@
           "first_half_share_home": 0.486,
           "first_half_share_away": 0.459,
           "lambda_home_before_elo": 1.988,
-          "lambda_away_before_elo": 1.056,
+          "lambda_away_before_elo": 1.057,
           "home_attack": 1.124,
-          "away_attack": 0.841,
+          "away_attack": 0.842,
           "home_defense": 0.898,
           "away_defense": 1.0
         },
@@ -2678,7 +2678,7 @@
       "prediction": {
         "home_win_pct": 33.5,
         "draw_pct": 26.8,
-        "away_win_pct": 39.8,
+        "away_win_pct": 39.7,
         "xg_home": 1.41,
         "xg_away": 1.55,
         "xg_home_1h": 0.7,
@@ -2713,7 +2713,7 @@
             },
             {
               "score": "1-1",
-              "pct": 13.3
+              "pct": 13.4
             },
             {
               "score": "0-2",
@@ -2729,17 +2729,17 @@
           "away_win_pct": 34.4,
           "btts_pct": 30.0,
           "over": {
-            "0.5": 77.3,
+            "0.5": 77.4,
             "1.5": 46.9
           },
           "under": {
-            "0.5": 22.7,
+            "0.5": 22.6,
             "1.5": 53.1
           },
           "top_scorelines": [
             {
               "score": "0-0",
-              "pct": 22.7
+              "pct": 22.6
             },
             {
               "score": "0-1",
@@ -2761,21 +2761,21 @@
         },
         "btts_pct": 60.5,
         "clean_sheet_home_pct": 21.3,
-        "clean_sheet_away_pct": 24.6,
+        "clean_sheet_away_pct": 24.5,
         "over": {
           "1.5": 80.5,
-          "2.5": 56.5,
+          "2.5": 56.6,
           "3.5": 34.1,
-          "4.5": 17.5
+          "4.5": 17.6
         },
         "under": {
           "1.5": 19.5,
-          "2.5": 43.5,
+          "2.5": 43.4,
           "3.5": 65.9,
-          "4.5": 82.5
+          "4.5": 82.4
         },
         "home_totals": {
-          "0.5": 75.4,
+          "0.5": 75.5,
           "1.5": 41.0,
           "2.5": 16.7
         },
@@ -3017,7 +3017,7 @@
             },
             {
               "score": "0-1",
-              "pct": 13.7
+              "pct": 13.6
             },
             {
               "score": "2-0",
@@ -3181,9 +3181,9 @@
           "first_half_share": 0.447,
           "first_half_share_home": 0.438,
           "first_half_share_away": 0.457,
-          "lambda_home_before_elo": 1.606,
-          "lambda_away_before_elo": 1.44,
-          "home_attack": 0.859,
+          "lambda_home_before_elo": 1.607,
+          "lambda_away_before_elo": 1.439,
+          "home_attack": 0.86,
           "away_attack": 1.038,
           "home_defense": 0.992,
           "away_defense": 1.056
@@ -3211,33 +3211,33 @@
         "home_win_pct": 51.3,
         "draw_pct": 24.2,
         "away_win_pct": 24.5,
-        "xg_home": 1.94,
+        "xg_home": 1.93,
         "xg_away": 1.29,
-        "xg_home_1h": 0.85,
+        "xg_home_1h": 0.84,
         "xg_away_1h": 0.46,
         "first_half": {
-          "xg_home": 0.85,
+          "xg_home": 0.84,
           "xg_away": 0.46,
-          "home_win_pct": 41.3,
+          "home_win_pct": 41.2,
           "draw_pct": 40.8,
           "away_win_pct": 18.0,
-          "btts_pct": 22.3,
+          "btts_pct": 22.2,
           "over": {
-            "0.5": 72.0,
-            "1.5": 38.8
+            "0.5": 71.9,
+            "1.5": 38.7
           },
           "under": {
-            "0.5": 28.0,
-            "1.5": 61.2
+            "0.5": 28.1,
+            "1.5": 61.3
           },
           "top_scorelines": [
             {
               "score": "0-0",
-              "pct": 28.0
+              "pct": 28.1
             },
             {
               "score": "1-0",
-              "pct": 21.7
+              "pct": 21.8
             },
             {
               "score": "1-1",
@@ -3256,22 +3256,22 @@
         "second_half": {
           "xg_home": 1.09,
           "xg_away": 0.83,
-          "home_win_pct": 40.1,
+          "home_win_pct": 40.0,
           "draw_pct": 33.9,
           "away_win_pct": 26.0,
-          "btts_pct": 38.7,
+          "btts_pct": 38.6,
           "over": {
-            "0.5": 84.0,
-            "1.5": 58.5
+            "0.5": 83.9,
+            "1.5": 58.4
           },
           "under": {
-            "0.5": 16.0,
-            "1.5": 41.5
+            "0.5": 16.1,
+            "1.5": 41.6
           },
           "top_scorelines": [
             {
               "score": "0-0",
-              "pct": 16.0
+              "pct": 16.1
             },
             {
               "score": "1-0",
@@ -3291,35 +3291,35 @@
             }
           ]
         },
-        "btts_pct": 63.0,
+        "btts_pct": 62.9,
         "clean_sheet_home_pct": 27.5,
         "clean_sheet_away_pct": 14.5,
         "over": {
-          "1.5": 84.2,
-          "2.5": 62.5,
-          "3.5": 40.1,
-          "4.5": 22.1
+          "1.5": 84.1,
+          "2.5": 62.4,
+          "3.5": 40.0,
+          "4.5": 22.0
         },
         "under": {
-          "1.5": 15.8,
-          "2.5": 37.5,
-          "3.5": 59.9,
-          "4.5": 77.9
+          "1.5": 15.9,
+          "2.5": 37.6,
+          "3.5": 60.0,
+          "4.5": 78.0
         },
         "home_totals": {
           "0.5": 85.5,
-          "1.5": 57.5,
-          "2.5": 30.4
+          "1.5": 57.4,
+          "2.5": 30.3
         },
         "away_totals": {
           "0.5": 72.5,
-          "1.5": 37.0,
-          "2.5": 14.1
+          "1.5": 36.9,
+          "2.5": 14.0
         },
         "top_scorelines": [
           {
             "score": "1-1",
-            "pct": 10.9
+            "pct": 11.0
           },
           {
             "score": "2-1",
@@ -3372,7 +3372,7 @@
           {
             "key": "away_under_2.5",
             "label": "Sunderland AFC under 2.5",
-            "pct": 85.9
+            "pct": 86.0
           },
           {
             "key": "home_over_0.5",
@@ -3438,7 +3438,7 @@
           },
           {
             "title": "Game script",
-            "body": "Aston Villa FC are the side more likely to control the game. The grid expects a high-event match. Both teams are likelier than not to score. First-half xG uses each side's scoring share of the full match (44% Aston Villa FC, 36% Sunderland AFC): 0.85 to 0.46. The second half is the rest of each side's xG, on its own grid."
+            "body": "Aston Villa FC are the side more likely to control the game. The grid expects a high-event match. Both teams are likelier than not to score. First-half xG uses each side's scoring share of the full match (44% Aston Villa FC, 36% Sunderland AFC): 0.84 to 0.46. The second half is the rest of each side's xG, on its own grid."
           }
         ],
         "model": {
@@ -3447,9 +3447,9 @@
           "first_half_share": 0.398,
           "first_half_share_home": 0.437,
           "first_half_share_away": 0.36,
-          "lambda_home_before_elo": 1.988,
-          "lambda_away_before_elo": 1.241,
-          "home_attack": 1.202,
+          "lambda_home_before_elo": 1.984,
+          "lambda_away_before_elo": 1.24,
+          "home_attack": 1.201,
           "away_attack": 1.001,
           "home_defense": 1.024,
           "away_defense": 1.118
@@ -3485,21 +3485,21 @@
           "xg_home": 0.63,
           "xg_away": 0.63,
           "home_win_pct": 28.5,
-          "draw_pct": 43.1,
-          "away_win_pct": 28.4,
+          "draw_pct": 43.2,
+          "away_win_pct": 28.3,
           "btts_pct": 22.8,
           "over": {
-            "0.5": 70.4,
+            "0.5": 70.3,
             "1.5": 36.8
           },
           "under": {
-            "0.5": 29.6,
+            "0.5": 29.7,
             "1.5": 63.2
           },
           "top_scorelines": [
             {
               "score": "0-0",
-              "pct": 29.6
+              "pct": 29.7
             },
             {
               "score": "1-0",
@@ -3527,17 +3527,17 @@
           "away_win_pct": 25.4,
           "btts_pct": 30.1,
           "over": {
-            "0.5": 77.7,
-            "1.5": 47.4
+            "0.5": 77.6,
+            "1.5": 47.3
           },
           "under": {
-            "0.5": 22.3,
-            "1.5": 52.6
+            "0.5": 22.4,
+            "1.5": 52.7
           },
           "top_scorelines": [
             {
               "score": "0-0",
-              "pct": 22.3
+              "pct": 22.4
             },
             {
               "score": "1-0",
@@ -3549,7 +3549,7 @@
             },
             {
               "score": "0-1",
-              "pct": 13.1
+              "pct": 13.2
             },
             {
               "score": "2-0",
@@ -3557,20 +3557,20 @@
             }
           ]
         },
-        "btts_pct": 57.9,
-        "clean_sheet_home_pct": 27.0,
+        "btts_pct": 57.8,
+        "clean_sheet_home_pct": 27.1,
         "clean_sheet_away_pct": 22.3,
         "over": {
           "1.5": 78.2,
-          "2.5": 53.3,
-          "3.5": 31.0,
-          "4.5": 15.3
+          "2.5": 53.2,
+          "3.5": 30.9,
+          "4.5": 15.2
         },
         "under": {
           "1.5": 21.8,
-          "2.5": 46.7,
-          "3.5": 69.0,
-          "4.5": 84.7
+          "2.5": 46.8,
+          "3.5": 69.1,
+          "4.5": 84.8
         },
         "home_totals": {
           "0.5": 77.7,
@@ -3578,9 +3578,9 @@
           "2.5": 19.1
         },
         "away_totals": {
-          "0.5": 73.0,
+          "0.5": 72.9,
           "1.5": 37.6,
-          "2.5": 14.5
+          "2.5": 14.4
         },
         "top_scorelines": [
           {
@@ -3597,7 +3597,7 @@
           },
           {
             "score": "1-2",
-            "pct": 7.8
+            "pct": 7.7
           },
           {
             "score": "0-0",
@@ -3608,7 +3608,7 @@
           {
             "key": "away_under_4.5",
             "label": "Nottingham Forest FC under 4.5",
-            "pct": 98.9
+            "pct": 99.0
           },
           {
             "key": "home_under_4.5",
@@ -3618,7 +3618,7 @@
           {
             "key": "away_under_3.5",
             "label": "Nottingham Forest FC under 3.5",
-            "pct": 95.6
+            "pct": 95.7
           },
           {
             "key": "home_under_3.5",
@@ -3631,19 +3631,19 @@
             "pct": 92.8
           },
           {
+            "key": "away_under_2.5",
+            "label": "Nottingham Forest FC under 2.5",
+            "pct": 85.6
+          },
+          {
             "key": "ah_home_+1.5",
             "label": "AFC Bournemouth +1.5",
             "pct": 85.5
           },
           {
-            "key": "away_under_2.5",
-            "label": "Nottingham Forest FC under 2.5",
-            "pct": 85.5
-          },
-          {
             "key": "under_4.5",
             "label": "Under 4.5",
-            "pct": 84.7
+            "pct": 84.8
           }
         ],
         "elo_home": 1702.7,
@@ -3713,10 +3713,10 @@
           "first_half_share": 0.448,
           "first_half_share_home": 0.418,
           "first_half_share_away": 0.478,
-          "lambda_home_before_elo": 1.471,
-          "lambda_away_before_elo": 1.341,
+          "lambda_home_before_elo": 1.469,
+          "lambda_away_before_elo": 1.339,
           "home_attack": 1.052,
-          "away_attack": 1.254,
+          "away_attack": 1.253,
           "home_defense": 0.884,
           "away_defense": 0.945
         },
@@ -3756,11 +3756,11 @@
           "btts_pct": 17.9,
           "over": {
             "0.5": 64.8,
-            "1.5": 30.1
+            "1.5": 30.0
           },
           "under": {
             "0.5": 35.2,
-            "1.5": 69.9
+            "1.5": 70.0
           },
           "top_scorelines": [
             {
@@ -3791,7 +3791,7 @@
           "home_win_pct": 35.1,
           "draw_pct": 40.3,
           "away_win_pct": 24.6,
-          "btts_pct": 26.5,
+          "btts_pct": 26.4,
           "over": {
             "0.5": 74.4,
             "1.5": 42.4
@@ -3815,7 +3815,7 @@
             },
             {
               "score": "1-1",
-              "pct": 13.2
+              "pct": 13.1
             },
             {
               "score": "2-0",
@@ -3823,19 +3823,19 @@
             }
           ]
         },
-        "btts_pct": 51.1,
+        "btts_pct": 51.0,
         "clean_sheet_home_pct": 34.0,
         "clean_sheet_away_pct": 24.6,
         "over": {
           "1.5": 72.2,
-          "2.5": 45.2,
-          "3.5": 23.9,
+          "2.5": 45.1,
+          "3.5": 23.8,
           "4.5": 10.6
         },
         "under": {
           "1.5": 27.8,
-          "2.5": 54.8,
-          "3.5": 76.1,
+          "2.5": 54.9,
+          "3.5": 76.2,
           "4.5": 89.4
         },
         "home_totals": {
@@ -3845,8 +3845,8 @@
         },
         "away_totals": {
           "0.5": 66.0,
-          "1.5": 29.4,
-          "2.5": 9.6
+          "1.5": 29.3,
+          "2.5": 9.5
         },
         "top_scorelines": [
           {
@@ -3889,7 +3889,7 @@
           {
             "key": "home_under_3.5",
             "label": "Brentford FC under 3.5",
-            "pct": 94.6
+            "pct": 94.7
           },
           {
             "key": "away_under_2.5",
@@ -3979,8 +3979,8 @@
           "first_half_share": 0.431,
           "first_half_share_home": 0.435,
           "first_half_share_away": 0.427,
-          "lambda_home_before_elo": 1.417,
-          "lambda_away_before_elo": 1.067,
+          "lambda_home_before_elo": 1.416,
+          "lambda_away_before_elo": 1.066,
           "home_attack": 1.05,
           "away_attack": 0.97,
           "home_defense": 0.909,
@@ -4006,27 +4006,27 @@
       "home_name": "Chelsea FC",
       "away_name": "Leeds United FC",
       "prediction": {
-        "home_win_pct": 43.7,
+        "home_win_pct": 43.6,
         "draw_pct": 28.1,
         "away_win_pct": 28.2,
-        "xg_home": 1.5,
+        "xg_home": 1.49,
         "xg_away": 1.16,
-        "xg_home_1h": 0.68,
+        "xg_home_1h": 0.67,
         "xg_away_1h": 0.51,
         "first_half": {
-          "xg_home": 0.68,
+          "xg_home": 0.67,
           "xg_away": 0.51,
           "home_win_pct": 33.3,
           "draw_pct": 44.2,
-          "away_win_pct": 22.6,
+          "away_win_pct": 22.5,
           "btts_pct": 20.6,
           "over": {
             "0.5": 68.3,
-            "1.5": 34.2
+            "1.5": 34.1
           },
           "under": {
             "0.5": 31.7,
-            "1.5": 65.8
+            "1.5": 65.9
           },
           "top_scorelines": [
             {
@@ -4035,7 +4035,7 @@
             },
             {
               "score": "1-0",
-              "pct": 19.6
+              "pct": 19.7
             },
             {
               "score": "0-1",
@@ -4043,7 +4043,7 @@
             },
             {
               "score": "1-1",
-              "pct": 11.6
+              "pct": 11.5
             },
             {
               "score": "2-0",
@@ -4060,11 +4060,11 @@
           "btts_pct": 28.1,
           "over": {
             "0.5": 75.9,
-            "1.5": 44.6
+            "1.5": 44.5
           },
           "under": {
             "0.5": 24.1,
-            "1.5": 55.4
+            "1.5": 55.5
           },
           "top_scorelines": [
             {
@@ -4073,7 +4073,7 @@
             },
             {
               "score": "1-0",
-              "pct": 17.5
+              "pct": 17.6
             },
             {
               "score": "0-1",
@@ -4091,21 +4091,21 @@
         },
         "btts_pct": 54.5,
         "clean_sheet_home_pct": 31.3,
-        "clean_sheet_away_pct": 22.4,
+        "clean_sheet_away_pct": 22.5,
         "over": {
           "1.5": 75.5,
           "2.5": 49.5,
-          "3.5": 27.6,
-          "4.5": 13.0
+          "3.5": 27.5,
+          "4.5": 12.9
         },
         "under": {
           "1.5": 24.5,
           "2.5": 50.5,
-          "3.5": 72.4,
-          "4.5": 87.0
+          "3.5": 72.5,
+          "4.5": 87.1
         },
         "home_totals": {
-          "0.5": 77.6,
+          "0.5": 77.5,
           "1.5": 44.0,
           "2.5": 18.9
         },
@@ -4129,7 +4129,7 @@
           },
           {
             "score": "0-0",
-            "pct": 8.2
+            "pct": 8.3
           },
           {
             "score": "2-0",
@@ -4145,7 +4145,7 @@
           {
             "key": "home_under_4.5",
             "label": "Chelsea FC under 4.5",
-            "pct": 98.2
+            "pct": 98.3
           },
           {
             "key": "away_under_3.5",
@@ -4160,7 +4160,7 @@
           {
             "key": "over_0.5",
             "label": "Over 0.5",
-            "pct": 91.8
+            "pct": 91.7
           },
           {
             "key": "away_under_2.5",
@@ -4175,7 +4175,7 @@
           {
             "key": "under_4.5",
             "label": "Under 4.5",
-            "pct": 87.0
+            "pct": 87.1
           }
         ],
         "elo_home": 1641.3,
@@ -4236,7 +4236,7 @@
           },
           {
             "title": "Game script",
-            "body": "Chelsea FC are the side more likely to control the game. The grid expects a normal tempo. Both teams scoring is close to a coin flip. First-half xG uses each side's scoring share of the full match (45% Chelsea FC, 44% Leeds United FC): 0.68 to 0.51. The second half is the rest of each side's xG, on its own grid."
+            "body": "Chelsea FC are the side more likely to control the game. The grid expects a normal tempo. Both teams scoring is close to a coin flip. First-half xG uses each side's scoring share of the full match (45% Chelsea FC, 44% Leeds United FC): 0.67 to 0.51. The second half is the rest of each side's xG, on its own grid."
           }
         ],
         "model": {
@@ -4245,12 +4245,12 @@
           "first_half_share": 0.444,
           "first_half_share_home": 0.452,
           "first_half_share_away": 0.437,
-          "lambda_home_before_elo": 1.522,
-          "lambda_away_before_elo": 1.136,
+          "lambda_home_before_elo": 1.52,
+          "lambda_away_before_elo": 1.135,
           "home_attack": 1.044,
           "away_attack": 0.903,
           "home_defense": 1.04,
-          "away_defense": 0.985
+          "away_defense": 0.986
         },
         "kickoff_ct": "Sat, Nov 21, 2026, 9:00 AM CST",
         "competition": "Premier League",
@@ -4275,7 +4275,7 @@
         "home_win_pct": 41.7,
         "draw_pct": 27.5,
         "away_win_pct": 30.8,
-        "xg_home": 1.52,
+        "xg_home": 1.51,
         "xg_away": 1.27,
         "xg_home_1h": 0.67,
         "xg_away_1h": 0.53,
@@ -4283,25 +4283,25 @@
           "xg_home": 0.67,
           "xg_away": 0.53,
           "home_win_pct": 32.4,
-          "draw_pct": 43.8,
+          "draw_pct": 43.9,
           "away_win_pct": 23.7,
           "btts_pct": 21.3,
           "over": {
-            "0.5": 69.0,
+            "0.5": 68.9,
             "1.5": 35.0
           },
           "under": {
-            "0.5": 31.0,
+            "0.5": 31.1,
             "1.5": 65.0
           },
           "top_scorelines": [
             {
               "score": "0-0",
-              "pct": 31.0
+              "pct": 31.1
             },
             {
               "score": "1-0",
-              "pct": 19.0
+              "pct": 19.1
             },
             {
               "score": "0-1",
@@ -4320,17 +4320,17 @@
         "second_half": {
           "xg_home": 0.84,
           "xg_away": 0.74,
-          "home_win_pct": 34.0,
+          "home_win_pct": 33.9,
           "draw_pct": 38.0,
           "away_win_pct": 28.0,
           "btts_pct": 31.1,
           "over": {
             "0.5": 78.2,
-            "1.5": 48.3
+            "1.5": 48.2
           },
           "under": {
             "0.5": 21.8,
-            "1.5": 51.7
+            "1.5": 51.8
           },
           "top_scorelines": [
             {
@@ -4355,30 +4355,30 @@
             }
           ]
         },
-        "btts_pct": 57.4,
+        "btts_pct": 57.3,
         "clean_sheet_home_pct": 28.0,
         "clean_sheet_away_pct": 22.0,
         "over": {
-          "1.5": 77.9,
-          "2.5": 52.8,
-          "3.5": 30.5,
-          "4.5": 15.0
+          "1.5": 77.8,
+          "2.5": 52.7,
+          "3.5": 30.4,
+          "4.5": 14.9
         },
         "under": {
-          "1.5": 22.1,
-          "2.5": 47.2,
-          "3.5": 69.5,
-          "4.5": 85.0
+          "1.5": 22.2,
+          "2.5": 47.3,
+          "3.5": 69.6,
+          "4.5": 85.1
         },
         "home_totals": {
           "0.5": 78.0,
-          "1.5": 44.7,
+          "1.5": 44.6,
           "2.5": 19.4
         },
         "away_totals": {
           "0.5": 72.0,
-          "1.5": 36.4,
-          "2.5": 13.7
+          "1.5": 36.3,
+          "2.5": 13.6
         },
         "top_scorelines": [
           {
@@ -4399,7 +4399,7 @@
           },
           {
             "score": "0-0",
-            "pct": 7.3
+            "pct": 7.4
           }
         ],
         "most_likely": [
@@ -4431,7 +4431,7 @@
           {
             "key": "away_under_2.5",
             "label": "Crystal Palace FC under 2.5",
-            "pct": 86.3
+            "pct": 86.4
           },
           {
             "key": "ah_home_+1.5",
@@ -4441,7 +4441,7 @@
           {
             "key": "under_4.5",
             "label": "Under 4.5",
-            "pct": 85.0
+            "pct": 85.1
           }
         ],
         "elo_home": 1537.9,
@@ -4511,8 +4511,8 @@
           "first_half_share": 0.431,
           "first_half_share_home": 0.443,
           "first_half_share_away": 0.419,
-          "lambda_home_before_elo": 1.543,
-          "lambda_away_before_elo": 1.247,
+          "lambda_home_before_elo": 1.542,
+          "lambda_away_before_elo": 1.246,
           "home_attack": 0.898,
           "away_attack": 0.891,
           "home_defense": 1.157,
@@ -4542,23 +4542,23 @@
         "draw_pct": 28.4,
         "away_win_pct": 40.9,
         "xg_home": 1.21,
-        "xg_away": 1.44,
+        "xg_away": 1.43,
         "xg_home_1h": 0.54,
-        "xg_away_1h": 0.62,
+        "xg_away_1h": 0.61,
         "first_half": {
           "xg_home": 0.54,
-          "xg_away": 0.62,
+          "xg_away": 0.61,
           "home_win_pct": 25.0,
           "draw_pct": 45.0,
           "away_win_pct": 30.0,
-          "btts_pct": 20.2,
+          "btts_pct": 20.1,
           "over": {
             "0.5": 67.4,
-            "1.5": 33.1
+            "1.5": 33.0
           },
           "under": {
             "0.5": 32.6,
-            "1.5": 66.9
+            "1.5": 67.0
           },
           "top_scorelines": [
             {
@@ -4587,21 +4587,21 @@
           "xg_home": 0.68,
           "xg_away": 0.82,
           "home_win_pct": 26.2,
-          "draw_pct": 39.1,
+          "draw_pct": 39.2,
           "away_win_pct": 34.7,
           "btts_pct": 28.7,
           "over": {
-            "0.5": 76.4,
+            "0.5": 76.3,
             "1.5": 45.3
           },
           "under": {
-            "0.5": 23.6,
+            "0.5": 23.7,
             "1.5": 54.7
           },
           "top_scorelines": [
             {
               "score": "0-0",
-              "pct": 23.6
+              "pct": 23.7
             },
             {
               "score": "0-1",
@@ -4621,30 +4621,30 @@
             }
           ]
         },
-        "btts_pct": 54.8,
+        "btts_pct": 54.7,
         "clean_sheet_home_pct": 23.8,
-        "clean_sheet_away_pct": 29.7,
+        "clean_sheet_away_pct": 29.8,
         "over": {
           "1.5": 75.4,
-          "2.5": 49.4,
+          "2.5": 49.3,
           "3.5": 27.4,
-          "4.5": 12.9
+          "4.5": 12.8
         },
         "under": {
           "1.5": 24.6,
-          "2.5": 50.6,
+          "2.5": 50.7,
           "3.5": 72.6,
-          "4.5": 87.1
+          "4.5": 87.2
         },
         "home_totals": {
-          "0.5": 70.3,
+          "0.5": 70.2,
           "1.5": 34.2,
           "2.5": 12.3
         },
         "away_totals": {
           "0.5": 76.2,
           "1.5": 42.0,
-          "2.5": 17.5
+          "2.5": 17.4
         },
         "top_scorelines": [
           {
@@ -4657,7 +4657,7 @@
           },
           {
             "score": "1-2",
-            "pct": 8.9
+            "pct": 8.8
           },
           {
             "score": "0-0",
@@ -4702,7 +4702,7 @@
           {
             "key": "under_4.5",
             "label": "Under 4.5",
-            "pct": 87.1
+            "pct": 87.2
           },
           {
             "key": "ah_away_+1.5",
@@ -4768,7 +4768,7 @@
           },
           {
             "title": "Game script",
-            "body": "Brighton & Hove Albion FC are the side more likely to control the game, even away from home. The grid expects a normal tempo. Both teams scoring is close to a coin flip. First-half xG uses each side's scoring share of the full match (44% Hull City AFC, 43% Brighton & Hove Albion FC): 0.54 to 0.62. The second half is the rest of each side's xG, on its own grid."
+            "body": "Brighton & Hove Albion FC are the side more likely to control the game, even away from home. The grid expects a normal tempo. Both teams scoring is close to a coin flip. First-half xG uses each side's scoring share of the full match (44% Hull City AFC, 43% Brighton & Hove Albion FC): 0.54 to 0.61. The second half is the rest of each side's xG, on its own grid."
           }
         ],
         "model": {
@@ -4777,11 +4777,11 @@
           "first_half_share": 0.436,
           "first_half_share_home": 0.443,
           "first_half_share_away": 0.429,
-          "lambda_home_before_elo": 1.209,
-          "lambda_away_before_elo": 1.441,
+          "lambda_home_before_elo": 1.208,
+          "lambda_away_before_elo": 1.439,
           "home_attack": 0.895,
           "away_attack": 1.085,
-          "home_defense": 1.097,
+          "home_defense": 1.096,
           "away_defense": 0.913
         },
         "kickoff_ct": "Sat, Nov 21, 2026, 9:00 AM CST",
@@ -4804,32 +4804,32 @@
       "home_name": "Liverpool FC",
       "away_name": "Manchester United FC",
       "prediction": {
-        "home_win_pct": 47.2,
+        "home_win_pct": 47.1,
         "draw_pct": 26.5,
         "away_win_pct": 26.3,
         "xg_home": 1.67,
         "xg_away": 1.2,
         "xg_home_1h": 0.72,
-        "xg_away_1h": 0.48,
+        "xg_away_1h": 0.47,
         "first_half": {
           "xg_home": 0.72,
-          "xg_away": 0.48,
-          "home_win_pct": 36.1,
-          "draw_pct": 43.5,
+          "xg_away": 0.47,
+          "home_win_pct": 36.0,
+          "draw_pct": 43.6,
           "away_win_pct": 20.4,
           "btts_pct": 20.5,
           "over": {
-            "0.5": 68.8,
+            "0.5": 68.7,
             "1.5": 34.7
           },
           "under": {
-            "0.5": 31.2,
+            "0.5": 31.3,
             "1.5": 65.3
           },
           "top_scorelines": [
             {
               "score": "0-0",
-              "pct": 31.2
+              "pct": 31.3
             },
             {
               "score": "1-0",
@@ -4850,24 +4850,24 @@
           ]
         },
         "second_half": {
-          "xg_home": 0.95,
+          "xg_home": 0.94,
           "xg_away": 0.72,
           "home_win_pct": 37.9,
           "draw_pct": 36.7,
           "away_win_pct": 25.4,
-          "btts_pct": 32.8,
+          "btts_pct": 32.7,
           "over": {
-            "0.5": 79.9,
-            "1.5": 51.0
+            "0.5": 79.8,
+            "1.5": 50.9
           },
           "under": {
-            "0.5": 20.1,
-            "1.5": 49.0
+            "0.5": 20.2,
+            "1.5": 49.1
           },
           "top_scorelines": [
             {
               "score": "0-0",
-              "pct": 20.1
+              "pct": 20.2
             },
             {
               "score": "1-0",
@@ -4879,7 +4879,7 @@
             },
             {
               "score": "0-1",
-              "pct": 12.3
+              "pct": 12.4
             },
             {
               "score": "2-0",
@@ -4887,29 +4887,29 @@
             }
           ]
         },
-        "btts_pct": 57.8,
+        "btts_pct": 57.7,
         "clean_sheet_home_pct": 30.2,
         "clean_sheet_away_pct": 18.9,
         "over": {
-          "1.5": 79.1,
+          "1.5": 79.0,
           "2.5": 54.5,
-          "3.5": 32.2,
+          "3.5": 32.1,
           "4.5": 16.1
         },
         "under": {
-          "1.5": 20.9,
+          "1.5": 21.0,
           "2.5": 45.5,
-          "3.5": 67.8,
+          "3.5": 67.9,
           "4.5": 83.9
         },
         "home_totals": {
           "0.5": 81.1,
-          "1.5": 49.6,
+          "1.5": 49.5,
           "2.5": 23.3
         },
         "away_totals": {
           "0.5": 69.8,
-          "1.5": 33.7,
+          "1.5": 33.6,
           "2.5": 12.0
         },
         "top_scorelines": [
@@ -4931,14 +4931,14 @@
           },
           {
             "score": "0-0",
-            "pct": 6.8
+            "pct": 6.9
           }
         ],
         "most_likely": [
           {
             "key": "away_under_4.5",
             "label": "Manchester United FC under 4.5",
-            "pct": 99.2
+            "pct": 99.3
           },
           {
             "key": "home_under_4.5",
@@ -4953,7 +4953,7 @@
           {
             "key": "over_0.5",
             "label": "Over 0.5",
-            "pct": 93.2
+            "pct": 93.1
           },
           {
             "key": "home_under_3.5",
@@ -5034,7 +5034,7 @@
           },
           {
             "title": "Game script",
-            "body": "Liverpool FC are the side more likely to control the game. The grid expects a normal tempo. Both teams scoring is close to a coin flip. First-half xG uses each side's scoring share of the full match (43% Liverpool FC, 40% Manchester United FC): 0.72 to 0.48. The second half is the rest of each side's xG, on its own grid."
+            "body": "Liverpool FC are the side more likely to control the game. The grid expects a normal tempo. Both teams scoring is close to a coin flip. First-half xG uses each side's scoring share of the full match (43% Liverpool FC, 40% Manchester United FC): 0.72 to 0.47. The second half is the rest of each side's xG, on its own grid."
           }
         ],
         "model": {
@@ -5043,11 +5043,11 @@
           "first_half_share": 0.415,
           "first_half_share_home": 0.433,
           "first_half_share_away": 0.397,
-          "lambda_home_before_elo": 1.698,
-          "lambda_away_before_elo": 1.169,
+          "lambda_home_before_elo": 1.696,
+          "lambda_away_before_elo": 1.168,
           "home_attack": 1.116,
           "away_attack": 1.01,
-          "home_defense": 0.956,
+          "home_defense": 0.957,
           "away_defense": 1.029
         },
         "kickoff_ct": "Sat, Nov 21, 2026, 9:00 AM CST",
@@ -5075,22 +5075,22 @@
         "away_win_pct": 29.4,
         "xg_home": 1.66,
         "xg_away": 1.32,
-        "xg_home_1h": 0.69,
+        "xg_home_1h": 0.68,
         "xg_away_1h": 0.72,
         "first_half": {
-          "xg_home": 0.69,
+          "xg_home": 0.68,
           "xg_away": 0.72,
           "home_win_pct": 28.7,
-          "draw_pct": 40.6,
-          "away_win_pct": 30.7,
-          "btts_pct": 26.7,
+          "draw_pct": 40.7,
+          "away_win_pct": 30.6,
+          "btts_pct": 26.6,
           "over": {
             "0.5": 74.2,
-            "1.5": 42.2
+            "1.5": 42.1
           },
           "under": {
             "0.5": 25.8,
-            "1.5": 57.8
+            "1.5": 57.9
           },
           "top_scorelines": [
             {
@@ -5119,21 +5119,21 @@
           "xg_home": 0.97,
           "xg_away": 0.6,
           "home_win_pct": 42.1,
-          "draw_pct": 37.1,
+          "draw_pct": 37.2,
           "away_win_pct": 20.7,
           "btts_pct": 29.3,
           "over": {
-            "0.5": 78.1,
-            "1.5": 47.9
+            "0.5": 78.0,
+            "1.5": 47.8
           },
           "under": {
-            "0.5": 21.9,
-            "1.5": 52.1
+            "0.5": 22.0,
+            "1.5": 52.2
           },
           "top_scorelines": [
             {
               "score": "0-0",
-              "pct": 21.9
+              "pct": 22.0
             },
             {
               "score": "1-0",
@@ -5154,28 +5154,28 @@
           ]
         },
         "btts_pct": 60.4,
-        "clean_sheet_home_pct": 26.7,
-        "clean_sheet_away_pct": 19.0,
+        "clean_sheet_home_pct": 26.8,
+        "clean_sheet_away_pct": 19.1,
         "over": {
-          "1.5": 80.9,
-          "2.5": 57.1,
-          "3.5": 34.7,
-          "4.5": 18.0
+          "1.5": 80.8,
+          "2.5": 57.0,
+          "3.5": 34.6,
+          "4.5": 17.9
         },
         "under": {
-          "1.5": 19.1,
-          "2.5": 42.9,
-          "3.5": 65.3,
-          "4.5": 82.0
+          "1.5": 19.2,
+          "2.5": 43.0,
+          "3.5": 65.4,
+          "4.5": 82.1
         },
         "home_totals": {
-          "0.5": 81.0,
-          "1.5": 49.4,
+          "0.5": 80.9,
+          "1.5": 49.3,
           "2.5": 23.1
         },
         "away_totals": {
-          "0.5": 73.3,
-          "1.5": 38.0,
+          "0.5": 73.2,
+          "1.5": 37.9,
           "2.5": 14.7
         },
         "top_scorelines": [
@@ -5188,12 +5188,12 @@
             "pct": 9.3
           },
           {
-            "score": "1-2",
+            "score": "1-0",
             "pct": 7.4
           },
           {
-            "score": "1-0",
-            "pct": 7.3
+            "score": "1-2",
+            "pct": 7.4
           },
           {
             "score": "2-0",
@@ -5209,12 +5209,12 @@
           {
             "key": "home_under_4.5",
             "label": "Tottenham Hotspur FC under 4.5",
-            "pct": 97.4
+            "pct": 97.5
           },
           {
             "key": "away_under_3.5",
             "label": "Ipswich Town FC under 3.5",
-            "pct": 95.5
+            "pct": 95.6
           },
           {
             "key": "over_0.5",
@@ -5234,12 +5234,12 @@
           {
             "key": "away_under_2.5",
             "label": "Ipswich Town FC under 2.5",
-            "pct": 85.3
+            "pct": 85.4
           },
           {
             "key": "under_4.5",
             "label": "Under 4.5",
-            "pct": 82.0
+            "pct": 82.1
           }
         ],
         "elo_home": 1620.1,
@@ -5300,7 +5300,7 @@
           },
           {
             "title": "Game script",
-            "body": "Tottenham Hotspur FC are the side more likely to control the game. The grid expects a normal tempo. Both teams are likelier than not to score. First-half xG uses each side's scoring share of the full match (41% Tottenham Hotspur FC, 54% Ipswich Town FC): 0.69 to 0.72. The second half is the rest of each side's xG, on its own grid."
+            "body": "Tottenham Hotspur FC are the side more likely to control the game. The grid expects a normal tempo. Both teams are likelier than not to score. First-half xG uses each side's scoring share of the full match (41% Tottenham Hotspur FC, 54% Ipswich Town FC): 0.68 to 0.72. The second half is the rest of each side's xG, on its own grid."
           }
         ],
         "model": {
@@ -5309,8 +5309,8 @@
           "first_half_share": 0.479,
           "first_half_share_home": 0.413,
           "first_half_share_away": 0.545,
-          "lambda_home_before_elo": 1.652,
-          "lambda_away_before_elo": 1.328,
+          "lambda_home_before_elo": 1.65,
+          "lambda_away_before_elo": 1.326,
           "home_attack": 0.96,
           "away_attack": 1.083,
           "home_defense": 1.013,
@@ -5347,7 +5347,7 @@
           "xg_home": 0.64,
           "xg_away": 0.44,
           "home_win_pct": 33.3,
-          "draw_pct": 46.2,
+          "draw_pct": 46.1,
           "away_win_pct": 20.6,
           "btts_pct": 17.8,
           "over": {
@@ -5423,13 +5423,13 @@
         "clean_sheet_home_pct": 33.5,
         "clean_sheet_away_pct": 26.4,
         "over": {
-          "1.5": 70.9,
+          "1.5": 71.0,
           "2.5": 43.6,
           "3.5": 22.6,
           "4.5": 9.8
         },
         "under": {
-          "1.5": 29.1,
+          "1.5": 29.0,
           "2.5": 56.4,
           "3.5": 77.4,
           "4.5": 90.2
@@ -5441,7 +5441,7 @@
         },
         "away_totals": {
           "0.5": 66.5,
-          "1.5": 29.8,
+          "1.5": 29.9,
           "2.5": 9.8
         },
         "top_scorelines": [
@@ -5455,7 +5455,7 @@
           },
           {
             "score": "0-0",
-            "pct": 10.2
+            "pct": 10.1
           },
           {
             "score": "2-1",
@@ -5602,7 +5602,7 @@
       "home_name": "Nijmegen",
       "away_name": "PSV Eindhoven",
       "prediction": {
-        "home_win_pct": 29.3,
+        "home_win_pct": 29.4,
         "draw_pct": 23.5,
         "away_win_pct": 47.2,
         "xg_home": 1.55,
@@ -5652,8 +5652,8 @@
           "xg_away": 1.09,
           "home_win_pct": 29.4,
           "draw_pct": 33.2,
-          "away_win_pct": 37.5,
-          "btts_pct": 41.8,
+          "away_win_pct": 37.4,
+          "btts_pct": 41.7,
           "over": {
             "0.5": 85.5,
             "1.5": 61.5
@@ -5707,7 +5707,7 @@
         },
         "away_totals": {
           "0.5": 86.4,
-          "1.5": 59.3,
+          "1.5": 59.2,
           "2.5": 32.1
         },
         "top_scorelines": [
@@ -5841,12 +5841,12 @@
           "first_half_share": 0.426,
           "first_half_share_home": 0.397,
           "first_half_share_away": 0.454,
-          "lambda_home_before_elo": 1.49,
-          "lambda_away_before_elo": 2.066,
+          "lambda_home_before_elo": 1.491,
+          "lambda_away_before_elo": 2.065,
           "home_attack": 1.061,
-          "away_attack": 1.303,
-          "home_defense": 1.029,
-          "away_defense": 0.8
+          "away_attack": 1.302,
+          "home_defense": 1.028,
+          "away_defense": 0.801
         },
         "kickoff_ct": "Sat, Nov 21, 2026, 9:30 AM CST",
         "competition": "Eredivisie",
@@ -5869,7 +5869,7 @@
       "away_name": "Paris Saint-Germain FC",
       "prediction": {
         "home_win_pct": 19.4,
-        "draw_pct": 22.4,
+        "draw_pct": 22.5,
         "away_win_pct": 58.1,
         "xg_home": 1.17,
         "xg_away": 2.13,
@@ -5918,14 +5918,14 @@
           "xg_away": 1.16,
           "home_win_pct": 18.9,
           "draw_pct": 33.8,
-          "away_win_pct": 47.3,
+          "away_win_pct": 47.2,
           "btts_pct": 33.3,
           "over": {
-            "0.5": 82.1,
+            "0.5": 82.0,
             "1.5": 54.6
           },
           "under": {
-            "0.5": 17.9,
+            "0.5": 18.0,
             "1.5": 45.4
           },
           "top_scorelines": [
@@ -5935,7 +5935,7 @@
             },
             {
               "score": "0-0",
-              "pct": 17.9
+              "pct": 18.0
             },
             {
               "score": "1-1",
@@ -5947,12 +5947,12 @@
             },
             {
               "score": "1-0",
-              "pct": 9.3
+              "pct": 9.4
             }
           ]
         },
         "btts_pct": 61.7,
-        "clean_sheet_home_pct": 11.9,
+        "clean_sheet_home_pct": 12.0,
         "clean_sheet_away_pct": 31.0,
         "over": {
           "1.5": 85.0,
@@ -5972,9 +5972,9 @@
           "2.5": 11.4
         },
         "away_totals": {
-          "0.5": 88.1,
+          "0.5": 88.0,
           "1.5": 62.6,
-          "2.5": 35.5
+          "2.5": 35.4
         },
         "top_scorelines": [
           {
@@ -6032,7 +6032,7 @@
           {
             "key": "away_over_0.5",
             "label": "Paris Saint-Germain FC over 0.5",
-            "pct": 88.1
+            "pct": 88.0
           },
           {
             "key": "over_1.5",
@@ -6107,12 +6107,12 @@
           "first_half_share": 0.459,
           "first_half_share_home": 0.461,
           "first_half_share_away": 0.457,
-          "lambda_home_before_elo": 1.077,
-          "lambda_away_before_elo": 2.226,
+          "lambda_home_before_elo": 1.078,
+          "lambda_away_before_elo": 2.224,
           "home_attack": 0.923,
-          "away_attack": 1.745,
+          "away_attack": 1.743,
           "home_defense": 1.022,
-          "away_defense": 0.761
+          "away_defense": 0.762
         },
         "kickoff_ct": "Sat, Nov 21, 2026, 10:15 AM CST",
         "competition": "Ligue 1",
@@ -6136,7 +6136,7 @@
       "prediction": {
         "home_win_pct": 23.7,
         "draw_pct": 27.5,
-        "away_win_pct": 48.8,
+        "away_win_pct": 48.7,
         "xg_home": 1.04,
         "xg_away": 1.58,
         "xg_home_1h": 0.37,
@@ -6146,7 +6146,7 @@
           "xg_away": 0.67,
           "home_win_pct": 16.9,
           "draw_pct": 46.3,
-          "away_win_pct": 36.9,
+          "away_win_pct": 36.8,
           "btts_pct": 16.1,
           "over": {
             "0.5": 64.0,
@@ -6182,7 +6182,7 @@
         "second_half": {
           "xg_home": 0.67,
           "xg_away": 0.91,
-          "home_win_pct": 24.1,
+          "home_win_pct": 24.2,
           "draw_pct": 37.7,
           "away_win_pct": 38.1,
           "btts_pct": 30.3,
@@ -6201,7 +6201,7 @@
             },
             {
               "score": "0-1",
-              "pct": 17.6
+              "pct": 17.5
             },
             {
               "score": "1-1",
@@ -6235,12 +6235,12 @@
         "home_totals": {
           "0.5": 64.6,
           "1.5": 27.8,
-          "2.5": 8.7
+          "2.5": 8.8
         },
         "away_totals": {
           "0.5": 79.5,
           "1.5": 46.9,
-          "2.5": 21.2
+          "2.5": 21.1
         },
         "top_scorelines": [
           {
@@ -6293,7 +6293,7 @@
           {
             "key": "home_under_2.5",
             "label": "Parma Calcio 1913 under 2.5",
-            "pct": 91.3
+            "pct": 91.2
           },
           {
             "key": "ah_away_+1.5",
@@ -6373,10 +6373,10 @@
           "first_half_share": 0.392,
           "first_half_share_home": 0.358,
           "first_half_share_away": 0.426,
-          "lambda_home_before_elo": 0.986,
-          "lambda_away_before_elo": 1.637,
+          "lambda_home_before_elo": 0.987,
+          "lambda_away_before_elo": 1.636,
           "home_attack": 0.781,
-          "away_attack": 1.257,
+          "away_attack": 1.256,
           "home_defense": 1.054,
           "away_defense": 0.952
         },
@@ -6448,7 +6448,7 @@
         "second_half": {
           "xg_home": 0.78,
           "xg_away": 1.05,
-          "home_win_pct": 25.2,
+          "home_win_pct": 25.3,
           "draw_pct": 34.8,
           "away_win_pct": 39.9,
           "btts_pct": 36.3,
@@ -6479,27 +6479,27 @@
             },
             {
               "score": "0-2",
-              "pct": 8.9
+              "pct": 8.8
             }
           ]
         },
         "btts_pct": 62.8,
         "clean_sheet_home_pct": 15.8,
-        "clean_sheet_away_pct": 26.7,
+        "clean_sheet_away_pct": 26.6,
         "over": {
           "1.5": 83.5,
           "2.5": 61.3,
           "3.5": 38.9,
-          "4.5": 21.1
+          "4.5": 21.2
         },
         "under": {
           "1.5": 16.5,
           "2.5": 38.7,
           "3.5": 61.1,
-          "4.5": 78.9
+          "4.5": 78.8
         },
         "home_totals": {
-          "0.5": 73.3,
+          "0.5": 73.4,
           "1.5": 38.1,
           "2.5": 14.8
         },
@@ -6527,7 +6527,7 @@
           },
           {
             "score": "0-1",
-            "pct": 6.8
+            "pct": 6.7
           }
         ],
         "most_likely": [
@@ -6559,7 +6559,7 @@
           {
             "key": "ah_away_+1.5",
             "label": "VfB Stuttgart +1.5",
-            "pct": 88.3
+            "pct": 88.2
           },
           {
             "key": "home_under_2.5",
@@ -6639,9 +6639,9 @@
           "first_half_share": 0.424,
           "first_half_share_home": 0.414,
           "first_half_share_away": 0.434,
-          "lambda_home_before_elo": 1.249,
-          "lambda_away_before_elo": 1.921,
-          "home_attack": 0.73,
+          "lambda_home_before_elo": 1.251,
+          "lambda_away_before_elo": 1.92,
+          "home_attack": 0.731,
           "away_attack": 1.311,
           "home_defense": 1.048,
           "away_defense": 0.967
@@ -6682,11 +6682,11 @@
           "btts_pct": 22.5,
           "over": {
             "0.5": 70.7,
-            "1.5": 37.3
+            "1.5": 37.2
           },
           "under": {
             "0.5": 29.3,
-            "1.5": 62.7
+            "1.5": 62.8
           },
           "top_scorelines": [
             {
@@ -6699,7 +6699,7 @@
             },
             {
               "score": "1-0",
-              "pct": 13.7
+              "pct": 13.8
             },
             {
               "score": "1-1",
@@ -6714,7 +6714,7 @@
         "second_half": {
           "xg_home": 0.55,
           "xg_away": 0.85,
-          "home_win_pct": 20.9,
+          "home_win_pct": 21.0,
           "draw_pct": 39.9,
           "away_win_pct": 39.1,
           "btts_pct": 25.3,
@@ -6737,7 +6737,7 @@
             },
             {
               "score": "1-1",
-              "pct": 12.7
+              "pct": 12.6
             },
             {
               "score": "1-0",
@@ -6753,25 +6753,25 @@
         "clean_sheet_home_pct": 20.4,
         "clean_sheet_away_pct": 34.2,
         "over": {
-          "1.5": 75.7,
+          "1.5": 75.6,
           "2.5": 49.7,
           "3.5": 27.7,
-          "4.5": 13.1
+          "4.5": 13.0
         },
         "under": {
-          "1.5": 24.3,
+          "1.5": 24.4,
           "2.5": 50.3,
           "3.5": 72.3,
-          "4.5": 86.9
+          "4.5": 87.0
         },
         "home_totals": {
           "0.5": 65.8,
-          "1.5": 29.2,
+          "1.5": 29.1,
           "2.5": 9.4
         },
         "away_totals": {
           "0.5": 79.6,
-          "1.5": 47.2,
+          "1.5": 47.1,
           "2.5": 21.3
         },
         "top_scorelines": [
@@ -6835,7 +6835,7 @@
           {
             "key": "under_4.5",
             "label": "Under 4.5",
-            "pct": 86.9
+            "pct": 87.0
           }
         ],
         "elo_home": 1632.9,
@@ -6906,7 +6906,7 @@
           "first_half_share_home": 0.491,
           "first_half_share_away": 0.465,
           "lambda_home_before_elo": 1.032,
-          "lambda_away_before_elo": 1.634,
+          "lambda_away_before_elo": 1.631,
           "home_attack": 1.052,
           "away_attack": 1.173,
           "home_defense": 1.15,
@@ -7171,10 +7171,10 @@
           "first_half_share": 0.471,
           "first_half_share_home": 0.461,
           "first_half_share_away": 0.481,
-          "lambda_home_before_elo": 1.264,
+          "lambda_home_before_elo": 1.265,
           "lambda_away_before_elo": 1.29,
           "home_attack": 0.858,
-          "away_attack": 1.16,
+          "away_attack": 1.159,
           "home_defense": 0.96,
           "away_defense": 0.975
         },
@@ -7299,7 +7299,7 @@
         "home_totals": {
           "0.5": 86.7,
           "1.5": 59.7,
-          "2.5": 32.6
+          "2.5": 32.5
         },
         "away_totals": {
           "0.5": 75.3,
@@ -7437,12 +7437,12 @@
           "first_half_share": 0.467,
           "first_half_share_home": 0.461,
           "first_half_share_away": 0.473,
-          "lambda_home_before_elo": 2.01,
-          "lambda_away_before_elo": 1.409,
+          "lambda_home_before_elo": 2.009,
+          "lambda_away_before_elo": 1.41,
           "home_attack": 1.194,
           "away_attack": 0.994,
           "home_defense": 0.92,
-          "away_defense": 0.958
+          "away_defense": 0.959
         },
         "kickoff_ct": "Sat, Nov 21, 2026, 11:45 AM CST",
         "competition": "Eredivisie",
@@ -7703,7 +7703,7 @@
           "first_half_share": 0.401,
           "first_half_share_home": 0.385,
           "first_half_share_away": 0.417,
-          "lambda_home_before_elo": 1.677,
+          "lambda_home_before_elo": 1.678,
           "lambda_away_before_elo": 1.508,
           "home_attack": 0.985,
           "away_attack": 1.021,
@@ -7746,11 +7746,11 @@
           "btts_pct": 24.9,
           "over": {
             "0.5": 72.6,
-            "1.5": 39.9
+            "1.5": 39.8
           },
           "under": {
             "0.5": 27.4,
-            "1.5": 60.1
+            "1.5": 60.2
           },
           "top_scorelines": [
             {
@@ -7831,7 +7831,7 @@
         "home_totals": {
           "0.5": 78.4,
           "1.5": 45.2,
-          "2.5": 19.8
+          "2.5": 19.9
         },
         "away_totals": {
           "0.5": 78.1,
@@ -8011,17 +8011,17 @@
           "away_win_pct": 20.3,
           "btts_pct": 16.3,
           "over": {
-            "0.5": 62.8,
+            "0.5": 62.9,
             "1.5": 27.9
           },
           "under": {
-            "0.5": 37.2,
+            "0.5": 37.1,
             "1.5": 72.1
           },
           "top_scorelines": [
             {
               "score": "0-0",
-              "pct": 37.2
+              "pct": 37.1
             },
             {
               "score": "1-0",
@@ -8050,11 +8050,11 @@
           "btts_pct": 24.0,
           "over": {
             "0.5": 71.7,
-            "1.5": 38.6
+            "1.5": 38.7
           },
           "under": {
             "0.5": 28.3,
-            "1.5": 61.4
+            "1.5": 61.3
           },
           "top_scorelines": [
             {
@@ -8083,13 +8083,13 @@
         "clean_sheet_home_pct": 36.0,
         "clean_sheet_away_pct": 27.3,
         "over": {
-          "1.5": 68.6,
+          "1.5": 68.7,
           "2.5": 40.9,
           "3.5": 20.4,
           "4.5": 8.6
         },
         "under": {
-          "1.5": 31.4,
+          "1.5": 31.3,
           "2.5": 59.1,
           "3.5": 79.6,
           "4.5": 91.4
@@ -8235,8 +8235,8 @@
           "first_half_share": 0.435,
           "first_half_share_home": 0.459,
           "first_half_share_away": 0.41,
-          "lambda_home_before_elo": 1.326,
-          "lambda_away_before_elo": 0.993,
+          "lambda_home_before_elo": 1.327,
+          "lambda_away_before_elo": 0.994,
           "home_attack": 0.985,
           "away_attack": 0.865,
           "home_defense": 0.919,
@@ -8278,11 +8278,11 @@
           "btts_pct": 26.1,
           "over": {
             "0.5": 74.5,
-            "1.5": 42.5
+            "1.5": 42.4
           },
           "under": {
             "0.5": 25.5,
-            "1.5": 57.5
+            "1.5": 57.6
           },
           "top_scorelines": [
             {
@@ -8310,7 +8310,7 @@
         "second_half": {
           "xg_home": 1.05,
           "xg_away": 0.63,
-          "home_win_pct": 44.0,
+          "home_win_pct": 43.9,
           "draw_pct": 35.6,
           "away_win_pct": 20.5,
           "btts_pct": 31.7,
@@ -8351,13 +8351,13 @@
         "over": {
           "1.5": 82.5,
           "2.5": 59.7,
-          "3.5": 37.3,
+          "3.5": 37.2,
           "4.5": 19.9
         },
         "under": {
           "1.5": 17.5,
           "2.5": 40.3,
-          "3.5": 62.7,
+          "3.5": 62.8,
           "4.5": 80.1
         },
         "home_totals": {
@@ -8503,10 +8503,10 @@
           "first_half_share_away": 0.481,
           "lambda_home_before_elo": 1.933,
           "lambda_away_before_elo": 1.165,
-          "home_attack": 1.034,
+          "home_attack": 1.033,
           "away_attack": 1.019,
           "home_defense": 0.915,
-          "away_defense": 1.221
+          "away_defense": 1.22
         },
         "kickoff_ct": "Sat, Nov 21, 2026, 1:45 PM CST",
         "competition": "Ligue 1",
@@ -8628,7 +8628,7 @@
         },
         "home_totals": {
           "0.5": 81.4,
-          "1.5": 50.2,
+          "1.5": 50.1,
           "2.5": 23.8
         },
         "away_totals": {
@@ -8682,7 +8682,7 @@
           {
             "key": "home_under_3.5",
             "label": "RC Strasbourg Alsace under 3.5",
-            "pct": 91.0
+            "pct": 91.1
           },
           {
             "key": "ah_home_+1.5",
@@ -8768,7 +8768,7 @@
           "first_half_share_home": 0.414,
           "first_half_share_away": 0.47,
           "lambda_home_before_elo": 1.746,
-          "lambda_away_before_elo": 1.127,
+          "lambda_away_before_elo": 1.128,
           "home_attack": 1.084,
           "away_attack": 0.92,
           "home_defense": 0.981,
@@ -8804,7 +8804,7 @@
         "first_half": {
           "xg_home": 0.74,
           "xg_away": 0.43,
-          "home_win_pct": 38.3,
+          "home_win_pct": 38.2,
           "draw_pct": 43.6,
           "away_win_pct": 18.1,
           "btts_pct": 19.2,
@@ -8894,8 +8894,8 @@
         },
         "home_totals": {
           "0.5": 81.1,
-          "1.5": 49.7,
-          "2.5": 23.4
+          "1.5": 49.6,
+          "2.5": 23.3
         },
         "away_totals": {
           "0.5": 62.8,
@@ -9033,12 +9033,12 @@
           "first_half_share": 0.439,
           "first_half_share_home": 0.446,
           "first_half_share_away": 0.433,
-          "lambda_home_before_elo": 1.727,
-          "lambda_away_before_elo": 0.931,
+          "lambda_home_before_elo": 1.726,
+          "lambda_away_before_elo": 0.932,
           "home_attack": 1.21,
           "away_attack": 0.843,
-          "home_defense": 0.894,
-          "away_defense": 1.076
+          "home_defense": 0.895,
+          "away_defense": 1.075
         },
         "kickoff_ct": "Sat, Nov 21, 2026, 1:45 PM CST",
         "competition": "Serie A",
@@ -9073,7 +9073,7 @@
           "home_win_pct": 35.4,
           "draw_pct": 36.9,
           "away_win_pct": 27.7,
-          "btts_pct": 33.2,
+          "btts_pct": 33.1,
           "over": {
             "0.5": 79.9,
             "1.5": 51.0
@@ -9161,7 +9161,7 @@
         "home_totals": {
           "0.5": 83.2,
           "1.5": 53.1,
-          "2.5": 26.4
+          "2.5": 26.3
         },
         "away_totals": {
           "0.5": 80.7,
@@ -9301,7 +9301,7 @@
           "first_half_share_away": 0.466,
           "lambda_home_before_elo": 1.796,
           "lambda_away_before_elo": 1.633,
-          "home_attack": 1.044,
+          "home_attack": 1.043,
           "away_attack": 1.042,
           "home_defense": 1.017,
           "away_defense": 0.98
@@ -9328,7 +9328,7 @@
       "prediction": {
         "home_win_pct": 49.9,
         "draw_pct": 22.6,
-        "away_win_pct": 27.5,
+        "away_win_pct": 27.6,
         "xg_home": 2.14,
         "xg_away": 1.57,
         "xg_home_1h": 0.96,
@@ -9338,7 +9338,7 @@
           "xg_away": 0.65,
           "home_win_pct": 40.1,
           "draw_pct": 37.0,
-          "away_win_pct": 22.8,
+          "away_win_pct": 22.9,
           "btts_pct": 30.9,
           "over": {
             "0.5": 78.8,
@@ -9372,7 +9372,7 @@
           ]
         },
         "second_half": {
-          "xg_home": 1.19,
+          "xg_home": 1.18,
           "xg_away": 0.91,
           "home_win_pct": 40.8,
           "draw_pct": 32.3,
@@ -9380,11 +9380,11 @@
           "btts_pct": 42.9,
           "over": {
             "0.5": 86.4,
-            "1.5": 63.4
+            "1.5": 63.3
           },
           "under": {
             "0.5": 13.6,
-            "1.5": 36.6
+            "1.5": 36.7
           },
           "top_scorelines": [
             {
@@ -9410,17 +9410,17 @@
           ]
         },
         "btts_pct": 70.6,
-        "clean_sheet_home_pct": 20.8,
+        "clean_sheet_home_pct": 20.9,
         "clean_sheet_away_pct": 11.8,
         "over": {
           "1.5": 89.2,
-          "2.5": 71.5,
+          "2.5": 71.4,
           "3.5": 50.5,
           "4.5": 31.0
         },
         "under": {
           "1.5": 10.8,
-          "2.5": 28.5,
+          "2.5": 28.6,
           "3.5": 49.5,
           "4.5": 69.0
         },
@@ -9430,7 +9430,7 @@
           "2.5": 35.8
         },
         "away_totals": {
-          "0.5": 79.2,
+          "0.5": 79.1,
           "1.5": 46.4,
           "2.5": 20.8
         },
@@ -9565,9 +9565,9 @@
           "first_half_share": 0.432,
           "first_half_share_home": 0.447,
           "first_half_share_away": 0.417,
-          "lambda_home_before_elo": 2.214,
+          "lambda_home_before_elo": 2.213,
           "lambda_away_before_elo": 1.5,
-          "home_attack": 1.096,
+          "home_attack": 1.095,
           "away_attack": 0.872,
           "home_defense": 1.115,
           "away_defense": 1.151
@@ -9643,7 +9643,7 @@
           "home_win_pct": 45.2,
           "draw_pct": 37.7,
           "away_win_pct": 17.1,
-          "btts_pct": 25.4,
+          "btts_pct": 25.5,
           "over": {
             "0.5": 75.9,
             "1.5": 44.4
@@ -9832,8 +9832,8 @@
           "first_half_share_home": 0.435,
           "first_half_share_away": 0.418,
           "lambda_home_before_elo": 1.75,
-          "lambda_away_before_elo": 0.828,
-          "home_attack": 1.446,
+          "lambda_away_before_elo": 0.829,
+          "home_attack": 1.445,
           "away_attack": 0.886,
           "home_defense": 0.806,
           "away_defense": 0.801
@@ -9863,10 +9863,10 @@
         "away_win_pct": 15.6,
         "xg_home": 2.43,
         "xg_away": 1.14,
-        "xg_home_1h": 1.13,
+        "xg_home_1h": 1.12,
         "xg_away_1h": 0.57,
         "first_half": {
-          "xg_home": 1.13,
+          "xg_home": 1.12,
           "xg_away": 0.57,
           "home_win_pct": 48.1,
           "draw_pct": 34.5,
@@ -9895,7 +9895,7 @@
             },
             {
               "score": "2-0",
-              "pct": 11.7
+              "pct": 11.6
             },
             {
               "score": "0-1",
@@ -9906,7 +9906,7 @@
         "second_half": {
           "xg_home": 1.31,
           "xg_away": 0.57,
-          "home_win_pct": 53.6,
+          "home_win_pct": 53.5,
           "draw_pct": 31.3,
           "away_win_pct": 15.1,
           "btts_pct": 32.9,
@@ -9958,8 +9958,8 @@
         },
         "home_totals": {
           "0.5": 91.1,
-          "1.5": 69.5,
-          "2.5": 43.2
+          "1.5": 69.4,
+          "2.5": 43.1
         },
         "away_totals": {
           "0.5": 68.0,
@@ -10044,7 +10044,7 @@
           "goals_minus_xg": -0.01,
           "xg_trend": "rising",
           "attack": 1.22,
-          "defense": 0.76,
+          "defense": 0.77,
           "rest_days": 14,
           "last_day": "2026-11-08",
           "short_rest": false,
@@ -10080,7 +10080,7 @@
           },
           {
             "title": "Attack against defense",
-            "body": "FC Twente '65 attack 1.22 against Willem II Tilburg defense 1.22. Willem II Tilburg attack 0.87 against FC Twente '65 defense 0.76. An attack above 1.00 creates more than a typical side at that venue. A defense above 1.00 allows more than a typical side."
+            "body": "FC Twente '65 attack 1.22 against Willem II Tilburg defense 1.22. Willem II Tilburg attack 0.87 against FC Twente '65 defense 0.77. An attack above 1.00 creates more than a typical side at that venue. A defense above 1.00 allows more than a typical side."
           },
           {
             "title": "Rest and travel",
@@ -10088,7 +10088,7 @@
           },
           {
             "title": "Game script",
-            "body": "FC Twente '65 are the side more likely to control the game. The grid expects a high-event match. Both teams are likelier than not to score. First-half xG uses each side's scoring share of the full match (46% FC Twente '65, 50% Willem II Tilburg): 1.13 to 0.57. The second half is the rest of each side's xG, on its own grid."
+            "body": "FC Twente '65 are the side more likely to control the game. The grid expects a high-event match. Both teams are likelier than not to score. First-half xG uses each side's scoring share of the full match (46% FC Twente '65, 50% Willem II Tilburg): 1.12 to 0.57. The second half is the rest of each side's xG, on its own grid."
           }
         ],
         "model": {
@@ -10097,12 +10097,12 @@
           "first_half_share": 0.48,
           "first_half_share_home": 0.463,
           "first_half_share_away": 0.498,
-          "lambda_home_before_elo": 2.519,
-          "lambda_away_before_elo": 1.052,
+          "lambda_home_before_elo": 2.517,
+          "lambda_away_before_elo": 1.053,
           "home_attack": 1.116,
           "away_attack": 0.909,
           "home_defense": 0.751,
-          "away_defense": 1.285
+          "away_defense": 1.284
         },
         "kickoff_ct": "Sun, Nov 22, 2026, 5:15 AM CST",
         "competition": "Eredivisie",
@@ -10208,17 +10208,17 @@
           ]
         },
         "btts_pct": 45.5,
-        "clean_sheet_home_pct": 43.1,
+        "clean_sheet_home_pct": 43.0,
         "clean_sheet_away_pct": 22.2,
         "over": {
           "1.5": 69.2,
-          "2.5": 41.6,
+          "2.5": 41.7,
           "3.5": 21.0,
           "4.5": 8.9
         },
         "under": {
           "1.5": 30.8,
-          "2.5": 58.4,
+          "2.5": 58.3,
           "3.5": 79.0,
           "4.5": 91.1
         },
@@ -10228,7 +10228,7 @@
           "2.5": 19.2
         },
         "away_totals": {
-          "0.5": 56.9,
+          "0.5": 57.0,
           "1.5": 20.7,
           "2.5": 5.4
         },
@@ -10364,10 +10364,10 @@
           "first_half_share_home": 0.435,
           "first_half_share_away": 0.434,
           "lambda_home_before_elo": 1.494,
-          "lambda_away_before_elo": 0.855,
+          "lambda_away_before_elo": 0.856,
           "home_attack": 1.083,
           "away_attack": 0.968,
-          "home_defense": 0.715,
+          "home_defense": 0.716,
           "away_defense": 1.04
         },
         "kickoff_ct": "Sun, Nov 22, 2026, 5:30 AM CST",
@@ -10392,7 +10392,7 @@
       "prediction": {
         "home_win_pct": 65.6,
         "draw_pct": 19.1,
-        "away_win_pct": 15.3,
+        "away_win_pct": 15.4,
         "xg_home": 2.54,
         "xg_away": 1.18,
         "xg_home_1h": 1.13,
@@ -10438,7 +10438,7 @@
         "second_half": {
           "xg_home": 1.41,
           "xg_away": 0.64,
-          "home_win_pct": 54.6,
+          "home_win_pct": 54.5,
           "draw_pct": 29.7,
           "away_win_pct": 15.7,
           "btts_pct": 36.8,
@@ -10473,19 +10473,19 @@
             }
           ]
         },
-        "btts_pct": 64.6,
+        "btts_pct": 64.5,
         "clean_sheet_home_pct": 30.6,
         "clean_sheet_away_pct": 8.0,
         "over": {
           "1.5": 89.2,
-          "2.5": 71.5,
-          "3.5": 50.4,
+          "2.5": 71.4,
+          "3.5": 50.3,
           "4.5": 30.7
         },
         "under": {
           "1.5": 10.8,
-          "2.5": 28.5,
-          "3.5": 49.6,
+          "2.5": 28.6,
+          "3.5": 49.7,
           "4.5": 69.3
         },
         "home_totals": {
@@ -10629,9 +10629,9 @@
           "first_half_share": 0.453,
           "first_half_share_home": 0.446,
           "first_half_share_away": 0.46,
-          "lambda_home_before_elo": 2.681,
+          "lambda_home_before_elo": 2.679,
           "lambda_away_before_elo": 1.046,
-          "home_attack": 1.756,
+          "home_attack": 1.755,
           "away_attack": 1.17,
           "home_defense": 0.771,
           "away_defense": 1.01
@@ -10669,7 +10669,7 @@
           "home_win_pct": 42.6,
           "draw_pct": 38.8,
           "away_win_pct": 18.5,
-          "btts_pct": 25.1,
+          "btts_pct": 25.2,
           "over": {
             "0.5": 74.9,
             "1.5": 42.9
@@ -10706,7 +10706,7 @@
           "xg_away": 0.64,
           "home_win_pct": 42.3,
           "draw_pct": 36.3,
-          "away_win_pct": 21.4,
+          "away_win_pct": 21.5,
           "btts_pct": 31.2,
           "over": {
             "0.5": 79.5,
@@ -10739,20 +10739,20 @@
             }
           ]
         },
-        "btts_pct": 59.3,
+        "btts_pct": 59.4,
         "clean_sheet_home_pct": 31.7,
         "clean_sheet_away_pct": 14.6,
         "over": {
-          "1.5": 82.1,
+          "1.5": 82.2,
           "2.5": 59.2,
           "3.5": 36.7,
-          "4.5": 19.4
+          "4.5": 19.5
         },
         "under": {
-          "1.5": 17.9,
+          "1.5": 17.8,
           "2.5": 40.8,
           "3.5": 63.3,
-          "4.5": 80.6
+          "4.5": 80.5
         },
         "home_totals": {
           "0.5": 85.4,
@@ -10762,7 +10762,7 @@
         "away_totals": {
           "0.5": 68.3,
           "1.5": 31.9,
-          "2.5": 10.9
+          "2.5": 11.0
         },
         "top_scorelines": [
           {
@@ -10815,7 +10815,7 @@
           {
             "key": "away_under_2.5",
             "label": "ADO Den Haag under 2.5",
-            "pct": 89.1
+            "pct": 89.0
           },
           {
             "key": "home_under_3.5",
@@ -10895,10 +10895,10 @@
           "first_half_share": 0.46,
           "first_half_share_home": 0.476,
           "first_half_share_away": 0.444,
-          "lambda_home_before_elo": 1.937,
-          "lambda_away_before_elo": 1.139,
+          "lambda_home_before_elo": 1.936,
+          "lambda_away_before_elo": 1.14,
           "home_attack": 1.042,
-          "away_attack": 0.815,
+          "away_attack": 0.816,
           "home_defense": 0.907,
           "away_defense": 1.058
         },
@@ -10922,10 +10922,10 @@
       "home_name": "Sparta Rotterdam",
       "away_name": "AZ Alkmaar",
       "prediction": {
-        "home_win_pct": 32.6,
+        "home_win_pct": 32.7,
         "draw_pct": 26.6,
-        "away_win_pct": 40.8,
-        "xg_home": 1.39,
+        "away_win_pct": 40.7,
+        "xg_home": 1.4,
         "xg_away": 1.58,
         "xg_home_1h": 0.58,
         "xg_away_1h": 0.75,
@@ -10938,11 +10938,11 @@
           "btts_pct": 24.2,
           "over": {
             "0.5": 72.2,
-            "1.5": 39.2
+            "1.5": 39.3
           },
           "under": {
             "0.5": 27.8,
-            "1.5": 60.8
+            "1.5": 60.7
           },
           "top_scorelines": [
             {
@@ -10972,7 +10972,7 @@
           "xg_away": 0.83,
           "home_win_pct": 31.0,
           "draw_pct": 37.3,
-          "away_win_pct": 31.8,
+          "away_win_pct": 31.7,
           "btts_pct": 32.9,
           "over": {
             "0.5": 79.5,
@@ -10989,7 +10989,7 @@
             },
             {
               "score": "0-1",
-              "pct": 14.7
+              "pct": 14.6
             },
             {
               "score": "1-0",
@@ -11010,13 +11010,13 @@
         "clean_sheet_away_pct": 24.8,
         "over": {
           "1.5": 80.8,
-          "2.5": 57.0,
+          "2.5": 57.1,
           "3.5": 34.6,
           "4.5": 17.9
         },
         "under": {
           "1.5": 19.2,
-          "2.5": 43.0,
+          "2.5": 42.9,
           "3.5": 65.4,
           "4.5": 82.1
         },
@@ -11045,7 +11045,7 @@
           },
           {
             "score": "0-1",
-            "pct": 7.0
+            "pct": 6.9
           },
           {
             "score": "0-2",
@@ -11161,9 +11161,9 @@
           "first_half_share": 0.443,
           "first_half_share_home": 0.412,
           "first_half_share_away": 0.473,
-          "lambda_home_before_elo": 1.37,
+          "lambda_home_before_elo": 1.371,
           "lambda_away_before_elo": 1.604,
-          "home_attack": 0.9,
+          "home_attack": 0.901,
           "away_attack": 0.98,
           "home_defense": 1.062,
           "away_defense": 0.867
@@ -11192,23 +11192,23 @@
         "draw_pct": 28.4,
         "away_win_pct": 40.9,
         "xg_home": 1.21,
-        "xg_away": 1.44,
+        "xg_away": 1.43,
         "xg_home_1h": 0.54,
-        "xg_away_1h": 0.62,
+        "xg_away_1h": 0.61,
         "first_half": {
           "xg_home": 0.54,
-          "xg_away": 0.62,
+          "xg_away": 0.61,
           "home_win_pct": 25.0,
           "draw_pct": 45.0,
           "away_win_pct": 30.0,
-          "btts_pct": 20.2,
+          "btts_pct": 20.1,
           "over": {
             "0.5": 67.4,
-            "1.5": 33.1
+            "1.5": 33.0
           },
           "under": {
             "0.5": 32.6,
-            "1.5": 66.9
+            "1.5": 67.0
           },
           "top_scorelines": [
             {
@@ -11237,21 +11237,21 @@
           "xg_home": 0.68,
           "xg_away": 0.82,
           "home_win_pct": 26.2,
-          "draw_pct": 39.1,
+          "draw_pct": 39.2,
           "away_win_pct": 34.7,
           "btts_pct": 28.7,
           "over": {
-            "0.5": 76.4,
+            "0.5": 76.3,
             "1.5": 45.3
           },
           "under": {
-            "0.5": 23.6,
+            "0.5": 23.7,
             "1.5": 54.7
           },
           "top_scorelines": [
             {
               "score": "0-0",
-              "pct": 23.6
+              "pct": 23.7
             },
             {
               "score": "0-1",
@@ -11271,30 +11271,30 @@
             }
           ]
         },
-        "btts_pct": 54.8,
+        "btts_pct": 54.7,
         "clean_sheet_home_pct": 23.8,
-        "clean_sheet_away_pct": 29.7,
+        "clean_sheet_away_pct": 29.8,
         "over": {
           "1.5": 75.4,
-          "2.5": 49.4,
+          "2.5": 49.3,
           "3.5": 27.4,
-          "4.5": 12.9
+          "4.5": 12.8
         },
         "under": {
           "1.5": 24.6,
-          "2.5": 50.6,
+          "2.5": 50.7,
           "3.5": 72.6,
-          "4.5": 87.1
+          "4.5": 87.2
         },
         "home_totals": {
-          "0.5": 70.3,
+          "0.5": 70.2,
           "1.5": 34.2,
           "2.5": 12.3
         },
         "away_totals": {
           "0.5": 76.2,
           "1.5": 42.0,
-          "2.5": 17.5
+          "2.5": 17.4
         },
         "top_scorelines": [
           {
@@ -11307,7 +11307,7 @@
           },
           {
             "score": "1-2",
-            "pct": 8.9
+            "pct": 8.8
           },
           {
             "score": "0-0",
@@ -11352,7 +11352,7 @@
           {
             "key": "under_4.5",
             "label": "Under 4.5",
-            "pct": 87.1
+            "pct": 87.2
           },
           {
             "key": "ah_away_+1.5",
@@ -11418,7 +11418,7 @@
           },
           {
             "title": "Game script",
-            "body": "Brighton & Hove Albion FC are the side more likely to control the game, even away from home. The grid expects a normal tempo. Both teams scoring is close to a coin flip. First-half xG uses each side's scoring share of the full match (44% Hull City AFC, 43% Brighton & Hove Albion FC): 0.54 to 0.62. The second half is the rest of each side's xG, on its own grid."
+            "body": "Brighton & Hove Albion FC are the side more likely to control the game, even away from home. The grid expects a normal tempo. Both teams scoring is close to a coin flip. First-half xG uses each side's scoring share of the full match (44% Hull City AFC, 43% Brighton & Hove Albion FC): 0.54 to 0.61. The second half is the rest of each side's xG, on its own grid."
           }
         ],
         "model": {
@@ -11427,11 +11427,11 @@
           "first_half_share": 0.436,
           "first_half_share_home": 0.443,
           "first_half_share_away": 0.429,
-          "lambda_home_before_elo": 1.209,
-          "lambda_away_before_elo": 1.441,
+          "lambda_home_before_elo": 1.208,
+          "lambda_away_before_elo": 1.439,
           "home_attack": 0.895,
           "away_attack": 1.085,
-          "home_defense": 1.097,
+          "home_defense": 1.096,
           "away_defense": 0.913
         },
         "kickoff_ct": "Sun, Nov 22, 2026, 8:00 AM CST",
@@ -11693,12 +11693,12 @@
           "first_half_share": 0.438,
           "first_half_share_home": 0.465,
           "first_half_share_away": 0.411,
-          "lambda_home_before_elo": 1.911,
-          "lambda_away_before_elo": 0.981,
+          "lambda_home_before_elo": 1.91,
+          "lambda_away_before_elo": 0.982,
           "home_attack": 1.106,
           "away_attack": 0.842,
           "home_defense": 0.934,
-          "away_defense": 1.128
+          "away_defense": 1.127
         },
         "kickoff_ct": "Sun, Nov 22, 2026, 8:00 AM CST",
         "competition": "Ligue 1",
@@ -11767,7 +11767,7 @@
         },
         "second_half": {
           "xg_home": 0.85,
-          "xg_away": 0.67,
+          "xg_away": 0.66,
           "home_win_pct": 35.9,
           "draw_pct": 38.8,
           "away_win_pct": 25.3,
@@ -11803,19 +11803,19 @@
             }
           ]
         },
-        "btts_pct": 54.4,
+        "btts_pct": 54.3,
         "clean_sheet_home_pct": 28.7,
         "clean_sheet_away_pct": 25.6,
         "over": {
           "1.5": 74.8,
           "2.5": 48.5,
-          "3.5": 26.7,
+          "3.5": 26.6,
           "4.5": 12.4
         },
         "under": {
           "1.5": 25.2,
           "2.5": 51.5,
-          "3.5": 73.3,
+          "3.5": 73.4,
           "4.5": 87.6
         },
         "home_totals": {
@@ -11964,7 +11964,7 @@
           "home_attack": 0.911,
           "away_attack": 1.015,
           "home_defense": 1.057,
-          "away_defense": 1.067
+          "away_defense": 1.066
         },
         "kickoff_ct": "Sun, Nov 22, 2026, 8:00 AM CST",
         "competition": "Serie A",
@@ -12229,7 +12229,7 @@
           "lambda_away_before_elo": 1.212,
           "home_attack": 1.032,
           "away_attack": 0.794,
-          "home_defense": 1.236,
+          "home_defense": 1.235,
           "away_defense": 0.921
         },
         "kickoff_ct": "Sun, Nov 22, 2026, 8:00 AM CST",
@@ -12492,7 +12492,7 @@
           "first_half_share_home": 0.422,
           "first_half_share_away": 0.44,
           "lambda_home_before_elo": 1.317,
-          "lambda_away_before_elo": 1.222,
+          "lambda_away_before_elo": 1.221,
           "home_attack": 0.951,
           "away_attack": 0.964,
           "home_defense": 1.093,
@@ -12601,30 +12601,30 @@
             }
           ]
         },
-        "btts_pct": 47.3,
+        "btts_pct": 47.4,
         "clean_sheet_home_pct": 38.4,
         "clean_sheet_away_pct": 25.2,
         "over": {
           "1.5": 69.0,
           "2.5": 41.3,
-          "3.5": 20.7,
+          "3.5": 20.8,
           "4.5": 8.7
         },
         "under": {
           "1.5": 31.0,
           "2.5": 58.7,
-          "3.5": 79.3,
+          "3.5": 79.2,
           "4.5": 91.3
         },
         "home_totals": {
           "0.5": 74.8,
-          "1.5": 40.0,
+          "1.5": 40.1,
           "2.5": 16.1
         },
         "away_totals": {
           "0.5": 61.6,
           "1.5": 24.8,
-          "2.5": 7.2
+          "2.5": 7.3
         },
         "top_scorelines": [
           {
@@ -12677,7 +12677,7 @@
           {
             "key": "under_4.5",
             "label": "Under 4.5",
-            "pct": 91.3
+            "pct": 91.2
           },
           {
             "key": "ah_home_+1.5",
@@ -12721,7 +12721,7 @@
           "xg_against_pg": 1.21,
           "goals_minus_xg": -0.01,
           "xg_trend": "falling",
-          "attack": 0.85,
+          "attack": 0.86,
           "defense": 0.95,
           "rest_days": 15,
           "last_day": "2026-11-07",
@@ -12740,7 +12740,7 @@
           },
           {
             "title": "Attack against defense",
-            "body": "Athletic Club attack 1.00 against RCD Espanyol de Barcelona defense 0.95. RCD Espanyol de Barcelona attack 0.85 against Athletic Club defense 0.96. An attack above 1.00 creates more than a typical side at that venue. A defense above 1.00 allows more than a typical side."
+            "body": "Athletic Club attack 1.00 against RCD Espanyol de Barcelona defense 0.95. RCD Espanyol de Barcelona attack 0.86 against Athletic Club defense 0.96. An attack above 1.00 creates more than a typical side at that venue. A defense above 1.00 allows more than a typical side."
           },
           {
             "title": "Rest and travel",
@@ -12873,13 +12873,13 @@
         "over": {
           "1.5": 82.4,
           "2.5": 59.5,
-          "3.5": 37.1,
+          "3.5": 37.0,
           "4.5": 19.7
         },
         "under": {
           "1.5": 17.6,
           "2.5": 40.5,
-          "3.5": 62.9,
+          "3.5": 63.0,
           "4.5": 80.3
         },
         "home_totals": {
@@ -12969,7 +12969,7 @@
           "xg_against_pg": 2.31,
           "goals_minus_xg": 0.15,
           "xg_trend": "falling",
-          "attack": 0.94,
+          "attack": 0.95,
           "defense": 1.12,
           "rest_days": 14,
           "last_day": "2026-11-08",
@@ -13006,7 +13006,7 @@
           },
           {
             "title": "Attack against defense",
-            "body": "Levante UD attack 0.94 against Elche CF defense 1.03. Elche CF attack 0.97 against Levante UD defense 1.12. An attack above 1.00 creates more than a typical side at that venue. A defense above 1.00 allows more than a typical side."
+            "body": "Levante UD attack 0.95 against Elche CF defense 1.03. Elche CF attack 0.97 against Levante UD defense 1.12. An attack above 1.00 creates more than a typical side at that venue. A defense above 1.00 allows more than a typical side."
           },
           {
             "title": "Rest and travel",
@@ -13061,7 +13061,7 @@
           "xg_home": 0.64,
           "xg_away": 0.44,
           "home_win_pct": 33.3,
-          "draw_pct": 46.2,
+          "draw_pct": 46.1,
           "away_win_pct": 20.6,
           "btts_pct": 17.8,
           "over": {
@@ -13137,13 +13137,13 @@
         "clean_sheet_home_pct": 33.5,
         "clean_sheet_away_pct": 26.4,
         "over": {
-          "1.5": 70.9,
+          "1.5": 71.0,
           "2.5": 43.6,
           "3.5": 22.6,
           "4.5": 9.8
         },
         "under": {
-          "1.5": 29.1,
+          "1.5": 29.0,
           "2.5": 56.4,
           "3.5": 77.4,
           "4.5": 90.2
@@ -13155,7 +13155,7 @@
         },
         "away_totals": {
           "0.5": 66.5,
-          "1.5": 29.8,
+          "1.5": 29.9,
           "2.5": 9.8
         },
         "top_scorelines": [
@@ -13169,7 +13169,7 @@
           },
           {
             "score": "0-0",
-            "pct": 10.2
+            "pct": 10.1
           },
           {
             "score": "2-1",
@@ -13367,7 +13367,7 @@
           "home_win_pct": 45.2,
           "draw_pct": 37.7,
           "away_win_pct": 17.1,
-          "btts_pct": 25.4,
+          "btts_pct": 25.5,
           "over": {
             "0.5": 75.9,
             "1.5": 44.4
@@ -13556,8 +13556,8 @@
           "first_half_share_home": 0.435,
           "first_half_share_away": 0.418,
           "lambda_home_before_elo": 1.75,
-          "lambda_away_before_elo": 0.828,
-          "home_attack": 1.446,
+          "lambda_away_before_elo": 0.829,
+          "home_attack": 1.445,
           "away_attack": 0.886,
           "home_defense": 0.806,
           "away_defense": 0.801
@@ -13821,10 +13821,10 @@
           "first_half_share": 0.471,
           "first_half_share_home": 0.461,
           "first_half_share_away": 0.481,
-          "lambda_home_before_elo": 1.264,
+          "lambda_home_before_elo": 1.265,
           "lambda_away_before_elo": 1.29,
           "home_attack": 0.858,
-          "away_attack": 1.16,
+          "away_attack": 1.159,
           "home_defense": 0.96,
           "away_defense": 0.975
         },
@@ -13927,7 +13927,7 @@
             },
             {
               "score": "2-0",
-              "pct": 6.7
+              "pct": 6.8
             }
           ]
         },
@@ -13948,7 +13948,7 @@
         },
         "home_totals": {
           "0.5": 80.1,
-          "1.5": 47.9,
+          "1.5": 48.0,
           "2.5": 22.0
         },
         "away_totals": {
@@ -14012,7 +14012,7 @@
           {
             "key": "ah_away_+1.5",
             "label": "1. FSV Mainz 05 +1.5",
-            "pct": 81.2
+            "pct": 81.1
           },
           {
             "key": "ah_home_+1.5",
@@ -14088,9 +14088,9 @@
           "first_half_share_home": 0.467,
           "first_half_share_away": 0.483,
           "lambda_home_before_elo": 1.58,
-          "lambda_away_before_elo": 1.667,
-          "home_attack": 0.997,
-          "away_attack": 1.117,
+          "lambda_away_before_elo": 1.666,
+          "home_attack": 0.996,
+          "away_attack": 1.116,
           "home_defense": 1.068,
           "away_defense": 0.896
         },
@@ -14117,7 +14117,7 @@
         "home_win_pct": 42.1,
         "draw_pct": 25.0,
         "away_win_pct": 32.9,
-        "xg_home": 1.76,
+        "xg_home": 1.75,
         "xg_away": 1.53,
         "xg_home_1h": 0.77,
         "xg_away_1h": 0.71,
@@ -14214,7 +14214,7 @@
         },
         "home_totals": {
           "0.5": 82.7,
-          "1.5": 52.3,
+          "1.5": 52.2,
           "2.5": 25.6
         },
         "away_totals": {
@@ -14353,12 +14353,12 @@
           "first_half_share": 0.453,
           "first_half_share_home": 0.44,
           "first_half_share_away": 0.466,
-          "lambda_home_before_elo": 1.796,
-          "lambda_away_before_elo": 1.494,
+          "lambda_home_before_elo": 1.795,
+          "lambda_away_before_elo": 1.493,
           "home_attack": 1.067,
           "away_attack": 1.132,
           "home_defense": 1.138,
-          "away_defense": 1.114
+          "away_defense": 1.113
         },
         "kickoff_ct": "Sun, Nov 22, 2026, 9:15 AM CST",
         "competition": "La Liga",
@@ -14386,10 +14386,10 @@
         "xg_home": 1.83,
         "xg_away": 1.36,
         "xg_home_1h": 0.78,
-        "xg_away_1h": 0.6,
+        "xg_away_1h": 0.61,
         "first_half": {
           "xg_home": 0.78,
-          "xg_away": 0.6,
+          "xg_away": 0.61,
           "home_win_pct": 34.9,
           "draw_pct": 40.7,
           "away_win_pct": 24.4,
@@ -14610,7 +14610,7 @@
           },
           {
             "title": "Game script",
-            "body": "Go Ahead Eagles are the side more likely to control the game. The grid expects a high-event match. Both teams are likelier than not to score. First-half xG uses each side's scoring share of the full match (43% Go Ahead Eagles, 44% Fortuna Sittard): 0.78 to 0.60. The second half is the rest of each side's xG, on its own grid."
+            "body": "Go Ahead Eagles are the side more likely to control the game. The grid expects a high-event match. Both teams are likelier than not to score. First-half xG uses each side's scoring share of the full match (43% Go Ahead Eagles, 44% Fortuna Sittard): 0.78 to 0.61. The second half is the rest of each side's xG, on its own grid."
           }
         ],
         "model": {
@@ -14620,7 +14620,7 @@
           "first_half_share_home": 0.427,
           "first_half_share_away": 0.445,
           "lambda_home_before_elo": 1.867,
-          "lambda_away_before_elo": 1.317,
+          "lambda_away_before_elo": 1.318,
           "home_attack": 1.065,
           "away_attack": 0.893,
           "home_defense": 0.957,
@@ -14652,26 +14652,26 @@
         "xg_home": 1.87,
         "xg_away": 1.7,
         "xg_home_1h": 0.85,
-        "xg_away_1h": 0.78,
+        "xg_away_1h": 0.77,
         "first_half": {
           "xg_home": 0.85,
-          "xg_away": 0.78,
+          "xg_away": 0.77,
           "home_win_pct": 33.3,
           "draw_pct": 37.6,
           "away_win_pct": 29.1,
           "btts_pct": 32.1,
           "over": {
-            "0.5": 79.0,
+            "0.5": 78.9,
             "1.5": 49.5
           },
           "under": {
-            "0.5": 21.0,
+            "0.5": 21.1,
             "1.5": 50.5
           },
           "top_scorelines": [
             {
               "score": "0-0",
-              "pct": 21.0
+              "pct": 21.1
             },
             {
               "score": "1-0",
@@ -14697,7 +14697,7 @@
           "home_win_pct": 35.5,
           "draw_pct": 34.1,
           "away_win_pct": 30.4,
-          "btts_pct": 39.9,
+          "btts_pct": 39.8,
           "over": {
             "0.5": 84.3,
             "1.5": 59.1
@@ -14730,18 +14730,18 @@
           ]
         },
         "btts_pct": 69.9,
-        "clean_sheet_home_pct": 18.3,
+        "clean_sheet_home_pct": 18.4,
         "clean_sheet_away_pct": 15.5,
         "over": {
           "1.5": 87.9,
           "2.5": 68.9,
-          "3.5": 47.5,
+          "3.5": 47.4,
           "4.5": 28.3
         },
         "under": {
           "1.5": 12.1,
           "2.5": 31.1,
-          "3.5": 52.5,
+          "3.5": 52.6,
           "4.5": 71.7
         },
         "home_totals": {
@@ -14750,7 +14750,7 @@
           "2.5": 28.5
         },
         "away_totals": {
-          "0.5": 81.7,
+          "0.5": 81.6,
           "1.5": 50.5,
           "2.5": 24.1
         },
@@ -14876,7 +14876,7 @@
           },
           {
             "title": "Game script",
-            "body": "This projects as an even game, with neither side clearly controlling it. The grid expects a high-event match. Both teams are likelier than not to score. First-half xG uses each side's scoring share of the full match (45% FC Lorient, 46% Stade Rennais FC 1901): 0.85 to 0.78. The second half is the rest of each side's xG, on its own grid."
+            "body": "This projects as an even game, with neither side clearly controlling it. The grid expects a high-event match. Both teams are likelier than not to score. First-half xG uses each side's scoring share of the full match (45% FC Lorient, 46% Stade Rennais FC 1901): 0.85 to 0.77. The second half is the rest of each side's xG, on its own grid."
           }
         ],
         "model": {
@@ -14885,12 +14885,12 @@
           "first_half_share": 0.455,
           "first_half_share_home": 0.454,
           "first_half_share_away": 0.456,
-          "lambda_home_before_elo": 1.881,
-          "lambda_away_before_elo": 1.683,
+          "lambda_home_before_elo": 1.88,
+          "lambda_away_before_elo": 1.682,
           "home_attack": 0.931,
           "away_attack": 1.337,
           "home_defense": 1.008,
-          "away_defense": 1.318
+          "away_defense": 1.317
         },
         "kickoff_ct": "Sun, Nov 22, 2026, 10:15 AM CST",
         "competition": "Ligue 1",
@@ -14923,7 +14923,7 @@
           "xg_home": 0.61,
           "xg_away": 0.52,
           "home_win_pct": 30.2,
-          "draw_pct": 45.6,
+          "draw_pct": 45.5,
           "away_win_pct": 24.2,
           "btts_pct": 19.4,
           "over": {
@@ -14965,17 +14965,17 @@
           "away_win_pct": 23.6,
           "btts_pct": 32.6,
           "over": {
-            "0.5": 80.0,
-            "1.5": 51.2
+            "0.5": 80.1,
+            "1.5": 51.3
           },
           "under": {
-            "0.5": 20.0,
-            "1.5": 48.8
+            "0.5": 19.9,
+            "1.5": 48.7
           },
           "top_scorelines": [
             {
               "score": "0-0",
-              "pct": 20.0
+              "pct": 19.9
             },
             {
               "score": "1-0",
@@ -15000,20 +15000,20 @@
         "clean_sheet_away_pct": 20.3,
         "over": {
           "1.5": 78.1,
-          "2.5": 53.0,
-          "3.5": 30.7,
+          "2.5": 53.1,
+          "3.5": 30.8,
           "4.5": 15.1
         },
         "under": {
           "1.5": 21.9,
-          "2.5": 47.0,
-          "3.5": 69.3,
+          "2.5": 46.9,
+          "3.5": 69.2,
           "4.5": 84.9
         },
         "home_totals": {
           "0.5": 79.7,
           "1.5": 47.3,
-          "2.5": 21.4
+          "2.5": 21.5
         },
         "away_totals": {
           "0.5": 70.1,
@@ -15152,9 +15152,9 @@
           "first_half_share_home": 0.381,
           "first_half_share_away": 0.428,
           "lambda_home_before_elo": 1.617,
-          "lambda_away_before_elo": 1.185,
+          "lambda_away_before_elo": 1.186,
           "home_attack": 0.913,
-          "away_attack": 0.822,
+          "away_attack": 0.823,
           "home_defense": 1.031,
           "away_defense": 1.001
         },
@@ -15178,32 +15178,32 @@
       "home_name": "Liverpool FC",
       "away_name": "Manchester United FC",
       "prediction": {
-        "home_win_pct": 47.2,
+        "home_win_pct": 47.1,
         "draw_pct": 26.5,
         "away_win_pct": 26.3,
         "xg_home": 1.67,
         "xg_away": 1.2,
         "xg_home_1h": 0.72,
-        "xg_away_1h": 0.48,
+        "xg_away_1h": 0.47,
         "first_half": {
           "xg_home": 0.72,
-          "xg_away": 0.48,
-          "home_win_pct": 36.1,
-          "draw_pct": 43.5,
+          "xg_away": 0.47,
+          "home_win_pct": 36.0,
+          "draw_pct": 43.6,
           "away_win_pct": 20.4,
           "btts_pct": 20.5,
           "over": {
-            "0.5": 68.8,
+            "0.5": 68.7,
             "1.5": 34.7
           },
           "under": {
-            "0.5": 31.2,
+            "0.5": 31.3,
             "1.5": 65.3
           },
           "top_scorelines": [
             {
               "score": "0-0",
-              "pct": 31.2
+              "pct": 31.3
             },
             {
               "score": "1-0",
@@ -15224,24 +15224,24 @@
           ]
         },
         "second_half": {
-          "xg_home": 0.95,
+          "xg_home": 0.94,
           "xg_away": 0.72,
           "home_win_pct": 37.9,
           "draw_pct": 36.7,
           "away_win_pct": 25.4,
-          "btts_pct": 32.8,
+          "btts_pct": 32.7,
           "over": {
-            "0.5": 79.9,
-            "1.5": 51.0
+            "0.5": 79.8,
+            "1.5": 50.9
           },
           "under": {
-            "0.5": 20.1,
-            "1.5": 49.0
+            "0.5": 20.2,
+            "1.5": 49.1
           },
           "top_scorelines": [
             {
               "score": "0-0",
-              "pct": 20.1
+              "pct": 20.2
             },
             {
               "score": "1-0",
@@ -15253,7 +15253,7 @@
             },
             {
               "score": "0-1",
-              "pct": 12.3
+              "pct": 12.4
             },
             {
               "score": "2-0",
@@ -15261,29 +15261,29 @@
             }
           ]
         },
-        "btts_pct": 57.8,
+        "btts_pct": 57.7,
         "clean_sheet_home_pct": 30.2,
         "clean_sheet_away_pct": 18.9,
         "over": {
-          "1.5": 79.1,
+          "1.5": 79.0,
           "2.5": 54.5,
-          "3.5": 32.2,
+          "3.5": 32.1,
           "4.5": 16.1
         },
         "under": {
-          "1.5": 20.9,
+          "1.5": 21.0,
           "2.5": 45.5,
-          "3.5": 67.8,
+          "3.5": 67.9,
           "4.5": 83.9
         },
         "home_totals": {
           "0.5": 81.1,
-          "1.5": 49.6,
+          "1.5": 49.5,
           "2.5": 23.3
         },
         "away_totals": {
           "0.5": 69.8,
-          "1.5": 33.7,
+          "1.5": 33.6,
           "2.5": 12.0
         },
         "top_scorelines": [
@@ -15305,14 +15305,14 @@
           },
           {
             "score": "0-0",
-            "pct": 6.8
+            "pct": 6.9
           }
         ],
         "most_likely": [
           {
             "key": "away_under_4.5",
             "label": "Manchester United FC under 4.5",
-            "pct": 99.2
+            "pct": 99.3
           },
           {
             "key": "home_under_4.5",
@@ -15327,7 +15327,7 @@
           {
             "key": "over_0.5",
             "label": "Over 0.5",
-            "pct": 93.2
+            "pct": 93.1
           },
           {
             "key": "home_under_3.5",
@@ -15408,7 +15408,7 @@
           },
           {
             "title": "Game script",
-            "body": "Liverpool FC are the side more likely to control the game. The grid expects a normal tempo. Both teams scoring is close to a coin flip. First-half xG uses each side's scoring share of the full match (43% Liverpool FC, 40% Manchester United FC): 0.72 to 0.48. The second half is the rest of each side's xG, on its own grid."
+            "body": "Liverpool FC are the side more likely to control the game. The grid expects a normal tempo. Both teams scoring is close to a coin flip. First-half xG uses each side's scoring share of the full match (43% Liverpool FC, 40% Manchester United FC): 0.72 to 0.47. The second half is the rest of each side's xG, on its own grid."
           }
         ],
         "model": {
@@ -15417,11 +15417,11 @@
           "first_half_share": 0.415,
           "first_half_share_home": 0.433,
           "first_half_share_away": 0.397,
-          "lambda_home_before_elo": 1.698,
-          "lambda_away_before_elo": 1.169,
+          "lambda_home_before_elo": 1.696,
+          "lambda_away_before_elo": 1.168,
           "home_attack": 1.116,
           "away_attack": 1.01,
-          "home_defense": 0.956,
+          "home_defense": 0.957,
           "away_defense": 1.029
         },
         "kickoff_ct": "Sun, Nov 22, 2026, 10:30 AM CST",
@@ -15445,7 +15445,7 @@
       "away_name": "Frosinone Calcio",
       "prediction": {
         "home_win_pct": 48.0,
-        "draw_pct": 24.8,
+        "draw_pct": 24.9,
         "away_win_pct": 27.2,
         "xg_home": 1.84,
         "xg_away": 1.35,
@@ -15492,22 +15492,22 @@
         "second_half": {
           "xg_home": 1.02,
           "xg_away": 0.7,
-          "home_win_pct": 40.9,
+          "home_win_pct": 40.8,
           "draw_pct": 35.7,
           "away_win_pct": 23.4,
-          "btts_pct": 33.6,
+          "btts_pct": 33.5,
           "over": {
-            "0.5": 80.9,
+            "0.5": 80.8,
             "1.5": 52.6
           },
           "under": {
-            "0.5": 19.1,
+            "0.5": 19.2,
             "1.5": 47.4
           },
           "top_scorelines": [
             {
               "score": "0-0",
-              "pct": 19.1
+              "pct": 19.2
             },
             {
               "score": "1-0",
@@ -15528,19 +15528,19 @@
           ]
         },
         "btts_pct": 63.3,
-        "clean_sheet_home_pct": 25.9,
+        "clean_sheet_home_pct": 26.0,
         "clean_sheet_away_pct": 15.9,
         "over": {
           "1.5": 83.8,
-          "2.5": 61.8,
+          "2.5": 61.7,
           "3.5": 39.4,
-          "4.5": 21.6
+          "4.5": 21.5
         },
         "under": {
           "1.5": 16.2,
-          "2.5": 38.2,
+          "2.5": 38.3,
           "3.5": 60.6,
-          "4.5": 78.4
+          "4.5": 78.5
         },
         "home_totals": {
           "0.5": 84.1,
@@ -15548,7 +15548,7 @@
           "2.5": 27.9
         },
         "away_totals": {
-          "0.5": 74.1,
+          "0.5": 74.0,
           "1.5": 39.0,
           "2.5": 15.4
         },
@@ -15613,7 +15613,7 @@
           {
             "key": "home_over_0.5",
             "label": "AC Milan over 0.5",
-            "pct": 84.2
+            "pct": 84.1
           }
         ],
         "elo_home": 1639.5,
@@ -15683,12 +15683,12 @@
           "first_half_share": 0.463,
           "first_half_share_home": 0.448,
           "first_half_share_away": 0.479,
-          "lambda_home_before_elo": 1.834,
+          "lambda_home_before_elo": 1.833,
           "lambda_away_before_elo": 1.36,
           "home_attack": 1.126,
           "away_attack": 1.109,
           "home_defense": 0.993,
-          "away_defense": 1.228
+          "away_defense": 1.227
         },
         "kickoff_ct": "Sun, Nov 22, 2026, 11:00 AM CST",
         "competition": "Serie A",
@@ -15949,11 +15949,11 @@
           "first_half_share": 0.444,
           "first_half_share_home": 0.448,
           "first_half_share_away": 0.44,
-          "lambda_home_before_elo": 1.407,
+          "lambda_home_before_elo": 1.408,
           "lambda_away_before_elo": 0.952,
           "home_attack": 0.921,
-          "away_attack": 0.801,
-          "home_defense": 1.025,
+          "away_attack": 0.802,
+          "home_defense": 1.024,
           "away_defense": 1.011
         },
         "kickoff_ct": "Sun, Nov 22, 2026, 11:30 AM CST",
@@ -15976,7 +15976,7 @@
       "home_name": "Olympique de Marseille",
       "away_name": "Le Mans FC",
       "prediction": {
-        "home_win_pct": 49.9,
+        "home_win_pct": 49.8,
         "draw_pct": 23.4,
         "away_win_pct": 26.8,
         "xg_home": 2.03,
@@ -16023,11 +16023,11 @@
         },
         "second_half": {
           "xg_home": 1.18,
-          "xg_away": 0.81,
+          "xg_away": 0.8,
           "home_win_pct": 43.3,
           "draw_pct": 32.9,
           "away_win_pct": 23.8,
-          "btts_pct": 39.6,
+          "btts_pct": 39.5,
           "over": {
             "0.5": 84.9,
             "1.5": 60.2
@@ -16065,24 +16065,24 @@
         "over": {
           "1.5": 87.1,
           "2.5": 67.5,
-          "3.5": 45.8,
+          "3.5": 45.7,
           "4.5": 26.8
         },
         "under": {
           "1.5": 12.9,
           "2.5": 32.5,
-          "3.5": 54.2,
+          "3.5": 54.3,
           "4.5": 73.2
         },
         "home_totals": {
           "0.5": 86.8,
-          "1.5": 60.1,
-          "2.5": 32.9
+          "1.5": 60.0,
+          "2.5": 32.8
         },
         "away_totals": {
           "0.5": 76.7,
           "1.5": 42.7,
-          "2.5": 18.0
+          "2.5": 17.9
         },
         "top_scorelines": [
           {
@@ -16145,7 +16145,7 @@
           {
             "key": "home_under_3.5",
             "label": "Olympique de Marseille under 3.5",
-            "pct": 85.5
+            "pct": 85.6
           }
         ],
         "elo_home": 1572.3,
@@ -16161,7 +16161,7 @@
           "xg_against_pg": 2.57,
           "goals_minus_xg": 0.53,
           "xg_trend": "rising",
-          "attack": 1.14,
+          "attack": 1.13,
           "defense": 1.08,
           "rest_days": 14,
           "last_day": "2026-11-08",
@@ -16198,7 +16198,7 @@
           },
           {
             "title": "Attack against defense",
-            "body": "Olympique de Marseille attack 1.14 against Le Mans FC defense 1.10. Le Mans FC attack 0.99 against Olympique de Marseille defense 1.08. An attack above 1.00 creates more than a typical side at that venue. A defense above 1.00 allows more than a typical side."
+            "body": "Olympique de Marseille attack 1.13 against Le Mans FC defense 1.10. Le Mans FC attack 0.99 against Olympique de Marseille defense 1.08. An attack above 1.00 creates more than a typical side at that venue. A defense above 1.00 allows more than a typical side."
           },
           {
             "title": "Rest and travel",
@@ -16215,9 +16215,9 @@
           "first_half_share": 0.434,
           "first_half_share_home": 0.42,
           "first_half_share_away": 0.447,
-          "lambda_home_before_elo": 2.031,
+          "lambda_home_before_elo": 2.03,
           "lambda_away_before_elo": 1.457,
-          "home_attack": 1.189,
+          "home_attack": 1.188,
           "away_attack": 1.023,
           "home_defense": 1.141,
           "away_defense": 1.115
@@ -16255,23 +16255,23 @@
           "home_win_pct": 21.8,
           "draw_pct": 39.7,
           "away_win_pct": 38.5,
-          "btts_pct": 26.2,
+          "btts_pct": 26.1,
           "over": {
-            "0.5": 74.8,
+            "0.5": 74.7,
             "1.5": 42.8
           },
           "under": {
-            "0.5": 25.2,
+            "0.5": 25.3,
             "1.5": 57.2
           },
           "top_scorelines": [
             {
               "score": "0-0",
-              "pct": 25.2
+              "pct": 25.3
             },
             {
               "score": "0-1",
-              "pct": 19.4
+              "pct": 19.3
             },
             {
               "score": "1-1",
@@ -16283,7 +16283,7 @@
             },
             {
               "score": "0-2",
-              "pct": 8.8
+              "pct": 8.7
             }
           ]
         },
@@ -16292,7 +16292,7 @@
           "xg_away": 1.02,
           "home_win_pct": 21.9,
           "draw_pct": 36.1,
-          "away_win_pct": 42.1,
+          "away_win_pct": 42.0,
           "btts_pct": 31.9,
           "over": {
             "0.5": 79.9,
@@ -16348,7 +16348,7 @@
         "away_totals": {
           "0.5": 84.5,
           "1.5": 55.6,
-          "2.5": 28.6
+          "2.5": 28.5
         },
         "top_scorelines": [
           {
@@ -16386,7 +16386,7 @@
           {
             "key": "away_under_4.5",
             "label": "FC Internazionale Milano under 4.5",
-            "pct": 96.1
+            "pct": 96.2
           },
           {
             "key": "over_0.5",
@@ -16481,12 +16481,12 @@
           "first_half_share": 0.461,
           "first_half_share_home": 0.466,
           "first_half_share_away": 0.456,
-          "lambda_home_before_elo": 1.134,
-          "lambda_away_before_elo": 1.96,
+          "lambda_home_before_elo": 1.135,
+          "lambda_away_before_elo": 1.959,
           "home_attack": 1.066,
-          "away_attack": 1.505,
+          "away_attack": 1.504,
           "home_defense": 1.054,
-          "away_defense": 0.802
+          "away_defense": 0.803
         },
         "kickoff_ct": "Sun, Nov 22, 2026, 1:45 PM CST",
         "competition": "Serie A",
@@ -16583,7 +16583,7 @@
             },
             {
               "score": "1-1",
-              "pct": 12.1
+              "pct": 12.2
             },
             {
               "score": "0-2",
@@ -16592,7 +16592,7 @@
           ]
         },
         "btts_pct": 45.8,
-        "clean_sheet_home_pct": 31.9,
+        "clean_sheet_home_pct": 31.8,
         "clean_sheet_away_pct": 34.8,
         "over": {
           "1.5": 65.9,
@@ -16608,13 +16608,13 @@
         },
         "home_totals": {
           "0.5": 65.2,
-          "1.5": 28.4,
+          "1.5": 28.5,
           "2.5": 9.1
         },
         "away_totals": {
-          "0.5": 68.1,
+          "0.5": 68.2,
           "1.5": 31.7,
-          "2.5": 10.8
+          "2.5": 10.9
         },
         "top_scorelines": [
           {
@@ -16627,7 +16627,7 @@
           },
           {
             "score": "0-1",
-            "pct": 11.4
+            "pct": 11.3
           },
           {
             "score": "1-0",
@@ -16747,9 +16747,9 @@
           "first_half_share": 0.437,
           "first_half_share_home": 0.463,
           "first_half_share_away": 0.412,
-          "lambda_home_before_elo": 1.068,
+          "lambda_home_before_elo": 1.069,
           "lambda_away_before_elo": 1.132,
-          "home_attack": 0.801,
+          "home_attack": 0.802,
           "away_attack": 1.109,
           "home_defense": 0.88,
           "away_defense": 0.882
@@ -16858,17 +16858,17 @@
           ]
         },
         "btts_pct": 45.5,
-        "clean_sheet_home_pct": 43.1,
+        "clean_sheet_home_pct": 43.0,
         "clean_sheet_away_pct": 22.2,
         "over": {
           "1.5": 69.2,
-          "2.5": 41.6,
+          "2.5": 41.7,
           "3.5": 21.0,
           "4.5": 8.9
         },
         "under": {
           "1.5": 30.8,
-          "2.5": 58.4,
+          "2.5": 58.3,
           "3.5": 79.0,
           "4.5": 91.1
         },
@@ -16878,7 +16878,7 @@
           "2.5": 19.2
         },
         "away_totals": {
-          "0.5": 56.9,
+          "0.5": 57.0,
           "1.5": 20.7,
           "2.5": 5.4
         },
@@ -17014,10 +17014,10 @@
           "first_half_share_home": 0.435,
           "first_half_share_away": 0.434,
           "lambda_home_before_elo": 1.494,
-          "lambda_away_before_elo": 0.855,
+          "lambda_away_before_elo": 0.856,
           "home_attack": 1.083,
           "away_attack": 0.968,
-          "home_defense": 0.715,
+          "home_defense": 0.716,
           "away_defense": 1.04
         },
         "kickoff_ct": "Mon, Nov 23, 2026, 1:45 PM CST",
@@ -17042,7 +17042,7 @@
       "prediction": {
         "home_win_pct": 36.0,
         "draw_pct": 27.1,
-        "away_win_pct": 37.0,
+        "away_win_pct": 36.9,
         "xg_home": 1.45,
         "xg_away": 1.47,
         "xg_home_1h": 0.64,
@@ -17053,19 +17053,19 @@
           "home_win_pct": 28.1,
           "draw_pct": 42.5,
           "away_win_pct": 29.4,
-          "btts_pct": 23.8,
+          "btts_pct": 23.7,
           "over": {
-            "0.5": 71.4,
+            "0.5": 71.3,
             "1.5": 38.1
           },
           "under": {
-            "0.5": 28.6,
+            "0.5": 28.7,
             "1.5": 61.9
           },
           "top_scorelines": [
             {
               "score": "0-0",
-              "pct": 28.6
+              "pct": 28.7
             },
             {
               "score": "0-1",
@@ -17123,7 +17123,7 @@
             }
           ]
         },
-        "btts_pct": 60.0,
+        "btts_pct": 59.9,
         "clean_sheet_home_pct": 23.1,
         "clean_sheet_away_pct": 23.6,
         "over": {
@@ -17279,8 +17279,8 @@
           "first_half_share": 0.443,
           "first_half_share_home": 0.44,
           "first_half_share_away": 0.447,
-          "lambda_home_before_elo": 1.452,
-          "lambda_away_before_elo": 1.462,
+          "lambda_home_before_elo": 1.451,
+          "lambda_away_before_elo": 1.461,
           "home_attack": 1.036,
           "away_attack": 1.038,
           "home_defense": 1.14,
@@ -17322,11 +17322,11 @@
           "btts_pct": 17.9,
           "over": {
             "0.5": 64.8,
-            "1.5": 30.1
+            "1.5": 30.0
           },
           "under": {
             "0.5": 35.2,
-            "1.5": 69.9
+            "1.5": 70.0
           },
           "top_scorelines": [
             {
@@ -17357,7 +17357,7 @@
           "home_win_pct": 35.1,
           "draw_pct": 40.3,
           "away_win_pct": 24.6,
-          "btts_pct": 26.5,
+          "btts_pct": 26.4,
           "over": {
             "0.5": 74.4,
             "1.5": 42.4
@@ -17381,7 +17381,7 @@
             },
             {
               "score": "1-1",
-              "pct": 13.2
+              "pct": 13.1
             },
             {
               "score": "2-0",
@@ -17389,19 +17389,19 @@
             }
           ]
         },
-        "btts_pct": 51.1,
+        "btts_pct": 51.0,
         "clean_sheet_home_pct": 34.0,
         "clean_sheet_away_pct": 24.6,
         "over": {
           "1.5": 72.2,
-          "2.5": 45.2,
-          "3.5": 23.9,
+          "2.5": 45.1,
+          "3.5": 23.8,
           "4.5": 10.6
         },
         "under": {
           "1.5": 27.8,
-          "2.5": 54.8,
-          "3.5": 76.1,
+          "2.5": 54.9,
+          "3.5": 76.2,
           "4.5": 89.4
         },
         "home_totals": {
@@ -17411,8 +17411,8 @@
         },
         "away_totals": {
           "0.5": 66.0,
-          "1.5": 29.4,
-          "2.5": 9.6
+          "1.5": 29.3,
+          "2.5": 9.5
         },
         "top_scorelines": [
           {
@@ -17455,7 +17455,7 @@
           {
             "key": "home_under_3.5",
             "label": "Brentford FC under 3.5",
-            "pct": 94.6
+            "pct": 94.7
           },
           {
             "key": "away_under_2.5",
@@ -17545,8 +17545,8 @@
           "first_half_share": 0.431,
           "first_half_share_home": 0.435,
           "first_half_share_away": 0.427,
-          "lambda_home_before_elo": 1.417,
-          "lambda_away_before_elo": 1.067,
+          "lambda_home_before_elo": 1.416,
+          "lambda_away_before_elo": 1.066,
           "home_attack": 1.05,
           "away_attack": 0.97,
           "home_defense": 0.909,
@@ -17661,13 +17661,13 @@
         "over": {
           "1.5": 82.4,
           "2.5": 59.5,
-          "3.5": 37.1,
+          "3.5": 37.0,
           "4.5": 19.7
         },
         "under": {
           "1.5": 17.6,
           "2.5": 40.5,
-          "3.5": 62.9,
+          "3.5": 63.0,
           "4.5": 80.3
         },
         "home_totals": {
@@ -17757,7 +17757,7 @@
           "xg_against_pg": 2.31,
           "goals_minus_xg": 0.15,
           "xg_trend": "falling",
-          "attack": 0.94,
+          "attack": 0.95,
           "defense": 1.12,
           "rest_days": 15,
           "last_day": "2026-11-08",
@@ -17794,7 +17794,7 @@
           },
           {
             "title": "Attack against defense",
-            "body": "Levante UD attack 0.94 against Elche CF defense 1.03. Elche CF attack 0.97 against Levante UD defense 1.12. An attack above 1.00 creates more than a typical side at that venue. A defense above 1.00 allows more than a typical side."
+            "body": "Levante UD attack 0.95 against Elche CF defense 1.03. Elche CF attack 0.97 against Levante UD defense 1.12. An attack above 1.00 creates more than a typical side at that venue. A defense above 1.00 allows more than a typical side."
           },
           {
             "title": "Rest and travel",
@@ -17849,9 +17849,9 @@
           "xg_home": 0.67,
           "xg_away": 0.42,
           "home_win_pct": 35.4,
-          "draw_pct": 45.8,
+          "draw_pct": 45.7,
           "away_win_pct": 18.9,
-          "btts_pct": 17.5,
+          "btts_pct": 17.6,
           "over": {
             "0.5": 65.3,
             "1.5": 30.5
@@ -17875,7 +17875,7 @@
             },
             {
               "score": "1-1",
-              "pct": 10.3
+              "pct": 10.4
             },
             {
               "score": "2-0",
@@ -17887,16 +17887,16 @@
           "xg_home": 0.83,
           "xg_away": 0.51,
           "home_win_pct": 39.1,
-          "draw_pct": 40.8,
+          "draw_pct": 40.7,
           "away_win_pct": 20.1,
           "btts_pct": 23.7,
           "over": {
             "0.5": 72.7,
-            "1.5": 39.8
+            "1.5": 39.9
           },
           "under": {
             "0.5": 27.3,
-            "1.5": 60.2
+            "1.5": 60.1
           },
           "top_scorelines": [
             {
@@ -17922,17 +17922,17 @@
           ]
         },
         "btts_pct": 48.2,
-        "clean_sheet_home_pct": 39.5,
+        "clean_sheet_home_pct": 39.4,
         "clean_sheet_away_pct": 22.4,
         "over": {
           "1.5": 70.9,
-          "2.5": 43.6,
+          "2.5": 43.7,
           "3.5": 22.6,
           "4.5": 9.8
         },
         "under": {
           "1.5": 29.1,
-          "2.5": 56.4,
+          "2.5": 56.3,
           "3.5": 77.4,
           "4.5": 90.2
         },
@@ -17942,7 +17942,7 @@
           "2.5": 18.9
         },
         "away_totals": {
-          "0.5": 60.5,
+          "0.5": 60.6,
           "1.5": 23.9,
           "2.5": 6.8
         },
@@ -18024,7 +18024,7 @@
           "goals_minus_xg": null,
           "xg_trend": "falling",
           "attack": 1.07,
-          "defense": 0.94,
+          "defense": 0.95,
           "rest_days": 21,
           "last_day": "2026-11-03",
           "short_rest": false,
@@ -18060,7 +18060,7 @@
           },
           {
             "title": "Attack against defense",
-            "body": "FK Bod\u00f8/Glimt attack 1.07 against LASK Linz defense 1.01. LASK Linz attack 1.10 against FK Bod\u00f8/Glimt defense 0.94. An attack above 1.00 creates more than a typical side at that venue. A defense above 1.00 allows more than a typical side."
+            "body": "FK Bod\u00f8/Glimt attack 1.07 against LASK Linz defense 1.01. LASK Linz attack 1.10 against FK Bod\u00f8/Glimt defense 0.95. An attack above 1.00 creates more than a typical side at that venue. A defense above 1.00 allows more than a typical side."
           },
           {
             "title": "Rest and travel",
@@ -18078,10 +18078,10 @@
           "first_half_share_home": 0.447,
           "first_half_share_away": 0.447,
           "lambda_home_before_elo": 1.385,
-          "lambda_away_before_elo": 1.04,
+          "lambda_away_before_elo": 1.041,
           "home_attack": 1.019,
           "away_attack": 1.028,
-          "home_defense": 0.761,
+          "home_defense": 0.762,
           "away_defense": 0.923
         },
         "kickoff_ct": "Tue, Nov 24, 2026, 11:45 AM CST",
@@ -18108,7 +18108,7 @@
         "draw_pct": 25.5,
         "away_win_pct": 36.9,
         "xg_home": 1.62,
-        "xg_away": 1.61,
+        "xg_away": 1.6,
         "xg_home_1h": 0.77,
         "xg_away_1h": 0.7,
         "first_half": {
@@ -18120,11 +18120,11 @@
           "btts_pct": 28.2,
           "over": {
             "0.5": 75.7,
-            "1.5": 44.4
+            "1.5": 44.3
           },
           "under": {
             "0.5": 24.3,
-            "1.5": 55.6
+            "1.5": 55.7
           },
           "top_scorelines": [
             {
@@ -18150,7 +18150,7 @@
           ]
         },
         "second_half": {
-          "xg_home": 0.86,
+          "xg_home": 0.85,
           "xg_away": 0.9,
           "home_win_pct": 30.7,
           "draw_pct": 36.0,
@@ -18192,14 +18192,14 @@
         "clean_sheet_away_pct": 19.8,
         "over": {
           "1.5": 84.2,
-          "2.5": 62.5,
-          "3.5": 40.2,
+          "2.5": 62.4,
+          "3.5": 40.1,
           "4.5": 22.2
         },
         "under": {
           "1.5": 15.8,
-          "2.5": 37.5,
-          "3.5": 59.8,
+          "2.5": 37.6,
+          "3.5": 59.9,
           "4.5": 77.8
         },
         "home_totals": {
@@ -18268,7 +18268,7 @@
           {
             "key": "2h_over_0.5",
             "label": "2H Over 0.5",
-            "pct": 81.5
+            "pct": 81.4
           },
           {
             "key": "ah_home_+1.5",
@@ -18343,11 +18343,11 @@
           "first_half_share": 0.455,
           "first_half_share_home": 0.473,
           "first_half_share_away": 0.437,
-          "lambda_home_before_elo": 2.146,
+          "lambda_home_before_elo": 2.144,
           "lambda_away_before_elo": 1.08,
-          "home_attack": 1.359,
+          "home_attack": 1.358,
           "away_attack": 1.074,
-          "home_defense": 0.843,
+          "home_defense": 0.844,
           "away_defense": 1.039
         },
         "kickoff_ct": "Tue, Nov 24, 2026, 11:45 AM CST",
@@ -18382,7 +18382,7 @@
           "xg_away": 0.29,
           "home_win_pct": 46.8,
           "draw_pct": 41.8,
-          "away_win_pct": 11.4,
+          "away_win_pct": 11.3,
           "btts_pct": 15.4,
           "over": {
             "0.5": 67.4,
@@ -18611,9 +18611,9 @@
           "first_half_share_away": 0.46,
           "lambda_home_before_elo": 1.651,
           "lambda_away_before_elo": 0.82,
-          "home_attack": 1.208,
+          "home_attack": 1.207,
           "away_attack": 1.049,
-          "home_defense": 0.599,
+          "home_defense": 0.6,
           "away_defense": 0.842
         },
         "kickoff_ct": "Tue, Nov 24, 2026, 2:00 PM CST",
@@ -18839,7 +18839,7 @@
           "xg_against_pg": 0.6,
           "goals_minus_xg": 0.18,
           "xg_trend": "rising",
-          "attack": 1.28,
+          "attack": 1.27,
           "defense": 0.81,
           "rest_days": 16,
           "last_day": "2026-11-08",
@@ -18858,7 +18858,7 @@
           },
           {
             "title": "Attack against defense",
-            "body": "Como 1907 attack 1.37 against AEK Athen defense 0.81. AEK Athen attack 1.28 against Como 1907 defense 0.81. An attack above 1.00 creates more than a typical side at that venue. A defense above 1.00 allows more than a typical side."
+            "body": "Como 1907 attack 1.37 against AEK Athen defense 0.81. AEK Athen attack 1.27 against Como 1907 defense 0.81. An attack above 1.00 creates more than a typical side at that venue. A defense above 1.00 allows more than a typical side."
           },
           {
             "title": "Rest and travel",
@@ -18875,8 +18875,8 @@
           "first_half_share": 0.445,
           "first_half_share_home": 0.433,
           "first_half_share_away": 0.456,
-          "lambda_home_before_elo": 1.782,
-          "lambda_away_before_elo": 0.947,
+          "lambda_home_before_elo": 1.781,
+          "lambda_away_before_elo": 0.948,
           "home_attack": 1.289,
           "away_attack": 1.115,
           "home_defense": 0.736,
@@ -18956,11 +18956,11 @@
           "btts_pct": 36.7,
           "over": {
             "0.5": 82.2,
-            "1.5": 55.3
+            "1.5": 55.2
           },
           "under": {
             "0.5": 17.8,
-            "1.5": 44.7
+            "1.5": 44.8
           },
           "top_scorelines": [
             {
@@ -18977,7 +18977,7 @@
             },
             {
               "score": "1-0",
-              "pct": 13.3
+              "pct": 13.4
             },
             {
               "score": "0-2",
@@ -19008,7 +19008,7 @@
         "away_totals": {
           "0.5": 80.9,
           "1.5": 49.3,
-          "2.5": 23.1
+          "2.5": 23.0
         },
         "top_scorelines": [
           {
@@ -19141,7 +19141,7 @@
           "first_half_share": 0.456,
           "first_half_share_home": 0.461,
           "first_half_share_away": 0.45,
-          "lambda_home_before_elo": 1.561,
+          "lambda_home_before_elo": 1.562,
           "lambda_away_before_elo": 1.757,
           "home_attack": 1.194,
           "away_attack": 1.392,
@@ -19218,7 +19218,7 @@
           "xg_away": 0.53,
           "home_win_pct": 48.5,
           "draw_pct": 34.9,
-          "away_win_pct": 16.6,
+          "away_win_pct": 16.5,
           "btts_pct": 28.8,
           "over": {
             "0.5": 79.5,
@@ -19251,30 +19251,30 @@
             }
           ]
         },
-        "btts_pct": 55.4,
+        "btts_pct": 55.3,
         "clean_sheet_home_pct": 38.2,
         "clean_sheet_away_pct": 11.9,
         "over": {
           "1.5": 82.3,
-          "2.5": 59.6,
+          "2.5": 59.5,
           "3.5": 37.0,
           "4.5": 19.6
         },
         "under": {
           "1.5": 17.7,
-          "2.5": 40.4,
+          "2.5": 40.5,
           "3.5": 63.0,
           "4.5": 80.4
         },
         "home_totals": {
           "0.5": 88.1,
-          "1.5": 62.7,
+          "1.5": 62.6,
           "2.5": 35.5
         },
         "away_totals": {
           "0.5": 61.8,
-          "1.5": 25.1,
-          "2.5": 7.4
+          "1.5": 25.0,
+          "2.5": 7.3
         },
         "top_scorelines": [
           {
@@ -19327,7 +19327,7 @@
           {
             "key": "away_under_2.5",
             "label": "SSC Napoli under 2.5",
-            "pct": 92.6
+            "pct": 92.7
           },
           {
             "key": "home_over_0.5",
@@ -19353,7 +19353,7 @@
           "xg_against_pg": 1.05,
           "goals_minus_xg": -0.36,
           "xg_trend": "falling",
-          "attack": 1.35,
+          "attack": 1.34,
           "defense": 0.9,
           "rest_days": 17,
           "last_day": "2026-11-07",
@@ -19390,7 +19390,7 @@
           },
           {
             "title": "Attack against defense",
-            "body": "Manchester City FC attack 1.35 against SSC Napoli defense 0.93. SSC Napoli attack 1.12 against Manchester City FC defense 0.90. An attack above 1.00 creates more than a typical side at that venue. A defense above 1.00 allows more than a typical side."
+            "body": "Manchester City FC attack 1.34 against SSC Napoli defense 0.93. SSC Napoli attack 1.12 against Manchester City FC defense 0.90. An attack above 1.00 creates more than a typical side at that venue. A defense above 1.00 allows more than a typical side."
           },
           {
             "title": "Rest and travel",
@@ -19407,9 +19407,9 @@
           "first_half_share": 0.463,
           "first_half_share_home": 0.481,
           "first_half_share_away": 0.446,
-          "lambda_home_before_elo": 1.878,
-          "lambda_away_before_elo": 1.219,
-          "home_attack": 1.383,
+          "lambda_home_before_elo": 1.877,
+          "lambda_away_before_elo": 1.218,
+          "home_attack": 1.382,
           "away_attack": 1.026,
           "home_defense": 0.972,
           "away_defense": 0.968
@@ -19518,18 +19518,18 @@
           ]
         },
         "btts_pct": 66.8,
-        "clean_sheet_home_pct": 25.1,
+        "clean_sheet_home_pct": 25.2,
         "clean_sheet_away_pct": 11.9,
         "over": {
           "1.5": 87.4,
           "2.5": 68.0,
-          "3.5": 46.4,
+          "3.5": 46.3,
           "4.5": 27.3
         },
         "under": {
           "1.5": 12.6,
           "2.5": 32.0,
-          "3.5": 53.6,
+          "3.5": 53.7,
           "4.5": 72.7
         },
         "home_totals": {
@@ -19538,7 +19538,7 @@
           "2.5": 35.6
         },
         "away_totals": {
-          "0.5": 74.9,
+          "0.5": 74.8,
           "1.5": 40.1,
           "2.5": 16.1
         },
@@ -19673,11 +19673,11 @@
           "first_half_share": 0.455,
           "first_half_share_home": 0.457,
           "first_half_share_away": 0.453,
-          "lambda_home_before_elo": 2.193,
+          "lambda_home_before_elo": 2.192,
           "lambda_away_before_elo": 1.326,
           "home_attack": 1.314,
-          "away_attack": 1.158,
-          "home_defense": 0.865,
+          "away_attack": 1.157,
+          "home_defense": 0.866,
           "away_defense": 1.01
         },
         "kickoff_ct": "Tue, Nov 24, 2026, 2:00 PM CST",
@@ -19940,11 +19940,11 @@
           "first_half_share_home": 0.435,
           "first_half_share_away": 0.455,
           "lambda_home_before_elo": 1.89,
-          "lambda_away_before_elo": 1.419,
-          "home_attack": 1.446,
-          "away_attack": 1.303,
+          "lambda_away_before_elo": 1.418,
+          "home_attack": 1.445,
+          "away_attack": 1.302,
           "home_defense": 0.806,
-          "away_defense": 0.8
+          "away_defense": 0.801
         },
         "kickoff_ct": "Tue, Nov 24, 2026, 2:00 PM CST",
         "competition": "Champions League",
@@ -20205,11 +20205,11 @@
           "first_half_share": 0.464,
           "first_half_share_home": 0.447,
           "first_half_share_away": 0.481,
-          "lambda_home_before_elo": 1.301,
-          "lambda_away_before_elo": 1.494,
-          "home_attack": 0.879,
-          "away_attack": 1.16,
-          "home_defense": 1.066,
+          "lambda_home_before_elo": 1.302,
+          "lambda_away_before_elo": 1.493,
+          "home_attack": 0.88,
+          "away_attack": 1.159,
+          "home_defense": 1.065,
           "away_defense": 0.975
         },
         "kickoff_ct": "Tue, Nov 24, 2026, 2:00 PM CST",
@@ -20248,11 +20248,11 @@
           "btts_pct": 19.4,
           "over": {
             "0.5": 78.2,
-            "1.5": 47.0
+            "1.5": 46.9
           },
           "under": {
             "0.5": 21.8,
-            "1.5": 53.0
+            "1.5": 53.1
           },
           "top_scorelines": [
             {
@@ -20322,13 +20322,13 @@
           "1.5": 86.6,
           "2.5": 67.0,
           "3.5": 44.8,
-          "4.5": 25.5
+          "4.5": 25.4
         },
         "under": {
           "1.5": 13.4,
           "2.5": 33.0,
           "3.5": 55.2,
-          "4.5": 74.5
+          "4.5": 74.6
         },
         "home_totals": {
           "0.5": 49.0,
@@ -20351,7 +20351,7 @@
           },
           {
             "score": "1-2",
-            "pct": 8.4
+            "pct": 8.3
           },
           {
             "score": "0-4",
@@ -20471,11 +20471,11 @@
           "first_half_share": 0.447,
           "first_half_share_home": 0.447,
           "first_half_share_away": 0.446,
-          "lambda_home_before_elo": 1.373,
-          "lambda_away_before_elo": 2.121,
+          "lambda_home_before_elo": 1.374,
+          "lambda_away_before_elo": 2.119,
           "home_attack": 1.001,
-          "away_attack": 1.82,
-          "home_defense": 0.964,
+          "away_attack": 1.818,
+          "home_defense": 0.965,
           "away_defense": 0.904
         },
         "kickoff_ct": "Wed, Nov 25, 2026, 11:45 AM CST",
@@ -20504,14 +20504,14 @@
         "xg_home": 1.09,
         "xg_away": 2.05,
         "xg_home_1h": 0.49,
-        "xg_away_1h": 0.95,
+        "xg_away_1h": 0.94,
         "first_half": {
           "xg_home": 0.49,
-          "xg_away": 0.95,
+          "xg_away": 0.94,
           "home_win_pct": 17.3,
           "draw_pct": 38.4,
           "away_win_pct": 44.3,
-          "btts_pct": 24.7,
+          "btts_pct": 24.6,
           "over": {
             "0.5": 75.0,
             "1.5": 43.0
@@ -20549,7 +20549,7 @@
           "home_win_pct": 18.7,
           "draw_pct": 34.8,
           "away_win_pct": 46.5,
-          "btts_pct": 31.5,
+          "btts_pct": 31.4,
           "over": {
             "0.5": 80.7,
             "1.5": 52.1
@@ -20585,20 +20585,20 @@
         "clean_sheet_home_pct": 12.9,
         "clean_sheet_away_pct": 33.7,
         "over": {
-          "1.5": 83.0,
+          "1.5": 82.9,
           "2.5": 60.5,
           "3.5": 38.1,
-          "4.5": 20.5
+          "4.5": 20.4
         },
         "under": {
-          "1.5": 17.0,
+          "1.5": 17.1,
           "2.5": 39.5,
           "3.5": 61.9,
-          "4.5": 79.5
+          "4.5": 79.6
         },
         "home_totals": {
           "0.5": 66.3,
-          "1.5": 29.7,
+          "1.5": 29.6,
           "2.5": 9.7
         },
         "away_totals": {
@@ -20728,7 +20728,7 @@
           },
           {
             "title": "Game script",
-            "body": "Villarreal CF are the side more likely to control the game, even away from home. The grid expects a high-event match. Both teams are likelier than not to score. First-half xG uses each side's scoring share of the full match (45% SK Slavia Praha, 46% Villarreal CF): 0.49 to 0.95. The second half is the rest of each side's xG, on its own grid."
+            "body": "Villarreal CF are the side more likely to control the game, even away from home. The grid expects a high-event match. Both teams are likelier than not to score. First-half xG uses each side's scoring share of the full match (45% SK Slavia Praha, 46% Villarreal CF): 0.49 to 0.94. The second half is the rest of each side's xG, on its own grid."
           }
         ],
         "model": {
@@ -20738,7 +20738,7 @@
           "first_half_share_home": 0.447,
           "first_half_share_away": 0.461,
           "lambda_home_before_elo": 1.518,
-          "lambda_away_before_elo": 1.622,
+          "lambda_away_before_elo": 1.621,
           "home_attack": 0.99,
           "away_attack": 1.17,
           "home_defense": 1.147,
@@ -20775,7 +20775,7 @@
           "xg_home": 1.04,
           "xg_away": 0.23,
           "home_win_pct": 56.0,
-          "draw_pct": 36.6,
+          "draw_pct": 36.7,
           "away_win_pct": 7.4,
           "btts_pct": 13.8,
           "over": {
@@ -20813,7 +20813,7 @@
           "xg_home": 1.48,
           "xg_away": 0.28,
           "home_win_pct": 67.4,
-          "draw_pct": 26.5,
+          "draw_pct": 26.6,
           "away_win_pct": 6.0,
           "btts_pct": 19.6,
           "over": {
@@ -20831,7 +20831,7 @@
             },
             {
               "score": "2-0",
-              "pct": 18.8
+              "pct": 18.9
             },
             {
               "score": "0-0",
@@ -20848,7 +20848,7 @@
           ]
         },
         "btts_pct": 37.2,
-        "clean_sheet_home_pct": 60.1,
+        "clean_sheet_home_pct": 60.2,
         "clean_sheet_away_pct": 8.2,
         "over": {
           "1.5": 80.8,
@@ -20868,7 +20868,7 @@
           "2.5": 45.3
         },
         "away_totals": {
-          "0.5": 39.9,
+          "0.5": 39.8,
           "1.5": 9.3,
           "2.5": 1.5
         },
@@ -20928,7 +20928,7 @@
           {
             "key": "over_0.5",
             "label": "Over 0.5",
-            "pct": 94.5
+            "pct": 94.4
           },
           {
             "key": "home_over_0.5",
@@ -21003,12 +21003,12 @@
           "first_half_share": 0.43,
           "first_half_share_home": 0.412,
           "first_half_share_away": 0.447,
-          "lambda_home_before_elo": 2.021,
-          "lambda_away_before_elo": 1.005,
+          "lambda_home_before_elo": 2.019,
+          "lambda_away_before_elo": 1.006,
           "home_attack": 1.16,
           "away_attack": 0.996,
-          "home_defense": 0.835,
-          "away_defense": 1.148
+          "home_defense": 0.836,
+          "away_defense": 1.147
         },
         "kickoff_ct": "Wed, Nov 25, 2026, 2:00 PM CST",
         "competition": "Champions League",
@@ -21031,8 +21031,8 @@
       "away_name": "Liverpool FC",
       "prediction": {
         "home_win_pct": 41.3,
-        "draw_pct": 22.7,
-        "away_win_pct": 36.0,
+        "draw_pct": 22.8,
+        "away_win_pct": 35.9,
         "xg_home": 2.01,
         "xg_away": 1.87,
         "xg_home_1h": 0.93,
@@ -21043,19 +21043,19 @@
           "home_win_pct": 35.3,
           "draw_pct": 36.1,
           "away_win_pct": 28.6,
-          "btts_pct": 35.0,
+          "btts_pct": 34.9,
           "over": {
-            "0.5": 81.2,
-            "1.5": 53.4
+            "0.5": 81.1,
+            "1.5": 53.2
           },
           "under": {
-            "0.5": 18.8,
-            "1.5": 46.6
+            "0.5": 18.9,
+            "1.5": 46.8
           },
           "top_scorelines": [
             {
               "score": "0-0",
-              "pct": 18.8
+              "pct": 18.9
             },
             {
               "score": "1-0",
@@ -21063,7 +21063,7 @@
             },
             {
               "score": "1-1",
-              "pct": 14.6
+              "pct": 14.5
             },
             {
               "score": "0-1",
@@ -21079,16 +21079,16 @@
           "xg_home": 1.08,
           "xg_away": 1.06,
           "home_win_pct": 34.3,
-          "draw_pct": 32.3,
+          "draw_pct": 32.4,
           "away_win_pct": 33.4,
-          "btts_pct": 44.5,
+          "btts_pct": 44.3,
           "over": {
-            "0.5": 86.9,
-            "1.5": 64.4
+            "0.5": 86.8,
+            "1.5": 64.2
           },
           "under": {
-            "0.5": 13.1,
-            "1.5": 35.6
+            "0.5": 13.2,
+            "1.5": 35.8
           },
           "top_scorelines": [
             {
@@ -21097,7 +21097,7 @@
             },
             {
               "score": "0-0",
-              "pct": 13.1
+              "pct": 13.2
             },
             {
               "score": "1-0",
@@ -21105,38 +21105,38 @@
             },
             {
               "score": "0-1",
-              "pct": 11.1
+              "pct": 11.2
             },
             {
               "score": "2-1",
-              "pct": 7.3
+              "pct": 7.2
             }
           ]
         },
-        "btts_pct": 74.0,
-        "clean_sheet_home_pct": 15.4,
-        "clean_sheet_away_pct": 13.4,
+        "btts_pct": 73.8,
+        "clean_sheet_home_pct": 15.5,
+        "clean_sheet_away_pct": 13.5,
         "over": {
-          "1.5": 90.7,
-          "2.5": 74.2,
-          "3.5": 54.0,
-          "4.5": 34.3
+          "1.5": 90.6,
+          "2.5": 74.0,
+          "3.5": 53.7,
+          "4.5": 34.1
         },
         "under": {
-          "1.5": 9.3,
-          "2.5": 25.8,
-          "3.5": 46.0,
-          "4.5": 65.7
+          "1.5": 9.4,
+          "2.5": 26.0,
+          "3.5": 46.3,
+          "4.5": 65.9
         },
         "home_totals": {
-          "0.5": 86.6,
-          "1.5": 59.5,
-          "2.5": 32.3
+          "0.5": 86.5,
+          "1.5": 59.4,
+          "2.5": 32.2
         },
         "away_totals": {
-          "0.5": 84.6,
-          "1.5": 55.7,
-          "2.5": 28.7
+          "0.5": 84.5,
+          "1.5": 55.5,
+          "2.5": 28.5
         },
         "top_scorelines": [
           {
@@ -21149,7 +21149,7 @@
           },
           {
             "score": "2-2",
-            "pct": 7.4
+            "pct": 7.3
           },
           {
             "score": "1-2",
@@ -21164,12 +21164,12 @@
           {
             "key": "over_0.5",
             "label": "Over 0.5",
-            "pct": 97.2
+            "pct": 97.1
           },
           {
             "key": "away_under_4.5",
             "label": "Liverpool FC under 4.5",
-            "pct": 96.1
+            "pct": 96.2
           },
           {
             "key": "home_under_4.5",
@@ -21179,27 +21179,27 @@
           {
             "key": "over_1.5",
             "label": "Over 1.5",
-            "pct": 90.7
+            "pct": 90.6
           },
           {
             "key": "away_under_3.5",
             "label": "Liverpool FC under 3.5",
-            "pct": 88.2
+            "pct": 88.3
           },
           {
             "key": "2h_over_0.5",
             "label": "2H Over 0.5",
-            "pct": 86.9
+            "pct": 86.8
           },
           {
             "key": "home_over_0.5",
             "label": "Club Brugge KV over 0.5",
-            "pct": 86.6
+            "pct": 86.5
           },
           {
             "key": "home_under_3.5",
             "label": "Club Brugge KV under 3.5",
-            "pct": 85.9
+            "pct": 86.0
           }
         ],
         "elo_home": 1658.6,
@@ -21269,12 +21269,12 @@
           "first_half_share": 0.449,
           "first_half_share_home": 0.464,
           "first_half_share_away": 0.433,
-          "lambda_home_before_elo": 2.316,
-          "lambda_away_before_elo": 1.568,
-          "home_attack": 1.535,
-          "away_attack": 1.347,
+          "lambda_home_before_elo": 2.307,
+          "lambda_away_before_elo": 1.564,
+          "home_attack": 1.534,
+          "away_attack": 1.344,
           "home_defense": 0.961,
-          "away_defense": 1.006
+          "away_defense": 1.003
         },
         "kickoff_ct": "Wed, Nov 25, 2026, 2:00 PM CST",
         "competition": "Champions League",
@@ -21450,12 +21450,12 @@
           {
             "key": "ah_home_+1.5",
             "label": "FC Internazionale Milano +1.5",
-            "pct": 91.6
+            "pct": 91.7
           },
           {
             "key": "home_over_0.5",
             "label": "FC Internazionale Milano over 0.5",
-            "pct": 90.5
+            "pct": 90.4
           },
           {
             "key": "over_1.5",
@@ -21535,9 +21535,9 @@
           "first_half_share": 0.445,
           "first_half_share_home": 0.457,
           "first_half_share_away": 0.434,
-          "lambda_home_before_elo": 2.223,
+          "lambda_home_before_elo": 2.222,
           "lambda_away_before_elo": 1.453,
-          "home_attack": 1.484,
+          "home_attack": 1.483,
           "away_attack": 1.311,
           "home_defense": 0.842,
           "away_defense": 0.967
@@ -21575,7 +21575,7 @@
           "home_win_pct": 19.4,
           "draw_pct": 36.7,
           "away_win_pct": 44.0,
-          "btts_pct": 29.0,
+          "btts_pct": 28.9,
           "over": {
             "0.5": 78.3,
             "1.5": 48.1
@@ -21801,12 +21801,12 @@
           "first_half_share": 0.465,
           "first_half_share_home": 0.459,
           "first_half_share_away": 0.47,
-          "lambda_home_before_elo": 1.268,
-          "lambda_away_before_elo": 2.126,
+          "lambda_home_before_elo": 1.269,
+          "lambda_away_before_elo": 2.125,
           "home_attack": 0.985,
-          "away_attack": 1.748,
+          "away_attack": 1.746,
           "home_defense": 0.919,
-          "away_defense": 0.78
+          "away_defense": 0.781
         },
         "kickoff_ct": "Wed, Nov 25, 2026, 2:00 PM CST",
         "competition": "Champions League",
@@ -21879,7 +21879,7 @@
           "home_win_pct": 46.0,
           "draw_pct": 33.7,
           "away_win_pct": 20.3,
-          "btts_pct": 34.9,
+          "btts_pct": 34.8,
           "over": {
             "0.5": 82.7,
             "1.5": 55.8
@@ -21916,13 +21916,13 @@
         "clean_sheet_away_pct": 12.0,
         "over": {
           "1.5": 85.0,
-          "2.5": 63.9,
+          "2.5": 63.8,
           "3.5": 41.6,
           "4.5": 23.3
         },
         "under": {
           "1.5": 15.0,
-          "2.5": 36.1,
+          "2.5": 36.2,
           "3.5": 58.4,
           "4.5": 76.7
         },
@@ -21933,7 +21933,7 @@
         },
         "away_totals": {
           "0.5": 69.1,
-          "1.5": 32.9,
+          "1.5": 32.8,
           "2.5": 11.5
         },
         "top_scorelines": [
@@ -22070,7 +22070,7 @@
           "lambda_home_before_elo": 2.003,
           "lambda_away_before_elo": 1.299,
           "home_attack": 1.472,
-          "away_attack": 1.257,
+          "away_attack": 1.256,
           "home_defense": 0.832,
           "away_defense": 0.952
         },
@@ -22179,21 +22179,21 @@
         },
         "btts_pct": 56.7,
         "clean_sheet_home_pct": 21.4,
-        "clean_sheet_away_pct": 29.4,
+        "clean_sheet_away_pct": 29.3,
         "over": {
           "1.5": 77.5,
           "2.5": 52.3,
-          "3.5": 30.0,
+          "3.5": 30.1,
           "4.5": 14.7
         },
         "under": {
           "1.5": 22.5,
           "2.5": 47.7,
-          "3.5": 70.0,
+          "3.5": 69.9,
           "4.5": 85.3
         },
         "home_totals": {
-          "0.5": 70.6,
+          "0.5": 70.7,
           "1.5": 34.7,
           "2.5": 12.6
         },
@@ -22263,7 +22263,7 @@
           {
             "key": "under_4.5",
             "label": "Under 4.5",
-            "pct": 85.4
+            "pct": 85.3
           }
         ],
         "elo_home": 1412.9,
@@ -22336,8 +22336,8 @@
           "lambda_home_before_elo": 1.465,
           "lambda_away_before_elo": 1.306,
           "home_attack": 0.998,
-          "away_attack": 1.219,
-          "home_defense": 0.88,
+          "away_attack": 1.218,
+          "home_defense": 0.881,
           "away_defense": 0.952
         },
         "kickoff_ct": "Wed, Nov 25, 2026, 2:00 PM CST",
@@ -22371,7 +22371,7 @@
           "xg_home": 0.83,
           "xg_away": 0.55,
           "home_win_pct": 38.3,
-          "draw_pct": 40.2,
+          "draw_pct": 40.3,
           "away_win_pct": 21.4,
           "btts_pct": 25.1,
           "over": {
@@ -22406,19 +22406,19 @@
           ]
         },
         "second_half": {
-          "xg_home": 1.0,
+          "xg_home": 0.99,
           "xg_away": 0.84,
           "home_win_pct": 36.7,
-          "draw_pct": 35.0,
+          "draw_pct": 35.1,
           "away_win_pct": 28.2,
           "btts_pct": 37.1,
           "over": {
             "0.5": 82.7,
-            "1.5": 56.1
+            "1.5": 56.0
           },
           "under": {
             "0.5": 17.3,
-            "1.5": 43.9
+            "1.5": 44.0
           },
           "top_scorelines": [
             {
@@ -22448,14 +22448,14 @@
         "clean_sheet_away_pct": 16.1,
         "over": {
           "1.5": 84.1,
-          "2.5": 62.3,
-          "3.5": 40.0,
+          "2.5": 62.2,
+          "3.5": 39.9,
           "4.5": 22.0
         },
         "under": {
           "1.5": 15.9,
-          "2.5": 37.7,
-          "3.5": 60.0,
+          "2.5": 37.8,
+          "3.5": 60.1,
           "4.5": 78.0
         },
         "home_totals": {
@@ -22465,8 +22465,8 @@
         },
         "away_totals": {
           "0.5": 75.1,
-          "1.5": 40.5,
-          "2.5": 16.4
+          "1.5": 40.4,
+          "2.5": 16.3
         },
         "top_scorelines": [
           {
@@ -22599,9 +22599,9 @@
           "first_half_share": 0.426,
           "first_half_share_home": 0.456,
           "first_half_share_away": 0.397,
-          "lambda_home_before_elo": 2.128,
-          "lambda_away_before_elo": 1.092,
-          "home_attack": 1.437,
+          "lambda_home_before_elo": 2.125,
+          "lambda_away_before_elo": 1.091,
+          "home_attack": 1.436,
           "away_attack": 1.01,
           "home_defense": 0.896,
           "away_defense": 1.029
@@ -22609,6 +22609,1336 @@
         "kickoff_ct": "Wed, Nov 25, 2026, 2:00 PM CST",
         "competition": "Champions League",
         "competition_id": "UCL"
+      }
+    },
+    {
+      "id": "2026-11-27-groningen-willem-ii",
+      "date": "2026-11-27",
+      "kickoff_utc": "2026-11-27T19:00:00+00:00",
+      "kickoff_ct": "Fri, Nov 27, 2026, 1:00 PM CST",
+      "competition": "Eredivisie",
+      "competition_id": "N1",
+      "data_through": "2026-11-08",
+      "kind": "league",
+      "neutral": false,
+      "home_id": "groningen",
+      "away_id": "willem-ii",
+      "home_name": "FC Groningen",
+      "away_name": "Willem II Tilburg",
+      "prediction": {
+        "home_win_pct": 54.9,
+        "draw_pct": 21.5,
+        "away_win_pct": 23.6,
+        "xg_home": 2.3,
+        "xg_away": 1.48,
+        "xg_home_1h": 1.17,
+        "xg_away_1h": 0.74,
+        "first_half": {
+          "xg_home": 1.17,
+          "xg_away": 0.74,
+          "home_win_pct": 44.7,
+          "draw_pct": 33.3,
+          "away_win_pct": 22.0,
+          "btts_pct": 37.1,
+          "over": {
+            "0.5": 83.8,
+            "1.5": 57.9
+          },
+          "under": {
+            "0.5": 16.2,
+            "1.5": 42.1
+          },
+          "top_scorelines": [
+            {
+              "score": "0-0",
+              "pct": 16.2
+            },
+            {
+              "score": "1-0",
+              "pct": 16.1
+            },
+            {
+              "score": "1-1",
+              "pct": 14.1
+            },
+            {
+              "score": "2-0",
+              "pct": 10.1
+            },
+            {
+              "score": "0-1",
+              "pct": 9.7
+            }
+          ]
+        },
+        "second_half": {
+          "xg_home": 1.13,
+          "xg_away": 0.74,
+          "home_win_pct": 43.6,
+          "draw_pct": 33.8,
+          "away_win_pct": 22.7,
+          "btts_pct": 36.8,
+          "over": {
+            "0.5": 83.4,
+            "1.5": 57.2
+          },
+          "under": {
+            "0.5": 16.6,
+            "1.5": 42.8
+          },
+          "top_scorelines": [
+            {
+              "score": "0-0",
+              "pct": 16.6
+            },
+            {
+              "score": "1-0",
+              "pct": 16.1
+            },
+            {
+              "score": "1-1",
+              "pct": 14.2
+            },
+            {
+              "score": "0-1",
+              "pct": 10.1
+            },
+            {
+              "score": "2-0",
+              "pct": 9.9
+            }
+          ]
+        },
+        "btts_pct": 70.2,
+        "clean_sheet_home_pct": 22.8,
+        "clean_sheet_away_pct": 10.1,
+        "over": {
+          "1.5": 89.8,
+          "2.5": 72.5,
+          "3.5": 51.7,
+          "4.5": 32.1
+        },
+        "under": {
+          "1.5": 10.2,
+          "2.5": 27.5,
+          "3.5": 48.3,
+          "4.5": 67.9
+        },
+        "home_totals": {
+          "0.5": 89.9,
+          "1.5": 66.6,
+          "2.5": 39.8
+        },
+        "away_totals": {
+          "0.5": 77.2,
+          "1.5": 43.4,
+          "2.5": 18.5
+        },
+        "top_scorelines": [
+          {
+            "score": "2-1",
+            "pct": 9.0
+          },
+          {
+            "score": "1-1",
+            "pct": 8.6
+          },
+          {
+            "score": "3-1",
+            "pct": 6.9
+          },
+          {
+            "score": "2-2",
+            "pct": 6.7
+          },
+          {
+            "score": "2-0",
+            "pct": 6.1
+          }
+        ],
+        "most_likely": [
+          {
+            "key": "away_under_4.5",
+            "label": "Willem II Tilburg under 4.5",
+            "pct": 98.3
+          },
+          {
+            "key": "over_0.5",
+            "label": "Over 0.5",
+            "pct": 96.9
+          },
+          {
+            "key": "away_under_3.5",
+            "label": "Willem II Tilburg under 3.5",
+            "pct": 93.8
+          },
+          {
+            "key": "home_under_4.5",
+            "label": "FC Groningen under 4.5",
+            "pct": 92.5
+          },
+          {
+            "key": "home_over_0.5",
+            "label": "FC Groningen over 0.5",
+            "pct": 89.9
+          },
+          {
+            "key": "over_1.5",
+            "label": "Over 1.5",
+            "pct": 89.8
+          },
+          {
+            "key": "ah_home_+1.5",
+            "label": "FC Groningen +1.5",
+            "pct": 89.2
+          },
+          {
+            "key": "1h_over_0.5",
+            "label": "1H Over 0.5",
+            "pct": 83.8
+          }
+        ],
+        "elo_home": 1456.2,
+        "elo_away": 1307.1,
+        "elo_gap": 149.1,
+        "home_context": {
+          "form": "WLDLL",
+          "points": 4,
+          "games": 5,
+          "ppg": 0.8,
+          "goals_pg": 2.5,
+          "xg_pg": 1.74,
+          "xg_against_pg": 2.2,
+          "goals_minus_xg": 0.76,
+          "xg_trend": "flat",
+          "attack": 1.07,
+          "defense": 1.03,
+          "rest_days": 19,
+          "last_day": "2026-11-08",
+          "short_rest": false,
+          "europe_week": false,
+          "last_competition": "N1"
+        },
+        "away_context": {
+          "form": "LLLLD",
+          "points": 1,
+          "games": 5,
+          "ppg": 0.2,
+          "goals_pg": 0.88,
+          "xg_pg": 1.03,
+          "xg_against_pg": 2.18,
+          "goals_minus_xg": -0.16,
+          "xg_trend": "flat",
+          "attack": 0.87,
+          "defense": 1.22,
+          "rest_days": 21,
+          "last_day": "2026-11-06",
+          "short_rest": false,
+          "europe_week": false,
+          "last_competition": "N1"
+        },
+        "narrative": [
+          {
+            "title": "Form and chance trend",
+            "body": "Results on file for this competition stop on 2026-11-08, so form and the chance trend are not shown."
+          },
+          {
+            "title": "Goals minus xG",
+            "body": "FC Groningen is scoring +0.76 goals per game above xG. That is a regression flag: the chance quality has not kept up with the scoreboard. Willem II Tilburg is close to xG (-0.16 per game). No regression flag."
+          },
+          {
+            "title": "Attack against defense",
+            "body": "FC Groningen attack 1.07 against Willem II Tilburg defense 1.22. Willem II Tilburg attack 0.87 against FC Groningen defense 1.03. An attack above 1.00 creates more than a typical side at that venue. A defense above 1.00 allows more than a typical side."
+          },
+          {
+            "title": "Rest and travel",
+            "body": "Rest is not shown. The file stops on 2026-11-08, so a long gap can be missing results rather than a real break."
+          },
+          {
+            "title": "Game script",
+            "body": "FC Groningen are the side more likely to control the game. The grid expects a high-event match. Both teams are likelier than not to score. First-half xG uses each side's scoring share of the full match (51% FC Groningen, 50% Willem II Tilburg): 1.17 to 0.74. The second half is the rest of each side's xG, on its own grid."
+          }
+        ],
+        "model": {
+          "rho": -0.1,
+          "xg_blend": 0.65,
+          "first_half_share": 0.502,
+          "first_half_share_home": 0.507,
+          "first_half_share_away": 0.498,
+          "lambda_home_before_elo": 2.353,
+          "lambda_away_before_elo": 1.425,
+          "home_attack": 1.043,
+          "away_attack": 0.909,
+          "home_defense": 1.017,
+          "away_defense": 1.284
+        },
+        "kickoff_ct": "Fri, Nov 27, 2026, 1:00 PM CST",
+        "competition": "Eredivisie",
+        "competition_id": "N1"
+      }
+    },
+    {
+      "id": "2026-11-27-werder-bremen-monchengladbach",
+      "date": "2026-11-27",
+      "kickoff_utc": "2026-11-27T19:30:00+00:00",
+      "kickoff_ct": "Fri, Nov 27, 2026, 1:30 PM CST",
+      "competition": "Bundesliga",
+      "competition_id": "D1",
+      "data_through": "2026-11-08",
+      "kind": "league",
+      "neutral": false,
+      "home_id": "werder-bremen",
+      "away_id": "monchengladbach",
+      "home_name": "SV Werder Bremen",
+      "away_name": "Borussia M\u00f6nchengladbach",
+      "prediction": {
+        "home_win_pct": 45.8,
+        "draw_pct": 25.7,
+        "away_win_pct": 28.4,
+        "xg_home": 1.73,
+        "xg_away": 1.33,
+        "xg_home_1h": 0.66,
+        "xg_away_1h": 0.66,
+        "first_half": {
+          "xg_home": 0.66,
+          "xg_away": 0.66,
+          "home_win_pct": 29.0,
+          "draw_pct": 42.0,
+          "away_win_pct": 28.9,
+          "btts_pct": 24.5,
+          "over": {
+            "0.5": 72.1,
+            "1.5": 39.2
+          },
+          "under": {
+            "0.5": 27.9,
+            "1.5": 60.8
+          },
+          "top_scorelines": [
+            {
+              "score": "0-0",
+              "pct": 27.9
+            },
+            {
+              "score": "1-0",
+              "pct": 16.5
+            },
+            {
+              "score": "0-1",
+              "pct": 16.5
+            },
+            {
+              "score": "1-1",
+              "pct": 12.8
+            },
+            {
+              "score": "2-0",
+              "pct": 5.8
+            }
+          ]
+        },
+        "second_half": {
+          "xg_home": 1.07,
+          "xg_away": 0.67,
+          "home_win_pct": 43.5,
+          "draw_pct": 35.1,
+          "away_win_pct": 21.4,
+          "btts_pct": 33.3,
+          "over": {
+            "0.5": 81.2,
+            "1.5": 53.2
+          },
+          "under": {
+            "0.5": 18.8,
+            "1.5": 46.8
+          },
+          "top_scorelines": [
+            {
+              "score": "0-0",
+              "pct": 18.8
+            },
+            {
+              "score": "1-0",
+              "pct": 17.6
+            },
+            {
+              "score": "1-1",
+              "pct": 13.8
+            },
+            {
+              "score": "0-1",
+              "pct": 10.5
+            },
+            {
+              "score": "2-0",
+              "pct": 10.1
+            }
+          ]
+        },
+        "btts_pct": 61.5,
+        "clean_sheet_home_pct": 26.5,
+        "clean_sheet_away_pct": 17.7,
+        "over": {
+          "1.5": 82.0,
+          "2.5": 58.9,
+          "3.5": 36.4,
+          "4.5": 19.3
+        },
+        "under": {
+          "1.5": 18.0,
+          "2.5": 41.1,
+          "3.5": 63.6,
+          "4.5": 80.7
+        },
+        "home_totals": {
+          "0.5": 82.3,
+          "1.5": 51.6,
+          "2.5": 25.0
+        },
+        "away_totals": {
+          "0.5": 73.5,
+          "1.5": 38.3,
+          "2.5": 14.9
+        },
+        "top_scorelines": [
+          {
+            "score": "1-1",
+            "pct": 11.9
+          },
+          {
+            "score": "2-1",
+            "pct": 9.4
+          },
+          {
+            "score": "1-2",
+            "pct": 7.2
+          },
+          {
+            "score": "1-0",
+            "pct": 7.1
+          },
+          {
+            "score": "2-0",
+            "pct": 7.1
+          }
+        ],
+        "most_likely": [
+          {
+            "key": "away_under_4.5",
+            "label": "Borussia M\u00f6nchengladbach under 4.5",
+            "pct": 98.9
+          },
+          {
+            "key": "home_under_4.5",
+            "label": "SV Werder Bremen under 4.5",
+            "pct": 97.0
+          },
+          {
+            "key": "away_under_3.5",
+            "label": "Borussia M\u00f6nchengladbach under 3.5",
+            "pct": 95.5
+          },
+          {
+            "key": "over_0.5",
+            "label": "Over 0.5",
+            "pct": 94.2
+          },
+          {
+            "key": "home_under_3.5",
+            "label": "SV Werder Bremen under 3.5",
+            "pct": 90.4
+          },
+          {
+            "key": "ah_home_+1.5",
+            "label": "SV Werder Bremen +1.5",
+            "pct": 87.3
+          },
+          {
+            "key": "away_under_2.5",
+            "label": "Borussia M\u00f6nchengladbach under 2.5",
+            "pct": 85.1
+          },
+          {
+            "key": "home_over_0.5",
+            "label": "SV Werder Bremen over 0.5",
+            "pct": 82.3
+          }
+        ],
+        "elo_home": 1530.7,
+        "elo_away": 1492.1,
+        "elo_gap": 38.5,
+        "home_context": {
+          "form": "DDWWL",
+          "points": 8,
+          "games": 5,
+          "ppg": 1.6,
+          "goals_pg": 2.0,
+          "xg_pg": 1.82,
+          "xg_against_pg": 1.41,
+          "goals_minus_xg": 0.18,
+          "xg_trend": "flat",
+          "attack": 0.91,
+          "defense": 0.99,
+          "rest_days": 20,
+          "last_day": "2026-11-07",
+          "short_rest": false,
+          "europe_week": false,
+          "last_competition": "D1"
+        },
+        "away_context": {
+          "form": "LLWDL",
+          "points": 4,
+          "games": 5,
+          "ppg": 0.8,
+          "goals_pg": 1.5,
+          "xg_pg": 1.7,
+          "xg_against_pg": 1.96,
+          "goals_minus_xg": -0.2,
+          "xg_trend": "flat",
+          "attack": 0.93,
+          "defense": 1.06,
+          "rest_days": 21,
+          "last_day": "2026-11-06",
+          "short_rest": false,
+          "europe_week": false,
+          "last_competition": "D1"
+        },
+        "narrative": [
+          {
+            "title": "Form and chance trend",
+            "body": "Results on file for this competition stop on 2026-11-08, so form and the chance trend are not shown."
+          },
+          {
+            "title": "Goals minus xG",
+            "body": "SV Werder Bremen is close to xG (+0.18 per game). No regression flag. Borussia M\u00f6nchengladbach is close to xG (-0.20 per game). No regression flag."
+          },
+          {
+            "title": "Attack against defense",
+            "body": "SV Werder Bremen attack 0.91 against Borussia M\u00f6nchengladbach defense 1.06. Borussia M\u00f6nchengladbach attack 0.93 against SV Werder Bremen defense 0.99. An attack above 1.00 creates more than a typical side at that venue. A defense above 1.00 allows more than a typical side."
+          },
+          {
+            "title": "Rest and travel",
+            "body": "Rest is not shown. The file stops on 2026-11-08, so a long gap can be missing results rather than a real break."
+          },
+          {
+            "title": "Game script",
+            "body": "SV Werder Bremen are the side more likely to control the game. The grid expects a high-event match. Both teams are likelier than not to score. First-half xG uses each side's scoring share of the full match (38% SV Werder Bremen, 50% Borussia M\u00f6nchengladbach): 0.66 to 0.66. The second half is the rest of each side's xG, on its own grid."
+          }
+        ],
+        "model": {
+          "rho": -0.1,
+          "xg_blend": 0.65,
+          "first_half_share": 0.439,
+          "first_half_share_home": 0.381,
+          "first_half_share_away": 0.497,
+          "lambda_home_before_elo": 1.755,
+          "lambda_away_before_elo": 1.304,
+          "home_attack": 0.913,
+          "away_attack": 0.905,
+          "home_defense": 1.031,
+          "away_defense": 1.087
+        },
+        "kickoff_ct": "Fri, Nov 27, 2026, 1:30 PM CST",
+        "competition": "Bundesliga",
+        "competition_id": "D1"
+      }
+    },
+    {
+      "id": "2026-11-27-brest-paris",
+      "date": "2026-11-27",
+      "kickoff_utc": "2026-11-27T19:45:00+00:00",
+      "kickoff_ct": "Fri, Nov 27, 2026, 1:45 PM CST",
+      "competition": "Ligue 1",
+      "competition_id": "F1",
+      "data_through": "2026-11-08",
+      "kind": "league",
+      "neutral": false,
+      "home_id": "brest",
+      "away_id": "paris",
+      "home_name": "Stade Brestois 29",
+      "away_name": "Paris FC",
+      "prediction": {
+        "home_win_pct": 41.8,
+        "draw_pct": 29.4,
+        "away_win_pct": 28.9,
+        "xg_home": 1.38,
+        "xg_away": 1.11,
+        "xg_home_1h": 0.65,
+        "xg_away_1h": 0.51,
+        "first_half": {
+          "xg_home": 0.65,
+          "xg_away": 0.51,
+          "home_win_pct": 31.9,
+          "draw_pct": 44.7,
+          "away_win_pct": 23.4,
+          "btts_pct": 20.2,
+          "over": {
+            "0.5": 67.7,
+            "1.5": 33.4
+          },
+          "under": {
+            "0.5": 32.3,
+            "1.5": 66.6
+          },
+          "top_scorelines": [
+            {
+              "score": "0-0",
+              "pct": 32.3
+            },
+            {
+              "score": "1-0",
+              "pct": 19.2
+            },
+            {
+              "score": "0-1",
+              "pct": 15.1
+            },
+            {
+              "score": "1-1",
+              "pct": 11.5
+            },
+            {
+              "score": "2-0",
+              "pct": 6.6
+            }
+          ]
+        },
+        "second_half": {
+          "xg_home": 0.73,
+          "xg_away": 0.59,
+          "home_win_pct": 33.4,
+          "draw_pct": 41.8,
+          "away_win_pct": 24.8,
+          "btts_pct": 24.3,
+          "over": {
+            "0.5": 72.2,
+            "1.5": 39.3
+          },
+          "under": {
+            "0.5": 27.8,
+            "1.5": 60.7
+          },
+          "top_scorelines": [
+            {
+              "score": "0-0",
+              "pct": 27.8
+            },
+            {
+              "score": "1-0",
+              "pct": 18.3
+            },
+            {
+              "score": "0-1",
+              "pct": 14.6
+            },
+            {
+              "score": "1-1",
+              "pct": 12.7
+            },
+            {
+              "score": "2-0",
+              "pct": 7.1
+            }
+          ]
+        },
+        "btts_pct": 51.3,
+        "clean_sheet_home_pct": 33.1,
+        "clean_sheet_away_pct": 25.2,
+        "over": {
+          "1.5": 72.2,
+          "2.5": 45.2,
+          "3.5": 23.9,
+          "4.5": 10.6
+        },
+        "under": {
+          "1.5": 27.8,
+          "2.5": 54.8,
+          "3.5": 76.1,
+          "4.5": 89.4
+        },
+        "home_totals": {
+          "0.5": 74.8,
+          "1.5": 40.1,
+          "2.5": 16.1
+        },
+        "away_totals": {
+          "0.5": 66.9,
+          "1.5": 30.3,
+          "2.5": 10.1
+        },
+        "top_scorelines": [
+          {
+            "score": "1-1",
+            "pct": 14.0
+          },
+          {
+            "score": "1-0",
+            "pct": 10.2
+          },
+          {
+            "score": "0-0",
+            "pct": 9.6
+          },
+          {
+            "score": "2-1",
+            "pct": 8.8
+          },
+          {
+            "score": "0-1",
+            "pct": 7.9
+          }
+        ],
+        "most_likely": [
+          {
+            "key": "away_under_4.5",
+            "label": "Paris FC under 4.5",
+            "pct": 99.5
+          },
+          {
+            "key": "home_under_4.5",
+            "label": "Stade Brestois 29 under 4.5",
+            "pct": 98.7
+          },
+          {
+            "key": "away_under_3.5",
+            "label": "Paris FC under 3.5",
+            "pct": 97.4
+          },
+          {
+            "key": "home_under_3.5",
+            "label": "Stade Brestois 29 under 3.5",
+            "pct": 94.9
+          },
+          {
+            "key": "over_0.5",
+            "label": "Over 0.5",
+            "pct": 90.4
+          },
+          {
+            "key": "away_under_2.5",
+            "label": "Paris FC under 2.5",
+            "pct": 89.9
+          },
+          {
+            "key": "under_4.5",
+            "label": "Under 4.5",
+            "pct": 89.4
+          },
+          {
+            "key": "ah_home_+1.5",
+            "label": "Stade Brestois 29 +1.5",
+            "pct": 88.2
+          }
+        ],
+        "elo_home": 1536.2,
+        "elo_away": 1568.5,
+        "elo_gap": -32.3,
+        "home_context": {
+          "form": "WDLWW",
+          "points": 10,
+          "games": 5,
+          "ppg": 2.0,
+          "goals_pg": 1.75,
+          "xg_pg": 1.77,
+          "xg_against_pg": 1.32,
+          "goals_minus_xg": -0.02,
+          "xg_trend": "falling",
+          "attack": 1.03,
+          "defense": 0.99,
+          "rest_days": 19,
+          "last_day": "2026-11-08",
+          "short_rest": false,
+          "europe_week": false,
+          "last_competition": "F1"
+        },
+        "away_context": {
+          "form": "LWLWW",
+          "points": 9,
+          "games": 5,
+          "ppg": 1.8,
+          "goals_pg": 1.75,
+          "xg_pg": 1.57,
+          "xg_against_pg": 1.08,
+          "goals_minus_xg": 0.18,
+          "xg_trend": "rising",
+          "attack": 1.02,
+          "defense": 0.87,
+          "rest_days": 20,
+          "last_day": "2026-11-07",
+          "short_rest": false,
+          "europe_week": false,
+          "last_competition": "F1"
+        },
+        "narrative": [
+          {
+            "title": "Form and chance trend",
+            "body": "Results on file for this competition stop on 2026-11-08, so form and the chance trend are not shown."
+          },
+          {
+            "title": "Goals minus xG",
+            "body": "Stade Brestois 29 is close to xG (-0.02 per game). No regression flag. Paris FC is close to xG (+0.18 per game). No regression flag."
+          },
+          {
+            "title": "Attack against defense",
+            "body": "Stade Brestois 29 attack 1.03 against Paris FC defense 0.87. Paris FC attack 1.02 against Stade Brestois 29 defense 0.99. An attack above 1.00 creates more than a typical side at that venue. A defense above 1.00 allows more than a typical side."
+          },
+          {
+            "title": "Rest and travel",
+            "body": "Rest is not shown. The file stops on 2026-11-08, so a long gap can be missing results rather than a real break."
+          },
+          {
+            "title": "Game script",
+            "body": "Stade Brestois 29 are the side more likely to control the game. The grid expects a normal tempo. Both teams scoring is close to a coin flip. First-half xG uses each side's scoring share of the full match (47% Stade Brestois 29, 47% Paris FC): 0.65 to 0.51. The second half is the rest of each side's xG, on its own grid."
+          }
+        ],
+        "model": {
+          "rho": -0.1,
+          "xg_blend": 0.65,
+          "first_half_share": 0.468,
+          "first_half_share_home": 0.47,
+          "first_half_share_away": 0.465,
+          "lambda_home_before_elo": 1.412,
+          "lambda_away_before_elo": 1.074,
+          "home_attack": 1.141,
+          "away_attack": 0.933,
+          "home_defense": 0.921,
+          "away_defense": 0.808
+        },
+        "kickoff_ct": "Fri, Nov 27, 2026, 1:45 PM CST",
+        "competition": "Ligue 1",
+        "competition_id": "F1"
+      }
+    },
+    {
+      "id": "2026-11-27-levante-racing-santander",
+      "date": "2026-11-27",
+      "kickoff_utc": "2026-11-27T20:00:00+00:00",
+      "kickoff_ct": "Fri, Nov 27, 2026, 2:00 PM CST",
+      "competition": "La Liga",
+      "competition_id": "SP1",
+      "data_through": "2026-11-08",
+      "kind": "league",
+      "neutral": false,
+      "home_id": "levante",
+      "away_id": "racing-santander",
+      "home_name": "Levante UD",
+      "away_name": "Real Racing Club de Santander",
+      "prediction": {
+        "home_win_pct": 52.8,
+        "draw_pct": 22.8,
+        "away_win_pct": 24.4,
+        "xg_home": 2.12,
+        "xg_away": 1.4,
+        "xg_home_1h": 0.79,
+        "xg_away_1h": 0.62,
+        "first_half": {
+          "xg_home": 0.79,
+          "xg_away": 0.62,
+          "home_win_pct": 35.2,
+          "draw_pct": 40.3,
+          "away_win_pct": 24.6,
+          "btts_pct": 26.4,
+          "over": {
+            "0.5": 74.4,
+            "1.5": 42.4
+          },
+          "under": {
+            "0.5": 25.6,
+            "1.5": 57.6
+          },
+          "top_scorelines": [
+            {
+              "score": "0-0",
+              "pct": 25.6
+            },
+            {
+              "score": "1-0",
+              "pct": 18.2
+            },
+            {
+              "score": "0-1",
+              "pct": 13.9
+            },
+            {
+              "score": "1-1",
+              "pct": 13.1
+            },
+            {
+              "score": "2-0",
+              "pct": 7.7
+            }
+          ]
+        },
+        "second_half": {
+          "xg_home": 1.32,
+          "xg_away": 0.79,
+          "home_win_pct": 48.0,
+          "draw_pct": 31.0,
+          "away_win_pct": 21.0,
+          "btts_pct": 41.2,
+          "over": {
+            "0.5": 86.6,
+            "1.5": 63.5
+          },
+          "under": {
+            "0.5": 13.4,
+            "1.5": 36.5
+          },
+          "top_scorelines": [
+            {
+              "score": "1-0",
+              "pct": 14.8
+            },
+            {
+              "score": "1-1",
+              "pct": 13.9
+            },
+            {
+              "score": "0-0",
+              "pct": 13.4
+            },
+            {
+              "score": "2-0",
+              "pct": 10.6
+            },
+            {
+              "score": "2-1",
+              "pct": 8.4
+            }
+          ]
+        },
+        "btts_pct": 67.2,
+        "clean_sheet_home_pct": 24.6,
+        "clean_sheet_away_pct": 12.1,
+        "over": {
+          "1.5": 87.4,
+          "2.5": 68.1,
+          "3.5": 46.4,
+          "4.5": 27.4
+        },
+        "under": {
+          "1.5": 12.6,
+          "2.5": 31.9,
+          "3.5": 53.6,
+          "4.5": 72.6
+        },
+        "home_totals": {
+          "0.5": 87.9,
+          "1.5": 62.2,
+          "2.5": 35.1
+        },
+        "away_totals": {
+          "0.5": 75.4,
+          "1.5": 40.9,
+          "2.5": 16.7
+        },
+        "top_scorelines": [
+          {
+            "score": "1-1",
+            "pct": 9.7
+          },
+          {
+            "score": "2-1",
+            "pct": 9.4
+          },
+          {
+            "score": "2-0",
+            "pct": 6.7
+          },
+          {
+            "score": "3-1",
+            "pct": 6.6
+          },
+          {
+            "score": "2-2",
+            "pct": 6.6
+          }
+        ],
+        "most_likely": [
+          {
+            "key": "away_under_4.5",
+            "label": "Real Racing Club de Santander under 4.5",
+            "pct": 98.6
+          },
+          {
+            "key": "over_0.5",
+            "label": "Over 0.5",
+            "pct": 96.1
+          },
+          {
+            "key": "away_under_3.5",
+            "label": "Real Racing Club de Santander under 3.5",
+            "pct": 94.7
+          },
+          {
+            "key": "home_under_4.5",
+            "label": "Levante UD under 4.5",
+            "pct": 94.2
+          },
+          {
+            "key": "ah_home_+1.5",
+            "label": "Levante UD +1.5",
+            "pct": 89.0
+          },
+          {
+            "key": "home_over_0.5",
+            "label": "Levante UD over 0.5",
+            "pct": 87.9
+          },
+          {
+            "key": "over_1.5",
+            "label": "Over 1.5",
+            "pct": 87.4
+          },
+          {
+            "key": "2h_over_0.5",
+            "label": "2H Over 0.5",
+            "pct": 86.6
+          }
+        ],
+        "elo_home": 1543.6,
+        "elo_away": 1517.7,
+        "elo_gap": 25.9,
+        "home_context": {
+          "form": "DWLLD",
+          "points": 5,
+          "games": 5,
+          "ppg": 1.0,
+          "goals_pg": 1.38,
+          "xg_pg": 1.22,
+          "xg_against_pg": 2.31,
+          "goals_minus_xg": 0.15,
+          "xg_trend": "falling",
+          "attack": 0.95,
+          "defense": 1.12,
+          "rest_days": 19,
+          "last_day": "2026-11-08",
+          "short_rest": false,
+          "europe_week": false,
+          "last_competition": "SP1"
+        },
+        "away_context": {
+          "form": "DLWLW",
+          "points": 7,
+          "games": 5,
+          "ppg": 1.4,
+          "goals_pg": 1.25,
+          "xg_pg": 1.47,
+          "xg_against_pg": 2.77,
+          "goals_minus_xg": -0.22,
+          "xg_trend": "flat",
+          "attack": 1.03,
+          "defense": 1.23,
+          "rest_days": 20,
+          "last_day": "2026-11-07",
+          "short_rest": false,
+          "europe_week": false,
+          "last_competition": "SP1"
+        },
+        "narrative": [
+          {
+            "title": "Form and chance trend",
+            "body": "Results on file for this competition stop on 2026-11-08, so form and the chance trend are not shown."
+          },
+          {
+            "title": "Goals minus xG",
+            "body": "Levante UD is close to xG (+0.15 per game). No regression flag. Real Racing Club de Santander is close to xG (-0.22 per game). No regression flag."
+          },
+          {
+            "title": "Attack against defense",
+            "body": "Levante UD attack 0.95 against Real Racing Club de Santander defense 1.23. Real Racing Club de Santander attack 1.03 against Levante UD defense 1.12. An attack above 1.00 creates more than a typical side at that venue. A defense above 1.00 allows more than a typical side."
+          },
+          {
+            "title": "Rest and travel",
+            "body": "Rest is not shown. The file stops on 2026-11-08, so a long gap can be missing results rather than a real break."
+          },
+          {
+            "title": "Game script",
+            "body": "Levante UD are the side more likely to control the game. The grid expects a high-event match. Both teams are likelier than not to score. First-half xG uses each side's scoring share of the full match (38% Levante UD, 44% Real Racing Club de Santander): 0.79 to 0.62. The second half is the rest of each side's xG, on its own grid."
+          }
+        ],
+        "model": {
+          "rho": -0.1,
+          "xg_blend": 0.65,
+          "first_half_share": 0.408,
+          "first_half_share_home": 0.375,
+          "first_half_share_away": 0.44,
+          "lambda_home_before_elo": 2.213,
+          "lambda_away_before_elo": 1.308,
+          "home_attack": 1.103,
+          "away_attack": 0.987,
+          "home_defense": 1.143,
+          "away_defense": 1.327
+        },
+        "kickoff_ct": "Fri, Nov 27, 2026, 2:00 PM CST",
+        "competition": "La Liga",
+        "competition_id": "SP1"
+      }
+    },
+    {
+      "id": "2026-11-27-maritimo-nacional",
+      "date": "2026-11-27",
+      "kickoff_utc": "2026-11-27T20:15:00+00:00",
+      "kickoff_ct": "Fri, Nov 27, 2026, 2:15 PM CST",
+      "competition": "Primeira Liga",
+      "competition_id": "P1",
+      "data_through": "2026-11-08",
+      "kind": "league",
+      "neutral": false,
+      "home_id": "maritimo",
+      "away_id": "nacional",
+      "home_name": "CS Mar\u00edtimo",
+      "away_name": "CD Nacional",
+      "prediction": {
+        "home_win_pct": 42.7,
+        "draw_pct": 29.5,
+        "away_win_pct": 27.8,
+        "xg_home": 1.38,
+        "xg_away": 1.07,
+        "xg_home_1h": 0.69,
+        "xg_away_1h": 0.49,
+        "first_half": {
+          "xg_home": 0.69,
+          "xg_away": 0.49,
+          "home_win_pct": 34.4,
+          "draw_pct": 44.0,
+          "away_win_pct": 21.5,
+          "btts_pct": 20.4,
+          "over": {
+            "0.5": 68.3,
+            "1.5": 34.2
+          },
+          "under": {
+            "0.5": 31.7,
+            "1.5": 65.8
+          },
+          "top_scorelines": [
+            {
+              "score": "0-0",
+              "pct": 31.7
+            },
+            {
+              "score": "1-0",
+              "pct": 20.2
+            },
+            {
+              "score": "0-1",
+              "pct": 14.0
+            },
+            {
+              "score": "1-1",
+              "pct": 11.4
+            },
+            {
+              "score": "2-0",
+              "pct": 7.4
+            }
+          ]
+        },
+        "second_half": {
+          "xg_home": 0.68,
+          "xg_away": 0.58,
+          "home_win_pct": 31.9,
+          "draw_pct": 42.9,
+          "away_win_pct": 25.1,
+          "btts_pct": 22.8,
+          "over": {
+            "0.5": 70.5,
+            "1.5": 37.0
+          },
+          "under": {
+            "0.5": 29.5,
+            "1.5": 63.0
+          },
+          "top_scorelines": [
+            {
+              "score": "0-0",
+              "pct": 29.5
+            },
+            {
+              "score": "1-0",
+              "pct": 18.3
+            },
+            {
+              "score": "0-1",
+              "pct": 15.2
+            },
+            {
+              "score": "1-1",
+              "pct": 12.3
+            },
+            {
+              "score": "2-0",
+              "pct": 6.6
+            }
+          ]
+        },
+        "btts_pct": 50.3,
+        "clean_sheet_home_pct": 34.5,
+        "clean_sheet_away_pct": 25.3,
+        "over": {
+          "1.5": 71.3,
+          "2.5": 44.1,
+          "3.5": 23.0,
+          "4.5": 10.1
+        },
+        "under": {
+          "1.5": 28.7,
+          "2.5": 55.9,
+          "3.5": 77.0,
+          "4.5": 89.9
+        },
+        "home_totals": {
+          "0.5": 74.7,
+          "1.5": 40.0,
+          "2.5": 16.0
+        },
+        "away_totals": {
+          "0.5": 65.5,
+          "1.5": 28.8,
+          "2.5": 9.3
+        },
+        "top_scorelines": [
+          {
+            "score": "1-1",
+            "pct": 14.0
+          },
+          {
+            "score": "1-0",
+            "pct": 10.7
+          },
+          {
+            "score": "0-0",
+            "pct": 10.0
+          },
+          {
+            "score": "2-1",
+            "pct": 8.8
+          },
+          {
+            "score": "2-0",
+            "pct": 8.3
+          }
+        ],
+        "most_likely": [
+          {
+            "key": "away_under_4.5",
+            "label": "CD Nacional under 4.5",
+            "pct": 99.5
+          },
+          {
+            "key": "home_under_4.5",
+            "label": "CS Mar\u00edtimo under 4.5",
+            "pct": 98.7
+          },
+          {
+            "key": "away_under_3.5",
+            "label": "CD Nacional under 3.5",
+            "pct": 97.7
+          },
+          {
+            "key": "home_under_3.5",
+            "label": "CS Mar\u00edtimo under 3.5",
+            "pct": 94.9
+          },
+          {
+            "key": "away_under_2.5",
+            "label": "CD Nacional under 2.5",
+            "pct": 90.8
+          },
+          {
+            "key": "over_0.5",
+            "label": "Over 0.5",
+            "pct": 90.0
+          },
+          {
+            "key": "under_4.5",
+            "label": "Under 4.5",
+            "pct": 89.9
+          },
+          {
+            "key": "ah_home_+1.5",
+            "label": "CS Mar\u00edtimo +1.5",
+            "pct": 88.9
+          }
+        ],
+        "elo_home": 1374.8,
+        "elo_away": 1399.8,
+        "elo_gap": -24.9,
+        "home_context": {
+          "form": "LDLLL",
+          "points": 1,
+          "games": 5,
+          "ppg": 0.2,
+          "goals_pg": 0.75,
+          "xg_pg": 0.81,
+          "xg_against_pg": 1.59,
+          "goals_minus_xg": -0.06,
+          "xg_trend": "flat",
+          "attack": 0.94,
+          "defense": 1.12,
+          "rest_days": 26,
+          "last_day": "2026-11-01",
+          "short_rest": false,
+          "europe_week": false,
+          "last_competition": "P1"
+        },
+        "away_context": {
+          "form": "LLWLW",
+          "points": 6,
+          "games": 5,
+          "ppg": 1.2,
+          "goals_pg": 0.88,
+          "xg_pg": 0.94,
+          "xg_against_pg": 1.55,
+          "goals_minus_xg": -0.06,
+          "xg_trend": "flat",
+          "attack": 0.88,
+          "defense": 1.07,
+          "rest_days": 19,
+          "last_day": "2026-11-08",
+          "short_rest": false,
+          "europe_week": false,
+          "last_competition": "P1"
+        },
+        "narrative": [
+          {
+            "title": "Form and chance trend",
+            "body": "Results on file for this competition stop on 2026-11-08, so form and the chance trend are not shown."
+          },
+          {
+            "title": "Goals minus xG",
+            "body": "CS Mar\u00edtimo is close to xG (-0.06 per game). No regression flag. CD Nacional is close to xG (-0.06 per game). No regression flag."
+          },
+          {
+            "title": "Attack against defense",
+            "body": "CS Mar\u00edtimo attack 0.94 against CD Nacional defense 1.07. CD Nacional attack 0.88 against CS Mar\u00edtimo defense 1.12. An attack above 1.00 creates more than a typical side at that venue. A defense above 1.00 allows more than a typical side."
+          },
+          {
+            "title": "Rest and travel",
+            "body": "Rest is not shown. The file stops on 2026-11-08, so a long gap can be missing results rather than a real break."
+          },
+          {
+            "title": "Game script",
+            "body": "CS Mar\u00edtimo are the side more likely to control the game. The grid expects a normal tempo. Both teams scoring is close to a coin flip. First-half xG uses each side's scoring share of the full match (50% CS Mar\u00edtimo, 46% CD Nacional): 0.69 to 0.49. The second half is the rest of each side's xG, on its own grid."
+          }
+        ],
+        "model": {
+          "rho": -0.1,
+          "xg_blend": 0.65,
+          "first_half_share": 0.482,
+          "first_half_share_home": 0.503,
+          "first_half_share_away": 0.46,
+          "lambda_home_before_elo": 1.414,
+          "lambda_away_before_elo": 1.028,
+          "home_attack": 0.914,
+          "away_attack": 0.795,
+          "home_defense": 1.074,
+          "away_defense": 1.105
+        },
+        "kickoff_ct": "Fri, Nov 27, 2026, 2:15 PM CST",
+        "competition": "Primeira Liga",
+        "competition_id": "P1"
       }
     }
   ]
