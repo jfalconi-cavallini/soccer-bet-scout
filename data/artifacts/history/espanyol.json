@@ -2,7 +2,7 @@
   "id": "espanyol",
   "name": "RCD Espanyol de Barcelona",
   "league": "La Liga",
-  "rating": 1539.3,
+  "rating": 1554.2,
   "points": [
     {
       "date": "2021-08-14",
@@ -1184,6 +1184,13 @@
       "date": "2026-11-07",
       "rating": 1539.29,
       "opponent": "RC Deportivo La Coru\u00f1a",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-20",
+      "rating": 1554.16,
+      "opponent": "Athletic Club",
       "competition_id": "SP1",
       "event": "match"
     }
