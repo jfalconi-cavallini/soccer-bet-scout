@@ -2,7 +2,7 @@
   "id": "real-sociedad",
   "name": "Real Sociedad de F\u00fatbol",
   "league": "La Liga",
-  "rating": 1585.7,
+  "rating": 1575.1,
   "points": [
     {
       "date": "2021-08-15",
@@ -1702,6 +1702,13 @@
       "date": "2026-11-08",
       "rating": 1585.74,
       "opponent": "Rayo Vallecano de Madrid",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-22",
+      "rating": 1575.12,
+      "opponent": "Real Racing Club de Santander",
       "competition_id": "SP1",
       "event": "match"
     }
