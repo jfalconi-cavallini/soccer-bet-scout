@@ -2,7 +2,7 @@
   "id": "frosinone",
   "name": "Frosinone Calcio",
   "league": "Serie A",
-  "rating": 1502.2,
+  "rating": 1496.9,
   "points": [
     {
       "date": "2023-07-01",
@@ -372,6 +372,13 @@
       "date": "2026-11-07",
       "rating": 1502.2,
       "opponent": "Cagliari Calcio",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-22",
+      "rating": 1496.89,
+      "opponent": "AC Milan",
       "competition_id": "I1",
       "event": "match"
     }

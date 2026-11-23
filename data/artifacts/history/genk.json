@@ -2,7 +2,7 @@
   "id": "genk",
   "name": "KRC Genk",
   "league": "Belgian Pro League",
-  "rating": 1495.5,
+  "rating": 1501.0,
   "points": [
     {
       "date": "2021-07-23",
@@ -1534,6 +1534,13 @@
       "date": "2026-11-08",
       "rating": 1495.51,
       "opponent": "Royale Union Saint-Gilloise",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-21",
+      "rating": 1501.05,
+      "opponent": "RAAL La Louviere",
       "competition_id": "B1",
       "event": "match"
     }

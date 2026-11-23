@@ -2,7 +2,7 @@
   "id": "leeds",
   "name": "Leeds United FC",
   "league": "Premier League",
-  "rating": 1634.9,
+  "rating": 1656.0,
   "points": [
     {
       "date": "2021-08-14",
@@ -904,6 +904,13 @@
       "date": "2026-11-07",
       "rating": 1634.87,
       "opponent": "Tottenham Hotspur FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-21",
+      "rating": 1656.02,
+      "opponent": "Chelsea FC",
       "competition_id": "E0",
       "event": "match"
     }

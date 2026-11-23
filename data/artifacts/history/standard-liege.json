@@ -2,7 +2,7 @@
   "id": "standard-liege",
   "name": "Standard Li\u00e8ge",
   "league": "Belgian Pro League",
-  "rating": 1447.9,
+  "rating": 1456.2,
   "points": [
     {
       "date": "2021-07-23",
@@ -1422,6 +1422,13 @@
       "date": "2026-11-06",
       "rating": 1447.93,
       "opponent": "Beveren",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-22",
+      "rating": 1456.19,
+      "opponent": "Lommel SK",
       "competition_id": "B1",
       "event": "match"
     }

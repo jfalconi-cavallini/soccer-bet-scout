@@ -2,7 +2,7 @@
   "id": "genoa",
   "name": "Genoa CFC",
   "league": "Serie A",
-  "rating": 1516.5,
+  "rating": 1528.9,
   "points": [
     {
       "date": "2021-08-21",
@@ -1177,6 +1177,13 @@
       "date": "2026-11-08",
       "rating": 1516.55,
       "opponent": "AC Milan",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-22",
+      "rating": 1528.93,
+      "opponent": "US Sassuolo Calcio",
       "competition_id": "I1",
       "event": "match"
     }

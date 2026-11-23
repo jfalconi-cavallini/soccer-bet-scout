@@ -2,7 +2,7 @@
   "id": "sunderland",
   "name": "Sunderland AFC",
   "league": "Premier League",
-  "rating": 1597.6,
+  "rating": 1600.7,
   "points": [
     {
       "date": "2025-07-01",
@@ -351,6 +351,13 @@
       "date": "2026-11-08",
       "rating": 1597.61,
       "opponent": "Chelsea FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-21",
+      "rating": 1600.74,
+      "opponent": "Aston Villa FC",
       "competition_id": "E0",
       "event": "match"
     }

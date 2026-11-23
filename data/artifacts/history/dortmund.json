@@ -2,7 +2,7 @@
   "id": "dortmund",
   "name": "Borussia Dortmund",
   "league": "Bundesliga",
-  "rating": 1680.7,
+  "rating": 1685.3,
   "points": [
     {
       "date": "2021-08-14",
@@ -1688,6 +1688,13 @@
       "date": "2026-11-07",
       "rating": 1680.65,
       "opponent": "SV 07 Elversberg",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-21",
+      "rating": 1685.26,
+      "opponent": "Borussia M\u00f6nchengladbach",
       "competition_id": "D1",
       "event": "match"
     }

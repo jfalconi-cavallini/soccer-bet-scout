@@ -2,7 +2,7 @@
   "id": "liverpool",
   "name": "Liverpool FC",
   "league": "Premier League",
-  "rating": 1710.7,
+  "rating": 1722.9,
   "points": [
     {
       "date": "2021-08-14",
@@ -1835,6 +1835,13 @@
       "date": "2026-11-08",
       "rating": 1710.75,
       "opponent": "Crystal Palace FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-22",
+      "rating": 1722.94,
+      "opponent": "Manchester United FC",
       "competition_id": "E0",
       "event": "match"
     }

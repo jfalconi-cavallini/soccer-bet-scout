@@ -2,7 +2,7 @@
   "id": "newcastle",
   "name": "Newcastle United FC",
   "league": "Premier League",
-  "rating": 1632.9,
+  "rating": 1637.2,
   "points": [
     {
       "date": "2021-08-15",
@@ -1562,6 +1562,13 @@
       "date": "2026-11-07",
       "rating": 1632.86,
       "opponent": "Fulham FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-21",
+      "rating": 1637.22,
+      "opponent": "Arsenal FC",
       "competition_id": "E0",
       "event": "match"
     }

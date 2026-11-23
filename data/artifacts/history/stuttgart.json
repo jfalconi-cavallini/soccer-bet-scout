@@ -2,7 +2,7 @@
   "id": "stuttgart",
   "name": "VfB Stuttgart",
   "league": "Bundesliga",
-  "rating": 1613.1,
+  "rating": 1612.2,
   "points": [
     {
       "date": "2021-08-14",
@@ -1373,6 +1373,13 @@
       "date": "2026-11-07",
       "rating": 1613.06,
       "opponent": "SV Werder Bremen",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-21",
+      "rating": 1612.18,
+      "opponent": "FC Schalke 04",
       "competition_id": "D1",
       "event": "match"
     }

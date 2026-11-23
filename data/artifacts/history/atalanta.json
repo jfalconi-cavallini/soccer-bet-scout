@@ -2,7 +2,7 @@
   "id": "atalanta",
   "name": "Atalanta BC",
   "league": "Serie A",
-  "rating": 1575.1,
+  "rating": 1576.8,
   "points": [
     {
       "date": "2021-08-21",
@@ -1772,6 +1772,13 @@
       "date": "2026-11-08",
       "rating": 1575.09,
       "opponent": "AC Monza",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-22",
+      "rating": 1576.84,
+      "opponent": "FC Internazionale Milano",
       "competition_id": "I1",
       "event": "match"
     }

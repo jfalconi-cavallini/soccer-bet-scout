@@ -2,7 +2,7 @@
   "id": "werder-bremen",
   "name": "SV Werder Bremen",
   "league": "Bundesliga",
-  "rating": 1530.7,
+  "rating": 1534.3,
   "points": [
     {
       "date": "2022-07-01",
@@ -1051,6 +1051,13 @@
       "date": "2026-11-07",
       "rating": 1530.68,
       "opponent": "VfB Stuttgart",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-22",
+      "rating": 1534.32,
+      "opponent": "Hamburger SV",
       "competition_id": "D1",
       "event": "match"
     }

@@ -2,7 +2,7 @@
   "id": "udinese",
   "name": "Udinese Calcio",
   "league": "Serie A",
-  "rating": 1487.5,
+  "rating": 1493.2,
   "points": [
     {
       "date": "2021-08-22",
@@ -1443,6 +1443,13 @@
       "date": "2026-11-06",
       "rating": 1487.48,
       "opponent": "Venezia FC",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-22",
+      "rating": 1493.16,
+      "opponent": "Bologna FC 1909",
       "competition_id": "I1",
       "event": "match"
     }

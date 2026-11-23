@@ -2,7 +2,7 @@
   "id": "rennes",
   "name": "Stade Rennais FC 1901",
   "league": "Ligue 1",
-  "rating": 1564.1,
+  "rating": 1564.9,
   "points": [
     {
       "date": "2021-08-08",
@@ -1520,6 +1520,13 @@
       "date": "2026-11-08",
       "rating": 1564.13,
       "opponent": "Lille OSC",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-22",
+      "rating": 1564.92,
+      "opponent": "FC Lorient",
       "competition_id": "F1",
       "event": "match"
     }

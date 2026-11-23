@@ -2,7 +2,7 @@
   "id": "freiburg",
   "name": "SC Freiburg",
   "league": "Bundesliga",
-  "rating": 1592.7,
+  "rating": 1596.8,
   "points": [
     {
       "date": "2021-08-14",
@@ -1415,6 +1415,13 @@
       "date": "2026-11-08",
       "rating": 1592.7,
       "opponent": "1. FC Union Berlin",
+      "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-21",
+      "rating": 1596.82,
+      "opponent": "SV 07 Elversberg",
       "competition_id": "D1",
       "event": "match"
     }

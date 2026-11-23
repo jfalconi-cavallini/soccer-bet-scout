@@ -1,6 +1,6 @@
 {
   "from": "2024-07-01",
-  "through": "2026-11-22",
+  "through": "2026-11-23",
   "seasons": [
     "2024-25",
     "2025-26",
@@ -8,94 +8,94 @@
   ],
   "rule": "Each match uses Elo and attack/defense from earlier dates only. The match, later matches, and other matches on the same day are left out. League-average rates are that competition's results before the date. Bookmaker figures are closing prices from football-data.co.uk, with the overround removed, on the matches that have them. The overall table is domestic leagues. Champions League, Europa League, and Conference League are scored separately. A cup mismatch is an Elo gap above 200 or a closing price above 75% on one side.",
   "overall": {
-    "matches": 8240,
-    "model_brier": 0.6005,
-    "model_log_loss": 1.0053,
-    "model_rps": 0.2067,
-    "model_accuracy": 0.5189,
+    "matches": 8317,
+    "model_brier": 0.6003,
+    "model_log_loss": 1.0051,
+    "model_rps": 0.2068,
+    "model_accuracy": 0.5191,
     "rates_brier": 0.6498,
-    "rates_log_loss": 1.0738,
-    "rates_rps": 0.2309,
+    "rates_log_loss": 1.0737,
+    "rates_rps": 0.2311,
     "rates_accuracy": 0.4342,
-    "odds_matches": 7972,
+    "odds_matches": 8055,
     "odds_books": {
       "pinnacle": 5013,
-      "bet365": 2959
+      "bet365": 3042
     },
-    "model_on_odds_brier": 0.5996,
-    "model_on_odds_log_loss": 1.004,
+    "model_on_odds_brier": 0.5994,
+    "model_on_odds_log_loss": 1.0037,
     "model_on_odds_rps": 0.2062,
-    "model_on_odds_accuracy": 0.5202,
-    "book_brier": 0.5696,
-    "book_log_loss": 0.9595,
+    "model_on_odds_accuracy": 0.5204,
+    "book_brier": 0.5692,
+    "book_log_loss": 0.9589,
     "book_rps": 0.1926,
-    "book_accuracy": 0.5434
+    "book_accuracy": 0.5439
   },
   "by_league": [
     {
       "id": "E0",
       "name": "Premier League",
-      "matches": 860,
-      "model_brier": 0.611,
-      "model_log_loss": 1.0195,
-      "model_rps": 0.2096,
-      "model_accuracy": 0.5012,
-      "rates_brier": 0.6562,
-      "rates_log_loss": 1.0832,
-      "rates_rps": 0.2314,
-      "rates_accuracy": 0.4174,
-      "odds_matches": 860,
+      "matches": 869,
+      "model_brier": 0.6116,
+      "model_log_loss": 1.0203,
+      "model_rps": 0.2097,
+      "model_accuracy": 0.5006,
+      "rates_brier": 0.656,
+      "rates_log_loss": 1.0829,
+      "rates_rps": 0.2311,
+      "rates_accuracy": 0.4189,
+      "odds_matches": 869,
       "odds_books": {
         "pinnacle": 590,
-        "bet365": 270
+        "bet365": 279
       },
-      "model_on_odds_brier": 0.611,
-      "model_on_odds_log_loss": 1.0195,
-      "model_on_odds_rps": 0.2096,
-      "model_on_odds_accuracy": 0.5012,
-      "book_brier": 0.5938,
-      "book_log_loss": 0.993,
-      "book_rps": 0.2012,
-      "book_accuracy": 0.5174,
+      "model_on_odds_brier": 0.6116,
+      "model_on_odds_log_loss": 1.0203,
+      "model_on_odds_rps": 0.2097,
+      "model_on_odds_accuracy": 0.5006,
+      "book_brier": 0.5953,
+      "book_log_loss": 0.995,
+      "book_rps": 0.2017,
+      "book_accuracy": 0.5167,
       "markets": [
         {
           "market": "over_2.5",
           "label": "Over 2.5",
-          "count": 860,
+          "count": 869,
           "predicted": 0.565,
-          "actual": 0.548,
-          "brier": 0.2491
+          "actual": 0.547,
+          "brier": 0.2494
         },
         {
           "market": "btts",
           "label": "Both teams to score",
-          "count": 860,
+          "count": 869,
           "predicted": 0.587,
-          "actual": 0.558,
-          "brier": 0.2482
+          "actual": 0.557,
+          "brier": 0.2486
         },
         {
           "market": "1h_btts",
           "label": "1H Both teams to score",
-          "count": 860,
+          "count": 869,
           "predicted": 0.236,
           "actual": 0.191,
-          "brier": 0.1579
+          "brier": 0.1581
         },
         {
           "market": "1h_over_0.5",
           "label": "1H Over 0.5",
-          "count": 860,
+          "count": 869,
           "predicted": 0.717,
           "actual": 0.727,
-          "brier": 0.1965
+          "brier": 0.1963
         },
         {
           "market": "btts_over_2.5",
           "label": "Both teams to score and over 2.5",
-          "count": 860,
+          "count": 869,
           "predicted": 0.468,
-          "actual": 0.438,
+          "actual": 0.437,
           "brier": 0.2481
         }
       ]
@@ -103,340 +103,340 @@
     {
       "id": "SP1",
       "name": "La Liga",
-      "matches": 886,
-      "model_brier": 0.5909,
-      "model_log_loss": 0.992,
-      "model_rps": 0.203,
-      "model_accuracy": 0.5339,
-      "rates_brier": 0.6412,
-      "rates_log_loss": 1.0622,
+      "matches": 889,
+      "model_brier": 0.591,
+      "model_log_loss": 0.9922,
+      "model_rps": 0.2029,
+      "model_accuracy": 0.5343,
+      "rates_brier": 0.6414,
+      "rates_log_loss": 1.0624,
       "rates_rps": 0.2266,
-      "rates_accuracy": 0.4639,
-      "odds_matches": 879,
+      "rates_accuracy": 0.4634,
+      "odds_matches": 888,
       "odds_books": {
         "pinnacle": 568,
-        "bet365": 311
+        "bet365": 320
       },
-      "model_on_odds_brier": 0.5911,
-      "model_on_odds_log_loss": 0.9923,
-      "model_on_odds_rps": 0.2029,
-      "model_on_odds_accuracy": 0.5336,
-      "book_brier": 0.5611,
-      "book_log_loss": 0.949,
-      "book_rps": 0.1897,
-      "book_accuracy": 0.5529,
-      "markets": [
-        {
-          "market": "over_2.5",
-          "label": "Over 2.5",
-          "count": 886,
-          "predicted": 0.482,
-          "actual": 0.502,
-          "brier": 0.2407
-        },
-        {
-          "market": "btts",
-          "label": "Both teams to score",
-          "count": 886,
-          "predicted": 0.52,
-          "actual": 0.555,
-          "brier": 0.2476
-        },
-        {
-          "market": "1h_btts",
-          "label": "1H Both teams to score",
-          "count": 879,
-          "predicted": 0.194,
-          "actual": 0.183,
-          "brier": 0.1473
-        },
-        {
-          "market": "1h_over_0.5",
-          "label": "1H Over 0.5",
-          "count": 879,
-          "predicted": 0.669,
-          "actual": 0.684,
-          "brier": 0.211
-        },
-        {
-          "market": "btts_over_2.5",
-          "label": "Both teams to score and over 2.5",
-          "count": 886,
-          "predicted": 0.391,
-          "actual": 0.407,
-          "brier": 0.2368
-        }
-      ]
-    },
-    {
-      "id": "I1",
-      "name": "Serie A",
-      "matches": 870,
-      "model_brier": 0.6029,
-      "model_log_loss": 1.0074,
-      "model_rps": 0.2048,
-      "model_accuracy": 0.5287,
-      "rates_brier": 0.6573,
-      "rates_log_loss": 1.0843,
-      "rates_rps": 0.2324,
-      "rates_accuracy": 0.4023,
-      "odds_matches": 870,
-      "odds_books": {
-        "pinnacle": 578,
-        "bet365": 292
-      },
-      "model_on_odds_brier": 0.6029,
-      "model_on_odds_log_loss": 1.0074,
-      "model_on_odds_rps": 0.2048,
-      "model_on_odds_accuracy": 0.5287,
-      "book_brier": 0.5684,
-      "book_log_loss": 0.9566,
+      "model_on_odds_brier": 0.5907,
+      "model_on_odds_log_loss": 0.9918,
+      "model_on_odds_rps": 0.203,
+      "model_on_odds_accuracy": 0.5349,
+      "book_brier": 0.5608,
+      "book_log_loss": 0.9487,
       "book_rps": 0.19,
       "book_accuracy": 0.5529,
       "markets": [
         {
           "market": "over_2.5",
           "label": "Over 2.5",
-          "count": 870,
-          "predicted": 0.464,
-          "actual": 0.486,
-          "brier": 0.2541
+          "count": 889,
+          "predicted": 0.482,
+          "actual": 0.502,
+          "brier": 0.2409
         },
         {
           "market": "btts",
           "label": "Both teams to score",
-          "count": 870,
-          "predicted": 0.508,
-          "actual": 0.497,
-          "brier": 0.2526
+          "count": 889,
+          "predicted": 0.52,
+          "actual": 0.555,
+          "brier": 0.2474
         },
         {
           "market": "1h_btts",
           "label": "1H Both teams to score",
-          "count": 870,
-          "predicted": 0.182,
+          "count": 888,
+          "predicted": 0.194,
+          "actual": 0.184,
+          "brier": 0.1474
+        },
+        {
+          "market": "1h_over_0.5",
+          "label": "1H Over 0.5",
+          "count": 888,
+          "predicted": 0.669,
+          "actual": 0.685,
+          "brier": 0.2107
+        },
+        {
+          "market": "btts_over_2.5",
+          "label": "Both teams to score and over 2.5",
+          "count": 889,
+          "predicted": 0.391,
+          "actual": 0.406,
+          "brier": 0.2365
+        }
+      ]
+    },
+    {
+      "id": "I1",
+      "name": "Serie A",
+      "matches": 879,
+      "model_brier": 0.6019,
+      "model_log_loss": 1.006,
+      "model_rps": 0.2044,
+      "model_accuracy": 0.5301,
+      "rates_brier": 0.657,
+      "rates_log_loss": 1.0839,
+      "rates_rps": 0.2323,
+      "rates_accuracy": 0.4039,
+      "odds_matches": 879,
+      "odds_books": {
+        "pinnacle": 578,
+        "bet365": 301
+      },
+      "model_on_odds_brier": 0.6019,
+      "model_on_odds_log_loss": 1.006,
+      "model_on_odds_rps": 0.2044,
+      "model_on_odds_accuracy": 0.5301,
+      "book_brier": 0.5667,
+      "book_log_loss": 0.954,
+      "book_rps": 0.1893,
+      "book_accuracy": 0.554,
+      "markets": [
+        {
+          "market": "over_2.5",
+          "label": "Over 2.5",
+          "count": 879,
+          "predicted": 0.464,
+          "actual": 0.487,
+          "brier": 0.254
+        },
+        {
+          "market": "btts",
+          "label": "Both teams to score",
+          "count": 879,
+          "predicted": 0.508,
+          "actual": 0.496,
+          "brier": 0.2523
+        },
+        {
+          "market": "1h_btts",
+          "label": "1H Both teams to score",
+          "count": 879,
+          "predicted": 0.183,
           "actual": 0.176,
           "brier": 0.1452
         },
         {
           "market": "1h_over_0.5",
           "label": "1H Over 0.5",
-          "count": 870,
-          "predicted": 0.655,
-          "actual": 0.671,
-          "brier": 0.2208
+          "count": 879,
+          "predicted": 0.656,
+          "actual": 0.672,
+          "brier": 0.2203
         },
         {
           "market": "btts_over_2.5",
           "label": "Both teams to score and over 2.5",
-          "count": 870,
+          "count": 879,
           "predicted": 0.376,
-          "actual": 0.382,
-          "brier": 0.2402
+          "actual": 0.381,
+          "brier": 0.2397
         }
       ]
     },
     {
       "id": "D1",
       "name": "Bundesliga",
-      "matches": 693,
-      "model_brier": 0.6043,
-      "model_log_loss": 1.0115,
-      "model_rps": 0.2103,
-      "model_accuracy": 0.5079,
-      "rates_brier": 0.653,
-      "rates_log_loss": 1.0777,
+      "matches": 702,
+      "model_brier": 0.6051,
+      "model_log_loss": 1.0124,
+      "model_rps": 0.2106,
+      "model_accuracy": 0.5071,
+      "rates_brier": 0.6529,
+      "rates_log_loss": 1.0775,
       "rates_rps": 0.2342,
-      "rates_accuracy": 0.4228,
-      "odds_matches": 693,
+      "rates_accuracy": 0.4231,
+      "odds_matches": 702,
       "odds_books": {
         "pinnacle": 455,
-        "bet365": 238
+        "bet365": 247
       },
-      "model_on_odds_brier": 0.6043,
-      "model_on_odds_log_loss": 1.0115,
-      "model_on_odds_rps": 0.2103,
-      "model_on_odds_accuracy": 0.5079,
-      "book_brier": 0.5766,
-      "book_log_loss": 0.9704,
-      "book_rps": 0.1972,
-      "book_accuracy": 0.5469,
+      "model_on_odds_brier": 0.6051,
+      "model_on_odds_log_loss": 1.0124,
+      "model_on_odds_rps": 0.2106,
+      "model_on_odds_accuracy": 0.5071,
+      "book_brier": 0.5765,
+      "book_log_loss": 0.9705,
+      "book_rps": 0.1971,
+      "book_accuracy": 0.5484,
       "markets": [
         {
           "market": "over_2.5",
           "label": "Over 2.5",
-          "count": 693,
+          "count": 702,
           "predicted": 0.606,
-          "actual": 0.628,
-          "brier": 0.2317
+          "actual": 0.625,
+          "brier": 0.2328
         },
         {
           "market": "btts",
           "label": "Both teams to score",
-          "count": 693,
+          "count": 702,
           "predicted": 0.618,
-          "actual": 0.595,
-          "brier": 0.2425
+          "actual": 0.591,
+          "brier": 0.2432
         },
         {
           "market": "1h_btts",
           "label": "1H Both teams to score",
-          "count": 692,
+          "count": 701,
           "predicted": 0.272,
           "actual": 0.227,
-          "brier": 0.1805
+          "brier": 0.1804
         },
         {
           "market": "1h_over_0.5",
           "label": "1H Over 0.5",
-          "count": 692,
+          "count": 701,
           "predicted": 0.753,
-          "actual": 0.769,
-          "brier": 0.1769
+          "actual": 0.766,
+          "brier": 0.178
         },
         {
           "market": "btts_over_2.5",
           "label": "Both teams to score and over 2.5",
-          "count": 693,
+          "count": 702,
           "predicted": 0.506,
-          "actual": 0.504,
-          "brier": 0.2514
+          "actual": 0.5,
+          "brier": 0.2516
         }
       ]
     },
     {
       "id": "F1",
       "name": "Ligue 1",
-      "matches": 702,
-      "model_brier": 0.598,
-      "model_log_loss": 1.0016,
-      "model_rps": 0.2117,
-      "model_accuracy": 0.5313,
-      "rates_brier": 0.6396,
-      "rates_log_loss": 1.0584,
-      "rates_rps": 0.2326,
-      "rates_accuracy": 0.4644,
-      "odds_matches": 702,
+      "matches": 711,
+      "model_brier": 0.5991,
+      "model_log_loss": 1.0033,
+      "model_rps": 0.2119,
+      "model_accuracy": 0.5288,
+      "rates_brier": 0.6405,
+      "rates_log_loss": 1.0597,
+      "rates_rps": 0.2327,
+      "rates_accuracy": 0.4613,
+      "odds_matches": 711,
       "odds_books": {
         "pinnacle": 459,
-        "bet365": 243
+        "bet365": 252
       },
-      "model_on_odds_brier": 0.598,
-      "model_on_odds_log_loss": 1.0016,
-      "model_on_odds_rps": 0.2117,
-      "model_on_odds_accuracy": 0.5313,
-      "book_brier": 0.572,
-      "book_log_loss": 0.9637,
-      "book_rps": 0.2001,
-      "book_accuracy": 0.547,
+      "model_on_odds_brier": 0.5991,
+      "model_on_odds_log_loss": 1.0033,
+      "model_on_odds_rps": 0.2119,
+      "model_on_odds_accuracy": 0.5288,
+      "book_brier": 0.5735,
+      "book_log_loss": 0.9658,
+      "book_rps": 0.2005,
+      "book_accuracy": 0.5443,
       "markets": [
         {
           "market": "over_2.5",
           "label": "Over 2.5",
-          "count": 702,
-          "predicted": 0.54,
-          "actual": 0.544,
-          "brier": 0.2446
+          "count": 711,
+          "predicted": 0.541,
+          "actual": 0.543,
+          "brier": 0.2447
         },
         {
           "market": "btts",
           "label": "Both teams to score",
-          "count": 702,
+          "count": 711,
           "predicted": 0.569,
-          "actual": 0.544,
-          "brier": 0.2509
+          "actual": 0.546,
+          "brier": 0.2501
         },
         {
           "market": "1h_btts",
           "label": "1H Both teams to score",
-          "count": 702,
+          "count": 711,
           "predicted": 0.228,
-          "actual": 0.208,
-          "brier": 0.1679
+          "actual": 0.21,
+          "brier": 0.1685
         },
         {
           "market": "1h_over_0.5",
           "label": "1H Over 0.5",
-          "count": 702,
+          "count": 711,
           "predicted": 0.709,
-          "actual": 0.728,
-          "brier": 0.1985
+          "actual": 0.73,
+          "brier": 0.1975
         },
         {
           "market": "btts_over_2.5",
           "label": "Both teams to score and over 2.5",
-          "count": 702,
+          "count": 711,
           "predicted": 0.446,
-          "actual": 0.446,
-          "brier": 0.2491
+          "actual": 0.444,
+          "brier": 0.2489
         }
       ]
     },
     {
       "id": "N1",
       "name": "Eredivisie",
-      "matches": 720,
-      "model_brier": 0.5984,
-      "model_log_loss": 1.0027,
-      "model_rps": 0.2033,
-      "model_accuracy": 0.5097,
-      "rates_brier": 0.6518,
-      "rates_log_loss": 1.0772,
-      "rates_rps": 0.2295,
-      "rates_accuracy": 0.4333,
-      "odds_matches": 720,
+      "matches": 729,
+      "model_brier": 0.5983,
+      "model_log_loss": 1.0024,
+      "model_rps": 0.204,
+      "model_accuracy": 0.5089,
+      "rates_brier": 0.6519,
+      "rates_log_loss": 1.0771,
+      "rates_rps": 0.2304,
+      "rates_accuracy": 0.4307,
+      "odds_matches": 729,
       "odds_books": {
         "pinnacle": 448,
-        "bet365": 272
+        "bet365": 281
       },
-      "model_on_odds_brier": 0.5984,
-      "model_on_odds_log_loss": 1.0027,
-      "model_on_odds_rps": 0.2033,
-      "model_on_odds_accuracy": 0.5097,
-      "book_brier": 0.5746,
-      "book_log_loss": 0.9656,
-      "book_rps": 0.1916,
-      "book_accuracy": 0.5389,
+      "model_on_odds_brier": 0.5983,
+      "model_on_odds_log_loss": 1.0024,
+      "model_on_odds_rps": 0.204,
+      "model_on_odds_accuracy": 0.5089,
+      "book_brier": 0.5748,
+      "book_log_loss": 0.966,
+      "book_rps": 0.1926,
+      "book_accuracy": 0.5391,
       "markets": [
         {
           "market": "over_2.5",
           "label": "Over 2.5",
-          "count": 720,
+          "count": 729,
           "predicted": 0.593,
-          "actual": 0.606,
-          "brier": 0.2365
+          "actual": 0.609,
+          "brier": 0.2355
         },
         {
           "market": "btts",
           "label": "Both teams to score",
-          "count": 720,
-          "predicted": 0.607,
-          "actual": 0.608,
-          "brier": 0.2347
+          "count": 729,
+          "predicted": 0.608,
+          "actual": 0.61,
+          "brier": 0.2339
         },
         {
           "market": "1h_btts",
           "label": "1H Both teams to score",
-          "count": 720,
+          "count": 729,
           "predicted": 0.25,
-          "actual": 0.254,
-          "brier": 0.1882
+          "actual": 0.255,
+          "brier": 0.1886
         },
         {
           "market": "1h_over_0.5",
           "label": "1H Over 0.5",
-          "count": 720,
+          "count": 729,
           "predicted": 0.733,
           "actual": 0.782,
-          "brier": 0.1735
+          "brier": 0.1736
         },
         {
           "market": "btts_over_2.5",
           "label": "Both teams to score and over 2.5",
-          "count": 720,
-          "predicted": 0.493,
-          "actual": 0.492,
-          "brier": 0.2477
+          "count": 729,
+          "predicted": 0.494,
+          "actual": 0.495,
+          "brier": 0.2473
         }
       ]
     },
@@ -511,272 +511,272 @@
     {
       "id": "B1",
       "name": "Belgian Pro League",
-      "matches": 722,
-      "model_brier": 0.6188,
-      "model_log_loss": 1.0308,
-      "model_rps": 0.2133,
-      "model_accuracy": 0.4834,
-      "rates_brier": 0.6513,
-      "rates_log_loss": 1.0763,
-      "rates_rps": 0.2294,
-      "rates_accuracy": 0.4349,
-      "odds_matches": 722,
+      "matches": 731,
+      "model_brier": 0.6179,
+      "model_log_loss": 1.0294,
+      "model_rps": 0.2129,
+      "model_accuracy": 0.4843,
+      "rates_brier": 0.6512,
+      "rates_log_loss": 1.0762,
+      "rates_rps": 0.2295,
+      "rates_accuracy": 0.435,
+      "odds_matches": 731,
       "odds_books": {
         "pinnacle": 408,
-        "bet365": 314
+        "bet365": 323
       },
-      "model_on_odds_brier": 0.6188,
-      "model_on_odds_log_loss": 1.0308,
-      "model_on_odds_rps": 0.2133,
-      "model_on_odds_accuracy": 0.4834,
-      "book_brier": 0.5907,
-      "book_log_loss": 0.9911,
-      "book_rps": 0.2008,
-      "book_accuracy": 0.5152,
+      "model_on_odds_brier": 0.6179,
+      "model_on_odds_log_loss": 1.0294,
+      "model_on_odds_rps": 0.2129,
+      "model_on_odds_accuracy": 0.4843,
+      "book_brier": 0.5891,
+      "book_log_loss": 0.9888,
+      "book_rps": 0.2001,
+      "book_accuracy": 0.5171,
       "markets": [
         {
           "market": "over_2.5",
           "label": "Over 2.5",
-          "count": 722,
+          "count": 731,
           "predicted": 0.511,
           "actual": 0.524,
-          "brier": 0.2481
+          "brier": 0.2479
         },
         {
           "market": "btts",
           "label": "Both teams to score",
-          "count": 722,
+          "count": 731,
           "predicted": 0.547,
-          "actual": 0.528,
-          "brier": 0.2483
+          "actual": 0.527,
+          "brier": 0.2482
         },
         {
           "market": "1h_btts",
           "label": "1H Both teams to score",
-          "count": 721,
-          "predicted": 0.219,
-          "actual": 0.204,
-          "brier": 0.1634
+          "count": 730,
+          "predicted": 0.218,
+          "actual": 0.203,
+          "brier": 0.1627
         },
         {
           "market": "1h_over_0.5",
           "label": "1H Over 0.5",
-          "count": 721,
+          "count": 730,
           "predicted": 0.697,
-          "actual": 0.725,
-          "brier": 0.1979
+          "actual": 0.723,
+          "brier": 0.1986
         },
         {
           "market": "btts_over_2.5",
           "label": "Both teams to score and over 2.5",
-          "count": 722,
+          "count": 731,
           "predicted": 0.42,
           "actual": 0.409,
-          "brier": 0.2405
+          "brier": 0.2404
         }
       ]
     },
     {
       "id": "T1",
       "name": "Super Lig",
-      "matches": 747,
-      "model_brier": 0.5957,
-      "model_log_loss": 0.9992,
-      "model_rps": 0.205,
-      "model_accuracy": 0.5355,
-      "rates_brier": 0.6428,
-      "rates_log_loss": 1.0642,
-      "rates_rps": 0.2282,
-      "rates_accuracy": 0.4578,
-      "odds_matches": 747,
+      "matches": 755,
+      "model_brier": 0.5949,
+      "model_log_loss": 0.9981,
+      "model_rps": 0.2049,
+      "model_accuracy": 0.5377,
+      "rates_brier": 0.6425,
+      "rates_log_loss": 1.0637,
+      "rates_rps": 0.2284,
+      "rates_accuracy": 0.4583,
+      "odds_matches": 755,
       "odds_books": {
         "pinnacle": 477,
-        "bet365": 270
+        "bet365": 278
       },
-      "model_on_odds_brier": 0.5957,
-      "model_on_odds_log_loss": 0.9992,
-      "model_on_odds_rps": 0.205,
-      "model_on_odds_accuracy": 0.5355,
-      "book_brier": 0.5538,
-      "book_log_loss": 0.9369,
-      "book_rps": 0.1852,
-      "book_accuracy": 0.5837,
+      "model_on_odds_brier": 0.5949,
+      "model_on_odds_log_loss": 0.9981,
+      "model_on_odds_rps": 0.2049,
+      "model_on_odds_accuracy": 0.5377,
+      "book_brier": 0.5529,
+      "book_log_loss": 0.9355,
+      "book_rps": 0.1851,
+      "book_accuracy": 0.5841,
       "markets": [
         {
           "market": "over_2.5",
           "label": "Over 2.5",
-          "count": 747,
+          "count": 755,
           "predicted": 0.525,
-          "actual": 0.549,
-          "brier": 0.2482
+          "actual": 0.548,
+          "brier": 0.2486
         },
         {
           "market": "btts",
           "label": "Both teams to score",
-          "count": 747,
+          "count": 755,
           "predicted": 0.558,
           "actual": 0.542,
-          "brier": 0.2508
+          "brier": 0.2511
         },
         {
           "market": "1h_btts",
           "label": "1H Both teams to score",
-          "count": 746,
+          "count": 754,
           "predicted": 0.219,
-          "actual": 0.197,
-          "brier": 0.1607
+          "actual": 0.198,
+          "brier": 0.1612
         },
         {
           "market": "1h_over_0.5",
           "label": "1H Over 0.5",
-          "count": 746,
+          "count": 754,
           "predicted": 0.698,
           "actual": 0.727,
-          "brier": 0.2018
+          "brier": 0.2015
         },
         {
           "market": "btts_over_2.5",
           "label": "Both teams to score and over 2.5",
-          "count": 747,
+          "count": 755,
           "predicted": 0.432,
           "actual": 0.43,
-          "brier": 0.2475
+          "brier": 0.2478
         }
       ]
     },
     {
       "id": "G1",
       "name": "Super League Greece",
-      "matches": 538,
-      "model_brier": 0.5934,
-      "model_log_loss": 0.9951,
-      "model_rps": 0.2032,
-      "model_accuracy": 0.5297,
-      "rates_brier": 0.6541,
-      "rates_log_loss": 1.0797,
-      "rates_rps": 0.2333,
-      "rates_accuracy": 0.4164,
-      "odds_matches": 538,
+      "matches": 544,
+      "model_brier": 0.5919,
+      "model_log_loss": 0.993,
+      "model_rps": 0.2027,
+      "model_accuracy": 0.5312,
+      "rates_brier": 0.6535,
+      "rates_log_loss": 1.0787,
+      "rates_rps": 0.2332,
+      "rates_accuracy": 0.4191,
+      "odds_matches": 544,
       "odds_books": {
         "pinnacle": 288,
-        "bet365": 250
+        "bet365": 256
       },
-      "model_on_odds_brier": 0.5934,
-      "model_on_odds_log_loss": 0.9951,
-      "model_on_odds_rps": 0.2032,
-      "model_on_odds_accuracy": 0.5297,
-      "book_brier": 0.555,
-      "book_log_loss": 0.9391,
-      "book_rps": 0.1864,
-      "book_accuracy": 0.5335,
+      "model_on_odds_brier": 0.5919,
+      "model_on_odds_log_loss": 0.993,
+      "model_on_odds_rps": 0.2027,
+      "model_on_odds_accuracy": 0.5312,
+      "book_brier": 0.5519,
+      "book_log_loss": 0.9347,
+      "book_rps": 0.1852,
+      "book_accuracy": 0.5368,
       "markets": [
         {
           "market": "over_2.5",
           "label": "Over 2.5",
-          "count": 538,
+          "count": 544,
           "predicted": 0.482,
-          "actual": 0.489,
-          "brier": 0.2533
+          "actual": 0.487,
+          "brier": 0.2539
         },
         {
           "market": "btts",
           "label": "Both teams to score",
-          "count": 538,
+          "count": 544,
           "predicted": 0.523,
-          "actual": 0.489,
-          "brier": 0.255
+          "actual": 0.487,
+          "brier": 0.2557
         },
         {
           "market": "1h_btts",
           "label": "1H Both teams to score",
-          "count": 538,
+          "count": 544,
           "predicted": 0.202,
           "actual": 0.169,
-          "brier": 0.1433
+          "brier": 0.1436
         },
         {
           "market": "1h_over_0.5",
           "label": "1H Over 0.5",
-          "count": 538,
+          "count": 544,
           "predicted": 0.68,
-          "actual": 0.699,
-          "brier": 0.2139
+          "actual": 0.697,
+          "brier": 0.215
         },
         {
           "market": "btts_over_2.5",
           "label": "Both teams to score and over 2.5",
-          "count": 538,
+          "count": 544,
           "predicted": 0.392,
-          "actual": 0.359,
-          "brier": 0.2366
+          "actual": 0.357,
+          "brier": 0.2368
         }
       ]
     },
     {
       "id": "SC0",
       "name": "Scottish Premiership",
-      "matches": 531,
-      "model_brier": 0.6003,
-      "model_log_loss": 1.0073,
-      "model_rps": 0.2093,
-      "model_accuracy": 0.5085,
+      "matches": 537,
+      "model_brier": 0.5998,
+      "model_log_loss": 1.0065,
+      "model_rps": 0.2097,
+      "model_accuracy": 0.5084,
       "rates_brier": 0.643,
-      "rates_log_loss": 1.0638,
-      "rates_rps": 0.2309,
-      "rates_accuracy": 0.4539,
-      "odds_matches": 531,
+      "rates_log_loss": 1.0637,
+      "rates_rps": 0.2316,
+      "rates_accuracy": 0.4525,
+      "odds_matches": 537,
       "odds_books": {
         "pinnacle": 283,
-        "bet365": 248
+        "bet365": 254
       },
-      "model_on_odds_brier": 0.6003,
-      "model_on_odds_log_loss": 1.0073,
-      "model_on_odds_rps": 0.2093,
-      "model_on_odds_accuracy": 0.5085,
-      "book_brier": 0.5755,
-      "book_log_loss": 0.9702,
-      "book_rps": 0.199,
-      "book_accuracy": 0.5198,
+      "model_on_odds_brier": 0.5998,
+      "model_on_odds_log_loss": 1.0065,
+      "model_on_odds_rps": 0.2097,
+      "model_on_odds_accuracy": 0.5084,
+      "book_brier": 0.5738,
+      "book_log_loss": 0.9677,
+      "book_rps": 0.1988,
+      "book_accuracy": 0.5214,
       "markets": [
         {
           "market": "over_2.5",
           "label": "Over 2.5",
-          "count": 531,
+          "count": 537,
           "predicted": 0.536,
-          "actual": 0.569,
-          "brier": 0.2525
+          "actual": 0.574,
+          "brier": 0.2522
         },
         {
           "market": "btts",
           "label": "Both teams to score",
-          "count": 531,
+          "count": 537,
           "predicted": 0.562,
-          "actual": 0.531,
-          "brier": 0.2456
+          "actual": 0.533,
+          "brier": 0.2457
         },
         {
           "market": "1h_btts",
           "label": "1H Both teams to score",
-          "count": 531,
+          "count": 537,
           "predicted": 0.221,
-          "actual": 0.209,
-          "brier": 0.1652
+          "actual": 0.21,
+          "brier": 0.1661
         },
         {
           "market": "1h_over_0.5",
           "label": "1H Over 0.5",
-          "count": 531,
+          "count": 537,
           "predicted": 0.704,
-          "actual": 0.772,
-          "brier": 0.1803
+          "actual": 0.775,
+          "brier": 0.1792
         },
         {
           "market": "btts_over_2.5",
           "label": "Both teams to score and over 2.5",
-          "count": 531,
+          "count": 537,
           "predicted": 0.439,
-          "actual": 0.433,
-          "brier": 0.2487
+          "actual": 0.436,
+          "brier": 0.2491
         }
       ]
     },
@@ -898,63 +898,63 @@
     },
     {
       "season": "2026-27",
-      "matches": 1055,
-      "model_brier": 0.5956,
-      "model_log_loss": 0.9982,
-      "model_rps": 0.2114,
-      "model_accuracy": 0.5355,
-      "rates_brier": 0.6437,
+      "matches": 1132,
+      "model_brier": 0.5948,
+      "model_log_loss": 0.9971,
+      "model_rps": 0.2113,
+      "model_accuracy": 0.5353,
+      "rates_brier": 0.6438,
       "rates_log_loss": 1.0639,
-      "rates_rps": 0.2357,
-      "rates_accuracy": 0.4455,
-      "odds_matches": 1048,
+      "rates_rps": 0.2361,
+      "rates_accuracy": 0.4443,
+      "odds_matches": 1131,
       "odds_books": {
-        "bet365": 1048
+        "bet365": 1131
       },
-      "model_on_odds_brier": 0.5958,
-      "model_on_odds_log_loss": 0.9986,
+      "model_on_odds_brier": 0.5946,
+      "model_on_odds_log_loss": 0.9968,
       "model_on_odds_rps": 0.2114,
-      "model_on_odds_accuracy": 0.5353,
-      "book_brier": 0.5557,
-      "book_log_loss": 0.9402,
-      "book_rps": 0.1936,
-      "book_accuracy": 0.5592
+      "model_on_odds_accuracy": 0.5358,
+      "book_brier": 0.5536,
+      "book_log_loss": 0.9372,
+      "book_rps": 0.1934,
+      "book_accuracy": 0.5615
     }
   ],
   "markets": [
     {
       "market": "home",
       "label": "Home win",
-      "count": 8240,
-      "predicted": 0.421,
+      "count": 8317,
+      "predicted": 0.422,
       "actual": 0.434,
-      "brier": 0.2191,
+      "brier": 0.219,
       "bins": [
         {
           "from": 0.0,
           "to": 0.2,
-          "count": 168,
+          "count": 169,
           "predicted": 0.172,
           "actual": 0.107
         },
         {
           "from": 0.2,
           "to": 0.4,
-          "count": 3464,
+          "count": 3490,
           "predicted": 0.326,
-          "actual": 0.29
+          "actual": 0.289
         },
         {
           "from": 0.4,
           "to": 0.6,
-          "count": 4006,
+          "count": 4051,
           "predicted": 0.48,
           "actual": 0.521
         },
         {
           "from": 0.6,
           "to": 0.8,
-          "count": 600,
+          "count": 605,
           "predicted": 0.648,
           "actual": 0.783
         },
@@ -970,22 +970,22 @@
     {
       "market": "draw",
       "label": "Draw",
-      "count": 8240,
+      "count": 8317,
       "predicted": 0.268,
       "actual": 0.25,
-      "brier": 0.187,
+      "brier": 0.1868,
       "bins": [
         {
           "from": 0.0,
           "to": 0.2,
-          "count": 229,
+          "count": 231,
           "predicted": 0.18,
-          "actual": 0.105
+          "actual": 0.108
         },
         {
           "from": 0.2,
           "to": 0.4,
-          "count": 8011,
+          "count": 8086,
           "predicted": 0.271,
           "actual": 0.254
         },
@@ -1015,29 +1015,29 @@
     {
       "market": "away",
       "label": "Away win",
-      "count": 8240,
+      "count": 8317,
       "predicted": 0.31,
       "actual": 0.316,
-      "brier": 0.1944,
+      "brier": 0.1946,
       "bins": [
         {
           "from": 0.0,
           "to": 0.2,
-          "count": 1193,
+          "count": 1202,
           "predicted": 0.163,
           "actual": 0.097
         },
         {
           "from": 0.2,
           "to": 0.4,
-          "count": 5509,
+          "count": 5567,
           "predicted": 0.297,
-          "actual": 0.29
+          "actual": 0.292
         },
         {
           "from": 0.4,
           "to": 0.6,
-          "count": 1465,
+          "count": 1475,
           "predicted": 0.465,
           "actual": 0.568
         },
@@ -1060,10 +1060,10 @@
     {
       "market": "over_2.5",
       "label": "Over 2.5",
-      "count": 8240,
+      "count": 8317,
       "predicted": 0.525,
       "actual": 0.541,
-      "brier": 0.2459,
+      "brier": 0.246,
       "bins": [
         {
           "from": 0.0,
@@ -1075,40 +1075,40 @@
         {
           "from": 0.2,
           "to": 0.4,
-          "count": 889,
+          "count": 891,
           "predicted": 0.353,
-          "actual": 0.444
+          "actual": 0.446
         },
         {
           "from": 0.4,
           "to": 0.6,
-          "count": 5427,
+          "count": 5482,
           "predicted": 0.506,
           "actual": 0.525
         },
         {
           "from": 0.6,
           "to": 0.8,
-          "count": 1896,
+          "count": 1915,
           "predicted": 0.656,
           "actual": 0.626
         },
         {
           "from": 0.8,
           "to": 1.0,
-          "count": 28,
-          "predicted": 0.824,
-          "actual": 0.821
+          "count": 29,
+          "predicted": 0.823,
+          "actual": 0.793
         }
       ]
     },
     {
       "market": "btts",
       "label": "Both teams to score",
-      "count": 8240,
+      "count": 8317,
       "predicted": 0.555,
-      "actual": 0.541,
-      "brier": 0.2486,
+      "actual": 0.54,
+      "brier": 0.2485,
       "bins": [
         {
           "from": 0.0,
@@ -1127,16 +1127,16 @@
         {
           "from": 0.4,
           "to": 0.6,
-          "count": 5788,
+          "count": 5833,
           "predicted": 0.525,
-          "actual": 0.522
+          "actual": 0.52
         },
         {
           "from": 0.6,
           "to": 0.8,
-          "count": 2282,
+          "count": 2314,
           "predicted": 0.646,
-          "actual": 0.591
+          "actual": 0.592
         },
         {
           "from": 0.8,
@@ -1150,38 +1150,38 @@
     {
       "market": "1h_home",
       "label": "1H Home win",
-      "count": 7969,
+      "count": 8052,
       "predicted": 0.321,
-      "actual": 0.349,
-      "brier": 0.216,
+      "actual": 0.348,
+      "brier": 0.2157,
       "bins": [
         {
           "from": 0.0,
           "to": 0.2,
-          "count": 470,
+          "count": 473,
           "predicted": 0.175,
-          "actual": 0.172
+          "actual": 0.171
         },
         {
           "from": 0.2,
           "to": 0.4,
-          "count": 6135,
+          "count": 6199,
           "predicted": 0.303,
           "actual": 0.317
         },
         {
           "from": 0.4,
           "to": 0.6,
-          "count": 1350,
+          "count": 1365,
           "predicted": 0.452,
-          "actual": 0.549
+          "actual": 0.548
         },
         {
           "from": 0.6,
           "to": 0.8,
-          "count": 14,
-          "predicted": 0.623,
-          "actual": 0.786
+          "count": 15,
+          "predicted": 0.622,
+          "actual": 0.733
         },
         {
           "from": 0.8,
@@ -1195,7 +1195,7 @@
     {
       "market": "1h_draw",
       "label": "1H Draw",
-      "count": 7969,
+      "count": 8052,
       "predicted": 0.428,
       "actual": 0.393,
       "brier": 0.2376,
@@ -1210,16 +1210,16 @@
         {
           "from": 0.2,
           "to": 0.4,
-          "count": 2009,
+          "count": 2033,
           "predicted": 0.374,
-          "actual": 0.334
+          "actual": 0.333
         },
         {
           "from": 0.4,
           "to": 0.6,
-          "count": 5960,
+          "count": 6019,
           "predicted": 0.447,
-          "actual": 0.412
+          "actual": 0.413
         },
         {
           "from": 0.6,
@@ -1240,31 +1240,31 @@
     {
       "market": "1h_away",
       "label": "1H Away win",
-      "count": 7969,
+      "count": 8052,
       "predicted": 0.251,
       "actual": 0.259,
-      "brier": 0.1832,
+      "brier": 0.1835,
       "bins": [
         {
           "from": 0.0,
           "to": 0.2,
-          "count": 2082,
+          "count": 2103,
           "predicted": 0.167,
           "actual": 0.143
         },
         {
           "from": 0.2,
           "to": 0.4,
-          "count": 5589,
+          "count": 5649,
           "predicted": 0.272,
-          "actual": 0.291
+          "actual": 0.292
         },
         {
           "from": 0.4,
           "to": 0.6,
-          "count": 298,
+          "count": 300,
           "predicted": 0.441,
-          "actual": 0.463
+          "actual": 0.467
         },
         {
           "from": 0.6,
@@ -1285,24 +1285,24 @@
     {
       "market": "1h_btts",
       "label": "1H Both teams to score",
-      "count": 7969,
+      "count": 8052,
       "predicted": 0.219,
       "actual": 0.199,
-      "brier": 0.1602,
+      "brier": 0.1604,
       "bins": [
         {
           "from": 0.0,
           "to": 0.2,
-          "count": 3037,
+          "count": 3065,
           "predicted": 0.169,
-          "actual": 0.173
+          "actual": 0.172
         },
         {
           "from": 0.2,
           "to": 0.4,
-          "count": 4913,
+          "count": 4968,
           "predicted": 0.25,
-          "actual": 0.215
+          "actual": 0.216
         },
         {
           "from": 0.4,
@@ -1330,10 +1330,10 @@
     {
       "market": "1h_over_0.5",
       "label": "1H Over 0.5",
-      "count": 7969,
+      "count": 8052,
       "predicted": 0.699,
       "actual": 0.722,
-      "brier": 0.1994,
+      "brier": 0.1993,
       "bins": [
         {
           "from": 0.0,
@@ -1359,26 +1359,26 @@
         {
           "from": 0.6,
           "to": 0.8,
-          "count": 7202,
+          "count": 7283,
           "predicted": 0.701,
           "actual": 0.726
         },
         {
           "from": 0.8,
           "to": 1.0,
-          "count": 323,
+          "count": 325,
           "predicted": 0.822,
-          "actual": 0.78
+          "actual": 0.778
         }
       ]
     },
     {
       "market": "1h_over_1.5",
       "label": "1H Over 1.5",
-      "count": 7969,
+      "count": 8052,
       "predicted": 0.367,
-      "actual": 0.355,
-      "brier": 0.2271,
+      "actual": 0.356,
+      "brier": 0.2272,
       "bins": [
         {
           "from": 0.0,
@@ -1390,16 +1390,16 @@
         {
           "from": 0.2,
           "to": 0.4,
-          "count": 5362,
+          "count": 5412,
           "predicted": 0.326,
           "actual": 0.327
         },
         {
           "from": 0.4,
           "to": 0.6,
-          "count": 2515,
+          "count": 2548,
           "predicted": 0.454,
-          "actual": 0.416
+          "actual": 0.418
         },
         {
           "from": 0.6,
@@ -1420,31 +1420,31 @@
     {
       "market": "home_win_btts",
       "label": "Home win and both teams to score",
-      "count": 8240,
+      "count": 8317,
       "predicted": 0.207,
       "actual": 0.201,
-      "brier": 0.1562,
+      "brier": 0.1559,
       "bins": [
         {
           "from": 0.0,
           "to": 0.2,
-          "count": 4174,
+          "count": 4205,
           "predicted": 0.156,
-          "actual": 0.149
+          "actual": 0.148
         },
         {
           "from": 0.2,
           "to": 0.4,
-          "count": 4011,
+          "count": 4056,
           "predicted": 0.256,
-          "actual": 0.253
+          "actual": 0.252
         },
         {
           "from": 0.4,
           "to": 0.6,
-          "count": 55,
-          "predicted": 0.434,
-          "actual": 0.4
+          "count": 56,
+          "predicted": 0.435,
+          "actual": 0.393
         },
         {
           "from": 0.6,
@@ -1465,38 +1465,38 @@
     {
       "market": "home_win_over_2.5",
       "label": "Home win and over 2.5",
-      "count": 8240,
+      "count": 8317,
       "predicted": 0.267,
       "actual": 0.275,
-      "brier": 0.1844,
+      "brier": 0.1843,
       "bins": [
         {
           "from": 0.0,
           "to": 0.2,
-          "count": 2092,
+          "count": 2107,
           "predicted": 0.159,
-          "actual": 0.138
+          "actual": 0.137
         },
         {
           "from": 0.2,
           "to": 0.4,
-          "count": 5336,
+          "count": 5392,
           "predicted": 0.28,
           "actual": 0.287
         },
         {
           "from": 0.4,
           "to": 0.6,
-          "count": 789,
+          "count": 794,
           "predicted": 0.458,
           "actual": 0.544
         },
         {
           "from": 0.6,
           "to": 0.8,
-          "count": 23,
-          "predicted": 0.638,
-          "actual": 0.696
+          "count": 24,
+          "predicted": 0.637,
+          "actual": 0.667
         },
         {
           "from": 0.8,
@@ -1510,10 +1510,10 @@
     {
       "market": "btts_over_2.5",
       "label": "Both teams to score and over 2.5",
-      "count": 8240,
+      "count": 8317,
       "predicted": 0.431,
       "actual": 0.426,
-      "brier": 0.2446,
+      "brier": 0.2445,
       "bins": [
         {
           "from": 0.0,
@@ -1525,23 +1525,23 @@
         {
           "from": 0.2,
           "to": 0.4,
-          "count": 3046,
+          "count": 3069,
           "predicted": 0.342,
           "actual": 0.385
         },
         {
           "from": 0.4,
           "to": 0.6,
-          "count": 4909,
+          "count": 4961,
           "predicted": 0.477,
           "actual": 0.444
         },
         {
           "from": 0.6,
           "to": 0.8,
-          "count": 261,
+          "count": 263,
           "predicted": 0.634,
-          "actual": 0.571
+          "actual": 0.57
         },
         {
           "from": 0.8,
@@ -1555,10 +1555,10 @@
     {
       "market": "dc_1x",
       "label": "Home or draw",
-      "count": 8240,
+      "count": 8317,
       "predicted": 0.69,
       "actual": 0.684,
-      "brier": 0.1944,
+      "brier": 0.1946,
       "bins": [
         {
           "from": 0.0,
@@ -1577,21 +1577,21 @@
         {
           "from": 0.4,
           "to": 0.6,
-          "count": 1464,
+          "count": 1474,
           "predicted": 0.535,
           "actual": 0.432
         },
         {
           "from": 0.6,
           "to": 0.8,
-          "count": 5510,
+          "count": 5568,
           "predicted": 0.703,
-          "actual": 0.709
+          "actual": 0.708
         },
         {
           "from": 0.8,
           "to": 1.0,
-          "count": 1193,
+          "count": 1202,
           "predicted": 0.837,
           "actual": 0.903
         }
@@ -1600,38 +1600,38 @@
     {
       "market": "dc_1x_over_2.5",
       "label": "Home or draw and over 2.5",
-      "count": 8240,
-      "predicted": 0.333,
-      "actual": 0.348,
-      "brier": 0.2127,
+      "count": 8317,
+      "predicted": 0.334,
+      "actual": 0.347,
+      "brier": 0.2128,
       "bins": [
         {
           "from": 0.0,
           "to": 0.2,
-          "count": 647,
+          "count": 649,
           "predicted": 0.17,
-          "actual": 0.175
+          "actual": 0.174
         },
         {
           "from": 0.2,
           "to": 0.4,
-          "count": 5661,
+          "count": 5712,
           "predicted": 0.303,
           "actual": 0.307
         },
         {
           "from": 0.4,
           "to": 0.6,
-          "count": 1833,
+          "count": 1856,
           "predicted": 0.467,
-          "actual": 0.512
+          "actual": 0.51
         },
         {
           "from": 0.6,
           "to": 0.8,
-          "count": 99,
+          "count": 100,
           "predicted": 0.647,
-          "actual": 0.747
+          "actual": 0.74
         },
         {
           "from": 0.8,
@@ -1645,31 +1645,31 @@
     {
       "market": "ah_home_-1.5",
       "label": "Home -1.5",
-      "count": 8240,
+      "count": 8317,
       "predicted": 0.221,
       "actual": 0.225,
-      "brier": 0.1589,
+      "brier": 0.159,
       "bins": [
         {
           "from": 0.0,
           "to": 0.2,
-          "count": 3818,
+          "count": 3845,
           "predicted": 0.145,
           "actual": 0.116
         },
         {
           "from": 0.2,
           "to": 0.4,
-          "count": 4037,
+          "count": 4083,
           "predicted": 0.27,
-          "actual": 0.296
+          "actual": 0.297
         },
         {
           "from": 0.4,
           "to": 0.6,
-          "count": 382,
+          "count": 386,
           "predicted": 0.451,
-          "actual": 0.565
+          "actual": 0.56
         },
         {
           "from": 0.6,
@@ -1690,31 +1690,31 @@
     {
       "market": "ah_home_-1",
       "label": "Home -1",
-      "count": 8240,
+      "count": 8317,
       "predicted": 0.221,
       "actual": 0.225,
-      "brier": 0.1589,
+      "brier": 0.159,
       "bins": [
         {
           "from": 0.0,
           "to": 0.2,
-          "count": 3818,
+          "count": 3845,
           "predicted": 0.145,
           "actual": 0.116
         },
         {
           "from": 0.2,
           "to": 0.4,
-          "count": 4037,
+          "count": 4083,
           "predicted": 0.27,
-          "actual": 0.296
+          "actual": 0.297
         },
         {
           "from": 0.4,
           "to": 0.6,
-          "count": 382,
+          "count": 386,
           "predicted": 0.451,
-          "actual": 0.565
+          "actual": 0.56
         },
         {
           "from": 0.6,
@@ -1735,19 +1735,19 @@
   ],
   "miscalibration": [
     "Home win in the 60% to 80% band averages 64.8%, and the results landed 78.3%. The price is lower than the results.",
-    "Draw in the 0% to 20% band averages 18.0%, and the results landed 10.5%. The price is higher than the results.",
+    "Draw in the 0% to 20% band averages 18.0%, and the results landed 10.8%. The price is higher than the results.",
     "Away win in the 0% to 20% band averages 16.3%, and the results landed 9.7%. The price is higher than the results.",
     "Away win in the 40% to 60% band averages 46.5%, and the results landed 56.8%. The price is lower than the results.",
-    "Over 2.5 in the 20% to 40% band averages 35.3%, and the results landed 44.4%. The price is lower than the results.",
-    "Both teams to score in the 60% to 80% band averages 64.6%, and the results landed 59.1%. The price is higher than the results.",
-    "1H Home win in the 40% to 60% band averages 45.2%, and the results landed 54.9%. The price is lower than the results.",
+    "Over 2.5 in the 20% to 40% band averages 35.3%, and the results landed 44.6%. The price is lower than the results.",
+    "Both teams to score in the 60% to 80% band averages 64.6%, and the results landed 59.2%. The price is higher than the results.",
+    "1H Home win in the 40% to 60% band averages 45.2%, and the results landed 54.8%. The price is lower than the results.",
     "1H Draw averages 42.8%, and the results landed 39.3%. The price is higher than the results.",
     "Home win and over 2.5 in the 40% to 60% band averages 45.8%, and the results landed 54.4%. The price is lower than the results.",
-    "Both teams to score and over 2.5 in the 60% to 80% band averages 63.4%, and the results landed 57.1%. The price is higher than the results.",
+    "Both teams to score and over 2.5 in the 60% to 80% band averages 63.4%, and the results landed 57.0%. The price is higher than the results.",
     "Home or draw in the 40% to 60% band averages 53.5%, and the results landed 43.2%. The price is higher than the results.",
     "Home or draw in the 80% to 100% band averages 83.7%, and the results landed 90.3%. The price is lower than the results.",
-    "Home -1.5 in the 40% to 60% band averages 45.1%, and the results landed 56.5%. The price is lower than the results.",
-    "Home -1 in the 40% to 60% band averages 45.1%, and the results landed 56.5%. The price is lower than the results."
+    "Home -1.5 in the 40% to 60% band averages 45.1%, and the results landed 56.0%. The price is lower than the results.",
+    "Home -1 in the 40% to 60% band averages 45.1%, and the results landed 56.0%. The price is lower than the results."
   ],
   "cups": {
     "matches": 1648,
@@ -1862,5 +1862,5 @@
     "book_rps": null,
     "book_accuracy": null
   },
-  "generated_at": "2026-11-22T18:17:19+00:00"
+  "generated_at": "2026-11-23T22:32:33+00:00"
 }

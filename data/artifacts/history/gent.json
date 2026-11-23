@@ -2,7 +2,7 @@
   "id": "gent",
   "name": "KAA Gent",
   "league": "Belgian Pro League",
-  "rating": 1493.6,
+  "rating": 1486.4,
   "points": [
     {
       "date": "2021-07-25",
@@ -1730,6 +1730,13 @@
       "date": "2026-11-08",
       "rating": 1493.56,
       "opponent": "Kortrijk",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-22",
+      "rating": 1486.43,
+      "opponent": "Beveren",
       "competition_id": "B1",
       "event": "match"
     }

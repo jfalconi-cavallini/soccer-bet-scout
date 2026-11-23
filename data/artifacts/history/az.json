@@ -2,7 +2,7 @@
   "id": "az",
   "name": "AZ Alkmaar",
   "league": "Eredivisie",
-  "rating": 1524.1,
+  "rating": 1536.7,
   "points": [
     {
       "date": "2021-08-14",
@@ -1618,6 +1618,13 @@
       "date": "2026-11-08",
       "rating": 1524.09,
       "opponent": "FC Groningen",
+      "competition_id": "N1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-22",
+      "rating": 1536.68,
+      "opponent": "Sparta Rotterdam",
       "competition_id": "N1",
       "event": "match"
     }

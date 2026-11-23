@@ -2,7 +2,7 @@
   "id": "osasuna",
   "name": "CA Osasuna",
   "league": "La Liga",
-  "rating": 1532.7,
+  "rating": 1535.6,
   "points": [
     {
       "date": "2021-08-14",
@@ -1450,6 +1450,13 @@
       "date": "2026-11-07",
       "rating": 1532.65,
       "opponent": "Athletic Club",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-22",
+      "rating": 1535.63,
+      "opponent": "M\u00e1laga CF",
       "competition_id": "SP1",
       "event": "match"
     }

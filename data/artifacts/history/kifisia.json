@@ -2,7 +2,7 @@
   "id": "kifisia",
   "name": "AE Kifisias",
   "league": "Super League Greece",
-  "rating": 1378.4,
+  "rating": 1370.6,
   "points": [
     {
       "date": "2023-07-01",
@@ -582,6 +582,13 @@
       "date": "2026-11-07",
       "rating": 1378.42,
       "opponent": "Volos NFC",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-22",
+      "rating": 1370.57,
+      "opponent": "PAOK Saloniki",
       "competition_id": "G1",
       "event": "match"
     }

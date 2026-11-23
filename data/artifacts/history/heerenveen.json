@@ -2,7 +2,7 @@
   "id": "heerenveen",
   "name": "SC Heerenveen",
   "league": "Eredivisie",
-  "rating": 1501.3,
+  "rating": 1511.8,
   "points": [
     {
       "date": "2021-08-13",
@@ -1310,6 +1310,13 @@
       "date": "2026-11-08",
       "rating": 1501.29,
       "opponent": "Feyenoord Rotterdam",
+      "competition_id": "N1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-21",
+      "rating": 1511.84,
+      "opponent": "FC Groningen",
       "competition_id": "N1",
       "event": "match"
     }

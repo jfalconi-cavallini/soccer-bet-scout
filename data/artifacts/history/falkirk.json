@@ -2,7 +2,7 @@
   "id": "falkirk",
   "name": "Falkirk FC",
   "league": "Scottish Premiership",
-  "rating": 1406.5,
+  "rating": 1408.4,
   "points": [
     {
       "date": "2025-07-01",
@@ -372,6 +372,13 @@
       "date": "2026-11-08",
       "rating": 1406.49,
       "opponent": "Heart of Midlothian",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-21",
+      "rating": 1408.44,
+      "opponent": "St Johnstone",
       "competition_id": "SC0",
       "event": "match"
     }

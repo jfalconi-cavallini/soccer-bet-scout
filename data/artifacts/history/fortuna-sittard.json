@@ -2,7 +2,7 @@
   "id": "fortuna-sittard",
   "name": "Fortuna Sittard",
   "league": "Eredivisie",
-  "rating": 1409.7,
+  "rating": 1419.1,
   "points": [
     {
       "date": "2021-08-14",
@@ -1310,6 +1310,13 @@
       "date": "2026-11-07",
       "rating": 1409.69,
       "opponent": "Telstar 1963",
+      "competition_id": "N1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-22",
+      "rating": 1419.08,
+      "opponent": "Go Ahead Eagles",
       "competition_id": "N1",
       "event": "match"
     }

@@ -2,7 +2,7 @@
   "id": "arsenal",
   "name": "Arsenal FC",
   "league": "Premier League",
-  "rating": 1840.4,
+  "rating": 1836.0,
   "points": [
     {
       "date": "2021-08-13",
@@ -1793,6 +1793,13 @@
       "date": "2026-11-07",
       "rating": 1840.4,
       "opponent": "Hull City AFC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-21",
+      "rating": 1836.03,
+      "opponent": "Newcastle United FC",
       "competition_id": "E0",
       "event": "match"
     }

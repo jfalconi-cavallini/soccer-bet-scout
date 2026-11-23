@@ -2,7 +2,7 @@
   "id": "olympiacos",
   "name": "Olympiakos Piraeus",
   "league": "Super League Greece",
-  "rating": 1557.5,
+  "rating": 1558.7,
   "points": [
     {
       "date": "2021-09-12",
@@ -1653,6 +1653,13 @@
       "date": "2026-11-08",
       "rating": 1557.47,
       "opponent": "PAOK Saloniki",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-22",
+      "rating": 1558.75,
+      "opponent": "Iraklis",
       "competition_id": "G1",
       "event": "match"
     }

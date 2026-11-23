@@ -2,7 +2,7 @@
   "id": "manchester-united",
   "name": "Manchester United FC",
   "league": "Premier League",
-  "rating": 1657.8,
+  "rating": 1645.6,
   "points": [
     {
       "date": "2021-08-14",
@@ -1751,6 +1751,13 @@
       "date": "2026-11-08",
       "rating": 1657.84,
       "opponent": "Aston Villa FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-22",
+      "rating": 1645.64,
+      "opponent": "Liverpool FC",
       "competition_id": "E0",
       "event": "match"
     }

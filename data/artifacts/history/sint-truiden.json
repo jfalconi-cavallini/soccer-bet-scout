@@ -2,7 +2,7 @@
   "id": "sint-truiden",
   "name": "Sint-Truidense VV",
   "league": "Belgian Pro League",
-  "rating": 1466.3,
+  "rating": 1472.1,
   "points": [
     {
       "date": "2021-07-25",
@@ -1401,6 +1401,13 @@
       "date": "2026-11-08",
       "rating": 1466.33,
       "opponent": "SV Zulte Waregem",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-21",
+      "rating": 1472.08,
+      "opponent": "Sporting Charleroi",
       "competition_id": "B1",
       "event": "match"
     }

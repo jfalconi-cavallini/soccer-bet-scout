@@ -2,7 +2,7 @@
   "id": "kortrijk",
   "name": "Kortrijk",
   "league": "Belgian Pro League",
-  "rating": 1303.9,
+  "rating": 1303.3,
   "points": [
     {
       "date": "2021-07-24",
@@ -1093,6 +1093,13 @@
       "date": "2026-11-08",
       "rating": 1303.9,
       "opponent": "KAA Gent",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-22",
+      "rating": 1303.29,
+      "opponent": "Royale Union Saint-Gilloise",
       "competition_id": "B1",
       "event": "match"
     }

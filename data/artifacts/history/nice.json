@@ -2,7 +2,7 @@
   "id": "nice",
   "name": "OGC Nice",
   "league": "Ligue 1",
-  "rating": 1510.0,
+  "rating": 1507.8,
   "points": [
     {
       "date": "2021-08-08",
@@ -1492,6 +1492,13 @@
       "date": "2026-11-08",
       "rating": 1509.99,
       "opponent": "Angers SCO",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-21",
+      "rating": 1507.76,
+      "opponent": "Paris Saint-Germain FC",
       "competition_id": "F1",
       "event": "match"
     }

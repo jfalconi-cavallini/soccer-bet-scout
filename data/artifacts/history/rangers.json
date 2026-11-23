@@ -2,7 +2,7 @@
   "id": "rangers",
   "name": "Rangers FC",
   "league": "Scottish Premiership",
-  "rating": 1546.1,
+  "rating": 1554.3,
   "points": [
     {
       "date": "2021-07-31",
@@ -1793,6 +1793,13 @@
       "date": "2026-11-07",
       "rating": 1546.05,
       "opponent": "St. Mirren FC",
+      "competition_id": "SC0",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-21",
+      "rating": 1554.34,
+      "opponent": "Motherwell FC",
       "competition_id": "SC0",
       "event": "match"
     }

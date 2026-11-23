@@ -2,7 +2,7 @@
   "id": "paris",
   "name": "Paris FC",
   "league": "Ligue 1",
-  "rating": 1568.5,
+  "rating": 1576.4,
   "points": [
     {
       "date": "2025-07-01",
@@ -323,6 +323,13 @@
       "date": "2026-11-07",
       "rating": 1568.54,
       "opponent": "AJ Auxerre",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-22",
+      "rating": 1576.41,
+      "opponent": "Angers SCO",
       "competition_id": "F1",
       "event": "match"
     }

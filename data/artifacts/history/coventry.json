@@ -2,7 +2,7 @@
   "id": "coventry",
   "name": "Coventry City FC",
   "league": "Premier League",
-  "rating": 1537.9,
+  "rating": 1542.7,
   "points": [
     {
       "date": "2026-07-01",
@@ -78,6 +78,13 @@
       "date": "2026-11-06",
       "rating": 1537.88,
       "opponent": "Everton FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-21",
+      "rating": 1542.7,
+      "opponent": "Crystal Palace FC",
       "competition_id": "E0",
       "event": "match"
     }

@@ -2,7 +2,7 @@
   "id": "tottenham",
   "name": "Tottenham Hotspur FC",
   "league": "Premier League",
-  "rating": 1620.1,
+  "rating": 1627.4,
   "points": [
     {
       "date": "2021-08-15",
@@ -1709,6 +1709,13 @@
       "date": "2026-11-07",
       "rating": 1620.08,
       "opponent": "Leeds United FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-21",
+      "rating": 1627.45,
+      "opponent": "Ipswich Town FC",
       "competition_id": "E0",
       "event": "match"
     }

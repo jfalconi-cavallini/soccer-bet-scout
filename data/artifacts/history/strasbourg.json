@@ -2,7 +2,7 @@
   "id": "strasbourg",
   "name": "RC Strasbourg Alsace",
   "league": "Ligue 1",
-  "rating": 1543.3,
+  "rating": 1536.1,
   "points": [
     {
       "date": "2021-08-08",
@@ -1366,6 +1366,13 @@
       "date": "2026-11-06",
       "rating": 1543.33,
       "opponent": "Toulouse FC",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-21",
+      "rating": 1536.15,
+      "opponent": "Stade Brestois 29",
       "competition_id": "F1",
       "event": "match"
     }

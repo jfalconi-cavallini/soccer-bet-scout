@@ -2,7 +2,7 @@
   "id": "volos-nfc",
   "name": "Volos NFC",
   "league": "Super League Greece",
-  "rating": 1278.5,
+  "rating": 1276.8,
   "points": [
     {
       "date": "2021-09-12",
@@ -1289,6 +1289,13 @@
       "date": "2026-11-07",
       "rating": 1278.54,
       "opponent": "AE Kifisias",
+      "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-22",
+      "rating": 1276.76,
+      "opponent": "Panetolikos",
       "competition_id": "G1",
       "event": "match"
     }

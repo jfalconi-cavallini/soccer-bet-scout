@@ -2,7 +2,7 @@
   "id": "venezia",
   "name": "Venezia FC",
   "league": "Serie A",
-  "rating": 1428.9,
+  "rating": 1428.7,
   "points": [
     {
       "date": "2021-08-22",
@@ -645,6 +645,13 @@
       "date": "2026-11-06",
       "rating": 1428.9,
       "opponent": "Udinese Calcio",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-22",
+      "rating": 1428.72,
+      "opponent": "Juventus FC",
       "competition_id": "I1",
       "event": "match"
     }

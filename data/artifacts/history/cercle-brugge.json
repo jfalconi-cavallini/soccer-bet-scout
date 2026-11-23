@@ -2,7 +2,7 @@
   "id": "cercle-brugge",
   "name": "Cercle Brugge",
   "league": "Belgian Pro League",
-  "rating": 1398.8,
+  "rating": 1405.5,
   "points": [
     {
       "date": "2021-07-27",
@@ -1471,6 +1471,13 @@
       "date": "2026-11-07",
       "rating": 1398.79,
       "opponent": "RAAL La Louviere",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-20",
+      "rating": 1405.47,
+      "opponent": "KVC Westerlo",
       "competition_id": "B1",
       "event": "match"
     }

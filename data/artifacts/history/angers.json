@@ -2,7 +2,7 @@
   "id": "angers",
   "name": "Angers SCO",
   "league": "Ligue 1",
-  "rating": 1436.1,
+  "rating": 1428.2,
   "points": [
     {
       "date": "2021-08-08",
@@ -1114,6 +1114,13 @@
       "date": "2026-11-08",
       "rating": 1436.06,
       "opponent": "OGC Nice",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-22",
+      "rating": 1428.18,
+      "opponent": "Paris FC",
       "competition_id": "F1",
       "event": "match"
     }

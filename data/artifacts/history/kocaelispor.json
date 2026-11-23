@@ -2,7 +2,7 @@
   "id": "kocaelispor",
   "name": "Kocaelispor",
   "league": "Super Lig",
-  "rating": 1400.1,
+  "rating": 1404.3,
   "points": [
     {
       "date": "2025-07-01",
@@ -330,6 +330,13 @@
       "date": "2026-11-07",
       "rating": 1400.11,
       "opponent": "Eyupspor",
+      "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-21",
+      "rating": 1404.28,
+      "opponent": "Fenerbah\u00e7e SK",
       "competition_id": "T1",
       "event": "match"
     }

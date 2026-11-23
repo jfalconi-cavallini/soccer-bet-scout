@@ -2,7 +2,7 @@
   "id": "mechelen",
   "name": "KV Mechelen",
   "league": "Belgian Pro League",
-  "rating": 1403.0,
+  "rating": 1397.2,
   "points": [
     {
       "date": "2021-07-25",
@@ -1429,6 +1429,13 @@
       "date": "2026-11-07",
       "rating": 1402.97,
       "opponent": "Oud-Heverlee Leuven",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-21",
+      "rating": 1397.18,
+      "opponent": "Club Brugge KV",
       "competition_id": "B1",
       "event": "match"
     }

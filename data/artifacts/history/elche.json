@@ -2,7 +2,7 @@
   "id": "elche",
   "name": "Elche CF",
   "league": "La Liga",
-  "rating": 1540.3,
+  "rating": 1542.9,
   "points": [
     {
       "date": "2021-08-16",
@@ -918,6 +918,13 @@
       "date": "2026-11-08",
       "rating": 1540.29,
       "opponent": "Real Betis Balompi\u00e9",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-23",
+      "rating": 1542.88,
+      "opponent": "Levante UD",
       "competition_id": "SP1",
       "event": "match"
     }

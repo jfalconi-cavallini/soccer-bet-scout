@@ -2,7 +2,7 @@
   "id": "oud-heverlee-leuven",
   "name": "Oud-Heverlee Leuven",
   "league": "Belgian Pro League",
-  "rating": 1384.5,
+  "rating": 1380.9,
   "points": [
     {
       "date": "2021-07-24",
@@ -1429,6 +1429,13 @@
       "date": "2026-11-07",
       "rating": 1384.47,
       "opponent": "KV Mechelen",
+      "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-22",
+      "rating": 1380.87,
+      "opponent": "RSC Anderlecht",
       "competition_id": "B1",
       "event": "match"
     }

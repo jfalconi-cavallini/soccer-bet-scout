@@ -2,7 +2,7 @@
   "id": "juventus",
   "name": "Juventus FC",
   "league": "Serie A",
-  "rating": 1637.6,
+  "rating": 1637.8,
   "points": [
     {
       "date": "2021-08-22",
@@ -1737,6 +1737,13 @@
       "date": "2026-11-08",
       "rating": 1637.6,
       "opponent": "ACF Fiorentina",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-22",
+      "rating": 1637.79,
+      "opponent": "Venezia FC",
       "competition_id": "I1",
       "event": "match"
     }

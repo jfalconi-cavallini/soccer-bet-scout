@@ -2,7 +2,7 @@
   "id": "atletico-madrid",
   "name": "Club Atl\u00e9tico de Madrid",
   "league": "La Liga",
-  "rating": 1685.0,
+  "rating": 1700.2,
   "points": [
     {
       "date": "2021-08-15",
@@ -1842,6 +1842,13 @@
       "date": "2026-11-08",
       "rating": 1685.03,
       "opponent": "FC Barcelona",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-22",
+      "rating": 1700.15,
+      "opponent": "Getafe CF",
       "competition_id": "SP1",
       "event": "match"
     }

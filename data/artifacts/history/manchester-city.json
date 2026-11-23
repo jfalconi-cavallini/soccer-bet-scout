@@ -2,7 +2,7 @@
   "id": "manchester-city",
   "name": "Manchester City FC",
   "league": "Premier League",
-  "rating": 1764.3,
+  "rating": 1760.6,
   "points": [
     {
       "date": "2021-08-15",
@@ -1849,6 +1849,13 @@
       "date": "2026-11-07",
       "rating": 1764.29,
       "opponent": "Nottingham Forest FC",
+      "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-21",
+      "rating": 1760.64,
+      "opponent": "Fulham FC",
       "competition_id": "E0",
       "event": "match"
     }

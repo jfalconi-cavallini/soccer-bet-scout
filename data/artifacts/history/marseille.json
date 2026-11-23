@@ -2,7 +2,7 @@
   "id": "marseille",
   "name": "Olympique de Marseille",
   "league": "Ligue 1",
-  "rating": 1572.3,
+  "rating": 1556.0,
   "points": [
     {
       "date": "2021-08-08",
@@ -1646,6 +1646,13 @@
       "date": "2026-11-08",
       "rating": 1572.32,
       "opponent": "Racing Club de Lens",
+      "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-22",
+      "rating": 1556.04,
+      "opponent": "Le Mans FC",
       "competition_id": "F1",
       "event": "match"
     }
