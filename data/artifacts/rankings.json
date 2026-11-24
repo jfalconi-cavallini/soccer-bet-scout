@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T22:30:17+00:00",
+  "generated_at": "2026-11-24T21:02:42+00:00",
   "teams": [
     {
       "id": "arsenal",
@@ -180,16 +180,14 @@
       "rank": 14
     },
     {
-      "id": "aston-villa",
-      "name": "Aston Villa FC",
-      "rating": 1679.2,
+      "id": "brentford",
+      "name": "Brentford FC",
+      "rating": 1669.5,
       "league_id": "E0",
       "league": "Premier League",
       "country": "England",
-      "tournaments": [
-        "UCL"
-      ],
-      "played": 229,
+      "tournaments": [],
+      "played": 201,
       "rank": 15
     },
     {
@@ -204,6 +202,19 @@
       "rank": 16
     },
     {
+      "id": "aston-villa",
+      "name": "Aston Villa FC",
+      "rating": 1668.4,
+      "league_id": "E0",
+      "league": "Premier League",
+      "country": "England",
+      "tournaments": [
+        "UCL"
+      ],
+      "played": 230,
+      "rank": 17
+    },
+    {
       "id": "sporting",
       "name": "Sporting Clube de Portugal",
       "rating": 1665.5,
@@ -214,7 +225,7 @@
         "UCL"
       ],
       "played": 237,
-      "rank": 17
+      "rank": 18
     },
     {
       "id": "brugge",
@@ -227,7 +238,7 @@
         "UCL"
       ],
       "played": 256,
-      "rank": 18
+      "rank": 19
     },
     {
       "id": "betis",
@@ -240,17 +251,6 @@
         "UCL"
       ],
       "played": 250,
-      "rank": 19
-    },
-    {
-      "id": "brentford",
-      "name": "Brentford FC",
-      "rating": 1657.1,
-      "league_id": "E0",
-      "league": "Premier League",
-      "country": "England",
-      "tournaments": [],
-      "played": 200,
       "rank": 20
     },
     {
@@ -394,17 +394,6 @@
       "rank": 32
     },
     {
-      "id": "everton",
-      "name": "Everton FC",
-      "rating": 1631.8,
-      "league_id": "E0",
-      "league": "Premier League",
-      "country": "England",
-      "tournaments": [],
-      "played": 200,
-      "rank": 33
-    },
-    {
       "id": "tottenham",
       "name": "Tottenham Hotspur FC",
       "rating": 1627.4,
@@ -413,7 +402,7 @@
       "country": "England",
       "tournaments": [],
       "played": 240,
-      "rank": 34
+      "rank": 33
     },
     {
       "id": "chelsea",
@@ -424,6 +413,17 @@
       "country": "England",
       "tournaments": [],
       "played": 246,
+      "rank": 34
+    },
+    {
+      "id": "everton",
+      "name": "Everton FC",
+      "rating": 1619.4,
+      "league_id": "E0",
+      "league": "Premier League",
+      "country": "England",
+      "tournaments": [],
+      "played": 201,
       "rank": 35
     },
     {
@@ -438,6 +438,19 @@
       "rank": 36
     },
     {
+      "id": "galatasaray",
+      "name": "Galatasaray SK",
+      "rating": 1615.9,
+      "league_id": "T1",
+      "league": "Super Lig",
+      "country": "Turkey",
+      "tournaments": [
+        "UCL"
+      ],
+      "played": 239,
+      "rank": 37
+    },
+    {
       "id": "villarreal",
       "name": "Villarreal CF",
       "rating": 1613.5,
@@ -448,7 +461,7 @@
         "UCL"
       ],
       "played": 243,
-      "rank": 37
+      "rank": 38
     },
     {
       "id": "napoli",
@@ -461,7 +474,7 @@
         "UCL"
       ],
       "played": 240,
-      "rank": 38
+      "rank": 39
     },
     {
       "id": "stuttgart",
@@ -474,19 +487,6 @@
         "UCL"
       ],
       "played": 192,
-      "rank": 39
-    },
-    {
-      "id": "galatasaray",
-      "name": "Galatasaray SK",
-      "rating": 1605.1,
-      "league_id": "T1",
-      "league": "Super Lig",
-      "country": "Turkey",
-      "tournaments": [
-        "UCL"
-      ],
-      "played": 238,
       "rank": 40
     },
     {
@@ -806,19 +806,6 @@
       "rank": 68
     },
     {
-      "id": "fiorentina",
-      "name": "ACF Fiorentina",
-      "rating": 1552.3,
-      "league_id": "I1",
-      "league": "Serie A",
-      "country": "Italy",
-      "tournaments": [
-        "UECL"
-      ],
-      "played": 245,
-      "rank": 69
-    },
-    {
       "id": "fenerbahce",
       "name": "Fenerbah\u00e7e SK",
       "rating": 1552.3,
@@ -829,7 +816,7 @@
         "UCL"
       ],
       "played": 244,
-      "rank": 70
+      "rank": 69
     },
     {
       "id": "braga",
@@ -842,7 +829,7 @@
         "UEL"
       ],
       "played": 229,
-      "rank": 71
+      "rank": 70
     },
     {
       "id": "girona",
@@ -853,7 +840,7 @@
       "country": "Spain",
       "tournaments": [],
       "played": 160,
-      "rank": 72
+      "rank": 71
     },
     {
       "id": "lens",
@@ -866,7 +853,7 @@
         "UCL"
       ],
       "played": 203,
-      "rank": 73
+      "rank": 72
     },
     {
       "id": "espanyol",
@@ -877,7 +864,7 @@
       "country": "Spain",
       "tournaments": [],
       "played": 165,
-      "rank": 74
+      "rank": 73
     },
     {
       "id": "toulouse",
@@ -888,7 +875,7 @@
       "country": "France",
       "tournaments": [],
       "played": 159,
-      "rank": 75
+      "rank": 74
     },
     {
       "id": "brest",
@@ -899,18 +886,7 @@
       "country": "France",
       "tournaments": [],
       "played": 199,
-      "rank": 76
-    },
-    {
-      "id": "elche",
-      "name": "Elche CF",
-      "rating": 1542.9,
-      "league_id": "SP1",
-      "league": "La Liga",
-      "country": "Spain",
-      "tournaments": [],
-      "played": 127,
-      "rank": 77
+      "rank": 75
     },
     {
       "id": "coventry",
@@ -921,7 +897,7 @@
       "country": "England",
       "tournaments": [],
       "played": 11,
-      "rank": 78
+      "rank": 76
     },
     {
       "id": "trabzonspor",
@@ -932,7 +908,42 @@
       "country": "Turkey",
       "tournaments": [],
       "played": 208,
+      "rank": 77
+    },
+    {
+      "id": "fiorentina",
+      "name": "ACF Fiorentina",
+      "rating": 1542.1,
+      "league_id": "I1",
+      "league": "Serie A",
+      "country": "Italy",
+      "tournaments": [
+        "UECL"
+      ],
+      "played": 246,
+      "rank": 78
+    },
+    {
+      "id": "levante",
+      "name": "Levante UD",
+      "rating": 1542.1,
+      "league_id": "SP1",
+      "league": "La Liga",
+      "country": "Spain",
+      "tournaments": [],
+      "played": 89,
       "rank": 79
+    },
+    {
+      "id": "elche",
+      "name": "Elche CF",
+      "rating": 1541.8,
+      "league_id": "SP1",
+      "league": "La Liga",
+      "country": "Spain",
+      "tournaments": [],
+      "played": 127,
+      "rank": 80
     },
     {
       "id": "aek-athens",
@@ -946,17 +957,6 @@
         "UECL"
       ],
       "played": 202,
-      "rank": 80
-    },
-    {
-      "id": "levante",
-      "name": "Levante UD",
-      "rating": 1541.0,
-      "league_id": "SP1",
-      "league": "La Liga",
-      "country": "Spain",
-      "tournaments": [],
-      "played": 89,
       "rank": 81
     },
     {
@@ -1343,6 +1343,19 @@
       "rank": 114
     },
     {
+      "id": "bodo-glimt",
+      "name": "FK Bod\u00f8/Glimt",
+      "rating": 1489.7,
+      "league_id": null,
+      "league": null,
+      "country": null,
+      "tournaments": [
+        "UCL"
+      ],
+      "played": 69,
+      "rank": 115
+    },
+    {
       "id": "oviedo",
       "name": "Oviedo",
       "rating": 1488.9,
@@ -1351,7 +1364,7 @@
       "country": "Spain",
       "tournaments": [],
       "played": 38,
-      "rank": 115
+      "rank": 116
     },
     {
       "id": "sturm-graz",
@@ -1362,7 +1375,7 @@
       "country": "Austria",
       "tournaments": [],
       "played": 171,
-      "rank": 116
+      "rank": 117
     },
     {
       "id": "monchengladbach",
@@ -1373,7 +1386,7 @@
       "country": "Germany",
       "tournaments": [],
       "played": 180,
-      "rank": 117
+      "rank": 118
     },
     {
       "id": "wolfsberger",
@@ -1387,7 +1400,7 @@
         "UECL"
       ],
       "played": 145,
-      "rank": 118
+      "rank": 119
     },
     {
       "id": "gent",
@@ -1398,7 +1411,7 @@
       "country": "Belgium",
       "tournaments": [],
       "played": 243,
-      "rank": 119
+      "rank": 120
     },
     {
       "id": "elversberg",
@@ -1409,7 +1422,20 @@
       "country": "Germany",
       "tournaments": [],
       "played": 10,
-      "rank": 120
+      "rank": 121
+    },
+    {
+      "id": "basaksehir",
+      "name": "\u0130stanbul Ba\u015fak\u015fehir",
+      "rating": 1484.7,
+      "league_id": "T1",
+      "league": "Super Lig",
+      "country": "Turkey",
+      "tournaments": [
+        "UECL"
+      ],
+      "played": 220,
+      "rank": 122
     },
     {
       "id": "auxerre",
@@ -1420,7 +1446,7 @@
       "country": "France",
       "tournaments": [],
       "played": 117,
-      "rank": 121
+      "rank": 123
     },
     {
       "id": "gil-vicente",
@@ -1431,7 +1457,7 @@
       "country": "Portugal",
       "tournaments": [],
       "played": 181,
-      "rank": 122
+      "rank": 124
     },
     {
       "id": "arouca",
@@ -1442,7 +1468,7 @@
       "country": "Portugal",
       "tournaments": [],
       "played": 181,
-      "rank": 123
+      "rank": 125
     },
     {
       "id": "malaga",
@@ -1453,32 +1479,6 @@
       "country": "Spain",
       "tournaments": [],
       "played": 13,
-      "rank": 124
-    },
-    {
-      "id": "bodo-glimt",
-      "name": "FK Bod\u00f8/Glimt",
-      "rating": 1482.2,
-      "league_id": null,
-      "league": null,
-      "country": null,
-      "tournaments": [
-        "UCL"
-      ],
-      "played": 68,
-      "rank": 125
-    },
-    {
-      "id": "basaksehir",
-      "name": "\u0130stanbul Ba\u015fak\u015fehir",
-      "rating": 1481.8,
-      "league_id": "T1",
-      "league": "Super Lig",
-      "country": "Turkey",
-      "tournaments": [
-        "UECL"
-      ],
-      "played": 219,
       "rank": 126
     },
     {
@@ -1605,6 +1605,17 @@
       "rank": 137
     },
     {
+      "id": "monza",
+      "name": "AC Monza",
+      "rating": 1463.2,
+      "league_id": "I1",
+      "league": "Serie A",
+      "country": "Italy",
+      "tournaments": [],
+      "played": 126,
+      "rank": 138
+    },
+    {
       "id": "schalke",
       "name": "FC Schalke 04",
       "rating": 1460.4,
@@ -1613,7 +1624,7 @@
       "country": "Germany",
       "tournaments": [],
       "played": 44,
-      "rank": 138
+      "rank": 139
     },
     {
       "id": "standard-liege",
@@ -1624,7 +1635,7 @@
       "country": "Belgium",
       "tournaments": [],
       "played": 199,
-      "rank": 139
+      "rank": 140
     },
     {
       "id": "utrecht",
@@ -1637,17 +1648,6 @@
         "UEL"
       ],
       "played": 189,
-      "rank": 140
-    },
-    {
-      "id": "monza",
-      "name": "AC Monza",
-      "rating": 1453.0,
-      "league_id": "I1",
-      "league": "Serie A",
-      "country": "Italy",
-      "tournaments": [],
-      "played": 125,
       "rank": 141
     },
     {
@@ -1675,19 +1675,6 @@
       "rank": 143
     },
     {
-      "id": "lask",
-      "name": "LASK Linz",
-      "rating": 1449.2,
-      "league_id": "AT1",
-      "league": "Austrian Bundesliga",
-      "country": "Austria",
-      "tournaments": [
-        "UCL"
-      ],
-      "played": 169,
-      "rank": 144
-    },
-    {
       "id": "vitoria-guimaraes",
       "name": "Vit\u00f3ria Guimar\u00e3es",
       "rating": 1448.5,
@@ -1696,7 +1683,7 @@
       "country": "Portugal",
       "tournaments": [],
       "played": 195,
-      "rank": 145
+      "rank": 144
     },
     {
       "id": "st-pauli",
@@ -1707,7 +1694,7 @@
       "country": "Germany",
       "tournaments": [],
       "played": 68,
-      "rank": 146
+      "rank": 145
     },
     {
       "id": "groningen",
@@ -1718,6 +1705,19 @@
       "country": "Netherlands",
       "tournaments": [],
       "played": 149,
+      "rank": 146
+    },
+    {
+      "id": "lask",
+      "name": "LASK Linz",
+      "rating": 1441.6,
+      "league_id": "AT1",
+      "league": "Austrian Bundesliga",
+      "country": "Austria",
+      "tournaments": [
+        "UCL"
+      ],
+      "played": 170,
       "rank": 147
     },
     {
@@ -1767,6 +1767,19 @@
       "rank": 151
     },
     {
+      "id": "aris",
+      "name": "Aris Saloniki",
+      "rating": 1436.5,
+      "league_id": "G1",
+      "league": "Super League Greece",
+      "country": "Greece",
+      "tournaments": [
+        "UECL"
+      ],
+      "played": 185,
+      "rank": 152
+    },
+    {
       "id": "rizespor",
       "name": "\u00c7aykur Rizespor",
       "rating": 1434.8,
@@ -1775,7 +1788,7 @@
       "country": "Turkey",
       "tournaments": [],
       "played": 158,
-      "rank": 152
+      "rank": 153
     },
     {
       "id": "troyes",
@@ -1786,7 +1799,7 @@
       "country": "France",
       "tournaments": [],
       "played": 87,
-      "rank": 153
+      "rank": 154
     },
     {
       "id": "tsv-hartberg",
@@ -1797,7 +1810,7 @@
       "country": "Austria",
       "tournaments": [],
       "played": 142,
-      "rank": 154
+      "rank": 155
     },
     {
       "id": "le-havre",
@@ -1808,7 +1821,7 @@
       "country": "France",
       "tournaments": [],
       "played": 113,
-      "rank": 155
+      "rank": 156
     },
     {
       "id": "kasimpasa",
@@ -1819,7 +1832,7 @@
       "country": "Turkey",
       "tournaments": [],
       "played": 194,
-      "rank": 156
+      "rank": 157
     },
     {
       "id": "moreirense",
@@ -1830,19 +1843,6 @@
       "country": "Portugal",
       "tournaments": [],
       "played": 147,
-      "rank": 157
-    },
-    {
-      "id": "aris",
-      "name": "Aris Saloniki",
-      "rating": 1431.3,
-      "league_id": "G1",
-      "league": "Super League Greece",
-      "country": "Greece",
-      "tournaments": [
-        "UECL"
-      ],
-      "played": 184,
       "rank": 158
     },
     {
@@ -2091,17 +2091,6 @@
       "rank": 179
     },
     {
-      "id": "corum",
-      "name": "Corum",
-      "rating": 1402.3,
-      "league_id": "T1",
-      "league": "Super Lig",
-      "country": "Turkey",
-      "tournaments": [],
-      "played": 11,
-      "rank": 180
-    },
-    {
       "id": "excelsior",
       "name": "SBV Excelsior",
       "rating": 1400.6,
@@ -2110,7 +2099,7 @@
       "country": "Netherlands",
       "tournaments": [],
       "played": 115,
-      "rank": 181
+      "rank": 180
     },
     {
       "id": "estoril",
@@ -2121,7 +2110,7 @@
       "country": "Portugal",
       "tournaments": [],
       "played": 180,
-      "rank": 182
+      "rank": 181
     },
     {
       "id": "nacional",
@@ -2132,6 +2121,17 @@
       "country": "Portugal",
       "tournaments": [],
       "played": 79,
+      "rank": 182
+    },
+    {
+      "id": "corum",
+      "name": "Corum",
+      "rating": 1399.4,
+      "league_id": "T1",
+      "league": "Super Lig",
+      "country": "Turkey",
+      "tournaments": [],
+      "played": 12,
       "rank": 183
     },
     {
@@ -2999,17 +2999,6 @@
       "rank": 255
     },
     {
-      "id": "asteras-tripolis",
-      "name": "Asteras Tripolis",
-      "rating": 1341.6,
-      "league_id": "G1",
-      "league": "Super League Greece",
-      "country": "Greece",
-      "tournaments": [],
-      "played": 177,
-      "rank": 256
-    },
-    {
       "id": "cfr-cluj",
       "name": "CFR Cluj",
       "rating": 1341.3,
@@ -3021,7 +3010,7 @@
         "UECL"
       ],
       "played": 28,
-      "rank": 257
+      "rank": 256
     },
     {
       "id": "st-patricks-athletic",
@@ -3034,7 +3023,7 @@
         "UECL"
       ],
       "played": 12,
-      "rank": 258
+      "rank": 257
     },
     {
       "id": "dinamo-kiev",
@@ -3047,7 +3036,7 @@
         "UEL"
       ],
       "played": 32,
-      "rank": 259
+      "rank": 258
     },
     {
       "id": "lugano",
@@ -3061,7 +3050,7 @@
         "UECL"
       ],
       "played": 24,
-      "rank": 260
+      "rank": 259
     },
     {
       "id": "gyori-eto",
@@ -3074,7 +3063,7 @@
         "UECL"
       ],
       "played": 6,
-      "rank": 261
+      "rank": 260
     },
     {
       "id": "beveren",
@@ -3085,7 +3074,7 @@
       "country": "Belgium",
       "tournaments": [],
       "played": 12,
-      "rank": 262
+      "rank": 261
     },
     {
       "id": "dender",
@@ -3096,7 +3085,7 @@
       "country": "Belgium",
       "tournaments": [],
       "played": 75,
-      "rank": 263
+      "rank": 262
     },
     {
       "id": "borac-banja-luka",
@@ -3109,7 +3098,7 @@
         "UECL"
       ],
       "played": 20,
-      "rank": 264
+      "rank": 263
     },
     {
       "id": "riga",
@@ -3122,7 +3111,7 @@
         "UECL"
       ],
       "played": 8,
-      "rank": 265
+      "rank": 264
     },
     {
       "id": "hajduk-split",
@@ -3135,6 +3124,17 @@
         "UECL"
       ],
       "played": 8,
+      "rank": 265
+    },
+    {
+      "id": "asteras-tripolis",
+      "name": "Asteras Tripolis",
+      "rating": 1336.3,
+      "league_id": "G1",
+      "league": "Super League Greece",
+      "country": "Greece",
+      "tournaments": [],
+      "played": 178,
       "rank": 266
     },
     {

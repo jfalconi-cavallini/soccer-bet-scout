@@ -2,7 +2,7 @@
   "id": "galatasaray",
   "name": "Galatasaray SK",
   "league": "Super Lig",
-  "rating": 1605.1,
+  "rating": 1615.9,
   "points": [
     {
       "date": "2021-08-16",
@@ -1703,6 +1703,13 @@
       "rating": 1605.09,
       "opponent": "Samsunspor",
       "competition_id": "T1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-24",
+      "rating": 1615.9,
+      "opponent": "Aston Villa FC",
+      "competition_id": "UCL",
       "event": "match"
     }
   ]

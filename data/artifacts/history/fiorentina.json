@@ -2,7 +2,7 @@
   "id": "fiorentina",
   "name": "ACF Fiorentina",
   "league": "Serie A",
-  "rating": 1552.3,
+  "rating": 1542.1,
   "points": [
     {
       "date": "2021-08-22",
@@ -1751,6 +1751,13 @@
       "date": "2026-11-08",
       "rating": 1552.27,
       "opponent": "Juventus FC",
+      "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-23",
+      "rating": 1542.05,
+      "opponent": "AC Monza",
       "competition_id": "I1",
       "event": "match"
     }

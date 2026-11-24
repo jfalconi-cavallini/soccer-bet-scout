@@ -2,7 +2,7 @@
   "id": "aston-villa",
   "name": "Aston Villa FC",
   "league": "Premier League",
-  "rating": 1679.2,
+  "rating": 1668.4,
   "points": [
     {
       "date": "2021-08-14",
@@ -1640,6 +1640,13 @@
       "rating": 1679.18,
       "opponent": "Sunderland AFC",
       "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-24",
+      "rating": 1668.37,
+      "opponent": "Galatasaray SK",
+      "competition_id": "UCL",
       "event": "match"
     }
   ]
