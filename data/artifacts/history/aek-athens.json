@@ -2,7 +2,7 @@
   "id": "aek-athens",
   "name": "AEK Athen",
   "league": "Super League Greece",
-  "rating": 1541.5,
+  "rating": 1537.2,
   "points": [
     {
       "date": "2021-09-12",
@@ -1451,6 +1451,13 @@
       "rating": 1541.54,
       "opponent": "Kalamata",
       "competition_id": "G1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-24",
+      "rating": 1537.17,
+      "opponent": "Como 1907",
+      "competition_id": "UCL",
       "event": "match"
     }
   ]

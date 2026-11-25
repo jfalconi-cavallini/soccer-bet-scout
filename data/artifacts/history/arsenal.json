@@ -2,7 +2,7 @@
   "id": "arsenal",
   "name": "Arsenal FC",
   "league": "Premier League",
-  "rating": 1836.0,
+  "rating": 1829.6,
   "points": [
     {
       "date": "2021-08-13",
@@ -1801,6 +1801,13 @@
       "rating": 1836.03,
       "opponent": "Newcastle United FC",
       "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-24",
+      "rating": 1829.64,
+      "opponent": "Borussia Dortmund",
+      "competition_id": "UCL",
       "event": "match"
     }
   ]

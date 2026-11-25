@@ -2,7 +2,7 @@
   "id": "napoli",
   "name": "SSC Napoli",
   "league": "Serie A",
-  "rating": 1613.2,
+  "rating": 1619.5,
   "points": [
     {
       "date": "2021-08-22",
@@ -1717,6 +1717,13 @@
       "rating": 1613.18,
       "opponent": "Torino FC",
       "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-24",
+      "rating": 1619.5,
+      "opponent": "Manchester City FC",
+      "competition_id": "UCL",
       "event": "match"
     }
   ]

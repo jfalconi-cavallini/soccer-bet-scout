@@ -2,7 +2,7 @@
   "id": "lens",
   "name": "Racing Club de Lens",
   "league": "Ligue 1",
-  "rating": 1548.5,
+  "rating": 1539.4,
   "points": [
     {
       "date": "2021-08-08",
@@ -1458,6 +1458,13 @@
       "rating": 1548.46,
       "opponent": "Toulouse FC",
       "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-24",
+      "rating": 1539.37,
+      "opponent": "RB Leipzig",
+      "competition_id": "UCL",
       "event": "match"
     }
   ]

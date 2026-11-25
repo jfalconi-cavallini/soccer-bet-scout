@@ -2,7 +2,7 @@
   "id": "rb-leipzig",
   "name": "RB Leipzig",
   "league": "Bundesliga",
-  "rating": 1636.4,
+  "rating": 1645.5,
   "points": [
     {
       "date": "2021-08-15",
@@ -1577,6 +1577,13 @@
       "rating": 1636.4,
       "opponent": "1. FC Union Berlin",
       "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-24",
+      "rating": 1645.49,
+      "opponent": "Racing Club de Lens",
+      "competition_id": "UCL",
       "event": "match"
     }
   ]

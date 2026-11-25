@@ -2,7 +2,7 @@
   "id": "real-madrid",
   "name": "Real Madrid CF",
   "league": "La Liga",
-  "rating": 1808.2,
+  "rating": 1816.0,
   "points": [
     {
       "date": "2021-08-14",
@@ -1948,6 +1948,13 @@
       "rating": 1808.16,
       "opponent": "RC Celta de Vigo",
       "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-24",
+      "rating": 1816.04,
+      "opponent": "PSV Eindhoven",
+      "competition_id": "UCL",
       "event": "match"
     }
   ]
