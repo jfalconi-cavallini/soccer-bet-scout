@@ -2,7 +2,7 @@
   "id": "shakhtar",
   "name": "FK Shakhtar Donetsk",
   "league": null,
-  "rating": 1412.9,
+  "rating": 1403.8,
   "points": [
     {
       "date": "2021-09-15",
@@ -344,6 +344,13 @@
       "date": "2026-11-03",
       "rating": 1412.91,
       "opponent": "Sporting Clube de Portugal",
+      "competition_id": "UCL",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-25",
+      "rating": 1403.77,
+      "opponent": "Fenerbah\u00e7e SK",
       "competition_id": "UCL",
       "event": "match"
     }

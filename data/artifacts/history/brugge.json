@@ -2,7 +2,7 @@
   "id": "brugge",
   "name": "Club Brugge KV",
   "league": "Belgian Pro League",
-  "rating": 1664.4,
+  "rating": 1643.9,
   "points": [
     {
       "date": "2021-07-25",
@@ -1829,6 +1829,13 @@
       "rating": 1664.38,
       "opponent": "KV Mechelen",
       "competition_id": "B1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-25",
+      "rating": 1643.95,
+      "opponent": "Liverpool FC",
+      "competition_id": "UCL",
       "event": "match"
     }
   ]

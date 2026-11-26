@@ -2,7 +2,7 @@
   "id": "roma",
   "name": "AS Roma",
   "league": "Serie A",
-  "rating": 1694.6,
+  "rating": 1700.0,
   "points": [
     {
       "date": "2021-08-22",
@@ -1857,6 +1857,13 @@
       "rating": 1694.62,
       "opponent": "Parma Calcio 1913",
       "competition_id": "I1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-25",
+      "rating": 1699.98,
+      "opponent": "Paris Saint-Germain FC",
+      "competition_id": "UCL",
       "event": "match"
     }
   ]

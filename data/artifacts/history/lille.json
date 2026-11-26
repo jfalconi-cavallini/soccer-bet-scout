@@ -2,7 +2,7 @@
   "id": "lille",
   "name": "Lille OSC",
   "league": "Ligue 1",
-  "rating": 1561.7,
+  "rating": 1577.8,
   "points": [
     {
       "date": "2021-08-08",
@@ -1612,6 +1612,13 @@
       "rating": 1561.7,
       "opponent": "Olympique Lyonnais",
       "competition_id": "F1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-25",
+      "rating": 1577.77,
+      "opponent": "FC Bayern M\u00fcnchen",
+      "competition_id": "UCL",
       "event": "match"
     }
   ]

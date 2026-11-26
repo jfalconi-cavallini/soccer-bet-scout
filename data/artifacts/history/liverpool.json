@@ -2,7 +2,7 @@
   "id": "liverpool",
   "name": "Liverpool FC",
   "league": "Premier League",
-  "rating": 1722.9,
+  "rating": 1743.4,
   "points": [
     {
       "date": "2021-08-14",
@@ -1843,6 +1843,13 @@
       "rating": 1722.94,
       "opponent": "Manchester United FC",
       "competition_id": "E0",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-25",
+      "rating": 1743.38,
+      "opponent": "Club Brugge KV",
+      "competition_id": "UCL",
       "event": "match"
     }
   ]

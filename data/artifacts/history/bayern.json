@@ -2,7 +2,7 @@
   "id": "bayern",
   "name": "FC Bayern M\u00fcnchen",
   "league": "Bundesliga",
-  "rating": 1814.8,
+  "rating": 1798.8,
   "points": [
     {
       "date": "2021-08-13",
@@ -1745,6 +1745,13 @@
       "rating": 1814.85,
       "opponent": "1. FC K\u00f6ln",
       "competition_id": "D1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-25",
+      "rating": 1798.78,
+      "opponent": "Lille OSC",
+      "competition_id": "UCL",
       "event": "match"
     }
   ]
