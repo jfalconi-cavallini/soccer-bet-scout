@@ -2,7 +2,7 @@
   "id": "rayo",
   "name": "Rayo Vallecano de Madrid",
   "league": "La Liga",
-  "rating": 1568.6,
+  "rating": 1584.7,
   "points": [
     {
       "date": "2021-08-15",
@@ -1464,6 +1464,13 @@
       "date": "2026-11-21",
       "rating": 1568.6,
       "opponent": "Valencia CF",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-28",
+      "rating": 1584.71,
+      "opponent": "Real Betis Balompi\u00e9",
       "competition_id": "SP1",
       "event": "match"
     }

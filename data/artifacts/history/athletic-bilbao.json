@@ -2,7 +2,7 @@
   "id": "athletic-bilbao",
   "name": "Athletic Club",
   "league": "La Liga",
-  "rating": 1579.8,
+  "rating": 1590.3,
   "points": [
     {
       "date": "2021-08-16",
@@ -1604,6 +1604,13 @@
       "date": "2026-11-20",
       "rating": 1579.81,
       "opponent": "RCD Espanyol de Barcelona",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-28",
+      "rating": 1590.27,
+      "opponent": "M\u00e1laga CF",
       "competition_id": "SP1",
       "event": "match"
     }

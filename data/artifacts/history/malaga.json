@@ -2,7 +2,7 @@
   "id": "malaga",
   "name": "M\u00e1laga CF",
   "league": "La Liga",
-  "rating": 1482.7,
+  "rating": 1472.2,
   "points": [
     {
       "date": "2026-07-01",
@@ -99,6 +99,13 @@
       "date": "2026-11-22",
       "rating": 1482.65,
       "opponent": "CA Osasuna",
+      "competition_id": "SP1",
+      "event": "match"
+    },
+    {
+      "date": "2026-11-28",
+      "rating": 1472.2,
+      "opponent": "Athletic Club",
       "competition_id": "SP1",
       "event": "match"
     }
